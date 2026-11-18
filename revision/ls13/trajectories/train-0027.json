@@ -1,0 +1,358 @@
+{
+ "id": "5abb9928554299642a094ab9",
+ "question": "Which brother of John F. Kennedy had a memoir released September 14, 2009?",
+ "gold_answers": [
+  "Ted Kennedy"
+ ],
+ "support_titles": [
+  "True Compass",
+  "Ted Kennedy"
+ ],
+ "support_sentences": [
+  "True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+  "Ted Kennedy was the most prominent living member of the Kennedy family for many years, and he was also the last surviving, longest-living, and youngest son of Joseph P. Kennedy, Sr. and Rose Kennedy.",
+  "He was the youngest brother of John F. Kennedy, the 35th President of the United States and Senator Robert F. Kennedy, both victims of assassination, and the father of Congressman Patrick J. Kennedy."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Robert F. Kennedy Jr",
+   "answer_usage": {
+    "in": 80,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5619501250330359
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "True Compass: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+    "Joan Bennett Kennedy: Virginia Joan Kennedy (nee Bennett, born September 2, 1936) is an American socialite, musician, author, and former model, and was the first wife of U.S. Senator Edward (\"Ted\") M. Kennedy (1932-2009) of Massachusetts.",
+    "Joseph Hone: He released his memoir, \"Wicked Little Joe\" in 2009."
+   ],
+   "answer": "Edward M. Kennedy",
+   "answer_usage": {
+    "in": 212,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5638803329784423
+   },
+   "retrieval_latency_seconds": 0.0049885420594364405,
+   "query": "Kennedy brothers memoir September 2009",
+   "query_usage": {
+    "in": 65,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6043161250418052
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "True Compass: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+    "Joan Bennett Kennedy: Virginia Joan Kennedy (nee Bennett, born September 2, 1936) is an American socialite, musician, author, and former model, and was the first wife of U.S. Senator Edward (\"Ted\") M. Kennedy (1932-2009) of Massachusetts.",
+    "Joseph Hone: He released his memoir, \"Wicked Little Joe\" in 2009.",
+    "John F. Kennedy Jr.: He was a son of President John F. Kennedy and First Lady Jacqueline Kennedy, and a younger brother of former Ambassador to Japan Caroline Kennedy.",
+    "Ted Kennedy: He was the youngest brother of John F. Kennedy, the 35th President of the United States and Senator Robert F. Kennedy, both victims of assassination, and the father of Congressman Patrick J. Kennedy.",
+    "Rose Kennedy: Their nine children included President John F. Kennedy, Senator Robert F. Kennedy, and longtime Senator Ted Kennedy."
+   ],
+   "answer": "Ted Kennedy",
+   "answer_usage": {
+    "in": 326,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5562200840795413
+   },
+   "retrieval_latency_seconds": 0.05067129200324416,
+   "query": "Edward M. Kennedy brother of John F. Kennedy",
+   "query_usage": {
+    "in": 197,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6576272079255432
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "True Compass: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+    "Joan Bennett Kennedy: Virginia Joan Kennedy (nee Bennett, born September 2, 1936) is an American socialite, musician, author, and former model, and was the first wife of U.S. Senator Edward (\"Ted\") M. Kennedy (1932-2009) of Massachusetts.",
+    "Joseph Hone: He released his memoir, \"Wicked Little Joe\" in 2009.",
+    "John F. Kennedy Jr.: He was a son of President John F. Kennedy and First Lady Jacqueline Kennedy, and a younger brother of former Ambassador to Japan Caroline Kennedy.",
+    "Ted Kennedy: He was the youngest brother of John F. Kennedy, the 35th President of the United States and Senator Robert F. Kennedy, both victims of assassination, and the father of Congressman Patrick J. Kennedy.",
+    "Rose Kennedy: Their nine children included President John F. Kennedy, Senator Robert F. Kennedy, and longtime Senator Ted Kennedy."
+   ],
+   "answer": "Ted Kennedy",
+   "answer_usage": {
+    "in": 326,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5105774999829009
+   },
+   "retrieval_latency_seconds": 0.02016362501308322,
+   "query": "Edward M. Kennedy brother John F. Kennedy",
+   "query_usage": {
+    "in": 311,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6079709170153365
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "True Compass: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+    "Joan Bennett Kennedy: Virginia Joan Kennedy (nee Bennett, born September 2, 1936) is an American socialite, musician, author, and former model, and was the first wife of U.S. Senator Edward (\"Ted\") M. Kennedy (1932-2009) of Massachusetts.",
+    "Joseph Hone: He released his memoir, \"Wicked Little Joe\" in 2009.",
+    "John F. Kennedy Jr.: He was a son of President John F. Kennedy and First Lady Jacqueline Kennedy, and a younger brother of former Ambassador to Japan Caroline Kennedy.",
+    "Ted Kennedy: He was the youngest brother of John F. Kennedy, the 35th President of the United States and Senator Robert F. Kennedy, both victims of assassination, and the father of Congressman Patrick J. Kennedy.",
+    "Rose Kennedy: Their nine children included President John F. Kennedy, Senator Robert F. Kennedy, and longtime Senator Ted Kennedy."
+   ],
+   "answer": "Ted Kennedy",
+   "answer_usage": {
+    "in": 326,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5079457079991698
+   },
+   "retrieval_latency_seconds": 0.011578083969652653,
+   "query": "Edward M. Kennedy brother John F. Kennedy",
+   "query_usage": {
+    "in": 311,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5873919579898939
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "True Compass: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+    "Joan Bennett Kennedy: Virginia Joan Kennedy (nee Bennett, born September 2, 1936) is an American socialite, musician, author, and former model, and was the first wife of U.S. Senator Edward (\"Ted\") M. Kennedy (1932-2009) of Massachusetts.",
+    "Joseph Hone: He released his memoir, \"Wicked Little Joe\" in 2009.",
+    "John F. Kennedy Jr.: He was a son of President John F. Kennedy and First Lady Jacqueline Kennedy, and a younger brother of former Ambassador to Japan Caroline Kennedy.",
+    "Ted Kennedy: He was the youngest brother of John F. Kennedy, the 35th President of the United States and Senator Robert F. Kennedy, both victims of assassination, and the father of Congressman Patrick J. Kennedy.",
+    "Rose Kennedy: Their nine children included President John F. Kennedy, Senator Robert F. Kennedy, and longtime Senator Ted Kennedy."
+   ],
+   "answer": "Ted Kennedy",
+   "answer_usage": {
+    "in": 326,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5164607500191778
+   },
+   "retrieval_latency_seconds": 0.011497666942887008,
+   "query": "Edward M. Kennedy brother John F. Kennedy",
+   "query_usage": {
+    "in": 311,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6739717919845134
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "True Compass: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+    "Joan Bennett Kennedy: Virginia Joan Kennedy (nee Bennett, born September 2, 1936) is an American socialite, musician, author, and former model, and was the first wife of U.S. Senator Edward (\"Ted\") M. Kennedy (1932-2009) of Massachusetts.",
+    "Joseph Hone: He released his memoir, \"Wicked Little Joe\" in 2009.",
+    "John F. Kennedy Jr.: He was a son of President John F. Kennedy and First Lady Jacqueline Kennedy, and a younger brother of former Ambassador to Japan Caroline Kennedy.",
+    "Ted Kennedy: He was the youngest brother of John F. Kennedy, the 35th President of the United States and Senator Robert F. Kennedy, both victims of assassination, and the father of Congressman Patrick J. Kennedy.",
+    "Rose Kennedy: Their nine children included President John F. Kennedy, Senator Robert F. Kennedy, and longtime Senator Ted Kennedy."
+   ],
+   "answer": "Ted Kennedy",
+   "answer_usage": {
+    "in": 326,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5311472079483792
+   },
+   "retrieval_latency_seconds": 0.005625666002742946,
+   "query": "Edward M. Kennedy brother John F. Kennedy",
+   "query_usage": {
+    "in": 311,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5794252919731662
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "True Compass: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+    "Joan Bennett Kennedy: Virginia Joan Kennedy (nee Bennett, born September 2, 1936) is an American socialite, musician, author, and former model, and was the first wife of U.S. Senator Edward (\"Ted\") M. Kennedy (1932-2009) of Massachusetts.",
+    "Joseph Hone: He released his memoir, \"Wicked Little Joe\" in 2009.",
+    "John F. Kennedy Jr.: He was a son of President John F. Kennedy and First Lady Jacqueline Kennedy, and a younger brother of former Ambassador to Japan Caroline Kennedy.",
+    "Ted Kennedy: He was the youngest brother of John F. Kennedy, the 35th President of the United States and Senator Robert F. Kennedy, both victims of assassination, and the father of Congressman Patrick J. Kennedy.",
+    "Rose Kennedy: Their nine children included President John F. Kennedy, Senator Robert F. Kennedy, and longtime Senator Ted Kennedy."
+   ],
+   "answer": "Ted Kennedy",
+   "answer_usage": {
+    "in": 326,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5361709999851882
+   },
+   "retrieval_latency_seconds": 0.019505957956425846,
+   "query": "Edward M. Kennedy brother John F. Kennedy",
+   "query_usage": {
+    "in": 311,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6718840410467237
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "True Compass: True Compass is the posthumous memoir of United States Senator Edward M. Kennedy that was released September 14, 2009, by Twelve, a division of the Hachette book group.",
+    "Joan Bennett Kennedy: Virginia Joan Kennedy (nee Bennett, born September 2, 1936) is an American socialite, musician, author, and former model, and was the first wife of U.S. Senator Edward (\"Ted\") M. Kennedy (1932-2009) of Massachusetts.",
+    "Joseph Hone: He released his memoir, \"Wicked Little Joe\" in 2009.",
+    "John F. Kennedy Jr.: He was a son of President John F. Kennedy and First Lady Jacqueline Kennedy, and a younger brother of former Ambassador to Japan Caroline Kennedy.",
+    "Ted Kennedy: He was the youngest brother of John F. Kennedy, the 35th President of the United States and Senator Robert F. Kennedy, both victims of assassination, and the father of Congressman Patrick J. Kennedy.",
+    "Rose Kennedy: Their nine children included President John F. Kennedy, Senator Robert F. Kennedy, and longtime Senator Ted Kennedy."
+   ],
+   "answer": "Ted Kennedy",
+   "answer_usage": {
+    "in": 326,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5255333330715075
+   },
+   "retrieval_latency_seconds": 0.011180832982063293,
+   "query": "Edward M. Kennedy brother John F. Kennedy",
+   "query_usage": {
+    "in": 311,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.589925792068243
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.3333333333333333,
+  0.4,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   4.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6153846153846154,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.8461538461538461,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

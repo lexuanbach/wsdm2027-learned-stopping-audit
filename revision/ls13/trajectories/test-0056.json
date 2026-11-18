@@ -1,0 +1,385 @@
+{
+ "id": "5ae1500655429920d52343cc",
+ "question": "In what town is the office organization solutions company whose Canadian arm is Oxford headquartered?",
+ "gold_answers": [
+  "Melville"
+ ],
+ "support_titles": [
+  "Oxford (company)",
+  "Pendaflex"
+ ],
+ "support_sentences": [
+  "Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+  "Pendaflex is an office organization solutions company headquartered in Melville, NY, USA."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the given evidence",
+   "answer_usage": {
+    "in": 79,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.7114574159495533
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Oxford (company): Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+    "Pendaflex: Pendaflex is an office organization solutions company headquartered in Melville, NY, USA.",
+    "TI Automotive: The company's headquarters are located in Oxford, UK, with Corporate Offices based in Auburn Hills, Michigan."
+   ],
+   "answer": "Melville, NY",
+   "answer_usage": {
+    "in": 155,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6320375410141423
+   },
+   "retrieval_latency_seconds": 0.009976083994843066,
+   "query": "Oxford Canadian office organization solutions company headquarters",
+   "query_usage": {
+    "in": 64,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6542878330219537
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Oxford (company): Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+    "Pendaflex: Pendaflex is an office organization solutions company headquartered in Melville, NY, USA.",
+    "TI Automotive: The company's headquarters are located in Oxford, UK, with Corporate Offices based in Auburn Hills, Michigan.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay."
+   ],
+   "answer": "Melville, NY",
+   "answer_usage": {
+    "in": 213,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.64056912495289
+   },
+   "retrieval_latency_seconds": 0.11639162502251565,
+   "query": "The search query is not needed. Based on the known facts provided:",
+   "query_usage": {
+    "in": 140,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8566577080637217
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Oxford (company): Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+    "Pendaflex: Pendaflex is an office organization solutions company headquartered in Melville, NY, USA.",
+    "TI Automotive: The company's headquarters are located in Oxford, UK, with Corporate Offices based in Auburn Hills, Michigan.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Robert Melville, 1st Lord Melville: Robert Melville, 1st Lord Melville (c.1527\u20131621) was a Scottish diplomat, administrator, jurist, and intriguer, and uncle of the poet Elizabeth Melville.",
+    "Earl of Melville: It was created in 1690 for the Scottish soldier and statesman George Melville, 4th Lord Melville.",
+    "Craig Melville: Craig James Melville is an Australian television comedy director."
+   ],
+   "answer": "Melville, NY",
+   "answer_usage": {
+    "in": 329,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6106908750953153
+   },
+   "retrieval_latency_seconds": 0.0005297500174492598,
+   "query": "Melville",
+   "query_usage": {
+    "in": 198,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5883735830429941
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Oxford (company): Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+    "Pendaflex: Pendaflex is an office organization solutions company headquartered in Melville, NY, USA.",
+    "TI Automotive: The company's headquarters are located in Oxford, UK, with Corporate Offices based in Auburn Hills, Michigan.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Robert Melville, 1st Lord Melville: Robert Melville, 1st Lord Melville (c.1527\u20131621) was a Scottish diplomat, administrator, jurist, and intriguer, and uncle of the poet Elizabeth Melville.",
+    "Earl of Melville: It was created in 1690 for the Scottish soldier and statesman George Melville, 4th Lord Melville.",
+    "Craig Melville: Craig James Melville is an Australian television comedy director.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Antoine River (Arkansas): According to the GNIS, it has also been known as Antoine Creek."
+   ],
+   "answer": "Melville, NY",
+   "answer_usage": {
+    "in": 381,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6164899170398712
+   },
+   "retrieval_latency_seconds": 0.1289054580265656,
+   "query": "The search query has already been answered based on the known facts provided. According to the information:",
+   "query_usage": {
+    "in": 314,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8342394580831751
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Oxford (company): Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+    "Pendaflex: Pendaflex is an office organization solutions company headquartered in Melville, NY, USA.",
+    "TI Automotive: The company's headquarters are located in Oxford, UK, with Corporate Offices based in Auburn Hills, Michigan.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Robert Melville, 1st Lord Melville: Robert Melville, 1st Lord Melville (c.1527\u20131621) was a Scottish diplomat, administrator, jurist, and intriguer, and uncle of the poet Elizabeth Melville.",
+    "Earl of Melville: It was created in 1690 for the Scottish soldier and statesman George Melville, 4th Lord Melville.",
+    "Craig Melville: Craig James Melville is an Australian television comedy director.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Antoine River (Arkansas): According to the GNIS, it has also been known as Antoine Creek."
+   ],
+   "answer": "Melville, NY",
+   "answer_usage": {
+    "in": 381,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5866863329429179
+   },
+   "retrieval_latency_seconds": 0.0012112499680370092,
+   "query": "Melville, NY",
+   "query_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6072061670711264
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Oxford (company): Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+    "Pendaflex: Pendaflex is an office organization solutions company headquartered in Melville, NY, USA.",
+    "TI Automotive: The company's headquarters are located in Oxford, UK, with Corporate Offices based in Auburn Hills, Michigan.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Robert Melville, 1st Lord Melville: Robert Melville, 1st Lord Melville (c.1527\u20131621) was a Scottish diplomat, administrator, jurist, and intriguer, and uncle of the poet Elizabeth Melville.",
+    "Earl of Melville: It was created in 1690 for the Scottish soldier and statesman George Melville, 4th Lord Melville.",
+    "Craig Melville: Craig James Melville is an Australian television comedy director.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Antoine River (Arkansas): According to the GNIS, it has also been known as Antoine Creek."
+   ],
+   "answer": "Melville, NY",
+   "answer_usage": {
+    "in": 381,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5788033329881728
+   },
+   "retrieval_latency_seconds": 0.0010466249659657478,
+   "query": "Melville, NY",
+   "query_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6300589999882504
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Oxford (company): Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+    "Pendaflex: Pendaflex is an office organization solutions company headquartered in Melville, NY, USA.",
+    "TI Automotive: The company's headquarters are located in Oxford, UK, with Corporate Offices based in Auburn Hills, Michigan.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Robert Melville, 1st Lord Melville: Robert Melville, 1st Lord Melville (c.1527\u20131621) was a Scottish diplomat, administrator, jurist, and intriguer, and uncle of the poet Elizabeth Melville.",
+    "Earl of Melville: It was created in 1690 for the Scottish soldier and statesman George Melville, 4th Lord Melville.",
+    "Craig Melville: Craig James Melville is an Australian television comedy director.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Antoine River (Arkansas): According to the GNIS, it has also been known as Antoine Creek."
+   ],
+   "answer": "Melville, NY",
+   "answer_usage": {
+    "in": 381,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5935837919823825
+   },
+   "retrieval_latency_seconds": 0.0021859999978914857,
+   "query": "Melville, NY",
+   "query_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6146264170529321
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Oxford (company): Oxford is the Canadian arm of Pendaflex, and makes organizational filing solutions.",
+    "Pendaflex: Pendaflex is an office organization solutions company headquartered in Melville, NY, USA.",
+    "TI Automotive: The company's headquarters are located in Oxford, UK, with Corporate Offices based in Auburn Hills, Michigan.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Robert Melville, 1st Lord Melville: Robert Melville, 1st Lord Melville (c.1527\u20131621) was a Scottish diplomat, administrator, jurist, and intriguer, and uncle of the poet Elizabeth Melville.",
+    "Earl of Melville: It was created in 1690 for the Scottish soldier and statesman George Melville, 4th Lord Melville.",
+    "Craig Melville: Craig James Melville is an Australian television comedy director.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Antoine River (Arkansas): According to the GNIS, it has also been known as Antoine Creek."
+   ],
+   "answer": "Melville, NY",
+   "answer_usage": {
+    "in": 381,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5680557080777362
+   },
+   "retrieval_latency_seconds": 0.0010463750222697854,
+   "query": "Melville, NY",
+   "query_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6075337919173762
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.7857142857142857,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7857142857142857,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.7857142857142857,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   11.0,
+   0.7857142857142857,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

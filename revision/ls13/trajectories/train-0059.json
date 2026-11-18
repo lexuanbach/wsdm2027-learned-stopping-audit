@@ -1,0 +1,374 @@
+{
+ "id": "5ac45b23554299204fd21f31",
+ "question": "The 1994 \"The Shadow\" co-stars Lone, Penelope Ann Miller, Peter Boyle, Jonathan Winters, Tim Curry and an actor that has received how many Emmy Award nominations?",
+ "gold_answers": [
+  "five"
+ ],
+ "support_titles": [
+  "The Shadow (1994 film)",
+  "Ian McKellen"
+ ],
+ "support_sentences": [
+  "The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+  "He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "22",
+   "answer_usage": {
+    "in": 106,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5838010419392958
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "The Shadow (1994 film): The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, directed by Russell Mulcahy, that stars Alec Baldwin.",
+    "The Shadow (1994 film): The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+    "The Shadow (1994 film): It is based on the pulp fiction character of the same name created by Walter B. Gibson in 1931."
+   ],
+   "answer": "6",
+   "answer_usage": {
+    "in": 241,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5760457910364494
+   },
+   "retrieval_latency_seconds": 0.08229487494099885,
+   "query": "1994 The Shadow film cast",
+   "query_usage": {
+    "in": 91,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5714819999411702
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "The Shadow (1994 film): The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, directed by Russell Mulcahy, that stars Alec Baldwin.",
+    "The Shadow (1994 film): The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+    "The Shadow (1994 film): It is based on the pulp fiction character of the same name created by Walter B. Gibson in 1931.",
+    "Ian McKellen: He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations.",
+    "Ian McKellen: Sir Ian Murray McKellen, {'1': \", '2': \", '3': \", '4': \"} (born 25 May 1939) is an English actor.",
+    "Sherry Gunther: a Daytime Emmy Award, two CableACE Award nominations, and a Humanitas Prize."
+   ],
+   "answer": "five",
+   "answer_usage": {
+    "in": 342,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5536386671010405
+   },
+   "retrieval_latency_seconds": 0.002893832977861166,
+   "query": "Ian McKellen Emmy Award nominations",
+   "query_usage": {
+    "in": 226,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5405632499605417
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "The Shadow (1994 film): The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, directed by Russell Mulcahy, that stars Alec Baldwin.",
+    "The Shadow (1994 film): The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+    "The Shadow (1994 film): It is based on the pulp fiction character of the same name created by Walter B. Gibson in 1931.",
+    "Ian McKellen: He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations.",
+    "Ian McKellen: Sir Ian Murray McKellen, {'1': \", '2': \", '3': \", '4': \"} (born 25 May 1939) is an English actor.",
+    "Sherry Gunther: a Daytime Emmy Award, two CableACE Award nominations, and a Humanitas Prize.",
+    "John Amos: He has received nominations for a Primetime Emmy Award and NAACP Image Award.",
+    "Sherry Gunther: Sherry has received four additional Primetime Emmy nominations, Festival Awards, and a Humanitas Award."
+   ],
+   "answer": "five",
+   "answer_usage": {
+    "in": 400,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5592718749539927
+   },
+   "retrieval_latency_seconds": 0.12719716597348452,
+   "query": "I need to verify which actor among the co-stars has received Emmy Award nominations. Based on the known information, Ian McKellen has received 5 Emmy",
+   "query_usage": {
+    "in": 327,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8473908340092748
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "The Shadow (1994 film): The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, directed by Russell Mulcahy, that stars Alec Baldwin.",
+    "The Shadow (1994 film): The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+    "The Shadow (1994 film): It is based on the pulp fiction character of the same name created by Walter B. Gibson in 1931.",
+    "Ian McKellen: He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations.",
+    "Ian McKellen: Sir Ian Murray McKellen, {'1': \", '2': \", '3': \", '4': \"} (born 25 May 1939) is an English actor.",
+    "Sherry Gunther: a Daytime Emmy Award, two CableACE Award nominations, and a Humanitas Prize.",
+    "John Amos: He has received nominations for a Primetime Emmy Award and NAACP Image Award.",
+    "Sherry Gunther: Sherry has received four additional Primetime Emmy nominations, Festival Awards, and a Humanitas Award.",
+    "Riz Ahmed: As an actor, he won an Emmy Award, out of two Emmy nominations, and was also nominated for a Golden Globe, Screen Actors Guild Award, and three British Independent Film Awards."
+   ],
+   "answer": "five",
+   "answer_usage": {
+    "in": 445,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5570114169968292
+   },
+   "retrieval_latency_seconds": 0.18188641604501754,
+   "query": "I need to verify which actor among the co-stars has received Emmy Award nominations, since the question asks about \"an actor\" with a specific number of Emmy",
+   "query_usage": {
+    "in": 385,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7859571669250727
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "The Shadow (1994 film): The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, directed by Russell Mulcahy, that stars Alec Baldwin.",
+    "The Shadow (1994 film): The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+    "The Shadow (1994 film): It is based on the pulp fiction character of the same name created by Walter B. Gibson in 1931.",
+    "Ian McKellen: He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations.",
+    "Ian McKellen: Sir Ian Murray McKellen, {'1': \", '2': \", '3': \", '4': \"} (born 25 May 1939) is an English actor.",
+    "Sherry Gunther: a Daytime Emmy Award, two CableACE Award nominations, and a Humanitas Prize.",
+    "John Amos: He has received nominations for a Primetime Emmy Award and NAACP Image Award.",
+    "Sherry Gunther: Sherry has received four additional Primetime Emmy nominations, Festival Awards, and a Humanitas Award.",
+    "Riz Ahmed: As an actor, he won an Emmy Award, out of two Emmy nominations, and was also nominated for a Golden Globe, Screen Actors Guild Award, and three British Independent Film Awards."
+   ],
+   "answer": "five",
+   "answer_usage": {
+    "in": 445,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5983134170528501
+   },
+   "retrieval_latency_seconds": 0.1915479579474777,
+   "query": "I need to find out how many Emmy Award nominations Ian McKellen has received, since he's identified as one of the co-stars in The Shadow (1",
+   "query_usage": {
+    "in": 430,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.74693133297842
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "The Shadow (1994 film): The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, directed by Russell Mulcahy, that stars Alec Baldwin.",
+    "The Shadow (1994 film): The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+    "The Shadow (1994 film): It is based on the pulp fiction character of the same name created by Walter B. Gibson in 1931.",
+    "Ian McKellen: He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations.",
+    "Ian McKellen: Sir Ian Murray McKellen, {'1': \", '2': \", '3': \", '4': \"} (born 25 May 1939) is an English actor.",
+    "Sherry Gunther: a Daytime Emmy Award, two CableACE Award nominations, and a Humanitas Prize.",
+    "John Amos: He has received nominations for a Primetime Emmy Award and NAACP Image Award.",
+    "Sherry Gunther: Sherry has received four additional Primetime Emmy nominations, Festival Awards, and a Humanitas Award.",
+    "Riz Ahmed: As an actor, he won an Emmy Award, out of two Emmy nominations, and was also nominated for a Golden Globe, Screen Actors Guild Award, and three British Independent Film Awards."
+   ],
+   "answer": "five",
+   "answer_usage": {
+    "in": 445,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.635000333073549
+   },
+   "retrieval_latency_seconds": 0.41614479199051857,
+   "query": "I need to find out how many Emmy Award nominations Ian McKellen has received, since he's identified as one of the co-stars in The Shadow (1",
+   "query_usage": {
+    "in": 430,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7037728340364993
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "The Shadow (1994 film): The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, directed by Russell Mulcahy, that stars Alec Baldwin.",
+    "The Shadow (1994 film): The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+    "The Shadow (1994 film): It is based on the pulp fiction character of the same name created by Walter B. Gibson in 1931.",
+    "Ian McKellen: He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations.",
+    "Ian McKellen: Sir Ian Murray McKellen, {'1': \", '2': \", '3': \", '4': \"} (born 25 May 1939) is an English actor.",
+    "Sherry Gunther: a Daytime Emmy Award, two CableACE Award nominations, and a Humanitas Prize.",
+    "John Amos: He has received nominations for a Primetime Emmy Award and NAACP Image Award.",
+    "Sherry Gunther: Sherry has received four additional Primetime Emmy nominations, Festival Awards, and a Humanitas Award.",
+    "Riz Ahmed: As an actor, he won an Emmy Award, out of two Emmy nominations, and was also nominated for a Golden Globe, Screen Actors Guild Award, and three British Independent Film Awards."
+   ],
+   "answer": "five",
+   "answer_usage": {
+    "in": 445,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5811499579576775
+   },
+   "retrieval_latency_seconds": 0.23897841607686132,
+   "query": "I need to find out how many Emmy Award nominations Ian McKellen has received, since he's identified as one of the co-stars in The Shadow (1",
+   "query_usage": {
+    "in": 430,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.700487041962333
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "The Shadow (1994 film): The Shadow is a 1994 American superhero film from Universal Pictures, produced by Martin Bregman, Willi Bear, and Michael Scott Bregman, directed by Russell Mulcahy, that stars Alec Baldwin.",
+    "The Shadow (1994 film): The film co-stars John Lone, Penelope Ann Miller, Ian McKellen, Peter Boyle, Jonathan Winters, and Tim Curry.",
+    "The Shadow (1994 film): It is based on the pulp fiction character of the same name created by Walter B. Gibson in 1931.",
+    "Ian McKellen: He has also received two Oscar nominations, four BAFTA nominations and five Emmy Award nominations.",
+    "Ian McKellen: Sir Ian Murray McKellen, {'1': \", '2': \", '3': \", '4': \"} (born 25 May 1939) is an English actor.",
+    "Sherry Gunther: a Daytime Emmy Award, two CableACE Award nominations, and a Humanitas Prize.",
+    "John Amos: He has received nominations for a Primetime Emmy Award and NAACP Image Award.",
+    "Sherry Gunther: Sherry has received four additional Primetime Emmy nominations, Festival Awards, and a Humanitas Award.",
+    "Riz Ahmed: As an actor, he won an Emmy Award, out of two Emmy nominations, and was also nominated for a Golden Globe, Screen Actors Guild Award, and three British Independent Film Awards."
+   ],
+   "answer": "five",
+   "answer_usage": {
+    "in": 445,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5755145420553163
+   },
+   "retrieval_latency_seconds": 0.19159520789980888,
+   "query": "I need to find out how many Emmy Award nominations Ian McKellen has received, since he's identified as one of the co-stars in The Shadow (1",
+   "query_usage": {
+    "in": 430,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.6837405828991905
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6538461538461539,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9230769230769231,
+   3.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.9230769230769231,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.9230769230769231,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

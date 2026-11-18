@@ -1,0 +1,393 @@
+{
+ "id": "5ac272f95542992f1f2b38d3",
+ "question": "Are Couroupita and Graptopetalum plants both native to central America?",
+ "gold_answers": [
+  "yes"
+ ],
+ "support_titles": [
+  "Couroupita",
+  "Graptopetalum"
+ ],
+ "support_sentences": [
+  "It is native to tropical South America and Central America.",
+  "They are perennial succulent plants and native to Mexico and Arizona."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No",
+   "answer_usage": {
+    "in": 81,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5565140830585733
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Couroupita: It is native to tropical South America and Central America.",
+    "Couroupita: Couroupita is a genus of flowering plants of Lecythidaceae family first described as a genus in 1775.",
+    "Bernard's wolf: They were previously widespread in their native habitat but were annihilated by excessive hunting."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 152,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5734817909542471
+   },
+   "retrieval_latency_seconds": 0.009458832908421755,
+   "query": "Couroupita native range habitat",
+   "query_usage": {
+    "in": 66,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6499889170518145
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Couroupita: It is native to tropical South America and Central America.",
+    "Couroupita: Couroupita is a genus of flowering plants of Lecythidaceae family first described as a genus in 1775.",
+    "Bernard's wolf: They were previously widespread in their native habitat but were annihilated by excessive hunting.",
+    "Graptopetalum: They are perennial succulent plants and native to Mexico and Arizona.",
+    "Graptopetalum: Graptopetalum (leatherpetal) is a plant genus of the family \"Crassulaceae\".",
+    "Graptopetalum: They grow usually in a rosette."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 231,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5880582500249147
+   },
+   "retrieval_latency_seconds": 0.0030162499751895666,
+   "query": "Graptopetalum native habitat origin",
+   "query_usage": {
+    "in": 137,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6839559170184657
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Couroupita: It is native to tropical South America and Central America.",
+    "Couroupita: Couroupita is a genus of flowering plants of Lecythidaceae family first described as a genus in 1775.",
+    "Bernard's wolf: They were previously widespread in their native habitat but were annihilated by excessive hunting.",
+    "Graptopetalum: They are perennial succulent plants and native to Mexico and Arizona.",
+    "Graptopetalum: Graptopetalum (leatherpetal) is a plant genus of the family \"Crassulaceae\".",
+    "Graptopetalum: They grow usually in a rosette.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 331,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6218586249742657
+   },
+   "retrieval_latency_seconds": 0.09285820799414068,
+   "query": "Based on the known information, I can already answer this question:",
+   "query_usage": {
+    "in": 216,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.837388165993616
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Couroupita: It is native to tropical South America and Central America.",
+    "Couroupita: Couroupita is a genus of flowering plants of Lecythidaceae family first described as a genus in 1775.",
+    "Bernard's wolf: They were previously widespread in their native habitat but were annihilated by excessive hunting.",
+    "Graptopetalum: They are perennial succulent plants and native to Mexico and Arizona.",
+    "Graptopetalum: Graptopetalum (leatherpetal) is a plant genus of the family \"Crassulaceae\".",
+    "Graptopetalum: They grow usually in a rosette.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "List of Central American monkey species: At least seven monkey species are native to Central America.",
+    "Echeveria: Echeveria is a large genus of flowering plants in the Crassulaceae family, native to semi-desert areas of Central America, Mexico and northwestern South America."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 394,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5781397500541061
+   },
+   "retrieval_latency_seconds": 0.08715866704005748,
+   "query": "I need to verify whether both plants are native to Central America.",
+   "query_usage": {
+    "in": 316,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8661090839887038
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Couroupita: It is native to tropical South America and Central America.",
+    "Couroupita: Couroupita is a genus of flowering plants of Lecythidaceae family first described as a genus in 1775.",
+    "Bernard's wolf: They were previously widespread in their native habitat but were annihilated by excessive hunting.",
+    "Graptopetalum: They are perennial succulent plants and native to Mexico and Arizona.",
+    "Graptopetalum: Graptopetalum (leatherpetal) is a plant genus of the family \"Crassulaceae\".",
+    "Graptopetalum: They grow usually in a rosette.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "List of Central American monkey species: At least seven monkey species are native to Central America.",
+    "Echeveria: Echeveria is a large genus of flowering plants in the Crassulaceae family, native to semi-desert areas of Central America, Mexico and northwestern South America.",
+    "Tabernaemontana donnell-smithii: It is native to Mexico and Central America.",
+    "Coryphantha: The genus is native to arid parts of Central America, Mexico, through Arizona, New Mexico, and western Texas and north into southwestern, central, and southeastern Montana."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 459,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5822513749590144
+   },
+   "retrieval_latency_seconds": 0.7335115000605583,
+   "query": "I need to verify whether Graptopetalum is native to Central America specifically, since the known facts state it's native to Mexico and Arizona,",
+   "query_usage": {
+    "in": 379,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.9311269168974832
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Couroupita: It is native to tropical South America and Central America.",
+    "Couroupita: Couroupita is a genus of flowering plants of Lecythidaceae family first described as a genus in 1775.",
+    "Bernard's wolf: They were previously widespread in their native habitat but were annihilated by excessive hunting.",
+    "Graptopetalum: They are perennial succulent plants and native to Mexico and Arizona.",
+    "Graptopetalum: Graptopetalum (leatherpetal) is a plant genus of the family \"Crassulaceae\".",
+    "Graptopetalum: They grow usually in a rosette.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "List of Central American monkey species: At least seven monkey species are native to Central America.",
+    "Echeveria: Echeveria is a large genus of flowering plants in the Crassulaceae family, native to semi-desert areas of Central America, Mexico and northwestern South America.",
+    "Tabernaemontana donnell-smithii: It is native to Mexico and Central America.",
+    "Coryphantha: The genus is native to arid parts of Central America, Mexico, through Arizona, New Mexico, and western Texas and north into southwestern, central, and southeastern Montana."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 459,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5923947079572827
+   },
+   "retrieval_latency_seconds": 0.02974824991542846,
+   "query": "Graptopetalum native range Mexico Arizona Central America",
+   "query_usage": {
+    "in": 444,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.7234255840303376
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Couroupita: It is native to tropical South America and Central America.",
+    "Couroupita: Couroupita is a genus of flowering plants of Lecythidaceae family first described as a genus in 1775.",
+    "Bernard's wolf: They were previously widespread in their native habitat but were annihilated by excessive hunting.",
+    "Graptopetalum: They are perennial succulent plants and native to Mexico and Arizona.",
+    "Graptopetalum: Graptopetalum (leatherpetal) is a plant genus of the family \"Crassulaceae\".",
+    "Graptopetalum: They grow usually in a rosette.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "List of Central American monkey species: At least seven monkey species are native to Central America.",
+    "Echeveria: Echeveria is a large genus of flowering plants in the Crassulaceae family, native to semi-desert areas of Central America, Mexico and northwestern South America.",
+    "Tabernaemontana donnell-smithii: It is native to Mexico and Central America.",
+    "Coryphantha: The genus is native to arid parts of Central America, Mexico, through Arizona, New Mexico, and western Texas and north into southwestern, central, and southeastern Montana."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 459,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6046942089451477
+   },
+   "retrieval_latency_seconds": 0.015143958968110383,
+   "query": "Graptopetalum native range Mexico Arizona Central America",
+   "query_usage": {
+    "in": 444,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.7271375410491601
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Couroupita: It is native to tropical South America and Central America.",
+    "Couroupita: Couroupita is a genus of flowering plants of Lecythidaceae family first described as a genus in 1775.",
+    "Bernard's wolf: They were previously widespread in their native habitat but were annihilated by excessive hunting.",
+    "Graptopetalum: They are perennial succulent plants and native to Mexico and Arizona.",
+    "Graptopetalum: Graptopetalum (leatherpetal) is a plant genus of the family \"Crassulaceae\".",
+    "Graptopetalum: They grow usually in a rosette.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "List of Central American monkey species: At least seven monkey species are native to Central America.",
+    "Echeveria: Echeveria is a large genus of flowering plants in the Crassulaceae family, native to semi-desert areas of Central America, Mexico and northwestern South America.",
+    "Tabernaemontana donnell-smithii: It is native to Mexico and Central America.",
+    "Coryphantha: The genus is native to arid parts of Central America, Mexico, through Arizona, New Mexico, and western Texas and north into southwestern, central, and southeastern Montana."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 459,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.59112183295656
+   },
+   "retrieval_latency_seconds": 0.01560091704595834,
+   "query": "Graptopetalum native range Mexico Arizona Central America",
+   "query_usage": {
+    "in": 444,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.7219277090625837
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.7,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.9,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   11.0,
+   0.9,
+   2.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   13.0,
+   0.9,
+   2.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   13.0,
+   0.9,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   13.0,
+   0.9,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   13.0,
+   0.9,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

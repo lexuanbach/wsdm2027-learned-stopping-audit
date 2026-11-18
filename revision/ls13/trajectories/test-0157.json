@@ -1,0 +1,362 @@
+{
+ "id": "5ac1a3665542994ab5c67daf",
+ "question": "What was position of the man who served Prince Andrew from 1990-2001? ",
+ "gold_answers": [
+  "Private Secretary and Treasurer"
+ ],
+ "support_titles": [
+  "Neil Blair",
+  "Prince Andrew, Duke of York"
+ ],
+ "support_sentences": [
+  "Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990\u20132001.",
+  "Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 80,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6123423340031877
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Prince Andrew Romanov: Prince Andrew Andreyevich Romanov (born 21 January 1923) is a Russian American artist and author.",
+    "Prince Andrew, Duke of York: Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.",
+    "Resort Municipality, Prince Edward Island: It was established in 1990."
+   ],
+   "answer": "I cannot determine the answer from the provided evidence. The evidence does not specify who served Prince Andrew (Duke of York) from 1990-2001 or what their position was",
+   "answer_usage": {
+    "in": 195,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 1.0447847499744967
+   },
+   "retrieval_latency_seconds": 0.0036802079994231462,
+   "query": "Prince Andrew staff 1990-2001",
+   "query_usage": {
+    "in": 65,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5763645829865709
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Prince Andrew Romanov: Prince Andrew Andreyevich Romanov (born 21 January 1923) is a Russian American artist and author.",
+    "Prince Andrew, Duke of York: Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.",
+    "Resort Municipality, Prince Edward Island: It was established in 1990.",
+    "Neil Blair: Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990\u20132001.",
+    "List of royal tours of Canada (21st century): Charles, Prince of Wales; Anne, Princess Royal; Prince Andrew, Duke of York; and Prince Edward, Earl of Wessex, and Sophie, Countess of Wessex, have all made several small tours in this fashion."
+   ],
+   "answer": "Private Secretary and Treasurer to The Duke of York",
+   "answer_usage": {
+    "in": 289,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5821353750070557
+   },
+   "retrieval_latency_seconds": 0.047724165953695774,
+   "query": "Prince Andrew Duke of York staff 1990-2001",
+   "query_usage": {
+    "in": 180,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.7002269580261782
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Prince Andrew Romanov: Prince Andrew Andreyevich Romanov (born 21 January 1923) is a Russian American artist and author.",
+    "Prince Andrew, Duke of York: Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.",
+    "Resort Municipality, Prince Edward Island: It was established in 1990.",
+    "Neil Blair: Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990\u20132001.",
+    "List of royal tours of Canada (21st century): Charles, Prince of Wales; Anne, Princess Royal; Prince Andrew, Duke of York; and Prince Edward, Earl of Wessex, and Sophie, Countess of Wessex, have all made several small tours in this fashion.",
+    "Blair station: Blair is a station on Ottawa's transitway located at Blair Road and Regional Road 174.",
+    "Blair Redford: David Blair Redford (born July 27, 1983) is an American actor."
+   ],
+   "answer": "Private Secretary and Treasurer to The Duke of York",
+   "answer_usage": {
+    "in": 340,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5353859999449924
+   },
+   "retrieval_latency_seconds": 0.02653249993454665,
+   "query": "Robert Neil Blair position title",
+   "query_usage": {
+    "in": 274,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6035809579771012
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Prince Andrew Romanov: Prince Andrew Andreyevich Romanov (born 21 January 1923) is a Russian American artist and author.",
+    "Prince Andrew, Duke of York: Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.",
+    "Resort Municipality, Prince Edward Island: It was established in 1990.",
+    "Neil Blair: Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990\u20132001.",
+    "List of royal tours of Canada (21st century): Charles, Prince of Wales; Anne, Princess Royal; Prince Andrew, Duke of York; and Prince Edward, Earl of Wessex, and Sophie, Countess of Wessex, have all made several small tours in this fashion.",
+    "Blair station: Blair is a station on Ottawa's transitway located at Blair Road and Regional Road 174.",
+    "Blair Redford: David Blair Redford (born July 27, 1983) is an American actor."
+   ],
+   "answer": "Private Secretary and Treasurer to The Duke of York",
+   "answer_usage": {
+    "in": 340,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5241614580154419
+   },
+   "retrieval_latency_seconds": 0.006273750099353492,
+   "query": "Robert Neil Blair position title",
+   "query_usage": {
+    "in": 325,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5695222079521045
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Prince Andrew Romanov: Prince Andrew Andreyevich Romanov (born 21 January 1923) is a Russian American artist and author.",
+    "Prince Andrew, Duke of York: Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.",
+    "Resort Municipality, Prince Edward Island: It was established in 1990.",
+    "Neil Blair: Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990\u20132001.",
+    "List of royal tours of Canada (21st century): Charles, Prince of Wales; Anne, Princess Royal; Prince Andrew, Duke of York; and Prince Edward, Earl of Wessex, and Sophie, Countess of Wessex, have all made several small tours in this fashion.",
+    "Blair station: Blair is a station on Ottawa's transitway located at Blair Road and Regional Road 174.",
+    "Blair Redford: David Blair Redford (born July 27, 1983) is an American actor."
+   ],
+   "answer": "Private Secretary and Treasurer to The Duke of York",
+   "answer_usage": {
+    "in": 340,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5138575420714915
+   },
+   "retrieval_latency_seconds": 0.00383675005286932,
+   "query": "Robert Neil Blair position title",
+   "query_usage": {
+    "in": 325,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5754462500335649
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Prince Andrew Romanov: Prince Andrew Andreyevich Romanov (born 21 January 1923) is a Russian American artist and author.",
+    "Prince Andrew, Duke of York: Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.",
+    "Resort Municipality, Prince Edward Island: It was established in 1990.",
+    "Neil Blair: Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990\u20132001.",
+    "List of royal tours of Canada (21st century): Charles, Prince of Wales; Anne, Princess Royal; Prince Andrew, Duke of York; and Prince Edward, Earl of Wessex, and Sophie, Countess of Wessex, have all made several small tours in this fashion.",
+    "Blair station: Blair is a station on Ottawa's transitway located at Blair Road and Regional Road 174.",
+    "Blair Redford: David Blair Redford (born July 27, 1983) is an American actor."
+   ],
+   "answer": "Private Secretary and Treasurer to The Duke of York",
+   "answer_usage": {
+    "in": 340,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5678762500174344
+   },
+   "retrieval_latency_seconds": 0.009067666018381715,
+   "query": "Robert Neil Blair position title",
+   "query_usage": {
+    "in": 325,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5891237918986008
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Prince Andrew Romanov: Prince Andrew Andreyevich Romanov (born 21 January 1923) is a Russian American artist and author.",
+    "Prince Andrew, Duke of York: Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.",
+    "Resort Municipality, Prince Edward Island: It was established in 1990.",
+    "Neil Blair: Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990\u20132001.",
+    "List of royal tours of Canada (21st century): Charles, Prince of Wales; Anne, Princess Royal; Prince Andrew, Duke of York; and Prince Edward, Earl of Wessex, and Sophie, Countess of Wessex, have all made several small tours in this fashion.",
+    "Blair station: Blair is a station on Ottawa's transitway located at Blair Road and Regional Road 174.",
+    "Blair Redford: David Blair Redford (born July 27, 1983) is an American actor."
+   ],
+   "answer": "Private Secretary and Treasurer to The Duke of York",
+   "answer_usage": {
+    "in": 340,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5306104589253664
+   },
+   "retrieval_latency_seconds": 0.007287792046554387,
+   "query": "Robert Neil Blair position title",
+   "query_usage": {
+    "in": 325,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5828960000071675
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Prince Andrew Romanov: Prince Andrew Andreyevich Romanov (born 21 January 1923) is a Russian American artist and author.",
+    "Prince Andrew, Duke of York: Prince Andrew, Duke of York, {'1': \", '2': \", '3': \", '4': \"} (Andrew Albert Christian Edward, born 19 February 1960), is the second son and third child of Queen Elizabeth II and Prince Philip, Duke of Edinburgh.",
+    "Resort Municipality, Prince Edward Island: It was established in 1990.",
+    "Neil Blair: Captain Robert Neil Blair CVO RN was Private Secretary and Treasurer to The Duke of York, 1990\u20132001.",
+    "List of royal tours of Canada (21st century): Charles, Prince of Wales; Anne, Princess Royal; Prince Andrew, Duke of York; and Prince Edward, Earl of Wessex, and Sophie, Countess of Wessex, have all made several small tours in this fashion.",
+    "Blair station: Blair is a station on Ottawa's transitway located at Blair Road and Regional Road 174.",
+    "Blair Redford: David Blair Redford (born July 27, 1983) is an American actor."
+   ],
+   "answer": "Private Secretary and Treasurer to The Duke of York",
+   "answer_usage": {
+    "in": 340,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5399842079496011
+   },
+   "retrieval_latency_seconds": 0.007129125064238906,
+   "query": "Robert Neil Blair position title",
+   "query_usage": {
+    "in": 325,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5747061669826508
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.46153846153846156,
+   3.0,
+   1.0,
+   26.0,
+   0.32,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.5384615384615384,
+   2.0,
+   1.0,
+   8.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.5384615384615384,
+   2.0,
+   0.0,
+   8.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.5384615384615384,
+   0.0,
+   0.0,
+   8.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.5384615384615384,
+   0.0,
+   0.0,
+   8.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.5384615384615384,
+   0.0,
+   0.0,
+   8.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.5384615384615384,
+   0.0,
+   0.0,
+   8.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.5384615384615384,
+   0.0,
+   0.0,
+   8.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

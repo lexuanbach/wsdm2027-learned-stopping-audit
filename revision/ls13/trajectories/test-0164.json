@@ -1,0 +1,363 @@
+{
+ "id": "5abbc3a955429931dba144f9",
+ "question": "Where is the first major improved highway located?",
+ "gold_answers": [
+  "Wheeling, West Virginia"
+ ],
+ "support_titles": [
+  "Mount Echo, West Virginia",
+  "National Road"
+ ],
+ "support_sentences": [
+  "Mount Echo is an unincorporated community in Ohio County, West Virginia, United States.",
+  "It is part of the Wheeling, West Virginia Metropolitan Statistical Area.",
+  "The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 70,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.7234695419901982
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "National Road: The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "North Carolina Highway 2A: The route was improved to a paved surface by 1936.",
+    "Morrison, Illinois: It is located on the Historic Lincoln Highway, the nation\u2019s first transcontinental highway and in Morrison was the site of two concrete \"seedling miles\", which served as prototypes of what an improved highway could do for the nation."
+   ],
+   "answer": "United States",
+   "answer_usage": {
+    "in": 173,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5784991249674931
+   },
+   "retrieval_latency_seconds": 0.015735124936327338,
+   "query": "first major improved highway history",
+   "query_usage": {
+    "in": 55,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5384282920276746
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "National Road: The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "North Carolina Highway 2A: The route was improved to a paved surface by 1936.",
+    "Morrison, Illinois: It is located on the Historic Lincoln Highway, the nation\u2019s first transcontinental highway and in Morrison was the site of two concrete \"seedling miles\", which served as prototypes of what an improved highway could do for the nation.",
+    "Wilderness Road: Although this road goes through the Cumberland Gap into southern Kentucky and northern Tennessee, the other (more northern route) is sometimes called the \"Cumberland Road\" because it started in Fort Cumberland in Maryland.",
+    "Wilderness Road State Park: Wilderness Road State Park is a state park located in southwestern Virginia, near Cumberland Gap and Ewing, VA."
+   ],
+   "answer": "United States (built by the federal government)",
+   "answer_usage": {
+    "in": 250,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6322496669599786
+   },
+   "retrieval_latency_seconds": 0.017837541992776096,
+   "query": "National Road Cumberland Road location starting point",
+   "query_usage": {
+    "in": 158,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6224884589901194
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "National Road: The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "North Carolina Highway 2A: The route was improved to a paved surface by 1936.",
+    "Morrison, Illinois: It is located on the Historic Lincoln Highway, the nation\u2019s first transcontinental highway and in Morrison was the site of two concrete \"seedling miles\", which served as prototypes of what an improved highway could do for the nation.",
+    "Wilderness Road: Although this road goes through the Cumberland Gap into southern Kentucky and northern Tennessee, the other (more northern route) is sometimes called the \"Cumberland Road\" because it started in Fort Cumberland in Maryland.",
+    "Wilderness Road State Park: Wilderness Road State Park is a state park located in southwestern Virginia, near Cumberland Gap and Ewing, VA.",
+    "Madonna of the Trail: They were installed in each of the 12 states along the National Old Trails Road, which extended from Cumberland, Maryland, to Upland, California.",
+    "Country Club Mall: Country Club Mall is a shopping mall located in La Vale, Maryland, a suburb of Cumberland, Maryland in Allegany County, Maryland."
+   ],
+   "answer": "United States",
+   "answer_usage": {
+    "in": 324,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.47274137497879565
+   },
+   "retrieval_latency_seconds": 0.0054160000290721655,
+   "query": "Cumberland Road location starting point Maryland",
+   "query_usage": {
+    "in": 235,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6122822089819238
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "National Road: The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "North Carolina Highway 2A: The route was improved to a paved surface by 1936.",
+    "Morrison, Illinois: It is located on the Historic Lincoln Highway, the nation\u2019s first transcontinental highway and in Morrison was the site of two concrete \"seedling miles\", which served as prototypes of what an improved highway could do for the nation.",
+    "Wilderness Road: Although this road goes through the Cumberland Gap into southern Kentucky and northern Tennessee, the other (more northern route) is sometimes called the \"Cumberland Road\" because it started in Fort Cumberland in Maryland.",
+    "Wilderness Road State Park: Wilderness Road State Park is a state park located in southwestern Virginia, near Cumberland Gap and Ewing, VA.",
+    "Madonna of the Trail: They were installed in each of the 12 states along the National Old Trails Road, which extended from Cumberland, Maryland, to Upland, California.",
+    "Country Club Mall: Country Club Mall is a shopping mall located in La Vale, Maryland, a suburb of Cumberland, Maryland in Allegany County, Maryland."
+   ],
+   "answer": "United States",
+   "answer_usage": {
+    "in": 324,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.4615802080370486
+   },
+   "retrieval_latency_seconds": 0.010762458085082471,
+   "query": "National Road starting point location Cumberland Maryland",
+   "query_usage": {
+    "in": 309,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6413647079607472
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "National Road: The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "North Carolina Highway 2A: The route was improved to a paved surface by 1936.",
+    "Morrison, Illinois: It is located on the Historic Lincoln Highway, the nation\u2019s first transcontinental highway and in Morrison was the site of two concrete \"seedling miles\", which served as prototypes of what an improved highway could do for the nation.",
+    "Wilderness Road: Although this road goes through the Cumberland Gap into southern Kentucky and northern Tennessee, the other (more northern route) is sometimes called the \"Cumberland Road\" because it started in Fort Cumberland in Maryland.",
+    "Wilderness Road State Park: Wilderness Road State Park is a state park located in southwestern Virginia, near Cumberland Gap and Ewing, VA.",
+    "Madonna of the Trail: They were installed in each of the 12 states along the National Old Trails Road, which extended from Cumberland, Maryland, to Upland, California.",
+    "Country Club Mall: Country Club Mall is a shopping mall located in La Vale, Maryland, a suburb of Cumberland, Maryland in Allegany County, Maryland."
+   ],
+   "answer": "United States",
+   "answer_usage": {
+    "in": 324,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.4723226659698412
+   },
+   "retrieval_latency_seconds": 0.004828417091630399,
+   "query": "National Road starting point location Cumberland Maryland",
+   "query_usage": {
+    "in": 309,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.8566310839960352
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "National Road: The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "North Carolina Highway 2A: The route was improved to a paved surface by 1936.",
+    "Morrison, Illinois: It is located on the Historic Lincoln Highway, the nation\u2019s first transcontinental highway and in Morrison was the site of two concrete \"seedling miles\", which served as prototypes of what an improved highway could do for the nation.",
+    "Wilderness Road: Although this road goes through the Cumberland Gap into southern Kentucky and northern Tennessee, the other (more northern route) is sometimes called the \"Cumberland Road\" because it started in Fort Cumberland in Maryland.",
+    "Wilderness Road State Park: Wilderness Road State Park is a state park located in southwestern Virginia, near Cumberland Gap and Ewing, VA.",
+    "Madonna of the Trail: They were installed in each of the 12 states along the National Old Trails Road, which extended from Cumberland, Maryland, to Upland, California.",
+    "Country Club Mall: Country Club Mall is a shopping mall located in La Vale, Maryland, a suburb of Cumberland, Maryland in Allegany County, Maryland."
+   ],
+   "answer": "United States",
+   "answer_usage": {
+    "in": 324,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.48289674997795373
+   },
+   "retrieval_latency_seconds": 0.01112187490798533,
+   "query": "National Road starting point location Cumberland Maryland",
+   "query_usage": {
+    "in": 309,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6112732500769198
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "National Road: The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "North Carolina Highway 2A: The route was improved to a paved surface by 1936.",
+    "Morrison, Illinois: It is located on the Historic Lincoln Highway, the nation\u2019s first transcontinental highway and in Morrison was the site of two concrete \"seedling miles\", which served as prototypes of what an improved highway could do for the nation.",
+    "Wilderness Road: Although this road goes through the Cumberland Gap into southern Kentucky and northern Tennessee, the other (more northern route) is sometimes called the \"Cumberland Road\" because it started in Fort Cumberland in Maryland.",
+    "Wilderness Road State Park: Wilderness Road State Park is a state park located in southwestern Virginia, near Cumberland Gap and Ewing, VA.",
+    "Madonna of the Trail: They were installed in each of the 12 states along the National Old Trails Road, which extended from Cumberland, Maryland, to Upland, California.",
+    "Country Club Mall: Country Club Mall is a shopping mall located in La Vale, Maryland, a suburb of Cumberland, Maryland in Allegany County, Maryland."
+   ],
+   "answer": "United States",
+   "answer_usage": {
+    "in": 324,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.46651858394034207
+   },
+   "retrieval_latency_seconds": 0.006750792032107711,
+   "query": "National Road starting point location Cumberland Maryland",
+   "query_usage": {
+    "in": 309,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6038004169240594
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "National Road: The National Road (also known as the Cumberland Road) was the first major improved highway in the United States built by the federal government.",
+    "North Carolina Highway 2A: The route was improved to a paved surface by 1936.",
+    "Morrison, Illinois: It is located on the Historic Lincoln Highway, the nation\u2019s first transcontinental highway and in Morrison was the site of two concrete \"seedling miles\", which served as prototypes of what an improved highway could do for the nation.",
+    "Wilderness Road: Although this road goes through the Cumberland Gap into southern Kentucky and northern Tennessee, the other (more northern route) is sometimes called the \"Cumberland Road\" because it started in Fort Cumberland in Maryland.",
+    "Wilderness Road State Park: Wilderness Road State Park is a state park located in southwestern Virginia, near Cumberland Gap and Ewing, VA.",
+    "Madonna of the Trail: They were installed in each of the 12 states along the National Old Trails Road, which extended from Cumberland, Maryland, to Upland, California.",
+    "Country Club Mall: Country Club Mall is a shopping mall located in La Vale, Maryland, a suburb of Cumberland, Maryland in Allegany County, Maryland."
+   ],
+   "answer": "United States",
+   "answer_usage": {
+    "in": 324,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5490312500623986
+   },
+   "retrieval_latency_seconds": 0.008223625016398728,
+   "query": "National Road starting point location Cumberland Maryland",
+   "query_usage": {
+    "in": 309,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6086144580040127
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.875,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.875,
+   2.0,
+   1.0,
+   6.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.875,
+   2.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.875,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.875,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.875,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.875,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.875,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

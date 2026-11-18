@@ -21,8 +21,9 @@ task family and monitor subgroup risk after distribution shift.
 \paragraph{Resource claims and operational telemetry.}
 Our fully instrumented runs measure LLM calls, input and output tokens, and wall time. We do
 not measure energy, invoice cost, or the marginal environmental effect of a
-provider call. The execution code does not retain timeout and retry failure
-codes, so we cannot report a failure rate. We make these omissions explicit to
+provider call. Historical execution logs omit timeout and retry failure codes. The fresh
+eight-search extension records zero failed requests and a list-price cost
+estimate of \$2.03, rather than an invoice. We make these omissions explicit to
 avoid converting lower measured calls into an unsupported energy, monetary,
 or reliability claim. The small stopping predictors train on CPU and the base
 backbones remain frozen.

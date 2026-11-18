@@ -1,0 +1,359 @@
+{
+ "id": "5ac1a4745542991316484b82",
+ "question": "Para Hills West, South Australia lies within a city with what estimated population?",
+ "gold_answers": [
+  "138,535"
+ ],
+ "support_titles": [
+  "Para Hills West, South Australia",
+  "City of Salisbury"
+ ],
+ "support_sentences": [
+  "Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+  "It has an estimated population of 138,535 people and encompasses an area of 158 km\u00b2."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Adelaide, approximately 1.4 million",
+   "answer_usage": {
+    "in": 76,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6626775829354301
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Para Hills West, South Australia: Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+    "Para Hills, South Australia: Para Hills is a residential suburb of Adelaide, South Australia.",
+    "Para Hills Knights SC: Para Hills Knights SC are a soccer club based in Para Hills, South Australia."
+   ],
+   "answer": "I cannot determine the exact population from the provided evidence. The evidence only states that Para Hills West is within the City of Salisbury, but does not provide the population figure",
+   "answer_usage": {
+    "in": 145,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7724434590199962
+   },
+   "retrieval_latency_seconds": 0.04203316697385162,
+   "query": "Para Hills West South Australia",
+   "query_usage": {
+    "in": 61,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5393523749662563
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Para Hills West, South Australia: Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+    "Para Hills, South Australia: Para Hills is a residential suburb of Adelaide, South Australia.",
+    "Para Hills Knights SC: Para Hills Knights SC are a soccer club based in Para Hills, South Australia.",
+    "City of Salisbury: It has an estimated population of 138,535 people and encompasses an area of 158 km\u00b2.",
+    "Salisbury Heights, South Australia: Salisbury Heights is a suburb located in the City of Salisbury, Adelaide, South Australia.",
+    "City of Salisbury: The City of Salisbury is a local government area (LGA) located on the northern fringes of Adelaide, South Australia."
+   ],
+   "answer": "138,535",
+   "answer_usage": {
+    "in": 242,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6294927500421181
+   },
+   "retrieval_latency_seconds": 0.059905166970565915,
+   "query": "City of Salisbury population",
+   "query_usage": {
+    "in": 130,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5489857499487698
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Para Hills West, South Australia: Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+    "Para Hills, South Australia: Para Hills is a residential suburb of Adelaide, South Australia.",
+    "Para Hills Knights SC: Para Hills Knights SC are a soccer club based in Para Hills, South Australia.",
+    "City of Salisbury: It has an estimated population of 138,535 people and encompasses an area of 158 km\u00b2.",
+    "Salisbury Heights, South Australia: Salisbury Heights is a suburb located in the City of Salisbury, Adelaide, South Australia.",
+    "City of Salisbury: The City of Salisbury is a local government area (LGA) located on the northern fringes of Adelaide, South Australia."
+   ],
+   "answer": "138,535",
+   "answer_usage": {
+    "in": 242,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6342197919730097
+   },
+   "retrieval_latency_seconds": 0.17238645895849913,
+   "query": "Based on the information already known, I have found the answer: Para Hills West lies within the City of Salisbury, which has an estimated population of",
+   "query_usage": {
+    "in": 227,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8246313749114051
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Para Hills West, South Australia: Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+    "Para Hills, South Australia: Para Hills is a residential suburb of Adelaide, South Australia.",
+    "Para Hills Knights SC: Para Hills Knights SC are a soccer club based in Para Hills, South Australia.",
+    "City of Salisbury: It has an estimated population of 138,535 people and encompasses an area of 158 km\u00b2.",
+    "Salisbury Heights, South Australia: Salisbury Heights is a suburb located in the City of Salisbury, Adelaide, South Australia.",
+    "City of Salisbury: The City of Salisbury is a local government area (LGA) located on the northern fringes of Adelaide, South Australia."
+   ],
+   "answer": "138,535",
+   "answer_usage": {
+    "in": 242,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6257610840257257
+   },
+   "retrieval_latency_seconds": 0.1776296249590814,
+   "query": "Based on the information already known, I have found the answer: Para Hills West lies within the City of Salisbury, which has an estimated population of **",
+   "query_usage": {
+    "in": 227,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7749444580404088
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Para Hills West, South Australia: Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+    "Para Hills, South Australia: Para Hills is a residential suburb of Adelaide, South Australia.",
+    "Para Hills Knights SC: Para Hills Knights SC are a soccer club based in Para Hills, South Australia.",
+    "City of Salisbury: It has an estimated population of 138,535 people and encompasses an area of 158 km\u00b2.",
+    "Salisbury Heights, South Australia: Salisbury Heights is a suburb located in the City of Salisbury, Adelaide, South Australia.",
+    "City of Salisbury: The City of Salisbury is a local government area (LGA) located on the northern fringes of Adelaide, South Australia."
+   ],
+   "answer": "138,535",
+   "answer_usage": {
+    "in": 242,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6312435410218313
+   },
+   "retrieval_latency_seconds": 0.18422704096883535,
+   "query": "Based on the information already known, I have found the answer: Para Hills West lies within the City of Salisbury, which has an estimated population of **",
+   "query_usage": {
+    "in": 227,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8074222500436008
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Para Hills West, South Australia: Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+    "Para Hills, South Australia: Para Hills is a residential suburb of Adelaide, South Australia.",
+    "Para Hills Knights SC: Para Hills Knights SC are a soccer club based in Para Hills, South Australia.",
+    "City of Salisbury: It has an estimated population of 138,535 people and encompasses an area of 158 km\u00b2.",
+    "Salisbury Heights, South Australia: Salisbury Heights is a suburb located in the City of Salisbury, Adelaide, South Australia.",
+    "City of Salisbury: The City of Salisbury is a local government area (LGA) located on the northern fringes of Adelaide, South Australia."
+   ],
+   "answer": "138,535",
+   "answer_usage": {
+    "in": 242,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6423191250069067
+   },
+   "retrieval_latency_seconds": 0.26449179206974804,
+   "query": "Based on the information already known, I have found the answer: Para Hills West lies within the City of Salisbury, which has an estimated population of **",
+   "query_usage": {
+    "in": 227,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8393552079796791
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Para Hills West, South Australia: Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+    "Para Hills, South Australia: Para Hills is a residential suburb of Adelaide, South Australia.",
+    "Para Hills Knights SC: Para Hills Knights SC are a soccer club based in Para Hills, South Australia.",
+    "City of Salisbury: It has an estimated population of 138,535 people and encompasses an area of 158 km\u00b2.",
+    "Salisbury Heights, South Australia: Salisbury Heights is a suburb located in the City of Salisbury, Adelaide, South Australia.",
+    "City of Salisbury: The City of Salisbury is a local government area (LGA) located on the northern fringes of Adelaide, South Australia.",
+    "Gulfview Heights, South Australia: It is adjacent to Wynn Vale, Salisbury East and Para Hills."
+   ],
+   "answer": "138,535",
+   "answer_usage": {
+    "in": 270,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6171133749885485
+   },
+   "retrieval_latency_seconds": 0.16035079106222838,
+   "query": "Based on the information already known, I have found the answer: Para Hills West, South Australia lies within the City of Salisbury, which has an estimated",
+   "query_usage": {
+    "in": 227,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7794315000064671
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Para Hills West, South Australia: Para Hills West is a suburb of Adelaide, South Australia, and is within the City of Salisbury.",
+    "Para Hills, South Australia: Para Hills is a residential suburb of Adelaide, South Australia.",
+    "Para Hills Knights SC: Para Hills Knights SC are a soccer club based in Para Hills, South Australia.",
+    "City of Salisbury: It has an estimated population of 138,535 people and encompasses an area of 158 km\u00b2.",
+    "Salisbury Heights, South Australia: Salisbury Heights is a suburb located in the City of Salisbury, Adelaide, South Australia.",
+    "City of Salisbury: The City of Salisbury is a local government area (LGA) located on the northern fringes of Adelaide, South Australia.",
+    "Gulfview Heights, South Australia: It is adjacent to Wynn Vale, Salisbury East and Para Hills."
+   ],
+   "answer": "138,535",
+   "answer_usage": {
+    "in": 270,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5757381248986349
+   },
+   "retrieval_latency_seconds": 0.1970979159232229,
+   "query": "Based on the information already known, I have found the answer. Para Hills West lies within the City of Salisbury, which has an estimated population of",
+   "query_usage": {
+    "in": 255,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8699676248943433
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   5.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6153846153846154,
+   3.0,
+   1.0,
+   26.0,
+   0.36,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7692307692307693,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.7692307692307693,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

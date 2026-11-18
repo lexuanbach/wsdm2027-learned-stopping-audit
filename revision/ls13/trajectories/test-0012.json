@@ -1,0 +1,384 @@
+{
+ "id": "5aba926f55429901930fa83e",
+ "question": "Which Formula One World Champion had a teammate named Richie Ginther?",
+ "gold_answers": [
+  "Graham Hill"
+ ],
+ "support_titles": [
+  "1962 Italian Grand Prix",
+  "Graham Hill"
+ ],
+ "support_sentences": [
+  "His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+  "Norman Graham Hill {'1': \", '2': \", '3': \", '4': \"} (15 February 1929 \u2013 29 November 1975) was a British racing driver and team owner from England, who was twice Formula One World Champion."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 77,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5495372500736266
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Richie Ginther: Ginther competed in 54 World Championship Formula One Grand Prix races and numerous other non-Championship F1 events.",
+    "1962 Italian Grand Prix: His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+    "1963 United States Grand Prix: His teammate Richie Ginther finished second and Lotus driver Jim Clark came in third."
+   ],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 168,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.467508582980372
+   },
+   "retrieval_latency_seconds": 0.006313125020824373,
+   "query": "Richie Ginther Formula One teammate",
+   "query_usage": {
+    "in": 62,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6142760829534382
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Richie Ginther: Ginther competed in 54 World Championship Formula One Grand Prix races and numerous other non-Championship F1 events.",
+    "1962 Italian Grand Prix: His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+    "1963 United States Grand Prix: His teammate Richie Ginther finished second and Lotus driver Jim Clark came in third.",
+    "1962 Italian Grand Prix: The 1962 Italian Grand Prix was a Formula One motor race held at Monza on 16 September 1962.",
+    "1962 German Grand Prix: The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962.",
+    "Italian Grand Prix: The Italian Grand Prix (Italian: \"Gran Premio d'Italia\" ) is one of the longest running events on the Formula One calendar."
+   ],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 282,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5946493750670925
+   },
+   "retrieval_latency_seconds": 0.029050457989796996,
+   "query": "1962 Italian Grand Prix winner Formula One",
+   "query_usage": {
+    "in": 153,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5792972919298336
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Richie Ginther: Ginther competed in 54 World Championship Formula One Grand Prix races and numerous other non-Championship F1 events.",
+    "1962 Italian Grand Prix: His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+    "1963 United States Grand Prix: His teammate Richie Ginther finished second and Lotus driver Jim Clark came in third.",
+    "1962 Italian Grand Prix: The 1962 Italian Grand Prix was a Formula One motor race held at Monza on 16 September 1962.",
+    "1962 German Grand Prix: The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962.",
+    "Italian Grand Prix: The Italian Grand Prix (Italian: \"Gran Premio d'Italia\" ) is one of the longest running events on the Formula One calendar.",
+    "1962 Italian Grand Prix: The 86-lap race was won by BRM driver Graham Hill after he started from second position.",
+    "1971 Italian Grand Prix: None of the 6 points-scoring drivers had ever previously won a Grand Prix."
+   ],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 341,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.535932624945417
+   },
+   "retrieval_latency_seconds": 0.2618630829965696,
+   "query": "Who won the 1962 Italian Grand Prix",
+   "query_usage": {
+    "in": 267,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6076153330504894
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Richie Ginther: Ginther competed in 54 World Championship Formula One Grand Prix races and numerous other non-Championship F1 events.",
+    "1962 Italian Grand Prix: His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+    "1963 United States Grand Prix: His teammate Richie Ginther finished second and Lotus driver Jim Clark came in third.",
+    "1962 Italian Grand Prix: The 1962 Italian Grand Prix was a Formula One motor race held at Monza on 16 September 1962.",
+    "1962 German Grand Prix: The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962.",
+    "Italian Grand Prix: The Italian Grand Prix (Italian: \"Gran Premio d'Italia\" ) is one of the longest running events on the Formula One calendar.",
+    "1962 Italian Grand Prix: The 86-lap race was won by BRM driver Graham Hill after he started from second position.",
+    "1971 Italian Grand Prix: None of the 6 points-scoring drivers had ever previously won a Grand Prix.",
+    "Graham Hill: Norman Graham Hill {'1': \", '2': \", '3': \", '4': \"} (15 February 1929 \u2013 29 November 1975) was a British racing driver and team owner from England, who was twice Formula One World Champion.",
+    "Graham Whitehead: He participated in one Formula One World Championship Grand Prix, on 19 July 1952.",
+    "Formula One World Champions: A Formula One World Champion is a racing driver or automobile constructor which has been designated such a title by the governing body of Formula One - the FIA."
+   ],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5913682080572471
+   },
+   "retrieval_latency_seconds": 0.014310791972093284,
+   "query": "Graham Hill Formula One World Champion",
+   "query_usage": {
+    "in": 326,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5614937919890508
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Richie Ginther: Ginther competed in 54 World Championship Formula One Grand Prix races and numerous other non-Championship F1 events.",
+    "1962 Italian Grand Prix: His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+    "1963 United States Grand Prix: His teammate Richie Ginther finished second and Lotus driver Jim Clark came in third.",
+    "1962 Italian Grand Prix: The 1962 Italian Grand Prix was a Formula One motor race held at Monza on 16 September 1962.",
+    "1962 German Grand Prix: The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962.",
+    "Italian Grand Prix: The Italian Grand Prix (Italian: \"Gran Premio d'Italia\" ) is one of the longest running events on the Formula One calendar.",
+    "1962 Italian Grand Prix: The 86-lap race was won by BRM driver Graham Hill after he started from second position.",
+    "1971 Italian Grand Prix: None of the 6 points-scoring drivers had ever previously won a Grand Prix.",
+    "Graham Hill: Norman Graham Hill {'1': \", '2': \", '3': \", '4': \"} (15 February 1929 \u2013 29 November 1975) was a British racing driver and team owner from England, who was twice Formula One World Champion.",
+    "Graham Whitehead: He participated in one Formula One World Championship Grand Prix, on 19 July 1952.",
+    "Formula One World Champions: A Formula One World Champion is a racing driver or automobile constructor which has been designated such a title by the governing body of Formula One - the FIA."
+   ],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5778230829164386
+   },
+   "retrieval_latency_seconds": 0.01693104102741927,
+   "query": "Graham Hill Formula One World Champion years",
+   "query_usage": {
+    "in": 452,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6397353330394253
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Richie Ginther: Ginther competed in 54 World Championship Formula One Grand Prix races and numerous other non-Championship F1 events.",
+    "1962 Italian Grand Prix: His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+    "1963 United States Grand Prix: His teammate Richie Ginther finished second and Lotus driver Jim Clark came in third.",
+    "1962 Italian Grand Prix: The 1962 Italian Grand Prix was a Formula One motor race held at Monza on 16 September 1962.",
+    "1962 German Grand Prix: The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962.",
+    "Italian Grand Prix: The Italian Grand Prix (Italian: \"Gran Premio d'Italia\" ) is one of the longest running events on the Formula One calendar.",
+    "1962 Italian Grand Prix: The 86-lap race was won by BRM driver Graham Hill after he started from second position.",
+    "1971 Italian Grand Prix: None of the 6 points-scoring drivers had ever previously won a Grand Prix.",
+    "Graham Hill: Norman Graham Hill {'1': \", '2': \", '3': \", '4': \"} (15 February 1929 \u2013 29 November 1975) was a British racing driver and team owner from England, who was twice Formula One World Champion.",
+    "Graham Whitehead: He participated in one Formula One World Championship Grand Prix, on 19 July 1952.",
+    "Formula One World Champions: A Formula One World Champion is a racing driver or automobile constructor which has been designated such a title by the governing body of Formula One - the FIA."
+   ],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5647673748899251
+   },
+   "retrieval_latency_seconds": 0.07951000006869435,
+   "query": "Graham Hill Formula One World Champion years",
+   "query_usage": {
+    "in": 452,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.625107542029582
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Richie Ginther: Ginther competed in 54 World Championship Formula One Grand Prix races and numerous other non-Championship F1 events.",
+    "1962 Italian Grand Prix: His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+    "1963 United States Grand Prix: His teammate Richie Ginther finished second and Lotus driver Jim Clark came in third.",
+    "1962 Italian Grand Prix: The 1962 Italian Grand Prix was a Formula One motor race held at Monza on 16 September 1962.",
+    "1962 German Grand Prix: The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962.",
+    "Italian Grand Prix: The Italian Grand Prix (Italian: \"Gran Premio d'Italia\" ) is one of the longest running events on the Formula One calendar.",
+    "1962 Italian Grand Prix: The 86-lap race was won by BRM driver Graham Hill after he started from second position.",
+    "1971 Italian Grand Prix: None of the 6 points-scoring drivers had ever previously won a Grand Prix.",
+    "Graham Hill: Norman Graham Hill {'1': \", '2': \", '3': \", '4': \"} (15 February 1929 \u2013 29 November 1975) was a British racing driver and team owner from England, who was twice Formula One World Champion.",
+    "Graham Whitehead: He participated in one Formula One World Championship Grand Prix, on 19 July 1952.",
+    "Formula One World Champions: A Formula One World Champion is a racing driver or automobile constructor which has been designated such a title by the governing body of Formula One - the FIA."
+   ],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5751908749807626
+   },
+   "retrieval_latency_seconds": 0.0188006249954924,
+   "query": "Graham Hill Formula One World Champion years",
+   "query_usage": {
+    "in": 452,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6191157080465928
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Richie Ginther: Ginther competed in 54 World Championship Formula One Grand Prix races and numerous other non-Championship F1 events.",
+    "1962 Italian Grand Prix: His teammate Richie Ginther finished second and Cooper driver Bruce McLaren came in third.",
+    "1963 United States Grand Prix: His teammate Richie Ginther finished second and Lotus driver Jim Clark came in third.",
+    "1962 Italian Grand Prix: The 1962 Italian Grand Prix was a Formula One motor race held at Monza on 16 September 1962.",
+    "1962 German Grand Prix: The 1962 German Grand Prix was a Formula One motor race held at the N\u00fcrburgring on 5 August 1962.",
+    "Italian Grand Prix: The Italian Grand Prix (Italian: \"Gran Premio d'Italia\" ) is one of the longest running events on the Formula One calendar.",
+    "1962 Italian Grand Prix: The 86-lap race was won by BRM driver Graham Hill after he started from second position.",
+    "1971 Italian Grand Prix: None of the 6 points-scoring drivers had ever previously won a Grand Prix.",
+    "Graham Hill: Norman Graham Hill {'1': \", '2': \", '3': \", '4': \"} (15 February 1929 \u2013 29 November 1975) was a British racing driver and team owner from England, who was twice Formula One World Champion.",
+    "Graham Whitehead: He participated in one Formula One World Championship Grand Prix, on 19 July 1952.",
+    "Formula One World Champions: A Formula One World Champion is a racing driver or automobile constructor which has been designated such a title by the governing body of Formula One - the FIA."
+   ],
+   "answer": "Graham Hill",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5903982090530917
+   },
+   "retrieval_latency_seconds": 0.014588208985514939,
+   "query": "Graham Hill Formula One World Champion years",
+   "query_usage": {
+    "in": 452,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6225799579406157
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5454545454545454,
+   3.0,
+   0.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6363636363636364,
+   3.0,
+   0.0,
+   2.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.7272727272727273,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   11.0,
+   0.9090909090909091,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.9090909090909091,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.9090909090909091,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.9090909090909091,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.9090909090909091,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

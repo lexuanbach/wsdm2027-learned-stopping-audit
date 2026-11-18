@@ -1,0 +1,369 @@
+{
+ "id": "5adc6f6255429947ff173961",
+ "question": "Which plant genus is part of a family with a longer name, Morning glory or Rothmannia?",
+ "gold_answers": [
+  "Morning glory"
+ ],
+ "support_titles": [
+  "Morning glory",
+  "Rothmannia"
+ ],
+ "support_sentences": [
+  "Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+  "Rothmannia is a genus of flowering plants in the Rubiaceae family."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 82,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5918164169415832
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Morning glory: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+    "Convolvulus cantabrica: Convolvulus cantabrica, common name Cantabrican morning glory or dwarf morning glory, is a herbaceous perennial plant belonging to the genus \"Convolvulus\" of the Convolvulaceae family.",
+    "Ipomoea sagittata: Ipomoea sagittata, commonly called the saltmarsh morning glory, is a species of flowering plant in the morning glory family."
+   ],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 226,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5243151250761002
+   },
+   "retrieval_latency_seconds": 0.004701209021732211,
+   "query": "Morning glory family name",
+   "query_usage": {
+    "in": 67,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5698368750745431
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Morning glory: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+    "Convolvulus cantabrica: Convolvulus cantabrica, common name Cantabrican morning glory or dwarf morning glory, is a herbaceous perennial plant belonging to the genus \"Convolvulus\" of the Convolvulaceae family.",
+    "Ipomoea sagittata: Ipomoea sagittata, commonly called the saltmarsh morning glory, is a species of flowering plant in the morning glory family.",
+    "Rothmannia: Rothmannia is a genus of flowering plants in the Rubiaceae family.",
+    "Taxonomy of the Cactaceae: , the internal classification of the family Cactaceae remained uncertain and subject to change.",
+    "Bacilladnavirus: It was suggested that the family \"Bacilladnaviridae\" be used to classify these viruses, but its official approval by the International Committee on Taxonomy of Viruses is pending."
+   ],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 330,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.4793070420855656
+   },
+   "retrieval_latency_seconds": 0.00648716592695564,
+   "query": "Rothmannia family taxonomy",
+   "query_usage": {
+    "in": 211,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6289153749821708
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Morning glory: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+    "Convolvulus cantabrica: Convolvulus cantabrica, common name Cantabrican morning glory or dwarf morning glory, is a herbaceous perennial plant belonging to the genus \"Convolvulus\" of the Convolvulaceae family.",
+    "Ipomoea sagittata: Ipomoea sagittata, commonly called the saltmarsh morning glory, is a species of flowering plant in the morning glory family.",
+    "Rothmannia: Rothmannia is a genus of flowering plants in the Rubiaceae family.",
+    "Taxonomy of the Cactaceae: , the internal classification of the family Cactaceae remained uncertain and subject to change.",
+    "Bacilladnavirus: It was suggested that the family \"Bacilladnaviridae\" be used to classify these viruses, but its official approval by the International Committee on Taxonomy of Viruses is pending.",
+    "Psychotria: Psychotria is a genus of flowering plants in the Rubiaceae family.",
+    "Uncaria: Uncaria is a genus of flowering plants in the family Rubiaceae."
+   ],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 378,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5262756668962538
+   },
+   "retrieval_latency_seconds": 0.007912833010777831,
+   "query": "Rubiaceae family name length",
+   "query_usage": {
+    "in": 315,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.709956125007011
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Morning glory: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+    "Convolvulus cantabrica: Convolvulus cantabrica, common name Cantabrican morning glory or dwarf morning glory, is a herbaceous perennial plant belonging to the genus \"Convolvulus\" of the Convolvulaceae family.",
+    "Ipomoea sagittata: Ipomoea sagittata, commonly called the saltmarsh morning glory, is a species of flowering plant in the morning glory family.",
+    "Rothmannia: Rothmannia is a genus of flowering plants in the Rubiaceae family.",
+    "Taxonomy of the Cactaceae: , the internal classification of the family Cactaceae remained uncertain and subject to change.",
+    "Bacilladnavirus: It was suggested that the family \"Bacilladnaviridae\" be used to classify these viruses, but its official approval by the International Committee on Taxonomy of Viruses is pending.",
+    "Psychotria: Psychotria is a genus of flowering plants in the Rubiaceae family.",
+    "Uncaria: Uncaria is a genus of flowering plants in the family Rubiaceae."
+   ],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 378,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5328647079877555
+   },
+   "retrieval_latency_seconds": 0.4520281250588596,
+   "query": "I need to compare the family name lengths for Morning glory and Rothmannia.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.756392166018486
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Morning glory: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+    "Convolvulus cantabrica: Convolvulus cantabrica, common name Cantabrican morning glory or dwarf morning glory, is a herbaceous perennial plant belonging to the genus \"Convolvulus\" of the Convolvulaceae family.",
+    "Ipomoea sagittata: Ipomoea sagittata, commonly called the saltmarsh morning glory, is a species of flowering plant in the morning glory family.",
+    "Rothmannia: Rothmannia is a genus of flowering plants in the Rubiaceae family.",
+    "Taxonomy of the Cactaceae: , the internal classification of the family Cactaceae remained uncertain and subject to change.",
+    "Bacilladnavirus: It was suggested that the family \"Bacilladnaviridae\" be used to classify these viruses, but its official approval by the International Committee on Taxonomy of Viruses is pending.",
+    "Psychotria: Psychotria is a genus of flowering plants in the Rubiaceae family.",
+    "Uncaria: Uncaria is a genus of flowering plants in the family Rubiaceae."
+   ],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 378,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5341313340468332
+   },
+   "retrieval_latency_seconds": 0.1237472080392763,
+   "query": "I need to compare the family name lengths for Morning glory and Rothmannia.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7716023330576718
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Morning glory: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+    "Convolvulus cantabrica: Convolvulus cantabrica, common name Cantabrican morning glory or dwarf morning glory, is a herbaceous perennial plant belonging to the genus \"Convolvulus\" of the Convolvulaceae family.",
+    "Ipomoea sagittata: Ipomoea sagittata, commonly called the saltmarsh morning glory, is a species of flowering plant in the morning glory family.",
+    "Rothmannia: Rothmannia is a genus of flowering plants in the Rubiaceae family.",
+    "Taxonomy of the Cactaceae: , the internal classification of the family Cactaceae remained uncertain and subject to change.",
+    "Bacilladnavirus: It was suggested that the family \"Bacilladnaviridae\" be used to classify these viruses, but its official approval by the International Committee on Taxonomy of Viruses is pending.",
+    "Psychotria: Psychotria is a genus of flowering plants in the Rubiaceae family.",
+    "Uncaria: Uncaria is a genus of flowering plants in the family Rubiaceae."
+   ],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 378,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5442751669324934
+   },
+   "retrieval_latency_seconds": 0.12344400002621114,
+   "query": "I need to compare the family name lengths for Morning glory and Rothmannia.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7498157090740278
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Morning glory: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+    "Convolvulus cantabrica: Convolvulus cantabrica, common name Cantabrican morning glory or dwarf morning glory, is a herbaceous perennial plant belonging to the genus \"Convolvulus\" of the Convolvulaceae family.",
+    "Ipomoea sagittata: Ipomoea sagittata, commonly called the saltmarsh morning glory, is a species of flowering plant in the morning glory family.",
+    "Rothmannia: Rothmannia is a genus of flowering plants in the Rubiaceae family.",
+    "Taxonomy of the Cactaceae: , the internal classification of the family Cactaceae remained uncertain and subject to change.",
+    "Bacilladnavirus: It was suggested that the family \"Bacilladnaviridae\" be used to classify these viruses, but its official approval by the International Committee on Taxonomy of Viruses is pending.",
+    "Psychotria: Psychotria is a genus of flowering plants in the Rubiaceae family.",
+    "Uncaria: Uncaria is a genus of flowering plants in the family Rubiaceae."
+   ],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 378,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5361305830301717
+   },
+   "retrieval_latency_seconds": 0.11800033296458423,
+   "query": "I need to compare the family name lengths for Morning glory and Rothmannia.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7750869999872521
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Morning glory: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux.",
+    "Convolvulus cantabrica: Convolvulus cantabrica, common name Cantabrican morning glory or dwarf morning glory, is a herbaceous perennial plant belonging to the genus \"Convolvulus\" of the Convolvulaceae family.",
+    "Ipomoea sagittata: Ipomoea sagittata, commonly called the saltmarsh morning glory, is a species of flowering plant in the morning glory family.",
+    "Rothmannia: Rothmannia is a genus of flowering plants in the Rubiaceae family.",
+    "Taxonomy of the Cactaceae: , the internal classification of the family Cactaceae remained uncertain and subject to change.",
+    "Bacilladnavirus: It was suggested that the family \"Bacilladnaviridae\" be used to classify these viruses, but its official approval by the International Committee on Taxonomy of Viruses is pending.",
+    "Psychotria: Psychotria is a genus of flowering plants in the Rubiaceae family.",
+    "Uncaria: Uncaria is a genus of flowering plants in the family Rubiaceae."
+   ],
+   "answer": "Morning glory",
+   "answer_usage": {
+    "in": 378,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.555779583984986
+   },
+   "retrieval_latency_seconds": 0.14016079192515463,
+   "query": "I need to compare the family name lengths for Morning glory and Rothmannia.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7166048330254853
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6666666666666666,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7333333333333333,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.7333333333333333,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

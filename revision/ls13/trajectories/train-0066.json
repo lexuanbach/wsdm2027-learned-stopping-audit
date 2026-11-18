@@ -1,0 +1,363 @@
+{
+ "id": "5a9080275542995651fb5175",
+ "question": "What year was the Leeds football club, which Arthur Hydes played, formed? ",
+ "gold_answers": [
+  "1919"
+ ],
+ "support_titles": [
+  "Arthur Hydes",
+  "Leeds United F.C."
+ ],
+ "support_sentences": [
+  "He played for Leeds United and Newport County.",
+  "The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 79,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5824278750224039
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Arthur Hydes: He played for Leeds United and Newport County.",
+    "Arthur Hydes: This included three consecutive years as Leeds' leading scorer.",
+    "Arthur Hydes: He scored almost 100 goals in his career with over 80 of them at Leeds."
+   ],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 135,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5687975829932839
+   },
+   "retrieval_latency_seconds": 0.003609708044677973,
+   "query": "Arthur Hydes footballer Leeds",
+   "query_usage": {
+    "in": 64,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5806376660475507
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Arthur Hydes: He played for Leeds United and Newport County.",
+    "Arthur Hydes: This included three consecutive years as Leeds' leading scorer.",
+    "Arthur Hydes: He scored almost 100 goals in his career with over 80 of them at Leeds.",
+    "Leeds United F.C.: Leeds United Football Club is a professional association football club in Leeds, West Yorkshire, England.",
+    "List of Leeds United F.C. seasons: It covers the period from the club's inaugural season in 1919, following the demise of Leeds City earlier that year, to the end of the last completed season.",
+    "List of Leeds United F.C. seasons: This is a list of seasons played by Leeds United Association Football Club in English and European football."
+   ],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 239,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5587218750733882
+   },
+   "retrieval_latency_seconds": 0.010590707999654114,
+   "query": "Leeds United formation year",
+   "query_usage": {
+    "in": 120,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5703888329444453
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Arthur Hydes: He played for Leeds United and Newport County.",
+    "Arthur Hydes: This included three consecutive years as Leeds' leading scorer.",
+    "Arthur Hydes: He scored almost 100 goals in his career with over 80 of them at Leeds.",
+    "Leeds United F.C.: Leeds United Football Club is a professional association football club in Leeds, West Yorkshire, England.",
+    "List of Leeds United F.C. seasons: It covers the period from the club's inaugural season in 1919, following the demise of Leeds City earlier that year, to the end of the last completed season.",
+    "List of Leeds United F.C. seasons: This is a list of seasons played by Leeds United Association Football Club in English and European football.",
+    "Leeds United F.C.: The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium."
+   ],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 281,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5404586250660941
+   },
+   "retrieval_latency_seconds": 0.04800020903348923,
+   "query": "Leeds United F.C. founded year formation 1919",
+   "query_usage": {
+    "in": 224,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5852972910506651
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Arthur Hydes: He played for Leeds United and Newport County.",
+    "Arthur Hydes: This included three consecutive years as Leeds' leading scorer.",
+    "Arthur Hydes: He scored almost 100 goals in his career with over 80 of them at Leeds.",
+    "Leeds United F.C.: Leeds United Football Club is a professional association football club in Leeds, West Yorkshire, England.",
+    "List of Leeds United F.C. seasons: It covers the period from the club's inaugural season in 1919, following the demise of Leeds City earlier that year, to the end of the last completed season.",
+    "List of Leeds United F.C. seasons: This is a list of seasons played by Leeds United Association Football Club in English and European football.",
+    "Leeds United F.C.: The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium."
+   ],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 281,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5493647080147639
+   },
+   "retrieval_latency_seconds": 0.16103287495207042,
+   "query": "The search query has already provided the answer. Based on the known facts, Leeds United F.C. was formed in **1919**.",
+   "query_usage": {
+    "in": 266,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7743556660134345
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Arthur Hydes: He played for Leeds United and Newport County.",
+    "Arthur Hydes: This included three consecutive years as Leeds' leading scorer.",
+    "Arthur Hydes: He scored almost 100 goals in his career with over 80 of them at Leeds.",
+    "Leeds United F.C.: Leeds United Football Club is a professional association football club in Leeds, West Yorkshire, England.",
+    "List of Leeds United F.C. seasons: It covers the period from the club's inaugural season in 1919, following the demise of Leeds City earlier that year, to the end of the last completed season.",
+    "List of Leeds United F.C. seasons: This is a list of seasons played by Leeds United Association Football Club in English and European football.",
+    "Leeds United F.C.: The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium."
+   ],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 281,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5585620830534026
+   },
+   "retrieval_latency_seconds": 0.1356010000454262,
+   "query": "I have found the answer already in the known facts provided. Leeds United F.C. was formed in 1919.",
+   "query_usage": {
+    "in": 266,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.775400709011592
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Arthur Hydes: He played for Leeds United and Newport County.",
+    "Arthur Hydes: This included three consecutive years as Leeds' leading scorer.",
+    "Arthur Hydes: He scored almost 100 goals in his career with over 80 of them at Leeds.",
+    "Leeds United F.C.: Leeds United Football Club is a professional association football club in Leeds, West Yorkshire, England.",
+    "List of Leeds United F.C. seasons: It covers the period from the club's inaugural season in 1919, following the demise of Leeds City earlier that year, to the end of the last completed season.",
+    "List of Leeds United F.C. seasons: This is a list of seasons played by Leeds United Association Football Club in English and European football.",
+    "Leeds United F.C.: The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium."
+   ],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 281,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.669506459031254
+   },
+   "retrieval_latency_seconds": 0.21090420801192522,
+   "query": "The search query has already provided the answer. Based on the known facts, Leeds United F.C. was formed in **1919**.",
+   "query_usage": {
+    "in": 266,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8475834160344675
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Arthur Hydes: He played for Leeds United and Newport County.",
+    "Arthur Hydes: This included three consecutive years as Leeds' leading scorer.",
+    "Arthur Hydes: He scored almost 100 goals in his career with over 80 of them at Leeds.",
+    "Leeds United F.C.: Leeds United Football Club is a professional association football club in Leeds, West Yorkshire, England.",
+    "List of Leeds United F.C. seasons: It covers the period from the club's inaugural season in 1919, following the demise of Leeds City earlier that year, to the end of the last completed season.",
+    "List of Leeds United F.C. seasons: This is a list of seasons played by Leeds United Association Football Club in English and European football.",
+    "Leeds United F.C.: The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium."
+   ],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 281,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5030251250136644
+   },
+   "retrieval_latency_seconds": 0.2661152499495074,
+   "query": "The search query has already provided the answer. Based on the known information, Leeds United F.C. was formed in **1919**.",
+   "query_usage": {
+    "in": 266,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8215292919194326
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Arthur Hydes: He played for Leeds United and Newport County.",
+    "Arthur Hydes: This included three consecutive years as Leeds' leading scorer.",
+    "Arthur Hydes: He scored almost 100 goals in his career with over 80 of them at Leeds.",
+    "Leeds United F.C.: Leeds United Football Club is a professional association football club in Leeds, West Yorkshire, England.",
+    "List of Leeds United F.C. seasons: It covers the period from the club's inaugural season in 1919, following the demise of Leeds City earlier that year, to the end of the last completed season.",
+    "List of Leeds United F.C. seasons: This is a list of seasons played by Leeds United Association Football Club in English and European football.",
+    "Leeds United F.C.: The club was formed in 1919 following the disbanding of Leeds City F.C. by the Football League and took over their Elland Road stadium."
+   ],
+   "answer": "1919",
+   "answer_usage": {
+    "in": 281,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.7183091249316931
+   },
+   "retrieval_latency_seconds": 0.14828691608272493,
+   "query": "The search query has already provided the answer. Based on the known facts, Leeds United F.C. was formed in **1919**.",
+   "query_usage": {
+    "in": 266,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7879196249414235
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.3333333333333333,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6666666666666666,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.8333333333333334,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.8333333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.8333333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.8333333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.8333333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.8333333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

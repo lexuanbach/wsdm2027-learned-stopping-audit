@@ -1,0 +1,384 @@
+{
+ "id": "5a7a3dbb5542996a35c17157",
+ "question": "My First Mister co-stars an actor who was best known for his role as what character on the TV series Roseanne?",
+ "gold_answers": [
+  "Dan Conner"
+ ],
+ "support_titles": [
+  "My First Mister",
+  "John Goodman"
+ ],
+ "support_sentences": [
+  "The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+  "Early in his career, he was best known for playing Dan Conner on the ABC TV series \"Roseanne\" (1988\u20131997), for which he won a Golden Globe Award for Best Actor in 1993."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Dan Conner",
+   "answer_usage": {
+    "in": 90,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5659911250695586
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "My First Mister: My First Mister is a 2001 film written by Jill Franklyn and directed by Christine Lahti.",
+    "My First Mister: The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+    "Mister Teen Indonesia 2015: Dolly Parlin of North Sumatera crowned as the first ever Mister Teen Indonesia."
+   ],
+   "answer": "Dan Conner",
+   "answer_usage": {
+    "in": 188,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6166178750572726
+   },
+   "retrieval_latency_seconds": 0.0067272919695824385,
+   "query": "My First Mister cast",
+   "query_usage": {
+    "in": 75,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5929562920937315
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "My First Mister: My First Mister is a 2001 film written by Jill Franklyn and directed by Christine Lahti.",
+    "My First Mister: The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+    "Mister Teen Indonesia 2015: Dolly Parlin of North Sumatera crowned as the first ever Mister Teen Indonesia.",
+    "License to Drive: It stars Corey Haim, Corey Feldman, Heather Graham, Carol Kane, Richard Masur, Michael Manasseri and Nina Siemaszko.",
+    "Michael McKean: Michael John McKean (born October 17, 1947) is an American actor, comedian, and musician, known for a variety of roles played since the 1970s."
+   ],
+   "answer": "Dan Conner",
+   "answer_usage": {
+    "in": 280,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5888726250268519
+   },
+   "retrieval_latency_seconds": 0.3127523750299588,
+   "query": "I need to find which of the co-stars (Carol Kane, Michael McKean, John Goodman, or Desmond Harrington) was",
+   "query_usage": {
+    "in": 173,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7682804580545053
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "My First Mister: My First Mister is a 2001 film written by Jill Franklyn and directed by Christine Lahti.",
+    "My First Mister: The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+    "Mister Teen Indonesia 2015: Dolly Parlin of North Sumatera crowned as the first ever Mister Teen Indonesia.",
+    "License to Drive: It stars Corey Haim, Corey Feldman, Heather Graham, Carol Kane, Richard Masur, Michael Manasseri and Nina Siemaszko.",
+    "Michael McKean: Michael John McKean (born October 17, 1947) is an American actor, comedian, and musician, known for a variety of roles played since the 1970s.",
+    "David St. Hubbins: David is played by actor Michael McKean, who improvised the role through the whole film.",
+    "Roseanne Barr: Barr began her career in stand-up comedy at clubs before gaining fame for her role in the hit television sitcom \"Roseanne\"."
+   ],
+   "answer": "Dan Conner",
+   "answer_usage": {
+    "in": 350,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5034184999531135
+   },
+   "retrieval_latency_seconds": 0.012304832926020026,
+   "query": "Michael McKean Roseanne character role",
+   "query_usage": {
+    "in": 265,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6157480840338394
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "My First Mister: My First Mister is a 2001 film written by Jill Franklyn and directed by Christine Lahti.",
+    "My First Mister: The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+    "Mister Teen Indonesia 2015: Dolly Parlin of North Sumatera crowned as the first ever Mister Teen Indonesia.",
+    "License to Drive: It stars Corey Haim, Corey Feldman, Heather Graham, Carol Kane, Richard Masur, Michael Manasseri and Nina Siemaszko.",
+    "Michael McKean: Michael John McKean (born October 17, 1947) is an American actor, comedian, and musician, known for a variety of roles played since the 1970s.",
+    "David St. Hubbins: David is played by actor Michael McKean, who improvised the role through the whole film.",
+    "Roseanne Barr: Barr began her career in stand-up comedy at clubs before gaining fame for her role in the hit television sitcom \"Roseanne\".",
+    "Matt Williams (TV producer): Williams also wrote for the TV series \"Roseanne\" but was fired after the 13th episode."
+   ],
+   "answer": "I need to find which actor from \"My First Mister\" was known for a role on \"Roseanne",
+   "answer_usage": {
+    "in": 381,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8133953750366345
+   },
+   "retrieval_latency_seconds": 0.015799917047843337,
+   "query": "Michael McKean Roseanne TV series character role",
+   "query_usage": {
+    "in": 335,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.599134000018239
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "My First Mister: My First Mister is a 2001 film written by Jill Franklyn and directed by Christine Lahti.",
+    "My First Mister: The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+    "Mister Teen Indonesia 2015: Dolly Parlin of North Sumatera crowned as the first ever Mister Teen Indonesia.",
+    "License to Drive: It stars Corey Haim, Corey Feldman, Heather Graham, Carol Kane, Richard Masur, Michael Manasseri and Nina Siemaszko.",
+    "Michael McKean: Michael John McKean (born October 17, 1947) is an American actor, comedian, and musician, known for a variety of roles played since the 1970s.",
+    "David St. Hubbins: David is played by actor Michael McKean, who improvised the role through the whole film.",
+    "Roseanne Barr: Barr began her career in stand-up comedy at clubs before gaining fame for her role in the hit television sitcom \"Roseanne\".",
+    "Matt Williams (TV producer): Williams also wrote for the TV series \"Roseanne\" but was fired after the 13th episode.",
+    "John Goodman: John Stephen Goodman (born June 20, 1952) is an American actor.",
+    "John Goodman: Early in his career, he was best known for playing Dan Conner on the ABC TV series \"Roseanne\" (1988\u20131997), for which he won a Golden Globe Award for Best Actor in 1993."
+   ],
+   "answer": "Dan Conner",
+   "answer_usage": {
+    "in": 464,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5763479589950293
+   },
+   "retrieval_latency_seconds": 0.0052850000793114305,
+   "query": "John Goodman Roseanne character role",
+   "query_usage": {
+    "in": 366,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5579783749999478
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "My First Mister: My First Mister is a 2001 film written by Jill Franklyn and directed by Christine Lahti.",
+    "My First Mister: The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+    "Mister Teen Indonesia 2015: Dolly Parlin of North Sumatera crowned as the first ever Mister Teen Indonesia.",
+    "License to Drive: It stars Corey Haim, Corey Feldman, Heather Graham, Carol Kane, Richard Masur, Michael Manasseri and Nina Siemaszko.",
+    "Michael McKean: Michael John McKean (born October 17, 1947) is an American actor, comedian, and musician, known for a variety of roles played since the 1970s.",
+    "David St. Hubbins: David is played by actor Michael McKean, who improvised the role through the whole film.",
+    "Roseanne Barr: Barr began her career in stand-up comedy at clubs before gaining fame for her role in the hit television sitcom \"Roseanne\".",
+    "Matt Williams (TV producer): Williams also wrote for the TV series \"Roseanne\" but was fired after the 13th episode.",
+    "John Goodman: John Stephen Goodman (born June 20, 1952) is an American actor.",
+    "John Goodman: Early in his career, he was best known for playing Dan Conner on the ABC TV series \"Roseanne\" (1988\u20131997), for which he won a Golden Globe Award for Best Actor in 1993.",
+    "Jimmy Dan Conner: Jimmy Dan Conner (born March 20, 1953 in Lawrenceburg, Kentucky) is a retired professional basketball shooting guard who played one season in the American Basketball Association (ABA) as a member of the Kentucky Colonels."
+   ],
+   "answer": "Dan Conner",
+   "answer_usage": {
+    "in": 526,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5799384170677513
+   },
+   "retrieval_latency_seconds": 0.01758037507534027,
+   "query": "John Goodman Roseanne Dan Conner character",
+   "query_usage": {
+    "in": 449,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.660096334060654
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "My First Mister: My First Mister is a 2001 film written by Jill Franklyn and directed by Christine Lahti.",
+    "My First Mister: The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+    "Mister Teen Indonesia 2015: Dolly Parlin of North Sumatera crowned as the first ever Mister Teen Indonesia.",
+    "License to Drive: It stars Corey Haim, Corey Feldman, Heather Graham, Carol Kane, Richard Masur, Michael Manasseri and Nina Siemaszko.",
+    "Michael McKean: Michael John McKean (born October 17, 1947) is an American actor, comedian, and musician, known for a variety of roles played since the 1970s.",
+    "David St. Hubbins: David is played by actor Michael McKean, who improvised the role through the whole film.",
+    "Roseanne Barr: Barr began her career in stand-up comedy at clubs before gaining fame for her role in the hit television sitcom \"Roseanne\".",
+    "Matt Williams (TV producer): Williams also wrote for the TV series \"Roseanne\" but was fired after the 13th episode.",
+    "John Goodman: John Stephen Goodman (born June 20, 1952) is an American actor.",
+    "John Goodman: Early in his career, he was best known for playing Dan Conner on the ABC TV series \"Roseanne\" (1988\u20131997), for which he won a Golden Globe Award for Best Actor in 1993.",
+    "Jimmy Dan Conner: Jimmy Dan Conner (born March 20, 1953 in Lawrenceburg, Kentucky) is a retired professional basketball shooting guard who played one season in the American Basketball Association (ABA) as a member of the Kentucky Colonels.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "I Am... Gabriel: Some think he's an answer to prayer.",
+    "Stanley Hart White: I think perhaps he has got hold of something, and have written him for more information."
+   ],
+   "answer": "Dan Conner",
+   "answer_usage": {
+    "in": 595,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6973947500810027
+   },
+   "retrieval_latency_seconds": 0.2935702920658514,
+   "query": "I have found the answer. Based on the information provided:",
+   "query_usage": {
+    "in": 511,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.859369249898009
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "My First Mister: My First Mister is a 2001 film written by Jill Franklyn and directed by Christine Lahti.",
+    "My First Mister: The film co-stars Carol Kane, Michael McKean, John Goodman, and Desmond Harrington.",
+    "Mister Teen Indonesia 2015: Dolly Parlin of North Sumatera crowned as the first ever Mister Teen Indonesia.",
+    "License to Drive: It stars Corey Haim, Corey Feldman, Heather Graham, Carol Kane, Richard Masur, Michael Manasseri and Nina Siemaszko.",
+    "Michael McKean: Michael John McKean (born October 17, 1947) is an American actor, comedian, and musician, known for a variety of roles played since the 1970s.",
+    "David St. Hubbins: David is played by actor Michael McKean, who improvised the role through the whole film.",
+    "Roseanne Barr: Barr began her career in stand-up comedy at clubs before gaining fame for her role in the hit television sitcom \"Roseanne\".",
+    "Matt Williams (TV producer): Williams also wrote for the TV series \"Roseanne\" but was fired after the 13th episode.",
+    "John Goodman: John Stephen Goodman (born June 20, 1952) is an American actor.",
+    "John Goodman: Early in his career, he was best known for playing Dan Conner on the ABC TV series \"Roseanne\" (1988\u20131997), for which he won a Golden Globe Award for Best Actor in 1993.",
+    "Jimmy Dan Conner: Jimmy Dan Conner (born March 20, 1953 in Lawrenceburg, Kentucky) is a retired professional basketball shooting guard who played one season in the American Basketball Association (ABA) as a member of the Kentucky Colonels.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "I Am... Gabriel: Some think he's an answer to prayer.",
+    "Stanley Hart White: I think perhaps he has got hold of something, and have written him for more information."
+   ],
+   "answer": "Dan Conner",
+   "answer_usage": {
+    "in": 595,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5647511660354212
+   },
+   "retrieval_latency_seconds": 0.015002875006757677,
+   "query": "John Goodman Roseanne character Dan Conner",
+   "query_usage": {
+    "in": 580,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6549306670203805
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  0,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.3181818181818182,
+   3.0,
+   0.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.5,
+   2.0,
+   0.0,
+   2.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.6363636363636364,
+   2.0,
+   0.0,
+   2.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.7727272727272727,
+   1.0,
+   1.0,
+   16.0,
+   0.6470588235294118,
+   0.0,
+   2.0
+  ],
+  [
+   5.0,
+   10.0,
+   0.9090909090909091,
+   2.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.9090909090909091,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   7.0,
+   14.0,
+   0.9090909090909091,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   14.0,
+   0.9090909090909091,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

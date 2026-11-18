@@ -1,0 +1,362 @@
+{
+ "id": "5ab97cd0554299753720f81a",
+ "question": "Elizabeth Austin wrote for a fitness magazine founded by who?",
+ "gold_answers": [
+  "Christine MacIntyre"
+ ],
+ "support_titles": [
+  "Elizabeth Austin (writer)",
+  "Shape (magazine)"
+ ],
+ "support_sentences": [
+  "Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+  "She has also written for \"The Washington Monthly, Ladies Home Journal, Good Housekeeping, Self\", and \"Shape\".",
+  "Shape is a monthly English language fitness magazine started by Weider Publications in 1981, founded by Christine MacIntyre (a pioneer in women's free weight fitness) and became the number one women's fitness magazine."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 72,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.7321239999728277
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Elizabeth Austin (writer): Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+    "Elizabeth Austin (writer): Austin has lived in the Midwestern United States all her life.",
+    "Elizabeth Austin (writer): She has often written about medicine and health care."
+   ],
+   "answer": "I don't have information in the provided evidence about Elizabeth Austin writing for a fitness magazine or who founded such a magazine. The evidence only states she has written about medicine and health care, but doesn't",
+   "answer_usage": {
+    "in": 131,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8877999579999596
+   },
+   "retrieval_latency_seconds": 0.006114999996498227,
+   "query": "Elizabeth Austin fitness magazine writer",
+   "query_usage": {
+    "in": 57,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5147189589915797
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Elizabeth Austin (writer): Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+    "Elizabeth Austin (writer): Austin has lived in the Midwestern United States all her life.",
+    "Elizabeth Austin (writer): She has often written about medicine and health care.",
+    "Fitness Gurls: Fitness Gurls is a fitness based magazine.",
+    "Fitness (magazine): Fitness is a United States-based women's magazine, focusing on health, exercise, and nutrition."
+   ],
+   "answer": "I don't have information about who founded the fitness magazine that Elizabeth Austin wrote for. The evidence shows she has written about medicine and health care, and mentions two fitness magazines (Fitness Gurls",
+   "answer_usage": {
+    "in": 178,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8855281670112163
+   },
+   "retrieval_latency_seconds": 0.00893941696267575,
+   "query": "Elizabeth Austin fitness magazine",
+   "query_usage": {
+    "in": 116,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.7565342920133844
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Elizabeth Austin (writer): Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+    "Elizabeth Austin (writer): Austin has lived in the Midwestern United States all her life.",
+    "Elizabeth Austin (writer): She has often written about medicine and health care.",
+    "Fitness Gurls: Fitness Gurls is a fitness based magazine.",
+    "Fitness (magazine): Fitness is a United States-based women's magazine, focusing on health, exercise, and nutrition.",
+    "Fitness (magazine): The editor-in-chief of \"Fitness\" is Betty Wong."
+   ],
+   "answer": "I cannot determine the answer from the provided evidence. The evidence states that Elizabeth Austin has written about medicine and health care, and mentions two fitness magazines (Fitness Gurls and Fitness), but",
+   "answer_usage": {
+    "in": 200,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9007339579984546
+   },
+   "retrieval_latency_seconds": 0.010330666904337704,
+   "query": "Fitness magazine founder",
+   "query_usage": {
+    "in": 163,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5935977910412475
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Elizabeth Austin (writer): Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+    "Elizabeth Austin (writer): Austin has lived in the Midwestern United States all her life.",
+    "Elizabeth Austin (writer): She has often written about medicine and health care.",
+    "Fitness Gurls: Fitness Gurls is a fitness based magazine.",
+    "Fitness (magazine): Fitness is a United States-based women's magazine, focusing on health, exercise, and nutrition.",
+    "Fitness (magazine): The editor-in-chief of \"Fitness\" is Betty Wong.",
+    "Shape (magazine): Shape is a monthly English language fitness magazine started by Weider Publications in 1981, founded by Christine MacIntyre (a pioneer in women's free weight fitness) and became the number one women's fitness magazine."
+   ],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 251,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8670469170901924
+   },
+   "retrieval_latency_seconds": 0.06404024991206825,
+   "query": "Fitness magazine founded by",
+   "query_usage": {
+    "in": 185,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5789810830028728
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Elizabeth Austin (writer): Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+    "Elizabeth Austin (writer): Austin has lived in the Midwestern United States all her life.",
+    "Elizabeth Austin (writer): She has often written about medicine and health care.",
+    "Fitness Gurls: Fitness Gurls is a fitness based magazine.",
+    "Fitness (magazine): Fitness is a United States-based women's magazine, focusing on health, exercise, and nutrition.",
+    "Fitness (magazine): The editor-in-chief of \"Fitness\" is Betty Wong.",
+    "Shape (magazine): Shape is a monthly English language fitness magazine started by Weider Publications in 1981, founded by Christine MacIntyre (a pioneer in women's free weight fitness) and became the number one women's fitness magazine."
+   ],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 251,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9051671660272405
+   },
+   "retrieval_latency_seconds": 0.002510500024072826,
+   "query": "Elizabeth Austin Fitness magazine founder",
+   "query_usage": {
+    "in": 236,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6185925409663469
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Elizabeth Austin (writer): Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+    "Elizabeth Austin (writer): Austin has lived in the Midwestern United States all her life.",
+    "Elizabeth Austin (writer): She has often written about medicine and health care.",
+    "Fitness Gurls: Fitness Gurls is a fitness based magazine.",
+    "Fitness (magazine): Fitness is a United States-based women's magazine, focusing on health, exercise, and nutrition.",
+    "Fitness (magazine): The editor-in-chief of \"Fitness\" is Betty Wong.",
+    "Shape (magazine): Shape is a monthly English language fitness magazine started by Weider Publications in 1981, founded by Christine MacIntyre (a pioneer in women's free weight fitness) and became the number one women's fitness magazine."
+   ],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 251,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8739983749110252
+   },
+   "retrieval_latency_seconds": 0.009561459068208933,
+   "query": "Elizabeth Austin Fitness magazine founder",
+   "query_usage": {
+    "in": 236,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5956778338877484
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Elizabeth Austin (writer): Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+    "Elizabeth Austin (writer): Austin has lived in the Midwestern United States all her life.",
+    "Elizabeth Austin (writer): She has often written about medicine and health care.",
+    "Fitness Gurls: Fitness Gurls is a fitness based magazine.",
+    "Fitness (magazine): Fitness is a United States-based women's magazine, focusing on health, exercise, and nutrition.",
+    "Fitness (magazine): The editor-in-chief of \"Fitness\" is Betty Wong.",
+    "Shape (magazine): Shape is a monthly English language fitness magazine started by Weider Publications in 1981, founded by Christine MacIntyre (a pioneer in women's free weight fitness) and became the number one women's fitness magazine."
+   ],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 251,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9050651659490541
+   },
+   "retrieval_latency_seconds": 0.017888375092297792,
+   "query": "Elizabeth Austin Fitness magazine founder",
+   "query_usage": {
+    "in": 236,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.597550250007771
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Elizabeth Austin (writer): Elizabeth Austin (born 1958) is an American writer living in Oak Park, Illinois.",
+    "Elizabeth Austin (writer): Austin has lived in the Midwestern United States all her life.",
+    "Elizabeth Austin (writer): She has often written about medicine and health care.",
+    "Fitness Gurls: Fitness Gurls is a fitness based magazine.",
+    "Fitness (magazine): Fitness is a United States-based women's magazine, focusing on health, exercise, and nutrition.",
+    "Fitness (magazine): The editor-in-chief of \"Fitness\" is Betty Wong.",
+    "Shape (magazine): Shape is a monthly English language fitness magazine started by Weider Publications in 1981, founded by Christine MacIntyre (a pioneer in women's free weight fitness) and became the number one women's fitness magazine."
+   ],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 251,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8905182499438524
+   },
+   "retrieval_latency_seconds": 0.005382417002692819,
+   "query": "Elizabeth Austin Fitness magazine founder",
+   "query_usage": {
+    "in": 236,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5950643749674782
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.2,
+   3.0,
+   1.0,
+   34.0,
+   0.40625,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.5,
+   2.0,
+   1.0,
+   32.0,
+   0.4827586206896552,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.5,
+   1.0,
+   1.0,
+   29.0,
+   0.52,
+   0.0,
+   4.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.7,
+   1.0,
+   1.0,
+   7.0,
+   0.125,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.7,
+   0.0,
+   0.0,
+   7.0,
+   0.125,
+   0.0,
+   4.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.7,
+   0.0,
+   0.0,
+   7.0,
+   0.125,
+   1.0,
+   4.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.7,
+   0.0,
+   0.0,
+   7.0,
+   0.125,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.7,
+   0.0,
+   0.0,
+   7.0,
+   0.125,
+   1.0,
+   4.0
+  ]
+ ]
+}

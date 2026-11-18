@@ -1,0 +1,368 @@
+{
+ "id": "5ae08a0455429924de1b70fc",
+ "question": "Which German project recorded a song that featured vocals by a duo from Silverdale, England?",
+ "gold_answers": [
+  "Enigma"
+ ],
+ "support_titles": [
+  "Amen (Enigma song)",
+  "Aquilo (band)"
+ ],
+ "support_sentences": [
+  "\"Amen\" is a song by German musical project Enigma, featuring vocals by English dream-pop duo Aquilo.",
+  "Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have enough information to answer this question based on the evidence provided (which is empty). I would need specific details about German projects, songs, and the duo from Silverdale, England",
+   "answer_usage": {
+    "in": 80,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8856929580215365
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Aquilo (band): Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher.",
+    "Silverdale, British Columbia: in the course of the robbery.",
+    "Silverdale, British Columbia: Silverdale is a semi-rural neighbourhood of the District of Mission, British Columbia, Canada c. 40 km east of Vancouver on the east bank of the Stave River at its confluence with the Fraser."
+   ],
+   "answer": "I don't have enough information in the provided evidence to answer this question. The evidence mentions Aquilo, a duo from Silverdale, England, but does not contain any information about a German",
+   "answer_usage": {
+    "in": 180,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7975307919550687
+   },
+   "retrieval_latency_seconds": 0.017855540965683758,
+   "query": "duo from Silverdale England",
+   "query_usage": {
+    "in": 65,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.516421457985416
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Aquilo (band): Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher.",
+    "Silverdale, British Columbia: in the course of the robbery.",
+    "Silverdale, British Columbia: Silverdale is a semi-rural neighbourhood of the District of Mission, British Columbia, Canada c. 40 km east of Vancouver on the east bank of the Stave River at its confluence with the Fraser.",
+    "Amen (Enigma song): \"Amen\" is a song by German musical project Enigma, featuring vocals by English dream-pop duo Aquilo.",
+    "Endless Summer (Oceana song): The song uses a sample of the electro track \"Blaue Moschee\" by German project Die V\u00f6gel."
+   ],
+   "answer": "Enigma",
+   "answer_usage": {
+    "in": 259,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.9479516251012683
+   },
+   "retrieval_latency_seconds": 0.007002832950092852,
+   "query": "Aquilo German project collaboration song",
+   "query_usage": {
+    "in": 165,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5742061251075938
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Aquilo (band): Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher.",
+    "Silverdale, British Columbia: in the course of the robbery.",
+    "Silverdale, British Columbia: Silverdale is a semi-rural neighbourhood of the District of Mission, British Columbia, Canada c. 40 km east of Vancouver on the east bank of the Stave River at its confluence with the Fraser.",
+    "Amen (Enigma song): \"Amen\" is a song by German musical project Enigma, featuring vocals by English dream-pop duo Aquilo.",
+    "Endless Summer (Oceana song): The song uses a sample of the electro track \"Blaue Moschee\" by German project Die V\u00f6gel.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Enigma",
+   "answer_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5495793749578297
+   },
+   "retrieval_latency_seconds": 0.09576416702475399,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 244,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7598205419490114
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Aquilo (band): Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher.",
+    "Silverdale, British Columbia: in the course of the robbery.",
+    "Silverdale, British Columbia: Silverdale is a semi-rural neighbourhood of the District of Mission, British Columbia, Canada c. 40 km east of Vancouver on the east bank of the Stave River at its confluence with the Fraser.",
+    "Amen (Enigma song): \"Amen\" is a song by German musical project Enigma, featuring vocals by English dream-pop duo Aquilo.",
+    "Endless Summer (Oceana song): The song uses a sample of the electro track \"Blaue Moschee\" by German project Die V\u00f6gel.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Enigma",
+   "answer_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6004515830427408
+   },
+   "retrieval_latency_seconds": 0.3815005000215024,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 351,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7415537500055507
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Aquilo (band): Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher.",
+    "Silverdale, British Columbia: in the course of the robbery.",
+    "Silverdale, British Columbia: Silverdale is a semi-rural neighbourhood of the District of Mission, British Columbia, Canada c. 40 km east of Vancouver on the east bank of the Stave River at its confluence with the Fraser.",
+    "Amen (Enigma song): \"Amen\" is a song by German musical project Enigma, featuring vocals by English dream-pop duo Aquilo.",
+    "Endless Summer (Oceana song): The song uses a sample of the electro track \"Blaue Moschee\" by German project Die V\u00f6gel.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Enigma",
+   "answer_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5609931249637157
+   },
+   "retrieval_latency_seconds": 0.10582433303352445,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 351,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7223859169753268
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Aquilo (band): Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher.",
+    "Silverdale, British Columbia: in the course of the robbery.",
+    "Silverdale, British Columbia: Silverdale is a semi-rural neighbourhood of the District of Mission, British Columbia, Canada c. 40 km east of Vancouver on the east bank of the Stave River at its confluence with the Fraser.",
+    "Amen (Enigma song): \"Amen\" is a song by German musical project Enigma, featuring vocals by English dream-pop duo Aquilo.",
+    "Endless Summer (Oceana song): The song uses a sample of the electro track \"Blaue Moschee\" by German project Die V\u00f6gel.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Enigma",
+   "answer_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5920581249520183
+   },
+   "retrieval_latency_seconds": 0.11481420800555497,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 351,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7543704999843612
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Aquilo (band): Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher.",
+    "Silverdale, British Columbia: in the course of the robbery.",
+    "Silverdale, British Columbia: Silverdale is a semi-rural neighbourhood of the District of Mission, British Columbia, Canada c. 40 km east of Vancouver on the east bank of the Stave River at its confluence with the Fraser.",
+    "Amen (Enigma song): \"Amen\" is a song by German musical project Enigma, featuring vocals by English dream-pop duo Aquilo.",
+    "Endless Summer (Oceana song): The song uses a sample of the electro track \"Blaue Moschee\" by German project Die V\u00f6gel.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Enigma",
+   "answer_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5782735829707235
+   },
+   "retrieval_latency_seconds": 0.2313084170455113,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 351,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7445664999540895
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Aquilo (band): Aquilo is an alternative musical duo from Silverdale, Lancashire, England, consisting of Tom Higham and Ben Fletcher.",
+    "Silverdale, British Columbia: in the course of the robbery.",
+    "Silverdale, British Columbia: Silverdale is a semi-rural neighbourhood of the District of Mission, British Columbia, Canada c. 40 km east of Vancouver on the east bank of the Stave River at its confluence with the Fraser.",
+    "Amen (Enigma song): \"Amen\" is a song by German musical project Enigma, featuring vocals by English dream-pop duo Aquilo.",
+    "Endless Summer (Oceana song): The song uses a sample of the electro track \"Blaue Moschee\" by German project Die V\u00f6gel.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Enigma",
+   "answer_usage": {
+    "in": 366,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5778389170300215
+   },
+   "retrieval_latency_seconds": 0.16054583399090916,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 351,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7590733750257641
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   31.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.35714285714285715,
+   3.0,
+   1.0,
+   28.0,
+   0.2857142857142857,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7142857142857143,
+   2.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.7142857142857143,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

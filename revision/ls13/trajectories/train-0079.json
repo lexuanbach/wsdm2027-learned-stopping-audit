@@ -1,0 +1,344 @@
+{
+ "id": "5abbdd565542993f40c73bfb",
+ "question": "What is the airport code for the Vilnius Airport that ceased operations in 2015?",
+ "gold_answers": [
+  "IATA: VNO, ICAO: EYVI"
+ ],
+ "support_titles": [
+  "Air Lituanica",
+  "Vilnius Airport"
+ ],
+ "support_sentences": [
+  "Air Lituanica was a Lithuanian airline headquartered in Vilnius and based at Vilnius Airport.",
+  "It ceased operations in  2015 (2015-) .",
+  "Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "VNO",
+   "answer_usage": {
+    "in": 80,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6121829589828849
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Vilnius Airport: Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania.",
+    "Vilnius Airport railway station: Vilnius Airport Railway Station is a railway station in Vilnius International Airport, Lithuania, which was opened on 2 October 2008.",
+    "Vilnius Airport: Today, Vilnius Airport is one of the fastest-growing airports in Europe."
+   ],
+   "answer": "The question contains a false premise. Vilnius Airport (VNO) did not cease operations in 2015; it continues to operate as one of Europe's fastest-growing airports",
+   "answer_usage": {
+    "in": 195,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9207801249576733
+   },
+   "retrieval_latency_seconds": 0.003246749984100461,
+   "query": "Vilnius Airport closed 2015",
+   "query_usage": {
+    "in": 65,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5931155410362408
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Vilnius Airport: Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania.",
+    "Vilnius Airport railway station: Vilnius Airport Railway Station is a railway station in Vilnius International Airport, Lithuania, which was opened on 2 October 2008.",
+    "Vilnius Airport: Today, Vilnius Airport is one of the fastest-growing airports in Europe.",
+    "Air Lituanica: It ceased operations in  2015 (2015-) ."
+   ],
+   "answer": "VNO",
+   "answer_usage": {
+    "in": 218,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.4843753339955583
+   },
+   "retrieval_latency_seconds": 0.022549749934114516,
+   "query": "Vilnius Airport ceased operations 2015",
+   "query_usage": {
+    "in": 180,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5161604998866096
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Vilnius Airport: Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania.",
+    "Vilnius Airport railway station: Vilnius Airport Railway Station is a railway station in Vilnius International Airport, Lithuania, which was opened on 2 October 2008.",
+    "Vilnius Airport: Today, Vilnius Airport is one of the fastest-growing airports in Europe.",
+    "Air Lituanica: It ceased operations in  2015 (2015-) ."
+   ],
+   "answer": "VNO",
+   "answer_usage": {
+    "in": 218,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.48380883294157684
+   },
+   "retrieval_latency_seconds": 0.00441187503747642,
+   "query": "Vilnius Airport ceased operations 2015",
+   "query_usage": {
+    "in": 203,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5341573329642415
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Vilnius Airport: Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania.",
+    "Vilnius Airport railway station: Vilnius Airport Railway Station is a railway station in Vilnius International Airport, Lithuania, which was opened on 2 October 2008.",
+    "Vilnius Airport: Today, Vilnius Airport is one of the fastest-growing airports in Europe.",
+    "Air Lituanica: It ceased operations in  2015 (2015-) ."
+   ],
+   "answer": "VNO",
+   "answer_usage": {
+    "in": 218,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.48190016706939787
+   },
+   "retrieval_latency_seconds": 0.009505499969236553,
+   "query": "Vilnius Airport that closed 2015",
+   "query_usage": {
+    "in": 203,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5879459580173716
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Vilnius Airport: Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania.",
+    "Vilnius Airport railway station: Vilnius Airport Railway Station is a railway station in Vilnius International Airport, Lithuania, which was opened on 2 October 2008.",
+    "Vilnius Airport: Today, Vilnius Airport is one of the fastest-growing airports in Europe.",
+    "Air Lituanica: It ceased operations in  2015 (2015-) ."
+   ],
+   "answer": "VNO",
+   "answer_usage": {
+    "in": 218,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.4702461250126362
+   },
+   "retrieval_latency_seconds": 0.026552791940048337,
+   "query": "Vilnius Airport that closed 2015",
+   "query_usage": {
+    "in": 203,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6219153329730034
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Vilnius Airport: Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania.",
+    "Vilnius Airport railway station: Vilnius Airport Railway Station is a railway station in Vilnius International Airport, Lithuania, which was opened on 2 October 2008.",
+    "Vilnius Airport: Today, Vilnius Airport is one of the fastest-growing airports in Europe.",
+    "Air Lituanica: It ceased operations in  2015 (2015-) ."
+   ],
+   "answer": "VNO",
+   "answer_usage": {
+    "in": 218,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.4801924169296399
+   },
+   "retrieval_latency_seconds": 0.0064920829609036446,
+   "query": "Vilnius Airport ceased operations 2015",
+   "query_usage": {
+    "in": 203,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5617772919358686
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Vilnius Airport: Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania.",
+    "Vilnius Airport railway station: Vilnius Airport Railway Station is a railway station in Vilnius International Airport, Lithuania, which was opened on 2 October 2008.",
+    "Vilnius Airport: Today, Vilnius Airport is one of the fastest-growing airports in Europe.",
+    "Air Lituanica: It ceased operations in  2015 (2015-) ."
+   ],
+   "answer": "VNO",
+   "answer_usage": {
+    "in": 218,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.47071129095274955
+   },
+   "retrieval_latency_seconds": 0.005280375014990568,
+   "query": "Vilnius Airport ceased operations 2015",
+   "query_usage": {
+    "in": 203,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5812539999606088
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Vilnius Airport: Vilnius Airport (IATA: VNO, ICAO: EYVI) (Lithuanian: \"Vilniaus oro uostas\" ) is the international airport of Vilnius, the capital of Lithuania.",
+    "Vilnius Airport railway station: Vilnius Airport Railway Station is a railway station in Vilnius International Airport, Lithuania, which was opened on 2 October 2008.",
+    "Vilnius Airport: Today, Vilnius Airport is one of the fastest-growing airports in Europe.",
+    "Air Lituanica: It ceased operations in  2015 (2015-) ."
+   ],
+   "answer": "VNO",
+   "answer_usage": {
+    "in": 218,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5074009170057252
+   },
+   "retrieval_latency_seconds": 0.004496915964409709,
+   "query": "Vilnius Airport ceased operations 2015",
+   "query_usage": {
+    "in": 203,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5808198750019073
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.4,
+  0.06896551724137932,
+  0.4,
+  0.4,
+  0.4,
+  0.4,
+  0.4,
+  0.4,
+  0.4
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4166666666666667,
+   3.0,
+   1.0,
+   25.0,
+   0.4444444444444444,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   4.0,
+   0.6666666666666666,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

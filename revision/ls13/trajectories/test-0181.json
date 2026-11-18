@@ -1,0 +1,350 @@
+{
+ "id": "5abc3f725542993a06baf8b3",
+ "question": "Electoral district of Bragg currently includes which suburb in the city of Burnside, Adelaide?",
+ "gold_answers": [
+  "Dulwich"
+ ],
+ "support_titles": [
+  "Electoral district of Bragg",
+  "Dulwich, South Australia"
+ ],
+ "support_sentences": [
+  "Bragg currently includes the metropolitan suburbs of Beaumont, Burnside, Dulwich, Erindale, Hazelwood Park, Heathpool, Kensington Park, Leabrook, Linden Park, Rose Park, Marryatville, Skye, St Georges, Stonyfell, Toorak Gardens, Tusmore, Wattle Park and parts of Glen Osmond, and in the hills it includes Crafers, Cleland, Greenhill, Mount Osmond, Piccadilly, Summertown and parts of Ashton, Basket Range, Carey Gully, Horsnell Gully, Leawood Gardens and Uraidla.",
+  "Dulwich is a suburb in the City of Burnside, Adelaide, South Australia with a census area population of 2,663 people."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 81,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6520750409690663
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Electoral district of Bragg: Bragg is an electoral district of the House of Assembly in the Australian state of South Australia.",
+    "Electoral district of Bragg: The seat of Bragg is named after the eminent physicists Bragg \u2013 William Henry and his son, William Lawrence.",
+    "Electoral district of Bragg: After a redistribution following the 2006 election, the boundary moved eastwards to include suburbs that had formerly been in the seat of Heysen and now borders Kavel."
+   ],
+   "answer": "I don't have enough information in the provided evidence to answer which suburb in Burnside is currently included in the Electoral district of Bragg. The evidence mentions a 2006 redistribution",
+   "answer_usage": {
+    "in": 189,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7820449590217322
+   },
+   "retrieval_latency_seconds": 0.07885941700078547,
+   "query": "Electoral district of Bragg suburbs",
+   "query_usage": {
+    "in": 66,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5783882919931784
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Electoral district of Bragg: Bragg is an electoral district of the House of Assembly in the Australian state of South Australia.",
+    "Electoral district of Bragg: The seat of Bragg is named after the eminent physicists Bragg \u2013 William Henry and his son, William Lawrence.",
+    "Electoral district of Bragg: After a redistribution following the 2006 election, the boundary moved eastwards to include suburbs that had formerly been in the seat of Heysen and now borders Kavel.",
+    "Electoral district of Bragg: The electorate is largely urban and encompasses a significant portion of the City of Burnside, stretching from the east parklands of Adelaide into the Adelaide Hills.",
+    "Electoral district of Adelaide: The federal division of Adelaide covers the state seat of Adelaide and additional suburbs in each direction."
+   ],
+   "answer": "I cannot provide a specific suburb name from the given evidence. The evidence states that Bragg \"encompasses a significant portion of the City of Burnside\" but does not name which specific suburbs are",
+   "answer_usage": {
+    "in": 256,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8716870830394328
+   },
+   "retrieval_latency_seconds": 0.15762729197740555,
+   "query": "Electoral district of Bragg suburbs Burnside Adelaide",
+   "query_usage": {
+    "in": 174,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.549872542032972
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Electoral district of Bragg: Bragg is an electoral district of the House of Assembly in the Australian state of South Australia.",
+    "Electoral district of Bragg: The seat of Bragg is named after the eminent physicists Bragg \u2013 William Henry and his son, William Lawrence.",
+    "Electoral district of Bragg: After a redistribution following the 2006 election, the boundary moved eastwards to include suburbs that had formerly been in the seat of Heysen and now borders Kavel.",
+    "Electoral district of Bragg: The electorate is largely urban and encompasses a significant portion of the City of Burnside, stretching from the east parklands of Adelaide into the Adelaide Hills.",
+    "Electoral district of Adelaide: The federal division of Adelaide covers the state seat of Adelaide and additional suburbs in each direction."
+   ],
+   "answer": "I cannot provide a specific suburb name from the given evidence. The evidence states that Bragg \"encompasses a significant portion of the City of Burnside\" but does not name which specific suburbs are",
+   "answer_usage": {
+    "in": 256,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8760715840617195
+   },
+   "retrieval_latency_seconds": 0.14160887489560992,
+   "query": "Electoral district of Bragg suburbs City of Burnside included",
+   "query_usage": {
+    "in": 241,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.673195792012848
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Electoral district of Bragg: Bragg is an electoral district of the House of Assembly in the Australian state of South Australia.",
+    "Electoral district of Bragg: The seat of Bragg is named after the eminent physicists Bragg \u2013 William Henry and his son, William Lawrence.",
+    "Electoral district of Bragg: After a redistribution following the 2006 election, the boundary moved eastwards to include suburbs that had formerly been in the seat of Heysen and now borders Kavel.",
+    "Electoral district of Bragg: The electorate is largely urban and encompasses a significant portion of the City of Burnside, stretching from the east parklands of Adelaide into the Adelaide Hills.",
+    "Electoral district of Adelaide: The federal division of Adelaide covers the state seat of Adelaide and additional suburbs in each direction."
+   ],
+   "answer": "I cannot provide a specific suburb name from the given evidence. The evidence states that Bragg \"encompasses a significant portion of the City of Burnside\" but does not name which specific suburbs are",
+   "answer_usage": {
+    "in": 256,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8890599169535562
+   },
+   "retrieval_latency_seconds": 0.04876675002742559,
+   "query": "Electoral district of Bragg suburbs City of Burnside included",
+   "query_usage": {
+    "in": 241,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6692082500085235
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Electoral district of Bragg: Bragg is an electoral district of the House of Assembly in the Australian state of South Australia.",
+    "Electoral district of Bragg: The seat of Bragg is named after the eminent physicists Bragg \u2013 William Henry and his son, William Lawrence.",
+    "Electoral district of Bragg: After a redistribution following the 2006 election, the boundary moved eastwards to include suburbs that had formerly been in the seat of Heysen and now borders Kavel.",
+    "Electoral district of Bragg: The electorate is largely urban and encompasses a significant portion of the City of Burnside, stretching from the east parklands of Adelaide into the Adelaide Hills.",
+    "Electoral district of Adelaide: The federal division of Adelaide covers the state seat of Adelaide and additional suburbs in each direction."
+   ],
+   "answer": "I cannot provide a specific suburb name from the given evidence. The evidence states that Bragg \"encompasses a significant portion of the City of Burnside\" but does not name which specific suburbs are",
+   "answer_usage": {
+    "in": 256,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8671026669908315
+   },
+   "retrieval_latency_seconds": 0.22351516701746732,
+   "query": "Electoral district of Bragg suburbs City of Burnside included",
+   "query_usage": {
+    "in": 241,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6860428749350831
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Electoral district of Bragg: Bragg is an electoral district of the House of Assembly in the Australian state of South Australia.",
+    "Electoral district of Bragg: The seat of Bragg is named after the eminent physicists Bragg \u2013 William Henry and his son, William Lawrence.",
+    "Electoral district of Bragg: After a redistribution following the 2006 election, the boundary moved eastwards to include suburbs that had formerly been in the seat of Heysen and now borders Kavel.",
+    "Electoral district of Bragg: The electorate is largely urban and encompasses a significant portion of the City of Burnside, stretching from the east parklands of Adelaide into the Adelaide Hills.",
+    "Electoral district of Adelaide: The federal division of Adelaide covers the state seat of Adelaide and additional suburbs in each direction."
+   ],
+   "answer": "I cannot provide a specific suburb name from the given evidence. The evidence states that Bragg \"encompasses a significant portion of the City of Burnside\" but does not name which specific suburbs are",
+   "answer_usage": {
+    "in": 256,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8549275000113994
+   },
+   "retrieval_latency_seconds": 0.056130916927941144,
+   "query": "Electoral district of Bragg suburbs City of Burnside included",
+   "query_usage": {
+    "in": 241,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6906524581136182
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Electoral district of Bragg: Bragg is an electoral district of the House of Assembly in the Australian state of South Australia.",
+    "Electoral district of Bragg: The seat of Bragg is named after the eminent physicists Bragg \u2013 William Henry and his son, William Lawrence.",
+    "Electoral district of Bragg: After a redistribution following the 2006 election, the boundary moved eastwards to include suburbs that had formerly been in the seat of Heysen and now borders Kavel.",
+    "Electoral district of Bragg: The electorate is largely urban and encompasses a significant portion of the City of Burnside, stretching from the east parklands of Adelaide into the Adelaide Hills.",
+    "Electoral district of Adelaide: The federal division of Adelaide covers the state seat of Adelaide and additional suburbs in each direction."
+   ],
+   "answer": "I cannot provide a specific suburb name from the given evidence. The evidence states that Bragg \"encompasses a significant portion of the City of Burnside\" but does not name which specific suburbs are",
+   "answer_usage": {
+    "in": 256,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9074884579749778
+   },
+   "retrieval_latency_seconds": 0.18360245798248798,
+   "query": "Electoral district of Bragg suburbs City of Burnside included",
+   "query_usage": {
+    "in": 241,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6746606659144163
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Electoral district of Bragg: Bragg is an electoral district of the House of Assembly in the Australian state of South Australia.",
+    "Electoral district of Bragg: The seat of Bragg is named after the eminent physicists Bragg \u2013 William Henry and his son, William Lawrence.",
+    "Electoral district of Bragg: After a redistribution following the 2006 election, the boundary moved eastwards to include suburbs that had formerly been in the seat of Heysen and now borders Kavel.",
+    "Electoral district of Bragg: The electorate is largely urban and encompasses a significant portion of the City of Burnside, stretching from the east parklands of Adelaide into the Adelaide Hills.",
+    "Electoral district of Adelaide: The federal division of Adelaide covers the state seat of Adelaide and additional suburbs in each direction."
+   ],
+   "answer": "I cannot provide a specific suburb name from the given evidence. The evidence states that Bragg \"encompasses a significant portion of the City of Burnside\" but does not name which specific suburbs are",
+   "answer_usage": {
+    "in": 256,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8416864169994369
+   },
+   "retrieval_latency_seconds": 0.0529457920929417,
+   "query": "Electoral district of Bragg suburbs City of Burnside included",
+   "query_usage": {
+    "in": 241,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6990622919984162
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.46153846153846156,
+   3.0,
+   1.0,
+   27.0,
+   0.4230769230769231,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6923076923076923,
+   2.0,
+   1.0,
+   28.0,
+   0.46153846153846156,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   5.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   28.0,
+   0.46153846153846156,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   5.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   28.0,
+   0.46153846153846156,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   5.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   28.0,
+   0.46153846153846156,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   5.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   28.0,
+   0.46153846153846156,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   5.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   28.0,
+   0.46153846153846156,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   5.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   28.0,
+   0.46153846153846156,
+   1.0,
+   3.0
+  ]
+ ]
+}

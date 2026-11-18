@@ -1,0 +1,376 @@
+{
+ "id": "5a7b820c5542997c3ec971d8",
+ "question": "The William Ulmer Brewery is located in a neighborhood that is policed by who?",
+ "gold_answers": [
+  "NYPD's 83rd Precinct"
+ ],
+ "support_titles": [
+  "William Ulmer Brewery",
+  "Bushwick, Brooklyn"
+ ],
+ "support_sentences": [
+  "The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+  "Bushwick is a working-class neighborhood in the northern part of the New York City borough of Brooklyn.",
+  "It is policed by the NYPD's 83rd Precinct and is represented in the New York City Council as part of Districts 34 and 37."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the available evidence",
+   "answer_usage": {
+    "in": 80,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6522687500109896
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "William Ulmer Brewery: The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+    "William Ulmer Brewery: The main brew house dates from 1872 with major additions through 1890.",
+    "Market Garden Brewery: Market Garden Brewery is a brewery located in the Ohio City neighborhood of Cleveland, Ohio."
+   ],
+   "answer": "New York City Police Department",
+   "answer_usage": {
+    "in": 178,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5338417500024661
+   },
+   "retrieval_latency_seconds": 0.00681937497574836,
+   "query": "William Ulmer Brewery location neighborhood",
+   "query_usage": {
+    "in": 65,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5745354159735143
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "William Ulmer Brewery: The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+    "William Ulmer Brewery: The main brew house dates from 1872 with major additions through 1890.",
+    "Market Garden Brewery: Market Garden Brewery is a brewery located in the Ohio City neighborhood of Cleveland, Ohio.",
+    "Bushwick, Brooklyn: It is policed by the NYPD's 83rd Precinct and is represented in the New York City Council as part of Districts 34 and 37.",
+    "List of Brooklyn Nine-Nine characters: The show revolves around the fictional 99th Precinct of the New York Police Department, located in Brooklyn.",
+    "Ditmas Park, Brooklyn: Ditmas Park is policed by the New York City Police Department's 70th Precinct, and is within Brooklyn Community Board 14."
+   ],
+   "answer": "NYPD's 83rd Precinct",
+   "answer_usage": {
+    "in": 297,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6177194589981809
+   },
+   "retrieval_latency_seconds": 0.0033207080559805036,
+   "query": "Bushwick Brooklyn police precinct",
+   "query_usage": {
+    "in": 163,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6235806670738384
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "William Ulmer Brewery: The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+    "William Ulmer Brewery: The main brew house dates from 1872 with major additions through 1890.",
+    "Market Garden Brewery: Market Garden Brewery is a brewery located in the Ohio City neighborhood of Cleveland, Ohio.",
+    "Bushwick, Brooklyn: It is policed by the NYPD's 83rd Precinct and is represented in the New York City Council as part of Districts 34 and 37.",
+    "List of Brooklyn Nine-Nine characters: The show revolves around the fictional 99th Precinct of the New York Police Department, located in Brooklyn.",
+    "Ditmas Park, Brooklyn: Ditmas Park is policed by the New York City Police Department's 70th Precinct, and is within Brooklyn Community Board 14.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "NYPD's 83rd Precinct",
+   "answer_usage": {
+    "in": 404,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.613992500002496
+   },
+   "retrieval_latency_seconds": 0.6379944999935105,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 282,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7939592499751598
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "William Ulmer Brewery: The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+    "William Ulmer Brewery: The main brew house dates from 1872 with major additions through 1890.",
+    "Market Garden Brewery: Market Garden Brewery is a brewery located in the Ohio City neighborhood of Cleveland, Ohio.",
+    "Bushwick, Brooklyn: It is policed by the NYPD's 83rd Precinct and is represented in the New York City Council as part of Districts 34 and 37.",
+    "List of Brooklyn Nine-Nine characters: The show revolves around the fictional 99th Precinct of the New York Police Department, located in Brooklyn.",
+    "Ditmas Park, Brooklyn: Ditmas Park is policed by the New York City Police Department's 70th Precinct, and is within Brooklyn Community Board 14.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "NYPD's 83rd Precinct",
+   "answer_usage": {
+    "in": 404,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6295341670047492
+   },
+   "retrieval_latency_seconds": 0.3340205419808626,
+   "query": "Who polices the 83rd Precinct in Brooklyn?",
+   "query_usage": {
+    "in": 389,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6233510000165552
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "William Ulmer Brewery: The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+    "William Ulmer Brewery: The main brew house dates from 1872 with major additions through 1890.",
+    "Market Garden Brewery: Market Garden Brewery is a brewery located in the Ohio City neighborhood of Cleveland, Ohio.",
+    "Bushwick, Brooklyn: It is policed by the NYPD's 83rd Precinct and is represented in the New York City Council as part of Districts 34 and 37.",
+    "List of Brooklyn Nine-Nine characters: The show revolves around the fictional 99th Precinct of the New York Police Department, located in Brooklyn.",
+    "Ditmas Park, Brooklyn: Ditmas Park is policed by the New York City Police Department's 70th Precinct, and is within Brooklyn Community Board 14.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "NYPD's 83rd Precinct",
+   "answer_usage": {
+    "in": 404,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6347027079900727
+   },
+   "retrieval_latency_seconds": 0.08911554201040417,
+   "query": "Who polices the 83rd Precinct in Brooklyn?",
+   "query_usage": {
+    "in": 389,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.630495332996361
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "William Ulmer Brewery: The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+    "William Ulmer Brewery: The main brew house dates from 1872 with major additions through 1890.",
+    "Market Garden Brewery: Market Garden Brewery is a brewery located in the Ohio City neighborhood of Cleveland, Ohio.",
+    "Bushwick, Brooklyn: It is policed by the NYPD's 83rd Precinct and is represented in the New York City Council as part of Districts 34 and 37.",
+    "List of Brooklyn Nine-Nine characters: The show revolves around the fictional 99th Precinct of the New York Police Department, located in Brooklyn.",
+    "Ditmas Park, Brooklyn: Ditmas Park is policed by the New York City Police Department's 70th Precinct, and is within Brooklyn Community Board 14.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "NYPD's 83rd Precinct",
+   "answer_usage": {
+    "in": 404,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.7006344590336084
+   },
+   "retrieval_latency_seconds": 0.14241308404598385,
+   "query": "Who polices the 83rd Precinct in Brooklyn?",
+   "query_usage": {
+    "in": 389,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6574786249548197
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "William Ulmer Brewery: The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+    "William Ulmer Brewery: The main brew house dates from 1872 with major additions through 1890.",
+    "Market Garden Brewery: Market Garden Brewery is a brewery located in the Ohio City neighborhood of Cleveland, Ohio.",
+    "Bushwick, Brooklyn: It is policed by the NYPD's 83rd Precinct and is represented in the New York City Council as part of Districts 34 and 37.",
+    "List of Brooklyn Nine-Nine characters: The show revolves around the fictional 99th Precinct of the New York Police Department, located in Brooklyn.",
+    "Ditmas Park, Brooklyn: Ditmas Park is policed by the New York City Police Department's 70th Precinct, and is within Brooklyn Community Board 14.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "NYPD's 83rd Precinct",
+   "answer_usage": {
+    "in": 404,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6207902090391144
+   },
+   "retrieval_latency_seconds": 0.5628240830264986,
+   "query": "Who polices the 83rd Precinct in Brooklyn?",
+   "query_usage": {
+    "in": 389,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6510005829622969
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "William Ulmer Brewery: The William Ulmer Brewery was a brewery founded by William Ulmer (1833\u20131907) at 31 Belvidere Street in Bushwick, Brooklyn, New York.",
+    "William Ulmer Brewery: The main brew house dates from 1872 with major additions through 1890.",
+    "Market Garden Brewery: Market Garden Brewery is a brewery located in the Ohio City neighborhood of Cleveland, Ohio.",
+    "Bushwick, Brooklyn: It is policed by the NYPD's 83rd Precinct and is represented in the New York City Council as part of Districts 34 and 37.",
+    "List of Brooklyn Nine-Nine characters: The show revolves around the fictional 99th Precinct of the New York Police Department, located in Brooklyn.",
+    "Ditmas Park, Brooklyn: Ditmas Park is policed by the New York City Police Department's 70th Precinct, and is within Brooklyn Community Board 14.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "NYPD's 83rd Precinct",
+   "answer_usage": {
+    "in": 404,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6391828750493005
+   },
+   "retrieval_latency_seconds": 0.08772754110395908,
+   "query": "Who polices the 83rd Precinct in Brooklyn?",
+   "query_usage": {
+    "in": 389,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6121932499809191
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.7692307692307693,
+   3.0,
+   1.0,
+   5.0,
+   0.6,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.8461538461538461,
+   3.0,
+   1.0,
+   4.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.8461538461538461,
+   3.0,
+   0.0,
+   4.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

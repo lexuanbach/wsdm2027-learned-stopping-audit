@@ -1,0 +1,350 @@
+{
+ "id": "5ab4028555429976abd1bd2b",
+ "question": "Which city has a higher population, Shanghai or Hengyang?",
+ "gold_answers": [
+  "Shanghai"
+ ],
+ "support_titles": [
+  "Shanghai",
+  "Hengyang"
+ ],
+ "support_sentences": [
+  "Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+  "Its built-up (\"or metro\") area made of 4 out of 5 urban districts was home to 1,075,516 inhabitants at the 2010 census."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 75,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5901389589998871
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Shanghai: Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+    "Nanyue District: Nanyue District () is one of five districts in Hengyang City, Hunan Province, China; it is also the 2nd smallest district by population (after Wulingyuan District) in Hunan.",
+    "Finless porpoise: Most of the population has been found around the Korean peninsula in the Yellow and East China Seas, although a freshwater population is found around Jiuduansha near Shanghai at the mouth of China's Yangtze River."
+   ],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 228,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5065343329915777
+   },
+   "retrieval_latency_seconds": 0.00358270900323987,
+   "query": "Shanghai population Hengyang population comparison",
+   "query_usage": {
+    "in": 60,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5950653749750927
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Shanghai: Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+    "Nanyue District: Nanyue District () is one of five districts in Hengyang City, Hunan Province, China; it is also the 2nd smallest district by population (after Wulingyuan District) in Hunan.",
+    "Finless porpoise: Most of the population has been found around the Korean peninsula in the Yellow and East China Seas, although a freshwater population is found around Jiuduansha near Shanghai at the mouth of China's Yangtze River.",
+    "Hengyang: Hengyang () is the second largest city of Hunan Province, China.",
+    "Shigu District: Shigu District () is an urban district of Hengyang City, Hunan province, China."
+   ],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 283,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5486307500395924
+   },
+   "retrieval_latency_seconds": 0.007410667021758854,
+   "query": "Hengyang population",
+   "query_usage": {
+    "in": 213,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.632783708977513
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Shanghai: Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+    "Nanyue District: Nanyue District () is one of five districts in Hengyang City, Hunan Province, China; it is also the 2nd smallest district by population (after Wulingyuan District) in Hunan.",
+    "Finless porpoise: Most of the population has been found around the Korean peninsula in the Yellow and East China Seas, although a freshwater population is found around Jiuduansha near Shanghai at the mouth of China's Yangtze River.",
+    "Hengyang: Hengyang () is the second largest city of Hunan Province, China.",
+    "Shigu District: Shigu District () is an urban district of Hengyang City, Hunan province, China."
+   ],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 283,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5564457500586286
+   },
+   "retrieval_latency_seconds": 0.006413707975298166,
+   "query": "Hengyang population",
+   "query_usage": {
+    "in": 268,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6643663749564439
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Shanghai: Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+    "Nanyue District: Nanyue District () is one of five districts in Hengyang City, Hunan Province, China; it is also the 2nd smallest district by population (after Wulingyuan District) in Hunan.",
+    "Finless porpoise: Most of the population has been found around the Korean peninsula in the Yellow and East China Seas, although a freshwater population is found around Jiuduansha near Shanghai at the mouth of China's Yangtze River.",
+    "Hengyang: Hengyang () is the second largest city of Hunan Province, China.",
+    "Shigu District: Shigu District () is an urban district of Hengyang City, Hunan province, China."
+   ],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 283,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5333844579290599
+   },
+   "retrieval_latency_seconds": 0.005686499993316829,
+   "query": "Hengyang population",
+   "query_usage": {
+    "in": 268,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6117728330427781
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Shanghai: Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+    "Nanyue District: Nanyue District () is one of five districts in Hengyang City, Hunan Province, China; it is also the 2nd smallest district by population (after Wulingyuan District) in Hunan.",
+    "Finless porpoise: Most of the population has been found around the Korean peninsula in the Yellow and East China Seas, although a freshwater population is found around Jiuduansha near Shanghai at the mouth of China's Yangtze River.",
+    "Hengyang: Hengyang () is the second largest city of Hunan Province, China.",
+    "Shigu District: Shigu District () is an urban district of Hengyang City, Hunan province, China."
+   ],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 283,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5252438329625875
+   },
+   "retrieval_latency_seconds": 0.006846125004813075,
+   "query": "Hengyang population",
+   "query_usage": {
+    "in": 268,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6248094590846449
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Shanghai: Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+    "Nanyue District: Nanyue District () is one of five districts in Hengyang City, Hunan Province, China; it is also the 2nd smallest district by population (after Wulingyuan District) in Hunan.",
+    "Finless porpoise: Most of the population has been found around the Korean peninsula in the Yellow and East China Seas, although a freshwater population is found around Jiuduansha near Shanghai at the mouth of China's Yangtze River.",
+    "Hengyang: Hengyang () is the second largest city of Hunan Province, China.",
+    "Shigu District: Shigu District () is an urban district of Hengyang City, Hunan province, China."
+   ],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 283,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5647514159791172
+   },
+   "retrieval_latency_seconds": 0.0014416249468922615,
+   "query": "Hengyang population",
+   "query_usage": {
+    "in": 268,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6396187080536038
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Shanghai: Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+    "Nanyue District: Nanyue District () is one of five districts in Hengyang City, Hunan Province, China; it is also the 2nd smallest district by population (after Wulingyuan District) in Hunan.",
+    "Finless porpoise: Most of the population has been found around the Korean peninsula in the Yellow and East China Seas, although a freshwater population is found around Jiuduansha near Shanghai at the mouth of China's Yangtze River.",
+    "Hengyang: Hengyang () is the second largest city of Hunan Province, China.",
+    "Shigu District: Shigu District () is an urban district of Hengyang City, Hunan province, China."
+   ],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 283,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5565790840191767
+   },
+   "retrieval_latency_seconds": 0.003277667099609971,
+   "query": "Hengyang population",
+   "query_usage": {
+    "in": 268,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.623638333985582
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Shanghai: Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 .",
+    "Nanyue District: Nanyue District () is one of five districts in Hengyang City, Hunan Province, China; it is also the 2nd smallest district by population (after Wulingyuan District) in Hunan.",
+    "Finless porpoise: Most of the population has been found around the Korean peninsula in the Yellow and East China Seas, although a freshwater population is found around Jiuduansha near Shanghai at the mouth of China's Yangtze River.",
+    "Hengyang: Hengyang () is the second largest city of Hunan Province, China.",
+    "Shigu District: Shigu District () is an urban district of Hengyang City, Hunan province, China."
+   ],
+   "answer": "Shanghai",
+   "answer_usage": {
+    "in": 283,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5656617090571672
+   },
+   "retrieval_latency_seconds": 0.0017697080038487911,
+   "query": "Hengyang population",
+   "query_usage": {
+    "in": 268,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6381686669774354
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6666666666666666,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6666666666666666,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   5.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   5.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   5.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   5.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   5.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   5.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

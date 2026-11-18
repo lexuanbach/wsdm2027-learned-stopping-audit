@@ -1,0 +1,338 @@
+{
+ "id": "5a8adc935542992d82986fb0",
+ "question": "Which is headquarter farther south, Jet's Pizza or Chuck E. Cheese's?",
+ "gold_answers": [
+  "Chuck E. Cheese's"
+ ],
+ "support_titles": [
+  "Jet's Pizza",
+  "Chuck E. Cheese's"
+ ],
+ "support_sentences": [
+  "Jet's Pizza is an American pizza franchise restaurant.",
+  "It was founded in 1978 in Sterling Heights, Michigan, and operates primarily in the state of Michigan.",
+  "Chuck E. Cheese's (officially Chuck E. Cheese Pizzeria & Games) is a chain of American family entertainment centers and restaurants.",
+  "The chain is the primary brand of CEC Entertainment, Inc. and is headquartered in Irving, Texas."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Jet's Pizza",
+   "answer_usage": {
+    "in": 81,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6060732909245417
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Jet's Pizza: Jet's Pizza is an American pizza franchise restaurant.",
+    "Pizza Pizza: Pizza Pizza Ltd. is a franchised Canadian pizza fast-food restaurant, with its headquarters in Etobicoke, Toronto.",
+    "Round Table Pizza: The company's headquarters are located in Concord, California."
+   ],
+   "answer": "I cannot determine this from the provided evidence, as Jet's Pizza headquarters location is not specified in the evidence, and Chuck E. Cheese's is not mentioned",
+   "answer_usage": {
+    "in": 145,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.9079273330280557
+   },
+   "retrieval_latency_seconds": 0.021856750012375414,
+   "query": "Jet's Pizza headquarters location",
+   "query_usage": {
+    "in": 66,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6003455000463873
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Jet's Pizza: Jet's Pizza is an American pizza franchise restaurant.",
+    "Pizza Pizza: Pizza Pizza Ltd. is a franchised Canadian pizza fast-food restaurant, with its headquarters in Etobicoke, Toronto.",
+    "Round Table Pizza: The company's headquarters are located in Concord, California."
+   ],
+   "answer": "I cannot determine this from the provided evidence, as Jet's Pizza headquarters location is not specified in the evidence, and Chuck E. Cheese's is not mentioned",
+   "answer_usage": {
+    "in": 145,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.8809385829372332
+   },
+   "retrieval_latency_seconds": 0.014186125015839934,
+   "query": "Jet's Pizza headquarters location",
+   "query_usage": {
+    "in": 130,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5580465419916436
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Jet's Pizza: Jet's Pizza is an American pizza franchise restaurant.",
+    "Pizza Pizza: Pizza Pizza Ltd. is a franchised Canadian pizza fast-food restaurant, with its headquarters in Etobicoke, Toronto.",
+    "Round Table Pizza: The company's headquarters are located in Concord, California."
+   ],
+   "answer": "I cannot determine this from the provided evidence, as Jet's Pizza headquarters location is not specified in the evidence, and Chuck E. Cheese's is not mentioned",
+   "answer_usage": {
+    "in": 145,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.923269624938257
+   },
+   "retrieval_latency_seconds": 0.01432833296712488,
+   "query": "Jet's Pizza headquarters location",
+   "query_usage": {
+    "in": 130,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5382777909981087
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Jet's Pizza: Jet's Pizza is an American pizza franchise restaurant.",
+    "Pizza Pizza: Pizza Pizza Ltd. is a franchised Canadian pizza fast-food restaurant, with its headquarters in Etobicoke, Toronto.",
+    "Round Table Pizza: The company's headquarters are located in Concord, California."
+   ],
+   "answer": "I cannot determine this from the provided evidence, as Jet's Pizza headquarters location is not specified in the evidence, and Chuck E. Cheese's is not mentioned",
+   "answer_usage": {
+    "in": 145,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.8941255409736186
+   },
+   "retrieval_latency_seconds": 0.049935500021092594,
+   "query": "Jet's Pizza headquarters location",
+   "query_usage": {
+    "in": 130,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.554105666000396
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Jet's Pizza: Jet's Pizza is an American pizza franchise restaurant.",
+    "Pizza Pizza: Pizza Pizza Ltd. is a franchised Canadian pizza fast-food restaurant, with its headquarters in Etobicoke, Toronto.",
+    "Round Table Pizza: The company's headquarters are located in Concord, California."
+   ],
+   "answer": "I cannot determine this from the provided evidence, as Jet's Pizza headquarters location is not specified in the evidence, and Chuck E. Cheese's is not mentioned",
+   "answer_usage": {
+    "in": 145,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.9081462499452755
+   },
+   "retrieval_latency_seconds": 0.021055167075246572,
+   "query": "Jet's Pizza headquarters location",
+   "query_usage": {
+    "in": 130,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5666743339970708
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Jet's Pizza: Jet's Pizza is an American pizza franchise restaurant.",
+    "Pizza Pizza: Pizza Pizza Ltd. is a franchised Canadian pizza fast-food restaurant, with its headquarters in Etobicoke, Toronto.",
+    "Round Table Pizza: The company's headquarters are located in Concord, California."
+   ],
+   "answer": "I cannot determine this from the provided evidence, as Jet's Pizza headquarters location is not specified in the evidence, and Chuck E. Cheese's is not mentioned",
+   "answer_usage": {
+    "in": 145,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.8812583329854533
+   },
+   "retrieval_latency_seconds": 0.022631875006482005,
+   "query": "Jet's Pizza headquarters location",
+   "query_usage": {
+    "in": 130,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5660654169041663
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Jet's Pizza: Jet's Pizza is an American pizza franchise restaurant.",
+    "Pizza Pizza: Pizza Pizza Ltd. is a franchised Canadian pizza fast-food restaurant, with its headquarters in Etobicoke, Toronto.",
+    "Round Table Pizza: The company's headquarters are located in Concord, California."
+   ],
+   "answer": "I cannot determine this from the provided evidence, as Jet's Pizza headquarters location is not specified in the evidence, and Chuck E. Cheese's is not mentioned",
+   "answer_usage": {
+    "in": 145,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.9342455830192193
+   },
+   "retrieval_latency_seconds": 0.020259249955415726,
+   "query": "Jet's Pizza headquarters location",
+   "query_usage": {
+    "in": 130,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5347163750557229
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Jet's Pizza: Jet's Pizza is an American pizza franchise restaurant.",
+    "Pizza Pizza: Pizza Pizza Ltd. is a franchised Canadian pizza fast-food restaurant, with its headquarters in Etobicoke, Toronto.",
+    "Round Table Pizza: The company's headquarters are located in Concord, California."
+   ],
+   "answer": "I cannot determine this from the provided evidence, as Jet's Pizza headquarters location is not specified in the evidence, and Chuck E. Cheese's is not mentioned",
+   "answer_usage": {
+    "in": 145,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.8600325000006706
+   },
+   "retrieval_latency_seconds": 0.01795079093426466,
+   "query": "Jet's Pizza headquarters location",
+   "query_usage": {
+    "in": 130,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5720331659540534
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.28571428571428575,
+  0.2666666666666667,
+  0.2666666666666667,
+  0.2666666666666667,
+  0.2666666666666667,
+  0.2666666666666667,
+  0.2666666666666667,
+  0.2666666666666667,
+  0.2666666666666667
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.3333333333333333,
+   3.0,
+   1.0,
+   26.0,
+   0.30434782608695654,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   0.0,
+   26.0,
+   0.30434782608695654,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   0.0,
+   26.0,
+   0.30434782608695654,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   0.0,
+   26.0,
+   0.30434782608695654,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   0.0,
+   26.0,
+   0.30434782608695654,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   0.0,
+   26.0,
+   0.30434782608695654,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   0.0,
+   26.0,
+   0.30434782608695654,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   0.0,
+   26.0,
+   0.30434782608695654,
+   1.0,
+   2.0
+  ]
+ ]
+}

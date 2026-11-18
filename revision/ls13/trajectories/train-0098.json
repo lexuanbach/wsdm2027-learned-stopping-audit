@@ -1,0 +1,357 @@
+{
+ "id": "5ae33cf45542990afbd1e0ea",
+ "question": "How often do trains run on the system which has a terminal station located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City?",
+ "gold_answers": [
+  "24 hours a day and 7 days a week"
+ ],
+ "support_titles": [
+  "33rd Street station (PATH)",
+  "PATH (rail system)"
+ ],
+ "support_sentences": [
+  "Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+  "PATH trains run 24 hours a day and 7 days a week."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Every 3-5 minutes during peak hours; every 5-10 minutes during off-peak hours",
+   "answer_usage": {
+    "in": 99,
+    "out": 28,
+    "calls": 1,
+    "latency_seconds": 0.737197459093295
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "33rd Street station (PATH): Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+    "34th Street\u2013Herald Square (New York City Subway): It is located at Herald Square in Midtown Manhattan where 34th Street, Broadway and Sixth Avenue intersect, and is served by the:",
+    "Herald Square: Herald Square is formed by the intersection of Broadway, Sixth Avenue (officially named Avenue of the Americas), and 34th Street in the borough of Manhattan in New York City."
+   ],
+   "answer": "Weekdays and weekends (with different service patterns)",
+   "answer_usage": {
+    "in": 261,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.6863190829753876
+   },
+   "retrieval_latency_seconds": 0.019532165955752134,
+   "query": "32nd Street Sixth Avenue Herald Square Manhattan terminal station",
+   "query_usage": {
+    "in": 84,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6705951249459758
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "33rd Street station (PATH): Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+    "34th Street\u2013Herald Square (New York City Subway): It is located at Herald Square in Midtown Manhattan where 34th Street, Broadway and Sixth Avenue intersect, and is served by the:",
+    "Herald Square: Herald Square is formed by the intersection of Broadway, Sixth Avenue (officially named Avenue of the Americas), and 34th Street in the borough of Manhattan in New York City.",
+    "City of New Orleans (train): The City of New Orleans is an Amtrak passenger train which operates on an overnight schedule between Chicago and New Orleans.",
+    "Time\u2013frequency analysis for music signals: Time\u2013frequency analysis for music signals is one of the applications of time\u2013frequency analysis.",
+    "Norwegian Air Shuttle: It offers a high-frequency domestic flight schedule within Scandinavia and Finland, and to business destinations such as London, as well as to holiday destinations in the Mediterranean and the Canary Islands, transporting over 30 million people in 2016."
+   ],
+   "answer": "Weekdays and weekends (with different service patterns)",
+   "answer_usage": {
+    "in": 384,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.7484099169960245
+   },
+   "retrieval_latency_seconds": 0.0009928339859470725,
+   "query": "PATH train frequency schedule",
+   "query_usage": {
+    "in": 246,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6130006249295548
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "33rd Street station (PATH): Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+    "34th Street\u2013Herald Square (New York City Subway): It is located at Herald Square in Midtown Manhattan where 34th Street, Broadway and Sixth Avenue intersect, and is served by the:",
+    "Herald Square: Herald Square is formed by the intersection of Broadway, Sixth Avenue (officially named Avenue of the Americas), and 34th Street in the borough of Manhattan in New York City.",
+    "City of New Orleans (train): The City of New Orleans is an Amtrak passenger train which operates on an overnight schedule between Chicago and New Orleans.",
+    "Time\u2013frequency analysis for music signals: Time\u2013frequency analysis for music signals is one of the applications of time\u2013frequency analysis.",
+    "Norwegian Air Shuttle: It offers a high-frequency domestic flight schedule within Scandinavia and Finland, and to business destinations such as London, as well as to holiday destinations in the Mediterranean and the Canary Islands, transporting over 30 million people in 2016."
+   ],
+   "answer": "Weekdays and weekends (with different service patterns)",
+   "answer_usage": {
+    "in": 384,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.781998582999222
+   },
+   "retrieval_latency_seconds": 0.002794041996821761,
+   "query": "PATH train frequency schedule",
+   "query_usage": {
+    "in": 369,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.757203417015262
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "33rd Street station (PATH): Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+    "34th Street\u2013Herald Square (New York City Subway): It is located at Herald Square in Midtown Manhattan where 34th Street, Broadway and Sixth Avenue intersect, and is served by the:",
+    "Herald Square: Herald Square is formed by the intersection of Broadway, Sixth Avenue (officially named Avenue of the Americas), and 34th Street in the borough of Manhattan in New York City.",
+    "City of New Orleans (train): The City of New Orleans is an Amtrak passenger train which operates on an overnight schedule between Chicago and New Orleans.",
+    "Time\u2013frequency analysis for music signals: Time\u2013frequency analysis for music signals is one of the applications of time\u2013frequency analysis.",
+    "Norwegian Air Shuttle: It offers a high-frequency domestic flight schedule within Scandinavia and Finland, and to business destinations such as London, as well as to holiday destinations in the Mediterranean and the Canary Islands, transporting over 30 million people in 2016."
+   ],
+   "answer": "Weekdays and weekends (with different service patterns)",
+   "answer_usage": {
+    "in": 384,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.7585883340798318
+   },
+   "retrieval_latency_seconds": 0.003566458006389439,
+   "query": "PATH train frequency schedule",
+   "query_usage": {
+    "in": 369,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5890371670247987
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "33rd Street station (PATH): Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+    "34th Street\u2013Herald Square (New York City Subway): It is located at Herald Square in Midtown Manhattan where 34th Street, Broadway and Sixth Avenue intersect, and is served by the:",
+    "Herald Square: Herald Square is formed by the intersection of Broadway, Sixth Avenue (officially named Avenue of the Americas), and 34th Street in the borough of Manhattan in New York City.",
+    "City of New Orleans (train): The City of New Orleans is an Amtrak passenger train which operates on an overnight schedule between Chicago and New Orleans.",
+    "Time\u2013frequency analysis for music signals: Time\u2013frequency analysis for music signals is one of the applications of time\u2013frequency analysis.",
+    "Norwegian Air Shuttle: It offers a high-frequency domestic flight schedule within Scandinavia and Finland, and to business destinations such as London, as well as to holiday destinations in the Mediterranean and the Canary Islands, transporting over 30 million people in 2016."
+   ],
+   "answer": "Weekdays and weekends (with different service patterns)",
+   "answer_usage": {
+    "in": 384,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.7913176669972017
+   },
+   "retrieval_latency_seconds": 0.0010898750042542815,
+   "query": "PATH train frequency schedule",
+   "query_usage": {
+    "in": 369,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.682121291058138
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "33rd Street station (PATH): Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+    "34th Street\u2013Herald Square (New York City Subway): It is located at Herald Square in Midtown Manhattan where 34th Street, Broadway and Sixth Avenue intersect, and is served by the:",
+    "Herald Square: Herald Square is formed by the intersection of Broadway, Sixth Avenue (officially named Avenue of the Americas), and 34th Street in the borough of Manhattan in New York City.",
+    "City of New Orleans (train): The City of New Orleans is an Amtrak passenger train which operates on an overnight schedule between Chicago and New Orleans.",
+    "Time\u2013frequency analysis for music signals: Time\u2013frequency analysis for music signals is one of the applications of time\u2013frequency analysis.",
+    "Norwegian Air Shuttle: It offers a high-frequency domestic flight schedule within Scandinavia and Finland, and to business destinations such as London, as well as to holiday destinations in the Mediterranean and the Canary Islands, transporting over 30 million people in 2016."
+   ],
+   "answer": "Weekdays and weekends (with different service patterns)",
+   "answer_usage": {
+    "in": 384,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.7287010420113802
+   },
+   "retrieval_latency_seconds": 0.0009497080463916063,
+   "query": "PATH train frequency schedule",
+   "query_usage": {
+    "in": 369,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5720635410398245
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "33rd Street station (PATH): Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+    "34th Street\u2013Herald Square (New York City Subway): It is located at Herald Square in Midtown Manhattan where 34th Street, Broadway and Sixth Avenue intersect, and is served by the:",
+    "Herald Square: Herald Square is formed by the intersection of Broadway, Sixth Avenue (officially named Avenue of the Americas), and 34th Street in the borough of Manhattan in New York City.",
+    "City of New Orleans (train): The City of New Orleans is an Amtrak passenger train which operates on an overnight schedule between Chicago and New Orleans.",
+    "Time\u2013frequency analysis for music signals: Time\u2013frequency analysis for music signals is one of the applications of time\u2013frequency analysis.",
+    "Norwegian Air Shuttle: It offers a high-frequency domestic flight schedule within Scandinavia and Finland, and to business destinations such as London, as well as to holiday destinations in the Mediterranean and the Canary Islands, transporting over 30 million people in 2016."
+   ],
+   "answer": "Weekdays and weekends (with different service patterns)",
+   "answer_usage": {
+    "in": 384,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.7427402910543606
+   },
+   "retrieval_latency_seconds": 0.0010345830814912915,
+   "query": "PATH train frequency schedule",
+   "query_usage": {
+    "in": 369,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6317583750933409
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "33rd Street station (PATH): Located at the intersection of 32nd Street and Sixth Avenue in the Herald Square neighborhood of Manhattan, New York City, it is served by the Hoboken\u201333rd Street and Journal Square\u201333rd Street lines on weekdays, and by the Journal Square\u201333rd Street (via Hoboken) line on weekends.",
+    "34th Street\u2013Herald Square (New York City Subway): It is located at Herald Square in Midtown Manhattan where 34th Street, Broadway and Sixth Avenue intersect, and is served by the:",
+    "Herald Square: Herald Square is formed by the intersection of Broadway, Sixth Avenue (officially named Avenue of the Americas), and 34th Street in the borough of Manhattan in New York City.",
+    "City of New Orleans (train): The City of New Orleans is an Amtrak passenger train which operates on an overnight schedule between Chicago and New Orleans.",
+    "Time\u2013frequency analysis for music signals: Time\u2013frequency analysis for music signals is one of the applications of time\u2013frequency analysis.",
+    "Norwegian Air Shuttle: It offers a high-frequency domestic flight schedule within Scandinavia and Finland, and to business destinations such as London, as well as to holiday destinations in the Mediterranean and the Canary Islands, transporting over 30 million people in 2016."
+   ],
+   "answer": "Weekdays and weekends (with different service patterns)",
+   "answer_usage": {
+    "in": 384,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.7428559580584988
+   },
+   "retrieval_latency_seconds": 0.00256808300036937,
+   "query": "PATH train frequency schedule",
+   "query_usage": {
+    "in": 369,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5821816669777036
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.09090909090909091,
+  0.14285714285714285,
+  0.14285714285714285,
+  0.14285714285714285,
+  0.14285714285714285,
+  0.14285714285714285,
+  0.14285714285714285,
+  0.14285714285714285,
+  0.14285714285714285
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   15.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6666666666666666,
+   3.0,
+   1.0,
+   7.0,
+   0.42857142857142855,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7333333333333333,
+   3.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.7333333333333333,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   2.0
+  ]
+ ]
+}

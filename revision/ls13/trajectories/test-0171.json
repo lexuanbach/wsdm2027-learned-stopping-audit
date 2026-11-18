@@ -1,0 +1,356 @@
+{
+ "id": "5abcfa6f5542993a06baf9c7",
+ "question": "Both Hatter and March Hare are characters in which book?",
+ "gold_answers": [
+  "Alice's Adventures in Wonderland"
+ ],
+ "support_titles": [
+  "Hatter (Alice's Adventures in Wonderland)",
+  "March Hare"
+ ],
+ "support_sentences": [
+  "The Hatter is a fictional character in Lewis Carroll's \"Alice's Adventures in Wonderland\" and its sequel \"Through the Looking-Glass\".",
+  "The March Hare (called Haigha in \"Through the Looking-Glass\") is a character most famous for appearing in the tea party scene in Lewis Carroll's \"Alice's Adventures in Wonderland\"."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 76,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5859230840578675
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Hatter (Alice's Adventures in Wonderland): The Hatter and the March Hare are referred to as \"both \"mad\"\" by the Cheshire Cat, in \"Alice's Adventures in Wonderland\" in the seventh chapter titled \"A Mad Tea-Party\".",
+    "Forward March Hare: The title relates to the March Hare.",
+    "March Hare (festival): The Hare takes place in early March each year."
+   ],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 173,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.4968335001030937
+   },
+   "retrieval_latency_seconds": 0.018855375004932284,
+   "query": "Hatter March Hare characters book",
+   "query_usage": {
+    "in": 61,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6039047499652952
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Hatter (Alice's Adventures in Wonderland): The Hatter and the March Hare are referred to as \"both \"mad\"\" by the Cheshire Cat, in \"Alice's Adventures in Wonderland\" in the seventh chapter titled \"A Mad Tea-Party\".",
+    "Forward March Hare: The title relates to the March Hare.",
+    "March Hare (festival): The Hare takes place in early March each year.",
+    "March Hare: The March Hare (called Haigha in \"Through the Looking-Glass\") is a character most famous for appearing in the tea party scene in Lewis Carroll's \"Alice's Adventures in Wonderland\".",
+    "Hatter (Alice's Adventures in Wonderland): The Hatter is a fictional character in Lewis Carroll's \"Alice's Adventures in Wonderland\" and its sequel \"Through the Looking-Glass\"."
+   ],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 269,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5671542080817744
+   },
+   "retrieval_latency_seconds": 0.21136204106733203,
+   "query": "March Hare Alice's Adventures in Wonderland character",
+   "query_usage": {
+    "in": 158,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5894195840228349
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Hatter (Alice's Adventures in Wonderland): The Hatter and the March Hare are referred to as \"both \"mad\"\" by the Cheshire Cat, in \"Alice's Adventures in Wonderland\" in the seventh chapter titled \"A Mad Tea-Party\".",
+    "Forward March Hare: The title relates to the March Hare.",
+    "March Hare (festival): The Hare takes place in early March each year.",
+    "March Hare: The March Hare (called Haigha in \"Through the Looking-Glass\") is a character most famous for appearing in the tea party scene in Lewis Carroll's \"Alice's Adventures in Wonderland\".",
+    "Hatter (Alice's Adventures in Wonderland): The Hatter is a fictional character in Lewis Carroll's \"Alice's Adventures in Wonderland\" and its sequel \"Through the Looking-Glass\".",
+    "Hatter (Alice's Adventures in Wonderland): The phrase \"mad as a hatter\" pre-dates Carroll's works."
+   ],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 299,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5692551250103861
+   },
+   "retrieval_latency_seconds": 0.19624375004786998,
+   "query": "I have enough information to answer the question. Both the Hatter and March Hare are characters in **\"Alice's Adventures in Wonderland",
+   "query_usage": {
+    "in": 254,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7623665409628302
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Hatter (Alice's Adventures in Wonderland): The Hatter and the March Hare are referred to as \"both \"mad\"\" by the Cheshire Cat, in \"Alice's Adventures in Wonderland\" in the seventh chapter titled \"A Mad Tea-Party\".",
+    "Forward March Hare: The title relates to the March Hare.",
+    "March Hare (festival): The Hare takes place in early March each year.",
+    "March Hare: The March Hare (called Haigha in \"Through the Looking-Glass\") is a character most famous for appearing in the tea party scene in Lewis Carroll's \"Alice's Adventures in Wonderland\".",
+    "Hatter (Alice's Adventures in Wonderland): The Hatter is a fictional character in Lewis Carroll's \"Alice's Adventures in Wonderland\" and its sequel \"Through the Looking-Glass\".",
+    "Hatter (Alice's Adventures in Wonderland): The phrase \"mad as a hatter\" pre-dates Carroll's works."
+   ],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 299,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5596770419506356
+   },
+   "retrieval_latency_seconds": 1.3111450840951875,
+   "query": "I have enough information to answer the question. Both the Hatter and March Hare are characters in **\"Alice's Adventures in Wonderland",
+   "query_usage": {
+    "in": 284,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7467262499267235
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Hatter (Alice's Adventures in Wonderland): The Hatter and the March Hare are referred to as \"both \"mad\"\" by the Cheshire Cat, in \"Alice's Adventures in Wonderland\" in the seventh chapter titled \"A Mad Tea-Party\".",
+    "Forward March Hare: The title relates to the March Hare.",
+    "March Hare (festival): The Hare takes place in early March each year.",
+    "March Hare: The March Hare (called Haigha in \"Through the Looking-Glass\") is a character most famous for appearing in the tea party scene in Lewis Carroll's \"Alice's Adventures in Wonderland\".",
+    "Hatter (Alice's Adventures in Wonderland): The Hatter is a fictional character in Lewis Carroll's \"Alice's Adventures in Wonderland\" and its sequel \"Through the Looking-Glass\".",
+    "Hatter (Alice's Adventures in Wonderland): The phrase \"mad as a hatter\" pre-dates Carroll's works."
+   ],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 299,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5893469169968739
+   },
+   "retrieval_latency_seconds": 0.2325352500192821,
+   "query": "I have enough information to answer the question. Both the Hatter and March Hare are characters in **\"Alice's Adventures in Wonderland",
+   "query_usage": {
+    "in": 284,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 1.0124365839874372
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Hatter (Alice's Adventures in Wonderland): The Hatter and the March Hare are referred to as \"both \"mad\"\" by the Cheshire Cat, in \"Alice's Adventures in Wonderland\" in the seventh chapter titled \"A Mad Tea-Party\".",
+    "Forward March Hare: The title relates to the March Hare.",
+    "March Hare (festival): The Hare takes place in early March each year.",
+    "March Hare: The March Hare (called Haigha in \"Through the Looking-Glass\") is a character most famous for appearing in the tea party scene in Lewis Carroll's \"Alice's Adventures in Wonderland\".",
+    "Hatter (Alice's Adventures in Wonderland): The Hatter is a fictional character in Lewis Carroll's \"Alice's Adventures in Wonderland\" and its sequel \"Through the Looking-Glass\".",
+    "Hatter (Alice's Adventures in Wonderland): The phrase \"mad as a hatter\" pre-dates Carroll's works."
+   ],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 299,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.538534541032277
+   },
+   "retrieval_latency_seconds": 0.17177849996369332,
+   "query": "I have enough information to answer the question. Both the Hatter and March Hare are characters in **\"Alice's Adventures in Wonderland",
+   "query_usage": {
+    "in": 284,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7145437919534743
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Hatter (Alice's Adventures in Wonderland): The Hatter and the March Hare are referred to as \"both \"mad\"\" by the Cheshire Cat, in \"Alice's Adventures in Wonderland\" in the seventh chapter titled \"A Mad Tea-Party\".",
+    "Forward March Hare: The title relates to the March Hare.",
+    "March Hare (festival): The Hare takes place in early March each year.",
+    "March Hare: The March Hare (called Haigha in \"Through the Looking-Glass\") is a character most famous for appearing in the tea party scene in Lewis Carroll's \"Alice's Adventures in Wonderland\".",
+    "Hatter (Alice's Adventures in Wonderland): The Hatter is a fictional character in Lewis Carroll's \"Alice's Adventures in Wonderland\" and its sequel \"Through the Looking-Glass\".",
+    "Hatter (Alice's Adventures in Wonderland): The phrase \"mad as a hatter\" pre-dates Carroll's works."
+   ],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 299,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.570278458064422
+   },
+   "retrieval_latency_seconds": 0.2807642089901492,
+   "query": "I have enough information to answer the question. Both the Hatter and March Hare are characters in **\"Alice's Adventures in Wonderland",
+   "query_usage": {
+    "in": 284,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7359995840815827
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Hatter (Alice's Adventures in Wonderland): The Hatter and the March Hare are referred to as \"both \"mad\"\" by the Cheshire Cat, in \"Alice's Adventures in Wonderland\" in the seventh chapter titled \"A Mad Tea-Party\".",
+    "Forward March Hare: The title relates to the March Hare.",
+    "March Hare (festival): The Hare takes place in early March each year.",
+    "March Hare: The March Hare (called Haigha in \"Through the Looking-Glass\") is a character most famous for appearing in the tea party scene in Lewis Carroll's \"Alice's Adventures in Wonderland\".",
+    "Hatter (Alice's Adventures in Wonderland): The Hatter is a fictional character in Lewis Carroll's \"Alice's Adventures in Wonderland\" and its sequel \"Through the Looking-Glass\".",
+    "Hatter (Alice's Adventures in Wonderland): The phrase \"mad as a hatter\" pre-dates Carroll's works."
+   ],
+   "answer": "Alice's Adventures in Wonderland",
+   "answer_usage": {
+    "in": 299,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5756532920058817
+   },
+   "retrieval_latency_seconds": 0.17345183296129107,
+   "query": "I have enough information to answer the question. Both the Hatter and March Hare are characters in **\"Alice's Adventures in Wonderland",
+   "query_usage": {
+    "in": 284,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.717599333031103
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   5.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.7,
+   3.0,
+   0.0,
+   5.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7,
+   2.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.7,
+   1.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.7,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.7,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.7,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.7,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.7,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

@@ -3,19 +3,16 @@
 
 Large language model agents increasingly alternate between reasoning,
 retrieval, and answer generation~\cite{yao2023react,nakano2021webgpt,
-trivedi2023ircot,jin2025searchr1}. Each retrieval changes both the cost of an
-episode and the evidence available to the answer generator. It may supply a
-missing fact, repeat information after the answer has stabilized, or introduce
-distracting evidence that changes a correct answer~\cite{chen2024overthinking,
-cuadron2025danger,greshake2023notwhat}. Stopping is therefore not merely an
-efficiency control. It is part of the answer policy because it sets when
-the system commits to its collected evidence.
+trivedi2023ircot,jin2025searchr1}. Retrieval may supply a missing fact, repeat known information, or
+distract the generator from a correct answer~\cite{chen2024overthinking,
+cuadron2025danger,greshake2023notwhat}. Stopping sets both execution cost and when the system commits to an answer.
 
 \begin{figure*}[t]
   \centering
   \input{figures/fig_overview}
   \caption{Top: a logged run in which the learned rule stops too late, while a
-  fixed two-search budget stops on the right answer. Bottom: the four-step audit.}
+  fixed two-search budget stops on the right answer. Bottom: the four-step audit.
+  Icons: Microsoft Fluent Emoji, copyright Microsoft Corporation, MIT License.}
   \label{fig:overview}
   \Description{Two-row diagram. The top row follows one logged HotpotQA run:
   after searches one to four the agent answers Joyce Wieland, Thomas Carr
@@ -58,21 +55,16 @@ Our evaluation spans 26 core cells across four question-answering populations
 and nine frozen backbones. Fourteen core cells retain complete prefix-level
 cost instrumentation. We combine these cells with four crossed-backbone cells
 only for the principal 18-cell matched-cost family. We also freeze a separate
-MultiHopRAG news-corpus cell before fitting and test evaluation. Keeping
-these populations distinct preserves the provenance, cost records, and
-eligible policy families behind each conclusion.
+MultiHopRAG news-corpus cell before fitting and test evaluation. These distinct populations define each analysis family.
 
-Our findings distinguish stopping opportunity from learned policy value. We
-find that FBG-only removes 27 to 57\% of searches on the nine-backbone
+FBG-only removes 27 to 57\% of searches on the nine-backbone
 HotpotQA panel. Across the 26-cell core, however, a simple policy
 Pareto-dominates guarded FBG in 15
 cells, while the guard creates a point-frontier improvement over the selected
-fixed budget in five. Our hindsight oracle then establishes that the logged
-trajectories contain substantial headroom. It improves full search in every
-fully instrumented core cell by 4.84 EM points on average. The learned-policy
-gap therefore lies in identifying useful exits, not in whether they exist.
+fixed budget in five. The hindsight oracle improves full search in every fully instrumented core
+cell, averaging 4.84 EM points. Useful exits exist, but the guard often misses them.
 
-The cross-signal analysis makes that diagnosis more precise. FBG orders
+FBG orders
 stopped-answer risk better than random in 7 of 18 cells, compared with all 18
 for our current-error head. Binary future-improvement and error-head policies
 produce positive cellwise estimates, yet no policy with an available
@@ -80,9 +72,8 @@ simultaneous analysis retains a positive max-t interval. Same-question decoding
 reruns preserve the primary non-inferiority decision, whereas independent
 question draws produce both passing and failing decisions. Our external news
 cell meets its frozen endpoint, while its matched-cost FBG advantage remains
-unresolved. These outcomes expose four separate requirements in the deployment
-argument: prediction quality, threshold selection, population stability, and
-policy utility.
+unresolved. Prediction, selection, population stability, and policy utility are distinct
+requirements for deployment.
 
 We contribute a selection-aware frontier protocol, a cross-signal empirical
 diagnosis, and an audit package with trajectories, prefix costs, selections,

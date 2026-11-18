@@ -1,0 +1,369 @@
+{
+ "id": "5adea83b55429975fa854f53",
+ "question": "Thirukkalacherry is a village in which Indian town?",
+ "gold_answers": [
+  "Tharangambadi"
+ ],
+ "support_titles": [
+  "Thirukkalacherry",
+  "Tharangambadi"
+ ],
+ "support_sentences": [
+  "Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+  "Tharangambadi, formerly Tranquebar, is a town in the Nagapattinam district of the Indian state of Tamil Nadu."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Thiruvananthapuram",
+   "answer_usage": {
+    "in": 75,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.545084833051078
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Thirukkalacherry: Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+    "Mokokchung Village: Mokokchung Village, a village in Mokokchung district is an ancient village in the former Naga Hills, Nagaland, India.",
+    "Abapura: Abapura is a village panchayat located in the Banswara district of Rajasthan state,India.Abapura is a Village in Banswara Tehsil in Banswara District of Rajasthan State, India."
+   ],
+   "answer": "Tranquebar (Tharangambadi)",
+   "answer_usage": {
+    "in": 245,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.6203047080198303
+   },
+   "retrieval_latency_seconds": 0.00524195795878768,
+   "query": "Thirukkalacherry village India",
+   "query_usage": {
+    "in": 60,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5519324999768287
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Thirukkalacherry: Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+    "Mokokchung Village: Mokokchung Village, a village in Mokokchung district is an ancient village in the former Naga Hills, Nagaland, India.",
+    "Abapura: Abapura is a village panchayat located in the Banswara district of Rajasthan state,India.Abapura is a Village in Banswara Tehsil in Banswara District of Rajasthan State, India.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Tranquebar (Tharangambadi)",
+   "answer_usage": {
+    "in": 343,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.5990996670443565
+   },
+   "retrieval_latency_seconds": 0.3919281249400228,
+   "query": "Based on the information provided, I already have the answer to the question. According to the known facts, Thirukkalacherry is a village in **",
+   "query_usage": {
+    "in": 230,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.759603250073269
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Thirukkalacherry: Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+    "Mokokchung Village: Mokokchung Village, a village in Mokokchung district is an ancient village in the former Naga Hills, Nagaland, India.",
+    "Abapura: Abapura is a village panchayat located in the Banswara district of Rajasthan state,India.Abapura is a Village in Banswara Tehsil in Banswara District of Rajasthan State, India.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Tharangambadi: Tharangambadi, formerly Tranquebar, is a town in the Nagapattinam district of the Indian state of Tamil Nadu.",
+    "Tamil Nadu Agricultural University Ground: Tamil Nadu Agricultural Research Institute Ground is a multi purpose stadium in Coimbatore, Tamil Nadu."
+   ],
+   "answer": "Tharangambadi",
+   "answer_usage": {
+    "in": 413,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5967667499789968
+   },
+   "retrieval_latency_seconds": 0.0028969160048291087,
+   "query": "Tranquebar town Tamil Nadu",
+   "query_usage": {
+    "in": 328,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6741008339449763
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Thirukkalacherry: Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+    "Mokokchung Village: Mokokchung Village, a village in Mokokchung district is an ancient village in the former Naga Hills, Nagaland, India.",
+    "Abapura: Abapura is a village panchayat located in the Banswara district of Rajasthan state,India.Abapura is a Village in Banswara Tehsil in Banswara District of Rajasthan State, India.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Tharangambadi: Tharangambadi, formerly Tranquebar, is a town in the Nagapattinam district of the Indian state of Tamil Nadu.",
+    "Tamil Nadu Agricultural University Ground: Tamil Nadu Agricultural Research Institute Ground is a multi purpose stadium in Coimbatore, Tamil Nadu."
+   ],
+   "answer": "Tharangambadi",
+   "answer_usage": {
+    "in": 413,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6339133749715984
+   },
+   "retrieval_latency_seconds": 0.6525965000037104,
+   "query": "Based on the known information, I can already answer the question. Thirukkalacherry is a village in **Tharangambadi** (",
+   "query_usage": {
+    "in": 398,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.767127790953964
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Thirukkalacherry: Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+    "Mokokchung Village: Mokokchung Village, a village in Mokokchung district is an ancient village in the former Naga Hills, Nagaland, India.",
+    "Abapura: Abapura is a village panchayat located in the Banswara district of Rajasthan state,India.Abapura is a Village in Banswara Tehsil in Banswara District of Rajasthan State, India.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Tharangambadi: Tharangambadi, formerly Tranquebar, is a town in the Nagapattinam district of the Indian state of Tamil Nadu.",
+    "Tamil Nadu Agricultural University Ground: Tamil Nadu Agricultural Research Institute Ground is a multi purpose stadium in Coimbatore, Tamil Nadu."
+   ],
+   "answer": "Tharangambadi",
+   "answer_usage": {
+    "in": 413,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5564528750255704
+   },
+   "retrieval_latency_seconds": 0.14261241699568927,
+   "query": "Based on the known information, I can already answer the question. Thirukkalacherry is a village in **Tharangambadi** (",
+   "query_usage": {
+    "in": 398,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.739500958006829
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Thirukkalacherry: Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+    "Mokokchung Village: Mokokchung Village, a village in Mokokchung district is an ancient village in the former Naga Hills, Nagaland, India.",
+    "Abapura: Abapura is a village panchayat located in the Banswara district of Rajasthan state,India.Abapura is a Village in Banswara Tehsil in Banswara District of Rajasthan State, India.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Tharangambadi: Tharangambadi, formerly Tranquebar, is a town in the Nagapattinam district of the Indian state of Tamil Nadu.",
+    "Tamil Nadu Agricultural University Ground: Tamil Nadu Agricultural Research Institute Ground is a multi purpose stadium in Coimbatore, Tamil Nadu."
+   ],
+   "answer": "Tharangambadi",
+   "answer_usage": {
+    "in": 413,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.7546225000405684
+   },
+   "retrieval_latency_seconds": 0.15495404205285013,
+   "query": "Based on the known information, I can already answer the question. Thirukkalacherry is a village in **Tharangambadi** (",
+   "query_usage": {
+    "in": 398,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7549789160257205
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Thirukkalacherry: Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+    "Mokokchung Village: Mokokchung Village, a village in Mokokchung district is an ancient village in the former Naga Hills, Nagaland, India.",
+    "Abapura: Abapura is a village panchayat located in the Banswara district of Rajasthan state,India.Abapura is a Village in Banswara Tehsil in Banswara District of Rajasthan State, India.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Tharangambadi: Tharangambadi, formerly Tranquebar, is a town in the Nagapattinam district of the Indian state of Tamil Nadu.",
+    "Tamil Nadu Agricultural University Ground: Tamil Nadu Agricultural Research Institute Ground is a multi purpose stadium in Coimbatore, Tamil Nadu."
+   ],
+   "answer": "Tharangambadi",
+   "answer_usage": {
+    "in": 413,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5900931250071153
+   },
+   "retrieval_latency_seconds": 0.32345137500669807,
+   "query": "Based on the known information, I can already answer the question. Thirukkalacherry is a village in **Tharangambadi** (",
+   "query_usage": {
+    "in": 398,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7497713330667466
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Thirukkalacherry: Thirukkalachery (Tamil: \u0ba4\u0bbf\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbe\u0b9a\u0bcd\u0b9a\u0bc7\u0bb0\u0bbf) is a small village in Nagapattinam District, Tranquebar (Tharangambadi) Taluk, Tamil Nadu, India.",
+    "Mokokchung Village: Mokokchung Village, a village in Mokokchung district is an ancient village in the former Naga Hills, Nagaland, India.",
+    "Abapura: Abapura is a village panchayat located in the Banswara district of Rajasthan state,India.Abapura is a Village in Banswara Tehsil in Banswara District of Rajasthan State, India.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Tharangambadi: Tharangambadi, formerly Tranquebar, is a town in the Nagapattinam district of the Indian state of Tamil Nadu.",
+    "Tamil Nadu Agricultural University Ground: Tamil Nadu Agricultural Research Institute Ground is a multi purpose stadium in Coimbatore, Tamil Nadu."
+   ],
+   "answer": "Tharangambadi",
+   "answer_usage": {
+    "in": 413,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5424388750689104
+   },
+   "retrieval_latency_seconds": 0.4988115830346942,
+   "query": "Based on the known information, I can already answer the question. Thirukkalacherry is a village in **Tharangambadi** (",
+   "query_usage": {
+    "in": 398,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7433897500159219
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.6666666666666666,
+  0.6666666666666666,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.625,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.625,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.875,
+   2.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.875,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.875,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.875,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.875,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.875,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "id": "5a83c56d5542996488c2e4c3",
+ "question": "Which magazine, the British response to magazines such as \"Playboy\" and \"Penthouse\" did horror author Graham Masterton edit?",
+ "gold_answers": [
+  "Mayfair"
+ ],
+ "support_titles": [
+  "Graham Masterton",
+  "Mayfair (magazine)"
+ ],
+ "support_sentences": [
+  "Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+  "Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+  "Founded in 1965, it was designed as a response to US magazines such as \"Playboy\" and \"Penthouse\", which had recently launched in the UK."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Penthouse",
+   "answer_usage": {
+    "in": 91,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6101648330222815
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Graham Masterton: Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+    "Graham Masterton: Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+    "Graham Masterton: Masterton was also the editor of \"Scare Care\", a horror anthology published for the benefit of abused children in Europe and the USA."
+   ],
+   "answer": "Mayfair",
+   "answer_usage": {
+    "in": 200,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5486832919996232
+   },
+   "retrieval_latency_seconds": 0.004349500057287514,
+   "query": "Graham Masterton editor magazine British Playboy Penthouse",
+   "query_usage": {
+    "in": 76,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6809805409284309
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Graham Masterton: Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+    "Graham Masterton: Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+    "Graham Masterton: Masterton was also the editor of \"Scare Care\", a horror anthology published for the benefit of abused children in Europe and the USA.",
+    "Mayfair (magazine): Mayfair is a British adult magazine for men."
+   ],
+   "answer": "Mayfair",
+   "answer_usage": {
+    "in": 221,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5814465840812773
+   },
+   "retrieval_latency_seconds": 0.012294749962165952,
+   "query": "Graham Masterton Mayfair magazine British editor",
+   "query_usage": {
+    "in": 185,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6736864999402314
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Graham Masterton: Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+    "Graham Masterton: Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+    "Graham Masterton: Masterton was also the editor of \"Scare Care\", a horror anthology published for the benefit of abused children in Europe and the USA.",
+    "Mayfair (magazine): Mayfair is a British adult magazine for men.",
+    "Mayfair (magazine): Founded in 1965, it was designed as a response to US magazines such as \"Playboy\" and \"Penthouse\", which had recently launched in the UK."
+   ],
+   "answer": "Mayfair",
+   "answer_usage": {
+    "in": 266,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6042489999672398
+   },
+   "retrieval_latency_seconds": 0.01221279101446271,
+   "query": "Mayfair magazine British response Playboy Penthouse",
+   "query_usage": {
+    "in": 206,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.689441749942489
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Graham Masterton: Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+    "Graham Masterton: Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+    "Graham Masterton: Masterton was also the editor of \"Scare Care\", a horror anthology published for the benefit of abused children in Europe and the USA.",
+    "Mayfair (magazine): Mayfair is a British adult magazine for men.",
+    "Mayfair (magazine): Founded in 1965, it was designed as a response to US magazines such as \"Playboy\" and \"Penthouse\", which had recently launched in the UK.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Pinky Kravitz: He was known simply as \"Pinky,\" and he reportedly refused to answer to his given name."
+   ],
+   "answer": "Mayfair",
+   "answer_usage": {
+    "in": 343,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6385609159478918
+   },
+   "retrieval_latency_seconds": 0.24237591691780835,
+   "query": "The answer is already in the known facts provided. Based on the information given:",
+   "query_usage": {
+    "in": 251,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8574832919985056
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Graham Masterton: Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+    "Graham Masterton: Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+    "Graham Masterton: Masterton was also the editor of \"Scare Care\", a horror anthology published for the benefit of abused children in Europe and the USA.",
+    "Mayfair (magazine): Mayfair is a British adult magazine for men.",
+    "Mayfair (magazine): Founded in 1965, it was designed as a response to US magazines such as \"Playboy\" and \"Penthouse\", which had recently launched in the UK.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Pinky Kravitz: He was known simply as \"Pinky,\" and he reportedly refused to answer to his given name.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay."
+   ],
+   "answer": "Mayfair",
+   "answer_usage": {
+    "in": 384,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5929622909752652
+   },
+   "retrieval_latency_seconds": 0.3693331660469994,
+   "query": "The search query is not needed. Based on the known facts provided, the answer is already clear:",
+   "query_usage": {
+    "in": 328,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.925810958025977
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Graham Masterton: Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+    "Graham Masterton: Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+    "Graham Masterton: Masterton was also the editor of \"Scare Care\", a horror anthology published for the benefit of abused children in Europe and the USA.",
+    "Mayfair (magazine): Mayfair is a British adult magazine for men.",
+    "Mayfair (magazine): Founded in 1965, it was designed as a response to US magazines such as \"Playboy\" and \"Penthouse\", which had recently launched in the UK.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Pinky Kravitz: He was known simply as \"Pinky,\" and he reportedly refused to answer to his given name.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Alternative facts (law): Alternative facts is a term in law to describe inconsistent sets of facts put forth by the same party in a court given that there is plausible evidence to support both alternatives."
+   ],
+   "answer": "Mayfair",
+   "answer_usage": {
+    "in": 427,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5448908340185881
+   },
+   "retrieval_latency_seconds": 0.41613062494434416,
+   "query": "The question has already been answered based on the known facts provided. According to the information given, **Mayfair** is the British magazine that Graham",
+   "query_usage": {
+    "in": 369,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.9484571670182049
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Graham Masterton: Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+    "Graham Masterton: Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+    "Graham Masterton: Masterton was also the editor of \"Scare Care\", a horror anthology published for the benefit of abused children in Europe and the USA.",
+    "Mayfair (magazine): Mayfair is a British adult magazine for men.",
+    "Mayfair (magazine): Founded in 1965, it was designed as a response to US magazines such as \"Playboy\" and \"Penthouse\", which had recently launched in the UK.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Pinky Kravitz: He was known simply as \"Pinky,\" and he reportedly refused to answer to his given name.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Alternative facts (law): Alternative facts is a term in law to describe inconsistent sets of facts put forth by the same party in a court given that there is plausible evidence to support both alternatives.",
+    "Antoine River (Arkansas): According to the GNIS, it has also been known as Antoine Creek."
+   ],
+   "answer": "Mayfair",
+   "answer_usage": {
+    "in": 450,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5017205830663443
+   },
+   "retrieval_latency_seconds": 0.11769241699948907,
+   "query": "The question has already been answered based on the known facts provided. According to the information given:",
+   "query_usage": {
+    "in": 412,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8761460829991847
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Graham Masterton: Originally editor of \"Mayfair\" and the British edition of \"Penthouse\", Graham Masterton's first novel \"The Manitou\" was released in 1976.",
+    "Graham Masterton: Graham Masterton (born 16 January 1946 in Edinburgh) is a British horror author.",
+    "Graham Masterton: Masterton was also the editor of \"Scare Care\", a horror anthology published for the benefit of abused children in Europe and the USA.",
+    "Mayfair (magazine): Mayfair is a British adult magazine for men.",
+    "Mayfair (magazine): Founded in 1965, it was designed as a response to US magazines such as \"Playboy\" and \"Penthouse\", which had recently launched in the UK.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Pinky Kravitz: He was known simply as \"Pinky,\" and he reportedly refused to answer to his given name.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "Jessica (novel): Jessica is a historical novel based in real facts by Bryce Courtenay.",
+    "Alternative facts (law): Alternative facts is a term in law to describe inconsistent sets of facts put forth by the same party in a court given that there is plausible evidence to support both alternatives.",
+    "Antoine River (Arkansas): According to the GNIS, it has also been known as Antoine Creek."
+   ],
+   "answer": "Mayfair",
+   "answer_usage": {
+    "in": 450,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5028955419547856
+   },
+   "retrieval_latency_seconds": 0.16464624996297061,
+   "query": "Based on the known information, I can already answer the question: **Mayfair** is the British magazine that Graham Masterton edited, which was",
+   "query_usage": {
+    "in": 435,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8576066669775173
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4444444444444444,
+   3.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   4.0,
+   0.5,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   5.0,
+   0.8888888888888888,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.8888888888888888,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   10.0,
+   0.8888888888888888,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.8888888888888888,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   12.0,
+   0.8888888888888888,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   12.0,
+   0.8888888888888888,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

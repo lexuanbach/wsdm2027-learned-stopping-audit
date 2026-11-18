@@ -1,0 +1,382 @@
+{
+ "id": "5a7ec95b55429934daa2fc67",
+ "question": "Were Gregory La Cava and Mike Judge both actors? ",
+ "gold_answers": [
+  "no"
+ ],
+ "support_titles": [
+  "Gregory La Cava",
+  "Mike Judge"
+ ],
+ "support_sentences": [
+  "Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+  "Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No",
+   "answer_usage": {
+    "in": 74,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5013569160364568
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Living in a Big Way: This was director Gregory La Cava's final film.",
+    "Gregory La Cava: Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+    "La Cava Bible: The La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 217,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5760125420056283
+   },
+   "retrieval_latency_seconds": 0.008105083019472659,
+   "query": "Gregory La Cava director or actor",
+   "query_usage": {
+    "in": 59,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6609528339467943
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Living in a Big Way: This was director Gregory La Cava's final film.",
+    "Gregory La Cava: Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+    "La Cava Bible: The La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.",
+    "Mike Judge: Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director.",
+    "Mike Nichols: Mike Nichols (born Mikhail Igor Peschkowsky; November 6, 1931 \u2013 November 19, 2014) was an American film and theatre director, producer, actor and comedian.",
+    "Milton (cartoon): In the cartoon shorts all voices are by Mike Judge."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 320,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5713607500074431
+   },
+   "retrieval_latency_seconds": 0.007210375042632222,
+   "query": "Mike Judge actor or director",
+   "query_usage": {
+    "in": 202,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5652577499859035
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Living in a Big Way: This was director Gregory La Cava's final film.",
+    "Gregory La Cava: Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+    "La Cava Bible: The La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.",
+    "Mike Judge: Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director.",
+    "Mike Nichols: Mike Nichols (born Mikhail Igor Peschkowsky; November 6, 1931 \u2013 November 19, 2014) was an American film and theatre director, producer, actor and comedian.",
+    "Milton (cartoon): In the cartoon shorts all voices are by Mike Judge.",
+    "My Man Godfrey: My Man Godfrey is a 1936 American screwball comedy film directed by Gregory La Cava."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 355,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.543604833073914
+   },
+   "retrieval_latency_seconds": 0.07564799999818206,
+   "query": "I need to determine if both Gregory La Cava and Mike Judge were actors.",
+   "query_usage": {
+    "in": 305,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.65203166694846
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Living in a Big Way: This was director Gregory La Cava's final film.",
+    "Gregory La Cava: Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+    "La Cava Bible: The La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.",
+    "Mike Judge: Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director.",
+    "Mike Nichols: Mike Nichols (born Mikhail Igor Peschkowsky; November 6, 1931 \u2013 November 19, 2014) was an American film and theatre director, producer, actor and comedian.",
+    "Milton (cartoon): In the cartoon shorts all voices are by Mike Judge.",
+    "My Man Godfrey: My Man Godfrey is a 1936 American screwball comedy film directed by Gregory La Cava.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 462,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.519198082969524
+   },
+   "retrieval_latency_seconds": 0.1698155419435352,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 340,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8970448749605566
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Living in a Big Way: This was director Gregory La Cava's final film.",
+    "Gregory La Cava: Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+    "La Cava Bible: The La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.",
+    "Mike Judge: Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director.",
+    "Mike Nichols: Mike Nichols (born Mikhail Igor Peschkowsky; November 6, 1931 \u2013 November 19, 2014) was an American film and theatre director, producer, actor and comedian.",
+    "Milton (cartoon): In the cartoon shorts all voices are by Mike Judge.",
+    "My Man Godfrey: My Man Godfrey is a 1936 American screwball comedy film directed by Gregory La Cava.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "James Garner filmography: The following is the filmography for American actor James Garner."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 485,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.565480082994327
+   },
+   "retrieval_latency_seconds": 0.008737249998375773,
+   "query": "Mike Judge actor filmography",
+   "query_usage": {
+    "in": 447,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.7534711250336841
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Living in a Big Way: This was director Gregory La Cava's final film.",
+    "Gregory La Cava: Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+    "La Cava Bible: The La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.",
+    "Mike Judge: Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director.",
+    "Mike Nichols: Mike Nichols (born Mikhail Igor Peschkowsky; November 6, 1931 \u2013 November 19, 2014) was an American film and theatre director, producer, actor and comedian.",
+    "Milton (cartoon): In the cartoon shorts all voices are by Mike Judge.",
+    "My Man Godfrey: My Man Godfrey is a 1936 American screwball comedy film directed by Gregory La Cava.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "James Garner filmography: The following is the filmography for American actor James Garner."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 485,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5134485419839621
+   },
+   "retrieval_latency_seconds": 0.019095415947958827,
+   "query": "Mike Judge actor filmography",
+   "query_usage": {
+    "in": 470,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6077598750125617
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Living in a Big Way: This was director Gregory La Cava's final film.",
+    "Gregory La Cava: Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+    "La Cava Bible: The La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.",
+    "Mike Judge: Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director.",
+    "Mike Nichols: Mike Nichols (born Mikhail Igor Peschkowsky; November 6, 1931 \u2013 November 19, 2014) was an American film and theatre director, producer, actor and comedian.",
+    "Milton (cartoon): In the cartoon shorts all voices are by Mike Judge.",
+    "My Man Godfrey: My Man Godfrey is a 1936 American screwball comedy film directed by Gregory La Cava.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "James Garner filmography: The following is the filmography for American actor James Garner."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 485,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5676670829998329
+   },
+   "retrieval_latency_seconds": 0.005279041011817753,
+   "query": "Mike Judge actor filmography",
+   "query_usage": {
+    "in": 470,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.594372250023298
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Living in a Big Way: This was director Gregory La Cava's final film.",
+    "Gregory La Cava: Gregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+    "La Cava Bible: The La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.",
+    "Mike Judge: Michael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director.",
+    "Mike Nichols: Mike Nichols (born Mikhail Igor Peschkowsky; November 6, 1931 \u2013 November 19, 2014) was an American film and theatre director, producer, actor and comedian.",
+    "Milton (cartoon): In the cartoon shorts all voices are by Mike Judge.",
+    "My Man Godfrey: My Man Godfrey is a 1936 American screwball comedy film directed by Gregory La Cava.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "James Garner filmography: The following is the filmography for American actor James Garner."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 485,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5224322919966653
+   },
+   "retrieval_latency_seconds": 0.0031336250249296427,
+   "query": "Mike Judge actor filmography",
+   "query_usage": {
+    "in": 470,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.602374125039205
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4444444444444444,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6666666666666666,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.6666666666666666,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   10.0,
+   0.6666666666666666,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.6666666666666666,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

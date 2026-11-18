@@ -1,0 +1,401 @@
+{
+ "id": "5abc3d505542993a06baf8a7",
+ "question": "Which is founded by a president, University of Washington or University of Virginia?",
+ "gold_answers": [
+  "University of Virginia"
+ ],
+ "support_titles": [
+  "University of Washington",
+  "University of Virginia"
+ ],
+ "support_sentences": [
+  "The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+  "The University of Virginia (U.Va.",
+  "Founded in 1819 by Declaration of Independence author Thomas Jefferson, UVA is known for its historic foundations, student-run honor code, and secret societies."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "University of Virginia",
+   "answer_usage": {
+    "in": 76,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6192947500385344
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Washington State University: Washington State University (WSU) is a public research university in Pullman, Washington, in the Palouse region of the northwest United States.",
+    "University of Washington: The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+    "Washington and Lee University: Washington and Lee University (Washington and Lee or W&L) is a private liberal arts university in Lexington, Virginia, (Rockbridge County) of the United States."
+   ],
+   "answer": "I need to determine which university was founded by a president - University of Washington or University of Virginia",
+   "answer_usage": {
+    "in": 202,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8005512920208275
+   },
+   "retrieval_latency_seconds": 0.042025750037282705,
+   "query": "University of Washington founder",
+   "query_usage": {
+    "in": 61,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5739433750277385
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Washington State University: Washington State University (WSU) is a public research university in Pullman, Washington, in the Palouse region of the northwest United States.",
+    "University of Washington: The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+    "Washington and Lee University: Washington and Lee University (Washington and Lee or W&L) is a private liberal arts university in Lexington, Virginia, (Rockbridge County) of the United States.",
+    "Virginia Commonwealth University: Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia.",
+    "University of Virginia: The University of Virginia (U.Va.",
+    "Virginia State University: Virginia State University (VSU), also known as Virginia State, is a historically black public land-grant university located north of the Appomattox River in Petersburg."
+   ],
+   "answer": "I need to find which university was founded by a president",
+   "answer_usage": {
+    "in": 283,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8443189579993486
+   },
+   "retrieval_latency_seconds": 0.04700854199472815,
+   "query": "University of Virginia founder",
+   "query_usage": {
+    "in": 187,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5693909170804545
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Washington State University: Washington State University (WSU) is a public research university in Pullman, Washington, in the Palouse region of the northwest United States.",
+    "University of Washington: The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+    "Washington and Lee University: Washington and Lee University (Washington and Lee or W&L) is a private liberal arts university in Lexington, Virginia, (Rockbridge County) of the United States.",
+    "Virginia Commonwealth University: Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia.",
+    "University of Virginia: The University of Virginia (U.Va.",
+    "Virginia State University: Virginia State University (VSU), also known as Virginia State, is a historically black public land-grant university located north of the Appomattox River in Petersburg.",
+    "Michael Garrison (politician): In 2007, Garrison was selected as West Virginia University's twenty-second president.",
+    "David C. Hardesty Jr.: He is currently president emeritus and professor of law at West Virginia University.",
+    "Edwin Alderman: Alderman was the key leader in higher education in Virginia during the Progressive Era as president of the University of Virginia, 1904-31."
+   ],
+   "answer": "University of Virginia",
+   "answer_usage": {
+    "in": 372,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5654680830193684
+   },
+   "retrieval_latency_seconds": 0.04969483404420316,
+   "query": "University of Virginia founder president",
+   "query_usage": {
+    "in": 268,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5531545410631225
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Washington State University: Washington State University (WSU) is a public research university in Pullman, Washington, in the Palouse region of the northwest United States.",
+    "University of Washington: The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+    "Washington and Lee University: Washington and Lee University (Washington and Lee or W&L) is a private liberal arts university in Lexington, Virginia, (Rockbridge County) of the United States.",
+    "Virginia Commonwealth University: Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia.",
+    "University of Virginia: The University of Virginia (U.Va.",
+    "Virginia State University: Virginia State University (VSU), also known as Virginia State, is a historically black public land-grant university located north of the Appomattox River in Petersburg.",
+    "Michael Garrison (politician): In 2007, Garrison was selected as West Virginia University's twenty-second president.",
+    "David C. Hardesty Jr.: He is currently president emeritus and professor of law at West Virginia University.",
+    "Edwin Alderman: Alderman was the key leader in higher education in Virginia during the Progressive Era as president of the University of Virginia, 1904-31.",
+    "Thomas Jefferson Medal in Architecture: The Medal in Architecture has been jointly awarded each year by the Thomas Jefferson Foundation at Monticello and the University of Virginia School of Architecture since 1966.",
+    "Jefferson Memorial: The Jefferson Memorial is a presidential memorial in Washington, D.C., dedicated to Thomas Jefferson (1743\u20131826), one of the most important of the American Founding Fathers as the main drafter and writer of the Declaration of Independence, member of the Continental Congress, governor of the newly independent Commonwealth of Virginia, American minister to King Louis XVI and the Kingdom of France, first U.S. Secretary of State under the first President George Washington, the second Vice President of the United States under second President John Adams, and also the third President (1801\u20131809), as well as being the founder of the University of Virginia at Charlottesville, Virginia.",
+    "Thomas Jefferson Foundation: The Thomas Jefferson Foundation, originally known as the Thomas Jefferson Memorial Foundation, is a private, nonprofit 501(c)3 corporation founded in 1923 to purchase and maintain Monticello, the primary plantation of Thomas Jefferson, the third President of the United States."
+   ],
+   "answer": "University of Virginia",
+   "answer_usage": {
+    "in": 618,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5536015420220792
+   },
+   "retrieval_latency_seconds": 0.42945420800242573,
+   "query": "University of Virginia founder president Thomas Jefferson",
+   "query_usage": {
+    "in": 357,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5792776660528034
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Washington State University: Washington State University (WSU) is a public research university in Pullman, Washington, in the Palouse region of the northwest United States.",
+    "University of Washington: The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+    "Washington and Lee University: Washington and Lee University (Washington and Lee or W&L) is a private liberal arts university in Lexington, Virginia, (Rockbridge County) of the United States.",
+    "Virginia Commonwealth University: Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia.",
+    "University of Virginia: The University of Virginia (U.Va.",
+    "Virginia State University: Virginia State University (VSU), also known as Virginia State, is a historically black public land-grant university located north of the Appomattox River in Petersburg.",
+    "Michael Garrison (politician): In 2007, Garrison was selected as West Virginia University's twenty-second president.",
+    "David C. Hardesty Jr.: He is currently president emeritus and professor of law at West Virginia University.",
+    "Edwin Alderman: Alderman was the key leader in higher education in Virginia during the Progressive Era as president of the University of Virginia, 1904-31.",
+    "Thomas Jefferson Medal in Architecture: The Medal in Architecture has been jointly awarded each year by the Thomas Jefferson Foundation at Monticello and the University of Virginia School of Architecture since 1966.",
+    "Jefferson Memorial: The Jefferson Memorial is a presidential memorial in Washington, D.C., dedicated to Thomas Jefferson (1743\u20131826), one of the most important of the American Founding Fathers as the main drafter and writer of the Declaration of Independence, member of the Continental Congress, governor of the newly independent Commonwealth of Virginia, American minister to King Louis XVI and the Kingdom of France, first U.S. Secretary of State under the first President George Washington, the second Vice President of the United States under second President John Adams, and also the third President (1801\u20131809), as well as being the founder of the University of Virginia at Charlottesville, Virginia.",
+    "Thomas Jefferson Foundation: The Thomas Jefferson Foundation, originally known as the Thomas Jefferson Memorial Foundation, is a private, nonprofit 501(c)3 corporation founded in 1923 to purchase and maintain Monticello, the primary plantation of Thomas Jefferson, the third President of the United States.",
+    "Mark Tedeschi: He is the founder and president of the Australian Association of Crown Prosecutors and a visiting professor at the University of Wollongong."
+   ],
+   "answer": "University of Virginia",
+   "answer_usage": {
+    "in": 654,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5698193330317736
+   },
+   "retrieval_latency_seconds": 0.04153841594234109,
+   "query": "University of Washington founder president",
+   "query_usage": {
+    "in": 603,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5922423750162125
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Washington State University: Washington State University (WSU) is a public research university in Pullman, Washington, in the Palouse region of the northwest United States.",
+    "University of Washington: The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+    "Washington and Lee University: Washington and Lee University (Washington and Lee or W&L) is a private liberal arts university in Lexington, Virginia, (Rockbridge County) of the United States.",
+    "Virginia Commonwealth University: Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia.",
+    "University of Virginia: The University of Virginia (U.Va.",
+    "Virginia State University: Virginia State University (VSU), also known as Virginia State, is a historically black public land-grant university located north of the Appomattox River in Petersburg.",
+    "Michael Garrison (politician): In 2007, Garrison was selected as West Virginia University's twenty-second president.",
+    "David C. Hardesty Jr.: He is currently president emeritus and professor of law at West Virginia University.",
+    "Edwin Alderman: Alderman was the key leader in higher education in Virginia during the Progressive Era as president of the University of Virginia, 1904-31.",
+    "Thomas Jefferson Medal in Architecture: The Medal in Architecture has been jointly awarded each year by the Thomas Jefferson Foundation at Monticello and the University of Virginia School of Architecture since 1966.",
+    "Jefferson Memorial: The Jefferson Memorial is a presidential memorial in Washington, D.C., dedicated to Thomas Jefferson (1743\u20131826), one of the most important of the American Founding Fathers as the main drafter and writer of the Declaration of Independence, member of the Continental Congress, governor of the newly independent Commonwealth of Virginia, American minister to King Louis XVI and the Kingdom of France, first U.S. Secretary of State under the first President George Washington, the second Vice President of the United States under second President John Adams, and also the third President (1801\u20131809), as well as being the founder of the University of Virginia at Charlottesville, Virginia.",
+    "Thomas Jefferson Foundation: The Thomas Jefferson Foundation, originally known as the Thomas Jefferson Memorial Foundation, is a private, nonprofit 501(c)3 corporation founded in 1923 to purchase and maintain Monticello, the primary plantation of Thomas Jefferson, the third President of the United States.",
+    "Mark Tedeschi: He is the founder and president of the Australian Association of Crown Prosecutors and a visiting professor at the University of Wollongong.",
+    "The Washington Papers: Founded at the University of Virginia in 1968 as the Papers of George Washington, the Washington Papers is an expansive project that includes the papers and documents of George Washington as well as of individuals close to him.",
+    "Elson S. Floyd College of Medicine: Founded in 2015, it is affiliated with Washington State University (WSU) of Pullman, and is the second public medical school in the State of Washington."
+   ],
+   "answer": "University of Virginia",
+   "answer_usage": {
+    "in": 751,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.578774124966003
+   },
+   "retrieval_latency_seconds": 0.4530891249887645,
+   "query": "Who founded the University of Washington?",
+   "query_usage": {
+    "in": 639,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5499744169646874
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Washington State University: Washington State University (WSU) is a public research university in Pullman, Washington, in the Palouse region of the northwest United States.",
+    "University of Washington: The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+    "Washington and Lee University: Washington and Lee University (Washington and Lee or W&L) is a private liberal arts university in Lexington, Virginia, (Rockbridge County) of the United States.",
+    "Virginia Commonwealth University: Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia.",
+    "University of Virginia: The University of Virginia (U.Va.",
+    "Virginia State University: Virginia State University (VSU), also known as Virginia State, is a historically black public land-grant university located north of the Appomattox River in Petersburg.",
+    "Michael Garrison (politician): In 2007, Garrison was selected as West Virginia University's twenty-second president.",
+    "David C. Hardesty Jr.: He is currently president emeritus and professor of law at West Virginia University.",
+    "Edwin Alderman: Alderman was the key leader in higher education in Virginia during the Progressive Era as president of the University of Virginia, 1904-31.",
+    "Thomas Jefferson Medal in Architecture: The Medal in Architecture has been jointly awarded each year by the Thomas Jefferson Foundation at Monticello and the University of Virginia School of Architecture since 1966.",
+    "Jefferson Memorial: The Jefferson Memorial is a presidential memorial in Washington, D.C., dedicated to Thomas Jefferson (1743\u20131826), one of the most important of the American Founding Fathers as the main drafter and writer of the Declaration of Independence, member of the Continental Congress, governor of the newly independent Commonwealth of Virginia, American minister to King Louis XVI and the Kingdom of France, first U.S. Secretary of State under the first President George Washington, the second Vice President of the United States under second President John Adams, and also the third President (1801\u20131809), as well as being the founder of the University of Virginia at Charlottesville, Virginia.",
+    "Thomas Jefferson Foundation: The Thomas Jefferson Foundation, originally known as the Thomas Jefferson Memorial Foundation, is a private, nonprofit 501(c)3 corporation founded in 1923 to purchase and maintain Monticello, the primary plantation of Thomas Jefferson, the third President of the United States.",
+    "Mark Tedeschi: He is the founder and president of the Australian Association of Crown Prosecutors and a visiting professor at the University of Wollongong.",
+    "The Washington Papers: Founded at the University of Virginia in 1968 as the Papers of George Washington, the Washington Papers is an expansive project that includes the papers and documents of George Washington as well as of individuals close to him.",
+    "Elson S. Floyd College of Medicine: Founded in 2015, it is affiliated with Washington State University (WSU) of Pullman, and is the second public medical school in the State of Washington."
+   ],
+   "answer": "University of Virginia",
+   "answer_usage": {
+    "in": 751,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5609231670387089
+   },
+   "retrieval_latency_seconds": 0.37148670898750424,
+   "query": "University of Washington founder president",
+   "query_usage": {
+    "in": 736,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5871945830294862
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Washington State University: Washington State University (WSU) is a public research university in Pullman, Washington, in the Palouse region of the northwest United States.",
+    "University of Washington: The University of Washington (commonly referred to as UW, simply Washington, or informally \"U-Dub\") is a large, public flagship research university in Seattle, Washington, established in 1861.",
+    "Washington and Lee University: Washington and Lee University (Washington and Lee or W&L) is a private liberal arts university in Lexington, Virginia, (Rockbridge County) of the United States.",
+    "Virginia Commonwealth University: Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia.",
+    "University of Virginia: The University of Virginia (U.Va.",
+    "Virginia State University: Virginia State University (VSU), also known as Virginia State, is a historically black public land-grant university located north of the Appomattox River in Petersburg.",
+    "Michael Garrison (politician): In 2007, Garrison was selected as West Virginia University's twenty-second president.",
+    "David C. Hardesty Jr.: He is currently president emeritus and professor of law at West Virginia University.",
+    "Edwin Alderman: Alderman was the key leader in higher education in Virginia during the Progressive Era as president of the University of Virginia, 1904-31.",
+    "Thomas Jefferson Medal in Architecture: The Medal in Architecture has been jointly awarded each year by the Thomas Jefferson Foundation at Monticello and the University of Virginia School of Architecture since 1966.",
+    "Jefferson Memorial: The Jefferson Memorial is a presidential memorial in Washington, D.C., dedicated to Thomas Jefferson (1743\u20131826), one of the most important of the American Founding Fathers as the main drafter and writer of the Declaration of Independence, member of the Continental Congress, governor of the newly independent Commonwealth of Virginia, American minister to King Louis XVI and the Kingdom of France, first U.S. Secretary of State under the first President George Washington, the second Vice President of the United States under second President John Adams, and also the third President (1801\u20131809), as well as being the founder of the University of Virginia at Charlottesville, Virginia.",
+    "Thomas Jefferson Foundation: The Thomas Jefferson Foundation, originally known as the Thomas Jefferson Memorial Foundation, is a private, nonprofit 501(c)3 corporation founded in 1923 to purchase and maintain Monticello, the primary plantation of Thomas Jefferson, the third President of the United States.",
+    "Mark Tedeschi: He is the founder and president of the Australian Association of Crown Prosecutors and a visiting professor at the University of Wollongong.",
+    "The Washington Papers: Founded at the University of Virginia in 1968 as the Papers of George Washington, the Washington Papers is an expansive project that includes the papers and documents of George Washington as well as of individuals close to him.",
+    "Elson S. Floyd College of Medicine: Founded in 2015, it is affiliated with Washington State University (WSU) of Pullman, and is the second public medical school in the State of Washington."
+   ],
+   "answer": "University of Virginia",
+   "answer_usage": {
+    "in": 751,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5620000840863213
+   },
+   "retrieval_latency_seconds": 0.050808000029064715,
+   "query": "University of Washington founder president",
+   "query_usage": {
+    "in": 736,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5831045829690993
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  0.3,
+  0.15384615384615383,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6363636363636364,
+   3.0,
+   1.0,
+   17.0,
+   0.4666666666666667,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6363636363636364,
+   3.0,
+   1.0,
+   10.0,
+   0.2727272727272727,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.7272727272727273,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   12.0,
+   0.9090909090909091,
+   3.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   5.0,
+   13.0,
+   0.9090909090909091,
+   1.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   15.0,
+   0.9090909090909091,
+   2.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   15.0,
+   0.9090909090909091,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   15.0,
+   0.9090909090909091,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

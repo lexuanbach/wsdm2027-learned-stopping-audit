@@ -1,0 +1,376 @@
+{
+ "id": "5a78f59755429970f5fffdf7",
+ "question": "Mick Carter is the landlord of a public house located at what address?",
+ "gold_answers": [
+  "46 Albert Square, Walford, London E20"
+ ],
+ "support_titles": [
+  "Mick Carter",
+  "The Queen Victoria"
+ ],
+ "support_sentences": [
+  "Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+  "The Queen Victoria (more often referred to as The Queen Vic or The Vic) is the Victorian public house in the BBC soap opera, \"EastEnders\".",
+  "It has the fictional address of 46 Albert Square, Walford, London E20."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "The Queen Vic, 46 Albert Square, Walford, London E20",
+   "answer_usage": {
+    "in": 78,
+    "out": 23,
+    "calls": 1,
+    "latency_seconds": 0.9076542500406504
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Mick Carter: Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+    "Nancy Carter: A member of the Carter family, Nancy is the daughter of Mick Carter (Danny Dyer) and Linda Carter (Kellie Bright).",
+    "Mick Carter: He is the son of established character Shirley Carter (Linda Henry) and a member of the Carter family."
+   ],
+   "answer": "The Queen Victoria",
+   "answer_usage": {
+    "in": 195,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5624740000348538
+   },
+   "retrieval_latency_seconds": 0.007637833012267947,
+   "query": "Mick Carter landlord public house address",
+   "query_usage": {
+    "in": 63,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5892562500666827
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Mick Carter: Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+    "Nancy Carter: A member of the Carter family, Nancy is the daughter of Mick Carter (Danny Dyer) and Linda Carter (Kellie Bright).",
+    "Mick Carter: He is the son of established character Shirley Carter (Linda Henry) and a member of the Carter family.",
+    "The Queen Victoria: The Queen Victoria (more often referred to as The Queen Vic or The Vic) is the Victorian public house in the BBC soap opera, \"EastEnders\".",
+    "The Queen Victoria: It has the fictional address of 46 Albert Square, Walford, London E20.",
+    "Linda Carter: Linda became landlady of The Queen Victoria public house and moved there with her family from her mother's pub in Watford."
+   ],
+   "answer": "46 Albert Square, Walford, London E20",
+   "answer_usage": {
+    "in": 293,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.6112896249396726
+   },
+   "retrieval_latency_seconds": 0.6510816660011187,
+   "query": "The Queen Victoria public house address",
+   "query_usage": {
+    "in": 180,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5836954999249429
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Mick Carter: Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+    "Nancy Carter: A member of the Carter family, Nancy is the daughter of Mick Carter (Danny Dyer) and Linda Carter (Kellie Bright).",
+    "Mick Carter: He is the son of established character Shirley Carter (Linda Henry) and a member of the Carter family.",
+    "The Queen Victoria: The Queen Victoria (more often referred to as The Queen Vic or The Vic) is the Victorian public house in the BBC soap opera, \"EastEnders\".",
+    "The Queen Victoria: It has the fictional address of 46 Albert Square, Walford, London E20.",
+    "Linda Carter: Linda became landlady of The Queen Victoria public house and moved there with her family from her mother's pub in Watford.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "The World of Robert Jordan's The Wheel of Time: The bulk of the text was written by Teresa Patterson based on notes and information provided by Robert Jordan, with Jordan also serving as overall editor on the project.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu."
+   ],
+   "answer": "46 Albert Square, Walford, London E20",
+   "answer_usage": {
+    "in": 401,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.7960739999543875
+   },
+   "retrieval_latency_seconds": 0.26110262505244464,
+   "query": "The search query has already provided the answer. Based on the known information:",
+   "query_usage": {
+    "in": 278,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.913084416068159
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Mick Carter: Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+    "Nancy Carter: A member of the Carter family, Nancy is the daughter of Mick Carter (Danny Dyer) and Linda Carter (Kellie Bright).",
+    "Mick Carter: He is the son of established character Shirley Carter (Linda Henry) and a member of the Carter family.",
+    "The Queen Victoria: The Queen Victoria (more often referred to as The Queen Vic or The Vic) is the Victorian public house in the BBC soap opera, \"EastEnders\".",
+    "The Queen Victoria: It has the fictional address of 46 Albert Square, Walford, London E20.",
+    "Linda Carter: Linda became landlady of The Queen Victoria public house and moved there with her family from her mother's pub in Watford.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "The World of Robert Jordan's The Wheel of Time: The bulk of the text was written by Teresa Patterson based on notes and information provided by Robert Jordan, with Jordan also serving as overall editor on the project.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu."
+   ],
+   "answer": "46 Albert Square, Walford, London E20",
+   "answer_usage": {
+    "in": 401,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.5873094579437748
+   },
+   "retrieval_latency_seconds": 0.703515833010897,
+   "query": "The search query has already provided the answer. Based on the known facts, **Mick Carter is the landlord of The Queen Victoria public house located at",
+   "query_usage": {
+    "in": 386,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8268978750566021
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Mick Carter: Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+    "Nancy Carter: A member of the Carter family, Nancy is the daughter of Mick Carter (Danny Dyer) and Linda Carter (Kellie Bright).",
+    "Mick Carter: He is the son of established character Shirley Carter (Linda Henry) and a member of the Carter family.",
+    "The Queen Victoria: The Queen Victoria (more often referred to as The Queen Vic or The Vic) is the Victorian public house in the BBC soap opera, \"EastEnders\".",
+    "The Queen Victoria: It has the fictional address of 46 Albert Square, Walford, London E20.",
+    "Linda Carter: Linda became landlady of The Queen Victoria public house and moved there with her family from her mother's pub in Watford.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "The World of Robert Jordan's The Wheel of Time: The bulk of the text was written by Teresa Patterson based on notes and information provided by Robert Jordan, with Jordan also serving as overall editor on the project.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu."
+   ],
+   "answer": "46 Albert Square, Walford, London E20",
+   "answer_usage": {
+    "in": 401,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.5814587919740006
+   },
+   "retrieval_latency_seconds": 0.6077296669827774,
+   "query": "The search query has already provided the answer. Based on the known facts, **Mick Carter is the landlord of The Queen Victoria public house located at",
+   "query_usage": {
+    "in": 386,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.846171582932584
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Mick Carter: Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+    "Nancy Carter: A member of the Carter family, Nancy is the daughter of Mick Carter (Danny Dyer) and Linda Carter (Kellie Bright).",
+    "Mick Carter: He is the son of established character Shirley Carter (Linda Henry) and a member of the Carter family.",
+    "The Queen Victoria: The Queen Victoria (more often referred to as The Queen Vic or The Vic) is the Victorian public house in the BBC soap opera, \"EastEnders\".",
+    "The Queen Victoria: It has the fictional address of 46 Albert Square, Walford, London E20.",
+    "Linda Carter: Linda became landlady of The Queen Victoria public house and moved there with her family from her mother's pub in Watford.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "The World of Robert Jordan's The Wheel of Time: The bulk of the text was written by Teresa Patterson based on notes and information provided by Robert Jordan, with Jordan also serving as overall editor on the project.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu."
+   ],
+   "answer": "46 Albert Square, Walford, London E20",
+   "answer_usage": {
+    "in": 401,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.5972826660145074
+   },
+   "retrieval_latency_seconds": 0.21084491594228894,
+   "query": "The search query has already provided the answer. Based on the known facts, **Mick Carter is the landlord of The Queen Victoria public house located at",
+   "query_usage": {
+    "in": 386,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8494201670400798
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Mick Carter: Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+    "Nancy Carter: A member of the Carter family, Nancy is the daughter of Mick Carter (Danny Dyer) and Linda Carter (Kellie Bright).",
+    "Mick Carter: He is the son of established character Shirley Carter (Linda Henry) and a member of the Carter family.",
+    "The Queen Victoria: The Queen Victoria (more often referred to as The Queen Vic or The Vic) is the Victorian public house in the BBC soap opera, \"EastEnders\".",
+    "The Queen Victoria: It has the fictional address of 46 Albert Square, Walford, London E20.",
+    "Linda Carter: Linda became landlady of The Queen Victoria public house and moved there with her family from her mother's pub in Watford.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "The World of Robert Jordan's The Wheel of Time: The bulk of the text was written by Teresa Patterson based on notes and information provided by Robert Jordan, with Jordan also serving as overall editor on the project.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu."
+   ],
+   "answer": "46 Albert Square, Walford, London E20",
+   "answer_usage": {
+    "in": 401,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.5848513329401612
+   },
+   "retrieval_latency_seconds": 0.41659479204099625,
+   "query": "The search query has already provided the answer. Based on the known facts, **Mick Carter is the landlord of The Queen Victoria public house located at",
+   "query_usage": {
+    "in": 386,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8498090000357479
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Mick Carter: Mick immediately becomes the new landlord of The Queen Victoria public house (referred to as \"The Vic\"), bringing Linda, their son Johnny Carter (Sam Strike/Ted Reilly) and pet dog Lady Di with him.",
+    "Nancy Carter: A member of the Carter family, Nancy is the daughter of Mick Carter (Danny Dyer) and Linda Carter (Kellie Bright).",
+    "Mick Carter: He is the son of established character Shirley Carter (Linda Henry) and a member of the Carter family.",
+    "The Queen Victoria: The Queen Victoria (more often referred to as The Queen Vic or The Vic) is the Victorian public house in the BBC soap opera, \"EastEnders\".",
+    "The Queen Victoria: It has the fictional address of 46 Albert Square, Walford, London E20.",
+    "Linda Carter: Linda became landlady of The Queen Victoria public house and moved there with her family from her mother's pub in Watford.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "The World of Robert Jordan's The Wheel of Time: The bulk of the text was written by Teresa Patterson based on notes and information provided by Robert Jordan, with Jordan also serving as overall editor on the project.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu."
+   ],
+   "answer": "46 Albert Square, Walford, London E20",
+   "answer_usage": {
+    "in": 401,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.5601050419500098
+   },
+   "retrieval_latency_seconds": 0.444421665975824,
+   "query": "The search query has already provided the answer. Based on the known facts, **Mick Carter is the landlord of The Queen Victoria public house located at",
+   "query_usage": {
+    "in": 386,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8517292500473559
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.8571428571428571,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   8.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6923076923076923,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7692307692307693,
+   3.0,
+   1.0,
+   6.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.7692307692307693,
+   3.0,
+   0.0,
+   6.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   6.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   6.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   6.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   6.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   6.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

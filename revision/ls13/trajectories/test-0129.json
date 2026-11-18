@@ -1,0 +1,369 @@
+{
+ "id": "5a86ac555542996432c571e4",
+ "question": "Are Glenn Bidmead and Jacob Hoggard both guitarist?",
+ "gold_answers": [
+  "no"
+ ],
+ "support_titles": [
+  "Glenn Bidmead",
+  "Jacob Hoggard"
+ ],
+ "support_sentences": [
+  "Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+  "Jacob William Hoggard (born July 9, 1984) is a Canadian singer and songwriter."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No",
+   "answer_usage": {
+    "in": 76,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.48195787507575005
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Glenn Bidmead: Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+    "Glenn Bidmead: With songwriting partner Steve Glover, he was a founding member of Australian rock band LemonJuice, which enjoyed several years of success in Japan and South Korea.",
+    "Glenn Greenberg: \"."
+   ],
+   "answer": "Cannot determine - no information about Jacob Hoggard provided",
+   "answer_usage": {
+    "in": 162,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.707495916984044
+   },
+   "retrieval_latency_seconds": 0.0026994579238817096,
+   "query": "Glenn Bidmead guitarist",
+   "query_usage": {
+    "in": 61,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6477874999400228
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Glenn Bidmead: Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+    "Glenn Bidmead: With songwriting partner Steve Glover, he was a founding member of Australian rock band LemonJuice, which enjoyed several years of success in Japan and South Korea.",
+    "Glenn Greenberg: \".",
+    "Jacob Hoggard: Jacob William Hoggard (born July 9, 1984) is a Canadian singer and songwriter.",
+    "Jacob Hoggard: He is the lead singer of the rock band Hedley.",
+    "Jacob Hoggard: He finished in third place on the second season of \"Canadian Idol\", in 2004."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 242,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6959945830749348
+   },
+   "retrieval_latency_seconds": 0.0021207910031080246,
+   "query": "Jacob Hoggard musician instrument",
+   "query_usage": {
+    "in": 147,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5911477080080658
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Glenn Bidmead: Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+    "Glenn Bidmead: With songwriting partner Steve Glover, he was a founding member of Australian rock band LemonJuice, which enjoyed several years of success in Japan and South Korea.",
+    "Glenn Greenberg: \".",
+    "Jacob Hoggard: Jacob William Hoggard (born July 9, 1984) is a Canadian singer and songwriter.",
+    "Jacob Hoggard: He is the lead singer of the rock band Hedley.",
+    "Jacob Hoggard: He finished in third place on the second season of \"Canadian Idol\", in 2004.",
+    "Love Again (Hedley song): The song was written and produced by Jacob Hoggard, Brian Howes, and Jason \"JVP\" Van Poederooyen.",
+    "Hello (Hedley song): It was written and produced by lead singer Jacob Hoggard with Brian Howes and Jason \"JVP\" Van Poederooyen."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 325,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6202712500235066
+   },
+   "retrieval_latency_seconds": 0.005929082981310785,
+   "query": "Jacob Hoggard guitarist Hedley",
+   "query_usage": {
+    "in": 227,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6266074579907581
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Glenn Bidmead: Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+    "Glenn Bidmead: With songwriting partner Steve Glover, he was a founding member of Australian rock band LemonJuice, which enjoyed several years of success in Japan and South Korea.",
+    "Glenn Greenberg: \".",
+    "Jacob Hoggard: Jacob William Hoggard (born July 9, 1984) is a Canadian singer and songwriter.",
+    "Jacob Hoggard: He is the lead singer of the rock band Hedley.",
+    "Jacob Hoggard: He finished in third place on the second season of \"Canadian Idol\", in 2004.",
+    "Love Again (Hedley song): The song was written and produced by Jacob Hoggard, Brian Howes, and Jason \"JVP\" Van Poederooyen.",
+    "Hello (Hedley song): It was written and produced by lead singer Jacob Hoggard with Brian Howes and Jason \"JVP\" Van Poederooyen."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 325,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5927567080361769
+   },
+   "retrieval_latency_seconds": 0.0020870419684797525,
+   "query": "Jacob Hoggard guitarist musician instrument",
+   "query_usage": {
+    "in": 310,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6146261249668896
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Glenn Bidmead: Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+    "Glenn Bidmead: With songwriting partner Steve Glover, he was a founding member of Australian rock band LemonJuice, which enjoyed several years of success in Japan and South Korea.",
+    "Glenn Greenberg: \".",
+    "Jacob Hoggard: Jacob William Hoggard (born July 9, 1984) is a Canadian singer and songwriter.",
+    "Jacob Hoggard: He is the lead singer of the rock band Hedley.",
+    "Jacob Hoggard: He finished in third place on the second season of \"Canadian Idol\", in 2004.",
+    "Love Again (Hedley song): The song was written and produced by Jacob Hoggard, Brian Howes, and Jason \"JVP\" Van Poederooyen.",
+    "Hello (Hedley song): It was written and produced by lead singer Jacob Hoggard with Brian Howes and Jason \"JVP\" Van Poederooyen."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 325,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6170053329551592
+   },
+   "retrieval_latency_seconds": 0.004055249970406294,
+   "query": "Jacob Hoggard guitarist musician instrument",
+   "query_usage": {
+    "in": 310,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5991734589915723
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Glenn Bidmead: Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+    "Glenn Bidmead: With songwriting partner Steve Glover, he was a founding member of Australian rock band LemonJuice, which enjoyed several years of success in Japan and South Korea.",
+    "Glenn Greenberg: \".",
+    "Jacob Hoggard: Jacob William Hoggard (born July 9, 1984) is a Canadian singer and songwriter.",
+    "Jacob Hoggard: He is the lead singer of the rock band Hedley.",
+    "Jacob Hoggard: He finished in third place on the second season of \"Canadian Idol\", in 2004.",
+    "Love Again (Hedley song): The song was written and produced by Jacob Hoggard, Brian Howes, and Jason \"JVP\" Van Poederooyen.",
+    "Hello (Hedley song): It was written and produced by lead singer Jacob Hoggard with Brian Howes and Jason \"JVP\" Van Poederooyen."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 325,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6131524159573019
+   },
+   "retrieval_latency_seconds": 0.0026802909560501575,
+   "query": "Jacob Hoggard guitarist musician instrument",
+   "query_usage": {
+    "in": 310,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6081779169617221
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Glenn Bidmead: Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+    "Glenn Bidmead: With songwriting partner Steve Glover, he was a founding member of Australian rock band LemonJuice, which enjoyed several years of success in Japan and South Korea.",
+    "Glenn Greenberg: \".",
+    "Jacob Hoggard: Jacob William Hoggard (born July 9, 1984) is a Canadian singer and songwriter.",
+    "Jacob Hoggard: He is the lead singer of the rock band Hedley.",
+    "Jacob Hoggard: He finished in third place on the second season of \"Canadian Idol\", in 2004.",
+    "Love Again (Hedley song): The song was written and produced by Jacob Hoggard, Brian Howes, and Jason \"JVP\" Van Poederooyen.",
+    "Hello (Hedley song): It was written and produced by lead singer Jacob Hoggard with Brian Howes and Jason \"JVP\" Van Poederooyen."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 325,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6301574170356616
+   },
+   "retrieval_latency_seconds": 0.004522041999734938,
+   "query": "Jacob Hoggard guitarist musician instrument",
+   "query_usage": {
+    "in": 310,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6183765000896528
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Glenn Bidmead: Glenn Keith Bidmead (born 3 February 1962) is a Sydney-based singer, songwriter, guitarist, performer and producer.",
+    "Glenn Bidmead: With songwriting partner Steve Glover, he was a founding member of Australian rock band LemonJuice, which enjoyed several years of success in Japan and South Korea.",
+    "Glenn Greenberg: \".",
+    "Jacob Hoggard: Jacob William Hoggard (born July 9, 1984) is a Canadian singer and songwriter.",
+    "Jacob Hoggard: He is the lead singer of the rock band Hedley.",
+    "Jacob Hoggard: He finished in third place on the second season of \"Canadian Idol\", in 2004.",
+    "Love Again (Hedley song): The song was written and produced by Jacob Hoggard, Brian Howes, and Jason \"JVP\" Van Poederooyen.",
+    "Hello (Hedley song): It was written and produced by lead singer Jacob Hoggard with Brian Howes and Jason \"JVP\" Van Poederooyen."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 325,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6014246670529246
+   },
+   "retrieval_latency_seconds": 0.004369708010926843,
+   "query": "Jacob Hoggard guitarist musician instrument",
+   "query_usage": {
+    "in": 310,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6202244580490515
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  0.2222222222222222,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   1.0,
+   8.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.75,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.75,
+   2.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.75,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.75,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.75,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.75,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.75,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

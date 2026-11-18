@@ -1,0 +1,370 @@
+{
+ "id": "5abbc4d255429931dba144fe",
+ "question": "Which genus of plant grows originally in Mexico and Guatemala, Phylica or Weldenia?",
+ "gold_answers": [
+  "Weldenia"
+ ],
+ "support_titles": [
+  "Phylica",
+  "Weldenia"
+ ],
+ "support_sentences": [
+  "Phylica is a genus of plants in the family Rhamnaceae.",
+  "A few species occur in other parts of southern Africa, and on islands including Madagascar, the Mascarene Islands, \u00cele Amsterdam, Saint Helena, Tristan da Cunha, and Gough Island.",
+  "It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 81,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5666536249918863
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Weldenia: It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "Pinguicula orchidioides: Pinguicula orchidioides is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Pinguicula moranensis: Pinguicula moranensis is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala."
+   ],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 180,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5304020829498768
+   },
+   "retrieval_latency_seconds": 0.006299666943959892,
+   "query": "Weldenia origin native range Mexico Guatemala",
+   "query_usage": {
+    "in": 66,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6952665420249104
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Weldenia: It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "Pinguicula orchidioides: Pinguicula orchidioides is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Pinguicula moranensis: Pinguicula moranensis is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Phylica: Phylica is a genus of plants in the family Rhamnaceae.",
+    "Azadirachta: Both species are native to the Indomalaysian region, and \"A. indica\" is also widely cultivated and naturalized outside its native range.",
+    "Pittosporum: The genus is probably Gondwanan in origin; its present range extends from Australasia, Oceania, eastern Asia and some parts of Africa."
+   ],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 283,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6084140000166371
+   },
+   "retrieval_latency_seconds": 0.002418625052087009,
+   "query": "Phylica native range origin",
+   "query_usage": {
+    "in": 165,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5450388330500573
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Weldenia: It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "Pinguicula orchidioides: Pinguicula orchidioides is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Pinguicula moranensis: Pinguicula moranensis is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Phylica: Phylica is a genus of plants in the family Rhamnaceae.",
+    "Azadirachta: Both species are native to the Indomalaysian region, and \"A. indica\" is also widely cultivated and naturalized outside its native range.",
+    "Pittosporum: The genus is probably Gondwanan in origin; its present range extends from Australasia, Oceania, eastern Asia and some parts of Africa.",
+    "Oenanthe javanica: It has a widespread native distribution in temperate Asia and tropical Asia, and is also native to Queensland, Australia.",
+    "Cordyline rubra: The range of natural distribution is from Lismore to near Bundaberg, Queensland."
+   ],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 345,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5395915840053931
+   },
+   "retrieval_latency_seconds": 0.006767874932847917,
+   "query": "Phylica native range origin distribution",
+   "query_usage": {
+    "in": 268,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6659627080662176
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Weldenia: It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "Pinguicula orchidioides: Pinguicula orchidioides is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Pinguicula moranensis: Pinguicula moranensis is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Phylica: Phylica is a genus of plants in the family Rhamnaceae.",
+    "Azadirachta: Both species are native to the Indomalaysian region, and \"A. indica\" is also widely cultivated and naturalized outside its native range.",
+    "Pittosporum: The genus is probably Gondwanan in origin; its present range extends from Australasia, Oceania, eastern Asia and some parts of Africa.",
+    "Oenanthe javanica: It has a widespread native distribution in temperate Asia and tropical Asia, and is also native to Queensland, Australia.",
+    "Cordyline rubra: The range of natural distribution is from Lismore to near Bundaberg, Queensland."
+   ],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 345,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5373539589345455
+   },
+   "retrieval_latency_seconds": 0.004017250030301511,
+   "query": "Phylica native range origin",
+   "query_usage": {
+    "in": 330,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6235569579293951
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Weldenia: It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "Pinguicula orchidioides: Pinguicula orchidioides is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Pinguicula moranensis: Pinguicula moranensis is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Phylica: Phylica is a genus of plants in the family Rhamnaceae.",
+    "Azadirachta: Both species are native to the Indomalaysian region, and \"A. indica\" is also widely cultivated and naturalized outside its native range.",
+    "Pittosporum: The genus is probably Gondwanan in origin; its present range extends from Australasia, Oceania, eastern Asia and some parts of Africa.",
+    "Oenanthe javanica: It has a widespread native distribution in temperate Asia and tropical Asia, and is also native to Queensland, Australia.",
+    "Cordyline rubra: The range of natural distribution is from Lismore to near Bundaberg, Queensland."
+   ],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 345,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5520768329733983
+   },
+   "retrieval_latency_seconds": 0.004329583025537431,
+   "query": "Phylica native range origin",
+   "query_usage": {
+    "in": 330,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.7023528340505436
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Weldenia: It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "Pinguicula orchidioides: Pinguicula orchidioides is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Pinguicula moranensis: Pinguicula moranensis is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Phylica: Phylica is a genus of plants in the family Rhamnaceae.",
+    "Azadirachta: Both species are native to the Indomalaysian region, and \"A. indica\" is also widely cultivated and naturalized outside its native range.",
+    "Pittosporum: The genus is probably Gondwanan in origin; its present range extends from Australasia, Oceania, eastern Asia and some parts of Africa.",
+    "Oenanthe javanica: It has a widespread native distribution in temperate Asia and tropical Asia, and is also native to Queensland, Australia.",
+    "Cordyline rubra: The range of natural distribution is from Lismore to near Bundaberg, Queensland."
+   ],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 345,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5223848749883473
+   },
+   "retrieval_latency_seconds": 0.004906250047497451,
+   "query": "Phylica native range origin",
+   "query_usage": {
+    "in": 330,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6915599999483675
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Weldenia: It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "Pinguicula orchidioides: Pinguicula orchidioides is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Pinguicula moranensis: Pinguicula moranensis is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Phylica: Phylica is a genus of plants in the family Rhamnaceae.",
+    "Azadirachta: Both species are native to the Indomalaysian region, and \"A. indica\" is also widely cultivated and naturalized outside its native range.",
+    "Pittosporum: The genus is probably Gondwanan in origin; its present range extends from Australasia, Oceania, eastern Asia and some parts of Africa.",
+    "Oenanthe javanica: It has a widespread native distribution in temperate Asia and tropical Asia, and is also native to Queensland, Australia.",
+    "Cordyline rubra: The range of natural distribution is from Lismore to near Bundaberg, Queensland."
+   ],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 345,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5206771249650046
+   },
+   "retrieval_latency_seconds": 0.005181332933716476,
+   "query": "Phylica native range origin",
+   "query_usage": {
+    "in": 330,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6363400419941172
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Weldenia: It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "Pinguicula orchidioides: Pinguicula orchidioides is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Pinguicula moranensis: Pinguicula moranensis is a perennial rosette-forming insectivorous herb native to Mexico and Guatemala.",
+    "Phylica: Phylica is a genus of plants in the family Rhamnaceae.",
+    "Azadirachta: Both species are native to the Indomalaysian region, and \"A. indica\" is also widely cultivated and naturalized outside its native range.",
+    "Pittosporum: The genus is probably Gondwanan in origin; its present range extends from Australasia, Oceania, eastern Asia and some parts of Africa.",
+    "Oenanthe javanica: It has a widespread native distribution in temperate Asia and tropical Asia, and is also native to Queensland, Australia.",
+    "Cordyline rubra: The range of natural distribution is from Lismore to near Bundaberg, Queensland."
+   ],
+   "answer": "Weldenia",
+   "answer_usage": {
+    "in": 345,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5257067090133205
+   },
+   "retrieval_latency_seconds": 0.010354166966862977,
+   "query": "Phylica native range origin",
+   "query_usage": {
+    "in": 330,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.620061791036278
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6153846153846154,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.8461538461538461,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.8461538461538461,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

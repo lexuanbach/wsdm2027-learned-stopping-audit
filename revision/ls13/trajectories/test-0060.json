@@ -1,0 +1,384 @@
+{
+ "id": "5a7e3b585542995ed0d166df",
+ "question": "Which film was released first, Home on the Range or Pete's Dragon?",
+ "gold_answers": [
+  "Home on the Range"
+ ],
+ "support_titles": [
+  "Home on the Range (2004 film)",
+  "Pete's Dragon (2016 film)"
+ ],
+ "support_sentences": [
+  "Home on the Range is a 2004 American animated musical western comedy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures.",
+  "Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Pete's Dragon (1977 vs 2004)",
+   "answer_usage": {
+    "in": 76,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.6766371671110392
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Yakuza: Dead Souls: A new release date, setting the game's release for June 9, was announced on April 7.",
+    "Unapologetically: Ballerini announced the album's title and release date on July 25, 2017.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956."
+   ],
+   "answer": "Cannot determine from provided evidence",
+   "answer_usage": {
+    "in": 159,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8283018340589479
+   },
+   "retrieval_latency_seconds": 0.15490137494634837,
+   "query": "Home on the Range release date Pete's Dragon release date",
+   "query_usage": {
+    "in": 61,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6780091250548139
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Yakuza: Dead Souls: A new release date, setting the game's release for June 9, was announced on April 7.",
+    "Unapologetically: Ballerini announced the album's title and release date on July 25, 2017.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "Pete's Dragon (2016 film): Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker.",
+    "Super Double Dragon: The game did not have an arcade release and was made specifically for the home market.",
+    "Dragon Ball: Curse of the Blood Rubies: \"Dragon Ball: The Legend of Shenlong\") for its home video release, is the first in a series of feature films in the \"Dragon Ball\" anime franchise, based on the manga of the same name by Akira Toriyama."
+   ],
+   "answer": "Home on the Range",
+   "answer_usage": {
+    "in": 305,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5529650839744136
+   },
+   "retrieval_latency_seconds": 0.08981958299409598,
+   "query": "Home on the Range Pete's Dragon release date",
+   "query_usage": {
+    "in": 144,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6409273750614375
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Yakuza: Dead Souls: A new release date, setting the game's release for June 9, was announced on April 7.",
+    "Unapologetically: Ballerini announced the album's title and release date on July 25, 2017.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "Pete's Dragon (2016 film): Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker.",
+    "Super Double Dragon: The game did not have an arcade release and was made specifically for the home market.",
+    "Dragon Ball: Curse of the Blood Rubies: \"Dragon Ball: The Legend of Shenlong\") for its home video release, is the first in a series of feature films in the \"Dragon Ball\" anime franchise, based on the manga of the same name by Akira Toriyama.",
+    "Home on the Range: \"Home on the Range\" is a classic western folk song sometimes called the \"unofficial anthem\" of the American West.",
+    "Tempore: It thus signifies the date range 1042\u20131066."
+   ],
+   "answer": "Home on the Range",
+   "answer_usage": {
+    "in": 356,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.7457053329562768
+   },
+   "retrieval_latency_seconds": 0.06924295797944069,
+   "query": "Home on the Range release date",
+   "query_usage": {
+    "in": 290,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5881773340515792
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Yakuza: Dead Souls: A new release date, setting the game's release for June 9, was announced on April 7.",
+    "Unapologetically: Ballerini announced the album's title and release date on July 25, 2017.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "Pete's Dragon (2016 film): Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker.",
+    "Super Double Dragon: The game did not have an arcade release and was made specifically for the home market.",
+    "Dragon Ball: Curse of the Blood Rubies: \"Dragon Ball: The Legend of Shenlong\") for its home video release, is the first in a series of feature films in the \"Dragon Ball\" anime franchise, based on the manga of the same name by Akira Toriyama.",
+    "Home on the Range: \"Home on the Range\" is a classic western folk song sometimes called the \"unofficial anthem\" of the American West.",
+    "Tempore: It thus signifies the date range 1042\u20131066.",
+    "Home on the Range (2004 film): Home on the Range is a 2004 American animated musical western comedy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures."
+   ],
+   "answer": "Home on the Range",
+   "answer_usage": {
+    "in": 397,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6017962920013815
+   },
+   "retrieval_latency_seconds": 0.0894737089984119,
+   "query": "Home on the Range film release date",
+   "query_usage": {
+    "in": 341,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5954690839862451
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Yakuza: Dead Souls: A new release date, setting the game's release for June 9, was announced on April 7.",
+    "Unapologetically: Ballerini announced the album's title and release date on July 25, 2017.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "Pete's Dragon (2016 film): Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker.",
+    "Super Double Dragon: The game did not have an arcade release and was made specifically for the home market.",
+    "Dragon Ball: Curse of the Blood Rubies: \"Dragon Ball: The Legend of Shenlong\") for its home video release, is the first in a series of feature films in the \"Dragon Ball\" anime franchise, based on the manga of the same name by Akira Toriyama.",
+    "Home on the Range: \"Home on the Range\" is a classic western folk song sometimes called the \"unofficial anthem\" of the American West.",
+    "Tempore: It thus signifies the date range 1042\u20131066.",
+    "Home on the Range (2004 film): Home on the Range is a 2004 American animated musical western comedy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures.",
+    "Home on the Range (2004 film): Named after the popular country song of the same name, \"Home on the Range\" features the voices of Roseanne Barr, Judi Dench, Jennifer Tilly, Cuba Gooding Jr., Randy Quaid, and Steve Buscemi.",
+    "Home on the Range (2004 film): The 45th Disney animated feature film, it was the last 2D animated Disney film released until \"The Princess and the Frog\" in 2009."
+   ],
+   "answer": "Home on the Range",
+   "answer_usage": {
+    "in": 515,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5715396660380065
+   },
+   "retrieval_latency_seconds": 0.38990279205609113,
+   "query": "Home on the Range 2004 film release date",
+   "query_usage": {
+    "in": 382,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6389727500500157
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Yakuza: Dead Souls: A new release date, setting the game's release for June 9, was announced on April 7.",
+    "Unapologetically: Ballerini announced the album's title and release date on July 25, 2017.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "Pete's Dragon (2016 film): Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker.",
+    "Super Double Dragon: The game did not have an arcade release and was made specifically for the home market.",
+    "Dragon Ball: Curse of the Blood Rubies: \"Dragon Ball: The Legend of Shenlong\") for its home video release, is the first in a series of feature films in the \"Dragon Ball\" anime franchise, based on the manga of the same name by Akira Toriyama.",
+    "Home on the Range: \"Home on the Range\" is a classic western folk song sometimes called the \"unofficial anthem\" of the American West.",
+    "Tempore: It thus signifies the date range 1042\u20131066.",
+    "Home on the Range (2004 film): Home on the Range is a 2004 American animated musical western comedy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures.",
+    "Home on the Range (2004 film): Named after the popular country song of the same name, \"Home on the Range\" features the voices of Roseanne Barr, Judi Dench, Jennifer Tilly, Cuba Gooding Jr., Randy Quaid, and Steve Buscemi.",
+    "Home on the Range (2004 film): The 45th Disney animated feature film, it was the last 2D animated Disney film released until \"The Princess and the Frog\" in 2009."
+   ],
+   "answer": "Home on the Range",
+   "answer_usage": {
+    "in": 515,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5466184590477496
+   },
+   "retrieval_latency_seconds": 0.07618462503887713,
+   "query": "Home on the Range 2004 film release date",
+   "query_usage": {
+    "in": 500,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.5695220419438556
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Yakuza: Dead Souls: A new release date, setting the game's release for June 9, was announced on April 7.",
+    "Unapologetically: Ballerini announced the album's title and release date on July 25, 2017.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "Pete's Dragon (2016 film): Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker.",
+    "Super Double Dragon: The game did not have an arcade release and was made specifically for the home market.",
+    "Dragon Ball: Curse of the Blood Rubies: \"Dragon Ball: The Legend of Shenlong\") for its home video release, is the first in a series of feature films in the \"Dragon Ball\" anime franchise, based on the manga of the same name by Akira Toriyama.",
+    "Home on the Range: \"Home on the Range\" is a classic western folk song sometimes called the \"unofficial anthem\" of the American West.",
+    "Tempore: It thus signifies the date range 1042\u20131066.",
+    "Home on the Range (2004 film): Home on the Range is a 2004 American animated musical western comedy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures.",
+    "Home on the Range (2004 film): Named after the popular country song of the same name, \"Home on the Range\" features the voices of Roseanne Barr, Judi Dench, Jennifer Tilly, Cuba Gooding Jr., Randy Quaid, and Steve Buscemi.",
+    "Home on the Range (2004 film): The 45th Disney animated feature film, it was the last 2D animated Disney film released until \"The Princess and the Frog\" in 2009."
+   ],
+   "answer": "Home on the Range",
+   "answer_usage": {
+    "in": 515,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5617866250686347
+   },
+   "retrieval_latency_seconds": 0.4959469160530716,
+   "query": "Home on the Range 2004 film release date",
+   "query_usage": {
+    "in": 500,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.5545092499814928
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Yakuza: Dead Souls: A new release date, setting the game's release for June 9, was announced on April 7.",
+    "Unapologetically: Ballerini announced the album's title and release date on July 25, 2017.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "Pete's Dragon (2016 film): Pete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker.",
+    "Super Double Dragon: The game did not have an arcade release and was made specifically for the home market.",
+    "Dragon Ball: Curse of the Blood Rubies: \"Dragon Ball: The Legend of Shenlong\") for its home video release, is the first in a series of feature films in the \"Dragon Ball\" anime franchise, based on the manga of the same name by Akira Toriyama.",
+    "Home on the Range: \"Home on the Range\" is a classic western folk song sometimes called the \"unofficial anthem\" of the American West.",
+    "Tempore: It thus signifies the date range 1042\u20131066.",
+    "Home on the Range (2004 film): Home on the Range is a 2004 American animated musical western comedy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures.",
+    "Home on the Range (2004 film): Named after the popular country song of the same name, \"Home on the Range\" features the voices of Roseanne Barr, Judi Dench, Jennifer Tilly, Cuba Gooding Jr., Randy Quaid, and Steve Buscemi.",
+    "Home on the Range (2004 film): The 45th Disney animated feature film, it was the last 2D animated Disney film released until \"The Princess and the Frog\" in 2009.",
+    "Pete's Dragon (2016 film): The film stars Bryce Dallas Howard, Oakes Fegley, Wes Bentley, Karl Urban, Oona Laurence, and Robert Redford.",
+    "Pete's Dragon (2016 film): The film is a reboot of the 1977 musical film of the same name written by Malcolm Marmorstein."
+   ],
+   "answer": "Home on the Range",
+   "answer_usage": {
+    "in": 603,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.599179333075881
+   },
+   "retrieval_latency_seconds": 0.13617837498895824,
+   "query": "Pete's Dragon 2016 release date",
+   "query_usage": {
+    "in": 500,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5954103330150247
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   6.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.38461538461538464,
+   3.0,
+   1.0,
+   5.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6923076923076923,
+   3.0,
+   1.0,
+   3.0,
+   0.75,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.7692307692307693,
+   2.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.8461538461538461,
+   1.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.8461538461538461,
+   2.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.8461538461538461,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   13.0,
+   0.8461538461538461,
+   2.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

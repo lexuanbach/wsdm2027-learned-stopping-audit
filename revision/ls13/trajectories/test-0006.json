@@ -1,0 +1,382 @@
+{
+ "id": "5ae7525f5542991e8301cc60",
+ "question": "Kristine Moore Gebbie is a professor at a university founded in what year?",
+ "gold_answers": [
+  "1966"
+ ],
+ "support_titles": [
+  "Kristine Gebbie",
+  "Flinders University"
+ ],
+ "support_sentences": [
+  "Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+  "Founded in 1966, it was named in honour of navigator Matthew Flinders, who explored and surveyed the South Australian coastline in the early 19th century."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Unable to determine from provided evidence",
+   "answer_usage": {
+    "in": 79,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8962642500409856
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Kristine Gebbie: Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+    "Kristine Gebbie: Before moving to Hunter College, Gebbie was the Elizabeth Standish Gill Professor at the Columbia University School of Nursing and Director of Columbia's Center for Health Policy.",
+    "Kristine Gebbie: From 2008-2010, she was the Joan Hansen Grabe Dean of the Hunter-Bellevue School of Nursing, Hunter College-City University of New York."
+   ],
+   "answer": "1851",
+   "answer_usage": {
+    "in": 206,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6789857919793576
+   },
+   "retrieval_latency_seconds": 0.016574624925851822,
+   "query": "Kristine Moore Gebbie professor university",
+   "query_usage": {
+    "in": 64,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6271527920616791
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Kristine Gebbie: Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+    "Kristine Gebbie: Before moving to Hunter College, Gebbie was the Elizabeth Standish Gill Professor at the Columbia University School of Nursing and Director of Columbia's Center for Health Policy.",
+    "Kristine Gebbie: From 2008-2010, she was the Joan Hansen Grabe Dean of the Hunter-Bellevue School of Nursing, Hunter College-City University of New York.",
+    "Flinders University: Flinders University is a public university in Adelaide, South Australia.",
+    "Flinders University: Founded in 1966, it was named in honour of navigator Matthew Flinders, who explored and surveyed the South Australian coastline in the early 19th century.",
+    "Flinders, Victoria: At the 2011 census, Flinders had a population of 860."
+   ],
+   "answer": "1966",
+   "answer_usage": {
+    "in": 296,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6104949999134988
+   },
+   "retrieval_latency_seconds": 0.010184040991589427,
+   "query": "Flinders University founded year",
+   "query_usage": {
+    "in": 191,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6087452499195933
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Kristine Gebbie: Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+    "Kristine Gebbie: Before moving to Hunter College, Gebbie was the Elizabeth Standish Gill Professor at the Columbia University School of Nursing and Director of Columbia's Center for Health Policy.",
+    "Kristine Gebbie: From 2008-2010, she was the Joan Hansen Grabe Dean of the Hunter-Bellevue School of Nursing, Hunter College-City University of New York.",
+    "Flinders University: Flinders University is a public university in Adelaide, South Australia.",
+    "Flinders University: Founded in 1966, it was named in honour of navigator Matthew Flinders, who explored and surveyed the South Australian coastline in the early 19th century.",
+    "Flinders, Victoria: At the 2011 census, Flinders had a population of 860.",
+    "Anthony Oettinger: In 1973 he co-founded, with John LeGates, the Program on Information Resources Policy at Harvard University."
+   ],
+   "answer": "1966",
+   "answer_usage": {
+    "in": 330,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5993299590190873
+   },
+   "retrieval_latency_seconds": 0.30756641598418355,
+   "query": "Based on the known information, I already have the answer: Flinders University was founded in 1966.",
+   "query_usage": {
+    "in": 281,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8648760829819366
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Kristine Gebbie: Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+    "Kristine Gebbie: Before moving to Hunter College, Gebbie was the Elizabeth Standish Gill Professor at the Columbia University School of Nursing and Director of Columbia's Center for Health Policy.",
+    "Kristine Gebbie: From 2008-2010, she was the Joan Hansen Grabe Dean of the Hunter-Bellevue School of Nursing, Hunter College-City University of New York.",
+    "Flinders University: Flinders University is a public university in Adelaide, South Australia.",
+    "Flinders University: Founded in 1966, it was named in honour of navigator Matthew Flinders, who explored and surveyed the South Australian coastline in the early 19th century.",
+    "Flinders, Victoria: At the 2011 census, Flinders had a population of 860.",
+    "Anthony Oettinger: In 1973 he co-founded, with John LeGates, the Program on Information Resources Policy at Harvard University.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts."
+   ],
+   "answer": "1966",
+   "answer_usage": {
+    "in": 427,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5824272920144722
+   },
+   "retrieval_latency_seconds": 0.3584953329991549,
+   "query": "I have found the answer already from the known facts provided.",
+   "query_usage": {
+    "in": 315,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7865698329405859
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Kristine Gebbie: Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+    "Kristine Gebbie: Before moving to Hunter College, Gebbie was the Elizabeth Standish Gill Professor at the Columbia University School of Nursing and Director of Columbia's Center for Health Policy.",
+    "Kristine Gebbie: From 2008-2010, she was the Joan Hansen Grabe Dean of the Hunter-Bellevue School of Nursing, Hunter College-City University of New York.",
+    "Flinders University: Flinders University is a public university in Adelaide, South Australia.",
+    "Flinders University: Founded in 1966, it was named in honour of navigator Matthew Flinders, who explored and surveyed the South Australian coastline in the early 19th century.",
+    "Flinders, Victoria: At the 2011 census, Flinders had a population of 860.",
+    "Anthony Oettinger: In 1973 he co-founded, with John LeGates, the Program on Information Resources Policy at Harvard University.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "I Am... Gabriel: Some think he's an answer to prayer."
+   ],
+   "answer": "1966",
+   "answer_usage": {
+    "in": 443,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.572300500003621
+   },
+   "retrieval_latency_seconds": 0.1657297919737175,
+   "query": "I have found the answer already in the known facts provided.",
+   "query_usage": {
+    "in": 412,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8668621660908684
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Kristine Gebbie: Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+    "Kristine Gebbie: Before moving to Hunter College, Gebbie was the Elizabeth Standish Gill Professor at the Columbia University School of Nursing and Director of Columbia's Center for Health Policy.",
+    "Kristine Gebbie: From 2008-2010, she was the Joan Hansen Grabe Dean of the Hunter-Bellevue School of Nursing, Hunter College-City University of New York.",
+    "Flinders University: Flinders University is a public university in Adelaide, South Australia.",
+    "Flinders University: Founded in 1966, it was named in honour of navigator Matthew Flinders, who explored and surveyed the South Australian coastline in the early 19th century.",
+    "Flinders, Victoria: At the 2011 census, Flinders had a population of 860.",
+    "Anthony Oettinger: In 1973 he co-founded, with John LeGates, the Program on Information Resources Policy at Harvard University.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "I Am... Gabriel: Some think he's an answer to prayer."
+   ],
+   "answer": "1966",
+   "answer_usage": {
+    "in": 443,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6062941659474745
+   },
+   "retrieval_latency_seconds": 0.11942904104944319,
+   "query": "I have found the answer already in the known facts provided.",
+   "query_usage": {
+    "in": 428,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7894206669880077
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Kristine Gebbie: Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+    "Kristine Gebbie: Before moving to Hunter College, Gebbie was the Elizabeth Standish Gill Professor at the Columbia University School of Nursing and Director of Columbia's Center for Health Policy.",
+    "Kristine Gebbie: From 2008-2010, she was the Joan Hansen Grabe Dean of the Hunter-Bellevue School of Nursing, Hunter College-City University of New York.",
+    "Flinders University: Flinders University is a public university in Adelaide, South Australia.",
+    "Flinders University: Founded in 1966, it was named in honour of navigator Matthew Flinders, who explored and surveyed the South Australian coastline in the early 19th century.",
+    "Flinders, Victoria: At the 2011 census, Flinders had a population of 860.",
+    "Anthony Oettinger: In 1973 he co-founded, with John LeGates, the Program on Information Resources Policy at Harvard University.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "I Am... Gabriel: Some think he's an answer to prayer."
+   ],
+   "answer": "1966",
+   "answer_usage": {
+    "in": 443,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5836446250323206
+   },
+   "retrieval_latency_seconds": 0.12365424993913621,
+   "query": "I have found the answer already in the known facts provided.",
+   "query_usage": {
+    "in": 428,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8242663339478895
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Kristine Gebbie: Kristine Moore Gebbie is professor at the Flinders University School of Nursing & Midwifery in Adelaide, Australia.",
+    "Kristine Gebbie: Before moving to Hunter College, Gebbie was the Elizabeth Standish Gill Professor at the Columbia University School of Nursing and Director of Columbia's Center for Health Policy.",
+    "Kristine Gebbie: From 2008-2010, she was the Joan Hansen Grabe Dean of the Hunter-Bellevue School of Nursing, Hunter College-City University of New York.",
+    "Flinders University: Flinders University is a public university in Adelaide, South Australia.",
+    "Flinders University: Founded in 1966, it was named in honour of navigator Matthew Flinders, who explored and surveyed the South Australian coastline in the early 19th century.",
+    "Flinders, Victoria: At the 2011 census, Flinders had a population of 860.",
+    "Anthony Oettinger: In 1973 he co-founded, with John LeGates, the Program on Information Resources Policy at Harvard University.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts.",
+    "I Am... Gabriel: Some think he's an answer to prayer."
+   ],
+   "answer": "1966",
+   "answer_usage": {
+    "in": 443,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5999796250835061
+   },
+   "retrieval_latency_seconds": 0.2455672500655055,
+   "query": "I have found the answer already in the known facts provided.",
+   "query_usage": {
+    "in": 428,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7707510000327602
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   6.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6666666666666666,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.8333333333333334,
+   3.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.8333333333333334,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   10.0,
+   0.8333333333333334,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.8333333333333334,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.8333333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.8333333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.8333333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

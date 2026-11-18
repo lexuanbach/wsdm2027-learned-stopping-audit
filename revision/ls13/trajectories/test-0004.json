@@ -1,0 +1,356 @@
+{
+ "id": "5ab8c3c65542991b5579effd",
+ "question": "How many albums did the company who released Tift Merritt's debut album release for Tif Merritt?",
+ "gold_answers": [
+  "two"
+ ],
+ "support_titles": [
+  "Bramble Rose",
+  "Tift Merritt"
+ ],
+ "support_sentences": [
+  "It was released on Lost Highway Records in 2002.",
+  "She has released seven studio albums, two for Lost Highway Records, two for Fantasy Records, and three for Yep Roc Records."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the available information",
+   "answer_usage": {
+    "in": 87,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.7728781669866294
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Another Country (Tift Merritt album): Another Country is a studio album by singer-songwriter Tift Merritt.",
+    "Bramble Rose: Bramble Rose is the debut album by alternative country artist Tift Merritt.",
+    "Tift Merritt: Catherine Tift Merritt (born January 8, 1975) is an American singer-songwriter and musician."
+   ],
+   "answer": "I cannot answer this question because the evidence provided does not specify which company released Bramble Rose (Tift Merritt's debut album), nor does it provide information about how many albums that",
+   "answer_usage": {
+    "in": 173,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8099674170371145
+   },
+   "retrieval_latency_seconds": 0.010686916997656226,
+   "query": "Tift Merritt debut album",
+   "query_usage": {
+    "in": 72,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.634521417086944
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Another Country (Tift Merritt album): Another Country is a studio album by singer-songwriter Tift Merritt.",
+    "Bramble Rose: Bramble Rose is the debut album by alternative country artist Tift Merritt.",
+    "Tift Merritt: Catherine Tift Merritt (born January 8, 1975) is an American singer-songwriter and musician.",
+    "Bramble Rose: It was released on Lost Highway Records in 2002.",
+    "The Idols with Sid Vicious: Steve Dior provided a recording of this performance to the New Rose record label."
+   ],
+   "answer": "1",
+   "answer_usage": {
+    "in": 222,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5528475829632953
+   },
+   "retrieval_latency_seconds": 0.005521791987121105,
+   "query": "Bramble Rose record label",
+   "query_usage": {
+    "in": 158,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6022347080288455
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Another Country (Tift Merritt album): Another Country is a studio album by singer-songwriter Tift Merritt.",
+    "Bramble Rose: Bramble Rose is the debut album by alternative country artist Tift Merritt.",
+    "Tift Merritt: Catherine Tift Merritt (born January 8, 1975) is an American singer-songwriter and musician.",
+    "Bramble Rose: It was released on Lost Highway Records in 2002.",
+    "The Idols with Sid Vicious: Steve Dior provided a recording of this performance to the New Rose record label.",
+    "Tift Merritt: She has released seven studio albums, two for Lost Highway Records, two for Fantasy Records, and three for Yep Roc Records."
+   ],
+   "answer": "2",
+   "answer_usage": {
+    "in": 260,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6063349999021739
+   },
+   "retrieval_latency_seconds": 0.006460541975684464,
+   "query": "Tift Merritt Lost Highway Records discography",
+   "query_usage": {
+    "in": 207,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6480568749830127
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Another Country (Tift Merritt album): Another Country is a studio album by singer-songwriter Tift Merritt.",
+    "Bramble Rose: Bramble Rose is the debut album by alternative country artist Tift Merritt.",
+    "Tift Merritt: Catherine Tift Merritt (born January 8, 1975) is an American singer-songwriter and musician.",
+    "Bramble Rose: It was released on Lost Highway Records in 2002.",
+    "The Idols with Sid Vicious: Steve Dior provided a recording of this performance to the New Rose record label.",
+    "Tift Merritt: She has released seven studio albums, two for Lost Highway Records, two for Fantasy Records, and three for Yep Roc Records."
+   ],
+   "answer": "2",
+   "answer_usage": {
+    "in": 260,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6096555000403896
+   },
+   "retrieval_latency_seconds": 0.029512624954804778,
+   "query": "How many albums did Lost Highway Records release for Tift Merritt?",
+   "query_usage": {
+    "in": 245,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6596499590668827
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Another Country (Tift Merritt album): Another Country is a studio album by singer-songwriter Tift Merritt.",
+    "Bramble Rose: Bramble Rose is the debut album by alternative country artist Tift Merritt.",
+    "Tift Merritt: Catherine Tift Merritt (born January 8, 1975) is an American singer-songwriter and musician.",
+    "Bramble Rose: It was released on Lost Highway Records in 2002.",
+    "The Idols with Sid Vicious: Steve Dior provided a recording of this performance to the New Rose record label.",
+    "Tift Merritt: She has released seven studio albums, two for Lost Highway Records, two for Fantasy Records, and three for Yep Roc Records."
+   ],
+   "answer": "2",
+   "answer_usage": {
+    "in": 260,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6101524590048939
+   },
+   "retrieval_latency_seconds": 0.052059957990422845,
+   "query": "How many albums did Lost Highway Records release for Tift Merritt?",
+   "query_usage": {
+    "in": 245,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6897502919891849
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Another Country (Tift Merritt album): Another Country is a studio album by singer-songwriter Tift Merritt.",
+    "Bramble Rose: Bramble Rose is the debut album by alternative country artist Tift Merritt.",
+    "Tift Merritt: Catherine Tift Merritt (born January 8, 1975) is an American singer-songwriter and musician.",
+    "Bramble Rose: It was released on Lost Highway Records in 2002.",
+    "The Idols with Sid Vicious: Steve Dior provided a recording of this performance to the New Rose record label.",
+    "Tift Merritt: She has released seven studio albums, two for Lost Highway Records, two for Fantasy Records, and three for Yep Roc Records."
+   ],
+   "answer": "2",
+   "answer_usage": {
+    "in": 260,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6321555828908458
+   },
+   "retrieval_latency_seconds": 0.07199491700157523,
+   "query": "How many albums did Lost Highway Records release for Tift Merritt?",
+   "query_usage": {
+    "in": 245,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.7005392919527367
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Another Country (Tift Merritt album): Another Country is a studio album by singer-songwriter Tift Merritt.",
+    "Bramble Rose: Bramble Rose is the debut album by alternative country artist Tift Merritt.",
+    "Tift Merritt: Catherine Tift Merritt (born January 8, 1975) is an American singer-songwriter and musician.",
+    "Bramble Rose: It was released on Lost Highway Records in 2002.",
+    "The Idols with Sid Vicious: Steve Dior provided a recording of this performance to the New Rose record label.",
+    "Tift Merritt: She has released seven studio albums, two for Lost Highway Records, two for Fantasy Records, and three for Yep Roc Records."
+   ],
+   "answer": "2",
+   "answer_usage": {
+    "in": 260,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6270847920095548
+   },
+   "retrieval_latency_seconds": 0.03047208394855261,
+   "query": "How many albums did Lost Highway Records release for Tift Merritt?",
+   "query_usage": {
+    "in": 245,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6766056669875979
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Another Country (Tift Merritt album): Another Country is a studio album by singer-songwriter Tift Merritt.",
+    "Bramble Rose: Bramble Rose is the debut album by alternative country artist Tift Merritt.",
+    "Tift Merritt: Catherine Tift Merritt (born January 8, 1975) is an American singer-songwriter and musician.",
+    "Bramble Rose: It was released on Lost Highway Records in 2002.",
+    "The Idols with Sid Vicious: Steve Dior provided a recording of this performance to the New Rose record label.",
+    "Tift Merritt: She has released seven studio albums, two for Lost Highway Records, two for Fantasy Records, and three for Yep Roc Records."
+   ],
+   "answer": "2",
+   "answer_usage": {
+    "in": 260,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6086749169044197
+   },
+   "retrieval_latency_seconds": 0.02528116700705141,
+   "query": "How many albums did Lost Highway Records release for Tift Merritt?",
+   "query_usage": {
+    "in": 245,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6765418340219185
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.3125,
+   3.0,
+   1.0,
+   31.0,
+   0.22580645161290322,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.375,
+   2.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.5,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   4.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   4.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   4.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   4.0
+  ]
+ ]
+}

@@ -1,0 +1,359 @@
+{
+ "id": "5ab85e9e55429934fafe6d8b",
+ "question": "What is the founding year of this public research university in the Netherlands, where Jan Borgman was a professor from 1968 to 1988?",
+ "gold_answers": [
+  "1614"
+ ],
+ "support_titles": [
+  "Jan Borgman",
+  "University of Groningen"
+ ],
+ "support_sentences": [
+  "Jan Borgman (born 30 November 1929) is a Dutch astronomer and university administrator.",
+  "He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+  "The University of Groningen (abbreviated as UG; Dutch: \"Rijksuniversiteit Groningen\" , abbreviated as \"RUG\") is a public research university in the city of Groningen in the Netherlands.",
+  "The university was founded in 1614 and is one of the oldest universities in the Netherlands as well as one of its largest."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have enough information to answer this question. The evidence section is empty, and I would need to know which specific Dutch public research university Jan Borgman was a professor at from 1",
+   "answer_usage": {
+    "in": 93,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 1.009575542062521
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Jan Borgman: He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+    "Jan Borgman: Borgman subsequently became chairperson of the Netherlands Organisation for Scientific Research.",
+    "Erik Borgman: Professor Erik Borgman (born 1957, Amsterdam) (sometimes listed as Eric Borgman) is a Dutch professor of systematic theology at the University of Tilburg, the Netherlands."
+   ],
+   "answer": "1614",
+   "answer_usage": {
+    "in": 189,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6555712909903377
+   },
+   "retrieval_latency_seconds": 0.004294707905501127,
+   "query": "Jan Borgman professor Netherlands 1968 1988",
+   "query_usage": {
+    "in": 78,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.591942667029798
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Jan Borgman: He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+    "Jan Borgman: Borgman subsequently became chairperson of the Netherlands Organisation for Scientific Research.",
+    "Erik Borgman: Professor Erik Borgman (born 1957, Amsterdam) (sometimes listed as Eric Borgman) is a Dutch professor of systematic theology at the University of Tilburg, the Netherlands.",
+    "University of Groningen: The University of Groningen (abbreviated as UG; Dutch: \"Rijksuniversiteit Groningen\" , abbreviated as \"RUG\") is a public research university in the city of Groningen in the Netherlands.",
+    "University of Groningen: Since its inception more than 200,000 students have graduated.",
+    "University of Groningen: It is a member of the distinguished international Coimbra Group of European universities."
+   ],
+   "answer": "1614",
+   "answer_usage": {
+    "in": 293,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5730441249907017
+   },
+   "retrieval_latency_seconds": 0.1858202499570325,
+   "query": "University of Groningen founding year",
+   "query_usage": {
+    "in": 174,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5856443749507889
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Jan Borgman: He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+    "Jan Borgman: Borgman subsequently became chairperson of the Netherlands Organisation for Scientific Research.",
+    "Erik Borgman: Professor Erik Borgman (born 1957, Amsterdam) (sometimes listed as Eric Borgman) is a Dutch professor of systematic theology at the University of Tilburg, the Netherlands.",
+    "University of Groningen: The University of Groningen (abbreviated as UG; Dutch: \"Rijksuniversiteit Groningen\" , abbreviated as \"RUG\") is a public research university in the city of Groningen in the Netherlands.",
+    "University of Groningen: Since its inception more than 200,000 students have graduated.",
+    "University of Groningen: It is a member of the distinguished international Coimbra Group of European universities."
+   ],
+   "answer": "1614",
+   "answer_usage": {
+    "in": 293,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6023858750704676
+   },
+   "retrieval_latency_seconds": 0.5085962919984013,
+   "query": "University of Groningen founding year",
+   "query_usage": {
+    "in": 278,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5629577919607982
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Jan Borgman: He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+    "Jan Borgman: Borgman subsequently became chairperson of the Netherlands Organisation for Scientific Research.",
+    "Erik Borgman: Professor Erik Borgman (born 1957, Amsterdam) (sometimes listed as Eric Borgman) is a Dutch professor of systematic theology at the University of Tilburg, the Netherlands.",
+    "University of Groningen: The University of Groningen (abbreviated as UG; Dutch: \"Rijksuniversiteit Groningen\" , abbreviated as \"RUG\") is a public research university in the city of Groningen in the Netherlands.",
+    "University of Groningen: Since its inception more than 200,000 students have graduated.",
+    "University of Groningen: It is a member of the distinguished international Coimbra Group of European universities."
+   ],
+   "answer": "1614",
+   "answer_usage": {
+    "in": 293,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6176175830187276
+   },
+   "retrieval_latency_seconds": 0.05562245799228549,
+   "query": "University of Groningen founding year",
+   "query_usage": {
+    "in": 278,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5711649160366505
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Jan Borgman: He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+    "Jan Borgman: Borgman subsequently became chairperson of the Netherlands Organisation for Scientific Research.",
+    "Erik Borgman: Professor Erik Borgman (born 1957, Amsterdam) (sometimes listed as Eric Borgman) is a Dutch professor of systematic theology at the University of Tilburg, the Netherlands.",
+    "University of Groningen: The University of Groningen (abbreviated as UG; Dutch: \"Rijksuniversiteit Groningen\" , abbreviated as \"RUG\") is a public research university in the city of Groningen in the Netherlands.",
+    "University of Groningen: Since its inception more than 200,000 students have graduated.",
+    "University of Groningen: It is a member of the distinguished international Coimbra Group of European universities."
+   ],
+   "answer": "1614",
+   "answer_usage": {
+    "in": 293,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5913395840907469
+   },
+   "retrieval_latency_seconds": 0.040205333032645285,
+   "query": "University of Groningen founding year",
+   "query_usage": {
+    "in": 278,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5773690830683336
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Jan Borgman: He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+    "Jan Borgman: Borgman subsequently became chairperson of the Netherlands Organisation for Scientific Research.",
+    "Erik Borgman: Professor Erik Borgman (born 1957, Amsterdam) (sometimes listed as Eric Borgman) is a Dutch professor of systematic theology at the University of Tilburg, the Netherlands.",
+    "University of Groningen: The University of Groningen (abbreviated as UG; Dutch: \"Rijksuniversiteit Groningen\" , abbreviated as \"RUG\") is a public research university in the city of Groningen in the Netherlands.",
+    "University of Groningen: Since its inception more than 200,000 students have graduated.",
+    "University of Groningen: It is a member of the distinguished international Coimbra Group of European universities."
+   ],
+   "answer": "1614",
+   "answer_usage": {
+    "in": 293,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6296619999920949
+   },
+   "retrieval_latency_seconds": 0.041725208051502705,
+   "query": "University of Groningen founding year",
+   "query_usage": {
+    "in": 278,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.580758334021084
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Jan Borgman: He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+    "Jan Borgman: Borgman subsequently became chairperson of the Netherlands Organisation for Scientific Research.",
+    "Erik Borgman: Professor Erik Borgman (born 1957, Amsterdam) (sometimes listed as Eric Borgman) is a Dutch professor of systematic theology at the University of Tilburg, the Netherlands.",
+    "University of Groningen: The University of Groningen (abbreviated as UG; Dutch: \"Rijksuniversiteit Groningen\" , abbreviated as \"RUG\") is a public research university in the city of Groningen in the Netherlands.",
+    "University of Groningen: Since its inception more than 200,000 students have graduated.",
+    "University of Groningen: It is a member of the distinguished international Coimbra Group of European universities."
+   ],
+   "answer": "1614",
+   "answer_usage": {
+    "in": 293,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6225663750665262
+   },
+   "retrieval_latency_seconds": 0.12796862493269145,
+   "query": "University of Groningen founding year",
+   "query_usage": {
+    "in": 278,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5851060829591006
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Jan Borgman: He was professor of astronomical observation technique at the University of Groningen from 1968 to 1988.",
+    "Jan Borgman: Borgman subsequently became chairperson of the Netherlands Organisation for Scientific Research.",
+    "Erik Borgman: Professor Erik Borgman (born 1957, Amsterdam) (sometimes listed as Eric Borgman) is a Dutch professor of systematic theology at the University of Tilburg, the Netherlands.",
+    "University of Groningen: The University of Groningen (abbreviated as UG; Dutch: \"Rijksuniversiteit Groningen\" , abbreviated as \"RUG\") is a public research university in the city of Groningen in the Netherlands.",
+    "University of Groningen: Since its inception more than 200,000 students have graduated.",
+    "University of Groningen: It is a member of the distinguished international Coimbra Group of European universities."
+   ],
+   "answer": "1614",
+   "answer_usage": {
+    "in": 293,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.568892166018486
+   },
+   "retrieval_latency_seconds": 0.0773967910790816,
+   "query": "University of Groningen founding year",
+   "query_usage": {
+    "in": 278,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5785004999488592
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   33.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6818181818181818,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7727272727272727,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

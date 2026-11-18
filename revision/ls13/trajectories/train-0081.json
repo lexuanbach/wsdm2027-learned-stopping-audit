@@ -1,0 +1,352 @@
+{
+ "id": "5ac2f6b8554299677310265f",
+ "question": "Henry W. Bloch School of Management is named after the founder of an American tax preparation company that is based where?",
+ "gold_answers": [
+  "Kansas City"
+ ],
+ "support_titles": [
+  "Henry W. Bloch School of Management",
+  "H&amp;R Block"
+ ],
+ "support_sentences": [
+  "Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+  "It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+  "H&R Block is an American tax preparation company in North America, Australia, and India.",
+  "The Kansas City-based company also offers payroll, and business consulting services."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Kansas City, Missouri",
+   "answer_usage": {
+    "in": 86,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5615000830730423
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Henry W. Bloch School of Management: It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+    "Henry W. Bloch School of Management: Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+    "Henry W. Bloch School of Management: The Bloch School also offers NASPAA accredited degrees in Public administration."
+   ],
+   "answer": "Kansas City, Missouri",
+   "answer_usage": {
+    "in": 213,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5368387500056997
+   },
+   "retrieval_latency_seconds": 0.056360957911238074,
+   "query": "Henry W. Bloch School of Management founder",
+   "query_usage": {
+    "in": 71,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.63080912490841
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Henry W. Bloch School of Management: It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+    "Henry W. Bloch School of Management: Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+    "Henry W. Bloch School of Management: The Bloch School also offers NASPAA accredited degrees in Public administration.",
+    "H&amp;R Block: H&R Block is an American tax preparation company in North America, Australia, and India.",
+    "H&amp;R Block: The Kansas City-based company also offers payroll, and business consulting services."
+   ],
+   "answer": "Kansas City",
+   "answer_usage": {
+    "in": 266,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5607959589688107
+   },
+   "retrieval_latency_seconds": 0.0037267080042511225,
+   "query": "H&R Block headquarters location",
+   "query_usage": {
+    "in": 198,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 1.0203132090391591
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Henry W. Bloch School of Management: It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+    "Henry W. Bloch School of Management: Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+    "Henry W. Bloch School of Management: The Bloch School also offers NASPAA accredited degrees in Public administration.",
+    "H&amp;R Block: H&R Block is an American tax preparation company in North America, Australia, and India.",
+    "H&amp;R Block: The Kansas City-based company also offers payroll, and business consulting services."
+   ],
+   "answer": "Kansas City",
+   "answer_usage": {
+    "in": 266,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5815121670020744
+   },
+   "retrieval_latency_seconds": 0.003019999945536256,
+   "query": "H&R Block headquarters location",
+   "query_usage": {
+    "in": 251,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5677704999689013
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Henry W. Bloch School of Management: It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+    "Henry W. Bloch School of Management: Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+    "Henry W. Bloch School of Management: The Bloch School also offers NASPAA accredited degrees in Public administration.",
+    "H&amp;R Block: H&R Block is an American tax preparation company in North America, Australia, and India.",
+    "H&amp;R Block: The Kansas City-based company also offers payroll, and business consulting services."
+   ],
+   "answer": "Kansas City",
+   "answer_usage": {
+    "in": 266,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5578418750083074
+   },
+   "retrieval_latency_seconds": 0.009019291959702969,
+   "query": "H&R Block headquarters location",
+   "query_usage": {
+    "in": 251,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.573872874956578
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Henry W. Bloch School of Management: It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+    "Henry W. Bloch School of Management: Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+    "Henry W. Bloch School of Management: The Bloch School also offers NASPAA accredited degrees in Public administration.",
+    "H&amp;R Block: H&R Block is an American tax preparation company in North America, Australia, and India.",
+    "H&amp;R Block: The Kansas City-based company also offers payroll, and business consulting services."
+   ],
+   "answer": "Kansas City",
+   "answer_usage": {
+    "in": 266,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.551556459045969
+   },
+   "retrieval_latency_seconds": 0.0062923330115154386,
+   "query": "H&R Block headquarters location",
+   "query_usage": {
+    "in": 251,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5465695000020787
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Henry W. Bloch School of Management: It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+    "Henry W. Bloch School of Management: Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+    "Henry W. Bloch School of Management: The Bloch School also offers NASPAA accredited degrees in Public administration.",
+    "H&amp;R Block: H&R Block is an American tax preparation company in North America, Australia, and India.",
+    "H&amp;R Block: The Kansas City-based company also offers payroll, and business consulting services."
+   ],
+   "answer": "Kansas City",
+   "answer_usage": {
+    "in": 266,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.544857666012831
+   },
+   "retrieval_latency_seconds": 0.008043749956414104,
+   "query": "H&R Block headquarters location",
+   "query_usage": {
+    "in": 251,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5701573750702664
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Henry W. Bloch School of Management: It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+    "Henry W. Bloch School of Management: Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+    "Henry W. Bloch School of Management: The Bloch School also offers NASPAA accredited degrees in Public administration.",
+    "H&amp;R Block: H&R Block is an American tax preparation company in North America, Australia, and India.",
+    "H&amp;R Block: The Kansas City-based company also offers payroll, and business consulting services."
+   ],
+   "answer": "Kansas City",
+   "answer_usage": {
+    "in": 266,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5426250839373097
+   },
+   "retrieval_latency_seconds": 0.00556129205506295,
+   "query": "H&R Block headquarters location",
+   "query_usage": {
+    "in": 251,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5401702499948442
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Henry W. Bloch School of Management: It is named after Alumnus Henry W. Bloch, founder of H&R Block.",
+    "Henry W. Bloch School of Management: Henry W. Bloch School of Management (formerly known as Henry W. Bloch School of Business and Public Administration) is an AACSB accredited business school founded in 1952 at the University of Missouri-Kansas City in Kansas City, Missouri.",
+    "Henry W. Bloch School of Management: The Bloch School also offers NASPAA accredited degrees in Public administration.",
+    "H&amp;R Block: H&R Block is an American tax preparation company in North America, Australia, and India.",
+    "H&amp;R Block: The Kansas City-based company also offers payroll, and business consulting services."
+   ],
+   "answer": "Kansas City",
+   "answer_usage": {
+    "in": 266,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5569410000462085
+   },
+   "retrieval_latency_seconds": 0.0024134999839589,
+   "query": "H&R Block headquarters location",
+   "query_usage": {
+    "in": 251,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5703562078997493
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.8,
+  0.8,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.631578947368421,
+   3.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.8947368421052632,
+   2.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   5.0,
+   0.8947368421052632,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   5.0,
+   0.8947368421052632,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   5.0,
+   0.8947368421052632,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   5.0,
+   0.8947368421052632,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   5.0,
+   0.8947368421052632,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   5.0,
+   0.8947368421052632,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

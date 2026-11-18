@@ -1,0 +1,357 @@
+{
+ "id": "5ab439f055429942dd415eef",
+ "question": "Which airport Albany International Airport and Dane County Regional Airport is nearer its local town ?",
+ "gold_answers": [
+  "Dane County Regional Airport"
+ ],
+ "support_titles": [
+  "Albany International Airport",
+  "Dane County Regional Airport"
+ ],
+ "support_sentences": [
+  "Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+  "Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located six miles northeast of downtown Madison, the capital of Wisconsin."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Dane County Regional Airport",
+   "answer_usage": {
+    "in": 79,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6021610420430079
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Albany International Airport: It is owned by the Albany County Airport Authority.",
+    "Albany International Airport: Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+    "The Albany Academy: In July 2007, the administrative teams of The Albany Academy and Albany Academy for Girls merged into The Albany Academies."
+   ],
+   "answer": "I need to find information about Dane County Regional Airport and compare distances to their respective towns",
+   "answer_usage": {
+    "in": 180,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8877171250060201
+   },
+   "retrieval_latency_seconds": 0.022940541966818273,
+   "query": "Albany International Airport distance to Albany",
+   "query_usage": {
+    "in": 64,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.658697749953717
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Albany International Airport: It is owned by the Albany County Airport Authority.",
+    "Albany International Airport: Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+    "The Albany Academy: In July 2007, the administrative teams of The Albany Academy and Albany Academy for Girls merged into The Albany Academies.",
+    "Dane County Regional Airport: Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located six miles northeast of downtown Madison, the capital of Wisconsin.",
+    "Sharp County Regional Airport: The airport is owned by the Sharp County Regional Airport Authority.",
+    "Dane County Regional Airport: In the Federal Aviation Administration (FAA) National Plan of Integrated Airport Systems for 2017\u20132021, it is categorized as a small-hub primary commercial service facility."
+   ],
+   "answer": "Albany International Airport",
+   "answer_usage": {
+    "in": 313,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5792207500198856
+   },
+   "retrieval_latency_seconds": 0.09717087505850941,
+   "query": "Dane County Regional Airport distance from Madison",
+   "query_usage": {
+    "in": 165,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6554927079705521
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Albany International Airport: It is owned by the Albany County Airport Authority.",
+    "Albany International Airport: Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+    "The Albany Academy: In July 2007, the administrative teams of The Albany Academy and Albany Academy for Girls merged into The Albany Academies.",
+    "Dane County Regional Airport: Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located six miles northeast of downtown Madison, the capital of Wisconsin.",
+    "Sharp County Regional Airport: The airport is owned by the Sharp County Regional Airport Authority.",
+    "Dane County Regional Airport: In the Federal Aviation Administration (FAA) National Plan of Integrated Airport Systems for 2017\u20132021, it is categorized as a small-hub primary commercial service facility."
+   ],
+   "answer": "Albany International Airport",
+   "answer_usage": {
+    "in": 313,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6945448340848088
+   },
+   "retrieval_latency_seconds": 0.28474024997558445,
+   "query": "I need to find the distance from Dane County Regional Airport to Madison to compare with Albany International Airport's distance to Albany.",
+   "query_usage": {
+    "in": 298,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7956434580264613
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Albany International Airport: It is owned by the Albany County Airport Authority.",
+    "Albany International Airport: Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+    "The Albany Academy: In July 2007, the administrative teams of The Albany Academy and Albany Academy for Girls merged into The Albany Academies.",
+    "Dane County Regional Airport: Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located six miles northeast of downtown Madison, the capital of Wisconsin.",
+    "Sharp County Regional Airport: The airport is owned by the Sharp County Regional Airport Authority.",
+    "Dane County Regional Airport: In the Federal Aviation Administration (FAA) National Plan of Integrated Airport Systems for 2017\u20132021, it is categorized as a small-hub primary commercial service facility."
+   ],
+   "answer": "Albany International Airport",
+   "answer_usage": {
+    "in": 313,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5539921669987962
+   },
+   "retrieval_latency_seconds": 0.21370154106989503,
+   "query": "I need to find the distance from Dane County Regional Airport to Madison to compare with Albany International Airport's distance to Albany.",
+   "query_usage": {
+    "in": 298,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7280490410048515
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Albany International Airport: It is owned by the Albany County Airport Authority.",
+    "Albany International Airport: Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+    "The Albany Academy: In July 2007, the administrative teams of The Albany Academy and Albany Academy for Girls merged into The Albany Academies.",
+    "Dane County Regional Airport: Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located six miles northeast of downtown Madison, the capital of Wisconsin.",
+    "Sharp County Regional Airport: The airport is owned by the Sharp County Regional Airport Authority.",
+    "Dane County Regional Airport: In the Federal Aviation Administration (FAA) National Plan of Integrated Airport Systems for 2017\u20132021, it is categorized as a small-hub primary commercial service facility."
+   ],
+   "answer": "Albany International Airport",
+   "answer_usage": {
+    "in": 313,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5708890419919044
+   },
+   "retrieval_latency_seconds": 0.22592691599857062,
+   "query": "I need to find the distance from Dane County Regional Airport to Madison to compare with Albany International Airport's distance to Albany.",
+   "query_usage": {
+    "in": 298,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.807446249993518
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Albany International Airport: It is owned by the Albany County Airport Authority.",
+    "Albany International Airport: Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+    "The Albany Academy: In July 2007, the administrative teams of The Albany Academy and Albany Academy for Girls merged into The Albany Academies.",
+    "Dane County Regional Airport: Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located six miles northeast of downtown Madison, the capital of Wisconsin.",
+    "Sharp County Regional Airport: The airport is owned by the Sharp County Regional Airport Authority.",
+    "Dane County Regional Airport: In the Federal Aviation Administration (FAA) National Plan of Integrated Airport Systems for 2017\u20132021, it is categorized as a small-hub primary commercial service facility."
+   ],
+   "answer": "Albany International Airport",
+   "answer_usage": {
+    "in": 313,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5809867499629036
+   },
+   "retrieval_latency_seconds": 0.12828404095489532,
+   "query": "I need to find the distance from Dane County Regional Airport to Madison to compare with Albany International Airport's distance to Albany.",
+   "query_usage": {
+    "in": 298,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8151159170083702
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Albany International Airport: It is owned by the Albany County Airport Authority.",
+    "Albany International Airport: Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+    "The Albany Academy: In July 2007, the administrative teams of The Albany Academy and Albany Academy for Girls merged into The Albany Academies.",
+    "Dane County Regional Airport: Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located six miles northeast of downtown Madison, the capital of Wisconsin.",
+    "Sharp County Regional Airport: The airport is owned by the Sharp County Regional Airport Authority.",
+    "Dane County Regional Airport: In the Federal Aviation Administration (FAA) National Plan of Integrated Airport Systems for 2017\u20132021, it is categorized as a small-hub primary commercial service facility."
+   ],
+   "answer": "Albany International Airport",
+   "answer_usage": {
+    "in": 313,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5985663749743253
+   },
+   "retrieval_latency_seconds": 0.16522095794789493,
+   "query": "I need to find the distance from Dane County Regional Airport to Madison to compare with Albany International Airport's distance to Albany.",
+   "query_usage": {
+    "in": 298,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7380849169567227
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Albany International Airport: It is owned by the Albany County Airport Authority.",
+    "Albany International Airport: Albany International Airport (IATA: ALB, ICAO: KALB, FAA LID: ALB) is a public airport seven miles (11 km) northwest of Albany, in Albany County, New York, United States.",
+    "The Albany Academy: In July 2007, the administrative teams of The Albany Academy and Albany Academy for Girls merged into The Albany Academies.",
+    "Dane County Regional Airport: Dane County Regional Airport (DCRA) (IATA: MSN, ICAO: KMSN, FAA LID: MSN) (Truax Field) is a civil-military airport located six miles northeast of downtown Madison, the capital of Wisconsin.",
+    "Sharp County Regional Airport: The airport is owned by the Sharp County Regional Airport Authority.",
+    "Dane County Regional Airport: In the Federal Aviation Administration (FAA) National Plan of Integrated Airport Systems for 2017\u20132021, it is categorized as a small-hub primary commercial service facility."
+   ],
+   "answer": "Albany International Airport",
+   "answer_usage": {
+    "in": 313,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5879711250308901
+   },
+   "retrieval_latency_seconds": 0.17702395806554705,
+   "query": "I need to find the distance from Dane County Regional Airport to Madison to compare with Albany International Airport's distance to Albany.",
+   "query_usage": {
+    "in": 298,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7838837079470977
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  1.0,
+  0.38095238095238093,
+  0.28571428571428575,
+  0.28571428571428575,
+  0.28571428571428575,
+  0.28571428571428575,
+  0.28571428571428575,
+  0.28571428571428575,
+  0.28571428571428575
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   4.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.46153846153846156,
+   3.0,
+   1.0,
+   17.0,
+   0.1875,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6153846153846154,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.6153846153846154,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.6153846153846154,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.6153846153846154,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.6153846153846154,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.6153846153846154,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.6153846153846154,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

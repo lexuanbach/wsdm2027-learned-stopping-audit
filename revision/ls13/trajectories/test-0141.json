@@ -1,0 +1,350 @@
+{
+ "id": "5a85018d5542997b5ce3ff98",
+ "question": "Which host of Straight to the Heart is an American actress and producer?",
+ "gold_answers": [
+  "Barbara Niven"
+ ],
+ "support_titles": [
+  "Straight to the Heart (game show)",
+  "Barbara Niven"
+ ],
+ "support_sentences": [
+  "The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander.",
+  "Barbara Niven (born February 26, 1953) is an American actress and producer, best known for her performances in Lifetime movies and television roles in \"\", \"One Life to Live\", and \"Cedar Cove\"."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Jada Pinkett Smith",
+   "answer_usage": {
+    "in": 76,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5837740000570193
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Straight to the Heart (game show): Straight to the Heart is an American game show that aired in 1989 from March 20-September 8.",
+    "Straight from the Heart (2003 film): Straight from the Heart is a made-for-TV movie that premiered on Hallmark Channel on February 9, 2003.",
+    "Straight to the Heart (game show): The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander."
+   ],
+   "answer": "Barbara Lee Alexander",
+   "answer_usage": {
+    "in": 178,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.560410000034608
+   },
+   "retrieval_latency_seconds": 0.480648500029929,
+   "query": "Straight to the Heart hosts",
+   "query_usage": {
+    "in": 61,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6201786670135334
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Straight to the Heart (game show): Straight to the Heart is an American game show that aired in 1989 from March 20-September 8.",
+    "Straight from the Heart (2003 film): Straight from the Heart is a made-for-TV movie that premiered on Hallmark Channel on February 9, 2003.",
+    "Straight to the Heart (game show): The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander.",
+    "Barbara Niven: Barbara Niven (born February 26, 1953) is an American actress and producer, best known for her performances in Lifetime movies and television roles in \"\", \"One Life to Live\", and \"Cedar Cove\".",
+    "Barbara Garshman: Barbara Garshman is an American television producer, writer and executive."
+   ],
+   "answer": "Barbara Niven",
+   "answer_usage": {
+    "in": 256,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5647098340559751
+   },
+   "retrieval_latency_seconds": 0.013203624985180795,
+   "query": "Barbara Lee Alexander actress producer",
+   "query_usage": {
+    "in": 163,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.48629637504927814
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Straight to the Heart (game show): Straight to the Heart is an American game show that aired in 1989 from March 20-September 8.",
+    "Straight from the Heart (2003 film): Straight from the Heart is a made-for-TV movie that premiered on Hallmark Channel on February 9, 2003.",
+    "Straight to the Heart (game show): The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander.",
+    "Barbara Niven: Barbara Niven (born February 26, 1953) is an American actress and producer, best known for her performances in Lifetime movies and television roles in \"\", \"One Life to Live\", and \"Cedar Cove\".",
+    "Barbara Garshman: Barbara Garshman is an American television producer, writer and executive."
+   ],
+   "answer": "Barbara Niven",
+   "answer_usage": {
+    "in": 256,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5606297920458019
+   },
+   "retrieval_latency_seconds": 0.010527540929615498,
+   "query": "Barbara Lee Alexander actress producer",
+   "query_usage": {
+    "in": 241,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.660307458951138
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Straight to the Heart (game show): Straight to the Heart is an American game show that aired in 1989 from March 20-September 8.",
+    "Straight from the Heart (2003 film): Straight from the Heart is a made-for-TV movie that premiered on Hallmark Channel on February 9, 2003.",
+    "Straight to the Heart (game show): The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander.",
+    "Barbara Niven: Barbara Niven (born February 26, 1953) is an American actress and producer, best known for her performances in Lifetime movies and television roles in \"\", \"One Life to Live\", and \"Cedar Cove\".",
+    "Barbara Garshman: Barbara Garshman is an American television producer, writer and executive."
+   ],
+   "answer": "Neither host is identified as an American actress and producer in the evidence provided",
+   "answer_usage": {
+    "in": 256,
+    "out": 20,
+    "calls": 1,
+    "latency_seconds": 0.7133828750811517
+   },
+   "retrieval_latency_seconds": 0.014336917083710432,
+   "query": "Barbara Lee Alexander actress producer",
+   "query_usage": {
+    "in": 241,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6221997500397265
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Straight to the Heart (game show): Straight to the Heart is an American game show that aired in 1989 from March 20-September 8.",
+    "Straight from the Heart (2003 film): Straight from the Heart is a made-for-TV movie that premiered on Hallmark Channel on February 9, 2003.",
+    "Straight to the Heart (game show): The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander.",
+    "Barbara Niven: Barbara Niven (born February 26, 1953) is an American actress and producer, best known for her performances in Lifetime movies and television roles in \"\", \"One Life to Live\", and \"Cedar Cove\".",
+    "Barbara Garshman: Barbara Garshman is an American television producer, writer and executive."
+   ],
+   "answer": "Neither host is identified as an American actress and producer in the evidence provided",
+   "answer_usage": {
+    "in": 256,
+    "out": 20,
+    "calls": 1,
+    "latency_seconds": 0.7107246660161763
+   },
+   "retrieval_latency_seconds": 0.007559166057035327,
+   "query": "Barbara Lee Alexander actress producer",
+   "query_usage": {
+    "in": 241,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.586603083065711
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Straight to the Heart (game show): Straight to the Heart is an American game show that aired in 1989 from March 20-September 8.",
+    "Straight from the Heart (2003 film): Straight from the Heart is a made-for-TV movie that premiered on Hallmark Channel on February 9, 2003.",
+    "Straight to the Heart (game show): The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander.",
+    "Barbara Niven: Barbara Niven (born February 26, 1953) is an American actress and producer, best known for her performances in Lifetime movies and television roles in \"\", \"One Life to Live\", and \"Cedar Cove\".",
+    "Barbara Garshman: Barbara Garshman is an American television producer, writer and executive."
+   ],
+   "answer": "Barbara Niven",
+   "answer_usage": {
+    "in": 256,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5639900000533089
+   },
+   "retrieval_latency_seconds": 0.005691541940905154,
+   "query": "Barbara Lee Alexander actress producer",
+   "query_usage": {
+    "in": 241,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5996250410098583
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Straight to the Heart (game show): Straight to the Heart is an American game show that aired in 1989 from March 20-September 8.",
+    "Straight from the Heart (2003 film): Straight from the Heart is a made-for-TV movie that premiered on Hallmark Channel on February 9, 2003.",
+    "Straight to the Heart (game show): The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander.",
+    "Barbara Niven: Barbara Niven (born February 26, 1953) is an American actress and producer, best known for her performances in Lifetime movies and television roles in \"\", \"One Life to Live\", and \"Cedar Cove\".",
+    "Barbara Garshman: Barbara Garshman is an American television producer, writer and executive."
+   ],
+   "answer": "Neither host is identified as an American actress and producer in the evidence provided",
+   "answer_usage": {
+    "in": 256,
+    "out": 20,
+    "calls": 1,
+    "latency_seconds": 0.6879559999797493
+   },
+   "retrieval_latency_seconds": 0.003431082936003804,
+   "query": "Barbara Lee Alexander actress producer",
+   "query_usage": {
+    "in": 241,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6151591669768095
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Straight to the Heart (game show): Straight to the Heart is an American game show that aired in 1989 from March 20-September 8.",
+    "Straight from the Heart (2003 film): Straight from the Heart is a made-for-TV movie that premiered on Hallmark Channel on February 9, 2003.",
+    "Straight to the Heart (game show): The program was hosted by Michael Burger and co-hosted by Barbara Lee Alexander.",
+    "Barbara Niven: Barbara Niven (born February 26, 1953) is an American actress and producer, best known for her performances in Lifetime movies and television roles in \"\", \"One Life to Live\", and \"Cedar Cove\".",
+    "Barbara Garshman: Barbara Garshman is an American television producer, writer and executive."
+   ],
+   "answer": "Barbara Niven",
+   "answer_usage": {
+    "in": 256,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5401059589348733
+   },
+   "retrieval_latency_seconds": 0.006677165976725519,
+   "query": "Barbara Lee Alexander actress producer",
+   "query_usage": {
+    "in": 241,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6069579579634592
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  0,
+  0,
+  1,
+  0,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.4,
+  1.0,
+  1.0,
+  0.0,
+  0.0,
+  1.0,
+  0.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6153846153846154,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7692307692307693,
+   2.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   1.0,
+   12.0,
+   0.5714285714285714,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   12.0,
+   0.5714285714285714,
+   0.0,
+   4.0
+  ],
+  [
+   6.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   7.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   1.0,
+   12.0,
+   0.5714285714285714,
+   0.0,
+   4.0
+  ],
+  [
+   8.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   4.0
+  ]
+ ]
+}

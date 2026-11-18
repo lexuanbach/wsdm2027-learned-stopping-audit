@@ -1,0 +1,357 @@
+{
+ "id": "5a81e4e8554299676cceb140",
+ "question": "In which University is Richard Williams' former assistant a member of the Athletics Hall of Fame?",
+ "gold_answers": [
+  "Campbellsville University"
+ ],
+ "support_titles": [
+  "Richard Williams (basketball coach)",
+  "Rick Stansbury"
+ ],
+ "support_sentences": [
+  "He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury.",
+  "He is a member of the Campbellsville University Athletics Hall of Fame."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have enough information to answer this question. The evidence provided is empty, and without knowing which Richard Williams you're referring to or who their former assistant is, I cannot determine which university's",
+   "answer_usage": {
+    "in": 79,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7988382499897853
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Richard Williams (basketball coach): Richard Williams was the college basketball head coach at Mississippi State from 1986 to 1998.",
+    "Richard Williams (basketball coach): Richard Williams resigned as the head coach at MSU two years removed from his Final Four appearance.",
+    "Richard Williams (basketball coach): He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury."
+   ],
+   "answer": "Mississippi State",
+   "answer_usage": {
+    "in": 176,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6672431660117581
+   },
+   "retrieval_latency_seconds": 0.003292582929134369,
+   "query": "Richard Williams tennis coach assistant",
+   "query_usage": {
+    "in": 64,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6071281669428572
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Richard Williams (basketball coach): Richard Williams was the college basketball head coach at Mississippi State from 1986 to 1998.",
+    "Richard Williams (basketball coach): Richard Williams resigned as the head coach at MSU two years removed from his Final Four appearance.",
+    "Richard Williams (basketball coach): He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury.",
+    "Rick Stansbury: He is a member of the Campbellsville University Athletics Hall of Fame.",
+    "Ken Hayes: Hayes was inducted into the Tulsa University Athletics Hall of Fame (2008), the Northeastern State Athletics Hall of Fame (1999), and the Bacone College Athletics Hall of Fame (2013).",
+    "Harry Gallatin: A member of the Naismith Memorial Basketball Hall of Fame, he is also a member of the National Collegiate Basketball Hall of Fame, the SIU Edwardsville Athletics Hall of Fame, the Truman State University Athletics Hall of Fame, the Missouri Sports Hall of Fame, two Illinois Basketball Halls of Fame, the Mid-America Intercollegiate Athletics Association (MIAA) Hall of Fame, the National Association of Intercollegiate Athletics (NAIA) Hall of Fame, and the SIU Salukis Hall of Fame."
+   ],
+   "answer": "Campbellsville University",
+   "answer_usage": {
+    "in": 375,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5985581669956446
+   },
+   "retrieval_latency_seconds": 0.3578952079406008,
+   "query": "Rick Stansbury Athletics Hall of Fame university",
+   "query_usage": {
+    "in": 161,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6415011660428718
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Richard Williams (basketball coach): Richard Williams was the college basketball head coach at Mississippi State from 1986 to 1998.",
+    "Richard Williams (basketball coach): Richard Williams resigned as the head coach at MSU two years removed from his Final Four appearance.",
+    "Richard Williams (basketball coach): He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury.",
+    "Rick Stansbury: He is a member of the Campbellsville University Athletics Hall of Fame.",
+    "Ken Hayes: Hayes was inducted into the Tulsa University Athletics Hall of Fame (2008), the Northeastern State Athletics Hall of Fame (1999), and the Bacone College Athletics Hall of Fame (2013).",
+    "Harry Gallatin: A member of the Naismith Memorial Basketball Hall of Fame, he is also a member of the National Collegiate Basketball Hall of Fame, the SIU Edwardsville Athletics Hall of Fame, the Truman State University Athletics Hall of Fame, the Missouri Sports Hall of Fame, two Illinois Basketball Halls of Fame, the Mid-America Intercollegiate Athletics Association (MIAA) Hall of Fame, the National Association of Intercollegiate Athletics (NAIA) Hall of Fame, and the SIU Salukis Hall of Fame."
+   ],
+   "answer": "Campbellsville University",
+   "answer_usage": {
+    "in": 375,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5940072910161689
+   },
+   "retrieval_latency_seconds": 0.06237749999854714,
+   "query": "Rick Stansbury Campbellsville University Athletics Hall of Fame",
+   "query_usage": {
+    "in": 360,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.6007895830553025
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Richard Williams (basketball coach): Richard Williams was the college basketball head coach at Mississippi State from 1986 to 1998.",
+    "Richard Williams (basketball coach): Richard Williams resigned as the head coach at MSU two years removed from his Final Four appearance.",
+    "Richard Williams (basketball coach): He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury.",
+    "Rick Stansbury: He is a member of the Campbellsville University Athletics Hall of Fame.",
+    "Ken Hayes: Hayes was inducted into the Tulsa University Athletics Hall of Fame (2008), the Northeastern State Athletics Hall of Fame (1999), and the Bacone College Athletics Hall of Fame (2013).",
+    "Harry Gallatin: A member of the Naismith Memorial Basketball Hall of Fame, he is also a member of the National Collegiate Basketball Hall of Fame, the SIU Edwardsville Athletics Hall of Fame, the Truman State University Athletics Hall of Fame, the Missouri Sports Hall of Fame, two Illinois Basketball Halls of Fame, the Mid-America Intercollegiate Athletics Association (MIAA) Hall of Fame, the National Association of Intercollegiate Athletics (NAIA) Hall of Fame, and the SIU Salukis Hall of Fame."
+   ],
+   "answer": "Campbellsville University",
+   "answer_usage": {
+    "in": 375,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5910210000583902
+   },
+   "retrieval_latency_seconds": 0.12556199997197837,
+   "query": "Rick Stansbury Campbellsville University Athletics Hall of Fame",
+   "query_usage": {
+    "in": 360,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.6024567090207711
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Richard Williams (basketball coach): Richard Williams was the college basketball head coach at Mississippi State from 1986 to 1998.",
+    "Richard Williams (basketball coach): Richard Williams resigned as the head coach at MSU two years removed from his Final Four appearance.",
+    "Richard Williams (basketball coach): He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury.",
+    "Rick Stansbury: He is a member of the Campbellsville University Athletics Hall of Fame.",
+    "Ken Hayes: Hayes was inducted into the Tulsa University Athletics Hall of Fame (2008), the Northeastern State Athletics Hall of Fame (1999), and the Bacone College Athletics Hall of Fame (2013).",
+    "Harry Gallatin: A member of the Naismith Memorial Basketball Hall of Fame, he is also a member of the National Collegiate Basketball Hall of Fame, the SIU Edwardsville Athletics Hall of Fame, the Truman State University Athletics Hall of Fame, the Missouri Sports Hall of Fame, two Illinois Basketball Halls of Fame, the Mid-America Intercollegiate Athletics Association (MIAA) Hall of Fame, the National Association of Intercollegiate Athletics (NAIA) Hall of Fame, and the SIU Salukis Hall of Fame."
+   ],
+   "answer": "Campbellsville University",
+   "answer_usage": {
+    "in": 375,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6307852499885485
+   },
+   "retrieval_latency_seconds": 0.050213332986459136,
+   "query": "Rick Stansbury Campbellsville University Athletics Hall of Fame",
+   "query_usage": {
+    "in": 360,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.6418786669382825
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Richard Williams (basketball coach): Richard Williams was the college basketball head coach at Mississippi State from 1986 to 1998.",
+    "Richard Williams (basketball coach): Richard Williams resigned as the head coach at MSU two years removed from his Final Four appearance.",
+    "Richard Williams (basketball coach): He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury.",
+    "Rick Stansbury: He is a member of the Campbellsville University Athletics Hall of Fame.",
+    "Ken Hayes: Hayes was inducted into the Tulsa University Athletics Hall of Fame (2008), the Northeastern State Athletics Hall of Fame (1999), and the Bacone College Athletics Hall of Fame (2013).",
+    "Harry Gallatin: A member of the Naismith Memorial Basketball Hall of Fame, he is also a member of the National Collegiate Basketball Hall of Fame, the SIU Edwardsville Athletics Hall of Fame, the Truman State University Athletics Hall of Fame, the Missouri Sports Hall of Fame, two Illinois Basketball Halls of Fame, the Mid-America Intercollegiate Athletics Association (MIAA) Hall of Fame, the National Association of Intercollegiate Athletics (NAIA) Hall of Fame, and the SIU Salukis Hall of Fame."
+   ],
+   "answer": "Campbellsville University",
+   "answer_usage": {
+    "in": 375,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6409387920284644
+   },
+   "retrieval_latency_seconds": 0.06342416605912149,
+   "query": "Rick Stansbury Campbellsville University Athletics Hall of Fame",
+   "query_usage": {
+    "in": 360,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 1.0990906249498948
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Richard Williams (basketball coach): Richard Williams was the college basketball head coach at Mississippi State from 1986 to 1998.",
+    "Richard Williams (basketball coach): Richard Williams resigned as the head coach at MSU two years removed from his Final Four appearance.",
+    "Richard Williams (basketball coach): He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury.",
+    "Rick Stansbury: He is a member of the Campbellsville University Athletics Hall of Fame.",
+    "Ken Hayes: Hayes was inducted into the Tulsa University Athletics Hall of Fame (2008), the Northeastern State Athletics Hall of Fame (1999), and the Bacone College Athletics Hall of Fame (2013).",
+    "Harry Gallatin: A member of the Naismith Memorial Basketball Hall of Fame, he is also a member of the National Collegiate Basketball Hall of Fame, the SIU Edwardsville Athletics Hall of Fame, the Truman State University Athletics Hall of Fame, the Missouri Sports Hall of Fame, two Illinois Basketball Halls of Fame, the Mid-America Intercollegiate Athletics Association (MIAA) Hall of Fame, the National Association of Intercollegiate Athletics (NAIA) Hall of Fame, and the SIU Salukis Hall of Fame."
+   ],
+   "answer": "Campbellsville University",
+   "answer_usage": {
+    "in": 375,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6161237499909475
+   },
+   "retrieval_latency_seconds": 0.045312375063076615,
+   "query": "Rick Stansbury Campbellsville University Athletics Hall of Fame",
+   "query_usage": {
+    "in": 360,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.7673475829651579
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Richard Williams (basketball coach): Richard Williams was the college basketball head coach at Mississippi State from 1986 to 1998.",
+    "Richard Williams (basketball coach): Richard Williams resigned as the head coach at MSU two years removed from his Final Four appearance.",
+    "Richard Williams (basketball coach): He is the 2nd most successful coach in school history with 191 victories (191\u2013163 .540) bested only by his former assistant, Rick Stansbury.",
+    "Rick Stansbury: He is a member of the Campbellsville University Athletics Hall of Fame.",
+    "Ken Hayes: Hayes was inducted into the Tulsa University Athletics Hall of Fame (2008), the Northeastern State Athletics Hall of Fame (1999), and the Bacone College Athletics Hall of Fame (2013).",
+    "Harry Gallatin: A member of the Naismith Memorial Basketball Hall of Fame, he is also a member of the National Collegiate Basketball Hall of Fame, the SIU Edwardsville Athletics Hall of Fame, the Truman State University Athletics Hall of Fame, the Missouri Sports Hall of Fame, two Illinois Basketball Halls of Fame, the Mid-America Intercollegiate Athletics Association (MIAA) Hall of Fame, the National Association of Intercollegiate Athletics (NAIA) Hall of Fame, and the SIU Salukis Hall of Fame."
+   ],
+   "answer": "Campbellsville University",
+   "answer_usage": {
+    "in": 375,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.852448666933924
+   },
+   "retrieval_latency_seconds": 0.38585774996317923,
+   "query": "Rick Stansbury Campbellsville University Athletics Hall of Fame",
+   "query_usage": {
+    "in": 360,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.6465607919963077
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.05263157894736842,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   36.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4666666666666667,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9333333333333333,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "id": "5ae39fb85542990afbd1e197",
+ "question": "Do both Changle District and Longkou face water?",
+ "gold_answers": [
+  "yes"
+ ],
+ "support_titles": [
+  "Longkou",
+  "Changle District"
+ ],
+ "support_sentences": [
+  "Longkou (), formerly Huang County (), is a port city in northeastern Shandong province, China, facing the Bohai Sea to the north and the Laizhou Bay to the west.",
+  "The district faces East China Sea and is connected to Mawei district by the Min River."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 74,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5872229170054197
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Changle District: (, Foochow Romanized: Di\u00f2ng-l\u014f\u0324h) is a district located in eastern Fujian province, China.",
+    "Changle District: The district faces East China Sea and is connected to Mawei district by the Min River.",
+    "Changle District: The city was upgraded into a district on August 2017 by a government proposal."
+   ],
+   "answer": "Unknown",
+   "answer_usage": {
+    "in": 162,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5628168330295011
+   },
+   "retrieval_latency_seconds": 0.003777832956984639,
+   "query": "Changle District water body location",
+   "query_usage": {
+    "in": 59,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.583636499941349
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Changle District: (, Foochow Romanized: Di\u00f2ng-l\u014f\u0324h) is a district located in eastern Fujian province, China.",
+    "Changle District: The district faces East China Sea and is connected to Mawei district by the Min River.",
+    "Changle District: The city was upgraded into a district on August 2017 by a government proposal.",
+    "Longkou: The total population of Longkou is 620,000.",
+    "Kill (body of water): As a body of water, a kill is a creek.",
+    "Longkou: Longkou, a county-level city, is administered by the prefecture-level city of Yantai."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 231,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5532390830339864
+   },
+   "retrieval_latency_seconds": 0.004525749944150448,
+   "query": "Longkou geography location water body",
+   "query_usage": {
+    "in": 147,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5966855000006035
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Changle District: (, Foochow Romanized: Di\u00f2ng-l\u014f\u0324h) is a district located in eastern Fujian province, China.",
+    "Changle District: The district faces East China Sea and is connected to Mawei district by the Min River.",
+    "Changle District: The city was upgraded into a district on August 2017 by a government proposal.",
+    "Longkou: The total population of Longkou is 620,000.",
+    "Kill (body of water): As a body of water, a kill is a creek.",
+    "Longkou: Longkou, a county-level city, is administered by the prefecture-level city of Yantai."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 231,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5421652920776978
+   },
+   "retrieval_latency_seconds": 0.0023675840348005295,
+   "query": "Longkou geography water body location",
+   "query_usage": {
+    "in": 216,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6235960000194609
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Changle District: (, Foochow Romanized: Di\u00f2ng-l\u014f\u0324h) is a district located in eastern Fujian province, China.",
+    "Changle District: The district faces East China Sea and is connected to Mawei district by the Min River.",
+    "Changle District: The city was upgraded into a district on August 2017 by a government proposal.",
+    "Longkou: The total population of Longkou is 620,000.",
+    "Kill (body of water): As a body of water, a kill is a creek.",
+    "Longkou: Longkou, a county-level city, is administered by the prefecture-level city of Yantai."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 231,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5593257499858737
+   },
+   "retrieval_latency_seconds": 0.006334666977636516,
+   "query": "Longkou geography water body location",
+   "query_usage": {
+    "in": 216,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6344738750485703
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Changle District: (, Foochow Romanized: Di\u00f2ng-l\u014f\u0324h) is a district located in eastern Fujian province, China.",
+    "Changle District: The district faces East China Sea and is connected to Mawei district by the Min River.",
+    "Changle District: The city was upgraded into a district on August 2017 by a government proposal.",
+    "Longkou: The total population of Longkou is 620,000.",
+    "Kill (body of water): As a body of water, a kill is a creek.",
+    "Longkou: Longkou, a county-level city, is administered by the prefecture-level city of Yantai."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 231,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5669995829230174
+   },
+   "retrieval_latency_seconds": 0.004612667020410299,
+   "query": "Longkou geography water body location",
+   "query_usage": {
+    "in": 216,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.638863708009012
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Changle District: (, Foochow Romanized: Di\u00f2ng-l\u014f\u0324h) is a district located in eastern Fujian province, China.",
+    "Changle District: The district faces East China Sea and is connected to Mawei district by the Min River.",
+    "Changle District: The city was upgraded into a district on August 2017 by a government proposal.",
+    "Longkou: The total population of Longkou is 620,000.",
+    "Kill (body of water): As a body of water, a kill is a creek.",
+    "Longkou: Longkou, a county-level city, is administered by the prefecture-level city of Yantai."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 231,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5311592919752002
+   },
+   "retrieval_latency_seconds": 0.004310250049456954,
+   "query": "Longkou geography water body location",
+   "query_usage": {
+    "in": 216,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6334232079098001
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Changle District: (, Foochow Romanized: Di\u00f2ng-l\u014f\u0324h) is a district located in eastern Fujian province, China.",
+    "Changle District: The district faces East China Sea and is connected to Mawei district by the Min River.",
+    "Changle District: The city was upgraded into a district on August 2017 by a government proposal.",
+    "Longkou: The total population of Longkou is 620,000.",
+    "Kill (body of water): As a body of water, a kill is a creek.",
+    "Longkou: Longkou, a county-level city, is administered by the prefecture-level city of Yantai."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 231,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5571559589589015
+   },
+   "retrieval_latency_seconds": 0.004030333016999066,
+   "query": "Longkou geography water body location",
+   "query_usage": {
+    "in": 216,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6426596250385046
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Changle District: (, Foochow Romanized: Di\u00f2ng-l\u014f\u0324h) is a district located in eastern Fujian province, China.",
+    "Changle District: The district faces East China Sea and is connected to Mawei district by the Min River.",
+    "Changle District: The city was upgraded into a district on August 2017 by a government proposal.",
+    "Longkou: The total population of Longkou is 620,000.",
+    "Kill (body of water): As a body of water, a kill is a creek.",
+    "Longkou: Longkou, a county-level city, is administered by the prefecture-level city of Yantai."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 231,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5654764169594273
+   },
+   "retrieval_latency_seconds": 0.008129250025376678,
+   "query": "Longkou geography water body location",
+   "query_usage": {
+    "in": 216,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6420337080489844
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.375,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.625,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

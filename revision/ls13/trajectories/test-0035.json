@@ -1,0 +1,374 @@
+{
+ "id": "5abefa5b5542997ec76fd3a3",
+ "question": "What is the name of the town linked by rail to Kendal, named after a lake of the same name?",
+ "gold_answers": [
+  "Windermere, Cumbria"
+ ],
+ "support_titles": [
+  "Windermere Hotel (Lake District)",
+  "Windermere, Cumbria (town)"
+ ],
+ "support_sentences": [
+  "Windermere Hotel , originally The Riggs Windermere, is a hotel in Windermere, Cumbria, England, located near Windermere railway station.",
+  "The hotel opened at the time that the railway link with Kendal was established in 1847.",
+  "Although the town Windermere does not touch the lake (it took the name of the lake when the railway line was built in 1847 and the station was called \"Windermere\"), it has now grown together with the older lakeside town of Bowness-on-Windermere, though the two retain distinguishable town centres."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 85,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.569679084001109
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Windermere Hotel (Lake District): The hotel opened at the time that the railway link with Kendal was established in 1847.",
+    "Kendal: Kendal , anciently known as Kirkby in Kendal or Kirkby Kendal, is a market town and civil parish within the South Lakeland District of Cumbria, England.",
+    "Kendal Black Drop: Kendal Black Drop was a drug based on opium."
+   ],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 184,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5650524999946356
+   },
+   "retrieval_latency_seconds": 0.001091332989744842,
+   "query": "Kendal railway connections",
+   "query_usage": {
+    "in": 70,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5938575830077752
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Windermere Hotel (Lake District): The hotel opened at the time that the railway link with Kendal was established in 1847.",
+    "Kendal: Kendal , anciently known as Kirkby in Kendal or Kirkby Kendal, is a market town and civil parish within the South Lakeland District of Cumbria, England.",
+    "Kendal Black Drop: Kendal Black Drop was a drug based on opium.",
+    "Windermere Hotel (Lake District): Windermere Hotel , originally The Riggs Windermere, is a hotel in Windermere, Cumbria, England, located near Windermere railway station.",
+    "Windermere, Cumbria (town): Windermere Hotel opened at the same time as the railway."
+   ],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 264,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.546564916963689
+   },
+   "retrieval_latency_seconds": 0.007050208980217576,
+   "query": "Windermere railway line Kendal",
+   "query_usage": {
+    "in": 169,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6279789170948789
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Windermere Hotel (Lake District): The hotel opened at the time that the railway link with Kendal was established in 1847.",
+    "Kendal: Kendal , anciently known as Kirkby in Kendal or Kirkby Kendal, is a market town and civil parish within the South Lakeland District of Cumbria, England.",
+    "Kendal Black Drop: Kendal Black Drop was a drug based on opium.",
+    "Windermere Hotel (Lake District): Windermere Hotel , originally The Riggs Windermere, is a hotel in Windermere, Cumbria, England, located near Windermere railway station.",
+    "Windermere, Cumbria (town): Windermere Hotel opened at the same time as the railway.",
+    "Windermere, Cumbria (town): Although the town Windermere does not touch the lake (it took the name of the lake when the railway line was built in 1847 and the station was called \"Windermere\"), it has now grown together with the older lakeside town of Bowness-on-Windermere, though the two retain distinguishable town centres."
+   ],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 353,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5852545410161838
+   },
+   "retrieval_latency_seconds": 0.007990249898284674,
+   "query": "Windermere railway station Kendal line 1847",
+   "query_usage": {
+    "in": 249,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6418076659319922
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Windermere Hotel (Lake District): The hotel opened at the time that the railway link with Kendal was established in 1847.",
+    "Kendal: Kendal , anciently known as Kirkby in Kendal or Kirkby Kendal, is a market town and civil parish within the South Lakeland District of Cumbria, England.",
+    "Kendal Black Drop: Kendal Black Drop was a drug based on opium.",
+    "Windermere Hotel (Lake District): Windermere Hotel , originally The Riggs Windermere, is a hotel in Windermere, Cumbria, England, located near Windermere railway station.",
+    "Windermere, Cumbria (town): Windermere Hotel opened at the same time as the railway.",
+    "Windermere, Cumbria (town): Although the town Windermere does not touch the lake (it took the name of the lake when the railway line was built in 1847 and the station was called \"Windermere\"), it has now grown together with the older lakeside town of Bowness-on-Windermere, though the two retain distinguishable town centres.",
+    "Windermere, Cumbria (town): Windermere is a town and civil parish in the South Lakeland District of Cumbria, England."
+   ],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 392,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5724599590757862
+   },
+   "retrieval_latency_seconds": 0.006596541032195091,
+   "query": "Windermere lake Cumbria England",
+   "query_usage": {
+    "in": 338,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6675903340801597
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Windermere Hotel (Lake District): The hotel opened at the time that the railway link with Kendal was established in 1847.",
+    "Kendal: Kendal , anciently known as Kirkby in Kendal or Kirkby Kendal, is a market town and civil parish within the South Lakeland District of Cumbria, England.",
+    "Kendal Black Drop: Kendal Black Drop was a drug based on opium.",
+    "Windermere Hotel (Lake District): Windermere Hotel , originally The Riggs Windermere, is a hotel in Windermere, Cumbria, England, located near Windermere railway station.",
+    "Windermere, Cumbria (town): Windermere Hotel opened at the same time as the railway.",
+    "Windermere, Cumbria (town): Although the town Windermere does not touch the lake (it took the name of the lake when the railway line was built in 1847 and the station was called \"Windermere\"), it has now grown together with the older lakeside town of Bowness-on-Windermere, though the two retain distinguishable town centres.",
+    "Windermere, Cumbria (town): Windermere is a town and civil parish in the South Lakeland District of Cumbria, England.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 490,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5686084169428796
+   },
+   "retrieval_latency_seconds": 0.15256824996322393,
+   "query": "I have enough information to answer the question. The known facts clearly show that:",
+   "query_usage": {
+    "in": 377,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.850704624899663
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Windermere Hotel (Lake District): The hotel opened at the time that the railway link with Kendal was established in 1847.",
+    "Kendal: Kendal , anciently known as Kirkby in Kendal or Kirkby Kendal, is a market town and civil parish within the South Lakeland District of Cumbria, England.",
+    "Kendal Black Drop: Kendal Black Drop was a drug based on opium.",
+    "Windermere Hotel (Lake District): Windermere Hotel , originally The Riggs Windermere, is a hotel in Windermere, Cumbria, England, located near Windermere railway station.",
+    "Windermere, Cumbria (town): Windermere Hotel opened at the same time as the railway.",
+    "Windermere, Cumbria (town): Although the town Windermere does not touch the lake (it took the name of the lake when the railway line was built in 1847 and the station was called \"Windermere\"), it has now grown together with the older lakeside town of Bowness-on-Windermere, though the two retain distinguishable town centres.",
+    "Windermere, Cumbria (town): Windermere is a town and civil parish in the South Lakeland District of Cumbria, England.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 490,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5677130420226604
+   },
+   "retrieval_latency_seconds": 0.004425958031788468,
+   "query": "Windermere railway station Kendal 1847",
+   "query_usage": {
+    "in": 475,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.9782888329355046
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Windermere Hotel (Lake District): The hotel opened at the time that the railway link with Kendal was established in 1847.",
+    "Kendal: Kendal , anciently known as Kirkby in Kendal or Kirkby Kendal, is a market town and civil parish within the South Lakeland District of Cumbria, England.",
+    "Kendal Black Drop: Kendal Black Drop was a drug based on opium.",
+    "Windermere Hotel (Lake District): Windermere Hotel , originally The Riggs Windermere, is a hotel in Windermere, Cumbria, England, located near Windermere railway station.",
+    "Windermere, Cumbria (town): Windermere Hotel opened at the same time as the railway.",
+    "Windermere, Cumbria (town): Although the town Windermere does not touch the lake (it took the name of the lake when the railway line was built in 1847 and the station was called \"Windermere\"), it has now grown together with the older lakeside town of Bowness-on-Windermere, though the two retain distinguishable town centres.",
+    "Windermere, Cumbria (town): Windermere is a town and civil parish in the South Lakeland District of Cumbria, England.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 490,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5883551249280572
+   },
+   "retrieval_latency_seconds": 0.004387374967336655,
+   "query": "Windermere railway station Kendal 1847",
+   "query_usage": {
+    "in": 475,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6744549580616876
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Windermere Hotel (Lake District): The hotel opened at the time that the railway link with Kendal was established in 1847.",
+    "Kendal: Kendal , anciently known as Kirkby in Kendal or Kirkby Kendal, is a market town and civil parish within the South Lakeland District of Cumbria, England.",
+    "Kendal Black Drop: Kendal Black Drop was a drug based on opium.",
+    "Windermere Hotel (Lake District): Windermere Hotel , originally The Riggs Windermere, is a hotel in Windermere, Cumbria, England, located near Windermere railway station.",
+    "Windermere, Cumbria (town): Windermere Hotel opened at the same time as the railway.",
+    "Windermere, Cumbria (town): Although the town Windermere does not touch the lake (it took the name of the lake when the railway line was built in 1847 and the station was called \"Windermere\"), it has now grown together with the older lakeside town of Bowness-on-Windermere, though the two retain distinguishable town centres.",
+    "Windermere, Cumbria (town): Windermere is a town and civil parish in the South Lakeland District of Cumbria, England.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Windermere",
+   "answer_usage": {
+    "in": 490,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5864093329291791
+   },
+   "retrieval_latency_seconds": 0.0023332079872488976,
+   "query": "Windermere railway station Kendal 1847",
+   "query_usage": {
+    "in": 475,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6810962919844314
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4375,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.5,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.5625,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.5625,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   10.0,
+   0.6875,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   10.0,
+   0.6875,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   10.0,
+   0.6875,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   10.0,
+   0.6875,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

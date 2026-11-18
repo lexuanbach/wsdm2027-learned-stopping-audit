@@ -1,0 +1,362 @@
+{
+ "id": "5abd0b685542996583600501",
+ "question": "Is the school where Aaron Parrett currently teaches English Literature public or private?",
+ "gold_answers": [
+  "private"
+ ],
+ "support_titles": [
+  "Aaron Parrett",
+  "University of Providence"
+ ],
+ "support_sentences": [
+  "He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+  "The University of Providence (UP) (renamed from University of Great Falls in July 2017), is a private Roman Catholic university located in Great Falls, Montana within the Diocese of Great Falls\u2013Billings."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No evidence provided to answer this question",
+   "answer_usage": {
+    "in": 77,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.7295478750020266
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Aaron Parrett: He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+    "Aaron Parrett: Aaron Parrett (born 1967) is an American musician, author, and letterpress printer.",
+    "Aaron Parrett: Born in Butte, Montana , he earned a PhD in Comparative Literature in 2001 from The University of Georgia."
+   ],
+   "answer": "I cannot determine this from the provided evidence",
+   "answer_usage": {
+    "in": 160,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6544646250549704
+   },
+   "retrieval_latency_seconds": 0.0083694999339059,
+   "query": "Aaron Parrett English Literature teacher current school",
+   "query_usage": {
+    "in": 62,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.586613415973261
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Aaron Parrett: He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+    "Aaron Parrett: Aaron Parrett (born 1967) is an American musician, author, and letterpress printer.",
+    "Aaron Parrett: Born in Butte, Montana , he earned a PhD in Comparative Literature in 2001 from The University of Georgia.",
+    "University of Providence: The University of Providence (UP) (renamed from University of Great Falls in July 2017), is a private Roman Catholic university located in Great Falls, Montana within the Diocese of Great Falls\u2013Billings.",
+    "Brown University: Brown University is a private Ivy League research university in Providence, Rhode Island, United States."
+   ],
+   "answer": "Private",
+   "answer_usage": {
+    "in": 233,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5692535419948399
+   },
+   "retrieval_latency_seconds": 0.07015920802950859,
+   "query": "University of Providence Great Falls Montana public or private",
+   "query_usage": {
+    "in": 145,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6690387499984354
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Aaron Parrett: He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+    "Aaron Parrett: Aaron Parrett (born 1967) is an American musician, author, and letterpress printer.",
+    "Aaron Parrett: Born in Butte, Montana , he earned a PhD in Comparative Literature in 2001 from The University of Georgia.",
+    "University of Providence: The University of Providence (UP) (renamed from University of Great Falls in July 2017), is a private Roman Catholic university located in Great Falls, Montana within the Diocese of Great Falls\u2013Billings.",
+    "Brown University: Brown University is a private Ivy League research university in Providence, Rhode Island, United States.",
+    "Rivier University: Rivier University, formerly Rivier College, is a private Catholic liberal arts university located in Nashua, New Hampshire.",
+    "Brown University School of Engineering: The Brown University School of Engineering is the engineering school at Brown University, a private Ivy League research university located in Providence, Rhode Island."
+   ],
+   "answer": "Private",
+   "answer_usage": {
+    "in": 303,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5720976670272648
+   },
+   "retrieval_latency_seconds": 0.2461311660008505,
+   "query": "Based on the known information, I already have the answer to the question. The University of Providence is explicitly stated to be \"a private Roman Catholic university located in",
+   "query_usage": {
+    "in": 218,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8145149999763817
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Aaron Parrett: He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+    "Aaron Parrett: Aaron Parrett (born 1967) is an American musician, author, and letterpress printer.",
+    "Aaron Parrett: Born in Butte, Montana , he earned a PhD in Comparative Literature in 2001 from The University of Georgia.",
+    "University of Providence: The University of Providence (UP) (renamed from University of Great Falls in July 2017), is a private Roman Catholic university located in Great Falls, Montana within the Diocese of Great Falls\u2013Billings.",
+    "Brown University: Brown University is a private Ivy League research university in Providence, Rhode Island, United States.",
+    "Rivier University: Rivier University, formerly Rivier College, is a private Catholic liberal arts university located in Nashua, New Hampshire.",
+    "Brown University School of Engineering: The Brown University School of Engineering is the engineering school at Brown University, a private Ivy League research university located in Providence, Rhode Island."
+   ],
+   "answer": "Private",
+   "answer_usage": {
+    "in": 303,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5608001250075176
+   },
+   "retrieval_latency_seconds": 0.2677918339613825,
+   "query": "Based on the known information, I already have the answer to the question. The University of Providence, where Aaron Parrett currently teaches English Literature, is explicitly",
+   "query_usage": {
+    "in": 288,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8457354999845847
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Aaron Parrett: He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+    "Aaron Parrett: Aaron Parrett (born 1967) is an American musician, author, and letterpress printer.",
+    "Aaron Parrett: Born in Butte, Montana , he earned a PhD in Comparative Literature in 2001 from The University of Georgia.",
+    "University of Providence: The University of Providence (UP) (renamed from University of Great Falls in July 2017), is a private Roman Catholic university located in Great Falls, Montana within the Diocese of Great Falls\u2013Billings.",
+    "Brown University: Brown University is a private Ivy League research university in Providence, Rhode Island, United States.",
+    "Rivier University: Rivier University, formerly Rivier College, is a private Catholic liberal arts university located in Nashua, New Hampshire.",
+    "Brown University School of Engineering: The Brown University School of Engineering is the engineering school at Brown University, a private Ivy League research university located in Providence, Rhode Island."
+   ],
+   "answer": "Private",
+   "answer_usage": {
+    "in": 303,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5833951249951497
+   },
+   "retrieval_latency_seconds": 0.18732708401512355,
+   "query": "Based on the known information, I already have the answer to the question. The University of Providence, where Aaron Parrett currently teaches English Literature, is explicitly",
+   "query_usage": {
+    "in": 288,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8602172910468653
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Aaron Parrett: He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+    "Aaron Parrett: Aaron Parrett (born 1967) is an American musician, author, and letterpress printer.",
+    "Aaron Parrett: Born in Butte, Montana , he earned a PhD in Comparative Literature in 2001 from The University of Georgia.",
+    "University of Providence: The University of Providence (UP) (renamed from University of Great Falls in July 2017), is a private Roman Catholic university located in Great Falls, Montana within the Diocese of Great Falls\u2013Billings.",
+    "Brown University: Brown University is a private Ivy League research university in Providence, Rhode Island, United States.",
+    "Rivier University: Rivier University, formerly Rivier College, is a private Catholic liberal arts university located in Nashua, New Hampshire.",
+    "Brown University School of Engineering: The Brown University School of Engineering is the engineering school at Brown University, a private Ivy League research university located in Providence, Rhode Island."
+   ],
+   "answer": "Private",
+   "answer_usage": {
+    "in": 303,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5442062079673633
+   },
+   "retrieval_latency_seconds": 0.23813941690605134,
+   "query": "Based on the known information, I already have the answer to the question. The University of Providence, where Aaron Parrett currently teaches English Literature, is explicitly",
+   "query_usage": {
+    "in": 288,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8930993340909481
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Aaron Parrett: He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+    "Aaron Parrett: Aaron Parrett (born 1967) is an American musician, author, and letterpress printer.",
+    "Aaron Parrett: Born in Butte, Montana , he earned a PhD in Comparative Literature in 2001 from The University of Georgia.",
+    "University of Providence: The University of Providence (UP) (renamed from University of Great Falls in July 2017), is a private Roman Catholic university located in Great Falls, Montana within the Diocese of Great Falls\u2013Billings.",
+    "Brown University: Brown University is a private Ivy League research university in Providence, Rhode Island, United States.",
+    "Rivier University: Rivier University, formerly Rivier College, is a private Catholic liberal arts university located in Nashua, New Hampshire.",
+    "Brown University School of Engineering: The Brown University School of Engineering is the engineering school at Brown University, a private Ivy League research university located in Providence, Rhode Island."
+   ],
+   "answer": "Private",
+   "answer_usage": {
+    "in": 303,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6134766249451786
+   },
+   "retrieval_latency_seconds": 0.2043228750117123,
+   "query": "Based on the known information, I already have the answer to the question. The University of Providence, where Aaron Parrett currently teaches English Literature, is explicitly",
+   "query_usage": {
+    "in": 288,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.9429023750126362
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Aaron Parrett: He is currently Professor of English Literature at the University of Providence in Great Falls, Montana.",
+    "Aaron Parrett: Aaron Parrett (born 1967) is an American musician, author, and letterpress printer.",
+    "Aaron Parrett: Born in Butte, Montana , he earned a PhD in Comparative Literature in 2001 from The University of Georgia.",
+    "University of Providence: The University of Providence (UP) (renamed from University of Great Falls in July 2017), is a private Roman Catholic university located in Great Falls, Montana within the Diocese of Great Falls\u2013Billings.",
+    "Brown University: Brown University is a private Ivy League research university in Providence, Rhode Island, United States.",
+    "Rivier University: Rivier University, formerly Rivier College, is a private Catholic liberal arts university located in Nashua, New Hampshire.",
+    "Brown University School of Engineering: The Brown University School of Engineering is the engineering school at Brown University, a private Ivy League research university located in Providence, Rhode Island."
+   ],
+   "answer": "Private",
+   "answer_usage": {
+    "in": 303,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5974799169925973
+   },
+   "retrieval_latency_seconds": 0.9655242080334574,
+   "query": "Based on the known information, I already have the answer to the question. The University of Providence, where Aaron Parrett currently teaches English Literature, is explicitly",
+   "query_usage": {
+    "in": 288,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8688959999708459
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5384615384615384,
+   3.0,
+   1.0,
+   7.0,
+   0.25,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6153846153846154,
+   2.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.6923076923076923,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.6923076923076923,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

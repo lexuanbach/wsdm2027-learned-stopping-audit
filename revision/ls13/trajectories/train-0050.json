@@ -1,0 +1,368 @@
+{
+ "id": "5ae701b2554299572ea54680",
+ "question": "The subject of the biography \"Name Dropper\" was born in what year?",
+ "gold_answers": [
+  "1961"
+ ],
+ "support_titles": [
+  "Frank Girardot",
+  "Christian Gerhartsreiter"
+ ],
+ "support_sentences": [
+  "He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+  "Christian Karl Gerhartsreiter (born February 21, 1961) is a convicted murderer and impostor born in Germany who is currently serving a prison sentence in the United States."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have access to information about a biography titled \"Name Dropper\" or its subject's birth year in the provided evidence or my knowledge base with sufficient certainty to give a definitive",
+   "answer_usage": {
+    "in": 78,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8572005000896752
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Frank Girardot: He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+    "Scott Pioli: <ref name=\"Biography\"/",
+    "Ana\u00efs Nin: A Biography: Ana\u00efs Nin: A Biography is Deirdre Bair's award-winning biography of writer Ana\u00efs Nin."
+   ],
+   "answer": "1971",
+   "answer_usage": {
+    "in": 162,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5092797920806333
+   },
+   "retrieval_latency_seconds": 0.007332458975724876,
+   "query": "Name Dropper\" biography",
+   "query_usage": {
+    "in": 63,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5685301249613985
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Frank Girardot: He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+    "Scott Pioli: <ref name=\"Biography\"/",
+    "Ana\u00efs Nin: A Biography: Ana\u00efs Nin: A Biography is Deirdre Bair's award-winning biography of writer Ana\u00efs Nin.",
+    "Christian Gerhartsreiter: Christian Karl Gerhartsreiter (born February 21, 1961) is a convicted murderer and impostor born in Germany who is currently serving a prison sentence in the United States.",
+    "Christian Gerhartsreiter: In his late teens, Gerhartsreiter moved to the US where he lived under a succession of aliases while variously claiming to be an actor, director, art collector, a physicist, a ship's captain, a negotiator of international debt agreements, and an English aristocrat."
+   ],
+   "answer": "1961",
+   "answer_usage": {
+    "in": 282,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5935632089385763
+   },
+   "retrieval_latency_seconds": 0.00593625009059906,
+   "query": "Christian Gerhartsreiter birth year",
+   "query_usage": {
+    "in": 147,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.716011333046481
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Frank Girardot: He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+    "Scott Pioli: <ref name=\"Biography\"/",
+    "Ana\u00efs Nin: A Biography: Ana\u00efs Nin: A Biography is Deirdre Bair's award-winning biography of writer Ana\u00efs Nin.",
+    "Christian Gerhartsreiter: Christian Karl Gerhartsreiter (born February 21, 1961) is a convicted murderer and impostor born in Germany who is currently serving a prison sentence in the United States.",
+    "Christian Gerhartsreiter: In his late teens, Gerhartsreiter moved to the US where he lived under a succession of aliases while variously claiming to be an actor, director, art collector, a physicist, a ship's captain, a negotiator of international debt agreements, and an English aristocrat.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts."
+   ],
+   "answer": "1961",
+   "answer_usage": {
+    "in": 379,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5876481248997152
+   },
+   "retrieval_latency_seconds": 0.11278808291535825,
+   "query": "I have found the answer already from the known facts provided.",
+   "query_usage": {
+    "in": 267,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8013217500410974
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Frank Girardot: He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+    "Scott Pioli: <ref name=\"Biography\"/",
+    "Ana\u00efs Nin: A Biography: Ana\u00efs Nin: A Biography is Deirdre Bair's award-winning biography of writer Ana\u00efs Nin.",
+    "Christian Gerhartsreiter: Christian Karl Gerhartsreiter (born February 21, 1961) is a convicted murderer and impostor born in Germany who is currently serving a prison sentence in the United States.",
+    "Christian Gerhartsreiter: In his late teens, Gerhartsreiter moved to the US where he lived under a succession of aliases while variously claiming to be an actor, director, art collector, a physicist, a ship's captain, a negotiator of international debt agreements, and an English aristocrat.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts."
+   ],
+   "answer": "1961",
+   "answer_usage": {
+    "in": 379,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5553332910640165
+   },
+   "retrieval_latency_seconds": 0.06019404099788517,
+   "query": "Christian Gerhartsreiter birth year",
+   "query_usage": {
+    "in": 364,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6545725410105661
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Frank Girardot: He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+    "Scott Pioli: <ref name=\"Biography\"/",
+    "Ana\u00efs Nin: A Biography: Ana\u00efs Nin: A Biography is Deirdre Bair's award-winning biography of writer Ana\u00efs Nin.",
+    "Christian Gerhartsreiter: Christian Karl Gerhartsreiter (born February 21, 1961) is a convicted murderer and impostor born in Germany who is currently serving a prison sentence in the United States.",
+    "Christian Gerhartsreiter: In his late teens, Gerhartsreiter moved to the US where he lived under a succession of aliases while variously claiming to be an actor, director, art collector, a physicist, a ship's captain, a negotiator of international debt agreements, and an English aristocrat.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts."
+   ],
+   "answer": "1961",
+   "answer_usage": {
+    "in": 379,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5337790419580415
+   },
+   "retrieval_latency_seconds": 0.02580949990078807,
+   "query": "Christian Gerhartsreiter birth year",
+   "query_usage": {
+    "in": 364,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6181304160272703
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Frank Girardot: He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+    "Scott Pioli: <ref name=\"Biography\"/",
+    "Ana\u00efs Nin: A Biography: Ana\u00efs Nin: A Biography is Deirdre Bair's award-winning biography of writer Ana\u00efs Nin.",
+    "Christian Gerhartsreiter: Christian Karl Gerhartsreiter (born February 21, 1961) is a convicted murderer and impostor born in Germany who is currently serving a prison sentence in the United States.",
+    "Christian Gerhartsreiter: In his late teens, Gerhartsreiter moved to the US where he lived under a succession of aliases while variously claiming to be an actor, director, art collector, a physicist, a ship's captain, a negotiator of international debt agreements, and an English aristocrat.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts."
+   ],
+   "answer": "1961",
+   "answer_usage": {
+    "in": 379,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.532900208956562
+   },
+   "retrieval_latency_seconds": 0.007977125002071261,
+   "query": "Christian Gerhartsreiter birth year",
+   "query_usage": {
+    "in": 364,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6033749160123989
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Frank Girardot: He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+    "Scott Pioli: <ref name=\"Biography\"/",
+    "Ana\u00efs Nin: A Biography: Ana\u00efs Nin: A Biography is Deirdre Bair's award-winning biography of writer Ana\u00efs Nin.",
+    "Christian Gerhartsreiter: Christian Karl Gerhartsreiter (born February 21, 1961) is a convicted murderer and impostor born in Germany who is currently serving a prison sentence in the United States.",
+    "Christian Gerhartsreiter: In his late teens, Gerhartsreiter moved to the US where he lived under a succession of aliases while variously claiming to be an actor, director, art collector, a physicist, a ship's captain, a negotiator of international debt agreements, and an English aristocrat.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts."
+   ],
+   "answer": "1961",
+   "answer_usage": {
+    "in": 379,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5606479170965031
+   },
+   "retrieval_latency_seconds": 0.00795229198411107,
+   "query": "Christian Gerhartsreiter birth year",
+   "query_usage": {
+    "in": 364,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.7515731670428067
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Frank Girardot: He is best known for \"Name Dropper\" his biography of serial imposter Christian Gerhartsreiter.",
+    "Scott Pioli: <ref name=\"Biography\"/",
+    "Ana\u00efs Nin: A Biography: Ana\u00efs Nin: A Biography is Deirdre Bair's award-winning biography of writer Ana\u00efs Nin.",
+    "Christian Gerhartsreiter: Christian Karl Gerhartsreiter (born February 21, 1961) is a convicted murderer and impostor born in Germany who is currently serving a prison sentence in the United States.",
+    "Christian Gerhartsreiter: In his late teens, Gerhartsreiter moved to the US where he lived under a succession of aliases while variously claiming to be an actor, director, art collector, a physicist, a ship's captain, a negotiator of international debt agreements, and an English aristocrat.",
+    "Found object: Found object originates from the French \"objet trouv\u00e9\", describing art created from undisguised, but often modified, objects or products that are not normally considered materials from which art is made, often because they already have a non-art function.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Alternative facts: Todd responded, \"Look, alternative facts are not facts."
+   ],
+   "answer": "1961",
+   "answer_usage": {
+    "in": 379,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5177742498926818
+   },
+   "retrieval_latency_seconds": 0.003990249941125512,
+   "query": "Christian Gerhartsreiter birth year",
+   "query_usage": {
+    "in": 364,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6024542499799281
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   31.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.36363636363636365,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6363636363636364,
+   2.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.6363636363636364,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

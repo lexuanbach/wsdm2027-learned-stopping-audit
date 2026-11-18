@@ -1,0 +1,387 @@
+{
+ "id": "5a820c0c554299676cceb1fc",
+ "question": "What is the name of the company that wholly owns the Value Alliance airline whose head office is within Terminal 2 of Narita International Airport?",
+ "gold_answers": [
+  "All Nippon"
+ ],
+ "support_titles": [
+  "Value Alliance",
+  "Vanilla Air"
+ ],
+ "support_sentences": [
+  "It comprises seven Asia-Pacific airlines: Cebu Pacific, Jeju Air, Nok Air, NokScoot, Scoot, Tigerair Australia and Vanilla Air, along with Tigerair who merged with Scoot under the Scoot brand.",
+  "Vanilla Air Inc. (\u30d0\u30cb\u30e9\u30fb\u30a8\u30a2\u682a\u5f0f\u4f1a\u793e , Banira Ea Kabushiki Kaisha ) is a low-cost airline in Japan wholly owned by All Nippon Airways.",
+  "Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "ANA (All Nippon Airways)",
+   "answer_usage": {
+    "in": 91,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.679580791038461
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Vanilla Air: Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture.",
+    "Narita Airport Terminal 2\u00b73 Station: Narita Airport Terminal 2\u00b73 (Airport Terminal 2) Station (\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5 , K\u016bk\u014d-daini-biru eki ) is an underground railway station located beneath Terminal 2 of Narita International Airport in Narita, Chiba, Japan.",
+    "Narita Airport Terminal 2 Shuttle System: The Narita Airport Terminal 2 Shuttle System (\u6210\u7530\u7a7a\u6e2f\u7b2c2\u30bf\u30fc\u30df\u30ca\u30eb\u30b7\u30e3\u30c8\u30eb\u30b7\u30b9\u30c6\u30e0 , Narita K\u016bk\u014d Dai-ni T\u0101minaru Shatoru Shisutemu ) was an automated people mover used in Narita International Airport, Narita, Chiba Japan."
+   ],
+   "answer": "Vanilla Air",
+   "answer_usage": {
+    "in": 298,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5816596660297364
+   },
+   "retrieval_latency_seconds": 0.011530084069818258,
+   "query": "Value Alliance airline head office Terminal 2 Narita International Airport",
+   "query_usage": {
+    "in": 76,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.5956569160334766
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Vanilla Air: Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture.",
+    "Narita Airport Terminal 2\u00b73 Station: Narita Airport Terminal 2\u00b73 (Airport Terminal 2) Station (\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5 , K\u016bk\u014d-daini-biru eki ) is an underground railway station located beneath Terminal 2 of Narita International Airport in Narita, Chiba, Japan.",
+    "Narita Airport Terminal 2 Shuttle System: The Narita Airport Terminal 2 Shuttle System (\u6210\u7530\u7a7a\u6e2f\u7b2c2\u30bf\u30fc\u30df\u30ca\u30eb\u30b7\u30e3\u30c8\u30eb\u30b7\u30b9\u30c6\u30e0 , Narita K\u016bk\u014d Dai-ni T\u0101minaru Shatoru Shisutemu ) was an automated people mover used in Narita International Airport, Narita, Chiba Japan.",
+    "Value Alliance: It comprises seven Asia-Pacific airlines: Cebu Pacific, Jeju Air, Nok Air, NokScoot, Scoot, Tigerair Australia and Vanilla Air, along with Tigerair who merged with Scoot under the Scoot brand.",
+    "Value Alliance: Value Alliance is an airline alliance formed in May 2016.",
+    "Value Alliance: However, it is the first pan-regional LCC alliance."
+   ],
+   "answer": "Vanilla Air",
+   "answer_usage": {
+    "in": 400,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5345954580698162
+   },
+   "retrieval_latency_seconds": 0.0053333749528974295,
+   "query": "Vanilla Air Value Alliance owner",
+   "query_usage": {
+    "in": 283,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5674778750399128
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Vanilla Air: Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture.",
+    "Narita Airport Terminal 2\u00b73 Station: Narita Airport Terminal 2\u00b73 (Airport Terminal 2) Station (\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5 , K\u016bk\u014d-daini-biru eki ) is an underground railway station located beneath Terminal 2 of Narita International Airport in Narita, Chiba, Japan.",
+    "Narita Airport Terminal 2 Shuttle System: The Narita Airport Terminal 2 Shuttle System (\u6210\u7530\u7a7a\u6e2f\u7b2c2\u30bf\u30fc\u30df\u30ca\u30eb\u30b7\u30e3\u30c8\u30eb\u30b7\u30b9\u30c6\u30e0 , Narita K\u016bk\u014d Dai-ni T\u0101minaru Shatoru Shisutemu ) was an automated people mover used in Narita International Airport, Narita, Chiba Japan.",
+    "Value Alliance: It comprises seven Asia-Pacific airlines: Cebu Pacific, Jeju Air, Nok Air, NokScoot, Scoot, Tigerair Australia and Vanilla Air, along with Tigerair who merged with Scoot under the Scoot brand.",
+    "Value Alliance: Value Alliance is an airline alliance formed in May 2016.",
+    "Value Alliance: However, it is the first pan-regional LCC alliance.",
+    "Vanilla Air: Vanilla Air Inc. (\u30d0\u30cb\u30e9\u30fb\u30a8\u30a2\u682a\u5f0f\u4f1a\u793e , Banira Ea Kabushiki Kaisha ) is a low-cost airline in Japan wholly owned by All Nippon Airways.",
+    "Vanilla: Vanilla is a flavoring derived from orchids of the genus \"Vanilla\", primarily from the Mexican species, flat-leaved vanilla (\"V. planifolia\")."
+   ],
+   "answer": "All Nippon Airways",
+   "answer_usage": {
+    "in": 495,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6177063339855522
+   },
+   "retrieval_latency_seconds": 0.005514541990123689,
+   "query": "Vanilla Air owner company",
+   "query_usage": {
+    "in": 385,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5357276250142604
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Vanilla Air: Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture.",
+    "Narita Airport Terminal 2\u00b73 Station: Narita Airport Terminal 2\u00b73 (Airport Terminal 2) Station (\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5 , K\u016bk\u014d-daini-biru eki ) is an underground railway station located beneath Terminal 2 of Narita International Airport in Narita, Chiba, Japan.",
+    "Narita Airport Terminal 2 Shuttle System: The Narita Airport Terminal 2 Shuttle System (\u6210\u7530\u7a7a\u6e2f\u7b2c2\u30bf\u30fc\u30df\u30ca\u30eb\u30b7\u30e3\u30c8\u30eb\u30b7\u30b9\u30c6\u30e0 , Narita K\u016bk\u014d Dai-ni T\u0101minaru Shatoru Shisutemu ) was an automated people mover used in Narita International Airport, Narita, Chiba Japan.",
+    "Value Alliance: It comprises seven Asia-Pacific airlines: Cebu Pacific, Jeju Air, Nok Air, NokScoot, Scoot, Tigerair Australia and Vanilla Air, along with Tigerair who merged with Scoot under the Scoot brand.",
+    "Value Alliance: Value Alliance is an airline alliance formed in May 2016.",
+    "Value Alliance: However, it is the first pan-regional LCC alliance.",
+    "Vanilla Air: Vanilla Air Inc. (\u30d0\u30cb\u30e9\u30fb\u30a8\u30a2\u682a\u5f0f\u4f1a\u793e , Banira Ea Kabushiki Kaisha ) is a low-cost airline in Japan wholly owned by All Nippon Airways.",
+    "Vanilla: Vanilla is a flavoring derived from orchids of the genus \"Vanilla\", primarily from the Mexican species, flat-leaved vanilla (\"V. planifolia\").",
+    "All I Need (Air song): \"All I Need\" is a song by French music group Air from their debut album \"Moon Safari\" (1998)."
+   ],
+   "answer": "All Nippon Airways",
+   "answer_usage": {
+    "in": 529,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5716375829651952
+   },
+   "retrieval_latency_seconds": 0.1524644159944728,
+   "query": "I need to verify that Vanilla Air is indeed part of the Value Alliance and confirm the ownership structure.",
+   "query_usage": {
+    "in": 480,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8378781659994274
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Vanilla Air: Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture.",
+    "Narita Airport Terminal 2\u00b73 Station: Narita Airport Terminal 2\u00b73 (Airport Terminal 2) Station (\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5 , K\u016bk\u014d-daini-biru eki ) is an underground railway station located beneath Terminal 2 of Narita International Airport in Narita, Chiba, Japan.",
+    "Narita Airport Terminal 2 Shuttle System: The Narita Airport Terminal 2 Shuttle System (\u6210\u7530\u7a7a\u6e2f\u7b2c2\u30bf\u30fc\u30df\u30ca\u30eb\u30b7\u30e3\u30c8\u30eb\u30b7\u30b9\u30c6\u30e0 , Narita K\u016bk\u014d Dai-ni T\u0101minaru Shatoru Shisutemu ) was an automated people mover used in Narita International Airport, Narita, Chiba Japan.",
+    "Value Alliance: It comprises seven Asia-Pacific airlines: Cebu Pacific, Jeju Air, Nok Air, NokScoot, Scoot, Tigerair Australia and Vanilla Air, along with Tigerair who merged with Scoot under the Scoot brand.",
+    "Value Alliance: Value Alliance is an airline alliance formed in May 2016.",
+    "Value Alliance: However, it is the first pan-regional LCC alliance.",
+    "Vanilla Air: Vanilla Air Inc. (\u30d0\u30cb\u30e9\u30fb\u30a8\u30a2\u682a\u5f0f\u4f1a\u793e , Banira Ea Kabushiki Kaisha ) is a low-cost airline in Japan wholly owned by All Nippon Airways.",
+    "Vanilla: Vanilla is a flavoring derived from orchids of the genus \"Vanilla\", primarily from the Mexican species, flat-leaved vanilla (\"V. planifolia\").",
+    "All I Need (Air song): \"All I Need\" is a song by French music group Air from their debut album \"Moon Safari\" (1998).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Nantucket National Wildlife Refuge: More information about the adjacent TTOR property is available on their website."
+   ],
+   "answer": "All Nippon Airways",
+   "answer_usage": {
+    "in": 601,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5871083749225363
+   },
+   "retrieval_latency_seconds": 0.13533637498039752,
+   "query": "The answer is already available in the known facts provided. Based on the information:",
+   "query_usage": {
+    "in": 514,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8048653749283403
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Vanilla Air: Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture.",
+    "Narita Airport Terminal 2\u00b73 Station: Narita Airport Terminal 2\u00b73 (Airport Terminal 2) Station (\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5 , K\u016bk\u014d-daini-biru eki ) is an underground railway station located beneath Terminal 2 of Narita International Airport in Narita, Chiba, Japan.",
+    "Narita Airport Terminal 2 Shuttle System: The Narita Airport Terminal 2 Shuttle System (\u6210\u7530\u7a7a\u6e2f\u7b2c2\u30bf\u30fc\u30df\u30ca\u30eb\u30b7\u30e3\u30c8\u30eb\u30b7\u30b9\u30c6\u30e0 , Narita K\u016bk\u014d Dai-ni T\u0101minaru Shatoru Shisutemu ) was an automated people mover used in Narita International Airport, Narita, Chiba Japan.",
+    "Value Alliance: It comprises seven Asia-Pacific airlines: Cebu Pacific, Jeju Air, Nok Air, NokScoot, Scoot, Tigerair Australia and Vanilla Air, along with Tigerair who merged with Scoot under the Scoot brand.",
+    "Value Alliance: Value Alliance is an airline alliance formed in May 2016.",
+    "Value Alliance: However, it is the first pan-regional LCC alliance.",
+    "Vanilla Air: Vanilla Air Inc. (\u30d0\u30cb\u30e9\u30fb\u30a8\u30a2\u682a\u5f0f\u4f1a\u793e , Banira Ea Kabushiki Kaisha ) is a low-cost airline in Japan wholly owned by All Nippon Airways.",
+    "Vanilla: Vanilla is a flavoring derived from orchids of the genus \"Vanilla\", primarily from the Mexican species, flat-leaved vanilla (\"V. planifolia\").",
+    "All I Need (Air song): \"All I Need\" is a song by French music group Air from their debut album \"Moon Safari\" (1998).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Nantucket National Wildlife Refuge: More information about the adjacent TTOR property is available on their website."
+   ],
+   "answer": "All Nippon Airways",
+   "answer_usage": {
+    "in": 601,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.581876749987714
+   },
+   "retrieval_latency_seconds": 0.13812675001099706,
+   "query": "I need to verify that Vanilla Air is indeed part of the Value Alliance and confirm the ownership structure.",
+   "query_usage": {
+    "in": 586,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8261056670453399
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Vanilla Air: Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture.",
+    "Narita Airport Terminal 2\u00b73 Station: Narita Airport Terminal 2\u00b73 (Airport Terminal 2) Station (\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5 , K\u016bk\u014d-daini-biru eki ) is an underground railway station located beneath Terminal 2 of Narita International Airport in Narita, Chiba, Japan.",
+    "Narita Airport Terminal 2 Shuttle System: The Narita Airport Terminal 2 Shuttle System (\u6210\u7530\u7a7a\u6e2f\u7b2c2\u30bf\u30fc\u30df\u30ca\u30eb\u30b7\u30e3\u30c8\u30eb\u30b7\u30b9\u30c6\u30e0 , Narita K\u016bk\u014d Dai-ni T\u0101minaru Shatoru Shisutemu ) was an automated people mover used in Narita International Airport, Narita, Chiba Japan.",
+    "Value Alliance: It comprises seven Asia-Pacific airlines: Cebu Pacific, Jeju Air, Nok Air, NokScoot, Scoot, Tigerair Australia and Vanilla Air, along with Tigerair who merged with Scoot under the Scoot brand.",
+    "Value Alliance: Value Alliance is an airline alliance formed in May 2016.",
+    "Value Alliance: However, it is the first pan-regional LCC alliance.",
+    "Vanilla Air: Vanilla Air Inc. (\u30d0\u30cb\u30e9\u30fb\u30a8\u30a2\u682a\u5f0f\u4f1a\u793e , Banira Ea Kabushiki Kaisha ) is a low-cost airline in Japan wholly owned by All Nippon Airways.",
+    "Vanilla: Vanilla is a flavoring derived from orchids of the genus \"Vanilla\", primarily from the Mexican species, flat-leaved vanilla (\"V. planifolia\").",
+    "All I Need (Air song): \"All I Need\" is a song by French music group Air from their debut album \"Moon Safari\" (1998).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Nantucket National Wildlife Refuge: More information about the adjacent TTOR property is available on their website."
+   ],
+   "answer": "All Nippon Airways",
+   "answer_usage": {
+    "in": 601,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6096979998983443
+   },
+   "retrieval_latency_seconds": 0.16656445804983377,
+   "query": "I need to verify that Vanilla Air is indeed part of the Value Alliance and confirm the ownership structure.",
+   "query_usage": {
+    "in": 586,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8213171660900116
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Vanilla Air: Its head office is within Terminal 2 of Narita International Airport in Narita, Chiba Prefecture.",
+    "Narita Airport Terminal 2\u00b73 Station: Narita Airport Terminal 2\u00b73 (Airport Terminal 2) Station (\u7a7a\u6e2f\u7b2c2\u30d3\u30eb\u99c5 , K\u016bk\u014d-daini-biru eki ) is an underground railway station located beneath Terminal 2 of Narita International Airport in Narita, Chiba, Japan.",
+    "Narita Airport Terminal 2 Shuttle System: The Narita Airport Terminal 2 Shuttle System (\u6210\u7530\u7a7a\u6e2f\u7b2c2\u30bf\u30fc\u30df\u30ca\u30eb\u30b7\u30e3\u30c8\u30eb\u30b7\u30b9\u30c6\u30e0 , Narita K\u016bk\u014d Dai-ni T\u0101minaru Shatoru Shisutemu ) was an automated people mover used in Narita International Airport, Narita, Chiba Japan.",
+    "Value Alliance: It comprises seven Asia-Pacific airlines: Cebu Pacific, Jeju Air, Nok Air, NokScoot, Scoot, Tigerair Australia and Vanilla Air, along with Tigerair who merged with Scoot under the Scoot brand.",
+    "Value Alliance: Value Alliance is an airline alliance formed in May 2016.",
+    "Value Alliance: However, it is the first pan-regional LCC alliance.",
+    "Vanilla Air: Vanilla Air Inc. (\u30d0\u30cb\u30e9\u30fb\u30a8\u30a2\u682a\u5f0f\u4f1a\u793e , Banira Ea Kabushiki Kaisha ) is a low-cost airline in Japan wholly owned by All Nippon Airways.",
+    "Vanilla: Vanilla is a flavoring derived from orchids of the genus \"Vanilla\", primarily from the Mexican species, flat-leaved vanilla (\"V. planifolia\").",
+    "All I Need (Air song): \"All I Need\" is a song by French music group Air from their debut album \"Moon Safari\" (1998).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Faith and rationality: Rationality is based on reason or facts.",
+    "Nantucket National Wildlife Refuge: More information about the adjacent TTOR property is available on their website."
+   ],
+   "answer": "All Nippon Airways",
+   "answer_usage": {
+    "in": 601,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5918322920333594
+   },
+   "retrieval_latency_seconds": 0.17419412499293685,
+   "query": "I need to verify that Vanilla Air is indeed part of the Value Alliance and confirm the ownership structure.",
+   "query_usage": {
+    "in": 586,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8385968339862302
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.6666666666666666,
+  0.0,
+  0.0,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   4.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5238095238095238,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6666666666666666,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.7142857142857143,
+   2.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.7142857142857143,
+   1.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   5.0,
+   12.0,
+   0.7142857142857143,
+   3.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   12.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   12.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   12.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

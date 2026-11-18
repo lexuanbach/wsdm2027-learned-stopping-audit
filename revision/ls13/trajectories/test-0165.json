@@ -1,0 +1,384 @@
+{
+ "id": "5a7148d25542994082a3e766",
+ "question": "Which of these artists is older, Warrel Dane or Roy Khan?",
+ "gold_answers": [
+  "Warrel Dane"
+ ],
+ "support_titles": [
+  "Warrel Dane",
+  "Roy Khan"
+ ],
+ "support_sentences": [
+  "Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+  "Roy S\u00e6tre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Roy Khan",
+   "answer_usage": {
+    "in": 77,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5729932920075953
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Warrel Dane: Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+    "Warrel Dane: Later in his career, Dane became more notable for his distinctively deep, dramatic voice.",
+    "Peter Wichers: He also co-wrote Warrel Dane's solo record \"Praises to the War Machine\"."
+   ],
+   "answer": "Cannot determine",
+   "answer_usage": {
+    "in": 164,
+    "out": 31,
+    "calls": 1,
+    "latency_seconds": 0.8757727920310572
+   },
+   "retrieval_latency_seconds": 0.005066915997304022,
+   "query": "Warrel Dane age birth date",
+   "query_usage": {
+    "in": 62,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5348501249682158
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Warrel Dane: Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+    "Warrel Dane: Later in his career, Dane became more notable for his distinctively deep, dramatic voice.",
+    "Peter Wichers: He also co-wrote Warrel Dane's solo record \"Praises to the War Machine\".",
+    "Akhund Mullah Mohammad Kashani: In place of his birth date and age of his birth is not mentioned during the 84 years of his life, to guess.",
+    "Roy Khan: Commonly known as Roy Khan or simply Khan, he was the lead vocalist for the symphonic power metal band Kamelot from 1997 to his departure in 2011.",
+    "Roy Khan: Roy S\u00e6tre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter."
+   ],
+   "answer": "Roy Khan",
+   "answer_usage": {
+    "in": 281,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5555681670084596
+   },
+   "retrieval_latency_seconds": 0.010990333976224065,
+   "query": "Roy Khan birth date age",
+   "query_usage": {
+    "in": 149,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6265206669922918
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Warrel Dane: Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+    "Warrel Dane: Later in his career, Dane became more notable for his distinctively deep, dramatic voice.",
+    "Peter Wichers: He also co-wrote Warrel Dane's solo record \"Praises to the War Machine\".",
+    "Akhund Mullah Mohammad Kashani: In place of his birth date and age of his birth is not mentioned during the 84 years of his life, to guess.",
+    "Roy Khan: Commonly known as Roy Khan or simply Khan, he was the lead vocalist for the symphonic power metal band Kamelot from 1997 to his departure in 2011.",
+    "Roy Khan: Roy S\u00e6tre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Roy Khan",
+   "answer_usage": {
+    "in": 388,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5649543750332668
+   },
+   "retrieval_latency_seconds": 0.3759827499743551,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 266,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.6997768750879914
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Warrel Dane: Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+    "Warrel Dane: Later in his career, Dane became more notable for his distinctively deep, dramatic voice.",
+    "Peter Wichers: He also co-wrote Warrel Dane's solo record \"Praises to the War Machine\".",
+    "Akhund Mullah Mohammad Kashani: In place of his birth date and age of his birth is not mentioned during the 84 years of his life, to guess.",
+    "Roy Khan: Commonly known as Roy Khan or simply Khan, he was the lead vocalist for the symphonic power metal band Kamelot from 1997 to his departure in 2011.",
+    "Roy Khan: Roy S\u00e6tre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer."
+   ],
+   "answer": "Roy Khan",
+   "answer_usage": {
+    "in": 417,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5376903329743072
+   },
+   "retrieval_latency_seconds": 0.10664254205767065,
+   "query": "Based on the information provided, I can already answer the question:",
+   "query_usage": {
+    "in": 373,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7613088749349117
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Warrel Dane: Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+    "Warrel Dane: Later in his career, Dane became more notable for his distinctively deep, dramatic voice.",
+    "Peter Wichers: He also co-wrote Warrel Dane's solo record \"Praises to the War Machine\".",
+    "Akhund Mullah Mohammad Kashani: In place of his birth date and age of his birth is not mentioned during the 84 years of his life, to guess.",
+    "Roy Khan: Commonly known as Roy Khan or simply Khan, he was the lead vocalist for the symphonic power metal band Kamelot from 1997 to his departure in 2011.",
+    "Roy Khan: Roy S\u00e6tre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style."
+   ],
+   "answer": "Roy Khan",
+   "answer_usage": {
+    "in": 448,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6238497089361772
+   },
+   "retrieval_latency_seconds": 0.10287816706113517,
+   "query": "Based on the known information, I can already answer this question:",
+   "query_usage": {
+    "in": 402,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7991665420122445
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Warrel Dane: Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+    "Warrel Dane: Later in his career, Dane became more notable for his distinctively deep, dramatic voice.",
+    "Peter Wichers: He also co-wrote Warrel Dane's solo record \"Praises to the War Machine\".",
+    "Akhund Mullah Mohammad Kashani: In place of his birth date and age of his birth is not mentioned during the 84 years of his life, to guess.",
+    "Roy Khan: Commonly known as Roy Khan or simply Khan, he was the lead vocalist for the symphonic power metal band Kamelot from 1997 to his departure in 2011.",
+    "Roy Khan: Roy S\u00e6tre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style."
+   ],
+   "answer": "Roy Khan",
+   "answer_usage": {
+    "in": 448,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5615250839618966
+   },
+   "retrieval_latency_seconds": 0.093245750060305,
+   "query": "Based on the known information, I can already answer this question:",
+   "query_usage": {
+    "in": 433,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7833393340697512
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Warrel Dane: Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+    "Warrel Dane: Later in his career, Dane became more notable for his distinctively deep, dramatic voice.",
+    "Peter Wichers: He also co-wrote Warrel Dane's solo record \"Praises to the War Machine\".",
+    "Akhund Mullah Mohammad Kashani: In place of his birth date and age of his birth is not mentioned during the 84 years of his life, to guess.",
+    "Roy Khan: Commonly known as Roy Khan or simply Khan, he was the lead vocalist for the symphonic power metal band Kamelot from 1997 to his departure in 2011.",
+    "Roy Khan: Roy S\u00e6tre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style."
+   ],
+   "answer": "Roy Khan",
+   "answer_usage": {
+    "in": 448,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5572272499557585
+   },
+   "retrieval_latency_seconds": 0.09582470799796283,
+   "query": "Based on the known information, I can already answer this question:",
+   "query_usage": {
+    "in": 433,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7354347920045257
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Warrel Dane: Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary.",
+    "Warrel Dane: Later in his career, Dane became more notable for his distinctively deep, dramatic voice.",
+    "Peter Wichers: He also co-wrote Warrel Dane's solo record \"Praises to the War Machine\".",
+    "Akhund Mullah Mohammad Kashani: In place of his birth date and age of his birth is not mentioned during the 84 years of his life, to guess.",
+    "Roy Khan: Commonly known as Roy Khan or simply Khan, he was the lead vocalist for the symphonic power metal band Kamelot from 1997 to his departure in 2011.",
+    "Roy Khan: Roy S\u00e6tre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style."
+   ],
+   "answer": "Roy Khan",
+   "answer_usage": {
+    "in": 448,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5722073749639094
+   },
+   "retrieval_latency_seconds": 0.07408141694031656,
+   "query": "Based on the known information, I can already answer this question:",
+   "query_usage": {
+    "in": 433,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7559192089829594
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.36363636363636365,
+   3.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6363636363636364,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.6363636363636364,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   10.0,
+   0.6363636363636364,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.6363636363636364,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

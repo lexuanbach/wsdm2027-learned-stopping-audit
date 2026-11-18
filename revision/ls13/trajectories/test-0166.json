@@ -1,0 +1,380 @@
+{
+ "id": "5a8b83bc55429949d91db5c0",
+ "question": "Bandit was built in 1988 by which Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides?",
+ "gold_answers": [
+  "TOGO company"
+ ],
+ "support_titles": [
+  "Bandit (Yomiuriland)",
+  "TOGO"
+ ],
+ "support_sentences": [
+  "Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+  "TOGO (\u682a\u5f0f\u4f1a\u793e\u30c8\u30fc\u30b4 , Kabushiki-gaisha T\u014dgo ) was a Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Togo",
+   "answer_usage": {
+    "in": 107,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.627633250085637
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Bandit (Yomiuriland): Bandit (\u30d0\u30f3\u30c7\u30c3\u30c8 , Bandetto ) is a steel roller coaster located at Yomiuriland in the city of Inagi, near Tokyo, Japan.",
+    "Bandit (Yomiuriland): Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+    "Apocalypse (Six Flags America): The roller coaster was the first built by Swiss manufacturer Bolliger & Mabillard."
+   ],
+   "answer": "TOGO",
+   "answer_usage": {
+    "in": 242,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5574454580200836
+   },
+   "retrieval_latency_seconds": 0.005673917010426521,
+   "query": "Bandit roller coaster 1988 Japanese manufacturer",
+   "query_usage": {
+    "in": 92,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6373122499790043
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Bandit (Yomiuriland): Bandit (\u30d0\u30f3\u30c7\u30c3\u30c8 , Bandetto ) is a steel roller coaster located at Yomiuriland in the city of Inagi, near Tokyo, Japan.",
+    "Bandit (Yomiuriland): Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+    "Apocalypse (Six Flags America): The roller coaster was the first built by Swiss manufacturer Bolliger & Mabillard.",
+    "TOGO: TOGO (\u682a\u5f0f\u4f1a\u793e\u30c8\u30fc\u30b4 , Kabushiki-gaisha T\u014dgo ) was a Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides.",
+    "Mack Rides: Mack Rides is one of the world's oldest amusement industry suppliers and builds all kinds of amusement devices including several types of flat rides, dark rides, log flumes, tow boat rides and roller coasters.",
+    "List of roller coaster rankings: Roller coasters are amusement rides developed for amusement parks and modern theme parks."
+   ],
+   "answer": "TOGO",
+   "answer_usage": {
+    "in": 396,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5821020420407876
+   },
+   "retrieval_latency_seconds": 0.009156665997579694,
+   "query": "TOGO company amusement rides roller coasters giant wheels carousels flumes dark rides",
+   "query_usage": {
+    "in": 227,
+    "out": 23,
+    "calls": 1,
+    "latency_seconds": 0.7069233750225976
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Bandit (Yomiuriland): Bandit (\u30d0\u30f3\u30c7\u30c3\u30c8 , Bandetto ) is a steel roller coaster located at Yomiuriland in the city of Inagi, near Tokyo, Japan.",
+    "Bandit (Yomiuriland): Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+    "Apocalypse (Six Flags America): The roller coaster was the first built by Swiss manufacturer Bolliger & Mabillard.",
+    "TOGO: TOGO (\u682a\u5f0f\u4f1a\u793e\u30c8\u30fc\u30b4 , Kabushiki-gaisha T\u014dgo ) was a Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides.",
+    "Mack Rides: Mack Rides is one of the world's oldest amusement industry suppliers and builds all kinds of amusement devices including several types of flat rides, dark rides, log flumes, tow boat rides and roller coasters.",
+    "List of roller coaster rankings: Roller coasters are amusement rides developed for amusement parks and modern theme parks.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer."
+   ],
+   "answer": "TOGO",
+   "answer_usage": {
+    "in": 477,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5878039160743356
+   },
+   "retrieval_latency_seconds": 0.12682174996007234,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly state that:",
+   "query_usage": {
+    "in": 381,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8870584169635549
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Bandit (Yomiuriland): Bandit (\u30d0\u30f3\u30c7\u30c3\u30c8 , Bandetto ) is a steel roller coaster located at Yomiuriland in the city of Inagi, near Tokyo, Japan.",
+    "Bandit (Yomiuriland): Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+    "Apocalypse (Six Flags America): The roller coaster was the first built by Swiss manufacturer Bolliger & Mabillard.",
+    "TOGO: TOGO (\u682a\u5f0f\u4f1a\u793e\u30c8\u30fc\u30b4 , Kabushiki-gaisha T\u014dgo ) was a Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides.",
+    "Mack Rides: Mack Rides is one of the world's oldest amusement industry suppliers and builds all kinds of amusement devices including several types of flat rides, dark rides, log flumes, tow boat rides and roller coasters.",
+    "List of roller coaster rankings: Roller coasters are amusement rides developed for amusement parks and modern theme parks.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Nan Britton: Her claim was open to question during her life, but was confirmed by DNA testing in 2015."
+   ],
+   "answer": "TOGO",
+   "answer_usage": {
+    "in": 506,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5762665410293266
+   },
+   "retrieval_latency_seconds": 0.5306046250043437,
+   "query": "The question has already been answered based on the known information provided. Bandit was built in 1988 by **TOGO**, which is confirmed",
+   "query_usage": {
+    "in": 462,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8225049999309704
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Bandit (Yomiuriland): Bandit (\u30d0\u30f3\u30c7\u30c3\u30c8 , Bandetto ) is a steel roller coaster located at Yomiuriland in the city of Inagi, near Tokyo, Japan.",
+    "Bandit (Yomiuriland): Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+    "Apocalypse (Six Flags America): The roller coaster was the first built by Swiss manufacturer Bolliger & Mabillard.",
+    "TOGO: TOGO (\u682a\u5f0f\u4f1a\u793e\u30c8\u30fc\u30b4 , Kabushiki-gaisha T\u014dgo ) was a Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides.",
+    "Mack Rides: Mack Rides is one of the world's oldest amusement industry suppliers and builds all kinds of amusement devices including several types of flat rides, dark rides, log flumes, tow boat rides and roller coasters.",
+    "List of roller coaster rankings: Roller coasters are amusement rides developed for amusement parks and modern theme parks.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Nan Britton: Her claim was open to question during her life, but was confirmed by DNA testing in 2015."
+   ],
+   "answer": "TOGO",
+   "answer_usage": {
+    "in": 506,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5936269999947399
+   },
+   "retrieval_latency_seconds": 0.3482510410249233,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly state that:",
+   "query_usage": {
+    "in": 491,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8650905420072377
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Bandit (Yomiuriland): Bandit (\u30d0\u30f3\u30c7\u30c3\u30c8 , Bandetto ) is a steel roller coaster located at Yomiuriland in the city of Inagi, near Tokyo, Japan.",
+    "Bandit (Yomiuriland): Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+    "Apocalypse (Six Flags America): The roller coaster was the first built by Swiss manufacturer Bolliger & Mabillard.",
+    "TOGO: TOGO (\u682a\u5f0f\u4f1a\u793e\u30c8\u30fc\u30b4 , Kabushiki-gaisha T\u014dgo ) was a Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides.",
+    "Mack Rides: Mack Rides is one of the world's oldest amusement industry suppliers and builds all kinds of amusement devices including several types of flat rides, dark rides, log flumes, tow boat rides and roller coasters.",
+    "List of roller coaster rankings: Roller coasters are amusement rides developed for amusement parks and modern theme parks.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Nan Britton: Her claim was open to question during her life, but was confirmed by DNA testing in 2015."
+   ],
+   "answer": "TOGO",
+   "answer_usage": {
+    "in": 506,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5809402499580756
+   },
+   "retrieval_latency_seconds": 0.13131079101003706,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly state that:",
+   "query_usage": {
+    "in": 491,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8689668331062421
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Bandit (Yomiuriland): Bandit (\u30d0\u30f3\u30c7\u30c3\u30c8 , Bandetto ) is a steel roller coaster located at Yomiuriland in the city of Inagi, near Tokyo, Japan.",
+    "Bandit (Yomiuriland): Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+    "Apocalypse (Six Flags America): The roller coaster was the first built by Swiss manufacturer Bolliger & Mabillard.",
+    "TOGO: TOGO (\u682a\u5f0f\u4f1a\u793e\u30c8\u30fc\u30b4 , Kabushiki-gaisha T\u014dgo ) was a Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides.",
+    "Mack Rides: Mack Rides is one of the world's oldest amusement industry suppliers and builds all kinds of amusement devices including several types of flat rides, dark rides, log flumes, tow boat rides and roller coasters.",
+    "List of roller coaster rankings: Roller coasters are amusement rides developed for amusement parks and modern theme parks.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Nan Britton: Her claim was open to question during her life, but was confirmed by DNA testing in 2015."
+   ],
+   "answer": "TOGO",
+   "answer_usage": {
+    "in": 506,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6109972910489887
+   },
+   "retrieval_latency_seconds": 0.15317774994764477,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly state that:",
+   "query_usage": {
+    "in": 491,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8805479169823229
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Bandit (Yomiuriland): Bandit (\u30d0\u30f3\u30c7\u30c3\u30c8 , Bandetto ) is a steel roller coaster located at Yomiuriland in the city of Inagi, near Tokyo, Japan.",
+    "Bandit (Yomiuriland): Built in 1988 by the TOGO company, it was the fastest roller coaster in the world when it was built (taking the record from American Eagle at Six Flags Great America).",
+    "Apocalypse (Six Flags America): The roller coaster was the first built by Swiss manufacturer Bolliger & Mabillard.",
+    "TOGO: TOGO (\u682a\u5f0f\u4f1a\u793e\u30c8\u30fc\u30b4 , Kabushiki-gaisha T\u014dgo ) was a Japanese amusement ride company that built roller coasters, giant wheels, carousels, flumes, dark rides, sky cycles and other amusement rides.",
+    "Mack Rides: Mack Rides is one of the world's oldest amusement industry suppliers and builds all kinds of amusement devices including several types of flat rides, dark rides, log flumes, tow boat rides and roller coasters.",
+    "List of roller coaster rankings: Roller coasters are amusement rides developed for amusement parks and modern theme parks.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Nan Britton: Her claim was open to question during her life, but was confirmed by DNA testing in 2015."
+   ],
+   "answer": "TOGO",
+   "answer_usage": {
+    "in": 506,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5900752500165254
+   },
+   "retrieval_latency_seconds": 0.15301145904231817,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly state that:",
+   "query_usage": {
+    "in": 491,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8863072081003338
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.3333333333333333,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9583333333333334,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.9583333333333334,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   10.0,
+   0.9583333333333334,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   10.0,
+   0.9583333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   10.0,
+   0.9583333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   10.0,
+   0.9583333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   10.0,
+   0.9583333333333334,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

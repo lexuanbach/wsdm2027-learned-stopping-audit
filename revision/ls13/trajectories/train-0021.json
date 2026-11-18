@@ -1,0 +1,363 @@
+{
+ "id": "5a865e785542991e7718161b",
+ "question": "Which building is located a higher numbered street, Americas Tower or One Penn Plaza?",
+ "gold_answers": [
+  "Americas Tower"
+ ],
+ "support_titles": [
+  "Americas Tower",
+  "One Penn Plaza"
+ ],
+ "support_sentences": [
+  "Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+  "One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "One Penn Plaza",
+   "answer_usage": {
+    "in": 77,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5698114999104291
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Americas Tower: Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+    "Transportation Building: It also carries the address 2-4 Barclay Street.",
+    "Rocky Mount station: The station is located just south of downtown Rocky Mount, and the street address is 101 Hammond Street."
+   ],
+   "answer": "One Penn Plaza",
+   "answer_usage": {
+    "in": 177,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5887604170711711
+   },
+   "retrieval_latency_seconds": 0.004156250040978193,
+   "query": "Americas Tower street address",
+   "query_usage": {
+    "in": 62,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5475390000501648
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Americas Tower: Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+    "Transportation Building: It also carries the address 2-4 Barclay Street.",
+    "Rocky Mount station: The station is located just south of downtown Rocky Mount, and the street address is 101 Hammond Street.",
+    "One Penn Plaza: One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden.",
+    "Penn Plaza East: The Penn Plaza East complex takes its name for its location near Penn Station in Newark, New Jersey.",
+    "One Penn Plaza: It is the tallest building in the Pennsylvania Plaza complex of office buildings, hotels, and entertainment facilities."
+   ],
+   "answer": "Americas Tower",
+   "answer_usage": {
+    "in": 284,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6091899579623714
+   },
+   "retrieval_latency_seconds": 0.021851333905942738,
+   "query": "One Penn Plaza street address location",
+   "query_usage": {
+    "in": 162,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5755331659456715
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Americas Tower: Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+    "Transportation Building: It also carries the address 2-4 Barclay Street.",
+    "Rocky Mount station: The station is located just south of downtown Rocky Mount, and the street address is 101 Hammond Street.",
+    "One Penn Plaza: One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden.",
+    "Penn Plaza East: The Penn Plaza East complex takes its name for its location near Penn Station in Newark, New Jersey.",
+    "One Penn Plaza: It is the tallest building in the Pennsylvania Plaza complex of office buildings, hotels, and entertainment facilities.",
+    "One Worldwide Plaza: Two Worldwide Plaza is a residential condominium tower west of the center of the block, and Three Worldwide Plaza is a low-rise condominium residential building with street level stores on Ninth Avenue, to the west of the towers."
+   ],
+   "answer": "Americas Tower",
+   "answer_usage": {
+    "in": 341,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5701424579601735
+   },
+   "retrieval_latency_seconds": 0.345331541961059,
+   "query": "I need to find the specific street address number for One Penn Plaza to compare with Americas Tower's location at West 45th Street.",
+   "query_usage": {
+    "in": 269,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8083054580492899
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Americas Tower: Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+    "Transportation Building: It also carries the address 2-4 Barclay Street.",
+    "Rocky Mount station: The station is located just south of downtown Rocky Mount, and the street address is 101 Hammond Street.",
+    "One Penn Plaza: One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden.",
+    "Penn Plaza East: The Penn Plaza East complex takes its name for its location near Penn Station in Newark, New Jersey.",
+    "One Penn Plaza: It is the tallest building in the Pennsylvania Plaza complex of office buildings, hotels, and entertainment facilities.",
+    "One Worldwide Plaza: Two Worldwide Plaza is a residential condominium tower west of the center of the block, and Three Worldwide Plaza is a low-rise condominium residential building with street level stores on Ninth Avenue, to the west of the towers."
+   ],
+   "answer": "Americas Tower",
+   "answer_usage": {
+    "in": 341,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5821920000016689
+   },
+   "retrieval_latency_seconds": 0.25809070898685604,
+   "query": "I need to find the specific street address/number for One Penn Plaza to compare with Americas Tower's West 45th Street location.",
+   "query_usage": {
+    "in": 326,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7145708749303594
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Americas Tower: Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+    "Transportation Building: It also carries the address 2-4 Barclay Street.",
+    "Rocky Mount station: The station is located just south of downtown Rocky Mount, and the street address is 101 Hammond Street.",
+    "One Penn Plaza: One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden.",
+    "Penn Plaza East: The Penn Plaza East complex takes its name for its location near Penn Station in Newark, New Jersey.",
+    "One Penn Plaza: It is the tallest building in the Pennsylvania Plaza complex of office buildings, hotels, and entertainment facilities.",
+    "One Worldwide Plaza: Two Worldwide Plaza is a residential condominium tower west of the center of the block, and Three Worldwide Plaza is a low-rise condominium residential building with street level stores on Ninth Avenue, to the west of the towers."
+   ],
+   "answer": "Americas Tower",
+   "answer_usage": {
+    "in": 341,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5788342090090737
+   },
+   "retrieval_latency_seconds": 0.5789569169282913,
+   "query": "I need to find the specific street address/number for One Penn Plaza to compare with Americas Tower's West 45th Street location.",
+   "query_usage": {
+    "in": 326,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7243785409955308
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Americas Tower: Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+    "Transportation Building: It also carries the address 2-4 Barclay Street.",
+    "Rocky Mount station: The station is located just south of downtown Rocky Mount, and the street address is 101 Hammond Street.",
+    "One Penn Plaza: One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden.",
+    "Penn Plaza East: The Penn Plaza East complex takes its name for its location near Penn Station in Newark, New Jersey.",
+    "One Penn Plaza: It is the tallest building in the Pennsylvania Plaza complex of office buildings, hotels, and entertainment facilities.",
+    "One Worldwide Plaza: Two Worldwide Plaza is a residential condominium tower west of the center of the block, and Three Worldwide Plaza is a low-rise condominium residential building with street level stores on Ninth Avenue, to the west of the towers."
+   ],
+   "answer": "Americas Tower",
+   "answer_usage": {
+    "in": 341,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.597713999915868
+   },
+   "retrieval_latency_seconds": 0.5087566250003874,
+   "query": "I need to find the specific street address/number for One Penn Plaza to compare with Americas Tower's West 45th Street location.",
+   "query_usage": {
+    "in": 326,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7017224580049515
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Americas Tower: Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+    "Transportation Building: It also carries the address 2-4 Barclay Street.",
+    "Rocky Mount station: The station is located just south of downtown Rocky Mount, and the street address is 101 Hammond Street.",
+    "One Penn Plaza: One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden.",
+    "Penn Plaza East: The Penn Plaza East complex takes its name for its location near Penn Station in Newark, New Jersey.",
+    "One Penn Plaza: It is the tallest building in the Pennsylvania Plaza complex of office buildings, hotels, and entertainment facilities.",
+    "One Worldwide Plaza: Two Worldwide Plaza is a residential condominium tower west of the center of the block, and Three Worldwide Plaza is a low-rise condominium residential building with street level stores on Ninth Avenue, to the west of the towers."
+   ],
+   "answer": "Americas Tower",
+   "answer_usage": {
+    "in": 341,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5915650830138475
+   },
+   "retrieval_latency_seconds": 0.180654542054981,
+   "query": "I need to find the specific street address/number for One Penn Plaza to compare with Americas Tower's West 45th Street location.",
+   "query_usage": {
+    "in": 326,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7017934169853106
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Americas Tower: Americas Tower, also known as 1177 Avenue of the Americas, is a 50-story, 692-foot (211 m) office tower in Midtown Manhattan, New York City, standing at West 45th Street.",
+    "Transportation Building: It also carries the address 2-4 Barclay Street.",
+    "Rocky Mount station: The station is located just south of downtown Rocky Mount, and the street address is 101 Hammond Street.",
+    "One Penn Plaza: One Penn Plaza (1 Penn Plaza) is a skyscraper in New York City, located between 33rd Street and 34th Street, west of Seventh Avenue, and adjacent to Pennsylvania Station and Madison Square Garden.",
+    "Penn Plaza East: The Penn Plaza East complex takes its name for its location near Penn Station in Newark, New Jersey.",
+    "One Penn Plaza: It is the tallest building in the Pennsylvania Plaza complex of office buildings, hotels, and entertainment facilities.",
+    "One Worldwide Plaza: Two Worldwide Plaza is a residential condominium tower west of the center of the block, and Three Worldwide Plaza is a low-rise condominium residential building with street level stores on Ninth Avenue, to the west of the towers."
+   ],
+   "answer": "Americas Tower",
+   "answer_usage": {
+    "in": 341,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6215345829259604
+   },
+   "retrieval_latency_seconds": 0.1356654999544844,
+   "query": "I need to find the specific street address/number for One Penn Plaza to compare with Americas Tower's West 45th Street location.",
+   "query_usage": {
+    "in": 326,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.703872042009607
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   0.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7142857142857143,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.7142857142857143,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

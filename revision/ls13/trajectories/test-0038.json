@@ -1,0 +1,363 @@
+{
+ "id": "5a74872655429979e2882978",
+ "question": "What singer song writer born on December 13, 1989 wears jewelry from Porter Lyons?",
+ "gold_answers": [
+  "Taylor Swift"
+ ],
+ "support_titles": [
+  "Porter Lyons",
+  "Taylor Swift"
+ ],
+ "support_sentences": [
+  "The line has been worn by many celebrities, such as Taylor Swift, Jessica Alba, Jennifer Lawrence and Cameron Diaz and has been featured in \"Elle\" and \"W Magazine\".",
+  "Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the given evidence",
+   "answer_usage": {
+    "in": 84,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6689636250957847
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Taylor Swift: Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.",
+    "Ted Nugent: Theodore Anthony Nugent ( ; born December 13, 1948) is an American singer-songwriter, musician and activist.",
+    "Tom DeLonge: Thomas Matthew DeLonge Jr. (born December 13, 1975) is an American musician, singer, songwriter, record producer, entrepreneur, and film producer."
+   ],
+   "answer": "Taylor Swift",
+   "answer_usage": {
+    "in": 184,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5789142500143498
+   },
+   "retrieval_latency_seconds": 0.014451292110607028,
+   "query": "singer songwriter born December 13 1989",
+   "query_usage": {
+    "in": 69,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6462806250201538
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Taylor Swift: Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.",
+    "Ted Nugent: Theodore Anthony Nugent ( ; born December 13, 1948) is an American singer-songwriter, musician and activist.",
+    "Tom DeLonge: Thomas Matthew DeLonge Jr. (born December 13, 1975) is an American musician, singer, songwriter, record producer, entrepreneur, and film producer.",
+    "Porter Lyons: Porter Lyons is a jewelry and accessory brand created by Ashley Porter.",
+    "Porter Lyons: The line has been worn by many celebrities, such as Taylor Swift, Jessica Alba, Jennifer Lawrence and Cameron Diaz and has been featured in \"Elle\" and \"W Magazine\".",
+    "The Taylor Swift Holiday Collection: The Taylor Swift Holiday Collection, originally titled Sounds of the Season: The Taylor Swift Holiday Collection, is a Christmas EP by American singer Taylor Swift."
+   ],
+   "answer": "Taylor Swift",
+   "answer_usage": {
+    "in": 289,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5748112089931965
+   },
+   "retrieval_latency_seconds": 0.003588499967008829,
+   "query": "Taylor Swift Porter Lyons jewelry",
+   "query_usage": {
+    "in": 169,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6176258329069242
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Taylor Swift: Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.",
+    "Ted Nugent: Theodore Anthony Nugent ( ; born December 13, 1948) is an American singer-songwriter, musician and activist.",
+    "Tom DeLonge: Thomas Matthew DeLonge Jr. (born December 13, 1975) is an American musician, singer, songwriter, record producer, entrepreneur, and film producer.",
+    "Porter Lyons: Porter Lyons is a jewelry and accessory brand created by Ashley Porter.",
+    "Porter Lyons: The line has been worn by many celebrities, such as Taylor Swift, Jessica Alba, Jennifer Lawrence and Cameron Diaz and has been featured in \"Elle\" and \"W Magazine\".",
+    "The Taylor Swift Holiday Collection: The Taylor Swift Holiday Collection, originally titled Sounds of the Season: The Taylor Swift Holiday Collection, is a Christmas EP by American singer Taylor Swift.",
+    "1989 (Taylor Swift album): 1989 is the fifth studio album by American singer-songwriter Taylor Swift released on October 27, 2014, through Big Machine Records."
+   ],
+   "answer": "Taylor Swift",
+   "answer_usage": {
+    "in": 331,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5655797499930486
+   },
+   "retrieval_latency_seconds": 0.13430783397052437,
+   "query": "Based on the information provided, Taylor Swift (born December 13, 1989) is the singer-songwriter who wears jewelry from Porter Lyons",
+   "query_usage": {
+    "in": 274,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7442760410485789
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Taylor Swift: Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.",
+    "Ted Nugent: Theodore Anthony Nugent ( ; born December 13, 1948) is an American singer-songwriter, musician and activist.",
+    "Tom DeLonge: Thomas Matthew DeLonge Jr. (born December 13, 1975) is an American musician, singer, songwriter, record producer, entrepreneur, and film producer.",
+    "Porter Lyons: Porter Lyons is a jewelry and accessory brand created by Ashley Porter.",
+    "Porter Lyons: The line has been worn by many celebrities, such as Taylor Swift, Jessica Alba, Jennifer Lawrence and Cameron Diaz and has been featured in \"Elle\" and \"W Magazine\".",
+    "The Taylor Swift Holiday Collection: The Taylor Swift Holiday Collection, originally titled Sounds of the Season: The Taylor Swift Holiday Collection, is a Christmas EP by American singer Taylor Swift.",
+    "1989 (Taylor Swift album): 1989 is the fifth studio album by American singer-songwriter Taylor Swift released on October 27, 2014, through Big Machine Records."
+   ],
+   "answer": "Taylor Swift",
+   "answer_usage": {
+    "in": 331,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6017551670083776
+   },
+   "retrieval_latency_seconds": 0.13017720903735608,
+   "query": "Based on the information provided, Taylor Swift (born December 13, 1989) is the singer-songwriter who wears jewelry from Porter Lyons",
+   "query_usage": {
+    "in": 316,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8184949170099571
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Taylor Swift: Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.",
+    "Ted Nugent: Theodore Anthony Nugent ( ; born December 13, 1948) is an American singer-songwriter, musician and activist.",
+    "Tom DeLonge: Thomas Matthew DeLonge Jr. (born December 13, 1975) is an American musician, singer, songwriter, record producer, entrepreneur, and film producer.",
+    "Porter Lyons: Porter Lyons is a jewelry and accessory brand created by Ashley Porter.",
+    "Porter Lyons: The line has been worn by many celebrities, such as Taylor Swift, Jessica Alba, Jennifer Lawrence and Cameron Diaz and has been featured in \"Elle\" and \"W Magazine\".",
+    "The Taylor Swift Holiday Collection: The Taylor Swift Holiday Collection, originally titled Sounds of the Season: The Taylor Swift Holiday Collection, is a Christmas EP by American singer Taylor Swift.",
+    "1989 (Taylor Swift album): 1989 is the fifth studio album by American singer-songwriter Taylor Swift released on October 27, 2014, through Big Machine Records."
+   ],
+   "answer": "Taylor Swift",
+   "answer_usage": {
+    "in": 331,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.555945249972865
+   },
+   "retrieval_latency_seconds": 0.1303527499549091,
+   "query": "Based on the information provided, Taylor Swift (born December 13, 1989) is the singer-songwriter who wears jewelry from Porter Lyons",
+   "query_usage": {
+    "in": 316,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8205277089728042
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Taylor Swift: Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.",
+    "Ted Nugent: Theodore Anthony Nugent ( ; born December 13, 1948) is an American singer-songwriter, musician and activist.",
+    "Tom DeLonge: Thomas Matthew DeLonge Jr. (born December 13, 1975) is an American musician, singer, songwriter, record producer, entrepreneur, and film producer.",
+    "Porter Lyons: Porter Lyons is a jewelry and accessory brand created by Ashley Porter.",
+    "Porter Lyons: The line has been worn by many celebrities, such as Taylor Swift, Jessica Alba, Jennifer Lawrence and Cameron Diaz and has been featured in \"Elle\" and \"W Magazine\".",
+    "The Taylor Swift Holiday Collection: The Taylor Swift Holiday Collection, originally titled Sounds of the Season: The Taylor Swift Holiday Collection, is a Christmas EP by American singer Taylor Swift.",
+    "1989 (Taylor Swift album): 1989 is the fifth studio album by American singer-songwriter Taylor Swift released on October 27, 2014, through Big Machine Records."
+   ],
+   "answer": "Taylor Swift",
+   "answer_usage": {
+    "in": 331,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5440279580652714
+   },
+   "retrieval_latency_seconds": 0.16945708403363824,
+   "query": "Based on the information provided, Taylor Swift (born December 13, 1989) is the singer-songwriter who wears jewelry from Porter Lyons",
+   "query_usage": {
+    "in": 316,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8377225419972092
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Taylor Swift: Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.",
+    "Ted Nugent: Theodore Anthony Nugent ( ; born December 13, 1948) is an American singer-songwriter, musician and activist.",
+    "Tom DeLonge: Thomas Matthew DeLonge Jr. (born December 13, 1975) is an American musician, singer, songwriter, record producer, entrepreneur, and film producer.",
+    "Porter Lyons: Porter Lyons is a jewelry and accessory brand created by Ashley Porter.",
+    "Porter Lyons: The line has been worn by many celebrities, such as Taylor Swift, Jessica Alba, Jennifer Lawrence and Cameron Diaz and has been featured in \"Elle\" and \"W Magazine\".",
+    "The Taylor Swift Holiday Collection: The Taylor Swift Holiday Collection, originally titled Sounds of the Season: The Taylor Swift Holiday Collection, is a Christmas EP by American singer Taylor Swift.",
+    "1989 (Taylor Swift album): 1989 is the fifth studio album by American singer-songwriter Taylor Swift released on October 27, 2014, through Big Machine Records."
+   ],
+   "answer": "Taylor Swift",
+   "answer_usage": {
+    "in": 331,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5610139999771491
+   },
+   "retrieval_latency_seconds": 0.24628733296412975,
+   "query": "Based on the information provided, Taylor Swift (born December 13, 1989) is the singer-songwriter who wears jewelry from Porter Lyons",
+   "query_usage": {
+    "in": 316,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8019327920628712
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Taylor Swift: Taylor Alison Swift (born December 13, 1989) is an American singer-songwriter.",
+    "Ted Nugent: Theodore Anthony Nugent ( ; born December 13, 1948) is an American singer-songwriter, musician and activist.",
+    "Tom DeLonge: Thomas Matthew DeLonge Jr. (born December 13, 1975) is an American musician, singer, songwriter, record producer, entrepreneur, and film producer.",
+    "Porter Lyons: Porter Lyons is a jewelry and accessory brand created by Ashley Porter.",
+    "Porter Lyons: The line has been worn by many celebrities, such as Taylor Swift, Jessica Alba, Jennifer Lawrence and Cameron Diaz and has been featured in \"Elle\" and \"W Magazine\".",
+    "The Taylor Swift Holiday Collection: The Taylor Swift Holiday Collection, originally titled Sounds of the Season: The Taylor Swift Holiday Collection, is a Christmas EP by American singer Taylor Swift.",
+    "1989 (Taylor Swift album): 1989 is the fifth studio album by American singer-songwriter Taylor Swift released on October 27, 2014, through Big Machine Records."
+   ],
+   "answer": "Taylor Swift",
+   "answer_usage": {
+    "in": 331,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5263417089590803
+   },
+   "retrieval_latency_seconds": 0.14614654099568725,
+   "query": "Based on the information provided, Taylor Swift (born December 13, 1989) is the singer-songwriter who wears jewelry from Porter Lyons",
+   "query_usage": {
+    "in": 316,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7924349169479683
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.35714285714285715,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5714285714285714,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.6428571428571429,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.6428571428571429,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.6428571428571429,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.6428571428571429,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.6428571428571429,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.6428571428571429,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

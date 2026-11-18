@@ -1,0 +1,391 @@
+{
+ "id": "5a778f515542995d831811cd",
+ "question": "What was the nickname of the author of the comic strip on which a a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox was based?",
+ "gold_answers": [
+  "Sparky"
+ ],
+ "support_titles": [
+  "The Peanuts Movie",
+  "Charles M. Schulz"
+ ],
+ "support_sentences": [
+  "The Peanuts Movie (known in some countries as Snoopy and Charlie Brown: The Peanuts Movie) is a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox, based on Charles M. Schulz's comic strip \"Peanuts\".",
+  "Charles Monroe Schulz (November 26, 1922 \u2013 February 12, 2000), nicknamed Sparky, was an American cartoonist best known for the comic strip \"Peanuts\" (which featured the characters Charlie Brown and Snoopy, among others)."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I need to identify the 2015 American 3D computer-animated comedy film by Blue Sky Studios and 20th Century Fox, then find the comic strip it was based on, and",
+   "answer_usage": {
+    "in": 105,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9077385410200804
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Ferdinand (film): Ferdinand is an upcoming 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and 20th Century Fox Animation.",
+    "Robots (2005 film): Robots is a 2005 American computer-animated adventure comedy film produced by Blue Sky Studios for 20th Century Fox.",
+    "Ice Age: The Meltdown: Ice Age: The Meltdown is a 2006 American computer-animated comedy adventure film produced by Blue Sky Studios and released by 20th Century Fox."
+   ],
+   "answer": "I need to find a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox that was based on a comic strip",
+   "answer_usage": {
+    "in": 219,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7303679999895394
+   },
+   "retrieval_latency_seconds": 0.05484324996359646,
+   "query": "2015 American 3D computer-animated comedy film Blue Sky Studios 20th Century Fox",
+   "query_usage": {
+    "in": 90,
+    "out": 24,
+    "calls": 1,
+    "latency_seconds": 0.7429609160171822
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Ferdinand (film): Ferdinand is an upcoming 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and 20th Century Fox Animation.",
+    "Robots (2005 film): Robots is a 2005 American computer-animated adventure comedy film produced by Blue Sky Studios for 20th Century Fox.",
+    "Ice Age: The Meltdown: Ice Age: The Meltdown is a 2006 American computer-animated comedy adventure film produced by Blue Sky Studios and released by 20th Century Fox.",
+    "Zambezia (film): It is the first film produced by Blue Sky Studios and distributed by 20th Century Fox Home Entertainment."
+   ],
+   "answer": "I need to find a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox, then identify the comic strip it was based",
+   "answer_usage": {
+    "in": 249,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7267630840651691
+   },
+   "retrieval_latency_seconds": 0.09114508400671184,
+   "query": "I need to find a 2015 Blue Sky Studios film distributed by 20th Century Fox. Let me search for that.",
+   "query_usage": {
+    "in": 204,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7594232499832287
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Ferdinand (film): Ferdinand is an upcoming 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and 20th Century Fox Animation.",
+    "Robots (2005 film): Robots is a 2005 American computer-animated adventure comedy film produced by Blue Sky Studios for 20th Century Fox.",
+    "Ice Age: The Meltdown: Ice Age: The Meltdown is a 2006 American computer-animated comedy adventure film produced by Blue Sky Studios and released by 20th Century Fox.",
+    "Zambezia (film): It is the first film produced by Blue Sky Studios and distributed by 20th Century Fox Home Entertainment.",
+    "The Peanuts Movie: The Peanuts Movie (known in some countries as Snoopy and Charlie Brown: The Peanuts Movie) is a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox, based on Charles M. Schulz's comic strip \"Peanuts\".",
+    "Ice Age (2002 film): Produced by Blue Sky Studios as its first feature film, it was released by 20th Century Fox on March 15, 2002."
+   ],
+   "answer": "Sparky",
+   "answer_usage": {
+    "in": 371,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5576024999609217
+   },
+   "retrieval_latency_seconds": 0.12377695902250707,
+   "query": "I need to find a 2015 Blue Sky Studios film distributed by 20th Century Fox that was based on a comic strip.",
+   "query_usage": {
+    "in": 234,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7004985000239685
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Ferdinand (film): Ferdinand is an upcoming 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and 20th Century Fox Animation.",
+    "Robots (2005 film): Robots is a 2005 American computer-animated adventure comedy film produced by Blue Sky Studios for 20th Century Fox.",
+    "Ice Age: The Meltdown: Ice Age: The Meltdown is a 2006 American computer-animated comedy adventure film produced by Blue Sky Studios and released by 20th Century Fox.",
+    "Zambezia (film): It is the first film produced by Blue Sky Studios and distributed by 20th Century Fox Home Entertainment.",
+    "The Peanuts Movie: The Peanuts Movie (known in some countries as Snoopy and Charlie Brown: The Peanuts Movie) is a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox, based on Charles M. Schulz's comic strip \"Peanuts\".",
+    "Ice Age (2002 film): Produced by Blue Sky Studios as its first feature film, it was released by 20th Century Fox on March 15, 2002.",
+    "Linus van Pelt: Linus van Pelt is a character in Charles M. Schulz's comic strip \"Peanuts\".",
+    "Charles M. Schulz: Charles Monroe Schulz (November 26, 1922 \u2013 February 12, 2000), nicknamed Sparky, was an American cartoonist best known for the comic strip \"Peanuts\" (which featured the characters Charlie Brown and Snoopy, among others).",
+    "A Charlie Brown Christmas: A Charlie Brown Christmas is a 1965 animated television special based on the comic strip \"Peanuts\", by Charles M. Schulz."
+   ],
+   "answer": "Sparky",
+   "answer_usage": {
+    "in": 517,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5308538749814034
+   },
+   "retrieval_latency_seconds": 0.0038196250097826123,
+   "query": "Charles M. Schulz nickname",
+   "query_usage": {
+    "in": 356,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.601124249980785
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Ferdinand (film): Ferdinand is an upcoming 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and 20th Century Fox Animation.",
+    "Robots (2005 film): Robots is a 2005 American computer-animated adventure comedy film produced by Blue Sky Studios for 20th Century Fox.",
+    "Ice Age: The Meltdown: Ice Age: The Meltdown is a 2006 American computer-animated comedy adventure film produced by Blue Sky Studios and released by 20th Century Fox.",
+    "Zambezia (film): It is the first film produced by Blue Sky Studios and distributed by 20th Century Fox Home Entertainment.",
+    "The Peanuts Movie: The Peanuts Movie (known in some countries as Snoopy and Charlie Brown: The Peanuts Movie) is a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox, based on Charles M. Schulz's comic strip \"Peanuts\".",
+    "Ice Age (2002 film): Produced by Blue Sky Studios as its first feature film, it was released by 20th Century Fox on March 15, 2002.",
+    "Linus van Pelt: Linus van Pelt is a character in Charles M. Schulz's comic strip \"Peanuts\".",
+    "Charles M. Schulz: Charles Monroe Schulz (November 26, 1922 \u2013 February 12, 2000), nicknamed Sparky, was an American cartoonist best known for the comic strip \"Peanuts\" (which featured the characters Charlie Brown and Snoopy, among others).",
+    "A Charlie Brown Christmas: A Charlie Brown Christmas is a 1965 animated television special based on the comic strip \"Peanuts\", by Charles M. Schulz.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu."
+   ],
+   "answer": "Sparky",
+   "answer_usage": {
+    "in": 608,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.46079450007528067
+   },
+   "retrieval_latency_seconds": 0.13294504198711365,
+   "query": "The search query is not needed. Based on the information already provided:",
+   "query_usage": {
+    "in": 502,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8593295419123024
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Ferdinand (film): Ferdinand is an upcoming 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and 20th Century Fox Animation.",
+    "Robots (2005 film): Robots is a 2005 American computer-animated adventure comedy film produced by Blue Sky Studios for 20th Century Fox.",
+    "Ice Age: The Meltdown: Ice Age: The Meltdown is a 2006 American computer-animated comedy adventure film produced by Blue Sky Studios and released by 20th Century Fox.",
+    "Zambezia (film): It is the first film produced by Blue Sky Studios and distributed by 20th Century Fox Home Entertainment.",
+    "The Peanuts Movie: The Peanuts Movie (known in some countries as Snoopy and Charlie Brown: The Peanuts Movie) is a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox, based on Charles M. Schulz's comic strip \"Peanuts\".",
+    "Ice Age (2002 film): Produced by Blue Sky Studios as its first feature film, it was released by 20th Century Fox on March 15, 2002.",
+    "Linus van Pelt: Linus van Pelt is a character in Charles M. Schulz's comic strip \"Peanuts\".",
+    "Charles M. Schulz: Charles Monroe Schulz (November 26, 1922 \u2013 February 12, 2000), nicknamed Sparky, was an American cartoonist best known for the comic strip \"Peanuts\" (which featured the characters Charlie Brown and Snoopy, among others).",
+    "A Charlie Brown Christmas: A Charlie Brown Christmas is a 1965 animated television special based on the comic strip \"Peanuts\", by Charles M. Schulz.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Sparky",
+   "answer_usage": {
+    "in": 715,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5711357910186052
+   },
+   "retrieval_latency_seconds": 0.217709582997486,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 593,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7429978749714792
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Ferdinand (film): Ferdinand is an upcoming 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and 20th Century Fox Animation.",
+    "Robots (2005 film): Robots is a 2005 American computer-animated adventure comedy film produced by Blue Sky Studios for 20th Century Fox.",
+    "Ice Age: The Meltdown: Ice Age: The Meltdown is a 2006 American computer-animated comedy adventure film produced by Blue Sky Studios and released by 20th Century Fox.",
+    "Zambezia (film): It is the first film produced by Blue Sky Studios and distributed by 20th Century Fox Home Entertainment.",
+    "The Peanuts Movie: The Peanuts Movie (known in some countries as Snoopy and Charlie Brown: The Peanuts Movie) is a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox, based on Charles M. Schulz's comic strip \"Peanuts\".",
+    "Ice Age (2002 film): Produced by Blue Sky Studios as its first feature film, it was released by 20th Century Fox on March 15, 2002.",
+    "Linus van Pelt: Linus van Pelt is a character in Charles M. Schulz's comic strip \"Peanuts\".",
+    "Charles M. Schulz: Charles Monroe Schulz (November 26, 1922 \u2013 February 12, 2000), nicknamed Sparky, was an American cartoonist best known for the comic strip \"Peanuts\" (which featured the characters Charlie Brown and Snoopy, among others).",
+    "A Charlie Brown Christmas: A Charlie Brown Christmas is a 1965 animated television special based on the comic strip \"Peanuts\", by Charles M. Schulz.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Sparky",
+   "answer_usage": {
+    "in": 715,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6009205830050632
+   },
+   "retrieval_latency_seconds": 0.0035089999437332153,
+   "query": "Charles M. Schulz nickname",
+   "query_usage": {
+    "in": 700,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5199427910847589
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Ferdinand (film): Ferdinand is an upcoming 2017 American 3D computer-animated comedy film produced by Blue Sky Studios and 20th Century Fox Animation.",
+    "Robots (2005 film): Robots is a 2005 American computer-animated adventure comedy film produced by Blue Sky Studios for 20th Century Fox.",
+    "Ice Age: The Meltdown: Ice Age: The Meltdown is a 2006 American computer-animated comedy adventure film produced by Blue Sky Studios and released by 20th Century Fox.",
+    "Zambezia (film): It is the first film produced by Blue Sky Studios and distributed by 20th Century Fox Home Entertainment.",
+    "The Peanuts Movie: The Peanuts Movie (known in some countries as Snoopy and Charlie Brown: The Peanuts Movie) is a 2015 American 3D computer-animated comedy film produced by Blue Sky Studios and distributed by 20th Century Fox, based on Charles M. Schulz's comic strip \"Peanuts\".",
+    "Ice Age (2002 film): Produced by Blue Sky Studios as its first feature film, it was released by 20th Century Fox on March 15, 2002.",
+    "Linus van Pelt: Linus van Pelt is a character in Charles M. Schulz's comic strip \"Peanuts\".",
+    "Charles M. Schulz: Charles Monroe Schulz (November 26, 1922 \u2013 February 12, 2000), nicknamed Sparky, was an American cartoonist best known for the comic strip \"Peanuts\" (which featured the characters Charlie Brown and Snoopy, among others).",
+    "A Charlie Brown Christmas: A Charlie Brown Christmas is a 1965 animated television special based on the comic strip \"Peanuts\", by Charles M. Schulz.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Baidu Tieba: Baidu Tieba () is the largest Chinese communication platform provided by the Chinese search engine company, Baidu.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Sparky",
+   "answer_usage": {
+    "in": 715,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5380547499516979
+   },
+   "retrieval_latency_seconds": 0.0052584579680114985,
+   "query": "Charles M. Schulz nickname",
+   "query_usage": {
+    "in": 700,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5310167500283569
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   28.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5862068965517241,
+   3.0,
+   1.0,
+   28.0,
+   0.5714285714285714,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   4.0,
+   0.6206896551724138,
+   1.0,
+   1.0,
+   29.0,
+   0.6333333333333333,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.8275862068965517,
+   2.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   4.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.8620689655172413,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   12.0,
+   0.8620689655172413,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   6.0,
+   15.0,
+   0.896551724137931,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   7.0,
+   15.0,
+   0.896551724137931,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   15.0,
+   0.896551724137931,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   4.0
+  ]
+ ]
+}

@@ -1,0 +1,370 @@
+{
+ "id": "5a73bcf055429978a71e909c",
+ "question": "Which novelist wrote under the pen name Walter Ericson: Laura Esquivel or Howard Fast?",
+ "gold_answers": [
+  "Howard Melvin Fast"
+ ],
+ "support_titles": [
+  "Laura Esquivel",
+  "Howard Fast"
+ ],
+ "support_sentences": [
+  "Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party.",
+  "Howard Melvin Fast (November 11, 1914 \u2013 March 12, 2003) was an American novelist and television writer.",
+  "Fast also wrote under the pen names E. V. Cunningham and Walter Ericson."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 82,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.581216707942076
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Howard Fast: Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "Walter Marks (composer): Walter Marks is a songwriter, playwright, screenwriter, and novelist.",
+    "Walter Karig: Besides his works on naval history, Karig was a novelist, publishing under his own name, and a journalist."
+   ],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 157,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5624447499867529
+   },
+   "retrieval_latency_seconds": 0.0038342500338330865,
+   "query": "Walter Ericson pen name novelist",
+   "query_usage": {
+    "in": 67,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6016227920772508
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Howard Fast: Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "Walter Marks (composer): Walter Marks is a songwriter, playwright, screenwriter, and novelist.",
+    "Walter Karig: Besides his works on naval history, Karig was a novelist, publishing under his own name, and a journalist.",
+    "Laura Natalia Esquivel: Laura Natalia Esquivel (born May 18, 1994 in Buenos Aires, Argentina), known professionally as Laura Esquivel, is an Argentine actress and singer, who gained international popularity for her debut acting role as Patricia \"Patito\" Castro in the popular Argentine children's telenovela, Patito Feo.",
+    "Laura Esquivel: Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party.",
+    "Swift as Desire: Swift as Desire (in Spanish \"Tan veloz como el deseo\") is a 2001 novel by the Mexican novelist Laura Esquivel."
+   ],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 331,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.4782806250732392
+   },
+   "retrieval_latency_seconds": 0.0016510420246049762,
+   "query": "Laura Esquivel pen names",
+   "query_usage": {
+    "in": 142,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5883797080023214
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Howard Fast: Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "Walter Marks (composer): Walter Marks is a songwriter, playwright, screenwriter, and novelist.",
+    "Walter Karig: Besides his works on naval history, Karig was a novelist, publishing under his own name, and a journalist.",
+    "Laura Natalia Esquivel: Laura Natalia Esquivel (born May 18, 1994 in Buenos Aires, Argentina), known professionally as Laura Esquivel, is an Argentine actress and singer, who gained international popularity for her debut acting role as Patricia \"Patito\" Castro in the popular Argentine children's telenovela, Patito Feo.",
+    "Laura Esquivel: Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party.",
+    "Swift as Desire: Swift as Desire (in Spanish \"Tan veloz como el deseo\") is a 2001 novel by the Mexican novelist Laura Esquivel.",
+    "Mirage (1965 film): Mirage is a 1965 thriller directed by Edward Dmytryk from a screenplay by Peter Stone, based on the novel \"Fallen Angel\", written by Howard Fast under the pseudonym Walter Ericson; the novel is not credited by title onscreen.",
+    "Emily Bront\u00eb: She wrote under the pen name Ellis Bell."
+   ],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 416,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5731595830293372
+   },
+   "retrieval_latency_seconds": 0.4843691249843687,
+   "query": "Based on the information provided, I already have the answer: **Howard Fast** wrote under the pen name Walter Ericson (as stated in the known",
+   "query_usage": {
+    "in": 316,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7556743749883026
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Howard Fast: Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "Walter Marks (composer): Walter Marks is a songwriter, playwright, screenwriter, and novelist.",
+    "Walter Karig: Besides his works on naval history, Karig was a novelist, publishing under his own name, and a journalist.",
+    "Laura Natalia Esquivel: Laura Natalia Esquivel (born May 18, 1994 in Buenos Aires, Argentina), known professionally as Laura Esquivel, is an Argentine actress and singer, who gained international popularity for her debut acting role as Patricia \"Patito\" Castro in the popular Argentine children's telenovela, Patito Feo.",
+    "Laura Esquivel: Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party.",
+    "Swift as Desire: Swift as Desire (in Spanish \"Tan veloz como el deseo\") is a 2001 novel by the Mexican novelist Laura Esquivel.",
+    "Mirage (1965 film): Mirage is a 1965 thriller directed by Edward Dmytryk from a screenplay by Peter Stone, based on the novel \"Fallen Angel\", written by Howard Fast under the pseudonym Walter Ericson; the novel is not credited by title onscreen.",
+    "Emily Bront\u00eb: She wrote under the pen name Ellis Bell."
+   ],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 416,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5456818339880556
+   },
+   "retrieval_latency_seconds": 0.7189882079837844,
+   "query": "Based on the information provided, I already have a clear answer. The search results show that Howard Fast wrote under the pen name Walter Ericson (as",
+   "query_usage": {
+    "in": 401,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7989309999393299
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Howard Fast: Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "Walter Marks (composer): Walter Marks is a songwriter, playwright, screenwriter, and novelist.",
+    "Walter Karig: Besides his works on naval history, Karig was a novelist, publishing under his own name, and a journalist.",
+    "Laura Natalia Esquivel: Laura Natalia Esquivel (born May 18, 1994 in Buenos Aires, Argentina), known professionally as Laura Esquivel, is an Argentine actress and singer, who gained international popularity for her debut acting role as Patricia \"Patito\" Castro in the popular Argentine children's telenovela, Patito Feo.",
+    "Laura Esquivel: Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party.",
+    "Swift as Desire: Swift as Desire (in Spanish \"Tan veloz como el deseo\") is a 2001 novel by the Mexican novelist Laura Esquivel.",
+    "Mirage (1965 film): Mirage is a 1965 thriller directed by Edward Dmytryk from a screenplay by Peter Stone, based on the novel \"Fallen Angel\", written by Howard Fast under the pseudonym Walter Ericson; the novel is not credited by title onscreen.",
+    "Emily Bront\u00eb: She wrote under the pen name Ellis Bell."
+   ],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 416,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5694962920388207
+   },
+   "retrieval_latency_seconds": 0.6604381250217557,
+   "query": "Based on the information provided, I already have a clear answer. The search results show that Howard Fast wrote under the pen name Walter Ericson (as",
+   "query_usage": {
+    "in": 401,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8487791670486331
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Howard Fast: Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "Walter Marks (composer): Walter Marks is a songwriter, playwright, screenwriter, and novelist.",
+    "Walter Karig: Besides his works on naval history, Karig was a novelist, publishing under his own name, and a journalist.",
+    "Laura Natalia Esquivel: Laura Natalia Esquivel (born May 18, 1994 in Buenos Aires, Argentina), known professionally as Laura Esquivel, is an Argentine actress and singer, who gained international popularity for her debut acting role as Patricia \"Patito\" Castro in the popular Argentine children's telenovela, Patito Feo.",
+    "Laura Esquivel: Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party.",
+    "Swift as Desire: Swift as Desire (in Spanish \"Tan veloz como el deseo\") is a 2001 novel by the Mexican novelist Laura Esquivel.",
+    "Mirage (1965 film): Mirage is a 1965 thriller directed by Edward Dmytryk from a screenplay by Peter Stone, based on the novel \"Fallen Angel\", written by Howard Fast under the pseudonym Walter Ericson; the novel is not credited by title onscreen.",
+    "Emily Bront\u00eb: She wrote under the pen name Ellis Bell."
+   ],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 416,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5671560000628233
+   },
+   "retrieval_latency_seconds": 0.4161302089923993,
+   "query": "Based on the information provided, I already have a clear answer. The search results show that Howard Fast wrote under the pen name Walter Ericson (as",
+   "query_usage": {
+    "in": 401,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8155752499587834
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Howard Fast: Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "Walter Marks (composer): Walter Marks is a songwriter, playwright, screenwriter, and novelist.",
+    "Walter Karig: Besides his works on naval history, Karig was a novelist, publishing under his own name, and a journalist.",
+    "Laura Natalia Esquivel: Laura Natalia Esquivel (born May 18, 1994 in Buenos Aires, Argentina), known professionally as Laura Esquivel, is an Argentine actress and singer, who gained international popularity for her debut acting role as Patricia \"Patito\" Castro in the popular Argentine children's telenovela, Patito Feo.",
+    "Laura Esquivel: Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party.",
+    "Swift as Desire: Swift as Desire (in Spanish \"Tan veloz como el deseo\") is a 2001 novel by the Mexican novelist Laura Esquivel.",
+    "Mirage (1965 film): Mirage is a 1965 thriller directed by Edward Dmytryk from a screenplay by Peter Stone, based on the novel \"Fallen Angel\", written by Howard Fast under the pseudonym Walter Ericson; the novel is not credited by title onscreen.",
+    "Emily Bront\u00eb: She wrote under the pen name Ellis Bell."
+   ],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 416,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.519607458030805
+   },
+   "retrieval_latency_seconds": 0.5271649999776855,
+   "query": "Based on the information provided, I already have a clear answer. The search results show that Howard Fast wrote under the pen name Walter Ericson (as",
+   "query_usage": {
+    "in": 401,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8079788750037551
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Howard Fast: Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "Walter Marks (composer): Walter Marks is a songwriter, playwright, screenwriter, and novelist.",
+    "Walter Karig: Besides his works on naval history, Karig was a novelist, publishing under his own name, and a journalist.",
+    "Laura Natalia Esquivel: Laura Natalia Esquivel (born May 18, 1994 in Buenos Aires, Argentina), known professionally as Laura Esquivel, is an Argentine actress and singer, who gained international popularity for her debut acting role as Patricia \"Patito\" Castro in the popular Argentine children's telenovela, Patito Feo.",
+    "Laura Esquivel: Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party.",
+    "Swift as Desire: Swift as Desire (in Spanish \"Tan veloz como el deseo\") is a 2001 novel by the Mexican novelist Laura Esquivel.",
+    "Mirage (1965 film): Mirage is a 1965 thriller directed by Edward Dmytryk from a screenplay by Peter Stone, based on the novel \"Fallen Angel\", written by Howard Fast under the pseudonym Walter Ericson; the novel is not credited by title onscreen.",
+    "Emily Bront\u00eb: She wrote under the pen name Ellis Bell."
+   ],
+   "answer": "Howard Fast",
+   "answer_usage": {
+    "in": 416,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5586616660002619
+   },
+   "retrieval_latency_seconds": 0.6993256669957191,
+   "query": "Based on the information provided, I already have a clear answer. The search results show that Howard Fast wrote under the pen name Walter Ericson (as",
+   "query_usage": {
+    "in": 401,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8231333749135956
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.7142857142857143,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.8571428571428571,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.8571428571428571,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.8571428571428571,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.8571428571428571,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.8571428571428571,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.8571428571428571,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.8571428571428571,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

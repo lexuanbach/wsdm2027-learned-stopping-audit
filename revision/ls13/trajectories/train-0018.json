@@ -1,0 +1,366 @@
+{
+ "id": "5a8ceb7a554299441c6b9f7b",
+ "question": "John Seasock was a professional monster truck driver that last drove a truck sponsored by a company headquartered in what city?",
+ "gold_answers": [
+  "Roanoke"
+ ],
+ "support_titles": [
+  "John Seasock",
+  "Advance Auto Parts"
+ ],
+ "support_sentences": [
+  "He last drove Grinder sponsored by Advance Auto Parts, and is a 2 time Monster Jam World Finals Racing Champion.",
+  "Advance Auto Parts is headquartered in Roanoke, Virginia and is now the largest retailer of automotive replacement parts and accessories in the United States by store count after acquiring General Parts Incorporated in October 2013."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Unknown",
+   "answer_usage": {
+    "in": 87,
+    "out": 29,
+    "calls": 1,
+    "latency_seconds": 0.8120694999815896
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "John Seasock: John Seasock (born July 3, 1965) was a professional monster truck driver.",
+    "Adam Anderson (monster truck driver): Adam is the son of Dennis Anderson, a monster truck driver and 4-time Monster Truck World Champion.",
+    "Adam Anderson (monster truck driver): Adam Anderson (born December 5, 1985, in Norfolk, VA) is an American professional monster truck driver."
+   ],
+   "answer": "Unknown",
+   "answer_usage": {
+    "in": 176,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7519010420655832
+   },
+   "retrieval_latency_seconds": 0.008008500095456839,
+   "query": "John Seasock monster truck driver",
+   "query_usage": {
+    "in": 72,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5134770839940757
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "John Seasock: John Seasock (born July 3, 1965) was a professional monster truck driver.",
+    "Adam Anderson (monster truck driver): Adam is the son of Dennis Anderson, a monster truck driver and 4-time Monster Truck World Champion.",
+    "Adam Anderson (monster truck driver): Adam Anderson (born December 5, 1985, in Norfolk, VA) is an American professional monster truck driver.",
+    "Sudden Impact (truck): The truck was originally driven by John Seasock and has been to four World Finals under his command.",
+    "Batman (truck): It is driven by John Seasock and debuted with Jason Childress driving in Charlotte, North Carolina in 2006."
+   ],
+   "answer": "I don't have enough information in the provided evidence to determine which company last sponsored John Seasock's truck or where that company was headquartered. The evidence mentions he drove Sudden Impact and",
+   "answer_usage": {
+    "in": 238,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8894419169519097
+   },
+   "retrieval_latency_seconds": 0.038775374996475875,
+   "query": "John Seasock monster truck sponsor company",
+   "query_usage": {
+    "in": 161,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.594400041969493
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "John Seasock: John Seasock (born July 3, 1965) was a professional monster truck driver.",
+    "Adam Anderson (monster truck driver): Adam is the son of Dennis Anderson, a monster truck driver and 4-time Monster Truck World Champion.",
+    "Adam Anderson (monster truck driver): Adam Anderson (born December 5, 1985, in Norfolk, VA) is an American professional monster truck driver.",
+    "Sudden Impact (truck): The truck was originally driven by John Seasock and has been to four World Finals under his command.",
+    "Batman (truck): It is driven by John Seasock and debuted with Jason Childress driving in Charlotte, North Carolina in 2006.",
+    "Batman (truck): Batman is a monster truck competing on the USHRA circuit, where it is the 2008 Monster Jam World Racing Champion."
+   ],
+   "answer": "I don't have enough information in the provided evidence to determine which company last sponsored John Seasock's truck or where that company was headquartered. The evidence mentions trucks he drove (Sudden",
+   "answer_usage": {
+    "in": 272,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8620780420023948
+   },
+   "retrieval_latency_seconds": 0.00658329192083329,
+   "query": "John Seasock Batman monster truck sponsor company headquarters",
+   "query_usage": {
+    "in": 223,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.7045142089482397
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "John Seasock: John Seasock (born July 3, 1965) was a professional monster truck driver.",
+    "Adam Anderson (monster truck driver): Adam is the son of Dennis Anderson, a monster truck driver and 4-time Monster Truck World Champion.",
+    "Adam Anderson (monster truck driver): Adam Anderson (born December 5, 1985, in Norfolk, VA) is an American professional monster truck driver.",
+    "Sudden Impact (truck): The truck was originally driven by John Seasock and has been to four World Finals under his command.",
+    "Batman (truck): It is driven by John Seasock and debuted with Jason Childress driving in Charlotte, North Carolina in 2006.",
+    "Batman (truck): Batman is a monster truck competing on the USHRA circuit, where it is the 2008 Monster Jam World Racing Champion.",
+    "Batman (truck): It has also competed in three Monster Jam World Finals, and won racing in both the 2007 and 2008 events.",
+    "Monster Truck Madness 2: It's a sequel to \"Monster Truck Madness\"."
+   ],
+   "answer": "Cannot be determined from evidence",
+   "answer_usage": {
+    "in": 331,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8883435840252787
+   },
+   "retrieval_latency_seconds": 0.017688291030935943,
+   "query": "Batman monster truck sponsor company headquarters location",
+   "query_usage": {
+    "in": 257,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6385386670008302
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "John Seasock: John Seasock (born July 3, 1965) was a professional monster truck driver.",
+    "Adam Anderson (monster truck driver): Adam is the son of Dennis Anderson, a monster truck driver and 4-time Monster Truck World Champion.",
+    "Adam Anderson (monster truck driver): Adam Anderson (born December 5, 1985, in Norfolk, VA) is an American professional monster truck driver.",
+    "Sudden Impact (truck): The truck was originally driven by John Seasock and has been to four World Finals under his command.",
+    "Batman (truck): It is driven by John Seasock and debuted with Jason Childress driving in Charlotte, North Carolina in 2006.",
+    "Batman (truck): Batman is a monster truck competing on the USHRA circuit, where it is the 2008 Monster Jam World Racing Champion.",
+    "Batman (truck): It has also competed in three Monster Jam World Finals, and won racing in both the 2007 and 2008 events.",
+    "Monster Truck Madness 2: It's a sequel to \"Monster Truck Madness\"."
+   ],
+   "answer": "Cannot be determined from evidence",
+   "answer_usage": {
+    "in": 331,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9036752500105649
+   },
+   "retrieval_latency_seconds": 0.04811154096387327,
+   "query": "Batman monster truck sponsor company headquarters city",
+   "query_usage": {
+    "in": 316,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6176496249390766
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "John Seasock: John Seasock (born July 3, 1965) was a professional monster truck driver.",
+    "Adam Anderson (monster truck driver): Adam is the son of Dennis Anderson, a monster truck driver and 4-time Monster Truck World Champion.",
+    "Adam Anderson (monster truck driver): Adam Anderson (born December 5, 1985, in Norfolk, VA) is an American professional monster truck driver.",
+    "Sudden Impact (truck): The truck was originally driven by John Seasock and has been to four World Finals under his command.",
+    "Batman (truck): It is driven by John Seasock and debuted with Jason Childress driving in Charlotte, North Carolina in 2006.",
+    "Batman (truck): Batman is a monster truck competing on the USHRA circuit, where it is the 2008 Monster Jam World Racing Champion.",
+    "Batman (truck): It has also competed in three Monster Jam World Finals, and won racing in both the 2007 and 2008 events.",
+    "Monster Truck Madness 2: It's a sequel to \"Monster Truck Madness\"."
+   ],
+   "answer": "Cannot be determined from evidence",
+   "answer_usage": {
+    "in": 331,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8704871659865603
+   },
+   "retrieval_latency_seconds": 0.042202375014312565,
+   "query": "Batman monster truck sponsor company headquarters city",
+   "query_usage": {
+    "in": 316,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6146903749322519
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "John Seasock: John Seasock (born July 3, 1965) was a professional monster truck driver.",
+    "Adam Anderson (monster truck driver): Adam is the son of Dennis Anderson, a monster truck driver and 4-time Monster Truck World Champion.",
+    "Adam Anderson (monster truck driver): Adam Anderson (born December 5, 1985, in Norfolk, VA) is an American professional monster truck driver.",
+    "Sudden Impact (truck): The truck was originally driven by John Seasock and has been to four World Finals under his command.",
+    "Batman (truck): It is driven by John Seasock and debuted with Jason Childress driving in Charlotte, North Carolina in 2006.",
+    "Batman (truck): Batman is a monster truck competing on the USHRA circuit, where it is the 2008 Monster Jam World Racing Champion.",
+    "Batman (truck): It has also competed in three Monster Jam World Finals, and won racing in both the 2007 and 2008 events.",
+    "Monster Truck Madness 2: It's a sequel to \"Monster Truck Madness\"."
+   ],
+   "answer": "Cannot be determined from evidence",
+   "answer_usage": {
+    "in": 331,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9567655409919098
+   },
+   "retrieval_latency_seconds": 0.03574379195924848,
+   "query": "Batman monster truck sponsor company headquarters city",
+   "query_usage": {
+    "in": 316,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6545373330591246
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "John Seasock: John Seasock (born July 3, 1965) was a professional monster truck driver.",
+    "Adam Anderson (monster truck driver): Adam is the son of Dennis Anderson, a monster truck driver and 4-time Monster Truck World Champion.",
+    "Adam Anderson (monster truck driver): Adam Anderson (born December 5, 1985, in Norfolk, VA) is an American professional monster truck driver.",
+    "Sudden Impact (truck): The truck was originally driven by John Seasock and has been to four World Finals under his command.",
+    "Batman (truck): It is driven by John Seasock and debuted with Jason Childress driving in Charlotte, North Carolina in 2006.",
+    "Batman (truck): Batman is a monster truck competing on the USHRA circuit, where it is the 2008 Monster Jam World Racing Champion.",
+    "Batman (truck): It has also competed in three Monster Jam World Finals, and won racing in both the 2007 and 2008 events.",
+    "Monster Truck Madness 2: It's a sequel to \"Monster Truck Madness\"."
+   ],
+   "answer": "Cannot be determined from evidence",
+   "answer_usage": {
+    "in": 331,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.876524000079371
+   },
+   "retrieval_latency_seconds": 0.013873749994672835,
+   "query": "Batman monster truck sponsor company headquarters city",
+   "query_usage": {
+    "in": 316,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5950508750975132
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.5555555555555556,
+   2.0,
+   1.0,
+   32.0,
+   0.3225806451612903,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.5555555555555556,
+   1.0,
+   1.0,
+   31.0,
+   0.3,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.5555555555555556,
+   2.0,
+   1.0,
+   5.0,
+   0.0,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.5555555555555556,
+   0.0,
+   0.0,
+   5.0,
+   0.0,
+   0.0,
+   4.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.5555555555555556,
+   0.0,
+   0.0,
+   5.0,
+   0.0,
+   1.0,
+   4.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.5555555555555556,
+   0.0,
+   0.0,
+   5.0,
+   0.0,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.5555555555555556,
+   0.0,
+   0.0,
+   5.0,
+   0.0,
+   1.0,
+   4.0
+  ]
+ ]
+}

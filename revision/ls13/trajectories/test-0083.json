@@ -1,0 +1,366 @@
+{
+ "id": "5a8d5fc6554299585d9e37c6",
+ "question": "What's the name of the fantasy film starring Sarah Bolger, featuring a New England family who discover magical creatures around their estate?",
+ "gold_answers": [
+  "The Spiderwick Chronicles"
+ ],
+ "support_titles": [
+  "Sarah Bolger",
+  "The Spiderwick Chronicles (film)"
+ ],
+ "support_sentences": [
+  "She is best known for her roles in the films \"In America\", \"Stormbreaker\", and \"The Spiderwick Chronicles\", as well as her award-winning role as Lady Mary Tudor in the TV series \"The Tudors\", and for guest starring as Princess Aurora in \"Once Upon a Time\".",
+  "It was directed by Mark Waters and stars Freddie Highmore, Sarah Bolger, Mary-Louise Parker, Martin Short, Nick Nolte, and Seth Rogen.",
+  "Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 88,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5992231660056859
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "The Spiderwick Chronicles (film): Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures.",
+    "As Cool as I Am (film): Claire Danes, Sarah Bolger and James Marsden star as the Diamond family.",
+    "Sarah Bolger: Sarah Lee Bolger (born 28 February 1991) is an Irish actress."
+   ],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 198,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5810520000522956
+   },
+   "retrieval_latency_seconds": 0.16973174992017448,
+   "query": "Sarah Bolger fantasy film New England family magical creatures estate",
+   "query_usage": {
+    "in": 73,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6157687499653548
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "The Spiderwick Chronicles (film): Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures.",
+    "As Cool as I Am (film): Claire Danes, Sarah Bolger and James Marsden star as the Diamond family.",
+    "Sarah Bolger: Sarah Lee Bolger (born 28 February 1991) is an Irish actress.",
+    "The Spiderwick Chronicles (film): It was directed by Mark Waters and stars Freddie Highmore, Sarah Bolger, Mary-Louise Parker, Martin Short, Nick Nolte, and Seth Rogen.",
+    "The Spiderwick Chronicles: The Spiderwick Chronicles is a series of children's books by Tony DiTerlizzi and Holly Black."
+   ],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 282,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.566611250047572
+   },
+   "retrieval_latency_seconds": 0.001741332933306694,
+   "query": "Sarah Bolger Spiderwick Chronicles cast",
+   "query_usage": {
+    "in": 183,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6239534158958122
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "The Spiderwick Chronicles (film): Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures.",
+    "As Cool as I Am (film): Claire Danes, Sarah Bolger and James Marsden star as the Diamond family.",
+    "Sarah Bolger: Sarah Lee Bolger (born 28 February 1991) is an Irish actress.",
+    "The Spiderwick Chronicles (film): It was directed by Mark Waters and stars Freddie Highmore, Sarah Bolger, Mary-Louise Parker, Martin Short, Nick Nolte, and Seth Rogen.",
+    "The Spiderwick Chronicles: The Spiderwick Chronicles is a series of children's books by Tony DiTerlizzi and Holly Black.",
+    "The Spiderwick Chronicles (film): The Spiderwick Chronicles is a 2008 American fantasy adventure film based on the bestselling book series of the same name by Holly Black and Tony DiTerlizzi."
+   ],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 331,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6132919159717858
+   },
+   "retrieval_latency_seconds": 0.17632908304221928,
+   "query": "The search results already confirm that **The Spiderwick Chronicles** is the answer - it matches all the criteria: it's a fantasy film starring Sarah",
+   "query_usage": {
+    "in": 267,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.9081079589668661
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "The Spiderwick Chronicles (film): Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures.",
+    "As Cool as I Am (film): Claire Danes, Sarah Bolger and James Marsden star as the Diamond family.",
+    "Sarah Bolger: Sarah Lee Bolger (born 28 February 1991) is an Irish actress.",
+    "The Spiderwick Chronicles (film): It was directed by Mark Waters and stars Freddie Highmore, Sarah Bolger, Mary-Louise Parker, Martin Short, Nick Nolte, and Seth Rogen.",
+    "The Spiderwick Chronicles: The Spiderwick Chronicles is a series of children's books by Tony DiTerlizzi and Holly Black.",
+    "The Spiderwick Chronicles (film): The Spiderwick Chronicles is a 2008 American fantasy adventure film based on the bestselling book series of the same name by Holly Black and Tony DiTerlizzi.",
+    "The Spiderwick Chronicles: A feature film adaptation, also titled \"The Spiderwick Chronicles\", was produced by Nickelodeon Movies and premiered on February 14, 2008; an accompanying video game was released in early February 2008."
+   ],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 388,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5953000000445172
+   },
+   "retrieval_latency_seconds": 0.5471257920144126,
+   "query": "The search query has already been answered based on the known facts. The film is **The Spiderwick Chronicles** (2008), which stars Sarah",
+   "query_usage": {
+    "in": 316,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7894730831030756
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "The Spiderwick Chronicles (film): Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures.",
+    "As Cool as I Am (film): Claire Danes, Sarah Bolger and James Marsden star as the Diamond family.",
+    "Sarah Bolger: Sarah Lee Bolger (born 28 February 1991) is an Irish actress.",
+    "The Spiderwick Chronicles (film): It was directed by Mark Waters and stars Freddie Highmore, Sarah Bolger, Mary-Louise Parker, Martin Short, Nick Nolte, and Seth Rogen.",
+    "The Spiderwick Chronicles: The Spiderwick Chronicles is a series of children's books by Tony DiTerlizzi and Holly Black.",
+    "The Spiderwick Chronicles (film): The Spiderwick Chronicles is a 2008 American fantasy adventure film based on the bestselling book series of the same name by Holly Black and Tony DiTerlizzi.",
+    "The Spiderwick Chronicles: A feature film adaptation, also titled \"The Spiderwick Chronicles\", was produced by Nickelodeon Movies and premiered on February 14, 2008; an accompanying video game was released in early February 2008.",
+    "Sarah Bolger: She is best known for her roles in the films \"In America\", \"Stormbreaker\", and \"The Spiderwick Chronicles\", as well as her award-winning role as Lady Mary Tudor in the TV series \"The Tudors\", and for guest starring as Princess Aurora in \"Once Upon a Time\"."
+   ],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 461,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5846794579410926
+   },
+   "retrieval_latency_seconds": 0.7544838750036433,
+   "query": "The search results already contain the answer. Based on the known information, **The Spiderwick Chronicles** is the fantasy film starring Sarah Bolger,",
+   "query_usage": {
+    "in": 373,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7690115839941427
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "The Spiderwick Chronicles (film): Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures.",
+    "As Cool as I Am (film): Claire Danes, Sarah Bolger and James Marsden star as the Diamond family.",
+    "Sarah Bolger: Sarah Lee Bolger (born 28 February 1991) is an Irish actress.",
+    "The Spiderwick Chronicles (film): It was directed by Mark Waters and stars Freddie Highmore, Sarah Bolger, Mary-Louise Parker, Martin Short, Nick Nolte, and Seth Rogen.",
+    "The Spiderwick Chronicles: The Spiderwick Chronicles is a series of children's books by Tony DiTerlizzi and Holly Black.",
+    "The Spiderwick Chronicles (film): The Spiderwick Chronicles is a 2008 American fantasy adventure film based on the bestselling book series of the same name by Holly Black and Tony DiTerlizzi.",
+    "The Spiderwick Chronicles: A feature film adaptation, also titled \"The Spiderwick Chronicles\", was produced by Nickelodeon Movies and premiered on February 14, 2008; an accompanying video game was released in early February 2008.",
+    "Sarah Bolger: She is best known for her roles in the films \"In America\", \"Stormbreaker\", and \"The Spiderwick Chronicles\", as well as her award-winning role as Lady Mary Tudor in the TV series \"The Tudors\", and for guest starring as Princess Aurora in \"Once Upon a Time\"."
+   ],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 461,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5690971249714494
+   },
+   "retrieval_latency_seconds": 0.23457462491933256,
+   "query": "The search query has already been answered based on the known information provided. The film is **The Spiderwick Chronicles** (2008), which stars Sarah",
+   "query_usage": {
+    "in": 446,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8375274590216577
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "The Spiderwick Chronicles (film): Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures.",
+    "As Cool as I Am (film): Claire Danes, Sarah Bolger and James Marsden star as the Diamond family.",
+    "Sarah Bolger: Sarah Lee Bolger (born 28 February 1991) is an Irish actress.",
+    "The Spiderwick Chronicles (film): It was directed by Mark Waters and stars Freddie Highmore, Sarah Bolger, Mary-Louise Parker, Martin Short, Nick Nolte, and Seth Rogen.",
+    "The Spiderwick Chronicles: The Spiderwick Chronicles is a series of children's books by Tony DiTerlizzi and Holly Black.",
+    "The Spiderwick Chronicles (film): The Spiderwick Chronicles is a 2008 American fantasy adventure film based on the bestselling book series of the same name by Holly Black and Tony DiTerlizzi.",
+    "The Spiderwick Chronicles: A feature film adaptation, also titled \"The Spiderwick Chronicles\", was produced by Nickelodeon Movies and premiered on February 14, 2008; an accompanying video game was released in early February 2008.",
+    "Sarah Bolger: She is best known for her roles in the films \"In America\", \"Stormbreaker\", and \"The Spiderwick Chronicles\", as well as her award-winning role as Lady Mary Tudor in the TV series \"The Tudors\", and for guest starring as Princess Aurora in \"Once Upon a Time\"."
+   ],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 461,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.593252458027564
+   },
+   "retrieval_latency_seconds": 0.1544458749704063,
+   "query": "The search query has already been answered based on the known information provided. The film is **The Spiderwick Chronicles** (2008), which stars Sarah",
+   "query_usage": {
+    "in": 446,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8542894169222564
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "The Spiderwick Chronicles (film): Set in the Spiderwick Estate in New England, it follows the adventures of Jared Grace and his family as they discover a field guide to faeries, battle goblins, mole trolls and other magical creatures.",
+    "As Cool as I Am (film): Claire Danes, Sarah Bolger and James Marsden star as the Diamond family.",
+    "Sarah Bolger: Sarah Lee Bolger (born 28 February 1991) is an Irish actress.",
+    "The Spiderwick Chronicles (film): It was directed by Mark Waters and stars Freddie Highmore, Sarah Bolger, Mary-Louise Parker, Martin Short, Nick Nolte, and Seth Rogen.",
+    "The Spiderwick Chronicles: The Spiderwick Chronicles is a series of children's books by Tony DiTerlizzi and Holly Black.",
+    "The Spiderwick Chronicles (film): The Spiderwick Chronicles is a 2008 American fantasy adventure film based on the bestselling book series of the same name by Holly Black and Tony DiTerlizzi.",
+    "The Spiderwick Chronicles: A feature film adaptation, also titled \"The Spiderwick Chronicles\", was produced by Nickelodeon Movies and premiered on February 14, 2008; an accompanying video game was released in early February 2008.",
+    "Sarah Bolger: She is best known for her roles in the films \"In America\", \"Stormbreaker\", and \"The Spiderwick Chronicles\", as well as her award-winning role as Lady Mary Tudor in the TV series \"The Tudors\", and for guest starring as Princess Aurora in \"Once Upon a Time\"."
+   ],
+   "answer": "The Spiderwick Chronicles",
+   "answer_usage": {
+    "in": 461,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6610451249871403
+   },
+   "retrieval_latency_seconds": 0.1572721250122413,
+   "query": "The search query has already been answered based on the known information provided. The film is **The Spiderwick Chronicles** (2008), which stars Sarah",
+   "query_usage": {
+    "in": 446,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8506869580596685
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5909090909090909,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6363636363636364,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.7272727272727273,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.7272727272727273,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.7727272727272727,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.7727272727272727,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

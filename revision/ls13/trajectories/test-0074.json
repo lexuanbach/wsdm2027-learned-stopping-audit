@@ -1,0 +1,357 @@
+{
+ "id": "5abe18e055429976d4830a74",
+ "question": "Is the university that owns WCSU-FM historically black or white?",
+ "gold_answers": [
+  "black"
+ ],
+ "support_titles": [
+  "WCSU-FM",
+  "Central State University"
+ ],
+ "support_sentences": [
+  "Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+  "Central State University (CSU) is a historically black university (HBCU) located in Wilberforce, Ohio, United States."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Historically white",
+   "answer_usage": {
+    "in": 76,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5751215839991346
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "WCSU-FM: WCSU-FM (88.9 FM) is a National Public Radio member station.",
+    "WCSU-FM: Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+    "WCSU-FM: Music programming is a contemporary/smooth jazz blend with some urban gospel programming."
+   ],
+   "answer": "Historically black",
+   "answer_usage": {
+    "in": 152,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.606569750001654
+   },
+   "retrieval_latency_seconds": 0.00875812501180917,
+   "query": "WCSU-FM university owner",
+   "query_usage": {
+    "in": 61,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5888290420407429
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "WCSU-FM: WCSU-FM (88.9 FM) is a National Public Radio member station.",
+    "WCSU-FM: Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+    "WCSU-FM: Music programming is a contemporary/smooth jazz blend with some urban gospel programming.",
+    "Central State University: Central State University (CSU) is a historically black university (HBCU) located in Wilberforce, Ohio, United States.",
+    "Savannah State University: It is the oldest public historically black university in the state.",
+    "South Carolina State University: South Carolina State University (often referred to as SCSU or SC State) is a four-year historically black university located in Orangeburg, South Carolina, United States."
+   ],
+   "answer": "Historically black",
+   "answer_usage": {
+    "in": 251,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5964260409818962
+   },
+   "retrieval_latency_seconds": 0.015714291017502546,
+   "query": "Central State University historically black or white",
+   "query_usage": {
+    "in": 137,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5833789160242304
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "WCSU-FM: WCSU-FM (88.9 FM) is a National Public Radio member station.",
+    "WCSU-FM: Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+    "WCSU-FM: Music programming is a contemporary/smooth jazz blend with some urban gospel programming.",
+    "Central State University: Central State University (CSU) is a historically black university (HBCU) located in Wilberforce, Ohio, United States.",
+    "Savannah State University: It is the oldest public historically black university in the state.",
+    "South Carolina State University: South Carolina State University (often referred to as SCSU or SC State) is a four-year historically black university located in Orangeburg, South Carolina, United States."
+   ],
+   "answer": "Historically black",
+   "answer_usage": {
+    "in": 251,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5753834580536932
+   },
+   "retrieval_latency_seconds": 0.16997054207604378,
+   "query": "Based on the known information provided, I can already answer the question: Central State University, which owns WCSU-FM, is a historically black university (",
+   "query_usage": {
+    "in": 236,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7637560409493744
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "WCSU-FM: WCSU-FM (88.9 FM) is a National Public Radio member station.",
+    "WCSU-FM: Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+    "WCSU-FM: Music programming is a contemporary/smooth jazz blend with some urban gospel programming.",
+    "Central State University: Central State University (CSU) is a historically black university (HBCU) located in Wilberforce, Ohio, United States.",
+    "Savannah State University: It is the oldest public historically black university in the state.",
+    "South Carolina State University: South Carolina State University (often referred to as SCSU or SC State) is a four-year historically black university located in Orangeburg, South Carolina, United States."
+   ],
+   "answer": "Historically black",
+   "answer_usage": {
+    "in": 251,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5842547089559957
+   },
+   "retrieval_latency_seconds": 0.25642616697587073,
+   "query": "Based on the known information provided, I can already answer the question: Central State University, which owns WCSU-FM, is a historically black university (",
+   "query_usage": {
+    "in": 236,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7435240000486374
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "WCSU-FM: WCSU-FM (88.9 FM) is a National Public Radio member station.",
+    "WCSU-FM: Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+    "WCSU-FM: Music programming is a contemporary/smooth jazz blend with some urban gospel programming.",
+    "Central State University: Central State University (CSU) is a historically black university (HBCU) located in Wilberforce, Ohio, United States.",
+    "Savannah State University: It is the oldest public historically black university in the state.",
+    "South Carolina State University: South Carolina State University (often referred to as SCSU or SC State) is a four-year historically black university located in Orangeburg, South Carolina, United States."
+   ],
+   "answer": "Historically black",
+   "answer_usage": {
+    "in": 251,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5925842500291765
+   },
+   "retrieval_latency_seconds": 0.17565749993082136,
+   "query": "Based on the known information provided, I can already answer the question: Central State University, which owns WCSU-FM, is a historically black university (",
+   "query_usage": {
+    "in": 236,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7634171670069918
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "WCSU-FM: WCSU-FM (88.9 FM) is a National Public Radio member station.",
+    "WCSU-FM: Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+    "WCSU-FM: Music programming is a contemporary/smooth jazz blend with some urban gospel programming.",
+    "Central State University: Central State University (CSU) is a historically black university (HBCU) located in Wilberforce, Ohio, United States.",
+    "Savannah State University: It is the oldest public historically black university in the state.",
+    "South Carolina State University: South Carolina State University (often referred to as SCSU or SC State) is a four-year historically black university located in Orangeburg, South Carolina, United States."
+   ],
+   "answer": "Historically black",
+   "answer_usage": {
+    "in": 251,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5484885000623763
+   },
+   "retrieval_latency_seconds": 0.14389383303932846,
+   "query": "Based on the known information provided, I can already answer the question: Central State University, which owns WCSU-FM, is a historically black university (",
+   "query_usage": {
+    "in": 236,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8068682500161231
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "WCSU-FM: WCSU-FM (88.9 FM) is a National Public Radio member station.",
+    "WCSU-FM: Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+    "WCSU-FM: Music programming is a contemporary/smooth jazz blend with some urban gospel programming.",
+    "Central State University: Central State University (CSU) is a historically black university (HBCU) located in Wilberforce, Ohio, United States.",
+    "Savannah State University: It is the oldest public historically black university in the state.",
+    "South Carolina State University: South Carolina State University (often referred to as SCSU or SC State) is a four-year historically black university located in Orangeburg, South Carolina, United States."
+   ],
+   "answer": "Historically black",
+   "answer_usage": {
+    "in": 251,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5715150000760332
+   },
+   "retrieval_latency_seconds": 0.25514066696632653,
+   "query": "Based on the known information provided, I can already answer the question: Central State University, which owns WCSU-FM, is a historically black university (",
+   "query_usage": {
+    "in": 236,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7792587499134243
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "WCSU-FM: WCSU-FM (88.9 FM) is a National Public Radio member station.",
+    "WCSU-FM: Licensed in Wilberforce, Ohio, United States, the station is currently owned by Central State University.",
+    "WCSU-FM: Music programming is a contemporary/smooth jazz blend with some urban gospel programming.",
+    "Central State University: Central State University (CSU) is a historically black university (HBCU) located in Wilberforce, Ohio, United States.",
+    "Savannah State University: It is the oldest public historically black university in the state.",
+    "South Carolina State University: South Carolina State University (often referred to as SCSU or SC State) is a four-year historically black university located in Orangeburg, South Carolina, United States."
+   ],
+   "answer": "Historically black",
+   "answer_usage": {
+    "in": 251,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5939648749772459
+   },
+   "retrieval_latency_seconds": 0.7142101250356063,
+   "query": "Based on the known information provided, I can already answer the question: Central State University, which owns WCSU-FM, is a historically black university (",
+   "query_usage": {
+    "in": 236,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7669680829858407
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.45454545454545453,
+   3.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7272727272727273,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

@@ -1,0 +1,366 @@
+{
+ "id": "5a8f7c9a55429918e830d239",
+ "question": "Which NFL team did both Don Looney and DeSean Jackson play for?",
+ "gold_answers": [
+  "Philadelphia Eagles"
+ ],
+ "support_titles": [
+  "Don Looney",
+  "DeSean Jackson"
+ ],
+ "support_sentences": [
+  "He played three seasons for the Philadelphia Eagles (1940) and the Pittsburgh Steelers (1941\u20131942).",
+  "He was drafted by the Philadelphia Eagles in the second round of the 2008 NFL Draft, and played for the Washington Redskins for three seasons after his departure from the Eagles."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Philadelphia Eagles",
+   "answer_usage": {
+    "in": 78,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5193075829884037
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Don Looney: He was the father of NFL running back Joe Don Looney, who later died in a one-person motorcycle accident after his NFL career ended.",
+    "Don Looney: At the time of his death, Looney was the second oldest living former NFL player.",
+    "Don Looney: John Don Looney (September 2, 1916 \u2013 April 5, 2015) was a professional American football end in the National Football League."
+   ],
+   "answer": "I don't have information about which NFL teams Don Looney played for, and I don't have information about DeSean Jackson's teams in the provided evidence. I cannot answer this question based",
+   "answer_usage": {
+    "in": 178,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8753489999799058
+   },
+   "retrieval_latency_seconds": 0.0046830830397084355,
+   "query": "Don Looney NFL teams",
+   "query_usage": {
+    "in": 63,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5586366669740528
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Don Looney: He was the father of NFL running back Joe Don Looney, who later died in a one-person motorcycle accident after his NFL career ended.",
+    "Don Looney: At the time of his death, Looney was the second oldest living former NFL player.",
+    "Don Looney: John Don Looney (September 2, 1916 \u2013 April 5, 2015) was a professional American football end in the National Football League.",
+    "Don Looney: He played three seasons for the Philadelphia Eagles (1940) and the Pittsburgh Steelers (1941\u20131942)."
+   ],
+   "answer": "I need to find which NFL team both Don Looney and DeSean Jackson played for",
+   "answer_usage": {
+    "in": 210,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7663429169915617
+   },
+   "retrieval_latency_seconds": 0.02916849998291582,
+   "query": "Don Looney NFL teams played for",
+   "query_usage": {
+    "in": 163,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6140646249987185
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Don Looney: He was the father of NFL running back Joe Don Looney, who later died in a one-person motorcycle accident after his NFL career ended.",
+    "Don Looney: At the time of his death, Looney was the second oldest living former NFL player.",
+    "Don Looney: John Don Looney (September 2, 1916 \u2013 April 5, 2015) was a professional American football end in the National Football League.",
+    "Don Looney: He played three seasons for the Philadelphia Eagles (1940) and the Pittsburgh Steelers (1941\u20131942).",
+    "DeSean Jackson: DeSean William Jackson (born December 1, 1986) is an American football wide receiver for the Tampa Bay Buccaneers of the National Football League (NFL).",
+    "Don Looney: He was the first receiver in NFL history to have over 100 yards receiving in each of his first two games, a feat which was not equaled until the 2008 NFL season by another Eagles wide receiver, DeSean Jackson.",
+    "DeSean Jackson: He was drafted by the Philadelphia Eagles in the second round of the 2008 NFL Draft, and played for the Washington Redskins for three seasons after his departure from the Eagles."
+   ],
+   "answer": "Philadelphia Eagles",
+   "answer_usage": {
+    "in": 358,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5071190419839695
+   },
+   "retrieval_latency_seconds": 0.0020149999763816595,
+   "query": "DeSean Jackson NFL teams",
+   "query_usage": {
+    "in": 195,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6045162919908762
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Don Looney: He was the father of NFL running back Joe Don Looney, who later died in a one-person motorcycle accident after his NFL career ended.",
+    "Don Looney: At the time of his death, Looney was the second oldest living former NFL player.",
+    "Don Looney: John Don Looney (September 2, 1916 \u2013 April 5, 2015) was a professional American football end in the National Football League.",
+    "Don Looney: He played three seasons for the Philadelphia Eagles (1940) and the Pittsburgh Steelers (1941\u20131942).",
+    "DeSean Jackson: DeSean William Jackson (born December 1, 1986) is an American football wide receiver for the Tampa Bay Buccaneers of the National Football League (NFL).",
+    "Don Looney: He was the first receiver in NFL history to have over 100 yards receiving in each of his first two games, a feat which was not equaled until the 2008 NFL season by another Eagles wide receiver, DeSean Jackson.",
+    "DeSean Jackson: He was drafted by the Philadelphia Eagles in the second round of the 2008 NFL Draft, and played for the Washington Redskins for three seasons after his departure from the Eagles.",
+    "DeSean Jackson: He played college football for the University of California, Berkeley, where he was recognized as a consensus All-American."
+   ],
+   "answer": "Philadelphia Eagles",
+   "answer_usage": {
+    "in": 388,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5744408330647275
+   },
+   "retrieval_latency_seconds": 0.03351595799904317,
+   "query": "DeSean Jackson NFL teams played for career history",
+   "query_usage": {
+    "in": 343,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6450624170247465
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Don Looney: He was the father of NFL running back Joe Don Looney, who later died in a one-person motorcycle accident after his NFL career ended.",
+    "Don Looney: At the time of his death, Looney was the second oldest living former NFL player.",
+    "Don Looney: John Don Looney (September 2, 1916 \u2013 April 5, 2015) was a professional American football end in the National Football League.",
+    "Don Looney: He played three seasons for the Philadelphia Eagles (1940) and the Pittsburgh Steelers (1941\u20131942).",
+    "DeSean Jackson: DeSean William Jackson (born December 1, 1986) is an American football wide receiver for the Tampa Bay Buccaneers of the National Football League (NFL).",
+    "Don Looney: He was the first receiver in NFL history to have over 100 yards receiving in each of his first two games, a feat which was not equaled until the 2008 NFL season by another Eagles wide receiver, DeSean Jackson.",
+    "DeSean Jackson: He was drafted by the Philadelphia Eagles in the second round of the 2008 NFL Draft, and played for the Washington Redskins for three seasons after his departure from the Eagles.",
+    "DeSean Jackson: He played college football for the University of California, Berkeley, where he was recognized as a consensus All-American."
+   ],
+   "answer": "Philadelphia Eagles",
+   "answer_usage": {
+    "in": 388,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5670046670129523
+   },
+   "retrieval_latency_seconds": 0.02502833295147866,
+   "query": "DeSean Jackson NFL teams played for career history",
+   "query_usage": {
+    "in": 373,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.7203369999770075
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Don Looney: He was the father of NFL running back Joe Don Looney, who later died in a one-person motorcycle accident after his NFL career ended.",
+    "Don Looney: At the time of his death, Looney was the second oldest living former NFL player.",
+    "Don Looney: John Don Looney (September 2, 1916 \u2013 April 5, 2015) was a professional American football end in the National Football League.",
+    "Don Looney: He played three seasons for the Philadelphia Eagles (1940) and the Pittsburgh Steelers (1941\u20131942).",
+    "DeSean Jackson: DeSean William Jackson (born December 1, 1986) is an American football wide receiver for the Tampa Bay Buccaneers of the National Football League (NFL).",
+    "Don Looney: He was the first receiver in NFL history to have over 100 yards receiving in each of his first two games, a feat which was not equaled until the 2008 NFL season by another Eagles wide receiver, DeSean Jackson.",
+    "DeSean Jackson: He was drafted by the Philadelphia Eagles in the second round of the 2008 NFL Draft, and played for the Washington Redskins for three seasons after his departure from the Eagles.",
+    "DeSean Jackson: He played college football for the University of California, Berkeley, where he was recognized as a consensus All-American."
+   ],
+   "answer": "Philadelphia Eagles",
+   "answer_usage": {
+    "in": 388,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5777084589935839
+   },
+   "retrieval_latency_seconds": 0.0634327499428764,
+   "query": "DeSean Jackson NFL teams played for career history",
+   "query_usage": {
+    "in": 373,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.7130406249780208
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Don Looney: He was the father of NFL running back Joe Don Looney, who later died in a one-person motorcycle accident after his NFL career ended.",
+    "Don Looney: At the time of his death, Looney was the second oldest living former NFL player.",
+    "Don Looney: John Don Looney (September 2, 1916 \u2013 April 5, 2015) was a professional American football end in the National Football League.",
+    "Don Looney: He played three seasons for the Philadelphia Eagles (1940) and the Pittsburgh Steelers (1941\u20131942).",
+    "DeSean Jackson: DeSean William Jackson (born December 1, 1986) is an American football wide receiver for the Tampa Bay Buccaneers of the National Football League (NFL).",
+    "Don Looney: He was the first receiver in NFL history to have over 100 yards receiving in each of his first two games, a feat which was not equaled until the 2008 NFL season by another Eagles wide receiver, DeSean Jackson.",
+    "DeSean Jackson: He was drafted by the Philadelphia Eagles in the second round of the 2008 NFL Draft, and played for the Washington Redskins for three seasons after his departure from the Eagles.",
+    "DeSean Jackson: He played college football for the University of California, Berkeley, where he was recognized as a consensus All-American."
+   ],
+   "answer": "Philadelphia Eagles",
+   "answer_usage": {
+    "in": 388,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.565144499996677
+   },
+   "retrieval_latency_seconds": 0.025485457968898118,
+   "query": "DeSean Jackson NFL teams played for career history",
+   "query_usage": {
+    "in": 373,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.7114206670084968
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Don Looney: He was the father of NFL running back Joe Don Looney, who later died in a one-person motorcycle accident after his NFL career ended.",
+    "Don Looney: At the time of his death, Looney was the second oldest living former NFL player.",
+    "Don Looney: John Don Looney (September 2, 1916 \u2013 April 5, 2015) was a professional American football end in the National Football League.",
+    "Don Looney: He played three seasons for the Philadelphia Eagles (1940) and the Pittsburgh Steelers (1941\u20131942).",
+    "DeSean Jackson: DeSean William Jackson (born December 1, 1986) is an American football wide receiver for the Tampa Bay Buccaneers of the National Football League (NFL).",
+    "Don Looney: He was the first receiver in NFL history to have over 100 yards receiving in each of his first two games, a feat which was not equaled until the 2008 NFL season by another Eagles wide receiver, DeSean Jackson.",
+    "DeSean Jackson: He was drafted by the Philadelphia Eagles in the second round of the 2008 NFL Draft, and played for the Washington Redskins for three seasons after his departure from the Eagles.",
+    "DeSean Jackson: He played college football for the University of California, Berkeley, where he was recognized as a consensus All-American."
+   ],
+   "answer": "Philadelphia Eagles",
+   "answer_usage": {
+    "in": 388,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5756858339300379
+   },
+   "retrieval_latency_seconds": 0.06384779105428606,
+   "query": "DeSean Jackson NFL teams played for career history",
+   "query_usage": {
+    "in": 373,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.7101001249393448
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.25,
+   3.0,
+   1.0,
+   33.0,
+   0.2,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   4.0,
+   0.4166666666666667,
+   1.0,
+   1.0,
+   15.0,
+   0.4,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.6666666666666666,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.6666666666666666,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

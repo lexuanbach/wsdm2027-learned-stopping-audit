@@ -1,0 +1,357 @@
+{
+ "id": "5a78b386554299148911f949",
+ "question": "What book did the president and CEO of Tracinda Corporation buy?",
+ "gold_answers": [
+  "Fade Out: The Calamitous Final Days of MGM"
+ ],
+ "support_titles": [
+  "Fade Out: The Calamitous Final Days of MGM",
+  "Kirk Kerkorian"
+ ],
+ "support_sentences": [
+  "Fade Out: The Calamitous Final Days of MGM is a 1990 non-fiction book by Peter Bart which covers the history of MGM since 1969, when it was bought by Kirk Kerkorian.",
+  "He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the available evidence",
+   "answer_usage": {
+    "in": 75,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6988569580717012
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Kirk Kerkorian: He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California.",
+    "Tracinda: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian.",
+    "Michael Capellas: Capellas served as chairman and CEO of First Data Corporation, acting CEO of Serena Software, chairman and CEO of Compaq Computer Corporation until its merger with Hewlett-Packard where he became president of the post-merger company briefly, and president and CEO of WorldCom (later MCI) where he led its merger with Verizon."
+   ],
+   "answer": "Unknown",
+   "answer_usage": {
+    "in": 215,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9009869169676676
+   },
+   "retrieval_latency_seconds": 0.002592375036329031,
+   "query": "Tracinda Corporation CEO president",
+   "query_usage": {
+    "in": 60,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.556572875007987
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Kirk Kerkorian: He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California.",
+    "Tracinda: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian.",
+    "Michael Capellas: Capellas served as chairman and CEO of First Data Corporation, acting CEO of Serena Software, chairman and CEO of Compaq Computer Corporation until its merger with Hewlett-Packard where he became president of the post-merger company briefly, and president and CEO of WorldCom (later MCI) where he led its merger with Verizon.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917 \u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917\u00a0\u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: He purchased the Metro-Goldwyn-Mayer movie studio in 1969."
+   ],
+   "answer": "The evidence provided does not mention any book purchased by Kirk Kerkorian, the president and CEO of Tracinda Corporation",
+   "answer_usage": {
+    "in": 340,
+    "out": 31,
+    "calls": 1,
+    "latency_seconds": 0.7495922090020031
+   },
+   "retrieval_latency_seconds": 0.006877416977658868,
+   "query": "Kirk Kerkorian book purchase",
+   "query_usage": {
+    "in": 200,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5690910420380533
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Kirk Kerkorian: He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California.",
+    "Tracinda: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian.",
+    "Michael Capellas: Capellas served as chairman and CEO of First Data Corporation, acting CEO of Serena Software, chairman and CEO of Compaq Computer Corporation until its merger with Hewlett-Packard where he became president of the post-merger company briefly, and president and CEO of WorldCom (later MCI) where he led its merger with Verizon.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917 \u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917\u00a0\u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: He purchased the Metro-Goldwyn-Mayer movie studio in 1969."
+   ],
+   "answer": "The evidence provided does not mention any book purchased by Kirk Kerkorian, the president and CEO of Tracinda Corporation",
+   "answer_usage": {
+    "in": 340,
+    "out": 31,
+    "calls": 1,
+    "latency_seconds": 0.7195153339998797
+   },
+   "retrieval_latency_seconds": 0.004636458004824817,
+   "query": "Kirk Kerkorian book purchase",
+   "query_usage": {
+    "in": 325,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6795511250384152
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Kirk Kerkorian: He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California.",
+    "Tracinda: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian.",
+    "Michael Capellas: Capellas served as chairman and CEO of First Data Corporation, acting CEO of Serena Software, chairman and CEO of Compaq Computer Corporation until its merger with Hewlett-Packard where he became president of the post-merger company briefly, and president and CEO of WorldCom (later MCI) where he led its merger with Verizon.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917 \u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917\u00a0\u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: He purchased the Metro-Goldwyn-Mayer movie studio in 1969."
+   ],
+   "answer": "The evidence provided does not mention any book purchased by Kirk Kerkorian, the president and CEO of Tracinda Corporation",
+   "answer_usage": {
+    "in": 340,
+    "out": 31,
+    "calls": 1,
+    "latency_seconds": 0.7679762500338256
+   },
+   "retrieval_latency_seconds": 0.004050542018376291,
+   "query": "Kirk Kerkorian book purchase",
+   "query_usage": {
+    "in": 325,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5991289169760421
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Kirk Kerkorian: He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California.",
+    "Tracinda: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian.",
+    "Michael Capellas: Capellas served as chairman and CEO of First Data Corporation, acting CEO of Serena Software, chairman and CEO of Compaq Computer Corporation until its merger with Hewlett-Packard where he became president of the post-merger company briefly, and president and CEO of WorldCom (later MCI) where he led its merger with Verizon.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917 \u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917\u00a0\u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: He purchased the Metro-Goldwyn-Mayer movie studio in 1969."
+   ],
+   "answer": "The evidence provided does not mention any book purchased by Kirk Kerkorian, the president and CEO of Tracinda Corporation",
+   "answer_usage": {
+    "in": 340,
+    "out": 31,
+    "calls": 1,
+    "latency_seconds": 0.7138139160815626
+   },
+   "retrieval_latency_seconds": 0.004678500001318753,
+   "query": "Kirk Kerkorian book purchase",
+   "query_usage": {
+    "in": 325,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5814672909909859
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Kirk Kerkorian: He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California.",
+    "Tracinda: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian.",
+    "Michael Capellas: Capellas served as chairman and CEO of First Data Corporation, acting CEO of Serena Software, chairman and CEO of Compaq Computer Corporation until its merger with Hewlett-Packard where he became president of the post-merger company briefly, and president and CEO of WorldCom (later MCI) where he led its merger with Verizon.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917 \u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917\u00a0\u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: He purchased the Metro-Goldwyn-Mayer movie studio in 1969."
+   ],
+   "answer": "The evidence provided does not mention any book purchased by Kirk Kerkorian, the president and CEO of Tracinda Corporation",
+   "answer_usage": {
+    "in": 340,
+    "out": 31,
+    "calls": 1,
+    "latency_seconds": 0.7121967910788953
+   },
+   "retrieval_latency_seconds": 0.004714707960374653,
+   "query": "Kirk Kerkorian book purchase",
+   "query_usage": {
+    "in": 325,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5884382090298459
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Kirk Kerkorian: He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California.",
+    "Tracinda: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian.",
+    "Michael Capellas: Capellas served as chairman and CEO of First Data Corporation, acting CEO of Serena Software, chairman and CEO of Compaq Computer Corporation until its merger with Hewlett-Packard where he became president of the post-merger company briefly, and president and CEO of WorldCom (later MCI) where he led its merger with Verizon.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917 \u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917\u00a0\u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: He purchased the Metro-Goldwyn-Mayer movie studio in 1969."
+   ],
+   "answer": "The evidence provided does not mention any book purchased by Kirk Kerkorian, the president and CEO of Tracinda Corporation",
+   "answer_usage": {
+    "in": 340,
+    "out": 31,
+    "calls": 1,
+    "latency_seconds": 0.7289901250042021
+   },
+   "retrieval_latency_seconds": 0.0024401249829679728,
+   "query": "Kirk Kerkorian book purchase",
+   "query_usage": {
+    "in": 325,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5876853329828009
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Kirk Kerkorian: He was the president and CEO of Tracinda Corporation, his private holding company based in Beverly Hills, California.",
+    "Tracinda: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian.",
+    "Michael Capellas: Capellas served as chairman and CEO of First Data Corporation, acting CEO of Serena Software, chairman and CEO of Compaq Computer Corporation until its merger with Hewlett-Packard where he became president of the post-merger company briefly, and president and CEO of WorldCom (later MCI) where he led its merger with Verizon.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917 \u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: Kerkor \"Kirk\" Kerkorian (June 6, 1917\u00a0\u2013 June 15, 2015) was an Armenian-American businessman, investor, and philanthropist.",
+    "Kirk Kerkorian: He purchased the Metro-Goldwyn-Mayer movie studio in 1969."
+   ],
+   "answer": "The evidence provided does not mention any book purchased by Kirk Kerkorian, the president and CEO of Tracinda Corporation",
+   "answer_usage": {
+    "in": 340,
+    "out": 31,
+    "calls": 1,
+    "latency_seconds": 0.7306665829382837
+   },
+   "retrieval_latency_seconds": 0.010296165943145752,
+   "query": "Kirk Kerkorian book purchase",
+   "query_usage": {
+    "in": 325,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5549058330943808
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.08333333333333333,
+  0.08333333333333333,
+  0.08333333333333333,
+  0.08333333333333333,
+  0.08333333333333333,
+  0.08333333333333333,
+  0.08333333333333333
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6363636363636364,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6363636363636364,
+   3.0,
+   1.0,
+   17.0,
+   0.6111111111111112,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   17.0,
+   0.6111111111111112,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   17.0,
+   0.6111111111111112,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   17.0,
+   0.6111111111111112,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   17.0,
+   0.6111111111111112,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   17.0,
+   0.6111111111111112,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   17.0,
+   0.6111111111111112,
+   1.0,
+   3.0
+  ]
+ ]
+}

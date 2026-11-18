@@ -1,0 +1,385 @@
+{
+ "id": "5adf04915542995534e8c72f",
+ "question": "Which publisher produced the comic books featuring both Spider-Man and the Daredevils?",
+ "gold_answers": [
+  "Marvel"
+ ],
+ "support_titles": [
+  "The Daredevils",
+  "Spider-Man"
+ ],
+ "support_sentences": [
+  "The Daredevils was a comics magazine and anthology published by Marvel UK in 1983.",
+  "Spider-Man is a fictional superhero appearing in American comic books published by Marvel Comics."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 80,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5828665409935638
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "List of Spider-Man storylines: \") and would appear in Spider-Man's main comic book title \"The Amazing Spider-Man\". \"",
+    "Spider-Man 3: Spider-Man 3 is a 2007 American superhero film based on the fictional Marvel Comics comic book series \"The Amazing Spider-Man\".",
+    "List of Spider-Man enemies: After his debut he would get his own comic book entitled \"The Amazing Spider-Man\"."
+   ],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 174,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.535733166965656
+   },
+   "retrieval_latency_seconds": 0.006630832911469042,
+   "query": "Spider-Man comic book publisher",
+   "query_usage": {
+    "in": 65,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6637714999960735
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "List of Spider-Man storylines: \") and would appear in Spider-Man's main comic book title \"The Amazing Spider-Man\". \"",
+    "Spider-Man 3: Spider-Man 3 is a 2007 American superhero film based on the fictional Marvel Comics comic book series \"The Amazing Spider-Man\".",
+    "List of Spider-Man enemies: After his debut he would get his own comic book entitled \"The Amazing Spider-Man\".",
+    "Daredevil (TV series): Marvel's Daredevil, or simply Daredevil, is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Classics Comics: 36 issues of \"Marvel Classics Comics\" were published, 12 of them being reprints of another publisher's work.",
+    "List of Daredevil characters: \"Daredevil\" is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name."
+   ],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 306,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5907809579512104
+   },
+   "retrieval_latency_seconds": 0.001549542066641152,
+   "query": "Daredevil publisher Marvel Comics",
+   "query_usage": {
+    "in": 159,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6390252080745995
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "List of Spider-Man storylines: \") and would appear in Spider-Man's main comic book title \"The Amazing Spider-Man\". \"",
+    "Spider-Man 3: Spider-Man 3 is a 2007 American superhero film based on the fictional Marvel Comics comic book series \"The Amazing Spider-Man\".",
+    "List of Spider-Man enemies: After his debut he would get his own comic book entitled \"The Amazing Spider-Man\".",
+    "Daredevil (TV series): Marvel's Daredevil, or simply Daredevil, is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Classics Comics: 36 issues of \"Marvel Classics Comics\" were published, 12 of them being reprints of another publisher's work.",
+    "List of Daredevil characters: \"Daredevil\" is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Team-Up: Marvel Team-Up is an American comic book series published by Marvel Comics.",
+    "Ben Urich: Benjamin \"Ben\" Urich is a Marvel Comics character, usually appearing in comic books featuring Daredevil and Spider-Man.",
+    "Columbia Comics: Columbia Comics Corporation was a comic book publisher active in the 1940s."
+   ],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 385,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5785679169930518
+   },
+   "retrieval_latency_seconds": 0.0025220829993486404,
+   "query": "Daredevil comic book publisher Marvel Comics",
+   "query_usage": {
+    "in": 291,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5488551249727607
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "List of Spider-Man storylines: \") and would appear in Spider-Man's main comic book title \"The Amazing Spider-Man\". \"",
+    "Spider-Man 3: Spider-Man 3 is a 2007 American superhero film based on the fictional Marvel Comics comic book series \"The Amazing Spider-Man\".",
+    "List of Spider-Man enemies: After his debut he would get his own comic book entitled \"The Amazing Spider-Man\".",
+    "Daredevil (TV series): Marvel's Daredevil, or simply Daredevil, is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Classics Comics: 36 issues of \"Marvel Classics Comics\" were published, 12 of them being reprints of another publisher's work.",
+    "List of Daredevil characters: \"Daredevil\" is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Team-Up: Marvel Team-Up is an American comic book series published by Marvel Comics.",
+    "Ben Urich: Benjamin \"Ben\" Urich is a Marvel Comics character, usually appearing in comic books featuring Daredevil and Spider-Man.",
+    "Columbia Comics: Columbia Comics Corporation was a comic book publisher active in the 1940s.",
+    "Superior Spider-Man Team-Up: Superior Spider-Man Team-Up was an ongoing comic book series published by Marvel Comics that debuted in July 2013.",
+    "Ultimate Marvel Team-Up: Ultimate Marvel Team-Up is a comic book series, published by Marvel Comics which ran for 16 issues, including a concluding \"Ultimate Spider-Man Super Special\"."
+   ],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 464,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.462278249906376
+   },
+   "retrieval_latency_seconds": 0.011679165996611118,
+   "query": "Marvel Team-Up Spider-Man Daredevil comic book series",
+   "query_usage": {
+    "in": 370,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.7677312080049887
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "List of Spider-Man storylines: \") and would appear in Spider-Man's main comic book title \"The Amazing Spider-Man\". \"",
+    "Spider-Man 3: Spider-Man 3 is a 2007 American superhero film based on the fictional Marvel Comics comic book series \"The Amazing Spider-Man\".",
+    "List of Spider-Man enemies: After his debut he would get his own comic book entitled \"The Amazing Spider-Man\".",
+    "Daredevil (TV series): Marvel's Daredevil, or simply Daredevil, is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Classics Comics: 36 issues of \"Marvel Classics Comics\" were published, 12 of them being reprints of another publisher's work.",
+    "List of Daredevil characters: \"Daredevil\" is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Team-Up: Marvel Team-Up is an American comic book series published by Marvel Comics.",
+    "Ben Urich: Benjamin \"Ben\" Urich is a Marvel Comics character, usually appearing in comic books featuring Daredevil and Spider-Man.",
+    "Columbia Comics: Columbia Comics Corporation was a comic book publisher active in the 1940s.",
+    "Superior Spider-Man Team-Up: Superior Spider-Man Team-Up was an ongoing comic book series published by Marvel Comics that debuted in July 2013.",
+    "Ultimate Marvel Team-Up: Ultimate Marvel Team-Up is a comic book series, published by Marvel Comics which ran for 16 issues, including a concluding \"Ultimate Spider-Man Super Special\"."
+   ],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 464,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.48153683298733085
+   },
+   "retrieval_latency_seconds": 0.0026475409977138042,
+   "query": "Daredevil comic book publisher Marvel Comics",
+   "query_usage": {
+    "in": 449,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5667297500185668
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "List of Spider-Man storylines: \") and would appear in Spider-Man's main comic book title \"The Amazing Spider-Man\". \"",
+    "Spider-Man 3: Spider-Man 3 is a 2007 American superhero film based on the fictional Marvel Comics comic book series \"The Amazing Spider-Man\".",
+    "List of Spider-Man enemies: After his debut he would get his own comic book entitled \"The Amazing Spider-Man\".",
+    "Daredevil (TV series): Marvel's Daredevil, or simply Daredevil, is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Classics Comics: 36 issues of \"Marvel Classics Comics\" were published, 12 of them being reprints of another publisher's work.",
+    "List of Daredevil characters: \"Daredevil\" is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Team-Up: Marvel Team-Up is an American comic book series published by Marvel Comics.",
+    "Ben Urich: Benjamin \"Ben\" Urich is a Marvel Comics character, usually appearing in comic books featuring Daredevil and Spider-Man.",
+    "Columbia Comics: Columbia Comics Corporation was a comic book publisher active in the 1940s.",
+    "Superior Spider-Man Team-Up: Superior Spider-Man Team-Up was an ongoing comic book series published by Marvel Comics that debuted in July 2013.",
+    "Ultimate Marvel Team-Up: Ultimate Marvel Team-Up is a comic book series, published by Marvel Comics which ran for 16 issues, including a concluding \"Ultimate Spider-Man Super Special\"."
+   ],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 464,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5080587499542162
+   },
+   "retrieval_latency_seconds": 0.003195500001311302,
+   "query": "Daredevil comic book publisher Marvel Comics",
+   "query_usage": {
+    "in": 449,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5656523329671472
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "List of Spider-Man storylines: \") and would appear in Spider-Man's main comic book title \"The Amazing Spider-Man\". \"",
+    "Spider-Man 3: Spider-Man 3 is a 2007 American superhero film based on the fictional Marvel Comics comic book series \"The Amazing Spider-Man\".",
+    "List of Spider-Man enemies: After his debut he would get his own comic book entitled \"The Amazing Spider-Man\".",
+    "Daredevil (TV series): Marvel's Daredevil, or simply Daredevil, is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Classics Comics: 36 issues of \"Marvel Classics Comics\" were published, 12 of them being reprints of another publisher's work.",
+    "List of Daredevil characters: \"Daredevil\" is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Team-Up: Marvel Team-Up is an American comic book series published by Marvel Comics.",
+    "Ben Urich: Benjamin \"Ben\" Urich is a Marvel Comics character, usually appearing in comic books featuring Daredevil and Spider-Man.",
+    "Columbia Comics: Columbia Comics Corporation was a comic book publisher active in the 1940s.",
+    "Superior Spider-Man Team-Up: Superior Spider-Man Team-Up was an ongoing comic book series published by Marvel Comics that debuted in July 2013.",
+    "Ultimate Marvel Team-Up: Ultimate Marvel Team-Up is a comic book series, published by Marvel Comics which ran for 16 issues, including a concluding \"Ultimate Spider-Man Super Special\"."
+   ],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 464,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.47640395897906274
+   },
+   "retrieval_latency_seconds": 0.003911541076377034,
+   "query": "Daredevil comic book publisher Marvel Comics",
+   "query_usage": {
+    "in": 449,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6091282499255612
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "List of Spider-Man storylines: \") and would appear in Spider-Man's main comic book title \"The Amazing Spider-Man\". \"",
+    "Spider-Man 3: Spider-Man 3 is a 2007 American superhero film based on the fictional Marvel Comics comic book series \"The Amazing Spider-Man\".",
+    "List of Spider-Man enemies: After his debut he would get his own comic book entitled \"The Amazing Spider-Man\".",
+    "Daredevil (TV series): Marvel's Daredevil, or simply Daredevil, is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Classics Comics: 36 issues of \"Marvel Classics Comics\" were published, 12 of them being reprints of another publisher's work.",
+    "List of Daredevil characters: \"Daredevil\" is an American web television series created for Netflix by Drew Goddard, based on the Marvel Comics character of the same name.",
+    "Marvel Team-Up: Marvel Team-Up is an American comic book series published by Marvel Comics.",
+    "Ben Urich: Benjamin \"Ben\" Urich is a Marvel Comics character, usually appearing in comic books featuring Daredevil and Spider-Man.",
+    "Columbia Comics: Columbia Comics Corporation was a comic book publisher active in the 1940s.",
+    "Superior Spider-Man Team-Up: Superior Spider-Man Team-Up was an ongoing comic book series published by Marvel Comics that debuted in July 2013.",
+    "Ultimate Marvel Team-Up: Ultimate Marvel Team-Up is a comic book series, published by Marvel Comics which ran for 16 issues, including a concluding \"Ultimate Spider-Man Super Special\"."
+   ],
+   "answer": "Marvel Comics",
+   "answer_usage": {
+    "in": 464,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5027270830469206
+   },
+   "retrieval_latency_seconds": 0.005349874962121248,
+   "query": "Daredevil comic book publisher Marvel Comics",
+   "query_usage": {
+    "in": 449,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5999380419962108
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4166666666666667,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.6666666666666666,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   11.0,
+   0.75,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.75,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.75,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.75,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.75,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

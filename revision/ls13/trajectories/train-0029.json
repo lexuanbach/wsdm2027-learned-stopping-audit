@@ -1,0 +1,383 @@
+{
+ "id": "5abaa32655429955dce3eeaa",
+ "question": "James Conlon directed the oldest outdoor Music Festival that is located and what state?",
+ "gold_answers": [
+  "Illinois"
+ ],
+ "support_titles": [
+  "James Conlon",
+  "Ravinia Festival"
+ ],
+ "support_sentences": [
+  "From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+  "Located in Highland Park, Illinois, the festival operates on the grounds of the 36 acre (150,000 m\u00b2) Ravinia Park, with a variety of outdoor and indoor performing arts facilities."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 78,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.7707325420342386
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Ravinia Festival: The Ravinia Festival is the oldest outdoor music festival in the United States, with a series of outdoor concerts and performances held every summer from June to September.",
+    "James Conlon: From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+    "Intro Music Festival: It is one of the largest outdoor music festival held in China."
+   ],
+   "answer": "Illinois",
+   "answer_usage": {
+    "in": 169,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5701773749897256
+   },
+   "retrieval_latency_seconds": 0.009919541073031723,
+   "query": "James Conlon oldest outdoor music festival directed",
+   "query_usage": {
+    "in": 63,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6406698749633506
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Ravinia Festival: The Ravinia Festival is the oldest outdoor music festival in the United States, with a series of outdoor concerts and performances held every summer from June to September.",
+    "James Conlon: From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+    "Intro Music Festival: It is one of the largest outdoor music festival held in China.",
+    "Ravinia Festival: Located in Highland Park, Illinois, the festival operates on the grounds of the 36 acre (150,000 m\u00b2) Ravinia Park, with a variety of outdoor and indoor performing arts facilities.",
+    "Ravinia Festival: In Ravinia Park's first summer of 1905, it hosted the New York Philharmonic, and the prairie style Martin Theater dates from this time period."
+   ],
+   "answer": "Illinois",
+   "answer_usage": {
+    "in": 261,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5488714999519289
+   },
+   "retrieval_latency_seconds": 0.006366999936290085,
+   "query": "Ravinia Festival location state",
+   "query_usage": {
+    "in": 154,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5715737920254469
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Ravinia Festival: The Ravinia Festival is the oldest outdoor music festival in the United States, with a series of outdoor concerts and performances held every summer from June to September.",
+    "James Conlon: From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+    "Intro Music Festival: It is one of the largest outdoor music festival held in China.",
+    "Ravinia Festival: Located in Highland Park, Illinois, the festival operates on the grounds of the 36 acre (150,000 m\u00b2) Ravinia Park, with a variety of outdoor and indoor performing arts facilities.",
+    "Ravinia Festival: In Ravinia Park's first summer of 1905, it hosted the New York Philharmonic, and the prairie style Martin Theater dates from this time period.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Illinois",
+   "answer_usage": {
+    "in": 368,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.47963112499564886
+   },
+   "retrieval_latency_seconds": 0.13393437501508743,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 246,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7902067090617493
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Ravinia Festival: The Ravinia Festival is the oldest outdoor music festival in the United States, with a series of outdoor concerts and performances held every summer from June to September.",
+    "James Conlon: From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+    "Intro Music Festival: It is one of the largest outdoor music festival held in China.",
+    "Ravinia Festival: Located in Highland Park, Illinois, the festival operates on the grounds of the 36 acre (150,000 m\u00b2) Ravinia Park, with a variety of outdoor and indoor performing arts facilities.",
+    "Ravinia Festival: In Ravinia Park's first summer of 1905, it hosted the New York Philharmonic, and the prairie style Martin Theater dates from this time period.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Natchez Trace State Park: Natchez Trace State Park is a state park located in western Tennessee.",
+    "Letchworth State Park: Letchworth State Park is a 14427 acre state park located in Livingston and Wyoming counties, New York.",
+    "St. Mary's River State Park: St. Mary's River State Park is a Maryland state park located in California, Maryland."
+   ],
+   "answer": "Illinois",
+   "answer_usage": {
+    "in": 458,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5798426670953631
+   },
+   "retrieval_latency_seconds": 0.20199324993882328,
+   "query": "What state is Highland Park located in?",
+   "query_usage": {
+    "in": 353,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6387284169904888
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Ravinia Festival: The Ravinia Festival is the oldest outdoor music festival in the United States, with a series of outdoor concerts and performances held every summer from June to September.",
+    "James Conlon: From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+    "Intro Music Festival: It is one of the largest outdoor music festival held in China.",
+    "Ravinia Festival: Located in Highland Park, Illinois, the festival operates on the grounds of the 36 acre (150,000 m\u00b2) Ravinia Park, with a variety of outdoor and indoor performing arts facilities.",
+    "Ravinia Festival: In Ravinia Park's first summer of 1905, it hosted the New York Philharmonic, and the prairie style Martin Theater dates from this time period.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Natchez Trace State Park: Natchez Trace State Park is a state park located in western Tennessee.",
+    "Letchworth State Park: Letchworth State Park is a 14427 acre state park located in Livingston and Wyoming counties, New York.",
+    "St. Mary's River State Park: St. Mary's River State Park is a Maryland state park located in California, Maryland."
+   ],
+   "answer": "Illinois",
+   "answer_usage": {
+    "in": 458,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5596034160116687
+   },
+   "retrieval_latency_seconds": 0.08020066702738404,
+   "query": "What state is Highland Park located in?",
+   "query_usage": {
+    "in": 443,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6631836249725893
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Ravinia Festival: The Ravinia Festival is the oldest outdoor music festival in the United States, with a series of outdoor concerts and performances held every summer from June to September.",
+    "James Conlon: From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+    "Intro Music Festival: It is one of the largest outdoor music festival held in China.",
+    "Ravinia Festival: Located in Highland Park, Illinois, the festival operates on the grounds of the 36 acre (150,000 m\u00b2) Ravinia Park, with a variety of outdoor and indoor performing arts facilities.",
+    "Ravinia Festival: In Ravinia Park's first summer of 1905, it hosted the New York Philharmonic, and the prairie style Martin Theater dates from this time period.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Natchez Trace State Park: Natchez Trace State Park is a state park located in western Tennessee.",
+    "Letchworth State Park: Letchworth State Park is a 14427 acre state park located in Livingston and Wyoming counties, New York.",
+    "St. Mary's River State Park: St. Mary's River State Park is a Maryland state park located in California, Maryland."
+   ],
+   "answer": "Illinois",
+   "answer_usage": {
+    "in": 458,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5621506250463426
+   },
+   "retrieval_latency_seconds": 0.07982033304870129,
+   "query": "What state is Highland Park located in?",
+   "query_usage": {
+    "in": 443,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6173074579564855
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Ravinia Festival: The Ravinia Festival is the oldest outdoor music festival in the United States, with a series of outdoor concerts and performances held every summer from June to September.",
+    "James Conlon: From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+    "Intro Music Festival: It is one of the largest outdoor music festival held in China.",
+    "Ravinia Festival: Located in Highland Park, Illinois, the festival operates on the grounds of the 36 acre (150,000 m\u00b2) Ravinia Park, with a variety of outdoor and indoor performing arts facilities.",
+    "Ravinia Festival: In Ravinia Park's first summer of 1905, it hosted the New York Philharmonic, and the prairie style Martin Theater dates from this time period.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Natchez Trace State Park: Natchez Trace State Park is a state park located in western Tennessee.",
+    "Letchworth State Park: Letchworth State Park is a 14427 acre state park located in Livingston and Wyoming counties, New York.",
+    "St. Mary's River State Park: St. Mary's River State Park is a Maryland state park located in California, Maryland."
+   ],
+   "answer": "Illinois",
+   "answer_usage": {
+    "in": 458,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5644205409334973
+   },
+   "retrieval_latency_seconds": 0.38428787502925843,
+   "query": "What state is Highland Park located in?",
+   "query_usage": {
+    "in": 443,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6191127919591963
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Ravinia Festival: The Ravinia Festival is the oldest outdoor music festival in the United States, with a series of outdoor concerts and performances held every summer from June to September.",
+    "James Conlon: From 2005 to 2015, he was music director at the Ravinia Festival, the summer home of the Chicago Symphony Orchestra.",
+    "Intro Music Festival: It is one of the largest outdoor music festival held in China.",
+    "Ravinia Festival: Located in Highland Park, Illinois, the festival operates on the grounds of the 36 acre (150,000 m\u00b2) Ravinia Park, with a variety of outdoor and indoor performing arts facilities.",
+    "Ravinia Festival: In Ravinia Park's first summer of 1905, it hosted the New York Philharmonic, and the prairie style Martin Theater dates from this time period.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Natchez Trace State Park: Natchez Trace State Park is a state park located in western Tennessee.",
+    "Letchworth State Park: Letchworth State Park is a 14427 acre state park located in Livingston and Wyoming counties, New York.",
+    "St. Mary's River State Park: St. Mary's River State Park is a Maryland state park located in California, Maryland."
+   ],
+   "answer": "Illinois",
+   "answer_usage": {
+    "in": 458,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5437843750696629
+   },
+   "retrieval_latency_seconds": 0.07802216603886336,
+   "query": "What state is Highland Park located in?",
+   "query_usage": {
+    "in": 443,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6377409580163658
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6428571428571429,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7142857142857143,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.7142857142857143,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   11.0,
+   0.7857142857142857,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

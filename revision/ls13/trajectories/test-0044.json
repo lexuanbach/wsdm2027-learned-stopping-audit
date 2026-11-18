@@ -1,0 +1,367 @@
+{
+ "id": "5a86458b5542991e771815ec",
+ "question": "What is the population of the city where the Akademisches Kunstmuseum is?",
+ "gold_answers": [
+  "300,000"
+ ],
+ "support_titles": [
+  "Akademisches Kunstmuseum",
+  "Bonn"
+ ],
+ "support_sentences": [
+  "Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+  "The Federal City of Bonn (] ) is a city on the banks of the Rhine in the German state of North Rhine-Westphalia, with a population of over 300,000."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this without knowing which city contains the Akademisches Kunstmuseum, as there are multiple museums with this name in German-speaking countries",
+   "answer_usage": {
+    "in": 79,
+    "out": 37,
+    "calls": 1,
+    "latency_seconds": 0.9967733749654144
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Akademisches Kunstmuseum: Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+    "Akademisches Kunstmuseum: It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace.",
+    "Akademisches Kunstmuseum: It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals."
+   ],
+   "answer": "Approximately 311,000",
+   "answer_usage": {
+    "in": 201,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6030579999787733
+   },
+   "retrieval_latency_seconds": 0.0021981659810990095,
+   "query": "Akademisches Kunstmuseum location",
+   "query_usage": {
+    "in": 64,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5985691249370575
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Akademisches Kunstmuseum: Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+    "Akademisches Kunstmuseum: It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace.",
+    "Akademisches Kunstmuseum: It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals.",
+    "Bonn: The Federal City of Bonn (] ) is a city on the banks of the Rhine in the German state of North Rhine-Westphalia, with a population of over 300,000.",
+    "Bonn: About 24 km south-southeast of Cologne, Bonn is in the southernmost part of the Rhine-Ruhr region, Germany's largest metropolitan area, with over 11 million inhabitants."
+   ],
+   "answer": "over 300,000",
+   "answer_usage": {
+    "in": 299,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.559773207991384
+   },
+   "retrieval_latency_seconds": 0.001761667081154883,
+   "query": "Bonn population",
+   "query_usage": {
+    "in": 186,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6056593749672174
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Akademisches Kunstmuseum: Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+    "Akademisches Kunstmuseum: It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace.",
+    "Akademisches Kunstmuseum: It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals.",
+    "Bonn: The Federal City of Bonn (] ) is a city on the banks of the Rhine in the German state of North Rhine-Westphalia, with a population of over 300,000.",
+    "Bonn: About 24 km south-southeast of Cologne, Bonn is in the southernmost part of the Rhine-Ruhr region, Germany's largest metropolitan area, with over 11 million inhabitants.",
+    "Chernivtsi: Current population: \u2009(2015 est.)",
+    "Little Bay, Newfoundland and Labrador: Its current population is about 166 people."
+   ],
+   "answer": "over 300,000",
+   "answer_usage": {
+    "in": 342,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6490400419570506
+   },
+   "retrieval_latency_seconds": 0.0034479580353945494,
+   "query": "Bonn population current",
+   "query_usage": {
+    "in": 284,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6204941250616685
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Akademisches Kunstmuseum: Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+    "Akademisches Kunstmuseum: It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace.",
+    "Akademisches Kunstmuseum: It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals.",
+    "Bonn: The Federal City of Bonn (] ) is a city on the banks of the Rhine in the German state of North Rhine-Westphalia, with a population of over 300,000.",
+    "Bonn: About 24 km south-southeast of Cologne, Bonn is in the southernmost part of the Rhine-Ruhr region, Germany's largest metropolitan area, with over 11 million inhabitants.",
+    "Chernivtsi: Current population: \u2009(2015 est.)",
+    "Little Bay, Newfoundland and Labrador: Its current population is about 166 people.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "over 300,000",
+   "answer_usage": {
+    "in": 365,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6714453750755638
+   },
+   "retrieval_latency_seconds": 0.19137012504506856,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly state that Bonn (the city where the Akademisches",
+   "query_usage": {
+    "in": 327,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8177793750073761
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Akademisches Kunstmuseum: Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+    "Akademisches Kunstmuseum: It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace.",
+    "Akademisches Kunstmuseum: It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals.",
+    "Bonn: The Federal City of Bonn (] ) is a city on the banks of the Rhine in the German state of North Rhine-Westphalia, with a population of over 300,000.",
+    "Bonn: About 24 km south-southeast of Cologne, Bonn is in the southernmost part of the Rhine-Ruhr region, Germany's largest metropolitan area, with over 11 million inhabitants.",
+    "Chernivtsi: Current population: \u2009(2015 est.)",
+    "Little Bay, Newfoundland and Labrador: Its current population is about 166 people.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "over 300,000",
+   "answer_usage": {
+    "in": 365,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5460410419618711
+   },
+   "retrieval_latency_seconds": 0.6193059158977121,
+   "query": "I have all the information needed to answer the question. The Akademisches Kunstmuseum is located in Bonn, Germany, and according to the",
+   "query_usage": {
+    "in": 350,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.6927674169419333
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Akademisches Kunstmuseum: Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+    "Akademisches Kunstmuseum: It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace.",
+    "Akademisches Kunstmuseum: It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals.",
+    "Bonn: The Federal City of Bonn (] ) is a city on the banks of the Rhine in the German state of North Rhine-Westphalia, with a population of over 300,000.",
+    "Bonn: About 24 km south-southeast of Cologne, Bonn is in the southernmost part of the Rhine-Ruhr region, Germany's largest metropolitan area, with over 11 million inhabitants.",
+    "Chernivtsi: Current population: \u2009(2015 est.)",
+    "Little Bay, Newfoundland and Labrador: Its current population is about 166 people.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "over 300,000",
+   "answer_usage": {
+    "in": 365,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5608437500195578
+   },
+   "retrieval_latency_seconds": 0.558538332930766,
+   "query": "I have all the information needed to answer the question. The Akademisches Kunstmuseum is located in Bonn, Germany, and according to the",
+   "query_usage": {
+    "in": 350,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.6691730420570821
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Akademisches Kunstmuseum: Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+    "Akademisches Kunstmuseum: It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace.",
+    "Akademisches Kunstmuseum: It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals.",
+    "Bonn: The Federal City of Bonn (] ) is a city on the banks of the Rhine in the German state of North Rhine-Westphalia, with a population of over 300,000.",
+    "Bonn: About 24 km south-southeast of Cologne, Bonn is in the southernmost part of the Rhine-Ruhr region, Germany's largest metropolitan area, with over 11 million inhabitants.",
+    "Chernivtsi: Current population: \u2009(2015 est.)",
+    "Little Bay, Newfoundland and Labrador: Its current population is about 166 people.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "over 300,000",
+   "answer_usage": {
+    "in": 365,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5429857089184225
+   },
+   "retrieval_latency_seconds": 0.3327218339545652,
+   "query": "I have all the information needed to answer the question. The Akademisches Kunstmuseum is located in Bonn, Germany, and according to the",
+   "query_usage": {
+    "in": 350,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7014865829842165
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Akademisches Kunstmuseum: Akademisches Kunstmuseum (English:Academic Art Museum) is an art museum in Bonn, Germany.",
+    "Akademisches Kunstmuseum: It is located in a neoclassical building at the southern end of the Hofgarten, near the Electoral Palace.",
+    "Akademisches Kunstmuseum: It is the oldest museum in Bonn and houses the antique collection of the University of Bonn with more than 500 antique statues and reliefs, and over 2,000 originals.",
+    "Bonn: The Federal City of Bonn (] ) is a city on the banks of the Rhine in the German state of North Rhine-Westphalia, with a population of over 300,000.",
+    "Bonn: About 24 km south-southeast of Cologne, Bonn is in the southernmost part of the Rhine-Ruhr region, Germany's largest metropolitan area, with over 11 million inhabitants.",
+    "Chernivtsi: Current population: \u2009(2015 est.)",
+    "Little Bay, Newfoundland and Labrador: Its current population is about 166 people.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "over 300,000",
+   "answer_usage": {
+    "in": 365,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5852684580022469
+   },
+   "retrieval_latency_seconds": 0.19987829099409282,
+   "query": "I have all the information needed to answer the question. The Akademisches Kunstmuseum is located in Bonn, Germany, and according to the",
+   "query_usage": {
+    "in": 350,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.712847666000016
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.4,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8,
+  0.8
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   23.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5555555555555556,
+   3.0,
+   1.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7777777777777778,
+   2.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.7777777777777778,
+   2.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.7777777777777778,
+   1.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.7777777777777778,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.7777777777777778,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.7777777777777778,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.7777777777777778,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

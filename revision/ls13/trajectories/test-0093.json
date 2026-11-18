@@ -1,0 +1,376 @@
+{
+ "id": "5ab1d7ac554299449642c7e6",
+ "question": "Which genus has more species, Xanthoceras or Ehretia?",
+ "gold_answers": [
+  "Ehretia"
+ ],
+ "support_titles": [
+  "Xanthoceras",
+  "Ehretia"
+ ],
+ "support_sentences": [
+  "Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+  "Ehretia is a genus of flowering plants in the borage family, Boraginaceae.",
+  "It contains about 50 species."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 78,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.582726375083439
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Xanthoceras: Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+    "Xanthoceras: It is also cultivated in Russia, having been imported there since the 19th Century.",
+    "Stygobromus: As well as a large number of species in North America, a smaller number of species are also known from Eurasia."
+   ],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 200,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6053545830072835
+   },
+   "retrieval_latency_seconds": 0.003936916007660329,
+   "query": "Xanthoceras species number",
+   "query_usage": {
+    "in": 63,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5546017920132726
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Xanthoceras: Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+    "Xanthoceras: It is also cultivated in Russia, having been imported there since the 19th Century.",
+    "Stygobromus: As well as a large number of species in North America, a smaller number of species are also known from Eurasia.",
+    "Ehretia: Ehretia is a genus of flowering plants in the borage family, Boraginaceae.",
+    "Ehretia: It contains about 50 species.",
+    "Phyllanthus: Estimates of the number species in this genus vary widely, from 750 to 1200."
+   ],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 272,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6589440419338644
+   },
+   "retrieval_latency_seconds": 0.32569683401379734,
+   "query": "Ehretia genus number of species",
+   "query_usage": {
+    "in": 185,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6180393749382347
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Xanthoceras: Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+    "Xanthoceras: It is also cultivated in Russia, having been imported there since the 19th Century.",
+    "Stygobromus: As well as a large number of species in North America, a smaller number of species are also known from Eurasia.",
+    "Ehretia: Ehretia is a genus of flowering plants in the borage family, Boraginaceae.",
+    "Ehretia: It contains about 50 species.",
+    "Phyllanthus: Estimates of the number species in this genus vary widely, from 750 to 1200.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 379,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5664812079630792
+   },
+   "retrieval_latency_seconds": 0.36780091701075435,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 257,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8357089170021936
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Xanthoceras: Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+    "Xanthoceras: It is also cultivated in Russia, having been imported there since the 19th Century.",
+    "Stygobromus: As well as a large number of species in North America, a smaller number of species are also known from Eurasia.",
+    "Ehretia: Ehretia is a genus of flowering plants in the borage family, Boraginaceae.",
+    "Ehretia: It contains about 50 species.",
+    "Phyllanthus: Estimates of the number species in this genus vary widely, from 750 to 1200.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 379,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5848537910496816
+   },
+   "retrieval_latency_seconds": 0.10001304105389863,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 364,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8830174580216408
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Xanthoceras: Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+    "Xanthoceras: It is also cultivated in Russia, having been imported there since the 19th Century.",
+    "Stygobromus: As well as a large number of species in North America, a smaller number of species are also known from Eurasia.",
+    "Ehretia: Ehretia is a genus of flowering plants in the borage family, Boraginaceae.",
+    "Ehretia: It contains about 50 species.",
+    "Phyllanthus: Estimates of the number species in this genus vary widely, from 750 to 1200.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 379,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5707743329694495
+   },
+   "retrieval_latency_seconds": 0.13323354197200388,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 364,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.903713749954477
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Xanthoceras: Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+    "Xanthoceras: It is also cultivated in Russia, having been imported there since the 19th Century.",
+    "Stygobromus: As well as a large number of species in North America, a smaller number of species are also known from Eurasia.",
+    "Ehretia: Ehretia is a genus of flowering plants in the borage family, Boraginaceae.",
+    "Ehretia: It contains about 50 species.",
+    "Phyllanthus: Estimates of the number species in this genus vary widely, from 750 to 1200.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 379,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.528080957941711
+   },
+   "retrieval_latency_seconds": 0.516821333905682,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 364,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.9107947919983417
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Xanthoceras: Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+    "Xanthoceras: It is also cultivated in Russia, having been imported there since the 19th Century.",
+    "Stygobromus: As well as a large number of species in North America, a smaller number of species are also known from Eurasia.",
+    "Ehretia: Ehretia is a genus of flowering plants in the borage family, Boraginaceae.",
+    "Ehretia: It contains about 50 species.",
+    "Phyllanthus: Estimates of the number species in this genus vary widely, from 750 to 1200.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 379,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5489964579464868
+   },
+   "retrieval_latency_seconds": 0.6073983749374747,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 364,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8928157920017838
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Xanthoceras: Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras.",
+    "Xanthoceras: It is also cultivated in Russia, having been imported there since the 19th Century.",
+    "Stygobromus: As well as a large number of species in North America, a smaller number of species are also known from Eurasia.",
+    "Ehretia: Ehretia is a genus of flowering plants in the borage family, Boraginaceae.",
+    "Ehretia: It contains about 50 species.",
+    "Phyllanthus: Estimates of the number species in this genus vary widely, from 750 to 1200.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Ehretia",
+   "answer_usage": {
+    "in": 379,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5655932500958443
+   },
+   "retrieval_latency_seconds": 0.09614933305419981,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 364,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.9012311660917476
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.375,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.625,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

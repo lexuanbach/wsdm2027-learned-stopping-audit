@@ -1,0 +1,376 @@
+{
+ "id": "5ae10a5b55429920d52342a0",
+ "question": "Who was the director of the 2000 American comedy film in which the actress, whose first role in film was in director Martin Kunert's film \"Campfire Tales\", played a role?",
+ "gold_answers": [
+  "Todd Phillips"
+ ],
+ "support_titles": [
+  "Amy Smart",
+  "Road Trip (film)"
+ ],
+ "support_sentences": [
+  "Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+  "She has since appeared in numerous films, including \"Varsity Blues\" (1999), \"Road Trip\" (2000), \"Rat Race\" (2001), \"The Butterfly Effect\" (2004), \"Just Friends\" (2005), \"Mirrors\" (2008), and Tyler Perry's \"The Single Moms Club\" (2014).",
+  "Road Trip is a 2000 American comedy film directed by Todd Phillips and written by Scot Armstrong and Phillips."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have enough information to answer this question. The evidence section is empty, and I would need to identify which actress had her first film role in \"Campfire Tales\" directed by Martin",
+   "answer_usage": {
+    "in": 103,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.983365208026953
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Amy Smart: Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+    "Campfire Tales (1997 film): Campfire Tales is a 1997 American anthology horror film directed by Matt Cooper, Martin Kunert, and David Semel.",
+    "Don't Blink (film): As they attempt to find out what happened to the other guests, they are horrified to find that they too are disappearing."
+   ],
+   "answer": "I need to find the director of a 2000 American comedy film featuring Amy Smart",
+   "answer_usage": {
+    "in": 201,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7717572499532253
+   },
+   "retrieval_latency_seconds": 0.15630275011062622,
+   "query": "I need to find the actress whose first film role was in Martin Kunert's \"Campfire Tales\", then find what 2000 American comedy",
+   "query_usage": {
+    "in": 88,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7849913749378175
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Amy Smart: Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+    "Campfire Tales (1997 film): Campfire Tales is a 1997 American anthology horror film directed by Matt Cooper, Martin Kunert, and David Semel.",
+    "Don't Blink (film): As they attempt to find out what happened to the other guests, they are horrified to find that they too are disappearing.",
+    "Amy Smart: Amy Lysle Smart (born March 26, 1976) is an American actress and former fashion model.",
+    "Amy Smart: Smart began her career modeling in Italy and subsequently enrolled in acting school.",
+    "Amy Smart: She has since appeared in numerous films, including \"Varsity Blues\" (1999), \"Road Trip\" (2000), \"Rat Race\" (2001), \"The Butterfly Effect\" (2004), \"Just Friends\" (2005), \"Mirrors\" (2008), and Tyler Perry's \"The Single Moms Club\" (2014)."
+   ],
+   "answer": "Barry Levinson",
+   "answer_usage": {
+    "in": 332,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5854404999408871
+   },
+   "retrieval_latency_seconds": 0.006411666050553322,
+   "query": "Amy Smart 2000 films comedy",
+   "query_usage": {
+    "in": 186,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6823416668921709
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Amy Smart: Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+    "Campfire Tales (1997 film): Campfire Tales is a 1997 American anthology horror film directed by Matt Cooper, Martin Kunert, and David Semel.",
+    "Don't Blink (film): As they attempt to find out what happened to the other guests, they are horrified to find that they too are disappearing.",
+    "Amy Smart: Amy Lysle Smart (born March 26, 1976) is an American actress and former fashion model.",
+    "Amy Smart: Smart began her career modeling in Italy and subsequently enrolled in acting school.",
+    "Amy Smart: She has since appeared in numerous films, including \"Varsity Blues\" (1999), \"Road Trip\" (2000), \"Rat Race\" (2001), \"The Butterfly Effect\" (2004), \"Just Friends\" (2005), \"Mirrors\" (2008), and Tyler Perry's \"The Single Moms Club\" (2014).",
+    "Road Trip (film): Road Trip is a 2000 American comedy film directed by Todd Phillips and written by Scot Armstrong and Phillips.",
+    "Road Trip (film): The film stars Breckin Meyer, Seann William Scott, Paulo Costanzo, and DJ Qualls as four college friends who embark on an 1800-mile road trip to retrieve an illicit tape mistakenly mailed to a girlfriend.",
+    "Sex Drive (film): Sex Drive is a 2008 sex comedy film about a high school graduate who goes on a road trip to have sex with a girl he met online."
+   ],
+   "answer": "Todd Phillips",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6332544999895617
+   },
+   "retrieval_latency_seconds": 0.02678587508853525,
+   "query": "Road Trip 2000 film director",
+   "query_usage": {
+    "in": 317,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6565627920208499
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Amy Smart: Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+    "Campfire Tales (1997 film): Campfire Tales is a 1997 American anthology horror film directed by Matt Cooper, Martin Kunert, and David Semel.",
+    "Don't Blink (film): As they attempt to find out what happened to the other guests, they are horrified to find that they too are disappearing.",
+    "Amy Smart: Amy Lysle Smart (born March 26, 1976) is an American actress and former fashion model.",
+    "Amy Smart: Smart began her career modeling in Italy and subsequently enrolled in acting school.",
+    "Amy Smart: She has since appeared in numerous films, including \"Varsity Blues\" (1999), \"Road Trip\" (2000), \"Rat Race\" (2001), \"The Butterfly Effect\" (2004), \"Just Friends\" (2005), \"Mirrors\" (2008), and Tyler Perry's \"The Single Moms Club\" (2014).",
+    "Road Trip (film): Road Trip is a 2000 American comedy film directed by Todd Phillips and written by Scot Armstrong and Phillips.",
+    "Road Trip (film): The film stars Breckin Meyer, Seann William Scott, Paulo Costanzo, and DJ Qualls as four college friends who embark on an 1800-mile road trip to retrieve an illicit tape mistakenly mailed to a girlfriend.",
+    "Sex Drive (film): Sex Drive is a 2008 sex comedy film about a high school graduate who goes on a road trip to have sex with a girl he met online."
+   ],
+   "answer": "Todd Phillips",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5840071670245379
+   },
+   "retrieval_latency_seconds": 0.007158665917813778,
+   "query": "Amy Smart Road Trip 2000 cast",
+   "query_usage": {
+    "in": 452,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.644596082973294
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Amy Smart: Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+    "Campfire Tales (1997 film): Campfire Tales is a 1997 American anthology horror film directed by Matt Cooper, Martin Kunert, and David Semel.",
+    "Don't Blink (film): As they attempt to find out what happened to the other guests, they are horrified to find that they too are disappearing.",
+    "Amy Smart: Amy Lysle Smart (born March 26, 1976) is an American actress and former fashion model.",
+    "Amy Smart: Smart began her career modeling in Italy and subsequently enrolled in acting school.",
+    "Amy Smart: She has since appeared in numerous films, including \"Varsity Blues\" (1999), \"Road Trip\" (2000), \"Rat Race\" (2001), \"The Butterfly Effect\" (2004), \"Just Friends\" (2005), \"Mirrors\" (2008), and Tyler Perry's \"The Single Moms Club\" (2014).",
+    "Road Trip (film): Road Trip is a 2000 American comedy film directed by Todd Phillips and written by Scot Armstrong and Phillips.",
+    "Road Trip (film): The film stars Breckin Meyer, Seann William Scott, Paulo Costanzo, and DJ Qualls as four college friends who embark on an 1800-mile road trip to retrieve an illicit tape mistakenly mailed to a girlfriend.",
+    "Sex Drive (film): Sex Drive is a 2008 sex comedy film about a high school graduate who goes on a road trip to have sex with a girl he met online."
+   ],
+   "answer": "Todd Phillips",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5710307079134509
+   },
+   "retrieval_latency_seconds": 0.006201499956659973,
+   "query": "Amy Smart Road Trip 2000 cast",
+   "query_usage": {
+    "in": 452,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6367132080486044
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Amy Smart: Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+    "Campfire Tales (1997 film): Campfire Tales is a 1997 American anthology horror film directed by Matt Cooper, Martin Kunert, and David Semel.",
+    "Don't Blink (film): As they attempt to find out what happened to the other guests, they are horrified to find that they too are disappearing.",
+    "Amy Smart: Amy Lysle Smart (born March 26, 1976) is an American actress and former fashion model.",
+    "Amy Smart: Smart began her career modeling in Italy and subsequently enrolled in acting school.",
+    "Amy Smart: She has since appeared in numerous films, including \"Varsity Blues\" (1999), \"Road Trip\" (2000), \"Rat Race\" (2001), \"The Butterfly Effect\" (2004), \"Just Friends\" (2005), \"Mirrors\" (2008), and Tyler Perry's \"The Single Moms Club\" (2014).",
+    "Road Trip (film): Road Trip is a 2000 American comedy film directed by Todd Phillips and written by Scot Armstrong and Phillips.",
+    "Road Trip (film): The film stars Breckin Meyer, Seann William Scott, Paulo Costanzo, and DJ Qualls as four college friends who embark on an 1800-mile road trip to retrieve an illicit tape mistakenly mailed to a girlfriend.",
+    "Sex Drive (film): Sex Drive is a 2008 sex comedy film about a high school graduate who goes on a road trip to have sex with a girl he met online."
+   ],
+   "answer": "Todd Phillips",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.58686495909933
+   },
+   "retrieval_latency_seconds": 0.0030402090633288026,
+   "query": "Amy Smart Road Trip 2000 cast",
+   "query_usage": {
+    "in": 452,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6538737498922274
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Amy Smart: Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+    "Campfire Tales (1997 film): Campfire Tales is a 1997 American anthology horror film directed by Matt Cooper, Martin Kunert, and David Semel.",
+    "Don't Blink (film): As they attempt to find out what happened to the other guests, they are horrified to find that they too are disappearing.",
+    "Amy Smart: Amy Lysle Smart (born March 26, 1976) is an American actress and former fashion model.",
+    "Amy Smart: Smart began her career modeling in Italy and subsequently enrolled in acting school.",
+    "Amy Smart: She has since appeared in numerous films, including \"Varsity Blues\" (1999), \"Road Trip\" (2000), \"Rat Race\" (2001), \"The Butterfly Effect\" (2004), \"Just Friends\" (2005), \"Mirrors\" (2008), and Tyler Perry's \"The Single Moms Club\" (2014).",
+    "Road Trip (film): Road Trip is a 2000 American comedy film directed by Todd Phillips and written by Scot Armstrong and Phillips.",
+    "Road Trip (film): The film stars Breckin Meyer, Seann William Scott, Paulo Costanzo, and DJ Qualls as four college friends who embark on an 1800-mile road trip to retrieve an illicit tape mistakenly mailed to a girlfriend.",
+    "Sex Drive (film): Sex Drive is a 2008 sex comedy film about a high school graduate who goes on a road trip to have sex with a girl he met online."
+   ],
+   "answer": "Todd Phillips",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.585342500009574
+   },
+   "retrieval_latency_seconds": 0.004825833020731807,
+   "query": "Amy Smart Road Trip 2000 cast",
+   "query_usage": {
+    "in": 452,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6505473750876263
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Amy Smart: Her first role in film was in director Martin Kunert's film \"Campfire Tales.\"",
+    "Campfire Tales (1997 film): Campfire Tales is a 1997 American anthology horror film directed by Matt Cooper, Martin Kunert, and David Semel.",
+    "Don't Blink (film): As they attempt to find out what happened to the other guests, they are horrified to find that they too are disappearing.",
+    "Amy Smart: Amy Lysle Smart (born March 26, 1976) is an American actress and former fashion model.",
+    "Amy Smart: Smart began her career modeling in Italy and subsequently enrolled in acting school.",
+    "Amy Smart: She has since appeared in numerous films, including \"Varsity Blues\" (1999), \"Road Trip\" (2000), \"Rat Race\" (2001), \"The Butterfly Effect\" (2004), \"Just Friends\" (2005), \"Mirrors\" (2008), and Tyler Perry's \"The Single Moms Club\" (2014).",
+    "Road Trip (film): Road Trip is a 2000 American comedy film directed by Todd Phillips and written by Scot Armstrong and Phillips.",
+    "Road Trip (film): The film stars Breckin Meyer, Seann William Scott, Paulo Costanzo, and DJ Qualls as four college friends who embark on an 1800-mile road trip to retrieve an illicit tape mistakenly mailed to a girlfriend.",
+    "Sex Drive (film): Sex Drive is a 2008 sex comedy film about a high school graduate who goes on a road trip to have sex with a girl he met online."
+   ],
+   "answer": "Todd Phillips",
+   "answer_usage": {
+    "in": 467,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5710492089856416
+   },
+   "retrieval_latency_seconds": 0.006792459054850042,
+   "query": "Amy Smart Road Trip 2000 cast",
+   "query_usage": {
+    "in": 452,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.734068916994147
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   33.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6363636363636364,
+   3.0,
+   1.0,
+   13.0,
+   0.6,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7272727272727273,
+   3.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.8181818181818182,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.8181818181818182,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.8181818181818182,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.8181818181818182,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.8181818181818182,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.8181818181818182,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   4.0
+  ]
+ ]
+}

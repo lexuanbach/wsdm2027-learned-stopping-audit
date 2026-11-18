@@ -1,0 +1,363 @@
+{
+ "id": "5ab9d44255429939ce03dc36",
+ "question": "The History of Ranching is a mural that was originally located at an American brewery that in 1999 began trasfering its production to who?",
+ "gold_answers": [
+  "Miller Brewing"
+ ],
+ "support_titles": [
+  "The History of Ranching (Winn)",
+  "Pearl Brewing Company"
+ ],
+ "support_sentences": [
+  "The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+  "The Pearl Brewing Company (also known as the Pearl Brewery or just Pearl) was an American brewery, established in 1883 in Downtown San Antonio, Texas, USA.",
+  "In 1999, the Pabst Brewing Company began transferring its production to Miller Brewing, on a contract basis, and closing all of its breweries."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have evidence to answer this question accurately. I cannot provide a reliable answer about which brewery had \"The History of Ranching\" mural or who they transferred production to in 1",
+   "answer_usage": {
+    "in": 94,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.885541541967541
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "The History of Ranching (Winn): The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+    "Pecos, Texas: The city is a regional commercial center for ranching, oil and gas production and agriculture.",
+    "Brains Brewery: The company took over Crown Buckley brewery in Llanelli in 1997, and Hancock's Brewery in 1999."
+   ],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 191,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 1.0047058750642464
+   },
+   "retrieval_latency_seconds": 0.09201208304148167,
+   "query": "The History of Ranching mural brewery 1999 production transfer",
+   "query_usage": {
+    "in": 79,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.7208434999920428
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "The History of Ranching (Winn): The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+    "Pecos, Texas: The city is a regional commercial center for ranching, oil and gas production and agriculture.",
+    "Brains Brewery: The company took over Crown Buckley brewery in Llanelli in 1997, and Hancock's Brewery in 1999.",
+    "Pearl Brewing Company: Pearl beer is still in production at Miller's Ft. Worth, Texas facility, but the Pearl Brewery in San Antonio was closed in 2001.",
+    "Pearl Brewing Company: The Pearl Brewing Company (also known as the Pearl Brewery or just Pearl) was an American brewery, established in 1883 in Downtown San Antonio, Texas, USA."
+   ],
+   "answer": "Miller",
+   "answer_usage": {
+    "in": 274,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5662402090383694
+   },
+   "retrieval_latency_seconds": 0.007149084005504847,
+   "query": "Pearl Brewery San Antonio 1999 production transfer",
+   "query_usage": {
+    "in": 176,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.7057628330076113
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "The History of Ranching (Winn): The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+    "Pecos, Texas: The city is a regional commercial center for ranching, oil and gas production and agriculture.",
+    "Brains Brewery: The company took over Crown Buckley brewery in Llanelli in 1997, and Hancock's Brewery in 1999.",
+    "Pearl Brewing Company: Pearl beer is still in production at Miller's Ft. Worth, Texas facility, but the Pearl Brewery in San Antonio was closed in 2001.",
+    "Pearl Brewing Company: The Pearl Brewing Company (also known as the Pearl Brewery or just Pearl) was an American brewery, established in 1883 in Downtown San Antonio, Texas, USA.",
+    "Pearl Brewing Company: In 1999, the Pabst Brewing Company began transferring its production to Miller Brewing, on a contract basis, and closing all of its breweries.",
+    "Pearl Brewing Company: In 1985, Pearl's parent company purchased the Pabst Brewing Company and assumed the Pabst name."
+   ],
+   "answer": "Miller Brewing",
+   "answer_usage": {
+    "in": 351,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6080533750355244
+   },
+   "retrieval_latency_seconds": 0.00660404097288847,
+   "query": "Pearl Brewing Company 1999 production transfer",
+   "query_usage": {
+    "in": 259,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.610526958014816
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "The History of Ranching (Winn): The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+    "Pecos, Texas: The city is a regional commercial center for ranching, oil and gas production and agriculture.",
+    "Brains Brewery: The company took over Crown Buckley brewery in Llanelli in 1997, and Hancock's Brewery in 1999.",
+    "Pearl Brewing Company: Pearl beer is still in production at Miller's Ft. Worth, Texas facility, but the Pearl Brewery in San Antonio was closed in 2001.",
+    "Pearl Brewing Company: The Pearl Brewing Company (also known as the Pearl Brewery or just Pearl) was an American brewery, established in 1883 in Downtown San Antonio, Texas, USA.",
+    "Pearl Brewing Company: In 1999, the Pabst Brewing Company began transferring its production to Miller Brewing, on a contract basis, and closing all of its breweries.",
+    "Pearl Brewing Company: In 1985, Pearl's parent company purchased the Pabst Brewing Company and assumed the Pabst name."
+   ],
+   "answer": "Miller Brewing",
+   "answer_usage": {
+    "in": 351,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5569668329553679
+   },
+   "retrieval_latency_seconds": 0.00855754199437797,
+   "query": "Miller Brewing Company Pearl Brewery 1999 production transfer",
+   "query_usage": {
+    "in": 336,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.5948640829883516
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "The History of Ranching (Winn): The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+    "Pecos, Texas: The city is a regional commercial center for ranching, oil and gas production and agriculture.",
+    "Brains Brewery: The company took over Crown Buckley brewery in Llanelli in 1997, and Hancock's Brewery in 1999.",
+    "Pearl Brewing Company: Pearl beer is still in production at Miller's Ft. Worth, Texas facility, but the Pearl Brewery in San Antonio was closed in 2001.",
+    "Pearl Brewing Company: The Pearl Brewing Company (also known as the Pearl Brewery or just Pearl) was an American brewery, established in 1883 in Downtown San Antonio, Texas, USA.",
+    "Pearl Brewing Company: In 1999, the Pabst Brewing Company began transferring its production to Miller Brewing, on a contract basis, and closing all of its breweries.",
+    "Pearl Brewing Company: In 1985, Pearl's parent company purchased the Pabst Brewing Company and assumed the Pabst name."
+   ],
+   "answer": "Miller Brewing",
+   "answer_usage": {
+    "in": 351,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5686990000540391
+   },
+   "retrieval_latency_seconds": 0.006637916900217533,
+   "query": "Miller Brewing Company Pearl Brewery 1999 production transfer",
+   "query_usage": {
+    "in": 336,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.63441695808433
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "The History of Ranching (Winn): The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+    "Pecos, Texas: The city is a regional commercial center for ranching, oil and gas production and agriculture.",
+    "Brains Brewery: The company took over Crown Buckley brewery in Llanelli in 1997, and Hancock's Brewery in 1999.",
+    "Pearl Brewing Company: Pearl beer is still in production at Miller's Ft. Worth, Texas facility, but the Pearl Brewery in San Antonio was closed in 2001.",
+    "Pearl Brewing Company: The Pearl Brewing Company (also known as the Pearl Brewery or just Pearl) was an American brewery, established in 1883 in Downtown San Antonio, Texas, USA.",
+    "Pearl Brewing Company: In 1999, the Pabst Brewing Company began transferring its production to Miller Brewing, on a contract basis, and closing all of its breweries.",
+    "Pearl Brewing Company: In 1985, Pearl's parent company purchased the Pabst Brewing Company and assumed the Pabst name."
+   ],
+   "answer": "Miller Brewing",
+   "answer_usage": {
+    "in": 351,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5916246670531109
+   },
+   "retrieval_latency_seconds": 0.018778458004817367,
+   "query": "Miller Brewing Company Pearl Brewery 1999 production transfer",
+   "query_usage": {
+    "in": 336,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.5930383750237525
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "The History of Ranching (Winn): The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+    "Pecos, Texas: The city is a regional commercial center for ranching, oil and gas production and agriculture.",
+    "Brains Brewery: The company took over Crown Buckley brewery in Llanelli in 1997, and Hancock's Brewery in 1999.",
+    "Pearl Brewing Company: Pearl beer is still in production at Miller's Ft. Worth, Texas facility, but the Pearl Brewery in San Antonio was closed in 2001.",
+    "Pearl Brewing Company: The Pearl Brewing Company (also known as the Pearl Brewery or just Pearl) was an American brewery, established in 1883 in Downtown San Antonio, Texas, USA.",
+    "Pearl Brewing Company: In 1999, the Pabst Brewing Company began transferring its production to Miller Brewing, on a contract basis, and closing all of its breweries.",
+    "Pearl Brewing Company: In 1985, Pearl's parent company purchased the Pabst Brewing Company and assumed the Pabst name."
+   ],
+   "answer": "Miller Brewing",
+   "answer_usage": {
+    "in": 351,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5496996670262888
+   },
+   "retrieval_latency_seconds": 0.019317958038300276,
+   "query": "Miller Brewing Company Pearl Brewery 1999 production transfer",
+   "query_usage": {
+    "in": 336,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6017635830212384
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "The History of Ranching (Winn): The History of Ranching is a mural that was originally located at the Pearl Brewery in San Antonio, Texas.",
+    "Pecos, Texas: The city is a regional commercial center for ranching, oil and gas production and agriculture.",
+    "Brains Brewery: The company took over Crown Buckley brewery in Llanelli in 1997, and Hancock's Brewery in 1999.",
+    "Pearl Brewing Company: Pearl beer is still in production at Miller's Ft. Worth, Texas facility, but the Pearl Brewery in San Antonio was closed in 2001.",
+    "Pearl Brewing Company: The Pearl Brewing Company (also known as the Pearl Brewery or just Pearl) was an American brewery, established in 1883 in Downtown San Antonio, Texas, USA.",
+    "Pearl Brewing Company: In 1999, the Pabst Brewing Company began transferring its production to Miller Brewing, on a contract basis, and closing all of its breweries.",
+    "Pearl Brewing Company: In 1985, Pearl's parent company purchased the Pabst Brewing Company and assumed the Pabst name."
+   ],
+   "answer": "Miller Brewing",
+   "answer_usage": {
+    "in": 351,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5735832499340177
+   },
+   "retrieval_latency_seconds": 0.004561667097732425,
+   "query": "Miller Brewing Company Pearl Brewery 1999 production transfer",
+   "query_usage": {
+    "in": 336,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6931762499734759
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.6666666666666666,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   31.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6956521739130435,
+   3.0,
+   1.0,
+   7.0,
+   0.125,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.782608695652174,
+   2.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.9130434782608695,
+   2.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.9130434782608695,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.9130434782608695,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.9130434782608695,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.9130434782608695,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.9130434782608695,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   4.0
+  ]
+ ]
+}

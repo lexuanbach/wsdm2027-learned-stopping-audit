@@ -1,0 +1,369 @@
+{
+ "id": "5a84d2ea5542992a431d1aa8",
+ "question": "What career titles do Ed Wood and Fernand Rivers share?",
+ "gold_answers": [
+  "actor, writer, producer, and director"
+ ],
+ "support_titles": [
+  "Ed Wood",
+  "Fernand Rivers"
+ ],
+ "support_sentences": [
+  "Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an American filmmaker, actor, writer, producer, and director.",
+  "Fernand Rivers (born Fran\u00e7ois Large, 6 September 1879, Saint-Lager - 12 September 1960) was a French actor, screenwriter, film producer and director."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Director, Screenwriter",
+   "answer_usage": {
+    "in": 74,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6147129579912871
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+    "Frankenweenie (2012 film): \"); and Martin Landau (\"Ed Wood\" and \"Sleepy Hollow\").",
+    "Woodson, Arkansas: Woodson is adjacent to the Wood Plantation, the largest of the plantations own by Ed Wood Sr."
+   ],
+   "answer": "Unable to determine from provided evidence",
+   "answer_usage": {
+    "in": 173,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.825066167046316
+   },
+   "retrieval_latency_seconds": 0.004539416986517608,
+   "query": "Ed Wood career titles",
+   "query_usage": {
+    "in": 59,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5672137920046225
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+    "Frankenweenie (2012 film): \"); and Martin Landau (\"Ed Wood\" and \"Sleepy Hollow\").",
+    "Woodson, Arkansas: Woodson is adjacent to the Wood Plantation, the largest of the plantations own by Ed Wood Sr.",
+    "Fernand Rivers: Fernand Rivers (born Fran\u00e7ois Large, 6 September 1879, Saint-Lager - 12 September 1960) was a French actor, screenwriter, film producer and director.",
+    "Fernand Rivers: He was the brother of the actor Rivers Cadet.",
+    "Berlingot and Company: Berlingot and Company (French:Berlingot et compagnie) is a 1939 French comedy film directed by Fernand Rivers and starring Fernandel, Suzy Prim and Fernand Charpin."
+   ],
+   "answer": "director, producer",
+   "answer_usage": {
+    "in": 306,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5817140829749405
+   },
+   "retrieval_latency_seconds": 0.010333415935747325,
+   "query": "Fernand Rivers career filmmaker director",
+   "query_usage": {
+    "in": 158,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6606647919397801
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+    "Frankenweenie (2012 film): \"); and Martin Landau (\"Ed Wood\" and \"Sleepy Hollow\").",
+    "Woodson, Arkansas: Woodson is adjacent to the Wood Plantation, the largest of the plantations own by Ed Wood Sr.",
+    "Fernand Rivers: Fernand Rivers (born Fran\u00e7ois Large, 6 September 1879, Saint-Lager - 12 September 1960) was a French actor, screenwriter, film producer and director.",
+    "Fernand Rivers: He was the brother of the actor Rivers Cadet.",
+    "Berlingot and Company: Berlingot and Company (French:Berlingot et compagnie) is a 1939 French comedy film directed by Fernand Rivers and starring Fernandel, Suzy Prim and Fernand Charpin.",
+    "Ed Wood: Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an American filmmaker, actor, writer, producer, and director.",
+    "Jonathan Goldstein (filmmaker): Jonathan Michael Goldstein (born September 2, 1968) is an American screenwriter, television writer/producer, and film director."
+   ],
+   "answer": "filmmaker, actor, screenwriter, producer, director",
+   "answer_usage": {
+    "in": 387,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5418839589692652
+   },
+   "retrieval_latency_seconds": 0.00937029195483774,
+   "query": "Ed Wood filmmaker career titles screenwriter director producer",
+   "query_usage": {
+    "in": 291,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.715371166006662
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+    "Frankenweenie (2012 film): \"); and Martin Landau (\"Ed Wood\" and \"Sleepy Hollow\").",
+    "Woodson, Arkansas: Woodson is adjacent to the Wood Plantation, the largest of the plantations own by Ed Wood Sr.",
+    "Fernand Rivers: Fernand Rivers (born Fran\u00e7ois Large, 6 September 1879, Saint-Lager - 12 September 1960) was a French actor, screenwriter, film producer and director.",
+    "Fernand Rivers: He was the brother of the actor Rivers Cadet.",
+    "Berlingot and Company: Berlingot and Company (French:Berlingot et compagnie) is a 1939 French comedy film directed by Fernand Rivers and starring Fernandel, Suzy Prim and Fernand Charpin.",
+    "Ed Wood: Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an American filmmaker, actor, writer, producer, and director.",
+    "Jonathan Goldstein (filmmaker): Jonathan Michael Goldstein (born September 2, 1968) is an American screenwriter, television writer/producer, and film director."
+   ],
+   "answer": "filmmaker, actor, screenwriter, producer, director",
+   "answer_usage": {
+    "in": 387,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5631056670099497
+   },
+   "retrieval_latency_seconds": 0.14772729203104973,
+   "query": "I need to find what career titles Ed Wood and Fernand Rivers share. From the information provided:",
+   "query_usage": {
+    "in": 372,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7940904579591006
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+    "Frankenweenie (2012 film): \"); and Martin Landau (\"Ed Wood\" and \"Sleepy Hollow\").",
+    "Woodson, Arkansas: Woodson is adjacent to the Wood Plantation, the largest of the plantations own by Ed Wood Sr.",
+    "Fernand Rivers: Fernand Rivers (born Fran\u00e7ois Large, 6 September 1879, Saint-Lager - 12 September 1960) was a French actor, screenwriter, film producer and director.",
+    "Fernand Rivers: He was the brother of the actor Rivers Cadet.",
+    "Berlingot and Company: Berlingot and Company (French:Berlingot et compagnie) is a 1939 French comedy film directed by Fernand Rivers and starring Fernandel, Suzy Prim and Fernand Charpin.",
+    "Ed Wood: Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an American filmmaker, actor, writer, producer, and director.",
+    "Jonathan Goldstein (filmmaker): Jonathan Michael Goldstein (born September 2, 1968) is an American screenwriter, television writer/producer, and film director."
+   ],
+   "answer": "filmmaker, actor, screenwriter, producer, director",
+   "answer_usage": {
+    "in": 387,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5549687090096995
+   },
+   "retrieval_latency_seconds": 0.10534616594668478,
+   "query": "I need to find what career titles Ed Wood and Fernand Rivers share. From the information provided:",
+   "query_usage": {
+    "in": 372,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8334821249591187
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+    "Frankenweenie (2012 film): \"); and Martin Landau (\"Ed Wood\" and \"Sleepy Hollow\").",
+    "Woodson, Arkansas: Woodson is adjacent to the Wood Plantation, the largest of the plantations own by Ed Wood Sr.",
+    "Fernand Rivers: Fernand Rivers (born Fran\u00e7ois Large, 6 September 1879, Saint-Lager - 12 September 1960) was a French actor, screenwriter, film producer and director.",
+    "Fernand Rivers: He was the brother of the actor Rivers Cadet.",
+    "Berlingot and Company: Berlingot and Company (French:Berlingot et compagnie) is a 1939 French comedy film directed by Fernand Rivers and starring Fernandel, Suzy Prim and Fernand Charpin.",
+    "Ed Wood: Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an American filmmaker, actor, writer, producer, and director.",
+    "Jonathan Goldstein (filmmaker): Jonathan Michael Goldstein (born September 2, 1968) is an American screenwriter, television writer/producer, and film director."
+   ],
+   "answer": "filmmaker, actor, screenwriter, producer, director",
+   "answer_usage": {
+    "in": 387,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5636064161080867
+   },
+   "retrieval_latency_seconds": 0.1311806250596419,
+   "query": "I need to find what career titles Ed Wood and Fernand Rivers share. From the information provided:",
+   "query_usage": {
+    "in": 372,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7411180419148877
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+    "Frankenweenie (2012 film): \"); and Martin Landau (\"Ed Wood\" and \"Sleepy Hollow\").",
+    "Woodson, Arkansas: Woodson is adjacent to the Wood Plantation, the largest of the plantations own by Ed Wood Sr.",
+    "Fernand Rivers: Fernand Rivers (born Fran\u00e7ois Large, 6 September 1879, Saint-Lager - 12 September 1960) was a French actor, screenwriter, film producer and director.",
+    "Fernand Rivers: He was the brother of the actor Rivers Cadet.",
+    "Berlingot and Company: Berlingot and Company (French:Berlingot et compagnie) is a 1939 French comedy film directed by Fernand Rivers and starring Fernandel, Suzy Prim and Fernand Charpin.",
+    "Ed Wood: Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an American filmmaker, actor, writer, producer, and director.",
+    "Jonathan Goldstein (filmmaker): Jonathan Michael Goldstein (born September 2, 1968) is an American screenwriter, television writer/producer, and film director."
+   ],
+   "answer": "filmmaker, actor, screenwriter, producer, director",
+   "answer_usage": {
+    "in": 387,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.558515541953966
+   },
+   "retrieval_latency_seconds": 0.3408411249984056,
+   "query": "I need to find what career titles Ed Wood and Fernand Rivers share. From the information provided:",
+   "query_usage": {
+    "in": 372,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7459365419344977
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Ed Wood (film): Ed Wood is a 1994 American biographical period comedy-drama film directed and produced by Tim Burton, and starring Johnny Depp as cult filmmaker Ed Wood.",
+    "Frankenweenie (2012 film): \"); and Martin Landau (\"Ed Wood\" and \"Sleepy Hollow\").",
+    "Woodson, Arkansas: Woodson is adjacent to the Wood Plantation, the largest of the plantations own by Ed Wood Sr.",
+    "Fernand Rivers: Fernand Rivers (born Fran\u00e7ois Large, 6 September 1879, Saint-Lager - 12 September 1960) was a French actor, screenwriter, film producer and director.",
+    "Fernand Rivers: He was the brother of the actor Rivers Cadet.",
+    "Berlingot and Company: Berlingot and Company (French:Berlingot et compagnie) is a 1939 French comedy film directed by Fernand Rivers and starring Fernandel, Suzy Prim and Fernand Charpin.",
+    "Ed Wood: Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an American filmmaker, actor, writer, producer, and director.",
+    "Jonathan Goldstein (filmmaker): Jonathan Michael Goldstein (born September 2, 1968) is an American screenwriter, television writer/producer, and film director."
+   ],
+   "answer": "filmmaker, actor, screenwriter, producer, director",
+   "answer_usage": {
+    "in": 387,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5538479579845443
+   },
+   "retrieval_latency_seconds": 0.31681287509854883,
+   "query": "I need to find what career titles Ed Wood and Fernand Rivers share. From the information provided:",
+   "query_usage": {
+    "in": 372,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8029257080052048
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.28571428571428575,
+  0.0,
+  0.5714285714285715,
+  0.6,
+  0.6,
+  0.6,
+  0.6,
+  0.6,
+  0.6
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.3,
+   3.0,
+   1.0,
+   6.0,
+   0.16666666666666666,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.5,
+   2.0,
+   1.0,
+   5.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   5.0,
+   1.0,
+   1.0,
+   4.0
+  ]
+ ]
+}

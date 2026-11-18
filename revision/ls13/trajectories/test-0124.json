@@ -1,0 +1,373 @@
+{
+ "id": "5ab3b50055429969a97a818c",
+ "question": "On which river is the shipyard established by Andrew Sprowle ?",
+ "gold_answers": [
+  "the Elizabeth River"
+ ],
+ "support_titles": [
+  "Andrew Sprowle",
+  "Norfolk Naval Shipyard"
+ ],
+ "support_sentences": [
+  "Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+  "Located on the Elizabeth River, the yard is just a short distance upriver from its mouth at Hampton Roads."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "River Clyde",
+   "answer_usage": {
+    "in": 76,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5220066250767559
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Andrew Sprowle: Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+    "Andrew Sprowle: Sprowle emigrated from Scotland to what is currently the Commonwealth of Virginia in the mid-18th century, where he lived until his death in 1776.",
+    "Jean Street Shipyard: Jean Street Shipyard (established 1843) is a shipyard in the United States, located on the Hillsborough River in Tampa, Florida."
+   ],
+   "answer": "Elizabeth River",
+   "answer_usage": {
+    "in": 219,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.514915750012733
+   },
+   "retrieval_latency_seconds": 0.002885416033677757,
+   "query": "Andrew Sprowle shipyard river",
+   "query_usage": {
+    "in": 61,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5744667090475559
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Andrew Sprowle: Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+    "Andrew Sprowle: Sprowle emigrated from Scotland to what is currently the Commonwealth of Virginia in the mid-18th century, where he lived until his death in 1776.",
+    "Jean Street Shipyard: Jean Street Shipyard (established 1843) is a shipyard in the United States, located on the Hillsborough River in Tampa, Florida.",
+    "Norfolk Naval Shipyard: The Norfolk Naval Shipyard, often called the Norfolk Navy Yard and abbreviated as NNSY, is a U.S. Navy facility in Portsmouth, Virginia, for building, remodeling, and repairing the Navy's ships.",
+    "Brooklyn Grange: The Brooklyn Navy Yard farm was financed in part by at $592,730 grant from the NYCDEP's Green Infrastructure Grant Program."
+   ],
+   "answer": "Elizabeth River",
+   "answer_usage": {
+    "in": 316,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5388336250325665
+   },
+   "retrieval_latency_seconds": 0.009553541080094874,
+   "query": "Gosport Navy Yard river location",
+   "query_usage": {
+    "in": 204,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6240452500060201
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Andrew Sprowle: Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+    "Andrew Sprowle: Sprowle emigrated from Scotland to what is currently the Commonwealth of Virginia in the mid-18th century, where he lived until his death in 1776.",
+    "Jean Street Shipyard: Jean Street Shipyard (established 1843) is a shipyard in the United States, located on the Hillsborough River in Tampa, Florida.",
+    "Norfolk Naval Shipyard: The Norfolk Naval Shipyard, often called the Norfolk Navy Yard and abbreviated as NNSY, is a U.S. Navy facility in Portsmouth, Virginia, for building, remodeling, and repairing the Navy's ships.",
+    "Brooklyn Grange: The Brooklyn Navy Yard farm was financed in part by at $592,730 grant from the NYCDEP's Green Infrastructure Grant Program.",
+    "Fort Nelson (Virginia): Fort Nelson was a fort located on what is currently the site of Portsmouth Naval Hospital in Portsmouth, Virginia.",
+    "Tower Mall: Tower Mall was a shopping mall located in Portsmouth, Virginia.",
+    "The Dark Light (film): It was filmed at a rented country estate in Gilston and on location around Portsmouth."
+   ],
+   "answer": "Elizabeth River",
+   "answer_usage": {
+    "in": 388,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5444341669790447
+   },
+   "retrieval_latency_seconds": 0.006418333039619029,
+   "query": "Portsmouth Virginia river location",
+   "query_usage": {
+    "in": 301,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5890136249363422
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Andrew Sprowle: Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+    "Andrew Sprowle: Sprowle emigrated from Scotland to what is currently the Commonwealth of Virginia in the mid-18th century, where he lived until his death in 1776.",
+    "Jean Street Shipyard: Jean Street Shipyard (established 1843) is a shipyard in the United States, located on the Hillsborough River in Tampa, Florida.",
+    "Norfolk Naval Shipyard: The Norfolk Naval Shipyard, often called the Norfolk Navy Yard and abbreviated as NNSY, is a U.S. Navy facility in Portsmouth, Virginia, for building, remodeling, and repairing the Navy's ships.",
+    "Brooklyn Grange: The Brooklyn Navy Yard farm was financed in part by at $592,730 grant from the NYCDEP's Green Infrastructure Grant Program.",
+    "Fort Nelson (Virginia): Fort Nelson was a fort located on what is currently the site of Portsmouth Naval Hospital in Portsmouth, Virginia.",
+    "Tower Mall: Tower Mall was a shopping mall located in Portsmouth, Virginia.",
+    "The Dark Light (film): It was filmed at a rented country estate in Gilston and on location around Portsmouth.",
+    "James River Gorge: The James River Gorge is a water gap created by the James River in Central Virginia."
+   ],
+   "answer": "Elizabeth River",
+   "answer_usage": {
+    "in": 415,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5328682499239221
+   },
+   "retrieval_latency_seconds": 0.004886707989498973,
+   "query": "James River Portsmouth Virginia",
+   "query_usage": {
+    "in": 373,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5968699590303004
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Andrew Sprowle: Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+    "Andrew Sprowle: Sprowle emigrated from Scotland to what is currently the Commonwealth of Virginia in the mid-18th century, where he lived until his death in 1776.",
+    "Jean Street Shipyard: Jean Street Shipyard (established 1843) is a shipyard in the United States, located on the Hillsborough River in Tampa, Florida.",
+    "Norfolk Naval Shipyard: The Norfolk Naval Shipyard, often called the Norfolk Navy Yard and abbreviated as NNSY, is a U.S. Navy facility in Portsmouth, Virginia, for building, remodeling, and repairing the Navy's ships.",
+    "Brooklyn Grange: The Brooklyn Navy Yard farm was financed in part by at $592,730 grant from the NYCDEP's Green Infrastructure Grant Program.",
+    "Fort Nelson (Virginia): Fort Nelson was a fort located on what is currently the site of Portsmouth Naval Hospital in Portsmouth, Virginia.",
+    "Tower Mall: Tower Mall was a shopping mall located in Portsmouth, Virginia.",
+    "The Dark Light (film): It was filmed at a rented country estate in Gilston and on location around Portsmouth.",
+    "James River Gorge: The James River Gorge is a water gap created by the James River in Central Virginia."
+   ],
+   "answer": "Elizabeth River",
+   "answer_usage": {
+    "in": 415,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5526900829281658
+   },
+   "retrieval_latency_seconds": 0.005372375017032027,
+   "query": "Gosport Navy Yard river location",
+   "query_usage": {
+    "in": 400,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6454205830814317
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Andrew Sprowle: Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+    "Andrew Sprowle: Sprowle emigrated from Scotland to what is currently the Commonwealth of Virginia in the mid-18th century, where he lived until his death in 1776.",
+    "Jean Street Shipyard: Jean Street Shipyard (established 1843) is a shipyard in the United States, located on the Hillsborough River in Tampa, Florida.",
+    "Norfolk Naval Shipyard: The Norfolk Naval Shipyard, often called the Norfolk Navy Yard and abbreviated as NNSY, is a U.S. Navy facility in Portsmouth, Virginia, for building, remodeling, and repairing the Navy's ships.",
+    "Brooklyn Grange: The Brooklyn Navy Yard farm was financed in part by at $592,730 grant from the NYCDEP's Green Infrastructure Grant Program.",
+    "Fort Nelson (Virginia): Fort Nelson was a fort located on what is currently the site of Portsmouth Naval Hospital in Portsmouth, Virginia.",
+    "Tower Mall: Tower Mall was a shopping mall located in Portsmouth, Virginia.",
+    "The Dark Light (film): It was filmed at a rented country estate in Gilston and on location around Portsmouth.",
+    "James River Gorge: The James River Gorge is a water gap created by the James River in Central Virginia."
+   ],
+   "answer": "Elizabeth River",
+   "answer_usage": {
+    "in": 415,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5419207910308614
+   },
+   "retrieval_latency_seconds": 0.01823925005737692,
+   "query": "Gosport Navy Yard river location",
+   "query_usage": {
+    "in": 400,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6343868750846013
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Andrew Sprowle: Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+    "Andrew Sprowle: Sprowle emigrated from Scotland to what is currently the Commonwealth of Virginia in the mid-18th century, where he lived until his death in 1776.",
+    "Jean Street Shipyard: Jean Street Shipyard (established 1843) is a shipyard in the United States, located on the Hillsborough River in Tampa, Florida.",
+    "Norfolk Naval Shipyard: The Norfolk Naval Shipyard, often called the Norfolk Navy Yard and abbreviated as NNSY, is a U.S. Navy facility in Portsmouth, Virginia, for building, remodeling, and repairing the Navy's ships.",
+    "Brooklyn Grange: The Brooklyn Navy Yard farm was financed in part by at $592,730 grant from the NYCDEP's Green Infrastructure Grant Program.",
+    "Fort Nelson (Virginia): Fort Nelson was a fort located on what is currently the site of Portsmouth Naval Hospital in Portsmouth, Virginia.",
+    "Tower Mall: Tower Mall was a shopping mall located in Portsmouth, Virginia.",
+    "The Dark Light (film): It was filmed at a rented country estate in Gilston and on location around Portsmouth.",
+    "James River Gorge: The James River Gorge is a water gap created by the James River in Central Virginia."
+   ],
+   "answer": "Elizabeth River",
+   "answer_usage": {
+    "in": 415,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5340563749196008
+   },
+   "retrieval_latency_seconds": 0.0061333749908953905,
+   "query": "Gosport Navy Yard river location",
+   "query_usage": {
+    "in": 400,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6156929169083014
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Andrew Sprowle: Andrew Sprowle (c. 1714 \u2013 1776) was a merchant, British naval agent, and landowner in Portsmouth, Virginia, best known for establishing the Gosport Navy Yard, which is currently known as Norfolk Naval Shipyard.",
+    "Andrew Sprowle: Sprowle emigrated from Scotland to what is currently the Commonwealth of Virginia in the mid-18th century, where he lived until his death in 1776.",
+    "Jean Street Shipyard: Jean Street Shipyard (established 1843) is a shipyard in the United States, located on the Hillsborough River in Tampa, Florida.",
+    "Norfolk Naval Shipyard: The Norfolk Naval Shipyard, often called the Norfolk Navy Yard and abbreviated as NNSY, is a U.S. Navy facility in Portsmouth, Virginia, for building, remodeling, and repairing the Navy's ships.",
+    "Brooklyn Grange: The Brooklyn Navy Yard farm was financed in part by at $592,730 grant from the NYCDEP's Green Infrastructure Grant Program.",
+    "Fort Nelson (Virginia): Fort Nelson was a fort located on what is currently the site of Portsmouth Naval Hospital in Portsmouth, Virginia.",
+    "Tower Mall: Tower Mall was a shopping mall located in Portsmouth, Virginia.",
+    "The Dark Light (film): It was filmed at a rented country estate in Gilston and on location around Portsmouth.",
+    "James River Gorge: The James River Gorge is a water gap created by the James River in Central Virginia."
+   ],
+   "answer": "Elizabeth River",
+   "answer_usage": {
+    "in": 415,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5675251670181751
+   },
+   "retrieval_latency_seconds": 0.005096792010590434,
+   "query": "Gosport Navy Yard river location",
+   "query_usage": {
+    "in": 400,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6601223340258002
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.5,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.9,
+   3.0,
+   1.0,
+   2.0,
+   0.5,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   1.0,
+   2.0,
+   0.0,
+   2.0,
+   0.5,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   1.0,
+   3.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   9.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   9.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   9.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   9.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   9.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   2.0
+  ]
+ ]
+}

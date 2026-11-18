@@ -1,0 +1,363 @@
+{
+ "id": "5a8b97485542995d1e6f140f",
+ "question": "What is common between Matt Vasgersian and Michael Casey?",
+ "gold_answers": [
+  "American"
+ ],
+ "support_titles": [
+  "Matt Vasgersian",
+  "Michael Casey (poet)"
+ ],
+ "support_sentences": [
+  "Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+  "Michael Casey (born 1947) is an American poet of Armenian descent."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Unable to determine from available information",
+   "answer_usage": {
+    "in": 75,
+    "out": 36,
+    "calls": 1,
+    "latency_seconds": 0.8353372500278056
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Matt Vasgersian: Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+    "Baseball IQ: The show is hosted by MLB Network anchor Matt Vasgersian.",
+    "Thursday Night Baseball: Matt Vasgersian also does play-by-play on some games."
+   ],
+   "answer": "Unable to determine from provided evidence",
+   "answer_usage": {
+    "in": 153,
+    "out": 39,
+    "calls": 1,
+    "latency_seconds": 0.8755402909591794
+   },
+   "retrieval_latency_seconds": 0.0025700830155983567,
+   "query": "Matt Vasgersian Michael Casey",
+   "query_usage": {
+    "in": 60,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5606805830029771
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Matt Vasgersian: Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+    "Baseball IQ: The show is hosted by MLB Network anchor Matt Vasgersian.",
+    "Thursday Night Baseball: Matt Vasgersian also does play-by-play on some games.",
+    "Michael Casey (poet): Michael Casey (born 1947) is an American poet of Armenian descent.",
+    "Sean Casey (baseball): He is currently a broadcaster and commentator for the MLB Network.",
+    "Michael T. Casey: Rev. Dr. Michael Casey OP, MSc, PhD, FICI, (1902-1997) was an Irish Dominican priest and Chemist."
+   ],
+   "answer": "Both are associated with MLB Network",
+   "answer_usage": {
+    "in": 238,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6729547089198604
+   },
+   "retrieval_latency_seconds": 0.0022218750091269612,
+   "query": "Michael Casey broadcaster sportscaster",
+   "query_usage": {
+    "in": 138,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5414559999480844
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Matt Vasgersian: Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+    "Baseball IQ: The show is hosted by MLB Network anchor Matt Vasgersian.",
+    "Thursday Night Baseball: Matt Vasgersian also does play-by-play on some games.",
+    "Michael Casey (poet): Michael Casey (born 1947) is an American poet of Armenian descent.",
+    "Sean Casey (baseball): He is currently a broadcaster and commentator for the MLB Network.",
+    "Michael T. Casey: Rev. Dr. Michael Casey OP, MSc, PhD, FICI, (1902-1997) was an Irish Dominican priest and Chemist.",
+    "Michael Irvin: He is also a former broadcaster for ESPN's \"Sunday NFL Countdown\" and currently an analyst for NFL Network."
+   ],
+   "answer": "Both are broadcasters/commentators for MLB Network",
+   "answer_usage": {
+    "in": 268,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6486061670584604
+   },
+   "retrieval_latency_seconds": 0.00329112506005913,
+   "query": "Michael Casey MLB Network broadcaster",
+   "query_usage": {
+    "in": 223,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5546193339396268
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Matt Vasgersian: Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+    "Baseball IQ: The show is hosted by MLB Network anchor Matt Vasgersian.",
+    "Thursday Night Baseball: Matt Vasgersian also does play-by-play on some games.",
+    "Michael Casey (poet): Michael Casey (born 1947) is an American poet of Armenian descent.",
+    "Sean Casey (baseball): He is currently a broadcaster and commentator for the MLB Network.",
+    "Michael T. Casey: Rev. Dr. Michael Casey OP, MSc, PhD, FICI, (1902-1997) was an Irish Dominican priest and Chemist.",
+    "Michael Irvin: He is also a former broadcaster for ESPN's \"Sunday NFL Countdown\" and currently an analyst for NFL Network."
+   ],
+   "answer": "Both are broadcasters/commentators for MLB Network",
+   "answer_usage": {
+    "in": 268,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6565917920088395
+   },
+   "retrieval_latency_seconds": 0.0028544169617816806,
+   "query": "Michael Casey MLB Network broadcaster",
+   "query_usage": {
+    "in": 253,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6132649999344721
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Matt Vasgersian: Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+    "Baseball IQ: The show is hosted by MLB Network anchor Matt Vasgersian.",
+    "Thursday Night Baseball: Matt Vasgersian also does play-by-play on some games.",
+    "Michael Casey (poet): Michael Casey (born 1947) is an American poet of Armenian descent.",
+    "Sean Casey (baseball): He is currently a broadcaster and commentator for the MLB Network.",
+    "Michael T. Casey: Rev. Dr. Michael Casey OP, MSc, PhD, FICI, (1902-1997) was an Irish Dominican priest and Chemist.",
+    "Michael Irvin: He is also a former broadcaster for ESPN's \"Sunday NFL Countdown\" and currently an analyst for NFL Network."
+   ],
+   "answer": "Both are broadcasters/commentators for MLB Network",
+   "answer_usage": {
+    "in": 268,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6611848750617355
+   },
+   "retrieval_latency_seconds": 0.0029265410266816616,
+   "query": "Michael Casey MLB Network broadcaster",
+   "query_usage": {
+    "in": 253,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.606543582980521
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Matt Vasgersian: Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+    "Baseball IQ: The show is hosted by MLB Network anchor Matt Vasgersian.",
+    "Thursday Night Baseball: Matt Vasgersian also does play-by-play on some games.",
+    "Michael Casey (poet): Michael Casey (born 1947) is an American poet of Armenian descent.",
+    "Sean Casey (baseball): He is currently a broadcaster and commentator for the MLB Network.",
+    "Michael T. Casey: Rev. Dr. Michael Casey OP, MSc, PhD, FICI, (1902-1997) was an Irish Dominican priest and Chemist.",
+    "Michael Irvin: He is also a former broadcaster for ESPN's \"Sunday NFL Countdown\" and currently an analyst for NFL Network."
+   ],
+   "answer": "Both are broadcasters/commentators for MLB Network",
+   "answer_usage": {
+    "in": 268,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6613687499193475
+   },
+   "retrieval_latency_seconds": 0.005241667036898434,
+   "query": "Michael Casey MLB Network broadcaster",
+   "query_usage": {
+    "in": 253,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6017675419570878
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Matt Vasgersian: Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+    "Baseball IQ: The show is hosted by MLB Network anchor Matt Vasgersian.",
+    "Thursday Night Baseball: Matt Vasgersian also does play-by-play on some games.",
+    "Michael Casey (poet): Michael Casey (born 1947) is an American poet of Armenian descent.",
+    "Sean Casey (baseball): He is currently a broadcaster and commentator for the MLB Network.",
+    "Michael T. Casey: Rev. Dr. Michael Casey OP, MSc, PhD, FICI, (1902-1997) was an Irish Dominican priest and Chemist.",
+    "Michael Irvin: He is also a former broadcaster for ESPN's \"Sunday NFL Countdown\" and currently an analyst for NFL Network."
+   ],
+   "answer": "Both are broadcasters/commentators for MLB Network",
+   "answer_usage": {
+    "in": 268,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.643921957933344
+   },
+   "retrieval_latency_seconds": 0.005597833078354597,
+   "query": "Michael Casey MLB Network broadcaster",
+   "query_usage": {
+    "in": 253,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5907037920551375
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Matt Vasgersian: Matthew Edward \"Matt\" Vasgersian (born September 28, 1967) is an American sportscaster and television host.",
+    "Baseball IQ: The show is hosted by MLB Network anchor Matt Vasgersian.",
+    "Thursday Night Baseball: Matt Vasgersian also does play-by-play on some games.",
+    "Michael Casey (poet): Michael Casey (born 1947) is an American poet of Armenian descent.",
+    "Sean Casey (baseball): He is currently a broadcaster and commentator for the MLB Network.",
+    "Michael T. Casey: Rev. Dr. Michael Casey OP, MSc, PhD, FICI, (1902-1997) was an Irish Dominican priest and Chemist.",
+    "Michael Irvin: He is also a former broadcaster for ESPN's \"Sunday NFL Countdown\" and currently an analyst for NFL Network."
+   ],
+   "answer": "Both are broadcasters/commentators for MLB Network",
+   "answer_usage": {
+    "in": 268,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6408073749626055
+   },
+   "retrieval_latency_seconds": 0.0078837089240551,
+   "query": "Michael Casey MLB Network broadcaster",
+   "query_usage": {
+    "in": 253,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5808562500169501
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   6.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4444444444444444,
+   3.0,
+   1.0,
+   6.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6666666666666666,
+   3.0,
+   1.0,
+   6.0,
+   0.3333333333333333,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.6666666666666666,
+   1.0,
+   1.0,
+   7.0,
+   0.42857142857142855,
+   0.0,
+   4.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   4.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   4.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   7.0,
+   0.42857142857142855,
+   1.0,
+   4.0
+  ]
+ ]
+}

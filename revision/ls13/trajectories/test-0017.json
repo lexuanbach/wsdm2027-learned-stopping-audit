@@ -1,0 +1,385 @@
+{
+ "id": "5a7759fc5542993569682d60",
+ "question": "Where are Teide National Park and Garajonay National Park located?",
+ "gold_answers": [
+  "Canary Islands, Spain"
+ ],
+ "support_titles": [
+  "Teide National Park",
+  "Garajonay National Park"
+ ],
+ "support_sentences": [
+  "Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+  "Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain)."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Spain (Canary Islands)",
+   "answer_usage": {
+    "in": 78,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.613669874961488
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+    "Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).",
+    "Garajonay National Park: It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986."
+   ],
+   "answer": "Canary Islands, Spain",
+   "answer_usage": {
+    "in": 214,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5674862919840962
+   },
+   "retrieval_latency_seconds": 0.022943541989661753,
+   "query": "Teide National Park Garajonay National Park location",
+   "query_usage": {
+    "in": 63,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6180755409877747
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+    "Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).",
+    "Garajonay National Park: It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Joint application design: The attendees include high level management officials who will ensure the product provides the needed reports and information at the end.",
+    "Air Force Legal Operations Agency: This provides information technology services to worldwide Air Force legal offices and provides federal legal information technology through Federal Legal Information Technology and electronics services to legal offices throughout the Department of Defense."
+   ],
+   "answer": "Canary Islands, Spain",
+   "answer_usage": {
+    "in": 313,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5717512919800356
+   },
+   "retrieval_latency_seconds": 0.11251866701059043,
+   "query": "No search query needed. The known information already provides complete answers to the question:",
+   "query_usage": {
+    "in": 199,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8833538331091404
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+    "Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).",
+    "Garajonay National Park: It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Joint application design: The attendees include high level management officials who will ensure the product provides the needed reports and information at the end.",
+    "Air Force Legal Operations Agency: This provides information technology services to worldwide Air Force legal offices and provides federal legal information technology through Federal Legal Information Technology and electronics services to legal offices throughout the Department of Defense.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Park-to-Park Residential Historic District: Both parks are contributing sites."
+   ],
+   "answer": "Canary Islands, Spain",
+   "answer_usage": {
+    "in": 400,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5731755419401452
+   },
+   "retrieval_latency_seconds": 0.6649220410035923,
+   "query": "Based on the known information, I already have the answer to the question. Both parks' locations are clearly stated:",
+   "query_usage": {
+    "in": 298,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8405717919813469
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+    "Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).",
+    "Garajonay National Park: It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Joint application design: The attendees include high level management officials who will ensure the product provides the needed reports and information at the end.",
+    "Air Force Legal Operations Agency: This provides information technology services to worldwide Air Force legal offices and provides federal legal information technology through Federal Legal Information Technology and electronics services to legal offices throughout the Department of Defense.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Park-to-Park Residential Historic District: Both parks are contributing sites.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Oral exam: The student has to answer the question in such a way as to demonstrate sufficient knowledge of the subject to pass the exam."
+   ],
+   "answer": "Canary Islands, Spain",
+   "answer_usage": {
+    "in": 452,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5594342090189457
+   },
+   "retrieval_latency_seconds": 0.22763320803642273,
+   "query": "Based on the information already known, I have sufficient facts to answer the question. Both parks' locations are already documented:",
+   "query_usage": {
+    "in": 385,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8430558750405908
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+    "Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).",
+    "Garajonay National Park: It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Joint application design: The attendees include high level management officials who will ensure the product provides the needed reports and information at the end.",
+    "Air Force Legal Operations Agency: This provides information technology services to worldwide Air Force legal offices and provides federal legal information technology through Federal Legal Information Technology and electronics services to legal offices throughout the Department of Defense.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Park-to-Park Residential Historic District: Both parks are contributing sites.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Oral exam: The student has to answer the question in such a way as to demonstrate sufficient knowledge of the subject to pass the exam."
+   ],
+   "answer": "Canary Islands, Spain",
+   "answer_usage": {
+    "in": 452,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5559409169945866
+   },
+   "retrieval_latency_seconds": 0.11602783296257257,
+   "query": "Based on the known information, I already have sufficient facts to answer the question:",
+   "query_usage": {
+    "in": 437,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8152007079916075
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+    "Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).",
+    "Garajonay National Park: It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Joint application design: The attendees include high level management officials who will ensure the product provides the needed reports and information at the end.",
+    "Air Force Legal Operations Agency: This provides information technology services to worldwide Air Force legal offices and provides federal legal information technology through Federal Legal Information Technology and electronics services to legal offices throughout the Department of Defense.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Park-to-Park Residential Historic District: Both parks are contributing sites.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Oral exam: The student has to answer the question in such a way as to demonstrate sufficient knowledge of the subject to pass the exam."
+   ],
+   "answer": "Canary Islands, Spain",
+   "answer_usage": {
+    "in": 452,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5672937500057742
+   },
+   "retrieval_latency_seconds": 0.10706654191017151,
+   "query": "Based on the known information, I already have sufficient facts to answer the question:",
+   "query_usage": {
+    "in": 437,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8187549170106649
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+    "Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).",
+    "Garajonay National Park: It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Joint application design: The attendees include high level management officials who will ensure the product provides the needed reports and information at the end.",
+    "Air Force Legal Operations Agency: This provides information technology services to worldwide Air Force legal offices and provides federal legal information technology through Federal Legal Information Technology and electronics services to legal offices throughout the Department of Defense.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Park-to-Park Residential Historic District: Both parks are contributing sites.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Oral exam: The student has to answer the question in such a way as to demonstrate sufficient knowledge of the subject to pass the exam."
+   ],
+   "answer": "Canary Islands, Spain",
+   "answer_usage": {
+    "in": 452,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5459605830255896
+   },
+   "retrieval_latency_seconds": 0.10830479208379984,
+   "query": "Based on the known information, I already have sufficient facts to answer the question:",
+   "query_usage": {
+    "in": 437,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8048710420262069
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Teide National Park: Teide National Park (Spanish: \"Parque nacional del Teide\" , ] ) is a national park located in Tenerife (Canary Islands, Spain).",
+    "Garajonay National Park: Garajonay National Park (Spanish: \"Parque nacional de Garajonay\" , ] ) is located in the center and north of the island of La Gomera, one of the Canary Islands (Spain).",
+    "Garajonay National Park: It was declared a national park in 1981 and a World Heritage Site by UNESCO in 1986.",
+    "Staff (military): A staff also provides an executive function where it filters information needed by the commander or shunts unnecessary information.",
+    "Joint application design: The attendees include high level management officials who will ensure the product provides the needed reports and information at the end.",
+    "Air Force Legal Operations Agency: This provides information technology services to worldwide Air Force legal offices and provides federal legal information technology through Federal Legal Information Technology and electronics services to legal offices throughout the Department of Defense.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Park-to-Park Residential Historic District: Both parks are contributing sites.",
+    "Karl Brill: Already I have been forced to drop work in my freshman and sophomore years.",
+    "Oral exam: The student has to answer the question in such a way as to demonstrate sufficient knowledge of the subject to pass the exam."
+   ],
+   "answer": "Canary Islands, Spain",
+   "answer_usage": {
+    "in": 452,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6423707499634475
+   },
+   "retrieval_latency_seconds": 0.1910507499706,
+   "query": "I have sufficient information to answer the question. Both parks are already located:",
+   "query_usage": {
+    "in": 437,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8557048330549151
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.75,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.875,
+   3.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   9.0,
+   1.0,
+   3.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   11.0,
+   1.0,
+   2.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   11.0,
+   1.0,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   11.0,
+   1.0,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   11.0,
+   1.0,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   11.0,
+   1.0,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

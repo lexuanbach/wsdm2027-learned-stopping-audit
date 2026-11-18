@@ -1,0 +1,363 @@
+{
+ "id": "5a8b1a925542997f31a41c6e",
+ "question": "The actor known for his role as \"Freddie\"  in The Deep Blue Sea won the Laurence Olivier Award for his role in which play?",
+ "gold_answers": [
+  "Cymbeline"
+ ],
+ "support_titles": [
+  "The Deep Blue Sea (1955 film)",
+  "Tom Hiddleston"
+ ],
+ "support_sentences": [
+  "Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+  "He won the Laurence Olivier Award for Best Newcomer in a Play for his role in \"Cymbeline\" and was also nominated for the same award for his role as Cassio in \"Othello\"."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I need to identify the actor who played \"Freddie\" in \"The Deep Blue Sea\" and find which play he won a Laurence Olivier Award for",
+   "answer_usage": {
+    "in": 94,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9457023330032825
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Deep Blue Sea (soundtrack): Deep Blue Sea is the soundtrack to the 1999 science fiction thriller film \"Deep Blue Sea\".",
+    "The Deep Blue Sea (1955 film): Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+    "The Deep Blue Sea (2011 film): The Deep Blue Sea is a 2011 British romantic drama film directed by Terence Davies and starring Rachel Weisz, Tom Hiddleston, and Simon Russell Beale."
+   ],
+   "answer": "Cymbeline",
+   "answer_usage": {
+    "in": 233,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5816994170891121
+   },
+   "retrieval_latency_seconds": 0.006722457939758897,
+   "query": "actor Freddie Deep Blue Sea",
+   "query_usage": {
+    "in": 79,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6227381250355393
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Deep Blue Sea (soundtrack): Deep Blue Sea is the soundtrack to the 1999 science fiction thriller film \"Deep Blue Sea\".",
+    "The Deep Blue Sea (1955 film): Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+    "The Deep Blue Sea (2011 film): The Deep Blue Sea is a 2011 British romantic drama film directed by Terence Davies and starring Rachel Weisz, Tom Hiddleston, and Simon Russell Beale.",
+    "Tom Hiddleston: He won the Laurence Olivier Award for Best Newcomer in a Play for his role in \"Cymbeline\" and was also nominated for the same award for his role as Cassio in \"Othello\".",
+    "Laurence Olivier Award for Best New Play: The Laurence Olivier Award for Best New Play is an annual award presented by The Society of London Theatre in recognition of achievements in commercial British theatre.",
+    "Laurence Olivier Award for Best New Play: The awards were established as the Society of West End Theatre Awards in 1976, and renamed in 1984 in honour of English actor Laurence Olivier."
+   ],
+   "answer": "Cymbeline",
+   "answer_usage": {
+    "in": 382,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6072183339856565
+   },
+   "retrieval_latency_seconds": 0.008358833030797541,
+   "query": "Tom Hiddleston Laurence Olivier Award",
+   "query_usage": {
+    "in": 218,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6718149160733446
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Deep Blue Sea (soundtrack): Deep Blue Sea is the soundtrack to the 1999 science fiction thriller film \"Deep Blue Sea\".",
+    "The Deep Blue Sea (1955 film): Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+    "The Deep Blue Sea (2011 film): The Deep Blue Sea is a 2011 British romantic drama film directed by Terence Davies and starring Rachel Weisz, Tom Hiddleston, and Simon Russell Beale.",
+    "Tom Hiddleston: He won the Laurence Olivier Award for Best Newcomer in a Play for his role in \"Cymbeline\" and was also nominated for the same award for his role as Cassio in \"Othello\".",
+    "Laurence Olivier Award for Best New Play: The Laurence Olivier Award for Best New Play is an annual award presented by The Society of London Theatre in recognition of achievements in commercial British theatre.",
+    "Laurence Olivier Award for Best New Play: The awards were established as the Society of West End Theatre Awards in 1976, and renamed in 1984 in honour of English actor Laurence Olivier.",
+    "Tom Hiddleston: At the beginning of his career, he appeared in West End theatre productions of \"Cymbeline\" (2007) and \"Ivanov\" (2008)."
+   ],
+   "answer": "Cymbeline",
+   "answer_usage": {
+    "in": 426,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6772461249493062
+   },
+   "retrieval_latency_seconds": 0.011055166949518025,
+   "query": "Tom Hiddleston Laurence Olivier Award Cymbeline",
+   "query_usage": {
+    "in": 367,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6818884999956936
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Deep Blue Sea (soundtrack): Deep Blue Sea is the soundtrack to the 1999 science fiction thriller film \"Deep Blue Sea\".",
+    "The Deep Blue Sea (1955 film): Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+    "The Deep Blue Sea (2011 film): The Deep Blue Sea is a 2011 British romantic drama film directed by Terence Davies and starring Rachel Weisz, Tom Hiddleston, and Simon Russell Beale.",
+    "Tom Hiddleston: He won the Laurence Olivier Award for Best Newcomer in a Play for his role in \"Cymbeline\" and was also nominated for the same award for his role as Cassio in \"Othello\".",
+    "Laurence Olivier Award for Best New Play: The Laurence Olivier Award for Best New Play is an annual award presented by The Society of London Theatre in recognition of achievements in commercial British theatre.",
+    "Laurence Olivier Award for Best New Play: The awards were established as the Society of West End Theatre Awards in 1976, and renamed in 1984 in honour of English actor Laurence Olivier.",
+    "Tom Hiddleston: At the beginning of his career, he appeared in West End theatre productions of \"Cymbeline\" (2007) and \"Ivanov\" (2008)."
+   ],
+   "answer": "Cymbeline",
+   "answer_usage": {
+    "in": 426,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6032803339185193
+   },
+   "retrieval_latency_seconds": 0.006774500012397766,
+   "query": "Tom Hiddleston Laurence Olivier Award Cymbeline",
+   "query_usage": {
+    "in": 411,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6099146669730544
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Deep Blue Sea (soundtrack): Deep Blue Sea is the soundtrack to the 1999 science fiction thriller film \"Deep Blue Sea\".",
+    "The Deep Blue Sea (1955 film): Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+    "The Deep Blue Sea (2011 film): The Deep Blue Sea is a 2011 British romantic drama film directed by Terence Davies and starring Rachel Weisz, Tom Hiddleston, and Simon Russell Beale.",
+    "Tom Hiddleston: He won the Laurence Olivier Award for Best Newcomer in a Play for his role in \"Cymbeline\" and was also nominated for the same award for his role as Cassio in \"Othello\".",
+    "Laurence Olivier Award for Best New Play: The Laurence Olivier Award for Best New Play is an annual award presented by The Society of London Theatre in recognition of achievements in commercial British theatre.",
+    "Laurence Olivier Award for Best New Play: The awards were established as the Society of West End Theatre Awards in 1976, and renamed in 1984 in honour of English actor Laurence Olivier.",
+    "Tom Hiddleston: At the beginning of his career, he appeared in West End theatre productions of \"Cymbeline\" (2007) and \"Ivanov\" (2008)."
+   ],
+   "answer": "Cymbeline",
+   "answer_usage": {
+    "in": 426,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6246275419835001
+   },
+   "retrieval_latency_seconds": 0.003202749998308718,
+   "query": "Tom Hiddleston Laurence Olivier Award Cymbeline",
+   "query_usage": {
+    "in": 411,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6662015420151874
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Deep Blue Sea (soundtrack): Deep Blue Sea is the soundtrack to the 1999 science fiction thriller film \"Deep Blue Sea\".",
+    "The Deep Blue Sea (1955 film): Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+    "The Deep Blue Sea (2011 film): The Deep Blue Sea is a 2011 British romantic drama film directed by Terence Davies and starring Rachel Weisz, Tom Hiddleston, and Simon Russell Beale.",
+    "Tom Hiddleston: He won the Laurence Olivier Award for Best Newcomer in a Play for his role in \"Cymbeline\" and was also nominated for the same award for his role as Cassio in \"Othello\".",
+    "Laurence Olivier Award for Best New Play: The Laurence Olivier Award for Best New Play is an annual award presented by The Society of London Theatre in recognition of achievements in commercial British theatre.",
+    "Laurence Olivier Award for Best New Play: The awards were established as the Society of West End Theatre Awards in 1976, and renamed in 1984 in honour of English actor Laurence Olivier.",
+    "Tom Hiddleston: At the beginning of his career, he appeared in West End theatre productions of \"Cymbeline\" (2007) and \"Ivanov\" (2008)."
+   ],
+   "answer": "Cymbeline",
+   "answer_usage": {
+    "in": 426,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.638667416991666
+   },
+   "retrieval_latency_seconds": 0.009192041005007923,
+   "query": "Tom Hiddleston Laurence Olivier Award Cymbeline",
+   "query_usage": {
+    "in": 411,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6318847499787807
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Deep Blue Sea (soundtrack): Deep Blue Sea is the soundtrack to the 1999 science fiction thriller film \"Deep Blue Sea\".",
+    "The Deep Blue Sea (1955 film): Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+    "The Deep Blue Sea (2011 film): The Deep Blue Sea is a 2011 British romantic drama film directed by Terence Davies and starring Rachel Weisz, Tom Hiddleston, and Simon Russell Beale.",
+    "Tom Hiddleston: He won the Laurence Olivier Award for Best Newcomer in a Play for his role in \"Cymbeline\" and was also nominated for the same award for his role as Cassio in \"Othello\".",
+    "Laurence Olivier Award for Best New Play: The Laurence Olivier Award for Best New Play is an annual award presented by The Society of London Theatre in recognition of achievements in commercial British theatre.",
+    "Laurence Olivier Award for Best New Play: The awards were established as the Society of West End Theatre Awards in 1976, and renamed in 1984 in honour of English actor Laurence Olivier.",
+    "Tom Hiddleston: At the beginning of his career, he appeared in West End theatre productions of \"Cymbeline\" (2007) and \"Ivanov\" (2008)."
+   ],
+   "answer": "Cymbeline",
+   "answer_usage": {
+    "in": 426,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6490371250547469
+   },
+   "retrieval_latency_seconds": 0.009311791975051165,
+   "query": "Tom Hiddleston Laurence Olivier Award Cymbeline",
+   "query_usage": {
+    "in": 411,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.6160934169311076
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Deep Blue Sea (soundtrack): Deep Blue Sea is the soundtrack to the 1999 science fiction thriller film \"Deep Blue Sea\".",
+    "The Deep Blue Sea (1955 film): Rattigan's play has also been filmed by Terence Davies with Rachel Weisz in the Vivien Leigh role of 'Hester' and Tom Hiddleston as 'Freddie'.",
+    "The Deep Blue Sea (2011 film): The Deep Blue Sea is a 2011 British romantic drama film directed by Terence Davies and starring Rachel Weisz, Tom Hiddleston, and Simon Russell Beale.",
+    "Tom Hiddleston: He won the Laurence Olivier Award for Best Newcomer in a Play for his role in \"Cymbeline\" and was also nominated for the same award for his role as Cassio in \"Othello\".",
+    "Laurence Olivier Award for Best New Play: The Laurence Olivier Award for Best New Play is an annual award presented by The Society of London Theatre in recognition of achievements in commercial British theatre.",
+    "Laurence Olivier Award for Best New Play: The awards were established as the Society of West End Theatre Awards in 1976, and renamed in 1984 in honour of English actor Laurence Olivier.",
+    "Tom Hiddleston: At the beginning of his career, he appeared in West End theatre productions of \"Cymbeline\" (2007) and \"Ivanov\" (2008)."
+   ],
+   "answer": "Cymbeline",
+   "answer_usage": {
+    "in": 426,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6636040830053389
+   },
+   "retrieval_latency_seconds": 0.00460908398963511,
+   "query": "Tom Hiddleston Laurence Olivier Award Cymbeline",
+   "query_usage": {
+    "in": 411,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.619620000012219
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   22.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.8888888888888888,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.8888888888888888,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.8888888888888888,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.8888888888888888,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.8888888888888888,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.8888888888888888,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.8888888888888888,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

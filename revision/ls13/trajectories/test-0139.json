@@ -1,0 +1,357 @@
+{
+ "id": "5ae31bbd55429928c42395fc",
+ "question": "Are Guildford Cathedral and St Paul's Cathedral both located in England?",
+ "gold_answers": [
+  "yes"
+ ],
+ "support_titles": [
+  "Guildford Cathedral",
+  "St Paul's Cathedral"
+ ],
+ "support_sentences": [
+  "The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+  "St Paul's Cathedral, London, is an Anglican cathedral, the seat of the Bishop of London and the mother church of the Diocese of London."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 77,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6859087500488386
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Guildford Cathedral: The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+    "Diocese of Guildford: The cathedral is Guildford Cathedral and the bishop is the Bishop of Guildford.",
+    "Dean of Guildford: The cathedral is the mother church of the Diocese of Guildford and seat of the Bishop of Guildford."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 169,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5217036249814555
+   },
+   "retrieval_latency_seconds": 0.005943416967056692,
+   "query": "Guildford Cathedral location",
+   "query_usage": {
+    "in": 62,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.544466833001934
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Guildford Cathedral: The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+    "Diocese of Guildford: The cathedral is Guildford Cathedral and the bishop is the Bishop of Guildford.",
+    "Dean of Guildford: The cathedral is the mother church of the Diocese of Guildford and seat of the Bishop of Guildford.",
+    "St Paul's Cathedral, Rockhampton: It is also known as St Paul's Church of England and St Paul's Church of England Cathedral.",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is also known as St Paul's Anglican Cathedral Offices, St Paul's Anglican Cathedral Parish Hall, and St Paul's Day School (1902-1912).",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is adjacent to St Paul's Anglican Cathedral."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 273,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5496406250167638
+   },
+   "retrieval_latency_seconds": 0.0198288339888677,
+   "query": "St Paul's Cathedral location England",
+   "query_usage": {
+    "in": 154,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6365109579637647
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Guildford Cathedral: The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+    "Diocese of Guildford: The cathedral is Guildford Cathedral and the bishop is the Bishop of Guildford.",
+    "Dean of Guildford: The cathedral is the mother church of the Diocese of Guildford and seat of the Bishop of Guildford.",
+    "St Paul's Cathedral, Rockhampton: It is also known as St Paul's Church of England and St Paul's Church of England Cathedral.",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is also known as St Paul's Anglican Cathedral Offices, St Paul's Anglican Cathedral Parish Hall, and St Paul's Day School (1902-1912).",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is adjacent to St Paul's Anglican Cathedral."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 273,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5221255839569494
+   },
+   "retrieval_latency_seconds": 0.057175541995093226,
+   "query": "St Paul's Cathedral location England",
+   "query_usage": {
+    "in": 258,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5611542080296203
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Guildford Cathedral: The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+    "Diocese of Guildford: The cathedral is Guildford Cathedral and the bishop is the Bishop of Guildford.",
+    "Dean of Guildford: The cathedral is the mother church of the Diocese of Guildford and seat of the Bishop of Guildford.",
+    "St Paul's Cathedral, Rockhampton: It is also known as St Paul's Church of England and St Paul's Church of England Cathedral.",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is also known as St Paul's Anglican Cathedral Offices, St Paul's Anglican Cathedral Parish Hall, and St Paul's Day School (1902-1912).",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is adjacent to St Paul's Anglican Cathedral."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 273,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5326652909861878
+   },
+   "retrieval_latency_seconds": 0.1404051249846816,
+   "query": "St Paul's Cathedral location England",
+   "query_usage": {
+    "in": 258,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5512470840476453
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Guildford Cathedral: The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+    "Diocese of Guildford: The cathedral is Guildford Cathedral and the bishop is the Bishop of Guildford.",
+    "Dean of Guildford: The cathedral is the mother church of the Diocese of Guildford and seat of the Bishop of Guildford.",
+    "St Paul's Cathedral, Rockhampton: It is also known as St Paul's Church of England and St Paul's Church of England Cathedral.",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is also known as St Paul's Anglican Cathedral Offices, St Paul's Anglican Cathedral Parish Hall, and St Paul's Day School (1902-1912).",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is adjacent to St Paul's Anglican Cathedral."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 273,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5472843749448657
+   },
+   "retrieval_latency_seconds": 0.015599875012412667,
+   "query": "St Paul's Cathedral location England",
+   "query_usage": {
+    "in": 258,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5625522920163348
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Guildford Cathedral: The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+    "Diocese of Guildford: The cathedral is Guildford Cathedral and the bishop is the Bishop of Guildford.",
+    "Dean of Guildford: The cathedral is the mother church of the Diocese of Guildford and seat of the Bishop of Guildford.",
+    "St Paul's Cathedral, Rockhampton: It is also known as St Paul's Church of England and St Paul's Church of England Cathedral.",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is also known as St Paul's Anglican Cathedral Offices, St Paul's Anglican Cathedral Parish Hall, and St Paul's Day School (1902-1912).",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is adjacent to St Paul's Anglican Cathedral."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 273,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5391696250298992
+   },
+   "retrieval_latency_seconds": 0.13184575003106147,
+   "query": "St Paul's Cathedral location England",
+   "query_usage": {
+    "in": 258,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5495217919815332
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Guildford Cathedral: The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+    "Diocese of Guildford: The cathedral is Guildford Cathedral and the bishop is the Bishop of Guildford.",
+    "Dean of Guildford: The cathedral is the mother church of the Diocese of Guildford and seat of the Bishop of Guildford.",
+    "St Paul's Cathedral, Rockhampton: It is also known as St Paul's Church of England and St Paul's Church of England Cathedral.",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is also known as St Paul's Anglican Cathedral Offices, St Paul's Anglican Cathedral Parish Hall, and St Paul's Day School (1902-1912).",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is adjacent to St Paul's Anglican Cathedral."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 273,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5737872079480439
+   },
+   "retrieval_latency_seconds": 0.02209124993532896,
+   "query": "St Paul's Cathedral location England",
+   "query_usage": {
+    "in": 258,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5440222079632804
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Guildford Cathedral: The Cathedral Church of the Holy Spirit, Guildford is the Anglican cathedral at Guildford, Surrey, England.",
+    "Diocese of Guildford: The cathedral is Guildford Cathedral and the bishop is the Bishop of Guildford.",
+    "Dean of Guildford: The cathedral is the mother church of the Diocese of Guildford and seat of the Bishop of Guildford.",
+    "St Paul's Cathedral, Rockhampton: It is also known as St Paul's Church of England and St Paul's Church of England Cathedral.",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is also known as St Paul's Anglican Cathedral Offices, St Paul's Anglican Cathedral Parish Hall, and St Paul's Day School (1902-1912).",
+    "St Paul's Anglican Cathedral Hall, Rockhampton: It is adjacent to St Paul's Anglican Cathedral."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 273,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.548136750003323
+   },
+   "retrieval_latency_seconds": 0.056294666952453554,
+   "query": "St Paul's Cathedral location England",
+   "query_usage": {
+    "in": 258,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5634042500751093
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  1.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.36363636363636365,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6363636363636364,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

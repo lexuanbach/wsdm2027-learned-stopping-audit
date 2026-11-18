@@ -1,0 +1,350 @@
+{
+ "id": "5ae414d855429970de88d8ec",
+ "question": "In what year was the football club for which Reuven Niemeijer plays founded?",
+ "gold_answers": [
+  "1903"
+ ],
+ "support_titles": [
+  "Reuven Niemeijer",
+  "Heracles Almelo"
+ ],
+ "support_sentences": [
+  "Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+  "Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have enough information to answer this question. No evidence was provided about Reuven Niemeijer, which football club he plays for, or when that club was founded",
+   "answer_usage": {
+    "in": 81,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7495823330245912
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Reuven Niemeijer: Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+    "Best Footballer in Asia 2013: The Best Footballer in Asia 2013 was the inaugural Best Footballer in Asia.",
+    "Stephen Cassidy (Gaelic footballer): Stephen Cassidy is a Gaelic footballer."
+   ],
+   "answer": "1903",
+   "answer_usage": {
+    "in": 173,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5646075000986457
+   },
+   "retrieval_latency_seconds": 0.0022759579587727785,
+   "query": "Reuven Niemeijer footballer",
+   "query_usage": {
+    "in": 66,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5986312499735504
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Reuven Niemeijer: Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+    "Best Footballer in Asia 2013: The Best Footballer in Asia 2013 was the inaugural Best Footballer in Asia.",
+    "Stephen Cassidy (Gaelic footballer): Stephen Cassidy is a Gaelic footballer.",
+    "Heracles Almelo: Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903.",
+    "Heracles Almelo: The club has won the Dutch national title twice, in 1927 and 1941."
+   ],
+   "answer": "1903",
+   "answer_usage": {
+    "in": 235,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5951232500374317
+   },
+   "retrieval_latency_seconds": 0.012073915917426348,
+   "query": "Heracles Almelo founded year",
+   "query_usage": {
+    "in": 158,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6099609999218956
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Reuven Niemeijer: Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+    "Best Footballer in Asia 2013: The Best Footballer in Asia 2013 was the inaugural Best Footballer in Asia.",
+    "Stephen Cassidy (Gaelic footballer): Stephen Cassidy is a Gaelic footballer.",
+    "Heracles Almelo: Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903.",
+    "Heracles Almelo: The club has won the Dutch national title twice, in 1927 and 1941."
+   ],
+   "answer": "1903",
+   "answer_usage": {
+    "in": 235,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6006504170363769
+   },
+   "retrieval_latency_seconds": 0.4435878749936819,
+   "query": "Based on the known information, I already have the answer: Heracles Almelo was founded in 1903.",
+   "query_usage": {
+    "in": 220,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.746975208981894
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Reuven Niemeijer: Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+    "Best Footballer in Asia 2013: The Best Footballer in Asia 2013 was the inaugural Best Footballer in Asia.",
+    "Stephen Cassidy (Gaelic footballer): Stephen Cassidy is a Gaelic footballer.",
+    "Heracles Almelo: Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903.",
+    "Heracles Almelo: The club has won the Dutch national title twice, in 1927 and 1941."
+   ],
+   "answer": "1903",
+   "answer_usage": {
+    "in": 235,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5709706250345334
+   },
+   "retrieval_latency_seconds": 0.12471945793367922,
+   "query": "Based on the known information, I already have the answer: Heracles Almelo was founded in 1903.",
+   "query_usage": {
+    "in": 220,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.783228832995519
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Reuven Niemeijer: Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+    "Best Footballer in Asia 2013: The Best Footballer in Asia 2013 was the inaugural Best Footballer in Asia.",
+    "Stephen Cassidy (Gaelic footballer): Stephen Cassidy is a Gaelic footballer.",
+    "Heracles Almelo: Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903.",
+    "Heracles Almelo: The club has won the Dutch national title twice, in 1927 and 1941."
+   ],
+   "answer": "1903",
+   "answer_usage": {
+    "in": 235,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5718989999732003
+   },
+   "retrieval_latency_seconds": 0.14876474998891354,
+   "query": "Based on the known information, I already have the answer: Heracles Almelo was founded in 1903.",
+   "query_usage": {
+    "in": 220,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8137856669491157
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Reuven Niemeijer: Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+    "Best Footballer in Asia 2013: The Best Footballer in Asia 2013 was the inaugural Best Footballer in Asia.",
+    "Stephen Cassidy (Gaelic footballer): Stephen Cassidy is a Gaelic footballer.",
+    "Heracles Almelo: Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903.",
+    "Heracles Almelo: The club has won the Dutch national title twice, in 1927 and 1941."
+   ],
+   "answer": "1903",
+   "answer_usage": {
+    "in": 235,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5775853339582682
+   },
+   "retrieval_latency_seconds": 0.2465082909911871,
+   "query": "Based on the known information, I already have the answer: Heracles Almelo was founded in 1903.",
+   "query_usage": {
+    "in": 220,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7601537079317495
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Reuven Niemeijer: Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+    "Best Footballer in Asia 2013: The Best Footballer in Asia 2013 was the inaugural Best Footballer in Asia.",
+    "Stephen Cassidy (Gaelic footballer): Stephen Cassidy is a Gaelic footballer.",
+    "Heracles Almelo: Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903.",
+    "Heracles Almelo: The club has won the Dutch national title twice, in 1927 and 1941."
+   ],
+   "answer": "1903",
+   "answer_usage": {
+    "in": 235,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5869816249469295
+   },
+   "retrieval_latency_seconds": 0.13245195802301168,
+   "query": "Based on the known information, I already have the answer: Heracles Almelo was founded in 1903.",
+   "query_usage": {
+    "in": 220,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7577731249621138
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Reuven Niemeijer: Reuven Niemeijer (born 27 March 1995) is a Dutch football player who plays for Heracles Almelo.",
+    "Best Footballer in Asia 2013: The Best Footballer in Asia 2013 was the inaugural Best Footballer in Asia.",
+    "Stephen Cassidy (Gaelic footballer): Stephen Cassidy is a Gaelic footballer.",
+    "Heracles Almelo: Heracles Almelo is a Dutch professional football club based in Almelo, founded in 1903.",
+    "Heracles Almelo: The club has won the Dutch national title twice, in 1927 and 1941."
+   ],
+   "answer": "1903",
+   "answer_usage": {
+    "in": 235,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5477722500218078
+   },
+   "retrieval_latency_seconds": 0.1359513340285048,
+   "query": "Based on the known information, I already have the answer: Heracles Almelo was founded in 1903.",
+   "query_usage": {
+    "in": 220,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7492635829839855
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   29.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6153846153846154,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7692307692307693,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   5.0,
+   0.7692307692307693,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

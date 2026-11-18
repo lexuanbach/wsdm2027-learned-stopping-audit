@@ -1,0 +1,372 @@
+{
+ "id": "5abba581554299642a094af9",
+ "question": "How many people were in the group which preceded the release of Eric Clapton's 1975 album E.C. Was Here? ",
+ "gold_answers": [
+  "four"
+ ],
+ "support_titles": [
+  "E. C. Was Here",
+  "Derek and the Dominos"
+ ],
+ "support_sentences": [
+  "It was recorded live in 1974 and 1975 at the Long Beach Arena, the Hammersmith Odeon, and the Providence Civic Center by Record Plant Remote during Clapton's first tour since Derek and the Dominos in 1970, which resulted in the \"In Concert\" album.",
+  "Derek and the Dominos were a blues rock band formed in the spring of 1970 by guitarist and singer Eric Clapton, keyboardist and singer Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon.",
+  "All four members had previously played together in Delaney & Bonnie and Friends, during and after Clapton's brief tenure with Blind Faith."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "3",
+   "answer_usage": {
+    "in": 91,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5476120830280706
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "E. C. Was Here: E. C. Was Here is a 1975 album by Eric Clapton.",
+    "Steppin' Out (Eric Clapton album): Steppin' Out is a compilation album of songs featuring Eric Clapton, released in 1981.",
+    "The Cream of Clapton: The Cream of Clapton is an Eric Clapton compilation album released in 1995."
+   ],
+   "answer": "3",
+   "answer_usage": {
+    "in": 182,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6219599159667268
+   },
+   "retrieval_latency_seconds": 0.03467291593551636,
+   "query": "Eric Clapton 1975 album E.C. Was Here",
+   "query_usage": {
+    "in": 76,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.6542084999382496
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "E. C. Was Here: E. C. Was Here is a 1975 album by Eric Clapton.",
+    "Steppin' Out (Eric Clapton album): Steppin' Out is a compilation album of songs featuring Eric Clapton, released in 1981.",
+    "The Cream of Clapton: The Cream of Clapton is an Eric Clapton compilation album released in 1995.",
+    "Paul Nelson (musician): Who has worked with everyone from Eric Clapton to members of the Allman Brothers Band and the list goes on.",
+    "Live 1986: Live 1986, also known as \"Eric Clapton & Friends Live 1986\" or \"The Eric Clapton concert\" is a concert film released by the British rock musician Eric Clapton."
+   ],
+   "answer": "I need to find information about Eric Clapton's group that preceded the 1975 album \"E.C. Was Here",
+   "answer_usage": {
+    "in": 265,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.9126280840719119
+   },
+   "retrieval_latency_seconds": 0.02365129196550697,
+   "query": "Eric Clapton band members 1975",
+   "query_usage": {
+    "in": 167,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6127855839440599
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "E. C. Was Here: E. C. Was Here is a 1975 album by Eric Clapton.",
+    "Steppin' Out (Eric Clapton album): Steppin' Out is a compilation album of songs featuring Eric Clapton, released in 1981.",
+    "The Cream of Clapton: The Cream of Clapton is an Eric Clapton compilation album released in 1995.",
+    "Paul Nelson (musician): Who has worked with everyone from Eric Clapton to members of the Allman Brothers Band and the list goes on.",
+    "Live 1986: Live 1986, also known as \"Eric Clapton & Friends Live 1986\" or \"The Eric Clapton concert\" is a concert film released by the British rock musician Eric Clapton.",
+    "E. C. Was Here: It was recorded live in 1974 and 1975 at the Long Beach Arena, the Hammersmith Odeon, and the Providence Civic Center by Record Plant Remote during Clapton's first tour since Derek and the Dominos in 1970, which resulted in the \"In Concert\" album."
+   ],
+   "answer": "3",
+   "answer_usage": {
+    "in": 342,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6393034579232335
+   },
+   "retrieval_latency_seconds": 0.07584049995057285,
+   "query": "Eric Clapton band members 1975 E.C. Was Here",
+   "query_usage": {
+    "in": 250,
+    "out": 19,
+    "calls": 1,
+    "latency_seconds": 0.603026625001803
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "E. C. Was Here: E. C. Was Here is a 1975 album by Eric Clapton.",
+    "Steppin' Out (Eric Clapton album): Steppin' Out is a compilation album of songs featuring Eric Clapton, released in 1981.",
+    "The Cream of Clapton: The Cream of Clapton is an Eric Clapton compilation album released in 1995.",
+    "Paul Nelson (musician): Who has worked with everyone from Eric Clapton to members of the Allman Brothers Band and the list goes on.",
+    "Live 1986: Live 1986, also known as \"Eric Clapton & Friends Live 1986\" or \"The Eric Clapton concert\" is a concert film released by the British rock musician Eric Clapton.",
+    "E. C. Was Here: It was recorded live in 1974 and 1975 at the Long Beach Arena, the Hammersmith Odeon, and the Providence Civic Center by Record Plant Remote during Clapton's first tour since Derek and the Dominos in 1970, which resulted in the \"In Concert\" album.",
+    "Derek and the Dominos: Another participant at their first session as a band was George Harrison, the recording for whose album \"All Things Must Pass\" marked the formation of Derek and the Dominos.",
+    "Derek and the Dominos: All four members had previously played together in Delaney & Bonnie and Friends, during and after Clapton's brief tenure with Blind Faith.",
+    "Derek and the Dominos: Derek and the Dominos were a blues rock band formed in the spring of 1970 by guitarist and singer Eric Clapton, keyboardist and singer Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon."
+   ],
+   "answer": "4",
+   "answer_usage": {
+    "in": 486,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6499630420003086
+   },
+   "retrieval_latency_seconds": 0.3920399169437587,
+   "query": "Derek and the Dominos members",
+   "query_usage": {
+    "in": 327,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5997787920059636
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "E. C. Was Here: E. C. Was Here is a 1975 album by Eric Clapton.",
+    "Steppin' Out (Eric Clapton album): Steppin' Out is a compilation album of songs featuring Eric Clapton, released in 1981.",
+    "The Cream of Clapton: The Cream of Clapton is an Eric Clapton compilation album released in 1995.",
+    "Paul Nelson (musician): Who has worked with everyone from Eric Clapton to members of the Allman Brothers Band and the list goes on.",
+    "Live 1986: Live 1986, also known as \"Eric Clapton & Friends Live 1986\" or \"The Eric Clapton concert\" is a concert film released by the British rock musician Eric Clapton.",
+    "E. C. Was Here: It was recorded live in 1974 and 1975 at the Long Beach Arena, the Hammersmith Odeon, and the Providence Civic Center by Record Plant Remote during Clapton's first tour since Derek and the Dominos in 1970, which resulted in the \"In Concert\" album.",
+    "Derek and the Dominos: Another participant at their first session as a band was George Harrison, the recording for whose album \"All Things Must Pass\" marked the formation of Derek and the Dominos.",
+    "Derek and the Dominos: All four members had previously played together in Delaney & Bonnie and Friends, during and after Clapton's brief tenure with Blind Faith.",
+    "Derek and the Dominos: Derek and the Dominos were a blues rock band formed in the spring of 1970 by guitarist and singer Eric Clapton, keyboardist and singer Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon."
+   ],
+   "answer": "4",
+   "answer_usage": {
+    "in": 486,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.60355250001885
+   },
+   "retrieval_latency_seconds": 0.5569139579311013,
+   "query": "How many members were in Derek and the Dominos?",
+   "query_usage": {
+    "in": 471,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.593941833009012
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "E. C. Was Here: E. C. Was Here is a 1975 album by Eric Clapton.",
+    "Steppin' Out (Eric Clapton album): Steppin' Out is a compilation album of songs featuring Eric Clapton, released in 1981.",
+    "The Cream of Clapton: The Cream of Clapton is an Eric Clapton compilation album released in 1995.",
+    "Paul Nelson (musician): Who has worked with everyone from Eric Clapton to members of the Allman Brothers Band and the list goes on.",
+    "Live 1986: Live 1986, also known as \"Eric Clapton & Friends Live 1986\" or \"The Eric Clapton concert\" is a concert film released by the British rock musician Eric Clapton.",
+    "E. C. Was Here: It was recorded live in 1974 and 1975 at the Long Beach Arena, the Hammersmith Odeon, and the Providence Civic Center by Record Plant Remote during Clapton's first tour since Derek and the Dominos in 1970, which resulted in the \"In Concert\" album.",
+    "Derek and the Dominos: Another participant at their first session as a band was George Harrison, the recording for whose album \"All Things Must Pass\" marked the formation of Derek and the Dominos.",
+    "Derek and the Dominos: All four members had previously played together in Delaney & Bonnie and Friends, during and after Clapton's brief tenure with Blind Faith.",
+    "Derek and the Dominos: Derek and the Dominos were a blues rock band formed in the spring of 1970 by guitarist and singer Eric Clapton, keyboardist and singer Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon."
+   ],
+   "answer": "4",
+   "answer_usage": {
+    "in": 486,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6028010409791023
+   },
+   "retrieval_latency_seconds": 0.1018840839387849,
+   "query": "How many members were in Derek and the Dominos?",
+   "query_usage": {
+    "in": 471,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6102367079583928
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "E. C. Was Here: E. C. Was Here is a 1975 album by Eric Clapton.",
+    "Steppin' Out (Eric Clapton album): Steppin' Out is a compilation album of songs featuring Eric Clapton, released in 1981.",
+    "The Cream of Clapton: The Cream of Clapton is an Eric Clapton compilation album released in 1995.",
+    "Paul Nelson (musician): Who has worked with everyone from Eric Clapton to members of the Allman Brothers Band and the list goes on.",
+    "Live 1986: Live 1986, also known as \"Eric Clapton & Friends Live 1986\" or \"The Eric Clapton concert\" is a concert film released by the British rock musician Eric Clapton.",
+    "E. C. Was Here: It was recorded live in 1974 and 1975 at the Long Beach Arena, the Hammersmith Odeon, and the Providence Civic Center by Record Plant Remote during Clapton's first tour since Derek and the Dominos in 1970, which resulted in the \"In Concert\" album.",
+    "Derek and the Dominos: Another participant at their first session as a band was George Harrison, the recording for whose album \"All Things Must Pass\" marked the formation of Derek and the Dominos.",
+    "Derek and the Dominos: All four members had previously played together in Delaney & Bonnie and Friends, during and after Clapton's brief tenure with Blind Faith.",
+    "Derek and the Dominos: Derek and the Dominos were a blues rock band formed in the spring of 1970 by guitarist and singer Eric Clapton, keyboardist and singer Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon."
+   ],
+   "answer": "4",
+   "answer_usage": {
+    "in": 486,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6080845419783145
+   },
+   "retrieval_latency_seconds": 0.1467087500495836,
+   "query": "How many members were in Derek and the Dominos?",
+   "query_usage": {
+    "in": 471,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.59091679204721
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "E. C. Was Here: E. C. Was Here is a 1975 album by Eric Clapton.",
+    "Steppin' Out (Eric Clapton album): Steppin' Out is a compilation album of songs featuring Eric Clapton, released in 1981.",
+    "The Cream of Clapton: The Cream of Clapton is an Eric Clapton compilation album released in 1995.",
+    "Paul Nelson (musician): Who has worked with everyone from Eric Clapton to members of the Allman Brothers Band and the list goes on.",
+    "Live 1986: Live 1986, also known as \"Eric Clapton & Friends Live 1986\" or \"The Eric Clapton concert\" is a concert film released by the British rock musician Eric Clapton.",
+    "E. C. Was Here: It was recorded live in 1974 and 1975 at the Long Beach Arena, the Hammersmith Odeon, and the Providence Civic Center by Record Plant Remote during Clapton's first tour since Derek and the Dominos in 1970, which resulted in the \"In Concert\" album.",
+    "Derek and the Dominos: Another participant at their first session as a band was George Harrison, the recording for whose album \"All Things Must Pass\" marked the formation of Derek and the Dominos.",
+    "Derek and the Dominos: All four members had previously played together in Delaney & Bonnie and Friends, during and after Clapton's brief tenure with Blind Faith.",
+    "Derek and the Dominos: Derek and the Dominos were a blues rock band formed in the spring of 1970 by guitarist and singer Eric Clapton, keyboardist and singer Bobby Whitlock, bassist Carl Radle and drummer Jim Gordon."
+   ],
+   "answer": "4",
+   "answer_usage": {
+    "in": 486,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.607145875110291
+   },
+   "retrieval_latency_seconds": 0.09448229207191616,
+   "query": "How many members were in Derek and the Dominos?",
+   "query_usage": {
+    "in": 471,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6004092500079423
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.55,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.55,
+   2.0,
+   1.0,
+   18.0,
+   0.5263157894736842,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.65,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.7,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.7,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   3.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.7,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.7,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.7,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

@@ -1,0 +1,369 @@
+{
+ "id": "5aba480c55429939ce03dc77",
+ "question": "Where is the movie from that is directed by Raymond Yip and stars the winner of Miss Chinese International Pageant of 1988?",
+ "gold_answers": [
+  "Hong Kong"
+ ],
+ "support_titles": [
+  "Beauty and the Breast",
+  "Michelle Reis"
+ ],
+ "support_sentences": [
+  "Beauty and the Breast () is a 2002 Hong Kong comedy film directed by Raymond Yip, and starring Francis Ng, Michelle Reis and Daniel Wu.",
+  "She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have enough information to answer this question. The evidence section is empty, and I would need to know who won the Miss Chinese International Pageant of 1988 and which movie",
+   "answer_usage": {
+    "in": 90,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8617474170168862
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Miss Chinese International Pageant 1988: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong.",
+    "Michelle Reis: She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants.",
+    "Miss Chinese (Vancouver) Pageant: The pageant replaced the Miss Vancouver Chinatown Pageant, which selected Vancouver's representatives to the Miss Chinese International Pageant from 1988 to 1995."
+   ],
+   "answer": "Hong Kong",
+   "answer_usage": {
+    "in": 214,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.7163240419467911
+   },
+   "retrieval_latency_seconds": 0.004599667037837207,
+   "query": "Miss Chinese International Pageant 1988 winner",
+   "query_usage": {
+    "in": 75,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.5574151669861749
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Miss Chinese International Pageant 1988: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong.",
+    "Michelle Reis: She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants.",
+    "Miss Chinese (Vancouver) Pageant: The pageant replaced the Miss Vancouver Chinatown Pageant, which selected Vancouver's representatives to the Miss Chinese International Pageant from 1988 to 1995.",
+    "Beauty and the Breast: Beauty and the Breast () is a 2002 Hong Kong comedy film directed by Raymond Yip, and starring Francis Ng, Michelle Reis and Daniel Wu.",
+    "Michelle Reis: Michelle Monique Reis (born 20 June 1970) is a Hong Kong actress of Portuguese and Shanghainese descent.",
+    "Raymond S. Persi: Persi went on to work as a sequence director for \"The Simpsons Movie\" (2007)."
+   ],
+   "answer": "Hong Kong",
+   "answer_usage": {
+    "in": 328,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.560097457957454
+   },
+   "retrieval_latency_seconds": 0.00978374993428588,
+   "query": "Raymond Yip director Michelle Reis movie",
+   "query_usage": {
+    "in": 199,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5950811250368133
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Miss Chinese International Pageant 1988: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong.",
+    "Michelle Reis: She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants.",
+    "Miss Chinese (Vancouver) Pageant: The pageant replaced the Miss Vancouver Chinatown Pageant, which selected Vancouver's representatives to the Miss Chinese International Pageant from 1988 to 1995.",
+    "Beauty and the Breast: Beauty and the Breast () is a 2002 Hong Kong comedy film directed by Raymond Yip, and starring Francis Ng, Michelle Reis and Daniel Wu.",
+    "Michelle Reis: Michelle Monique Reis (born 20 June 1970) is a Hong Kong actress of Portuguese and Shanghainese descent.",
+    "Raymond S. Persi: Persi went on to work as a sequence director for \"The Simpsons Movie\" (2007).",
+    "The Great Beauty: Filming took place in Rome starting on 9 August 2012.",
+    "Lark Street: Lark Street and Jay Street was used as a location during the filming of \"Ironweed\"."
+   ],
+   "answer": "Hong Kong",
+   "answer_usage": {
+    "in": 379,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5757498330203816
+   },
+   "retrieval_latency_seconds": 0.09924762498121709,
+   "query": "Beauty and the Breast filming location",
+   "query_usage": {
+    "in": 313,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5523878750391304
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Miss Chinese International Pageant 1988: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong.",
+    "Michelle Reis: She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants.",
+    "Miss Chinese (Vancouver) Pageant: The pageant replaced the Miss Vancouver Chinatown Pageant, which selected Vancouver's representatives to the Miss Chinese International Pageant from 1988 to 1995.",
+    "Beauty and the Breast: Beauty and the Breast () is a 2002 Hong Kong comedy film directed by Raymond Yip, and starring Francis Ng, Michelle Reis and Daniel Wu.",
+    "Michelle Reis: Michelle Monique Reis (born 20 June 1970) is a Hong Kong actress of Portuguese and Shanghainese descent.",
+    "Raymond S. Persi: Persi went on to work as a sequence director for \"The Simpsons Movie\" (2007).",
+    "The Great Beauty: Filming took place in Rome starting on 9 August 2012.",
+    "Lark Street: Lark Street and Jay Street was used as a location during the filming of \"Ironweed\"."
+   ],
+   "answer": "Hong Kong",
+   "answer_usage": {
+    "in": 379,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5310171670280397
+   },
+   "retrieval_latency_seconds": 0.22322412498760968,
+   "query": "Beauty and the Breast filming location",
+   "query_usage": {
+    "in": 364,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5703944999258965
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Miss Chinese International Pageant 1988: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong.",
+    "Michelle Reis: She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants.",
+    "Miss Chinese (Vancouver) Pageant: The pageant replaced the Miss Vancouver Chinatown Pageant, which selected Vancouver's representatives to the Miss Chinese International Pageant from 1988 to 1995.",
+    "Beauty and the Breast: Beauty and the Breast () is a 2002 Hong Kong comedy film directed by Raymond Yip, and starring Francis Ng, Michelle Reis and Daniel Wu.",
+    "Michelle Reis: Michelle Monique Reis (born 20 June 1970) is a Hong Kong actress of Portuguese and Shanghainese descent.",
+    "Raymond S. Persi: Persi went on to work as a sequence director for \"The Simpsons Movie\" (2007).",
+    "The Great Beauty: Filming took place in Rome starting on 9 August 2012.",
+    "Lark Street: Lark Street and Jay Street was used as a location during the filming of \"Ironweed\"."
+   ],
+   "answer": "Hong Kong",
+   "answer_usage": {
+    "in": 379,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5954819999169558
+   },
+   "retrieval_latency_seconds": 0.09319799998775125,
+   "query": "Beauty and the Breast filming location",
+   "query_usage": {
+    "in": 364,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5857160410378128
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Miss Chinese International Pageant 1988: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong.",
+    "Michelle Reis: She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants.",
+    "Miss Chinese (Vancouver) Pageant: The pageant replaced the Miss Vancouver Chinatown Pageant, which selected Vancouver's representatives to the Miss Chinese International Pageant from 1988 to 1995.",
+    "Beauty and the Breast: Beauty and the Breast () is a 2002 Hong Kong comedy film directed by Raymond Yip, and starring Francis Ng, Michelle Reis and Daniel Wu.",
+    "Michelle Reis: Michelle Monique Reis (born 20 June 1970) is a Hong Kong actress of Portuguese and Shanghainese descent.",
+    "Raymond S. Persi: Persi went on to work as a sequence director for \"The Simpsons Movie\" (2007).",
+    "The Great Beauty: Filming took place in Rome starting on 9 August 2012.",
+    "Lark Street: Lark Street and Jay Street was used as a location during the filming of \"Ironweed\"."
+   ],
+   "answer": "Hong Kong",
+   "answer_usage": {
+    "in": 379,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5443829579744488
+   },
+   "retrieval_latency_seconds": 0.35734379198402166,
+   "query": "Beauty and the Breast filming location",
+   "query_usage": {
+    "in": 364,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5667932090582326
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Miss Chinese International Pageant 1988: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong.",
+    "Michelle Reis: She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants.",
+    "Miss Chinese (Vancouver) Pageant: The pageant replaced the Miss Vancouver Chinatown Pageant, which selected Vancouver's representatives to the Miss Chinese International Pageant from 1988 to 1995.",
+    "Beauty and the Breast: Beauty and the Breast () is a 2002 Hong Kong comedy film directed by Raymond Yip, and starring Francis Ng, Michelle Reis and Daniel Wu.",
+    "Michelle Reis: Michelle Monique Reis (born 20 June 1970) is a Hong Kong actress of Portuguese and Shanghainese descent.",
+    "Raymond S. Persi: Persi went on to work as a sequence director for \"The Simpsons Movie\" (2007).",
+    "The Great Beauty: Filming took place in Rome starting on 9 August 2012.",
+    "Lark Street: Lark Street and Jay Street was used as a location during the filming of \"Ironweed\"."
+   ],
+   "answer": "Hong Kong",
+   "answer_usage": {
+    "in": 379,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5962569590192288
+   },
+   "retrieval_latency_seconds": 0.6311411659698933,
+   "query": "Beauty and the Breast filming location",
+   "query_usage": {
+    "in": 364,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6267869169823825
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Miss Chinese International Pageant 1988: Miss Chinese International Pageant 1988, the 1st Miss Chinese International Pageant was held on October 2, 1988 in Hong Kong.",
+    "Michelle Reis: She is the winner of Miss Chinese International Pageant 1988 and Miss Hong Kong 1988 Beauty pageants.",
+    "Miss Chinese (Vancouver) Pageant: The pageant replaced the Miss Vancouver Chinatown Pageant, which selected Vancouver's representatives to the Miss Chinese International Pageant from 1988 to 1995.",
+    "Beauty and the Breast: Beauty and the Breast () is a 2002 Hong Kong comedy film directed by Raymond Yip, and starring Francis Ng, Michelle Reis and Daniel Wu.",
+    "Michelle Reis: Michelle Monique Reis (born 20 June 1970) is a Hong Kong actress of Portuguese and Shanghainese descent.",
+    "Raymond S. Persi: Persi went on to work as a sequence director for \"The Simpsons Movie\" (2007).",
+    "The Great Beauty: Filming took place in Rome starting on 9 August 2012.",
+    "Lark Street: Lark Street and Jay Street was used as a location during the filming of \"Ironweed\"."
+   ],
+   "answer": "Hong Kong",
+   "answer_usage": {
+    "in": 379,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5825844160281122
+   },
+   "retrieval_latency_seconds": 0.21735712501686066,
+   "query": "Beauty and the Breast filming location",
+   "query_usage": {
+    "in": 364,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5646497920388356
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   31.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5789473684210527,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.8421052631578947,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.8421052631578947,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.8421052631578947,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.8421052631578947,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.8421052631578947,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.8421052631578947,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.8421052631578947,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

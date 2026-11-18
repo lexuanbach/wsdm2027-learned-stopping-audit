@@ -1,0 +1,375 @@
+{
+ "id": "5a8268aa55429940e5e1a8aa",
+ "question": "Hugo Rodr\u00edguez Romero is a Spanish footballer who plays for a team in the autonomous community of what?",
+ "gold_answers": [
+  "Murcia"
+ ],
+ "support_titles": [
+  "Hugo Rodr\u00edguez Romero",
+  "FC Cartagena"
+ ],
+ "support_sentences": [
+  "Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+  "F\u00fatbol Club Cartagena is a Spanish football team based in Cartagena, in the autonomous community of Murcia."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Unable to determine",
+   "answer_usage": {
+    "in": 86,
+    "out": 37,
+    "calls": 1,
+    "latency_seconds": 0.7068264170084149
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Hugo Rodr\u00edguez Romero: Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+    "V\u00edctor Rodr\u00edguez (Spanish footballer): V\u00edctor Rodr\u00edguez Romero (born 23 July 1989) is a Spanish professional footballer who plays as a right winger for American club Seattle Sounders FC.",
+    "Hugo S\u00e1nchez: Hugo S\u00e1nchez M\u00e1rquez (born 11 July 1958) is a retired Mexican professional footballer and manager, who played as a forward."
+   ],
+   "answer": "I need to find what autonomous community FC Cartagena is located in",
+   "answer_usage": {
+    "in": 231,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.7721366250189021
+   },
+   "retrieval_latency_seconds": 0.002378333010710776,
+   "query": "Hugo Rodr\u00edguez Romero Spanish footballer",
+   "query_usage": {
+    "in": 71,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.5959668329451233
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Hugo Rodr\u00edguez Romero: Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+    "V\u00edctor Rodr\u00edguez (Spanish footballer): V\u00edctor Rodr\u00edguez Romero (born 23 July 1989) is a Spanish professional footballer who plays as a right winger for American club Seattle Sounders FC.",
+    "Hugo S\u00e1nchez: Hugo S\u00e1nchez M\u00e1rquez (born 11 July 1958) is a retired Mexican professional footballer and manager, who played as a forward.",
+    "FC Cartagena: F\u00fatbol Club Cartagena is a Spanish football team based in Cartagena, in the autonomous community of Murcia.",
+    "Andalusia: Andalusia ( ; Spanish: \"Andaluc\u00eda\" ] ) is an autonomous community in southern Spain.",
+    "Navarre: Navarre ( ; Spanish: \"Navarra\" , Basque: \"Nafarroa\" ), officially the Chartered Community of Navarre (Spanish: \"Comunidad Foral de Navarra\" ] ; Basque: \"Nafarroako Foru Komunitatea\" ] ), is an autonomous community and province in northern Spain, bordering the Basque Autonomous Community, La Rioja, and Aragon in Spain and Nouvelle-Aquitaine in France."
+   ],
+   "answer": "Murcia",
+   "answer_usage": {
+    "in": 415,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.574114584014751
+   },
+   "retrieval_latency_seconds": 0.01114074990618974,
+   "query": "FC Cartagena autonomous community Spain",
+   "query_usage": {
+    "in": 216,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5821831249631941
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Hugo Rodr\u00edguez Romero: Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+    "V\u00edctor Rodr\u00edguez (Spanish footballer): V\u00edctor Rodr\u00edguez Romero (born 23 July 1989) is a Spanish professional footballer who plays as a right winger for American club Seattle Sounders FC.",
+    "Hugo S\u00e1nchez: Hugo S\u00e1nchez M\u00e1rquez (born 11 July 1958) is a retired Mexican professional footballer and manager, who played as a forward.",
+    "FC Cartagena: F\u00fatbol Club Cartagena is a Spanish football team based in Cartagena, in the autonomous community of Murcia.",
+    "Andalusia: Andalusia ( ; Spanish: \"Andaluc\u00eda\" ] ) is an autonomous community in southern Spain.",
+    "Navarre: Navarre ( ; Spanish: \"Navarra\" , Basque: \"Nafarroa\" ), officially the Chartered Community of Navarre (Spanish: \"Comunidad Foral de Navarra\" ] ; Basque: \"Nafarroako Foru Komunitatea\" ] ), is an autonomous community and province in northern Spain, bordering the Basque Autonomous Community, La Rioja, and Aragon in Spain and Nouvelle-Aquitaine in France.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Murcia",
+   "answer_usage": {
+    "in": 522,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6275895839789882
+   },
+   "retrieval_latency_seconds": 0.14428849995601922,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 400,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8111295419512317
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Hugo Rodr\u00edguez Romero: Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+    "V\u00edctor Rodr\u00edguez (Spanish footballer): V\u00edctor Rodr\u00edguez Romero (born 23 July 1989) is a Spanish professional footballer who plays as a right winger for American club Seattle Sounders FC.",
+    "Hugo S\u00e1nchez: Hugo S\u00e1nchez M\u00e1rquez (born 11 July 1958) is a retired Mexican professional footballer and manager, who played as a forward.",
+    "FC Cartagena: F\u00fatbol Club Cartagena is a Spanish football team based in Cartagena, in the autonomous community of Murcia.",
+    "Andalusia: Andalusia ( ; Spanish: \"Andaluc\u00eda\" ] ) is an autonomous community in southern Spain.",
+    "Navarre: Navarre ( ; Spanish: \"Navarra\" , Basque: \"Nafarroa\" ), officially the Chartered Community of Navarre (Spanish: \"Comunidad Foral de Navarra\" ] ; Basque: \"Nafarroako Foru Komunitatea\" ] ), is an autonomous community and province in northern Spain, bordering the Basque Autonomous Community, La Rioja, and Aragon in Spain and Nouvelle-Aquitaine in France.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Murcia",
+   "answer_usage": {
+    "in": 522,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6045494580175728
+   },
+   "retrieval_latency_seconds": 0.27983808296266943,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 507,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7329020000761375
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Hugo Rodr\u00edguez Romero: Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+    "V\u00edctor Rodr\u00edguez (Spanish footballer): V\u00edctor Rodr\u00edguez Romero (born 23 July 1989) is a Spanish professional footballer who plays as a right winger for American club Seattle Sounders FC.",
+    "Hugo S\u00e1nchez: Hugo S\u00e1nchez M\u00e1rquez (born 11 July 1958) is a retired Mexican professional footballer and manager, who played as a forward.",
+    "FC Cartagena: F\u00fatbol Club Cartagena is a Spanish football team based in Cartagena, in the autonomous community of Murcia.",
+    "Andalusia: Andalusia ( ; Spanish: \"Andaluc\u00eda\" ] ) is an autonomous community in southern Spain.",
+    "Navarre: Navarre ( ; Spanish: \"Navarra\" , Basque: \"Nafarroa\" ), officially the Chartered Community of Navarre (Spanish: \"Comunidad Foral de Navarra\" ] ; Basque: \"Nafarroako Foru Komunitatea\" ] ), is an autonomous community and province in northern Spain, bordering the Basque Autonomous Community, La Rioja, and Aragon in Spain and Nouvelle-Aquitaine in France.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Murcia",
+   "answer_usage": {
+    "in": 522,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5943139999872074
+   },
+   "retrieval_latency_seconds": 0.13719558401498944,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 507,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7152222499717027
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Hugo Rodr\u00edguez Romero: Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+    "V\u00edctor Rodr\u00edguez (Spanish footballer): V\u00edctor Rodr\u00edguez Romero (born 23 July 1989) is a Spanish professional footballer who plays as a right winger for American club Seattle Sounders FC.",
+    "Hugo S\u00e1nchez: Hugo S\u00e1nchez M\u00e1rquez (born 11 July 1958) is a retired Mexican professional footballer and manager, who played as a forward.",
+    "FC Cartagena: F\u00fatbol Club Cartagena is a Spanish football team based in Cartagena, in the autonomous community of Murcia.",
+    "Andalusia: Andalusia ( ; Spanish: \"Andaluc\u00eda\" ] ) is an autonomous community in southern Spain.",
+    "Navarre: Navarre ( ; Spanish: \"Navarra\" , Basque: \"Nafarroa\" ), officially the Chartered Community of Navarre (Spanish: \"Comunidad Foral de Navarra\" ] ; Basque: \"Nafarroako Foru Komunitatea\" ] ), is an autonomous community and province in northern Spain, bordering the Basque Autonomous Community, La Rioja, and Aragon in Spain and Nouvelle-Aquitaine in France.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Murcia",
+   "answer_usage": {
+    "in": 522,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6007034999784082
+   },
+   "retrieval_latency_seconds": 0.13421587506309152,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 507,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7427250420441851
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Hugo Rodr\u00edguez Romero: Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+    "V\u00edctor Rodr\u00edguez (Spanish footballer): V\u00edctor Rodr\u00edguez Romero (born 23 July 1989) is a Spanish professional footballer who plays as a right winger for American club Seattle Sounders FC.",
+    "Hugo S\u00e1nchez: Hugo S\u00e1nchez M\u00e1rquez (born 11 July 1958) is a retired Mexican professional footballer and manager, who played as a forward.",
+    "FC Cartagena: F\u00fatbol Club Cartagena is a Spanish football team based in Cartagena, in the autonomous community of Murcia.",
+    "Andalusia: Andalusia ( ; Spanish: \"Andaluc\u00eda\" ] ) is an autonomous community in southern Spain.",
+    "Navarre: Navarre ( ; Spanish: \"Navarra\" , Basque: \"Nafarroa\" ), officially the Chartered Community of Navarre (Spanish: \"Comunidad Foral de Navarra\" ] ; Basque: \"Nafarroako Foru Komunitatea\" ] ), is an autonomous community and province in northern Spain, bordering the Basque Autonomous Community, La Rioja, and Aragon in Spain and Nouvelle-Aquitaine in France.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Murcia",
+   "answer_usage": {
+    "in": 522,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.61894316598773
+   },
+   "retrieval_latency_seconds": 0.13342691701836884,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 507,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7289835830451921
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Hugo Rodr\u00edguez Romero: Hugo Rodr\u00edguez Romero (born 30 December 1989), simply known as Hugo, is a Spanish footballer who plays for FC Cartagena as a winger.",
+    "V\u00edctor Rodr\u00edguez (Spanish footballer): V\u00edctor Rodr\u00edguez Romero (born 23 July 1989) is a Spanish professional footballer who plays as a right winger for American club Seattle Sounders FC.",
+    "Hugo S\u00e1nchez: Hugo S\u00e1nchez M\u00e1rquez (born 11 July 1958) is a retired Mexican professional footballer and manager, who played as a forward.",
+    "FC Cartagena: F\u00fatbol Club Cartagena is a Spanish football team based in Cartagena, in the autonomous community of Murcia.",
+    "Andalusia: Andalusia ( ; Spanish: \"Andaluc\u00eda\" ] ) is an autonomous community in southern Spain.",
+    "Navarre: Navarre ( ; Spanish: \"Navarra\" , Basque: \"Nafarroa\" ), officially the Chartered Community of Navarre (Spanish: \"Comunidad Foral de Navarra\" ] ; Basque: \"Nafarroako Foru Komunitatea\" ] ), is an autonomous community and province in northern Spain, bordering the Basque Autonomous Community, La Rioja, and Aragon in Spain and Nouvelle-Aquitaine in France.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "Murcia",
+   "answer_usage": {
+    "in": 522,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.7567588330712169
+   },
+   "retrieval_latency_seconds": 0.11104908294510096,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 507,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7328333749901503
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6111111111111112,
+   3.0,
+   1.0,
+   12.0,
+   0.25,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9444444444444444,
+   3.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.9444444444444444,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.9444444444444444,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.9444444444444444,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.9444444444444444,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.9444444444444444,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.9444444444444444,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

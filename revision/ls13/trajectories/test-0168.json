@@ -1,0 +1,375 @@
+{
+ "id": "5a81e097554299676cceb129",
+ "question": "What languages is the journal that Michel Feher semi-regularly blogs for published in?",
+ "gold_answers": [
+  "French, English and Spanish"
+ ],
+ "support_titles": [
+  "Michel Feher",
+  "Mediapart"
+ ],
+ "support_sentences": [
+  "He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+  "\"Mediapart\" is published in French, English and Spanish."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot answer this question because no evidence has been provided, and I don't have reliable information about which journal Michel Feher semi-regularly blogs for or what languages it publishes in",
+   "answer_usage": {
+    "in": 79,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8408446250250563
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Michel Feher: He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+    "Michel Feher: Michel Feher (born 1956) is a French philosopher and cultural theorist.",
+    "Michel Feher: He is a founding editor of Zone Books."
+   ],
+   "answer": "French and English",
+   "answer_usage": {
+    "in": 145,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5658486249158159
+   },
+   "retrieval_latency_seconds": 0.002904791967011988,
+   "query": "Michel Feher blog journal",
+   "query_usage": {
+    "in": 64,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.577310209046118
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Michel Feher: He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+    "Michel Feher: Michel Feher (born 1956) is a French philosopher and cultural theorist.",
+    "Michel Feher: He is a founding editor of Zone Books.",
+    "Mediapart: \"Mediapart\" is published in French, English and Spanish.",
+    "Mediapart: Mediapart is a French online investigative and opinion journal created in 2008 by Edwy Plenel, the former editor-in-chief of \"Le Monde\".",
+    "Scott Mackay: His novels have been published in six languages."
+   ],
+   "answer": "French, English, and Spanish",
+   "answer_usage": {
+    "in": 226,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6088979999767616
+   },
+   "retrieval_latency_seconds": 0.002378165954723954,
+   "query": "Mediapart languages published",
+   "query_usage": {
+    "in": 130,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6170362090924755
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Michel Feher: He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+    "Michel Feher: Michel Feher (born 1956) is a French philosopher and cultural theorist.",
+    "Michel Feher: He is a founding editor of Zone Books.",
+    "Mediapart: \"Mediapart\" is published in French, English and Spanish.",
+    "Mediapart: Mediapart is a French online investigative and opinion journal created in 2008 by Edwy Plenel, the former editor-in-chief of \"Le Monde\".",
+    "Scott Mackay: His novels have been published in six languages.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "French, English and Spanish",
+   "answer_usage": {
+    "in": 333,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5808820420643315
+   },
+   "retrieval_latency_seconds": 0.4858834590995684,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 211,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7137604580493644
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Michel Feher: He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+    "Michel Feher: Michel Feher (born 1956) is a French philosopher and cultural theorist.",
+    "Michel Feher: He is a founding editor of Zone Books.",
+    "Mediapart: \"Mediapart\" is published in French, English and Spanish.",
+    "Mediapart: Mediapart is a French online investigative and opinion journal created in 2008 by Edwy Plenel, the former editor-in-chief of \"Le Monde\".",
+    "Scott Mackay: His novels have been published in six languages.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "French, English and Spanish",
+   "answer_usage": {
+    "in": 333,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5545439169509336
+   },
+   "retrieval_latency_seconds": 0.3415103330044076,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 318,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.831081832991913
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Michel Feher: He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+    "Michel Feher: Michel Feher (born 1956) is a French philosopher and cultural theorist.",
+    "Michel Feher: He is a founding editor of Zone Books.",
+    "Mediapart: \"Mediapart\" is published in French, English and Spanish.",
+    "Mediapart: Mediapart is a French online investigative and opinion journal created in 2008 by Edwy Plenel, the former editor-in-chief of \"Le Monde\".",
+    "Scott Mackay: His novels have been published in six languages.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "French, English and Spanish",
+   "answer_usage": {
+    "in": 333,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5503277919488028
+   },
+   "retrieval_latency_seconds": 0.14126029203180224,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 318,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7432174580171704
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Michel Feher: He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+    "Michel Feher: Michel Feher (born 1956) is a French philosopher and cultural theorist.",
+    "Michel Feher: He is a founding editor of Zone Books.",
+    "Mediapart: \"Mediapart\" is published in French, English and Spanish.",
+    "Mediapart: Mediapart is a French online investigative and opinion journal created in 2008 by Edwy Plenel, the former editor-in-chief of \"Le Monde\".",
+    "Scott Mackay: His novels have been published in six languages.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "French, English and Spanish",
+   "answer_usage": {
+    "in": 333,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5349655420286581
+   },
+   "retrieval_latency_seconds": 0.11615587503183633,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 318,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7318117080722004
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Michel Feher: He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+    "Michel Feher: Michel Feher (born 1956) is a French philosopher and cultural theorist.",
+    "Michel Feher: He is a founding editor of Zone Books.",
+    "Mediapart: \"Mediapart\" is published in French, English and Spanish.",
+    "Mediapart: Mediapart is a French online investigative and opinion journal created in 2008 by Edwy Plenel, the former editor-in-chief of \"Le Monde\".",
+    "Scott Mackay: His novels have been published in six languages.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "French, English and Spanish",
+   "answer_usage": {
+    "in": 333,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5963431670097634
+   },
+   "retrieval_latency_seconds": 0.14415966696105897,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 318,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7265125840203837
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Michel Feher: He writes for a number of outlets and has a semi-regular blog with the French journal Mediapart.",
+    "Michel Feher: Michel Feher (born 1956) is a French philosopher and cultural theorist.",
+    "Michel Feher: He is a founding editor of Zone Books.",
+    "Mediapart: \"Mediapart\" is published in French, English and Spanish.",
+    "Mediapart: Mediapart is a French online investigative and opinion journal created in 2008 by Edwy Plenel, the former editor-in-chief of \"Le Monde\".",
+    "Scott Mackay: His novels have been published in six languages.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "French, English and Spanish",
+   "answer_usage": {
+    "in": 333,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5674459579167888
+   },
+   "retrieval_latency_seconds": 1.2574074160074815,
+   "query": "I have all the information needed to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 318,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.716764209093526
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.054054054054054064,
+  0.8571428571428571,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   33.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   1.0,
+   3.0,
+   0.6666666666666666,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7142857142857143,
+   3.0,
+   1.0,
+   4.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.7142857142857143,
+   3.0,
+   0.0,
+   4.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.7142857142857143,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

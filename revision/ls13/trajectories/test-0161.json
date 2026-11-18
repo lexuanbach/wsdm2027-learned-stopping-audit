@@ -1,0 +1,358 @@
+{
+ "id": "5ae01fcf554299025d62a411",
+ "question": "What type of students attend the school adjacent to Pilgram Hospital?",
+ "gold_answers": [
+  "girls aged 11 to 18"
+ ],
+ "support_titles": [
+  "Pilgrim Hospital",
+  "Boston High School"
+ ],
+ "support_sentences": [
+  "Pilgrim Hospital is a large hospital in the east of Lincolnshire on the A16, north of the town of Boston near the mini-roundabout with the A52.",
+  "It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+  "Boston High School, also known as \"Boston High School for Girls\", is a selective grammar school and sixth form college for girls aged 11 to 18 in Boston, Lincolnshire, England."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No evidence provided to answer this question",
+   "answer_usage": {
+    "in": 75,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6939601249760017
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Pilgrim Hospital: It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+    "Charleston High School (West Virginia): Its final location is where CAMC General Hospital is now located in downtown Charleston, West Virginia.",
+    "Midtown Walmart: Ridership at the Northside Metrorail station increased significantly after the adjacent Gladeview location opened."
+   ],
+   "answer": "High school students",
+   "answer_usage": {
+    "in": 156,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6089894159231335
+   },
+   "retrieval_latency_seconds": 0.20146233402192593,
+   "query": "Pilgram Hospital location and adjacent school",
+   "query_usage": {
+    "in": 60,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5952213340206072
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Pilgrim Hospital: It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+    "Charleston High School (West Virginia): Its final location is where CAMC General Hospital is now located in downtown Charleston, West Virginia.",
+    "Midtown Walmart: Ridership at the Northside Metrorail station increased significantly after the adjacent Gladeview location opened.",
+    "Patrick Henry High School (Ashland, Virginia): In 1969, Patrick Henry High and John M. Gandy High School merged to form one Integrated student body.",
+    "Ygnacio Valley High School: When the nearby Northgate High School opened in 1974, YVHS lost approximately half its student body at the time.",
+    "Needles High School: The school offers many extracurricular activities, including athletics, ASB (Associated Student Body), the Mock National Security Workshop, among others."
+   ],
+   "answer": "High school students",
+   "answer_usage": {
+    "in": 270,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5755245420150459
+   },
+   "retrieval_latency_seconds": 0.005193583085201681,
+   "query": "Boston High School student body type",
+   "query_usage": {
+    "in": 141,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6446979170432314
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Pilgrim Hospital: It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+    "Charleston High School (West Virginia): Its final location is where CAMC General Hospital is now located in downtown Charleston, West Virginia.",
+    "Midtown Walmart: Ridership at the Northside Metrorail station increased significantly after the adjacent Gladeview location opened.",
+    "Patrick Henry High School (Ashland, Virginia): In 1969, Patrick Henry High and John M. Gandy High School merged to form one Integrated student body.",
+    "Ygnacio Valley High School: When the nearby Northgate High School opened in 1974, YVHS lost approximately half its student body at the time.",
+    "Needles High School: The school offers many extracurricular activities, including athletics, ASB (Associated Student Body), the Mock National Security Workshop, among others."
+   ],
+   "answer": "High school students",
+   "answer_usage": {
+    "in": 270,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.562099166912958
+   },
+   "retrieval_latency_seconds": 0.009960082941688597,
+   "query": "Boston High School student body type",
+   "query_usage": {
+    "in": 255,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.627990708919242
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Pilgrim Hospital: It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+    "Charleston High School (West Virginia): Its final location is where CAMC General Hospital is now located in downtown Charleston, West Virginia.",
+    "Midtown Walmart: Ridership at the Northside Metrorail station increased significantly after the adjacent Gladeview location opened.",
+    "Patrick Henry High School (Ashland, Virginia): In 1969, Patrick Henry High and John M. Gandy High School merged to form one Integrated student body.",
+    "Ygnacio Valley High School: When the nearby Northgate High School opened in 1974, YVHS lost approximately half its student body at the time.",
+    "Needles High School: The school offers many extracurricular activities, including athletics, ASB (Associated Student Body), the Mock National Security Workshop, among others."
+   ],
+   "answer": "High school students",
+   "answer_usage": {
+    "in": 270,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5980577080044895
+   },
+   "retrieval_latency_seconds": 0.02012454206123948,
+   "query": "Boston High School student body type",
+   "query_usage": {
+    "in": 255,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.747918082983233
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Pilgrim Hospital: It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+    "Charleston High School (West Virginia): Its final location is where CAMC General Hospital is now located in downtown Charleston, West Virginia.",
+    "Midtown Walmart: Ridership at the Northside Metrorail station increased significantly after the adjacent Gladeview location opened.",
+    "Patrick Henry High School (Ashland, Virginia): In 1969, Patrick Henry High and John M. Gandy High School merged to form one Integrated student body.",
+    "Ygnacio Valley High School: When the nearby Northgate High School opened in 1974, YVHS lost approximately half its student body at the time.",
+    "Needles High School: The school offers many extracurricular activities, including athletics, ASB (Associated Student Body), the Mock National Security Workshop, among others."
+   ],
+   "answer": "High school students",
+   "answer_usage": {
+    "in": 270,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5643397499807179
+   },
+   "retrieval_latency_seconds": 0.014585374970920384,
+   "query": "Boston High School student body type",
+   "query_usage": {
+    "in": 255,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6171311669750139
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Pilgrim Hospital: It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+    "Charleston High School (West Virginia): Its final location is where CAMC General Hospital is now located in downtown Charleston, West Virginia.",
+    "Midtown Walmart: Ridership at the Northside Metrorail station increased significantly after the adjacent Gladeview location opened.",
+    "Patrick Henry High School (Ashland, Virginia): In 1969, Patrick Henry High and John M. Gandy High School merged to form one Integrated student body.",
+    "Ygnacio Valley High School: When the nearby Northgate High School opened in 1974, YVHS lost approximately half its student body at the time.",
+    "Needles High School: The school offers many extracurricular activities, including athletics, ASB (Associated Student Body), the Mock National Security Workshop, among others."
+   ],
+   "answer": "High school students",
+   "answer_usage": {
+    "in": 270,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5886766250478104
+   },
+   "retrieval_latency_seconds": 0.010123834013938904,
+   "query": "Boston High School student body type",
+   "query_usage": {
+    "in": 255,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5927130839554593
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Pilgrim Hospital: It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+    "Charleston High School (West Virginia): Its final location is where CAMC General Hospital is now located in downtown Charleston, West Virginia.",
+    "Midtown Walmart: Ridership at the Northside Metrorail station increased significantly after the adjacent Gladeview location opened.",
+    "Patrick Henry High School (Ashland, Virginia): In 1969, Patrick Henry High and John M. Gandy High School merged to form one Integrated student body.",
+    "Ygnacio Valley High School: When the nearby Northgate High School opened in 1974, YVHS lost approximately half its student body at the time.",
+    "Needles High School: The school offers many extracurricular activities, including athletics, ASB (Associated Student Body), the Mock National Security Workshop, among others."
+   ],
+   "answer": "High school students",
+   "answer_usage": {
+    "in": 270,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5964967920444906
+   },
+   "retrieval_latency_seconds": 0.011075459071435034,
+   "query": "Boston High School student body type",
+   "query_usage": {
+    "in": 255,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6368875000625849
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Pilgrim Hospital: It is situated virtually on the Greenwich Meridian and adjacent to Boston High School.",
+    "Charleston High School (West Virginia): Its final location is where CAMC General Hospital is now located in downtown Charleston, West Virginia.",
+    "Midtown Walmart: Ridership at the Northside Metrorail station increased significantly after the adjacent Gladeview location opened.",
+    "Patrick Henry High School (Ashland, Virginia): In 1969, Patrick Henry High and John M. Gandy High School merged to form one Integrated student body.",
+    "Ygnacio Valley High School: When the nearby Northgate High School opened in 1974, YVHS lost approximately half its student body at the time.",
+    "Needles High School: The school offers many extracurricular activities, including athletics, ASB (Associated Student Body), the Mock National Security Workshop, among others."
+   ],
+   "answer": "High school students",
+   "answer_usage": {
+    "in": 270,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.586704625049606
+   },
+   "retrieval_latency_seconds": 0.016522707999683917,
+   "query": "Boston High School student body type",
+   "query_usage": {
+    "in": 255,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6351957089500502
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.16666666666666666,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.45454545454545453,
+   3.0,
+   1.0,
+   3.0,
+   0.6666666666666666,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.45454545454545453,
+   3.0,
+   0.0,
+   3.0,
+   0.6666666666666666,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.45454545454545453,
+   0.0,
+   0.0,
+   3.0,
+   0.6666666666666666,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.45454545454545453,
+   0.0,
+   0.0,
+   3.0,
+   0.6666666666666666,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.45454545454545453,
+   0.0,
+   0.0,
+   3.0,
+   0.6666666666666666,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.45454545454545453,
+   0.0,
+   0.0,
+   3.0,
+   0.6666666666666666,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.45454545454545453,
+   0.0,
+   0.0,
+   3.0,
+   0.6666666666666666,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.45454545454545453,
+   0.0,
+   0.0,
+   3.0,
+   0.6666666666666666,
+   1.0,
+   2.0
+  ]
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "id": "5ac2c7ff554299657fa2904f",
+ "question": "Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to a state park in Long Island that is how big?",
+ "gold_answers": [
+  "875 acre"
+ ],
+ "support_titles": [
+  "Lighthouse Beach",
+  "Robert Moses State Park (Long Island)"
+ ],
+ "support_sentences": [
+  "Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+  "Robert Moses State Park - Long Island is a 875 acre state park located in southern Suffolk County, New York."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 92,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.7157127500977367
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Lighthouse Beach: Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+    "Fire Island Lighthouse: The lighthouse is located within Fire Island National Seashore and just to the east of Robert Moses State Park.",
+    "Davis Park, New York: It lies within the Fire Island National Seashore."
+   ],
+   "answer": "I cannot determine the size from the provided evidence",
+   "answer_usage": {
+    "in": 174,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6199637500103563
+   },
+   "retrieval_latency_seconds": 0.008378416998311877,
+   "query": "Lighthouse Beach Fire Island National Seashore adjacent state park",
+   "query_usage": {
+    "in": 77,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.7540211250307038
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Lighthouse Beach: Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+    "Fire Island Lighthouse: The lighthouse is located within Fire Island National Seashore and just to the east of Robert Moses State Park.",
+    "Davis Park, New York: It lies within the Fire Island National Seashore.",
+    "Robert Moses State Park (Long Island): Robert Moses State Park - Long Island is a 875 acre state park located in southern Suffolk County, New York.",
+    "Robert Moses State Park (Long Island): The park is accessible from Long Island by the Robert Moses Causeway across Great South Bay."
+   ],
+   "answer": "875 acres",
+   "answer_usage": {
+    "in": 237,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5660827499814332
+   },
+   "retrieval_latency_seconds": 0.018213000032119453,
+   "query": "Robert Moses State Park size acres",
+   "query_usage": {
+    "in": 159,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5482433750294149
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Lighthouse Beach: Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+    "Fire Island Lighthouse: The lighthouse is located within Fire Island National Seashore and just to the east of Robert Moses State Park.",
+    "Davis Park, New York: It lies within the Fire Island National Seashore.",
+    "Robert Moses State Park (Long Island): Robert Moses State Park - Long Island is a 875 acre state park located in southern Suffolk County, New York.",
+    "Robert Moses State Park (Long Island): The park is accessible from Long Island by the Robert Moses Causeway across Great South Bay.",
+    "Robert Moses State Park (Long Island): The park lies on the western end of Fire Island, one of the central barrier islands off the southern coast of Long Island, and is known for its 5 mi stretch of beaches on the Atlantic Ocean."
+   ],
+   "answer": "875 acres",
+   "answer_usage": {
+    "in": 289,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5859924169490114
+   },
+   "retrieval_latency_seconds": 0.31078824994619936,
+   "query": "I have found the answer already in the known facts. Robert Moses State Park on Long Island is **875 acres** in size.",
+   "query_usage": {
+    "in": 222,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7719242080347613
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Lighthouse Beach: Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+    "Fire Island Lighthouse: The lighthouse is located within Fire Island National Seashore and just to the east of Robert Moses State Park.",
+    "Davis Park, New York: It lies within the Fire Island National Seashore.",
+    "Robert Moses State Park (Long Island): Robert Moses State Park - Long Island is a 875 acre state park located in southern Suffolk County, New York.",
+    "Robert Moses State Park (Long Island): The park is accessible from Long Island by the Robert Moses Causeway across Great South Bay.",
+    "Robert Moses State Park (Long Island): The park lies on the western end of Fire Island, one of the central barrier islands off the southern coast of Long Island, and is known for its 5 mi stretch of beaches on the Atlantic Ocean."
+   ],
+   "answer": "875 acres",
+   "answer_usage": {
+    "in": 289,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5997664589667693
+   },
+   "retrieval_latency_seconds": 0.14079333294648677,
+   "query": "The answer is already available in the known facts. Robert Moses State Park (Long Island) is **875 acres**.",
+   "query_usage": {
+    "in": 274,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8119086660444736
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Lighthouse Beach: Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+    "Fire Island Lighthouse: The lighthouse is located within Fire Island National Seashore and just to the east of Robert Moses State Park.",
+    "Davis Park, New York: It lies within the Fire Island National Seashore.",
+    "Robert Moses State Park (Long Island): Robert Moses State Park - Long Island is a 875 acre state park located in southern Suffolk County, New York.",
+    "Robert Moses State Park (Long Island): The park is accessible from Long Island by the Robert Moses Causeway across Great South Bay.",
+    "Robert Moses State Park (Long Island): The park lies on the western end of Fire Island, one of the central barrier islands off the southern coast of Long Island, and is known for its 5 mi stretch of beaches on the Atlantic Ocean."
+   ],
+   "answer": "875 acres",
+   "answer_usage": {
+    "in": 289,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5806740409461781
+   },
+   "retrieval_latency_seconds": 0.14963799994438887,
+   "query": "The answer is already available in the known facts. Robert Moses State Park (Long Island) is **875 acres**.",
+   "query_usage": {
+    "in": 274,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8126531250309199
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Lighthouse Beach: Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+    "Fire Island Lighthouse: The lighthouse is located within Fire Island National Seashore and just to the east of Robert Moses State Park.",
+    "Davis Park, New York: It lies within the Fire Island National Seashore.",
+    "Robert Moses State Park (Long Island): Robert Moses State Park - Long Island is a 875 acre state park located in southern Suffolk County, New York.",
+    "Robert Moses State Park (Long Island): The park is accessible from Long Island by the Robert Moses Causeway across Great South Bay.",
+    "Robert Moses State Park (Long Island): The park lies on the western end of Fire Island, one of the central barrier islands off the southern coast of Long Island, and is known for its 5 mi stretch of beaches on the Atlantic Ocean."
+   ],
+   "answer": "875 acres",
+   "answer_usage": {
+    "in": 289,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.580352499964647
+   },
+   "retrieval_latency_seconds": 0.13101937505416572,
+   "query": "The answer is already available in the known facts. Robert Moses State Park (Long Island) is **875 acres**.",
+   "query_usage": {
+    "in": 274,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8107662911061198
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Lighthouse Beach: Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+    "Fire Island Lighthouse: The lighthouse is located within Fire Island National Seashore and just to the east of Robert Moses State Park.",
+    "Davis Park, New York: It lies within the Fire Island National Seashore.",
+    "Robert Moses State Park (Long Island): Robert Moses State Park - Long Island is a 875 acre state park located in southern Suffolk County, New York.",
+    "Robert Moses State Park (Long Island): The park is accessible from Long Island by the Robert Moses Causeway across Great South Bay.",
+    "Robert Moses State Park (Long Island): The park lies on the western end of Fire Island, one of the central barrier islands off the southern coast of Long Island, and is known for its 5 mi stretch of beaches on the Atlantic Ocean."
+   ],
+   "answer": "875 acres",
+   "answer_usage": {
+    "in": 289,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5551007500616834
+   },
+   "retrieval_latency_seconds": 0.1408058749511838,
+   "query": "The answer is already available in the known facts. Robert Moses State Park (Long Island) is **875 acres**.",
+   "query_usage": {
+    "in": 274,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8478513750014827
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Lighthouse Beach: Lighthouse Beach is a small section of the Fire Island National Seashore that is adjacent to Robert Moses State Park on New York's Long Island.",
+    "Fire Island Lighthouse: The lighthouse is located within Fire Island National Seashore and just to the east of Robert Moses State Park.",
+    "Davis Park, New York: It lies within the Fire Island National Seashore.",
+    "Robert Moses State Park (Long Island): Robert Moses State Park - Long Island is a 875 acre state park located in southern Suffolk County, New York.",
+    "Robert Moses State Park (Long Island): The park is accessible from Long Island by the Robert Moses Causeway across Great South Bay.",
+    "Robert Moses State Park (Long Island): The park lies on the western end of Fire Island, one of the central barrier islands off the southern coast of Long Island, and is known for its 5 mi stretch of beaches on the Atlantic Ocean."
+   ],
+   "answer": "875 acres",
+   "answer_usage": {
+    "in": 289,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5682834580074996
+   },
+   "retrieval_latency_seconds": 0.14063249994069338,
+   "query": "The answer is already available in the known facts. Robert Moses State Park (Long Island) is **875 acres**.",
+   "query_usage": {
+    "in": 274,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8766239579999819
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.5,
+  0.5,
+  0.5,
+  0.5,
+  0.5,
+  0.5,
+  0.5
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.8571428571428571,
+   3.0,
+   1.0,
+   7.0,
+   0.125,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.9047619047619048,
+   2.0,
+   1.0,
+   2.0,
+   0.5,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.9047619047619048,
+   1.0,
+   0.0,
+   2.0,
+   0.5,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.9047619047619048,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.9047619047619048,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.9047619047619048,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.9047619047619048,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.9047619047619048,
+   0.0,
+   0.0,
+   2.0,
+   0.5,
+   1.0,
+   3.0
+  ]
+ ]
+}

@@ -1,0 +1,374 @@
+{
+ "id": "5abc5955554299114383a118",
+ "question": "Which movie was released first, Return to Oz or Midnight Madness?",
+ "gold_answers": [
+  "Midnight Madness"
+ ],
+ "support_titles": [
+  "Return to Oz",
+  "Midnight Madness (film)"
+ ],
+ "support_sentences": [
+  "Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky.",
+  "Midnight Madness is a 1980 American comedy film produced by Walt Disney Productions and starring David Naughton, Stephen Furst and Maggie Roswell."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Midnight Madness",
+   "answer_usage": {
+    "in": 78,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5364003750728443
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Midnight Madness (basketball): As a result, the dates on which teams celebrate Midnight Madness can vary, but most stick with the traditional date of a Friday night closest to 15 October.",
+    "Midnight Madness (album): The 1984 CD release contains a slightly different recording of the track.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956."
+   ],
+   "answer": "I don't have information about the release dates of \"Return to Oz\" or \"Midnight Madness\" (film) in the provided evidence. The evidence only mentions a 1984",
+   "answer_usage": {
+    "in": 171,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8002786249853671
+   },
+   "retrieval_latency_seconds": 0.17687574995215982,
+   "query": "Return to Oz release date Midnight Madness release date",
+   "query_usage": {
+    "in": 63,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.71183279203251
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Midnight Madness (basketball): As a result, the dates on which teams celebrate Midnight Madness can vary, but most stick with the traditional date of a Friday night closest to 15 October.",
+    "Midnight Madness (album): The 1984 CD release contains a slightly different recording of the track.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "The Marvelous Land of Oz: Plot elements from \"The Marvelous Land of Oz\" are included in the 1985 Disney feature film \"Return to Oz\".",
+    "Return to Oz: Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky.",
+    "Return to Oz: It is loosely based on L. Frank Baum's \"Oz\" novels, mainly \"The Marvelous Land of Oz\" (1904) and \"Ozma of Oz\" (1907), yet is set six months after the events of the first novel, \"The Wonderful Wizard of Oz\" (1900) took place."
+   ],
+   "answer": "Midnight Madness",
+   "answer_usage": {
+    "in": 350,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.551518457941711
+   },
+   "retrieval_latency_seconds": 0.024668124970048666,
+   "query": "Return to Oz release date",
+   "query_usage": {
+    "in": 156,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6137168749701232
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Midnight Madness (basketball): As a result, the dates on which teams celebrate Midnight Madness can vary, but most stick with the traditional date of a Friday night closest to 15 October.",
+    "Midnight Madness (album): The 1984 CD release contains a slightly different recording of the track.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "The Marvelous Land of Oz: Plot elements from \"The Marvelous Land of Oz\" are included in the 1985 Disney feature film \"Return to Oz\".",
+    "Return to Oz: Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky.",
+    "Return to Oz: It is loosely based on L. Frank Baum's \"Oz\" novels, mainly \"The Marvelous Land of Oz\" (1904) and \"Ozma of Oz\" (1907), yet is set six months after the events of the first novel, \"The Wonderful Wizard of Oz\" (1900) took place.",
+    "Mathew Laibowitz: He founded in 1996 an urban experience named Midnight Madness after the 1980 film of the same name, Midnight Madness (film).",
+    "Midnight Madness (film): Midnight Madness is a 1980 American comedy film produced by Walt Disney Productions and starring David Naughton, Stephen Furst and Maggie Roswell."
+   ],
+   "answer": "Midnight Madness",
+   "answer_usage": {
+    "in": 445,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5969534160103649
+   },
+   "retrieval_latency_seconds": 0.010036290972493589,
+   "query": "Midnight Madness film release date",
+   "query_usage": {
+    "in": 335,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6214573329780251
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Midnight Madness (basketball): As a result, the dates on which teams celebrate Midnight Madness can vary, but most stick with the traditional date of a Friday night closest to 15 October.",
+    "Midnight Madness (album): The 1984 CD release contains a slightly different recording of the track.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "The Marvelous Land of Oz: Plot elements from \"The Marvelous Land of Oz\" are included in the 1985 Disney feature film \"Return to Oz\".",
+    "Return to Oz: Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky.",
+    "Return to Oz: It is loosely based on L. Frank Baum's \"Oz\" novels, mainly \"The Marvelous Land of Oz\" (1904) and \"Ozma of Oz\" (1907), yet is set six months after the events of the first novel, \"The Wonderful Wizard of Oz\" (1900) took place.",
+    "Mathew Laibowitz: He founded in 1996 an urban experience named Midnight Madness after the 1980 film of the same name, Midnight Madness (film).",
+    "Midnight Madness (film): Midnight Madness is a 1980 American comedy film produced by Walt Disney Productions and starring David Naughton, Stephen Furst and Maggie Roswell.",
+    "Midnight Madness (album): Midnight Madness is the second studio album from rock band Night Ranger released in 1983."
+   ],
+   "answer": "Midnight Madness",
+   "answer_usage": {
+    "in": 477,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5560499170096591
+   },
+   "retrieval_latency_seconds": 0.1736117919208482,
+   "query": "I have enough information to answer the question. Return to Oz was released in 1985, and Midnight Madness (film) was released in",
+   "query_usage": {
+    "in": 430,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.6667354999808595
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Midnight Madness (basketball): As a result, the dates on which teams celebrate Midnight Madness can vary, but most stick with the traditional date of a Friday night closest to 15 October.",
+    "Midnight Madness (album): The 1984 CD release contains a slightly different recording of the track.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "The Marvelous Land of Oz: Plot elements from \"The Marvelous Land of Oz\" are included in the 1985 Disney feature film \"Return to Oz\".",
+    "Return to Oz: Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky.",
+    "Return to Oz: It is loosely based on L. Frank Baum's \"Oz\" novels, mainly \"The Marvelous Land of Oz\" (1904) and \"Ozma of Oz\" (1907), yet is set six months after the events of the first novel, \"The Wonderful Wizard of Oz\" (1900) took place.",
+    "Mathew Laibowitz: He founded in 1996 an urban experience named Midnight Madness after the 1980 film of the same name, Midnight Madness (film).",
+    "Midnight Madness (film): Midnight Madness is a 1980 American comedy film produced by Walt Disney Productions and starring David Naughton, Stephen Furst and Maggie Roswell.",
+    "Midnight Madness (album): Midnight Madness is the second studio album from rock band Night Ranger released in 1983."
+   ],
+   "answer": "Midnight Madness",
+   "answer_usage": {
+    "in": 477,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5214387079467997
+   },
+   "retrieval_latency_seconds": 0.1656851249281317,
+   "query": "I have enough information to answer the question. Return to Oz was released in 1985, and Midnight Madness (film) was released in",
+   "query_usage": {
+    "in": 462,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7449692920781672
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Midnight Madness (basketball): As a result, the dates on which teams celebrate Midnight Madness can vary, but most stick with the traditional date of a Friday night closest to 15 October.",
+    "Midnight Madness (album): The 1984 CD release contains a slightly different recording of the track.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "The Marvelous Land of Oz: Plot elements from \"The Marvelous Land of Oz\" are included in the 1985 Disney feature film \"Return to Oz\".",
+    "Return to Oz: Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky.",
+    "Return to Oz: It is loosely based on L. Frank Baum's \"Oz\" novels, mainly \"The Marvelous Land of Oz\" (1904) and \"Ozma of Oz\" (1907), yet is set six months after the events of the first novel, \"The Wonderful Wizard of Oz\" (1900) took place.",
+    "Mathew Laibowitz: He founded in 1996 an urban experience named Midnight Madness after the 1980 film of the same name, Midnight Madness (film).",
+    "Midnight Madness (film): Midnight Madness is a 1980 American comedy film produced by Walt Disney Productions and starring David Naughton, Stephen Furst and Maggie Roswell.",
+    "Midnight Madness (album): Midnight Madness is the second studio album from rock band Night Ranger released in 1983."
+   ],
+   "answer": "Midnight Madness",
+   "answer_usage": {
+    "in": 477,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5413394999923185
+   },
+   "retrieval_latency_seconds": 0.2739884579787031,
+   "query": "I have enough information to answer the question. Return to Oz was released in 1985, and Midnight Madness (film) was released in",
+   "query_usage": {
+    "in": 462,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.6935273340204731
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Midnight Madness (basketball): As a result, the dates on which teams celebrate Midnight Madness can vary, but most stick with the traditional date of a Friday night closest to 15 October.",
+    "Midnight Madness (album): The 1984 CD release contains a slightly different recording of the track.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "The Marvelous Land of Oz: Plot elements from \"The Marvelous Land of Oz\" are included in the 1985 Disney feature film \"Return to Oz\".",
+    "Return to Oz: Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky.",
+    "Return to Oz: It is loosely based on L. Frank Baum's \"Oz\" novels, mainly \"The Marvelous Land of Oz\" (1904) and \"Ozma of Oz\" (1907), yet is set six months after the events of the first novel, \"The Wonderful Wizard of Oz\" (1900) took place.",
+    "Mathew Laibowitz: He founded in 1996 an urban experience named Midnight Madness after the 1980 film of the same name, Midnight Madness (film).",
+    "Midnight Madness (film): Midnight Madness is a 1980 American comedy film produced by Walt Disney Productions and starring David Naughton, Stephen Furst and Maggie Roswell.",
+    "Midnight Madness (album): Midnight Madness is the second studio album from rock band Night Ranger released in 1983."
+   ],
+   "answer": "Midnight Madness",
+   "answer_usage": {
+    "in": 477,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5403241249732673
+   },
+   "retrieval_latency_seconds": 0.33293241600040346,
+   "query": "I have enough information to answer the question. Return to Oz was released in 1985, and Midnight Madness (film) was released in",
+   "query_usage": {
+    "in": 462,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.732380208093673
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Midnight Madness (basketball): As a result, the dates on which teams celebrate Midnight Madness can vary, but most stick with the traditional date of a Friday night closest to 15 October.",
+    "Midnight Madness (album): The 1984 CD release contains a slightly different recording of the track.",
+    "Twelfth Night (1955 film): United States release date: March 3, 1956.",
+    "The Marvelous Land of Oz: Plot elements from \"The Marvelous Land of Oz\" are included in the 1985 Disney feature film \"Return to Oz\".",
+    "Return to Oz: Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky.",
+    "Return to Oz: It is loosely based on L. Frank Baum's \"Oz\" novels, mainly \"The Marvelous Land of Oz\" (1904) and \"Ozma of Oz\" (1907), yet is set six months after the events of the first novel, \"The Wonderful Wizard of Oz\" (1900) took place.",
+    "Mathew Laibowitz: He founded in 1996 an urban experience named Midnight Madness after the 1980 film of the same name, Midnight Madness (film).",
+    "Midnight Madness (film): Midnight Madness is a 1980 American comedy film produced by Walt Disney Productions and starring David Naughton, Stephen Furst and Maggie Roswell.",
+    "Midnight Madness (album): Midnight Madness is the second studio album from rock band Night Ranger released in 1983."
+   ],
+   "answer": "Midnight Madness",
+   "answer_usage": {
+    "in": 477,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5320302499458194
+   },
+   "retrieval_latency_seconds": 0.35324962495360523,
+   "query": "I have enough information to answer the question. Return to Oz was released in 1985, and Midnight Madness (film) was released in",
+   "query_usage": {
+    "in": 462,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7614628749433905
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  0.16,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.36363636363636365,
+   3.0,
+   1.0,
+   23.0,
+   0.4166666666666667,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.6363636363636364,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.6363636363636364,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.7272727272727273,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.7272727272727273,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

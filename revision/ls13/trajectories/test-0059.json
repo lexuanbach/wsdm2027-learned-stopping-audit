@@ -1,0 +1,375 @@
+{
+ "id": "5a7e23655542997cc2c47528",
+ "question": "WBYA is a radio station licensed to a town with what population as of the 2010 census?",
+ "gold_answers": [
+  "566"
+ ],
+ "support_titles": [
+  "WBYA",
+  "Islesboro, Maine"
+ ],
+ "support_sentences": [
+  "WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+  "The population was 566 at the 2010 census."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have evidence to answer this question about WBYA's licensed town population. I would need information about which town WBYA is licensed to and that town's 2010",
+   "answer_usage": {
+    "in": 85,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8879249580204487
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "WBYA: WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+    "WKVV: Established in 1994 as WBYA, the station serves the Bangor area.",
+    "WBYA: The station serves the Mid Coast area with a country music format."
+   ],
+   "answer": "556",
+   "answer_usage": {
+    "in": 167,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5540840839967132
+   },
+   "retrieval_latency_seconds": 0.003813832998275757,
+   "query": "WBYA radio station",
+   "query_usage": {
+    "in": 70,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5391219999874011
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "WBYA: WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+    "WKVV: Established in 1994 as WBYA, the station serves the Bangor area.",
+    "WBYA: The station serves the Mid Coast area with a country music format.",
+    "Islesboro, Maine: The population was 566 at the 2010 census.",
+    "Monson, Maine: The population was 686 at the 2010 census.",
+    "Islesboro, Maine: Islesboro is a town in Waldo County, Maine, United States."
+   ],
+   "answer": "566",
+   "answer_usage": {
+    "in": 239,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5802586249774322
+   },
+   "retrieval_latency_seconds": 0.007159083033911884,
+   "query": "Islesboro Maine population 2010 census",
+   "query_usage": {
+    "in": 152,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6621025000931695
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "WBYA: WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+    "WKVV: Established in 1994 as WBYA, the station serves the Bangor area.",
+    "WBYA: The station serves the Mid Coast area with a country music format.",
+    "Islesboro, Maine: The population was 566 at the 2010 census.",
+    "Monson, Maine: The population was 686 at the 2010 census.",
+    "Islesboro, Maine: Islesboro is a town in Waldo County, Maine, United States.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "566",
+   "answer_usage": {
+    "in": 339,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6818944580154493
+   },
+   "retrieval_latency_seconds": 0.08941154205240309,
+   "query": "Based on the information already known, I can answer this question directly:",
+   "query_usage": {
+    "in": 224,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7709938329644501
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "WBYA: WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+    "WKVV: Established in 1994 as WBYA, the station serves the Bangor area.",
+    "WBYA: The station serves the Mid Coast area with a country music format.",
+    "Islesboro, Maine: The population was 566 at the 2010 census.",
+    "Monson, Maine: The population was 686 at the 2010 census.",
+    "Islesboro, Maine: Islesboro is a town in Waldo County, Maine, United States.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "566",
+   "answer_usage": {
+    "in": 339,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6065376249607652
+   },
+   "retrieval_latency_seconds": 0.27382258302532136,
+   "query": "Based on the information provided, I already have the answer to the question. WBYA is licensed to Islesboro, Maine, and according to",
+   "query_usage": {
+    "in": 324,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7641847500344738
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "WBYA: WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+    "WKVV: Established in 1994 as WBYA, the station serves the Bangor area.",
+    "WBYA: The station serves the Mid Coast area with a country music format.",
+    "Islesboro, Maine: The population was 566 at the 2010 census.",
+    "Monson, Maine: The population was 686 at the 2010 census.",
+    "Islesboro, Maine: Islesboro is a town in Waldo County, Maine, United States.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "566",
+   "answer_usage": {
+    "in": 339,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5527257089270279
+   },
+   "retrieval_latency_seconds": 0.5015641669742763,
+   "query": "Based on the information already known, I can answer this question directly:",
+   "query_usage": {
+    "in": 324,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7840800000121817
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "WBYA: WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+    "WKVV: Established in 1994 as WBYA, the station serves the Bangor area.",
+    "WBYA: The station serves the Mid Coast area with a country music format.",
+    "Islesboro, Maine: The population was 566 at the 2010 census.",
+    "Monson, Maine: The population was 686 at the 2010 census.",
+    "Islesboro, Maine: Islesboro is a town in Waldo County, Maine, United States.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "566",
+   "answer_usage": {
+    "in": 339,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5672060829820111
+   },
+   "retrieval_latency_seconds": 0.4619594580726698,
+   "query": "Based on the information provided, I already have the answer to the question. WBYA is licensed to Islesboro, Maine, and according to",
+   "query_usage": {
+    "in": 324,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.79402658296749
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "WBYA: WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+    "WKVV: Established in 1994 as WBYA, the station serves the Bangor area.",
+    "WBYA: The station serves the Mid Coast area with a country music format.",
+    "Islesboro, Maine: The population was 566 at the 2010 census.",
+    "Monson, Maine: The population was 686 at the 2010 census.",
+    "Islesboro, Maine: Islesboro is a town in Waldo County, Maine, United States.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "566",
+   "answer_usage": {
+    "in": 339,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5762823750264943
+   },
+   "retrieval_latency_seconds": 0.39389050006866455,
+   "query": "Based on the information provided, I already have the answer to the question. WBYA is licensed to Islesboro, Maine, and according to",
+   "query_usage": {
+    "in": 324,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8099648749921471
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "WBYA: WBYA (105.5 FM; \"The Wolf\") is a radio station licensed to Islesboro, Maine, United States.",
+    "WKVV: Established in 1994 as WBYA, the station serves the Bangor area.",
+    "WBYA: The station serves the Mid Coast area with a country music format.",
+    "Islesboro, Maine: The population was 566 at the 2010 census.",
+    "Monson, Maine: The population was 686 at the 2010 census.",
+    "Islesboro, Maine: Islesboro is a town in Waldo County, Maine, United States.",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\""
+   ],
+   "answer": "566",
+   "answer_usage": {
+    "in": 339,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6766765000065789
+   },
+   "retrieval_latency_seconds": 0.2554436249192804,
+   "query": "Based on the information already known, I can answer this question directly:",
+   "query_usage": {
+    "in": 324,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7458418749738485
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   31.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.625,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.875,
+   3.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.9375,
+   3.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.9375,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.9375,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.9375,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.9375,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.9375,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

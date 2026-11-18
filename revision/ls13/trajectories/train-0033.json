@@ -1,0 +1,351 @@
+{
+ "id": "5a75083b5542996c70cfae7e",
+ "question": "Which British independent private day school for boys did Charles John Godfrey Saunders attend?",
+ "gold_answers": [
+  "Merchant Taylors' School (MTS)"
+ ],
+ "support_titles": [
+  "Charles Saunders (bishop)",
+  "Merchant Taylors' School, Northwood"
+ ],
+ "support_sentences": [
+  "Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+  "He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+  "Merchant Taylors' School (MTS) is a British independent private day school for boys, originally located in the City of London."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the available evidence",
+   "answer_usage": {
+    "in": 82,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6841596249723807
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Charles Saunders (bishop): Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+    "Charles Saunders (bishop): He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+    "Katherine Saunders: The eldest daughter of the writer John Saunders, she had 11 siblings."
+   ],
+   "answer": "Merchant Taylors' School",
+   "answer_usage": {
+    "in": 192,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5795507919974625
+   },
+   "retrieval_latency_seconds": 0.013561917003244162,
+   "query": "Charles John Godfrey Saunders British school",
+   "query_usage": {
+    "in": 67,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6449734580237418
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Charles Saunders (bishop): Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+    "Charles Saunders (bishop): He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+    "Katherine Saunders: The eldest daughter of the writer John Saunders, she had 11 siblings.",
+    "Merchant Taylors' School, Northwood: Merchant Taylors' School (MTS) is a British independent private day school for boys, originally located in the City of London.",
+    "Tawhid Boys School: Tawhid Boys School located in Stoke Newington, in the London Borough of Hackney."
+   ],
+   "answer": "Merchant Taylors' School",
+   "answer_usage": {
+    "in": 270,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6439216249855235
+   },
+   "retrieval_latency_seconds": 0.0072122919373214245,
+   "query": "Merchant Taylors' School London independent boys school",
+   "query_usage": {
+    "in": 177,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.8044745409861207
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Charles Saunders (bishop): Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+    "Charles Saunders (bishop): He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+    "Katherine Saunders: The eldest daughter of the writer John Saunders, she had 11 siblings.",
+    "Merchant Taylors' School, Northwood: Merchant Taylors' School (MTS) is a British independent private day school for boys, originally located in the City of London.",
+    "Tawhid Boys School: Tawhid Boys School located in Stoke Newington, in the London Borough of Hackney."
+   ],
+   "answer": "Merchant Taylors' School",
+   "answer_usage": {
+    "in": 270,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6666541669983417
+   },
+   "retrieval_latency_seconds": 0.11429129191674292,
+   "query": "Based on the information provided, I can already answer the question. Charles John Godfrey Saunders attended **Merchant Taylors",
+   "query_usage": {
+    "in": 255,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7827687920071185
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Charles Saunders (bishop): Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+    "Charles Saunders (bishop): He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+    "Katherine Saunders: The eldest daughter of the writer John Saunders, she had 11 siblings.",
+    "Merchant Taylors' School, Northwood: Merchant Taylors' School (MTS) is a British independent private day school for boys, originally located in the City of London.",
+    "Tawhid Boys School: Tawhid Boys School located in Stoke Newington, in the London Borough of Hackney."
+   ],
+   "answer": "Merchant Taylors' School",
+   "answer_usage": {
+    "in": 270,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6276977080851793
+   },
+   "retrieval_latency_seconds": 0.11977212491910905,
+   "query": "Based on the information provided, I can already answer the question. Charles John Godfrey Saunders attended **Merchant Taylors",
+   "query_usage": {
+    "in": 255,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7830818330403417
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Charles Saunders (bishop): Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+    "Charles Saunders (bishop): He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+    "Katherine Saunders: The eldest daughter of the writer John Saunders, she had 11 siblings.",
+    "Merchant Taylors' School, Northwood: Merchant Taylors' School (MTS) is a British independent private day school for boys, originally located in the City of London.",
+    "Tawhid Boys School: Tawhid Boys School located in Stoke Newington, in the London Borough of Hackney."
+   ],
+   "answer": "Merchant Taylors' School",
+   "answer_usage": {
+    "in": 270,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6379489590181038
+   },
+   "retrieval_latency_seconds": 0.12081108300480992,
+   "query": "Based on the information provided, I can already answer the question. Charles John Godfrey Saunders attended **Merchant Taylors",
+   "query_usage": {
+    "in": 255,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7672199999215081
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Charles Saunders (bishop): Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+    "Charles Saunders (bishop): He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+    "Katherine Saunders: The eldest daughter of the writer John Saunders, she had 11 siblings.",
+    "Merchant Taylors' School, Northwood: Merchant Taylors' School (MTS) is a British independent private day school for boys, originally located in the City of London.",
+    "Tawhid Boys School: Tawhid Boys School located in Stoke Newington, in the London Borough of Hackney."
+   ],
+   "answer": "Merchant Taylors' School",
+   "answer_usage": {
+    "in": 270,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6312752919038758
+   },
+   "retrieval_latency_seconds": 0.1140319590922445,
+   "query": "Based on the information provided, I can already answer the question. Charles John Godfrey Saunders attended **Merchant Taylors",
+   "query_usage": {
+    "in": 255,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7938415829557925
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Charles Saunders (bishop): Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+    "Charles Saunders (bishop): He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+    "Katherine Saunders: The eldest daughter of the writer John Saunders, she had 11 siblings.",
+    "Merchant Taylors' School, Northwood: Merchant Taylors' School (MTS) is a British independent private day school for boys, originally located in the City of London.",
+    "Tawhid Boys School: Tawhid Boys School located in Stoke Newington, in the London Borough of Hackney."
+   ],
+   "answer": "Merchant Taylors' School",
+   "answer_usage": {
+    "in": 270,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6242936669150367
+   },
+   "retrieval_latency_seconds": 0.37456120806746185,
+   "query": "Based on the information provided, I can already answer the question. Charles John Godfrey Saunders attended **Merchant Taylors",
+   "query_usage": {
+    "in": 255,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.775973750045523
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Charles Saunders (bishop): Charles John Godfrey Saunders (1884 \u2013 16 October 1973) was the Bishop of Lucknow from 1928 until 1938.",
+    "Charles Saunders (bishop): He was born in 1884 and educated at Merchant Taylors' School and St John\u2019s College, Oxford.",
+    "Katherine Saunders: The eldest daughter of the writer John Saunders, she had 11 siblings.",
+    "Merchant Taylors' School, Northwood: Merchant Taylors' School (MTS) is a British independent private day school for boys, originally located in the City of London.",
+    "Tawhid Boys School: Tawhid Boys School located in Stoke Newington, in the London Borough of Hackney."
+   ],
+   "answer": "Merchant Taylors' School",
+   "answer_usage": {
+    "in": 270,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6563006670912728
+   },
+   "retrieval_latency_seconds": 0.30085458396933973,
+   "query": "Based on the information provided, I can already answer the question. Charles John Godfrey Saunders attended **Merchant Taylors",
+   "query_usage": {
+    "in": 255,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7820961669785902
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.8571428571428571,
+  0.8571428571428571,
+  0.8571428571428571,
+  0.8571428571428571,
+  0.8571428571428571,
+  0.8571428571428571,
+  0.8571428571428571,
+  0.8571428571428571
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.35714285714285715,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7857142857142857,
+   2.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   5.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   5.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   5.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   5.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   5.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   5.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

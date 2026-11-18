@@ -1,0 +1,370 @@
+{
+ "id": "5a79f04d5542996c55b2dca7",
+ "question": "Which long-established US university is older: University of California, Berkeley or Syracuse University?",
+ "gold_answers": [
+  "University of California, Berkeley"
+ ],
+ "support_titles": [
+  "University of California, Berkeley",
+  "Syracuse University"
+ ],
+ "support_sentences": [
+  "The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+  "Founded in 1868, Berkeley is the oldest of the ten research universities affiliated with the University of California system (although UCSF was founded in 1864 and predates the establishment of the UC system) and is ranked as one of the world's leading research universities and the top public university in the United States.",
+  "After several years of debate over relocating the college to Syracuse, the university was established in 1870, independent of the college."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Syracuse University",
+   "answer_usage": {
+    "in": 79,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5895389589713886
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "University of California, Berkeley: The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+    "UC Berkeley School of Law: The University of California, Berkeley, School of Law, commonly referred to as Berkeley Law and Boalt Hall, is one of 14 schools and colleges at the University of California, Berkeley.",
+    "Dana Carey: A native of California, Carey attended the University of California, Berkeley."
+   ],
+   "answer": "Syracuse University",
+   "answer_usage": {
+    "in": 181,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5806809169007465
+   },
+   "retrieval_latency_seconds": 0.06734116689767689,
+   "query": "University of California Berkeley founding date Syracuse University founding date",
+   "query_usage": {
+    "in": 64,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6178335840813816
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "University of California, Berkeley: The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+    "UC Berkeley School of Law: The University of California, Berkeley, School of Law, commonly referred to as Berkeley Law and Boalt Hall, is one of 14 schools and colleges at the University of California, Berkeley.",
+    "Dana Carey: A native of California, Carey attended the University of California, Berkeley.",
+    "Syracuse University: Syracuse University (commonly referred to as Syracuse, 'Cuse, or SU) is a private research university in Syracuse, New York, United States.",
+    "Syracuse University Alma Mater: The Syracuse University Alma Mater is the school song for Syracuse University, a private research university located in Syracuse, New York, United States.",
+    "Syracuse University Marching Band: The Syracuse University Marching Band (SUMB), also known as the Pride of the Orange, is the collegiate marching band of Syracuse University."
+   ],
+   "answer": "Syracuse University",
+   "answer_usage": {
+    "in": 299,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.4981820830143988
+   },
+   "retrieval_latency_seconds": 0.007146249990910292,
+   "query": "Syracuse University founding date",
+   "query_usage": {
+    "in": 166,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5573849170468748
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "University of California, Berkeley: The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+    "UC Berkeley School of Law: The University of California, Berkeley, School of Law, commonly referred to as Berkeley Law and Boalt Hall, is one of 14 schools and colleges at the University of California, Berkeley.",
+    "Dana Carey: A native of California, Carey attended the University of California, Berkeley.",
+    "Syracuse University: Syracuse University (commonly referred to as Syracuse, 'Cuse, or SU) is a private research university in Syracuse, New York, United States.",
+    "Syracuse University Alma Mater: The Syracuse University Alma Mater is the school song for Syracuse University, a private research university located in Syracuse, New York, United States.",
+    "Syracuse University Marching Band: The Syracuse University Marching Band (SUMB), also known as the Pride of the Orange, is the collegiate marching band of Syracuse University.",
+    "Syracuse Triad: The Syracuse Triad is the name given to the three women's sororities founded at Syracuse University.",
+    "University of California, Berkeley: Founded in 1868, Berkeley is the oldest of the ten research universities affiliated with the University of California system (although UCSF was founded in 1864 and predates the establishment of the UC system) and is ranked as one of the world's leading research universities and the top public university in the United States."
+   ],
+   "answer": "University of California, Berkeley",
+   "answer_usage": {
+    "in": 402,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5754730410408229
+   },
+   "retrieval_latency_seconds": 0.06473337498027831,
+   "query": "University of California Berkeley founded year Syracuse University founded year",
+   "query_usage": {
+    "in": 284,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6602473329985514
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "University of California, Berkeley: The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+    "UC Berkeley School of Law: The University of California, Berkeley, School of Law, commonly referred to as Berkeley Law and Boalt Hall, is one of 14 schools and colleges at the University of California, Berkeley.",
+    "Dana Carey: A native of California, Carey attended the University of California, Berkeley.",
+    "Syracuse University: Syracuse University (commonly referred to as Syracuse, 'Cuse, or SU) is a private research university in Syracuse, New York, United States.",
+    "Syracuse University Alma Mater: The Syracuse University Alma Mater is the school song for Syracuse University, a private research university located in Syracuse, New York, United States.",
+    "Syracuse University Marching Band: The Syracuse University Marching Band (SUMB), also known as the Pride of the Orange, is the collegiate marching band of Syracuse University.",
+    "Syracuse Triad: The Syracuse Triad is the name given to the three women's sororities founded at Syracuse University.",
+    "University of California, Berkeley: Founded in 1868, Berkeley is the oldest of the ten research universities affiliated with the University of California system (although UCSF was founded in 1864 and predates the establishment of the UC system) and is ranked as one of the world's leading research universities and the top public university in the United States."
+   ],
+   "answer": "University of California, Berkeley",
+   "answer_usage": {
+    "in": 402,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5721317499410361
+   },
+   "retrieval_latency_seconds": 0.005404208088293672,
+   "query": "Syracuse University founding date",
+   "query_usage": {
+    "in": 387,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6256131249247119
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "University of California, Berkeley: The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+    "UC Berkeley School of Law: The University of California, Berkeley, School of Law, commonly referred to as Berkeley Law and Boalt Hall, is one of 14 schools and colleges at the University of California, Berkeley.",
+    "Dana Carey: A native of California, Carey attended the University of California, Berkeley.",
+    "Syracuse University: Syracuse University (commonly referred to as Syracuse, 'Cuse, or SU) is a private research university in Syracuse, New York, United States.",
+    "Syracuse University Alma Mater: The Syracuse University Alma Mater is the school song for Syracuse University, a private research university located in Syracuse, New York, United States.",
+    "Syracuse University Marching Band: The Syracuse University Marching Band (SUMB), also known as the Pride of the Orange, is the collegiate marching band of Syracuse University.",
+    "Syracuse Triad: The Syracuse Triad is the name given to the three women's sororities founded at Syracuse University.",
+    "University of California, Berkeley: Founded in 1868, Berkeley is the oldest of the ten research universities affiliated with the University of California system (although UCSF was founded in 1864 and predates the establishment of the UC system) and is ranked as one of the world's leading research universities and the top public university in the United States."
+   ],
+   "answer": "University of California, Berkeley",
+   "answer_usage": {
+    "in": 402,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5880897080060095
+   },
+   "retrieval_latency_seconds": 0.010416250093840063,
+   "query": "Syracuse University founding date",
+   "query_usage": {
+    "in": 387,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6085285829612985
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "University of California, Berkeley: The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+    "UC Berkeley School of Law: The University of California, Berkeley, School of Law, commonly referred to as Berkeley Law and Boalt Hall, is one of 14 schools and colleges at the University of California, Berkeley.",
+    "Dana Carey: A native of California, Carey attended the University of California, Berkeley.",
+    "Syracuse University: Syracuse University (commonly referred to as Syracuse, 'Cuse, or SU) is a private research university in Syracuse, New York, United States.",
+    "Syracuse University Alma Mater: The Syracuse University Alma Mater is the school song for Syracuse University, a private research university located in Syracuse, New York, United States.",
+    "Syracuse University Marching Band: The Syracuse University Marching Band (SUMB), also known as the Pride of the Orange, is the collegiate marching band of Syracuse University.",
+    "Syracuse Triad: The Syracuse Triad is the name given to the three women's sororities founded at Syracuse University.",
+    "University of California, Berkeley: Founded in 1868, Berkeley is the oldest of the ten research universities affiliated with the University of California system (although UCSF was founded in 1864 and predates the establishment of the UC system) and is ranked as one of the world's leading research universities and the top public university in the United States."
+   ],
+   "answer": "University of California, Berkeley",
+   "answer_usage": {
+    "in": 402,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6006853750441223
+   },
+   "retrieval_latency_seconds": 0.008674708078615367,
+   "query": "Syracuse University founding date",
+   "query_usage": {
+    "in": 387,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6373615830671042
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "University of California, Berkeley: The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+    "UC Berkeley School of Law: The University of California, Berkeley, School of Law, commonly referred to as Berkeley Law and Boalt Hall, is one of 14 schools and colleges at the University of California, Berkeley.",
+    "Dana Carey: A native of California, Carey attended the University of California, Berkeley.",
+    "Syracuse University: Syracuse University (commonly referred to as Syracuse, 'Cuse, or SU) is a private research university in Syracuse, New York, United States.",
+    "Syracuse University Alma Mater: The Syracuse University Alma Mater is the school song for Syracuse University, a private research university located in Syracuse, New York, United States.",
+    "Syracuse University Marching Band: The Syracuse University Marching Band (SUMB), also known as the Pride of the Orange, is the collegiate marching band of Syracuse University.",
+    "Syracuse Triad: The Syracuse Triad is the name given to the three women's sororities founded at Syracuse University.",
+    "University of California, Berkeley: Founded in 1868, Berkeley is the oldest of the ten research universities affiliated with the University of California system (although UCSF was founded in 1864 and predates the establishment of the UC system) and is ranked as one of the world's leading research universities and the top public university in the United States."
+   ],
+   "answer": "University of California, Berkeley",
+   "answer_usage": {
+    "in": 402,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5585267909336835
+   },
+   "retrieval_latency_seconds": 0.0112912910990417,
+   "query": "Syracuse University founding date",
+   "query_usage": {
+    "in": 387,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6281980409985408
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "University of California, Berkeley: The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California.",
+    "UC Berkeley School of Law: The University of California, Berkeley, School of Law, commonly referred to as Berkeley Law and Boalt Hall, is one of 14 schools and colleges at the University of California, Berkeley.",
+    "Dana Carey: A native of California, Carey attended the University of California, Berkeley.",
+    "Syracuse University: Syracuse University (commonly referred to as Syracuse, 'Cuse, or SU) is a private research university in Syracuse, New York, United States.",
+    "Syracuse University Alma Mater: The Syracuse University Alma Mater is the school song for Syracuse University, a private research university located in Syracuse, New York, United States.",
+    "Syracuse University Marching Band: The Syracuse University Marching Band (SUMB), also known as the Pride of the Orange, is the collegiate marching band of Syracuse University.",
+    "Syracuse Triad: The Syracuse Triad is the name given to the three women's sororities founded at Syracuse University.",
+    "University of California, Berkeley: Founded in 1868, Berkeley is the oldest of the ten research universities affiliated with the University of California system (although UCSF was founded in 1864 and predates the establishment of the UC system) and is ranked as one of the world's leading research universities and the top public university in the United States."
+   ],
+   "answer": "University of California, Berkeley",
+   "answer_usage": {
+    "in": 402,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5822885410161689
+   },
+   "retrieval_latency_seconds": 0.005551291047595441,
+   "query": "Syracuse University founding date",
+   "query_usage": {
+    "in": 387,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6852899579098448
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.3333333333333333,
+  0.3333333333333333,
+  0.3333333333333333,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4166666666666667,
+   3.0,
+   0.0,
+   2.0,
+   0.5,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5833333333333334,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.5833333333333334,
+   2.0,
+   1.0,
+   4.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.5833333333333334,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.5833333333333334,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.5833333333333334,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.5833333333333334,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.5833333333333334,
+   0.0,
+   0.0,
+   4.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

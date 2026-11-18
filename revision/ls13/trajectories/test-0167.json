@@ -1,0 +1,387 @@
+{
+ "id": "5ab2beba554299166977408f",
+ "question": "Who is the father of the Prince in which William Joseph Weaver is most famous for painting a full length portrait of?",
+ "gold_answers": [
+  "George III"
+ ],
+ "support_titles": [
+  "William J. Weaver",
+  "Prince Edward, Duke of Kent and Strathearn"
+ ],
+ "support_sentences": [
+  "William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+  "He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+  "Prince Edward, Duke of Kent and Strathearn, (Edward Augustus; 2 November 1767 \u2013 23 January 1820) was the fourth son and fifth child of the British king George III and the father of Queen Victoria."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have enough information to answer this question. The evidence section is empty, and I cannot determine which Prince William Joseph Weaver painted a full-length portrait of without additional context",
+   "answer_usage": {
+    "in": 86,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8284555419813842
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "William J. Weaver: He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+    "William J. Weaver: William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+    "William J. Weaver: He also worked for Joseph Booth's Polygraphic Society."
+   ],
+   "answer": "George III",
+   "answer_usage": {
+    "in": 199,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5549490828998387
+   },
+   "retrieval_latency_seconds": 0.006344832945615053,
+   "query": "William Joseph Weaver full length portrait Prince",
+   "query_usage": {
+    "in": 71,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5907491249963641
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "William J. Weaver: He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+    "William J. Weaver: William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+    "William J. Weaver: He also worked for Joseph Booth's Polygraphic Society.",
+    "Prince Edward, Duke of Kent and Strathearn: Prince Edward, Duke of Kent and Strathearn, (Edward Augustus; 2 November 1767 \u2013 23 January 1820) was the fourth son and fifth child of the British king George III and the father of Queen Victoria.",
+    "Prince George, Duke of Kent: Prince George, Duke of Kent, {'1': \", '2': \", '3': \", '4': \"} (George Edward Alexander Edmund; 20 December 1902 \u2013 25 August 1942) was the fourth son of George V of the United Kingdom and Queen Mary.",
+    "Kensington Palace: It has been a residence of the British Royal Family since the 17th century, and is currently the official London residence of the Duke and Duchess of Cambridge, Prince Harry, the Duke and Duchess of Gloucester, the Duke and Duchess of Kent, and Prince and Princess Michael of Kent."
+   ],
+   "answer": "George III",
+   "answer_usage": {
+    "in": 406,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5594781249528751
+   },
+   "retrieval_latency_seconds": 0.06304179097060114,
+   "query": "Prince Edward Duke of Kent father",
+   "query_usage": {
+    "in": 184,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6037680000299588
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "William J. Weaver: He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+    "William J. Weaver: William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+    "William J. Weaver: He also worked for Joseph Booth's Polygraphic Society.",
+    "Prince Edward, Duke of Kent and Strathearn: Prince Edward, Duke of Kent and Strathearn, (Edward Augustus; 2 November 1767 \u2013 23 January 1820) was the fourth son and fifth child of the British king George III and the father of Queen Victoria.",
+    "Prince George, Duke of Kent: Prince George, Duke of Kent, {'1': \", '2': \", '3': \", '4': \"} (George Edward Alexander Edmund; 20 December 1902 \u2013 25 August 1942) was the fourth son of George V of the United Kingdom and Queen Mary.",
+    "Kensington Palace: It has been a residence of the British Royal Family since the 17th century, and is currently the official London residence of the Duke and Duchess of Cambridge, Prince Harry, the Duke and Duchess of Gloucester, the Duke and Duchess of Kent, and Prince and Princess Michael of Kent.",
+    "Prince Henry, Duke of Cumberland and Strathearn: Prince Henry, Duke of Cumberland and Strathearn (Henry Frederick; 7 November 1745 \u2013 18 September 1790) was the sixth child and fourth son of Frederick, Prince of Wales and Augusta of Saxe-Gotha, and a younger brother of George III."
+   ],
+   "answer": "George III",
+   "answer_usage": {
+    "in": 484,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.558598916977644
+   },
+   "retrieval_latency_seconds": 0.050795207964256406,
+   "query": "George III father of Prince Edward Duke of Kent",
+   "query_usage": {
+    "in": 391,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6633562919450924
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "William J. Weaver: He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+    "William J. Weaver: William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+    "William J. Weaver: He also worked for Joseph Booth's Polygraphic Society.",
+    "Prince Edward, Duke of Kent and Strathearn: Prince Edward, Duke of Kent and Strathearn, (Edward Augustus; 2 November 1767 \u2013 23 January 1820) was the fourth son and fifth child of the British king George III and the father of Queen Victoria.",
+    "Prince George, Duke of Kent: Prince George, Duke of Kent, {'1': \", '2': \", '3': \", '4': \"} (George Edward Alexander Edmund; 20 December 1902 \u2013 25 August 1942) was the fourth son of George V of the United Kingdom and Queen Mary.",
+    "Kensington Palace: It has been a residence of the British Royal Family since the 17th century, and is currently the official London residence of the Duke and Duchess of Cambridge, Prince Harry, the Duke and Duchess of Gloucester, the Duke and Duchess of Kent, and Prince and Princess Michael of Kent.",
+    "Prince Henry, Duke of Cumberland and Strathearn: Prince Henry, Duke of Cumberland and Strathearn (Henry Frederick; 7 November 1745 \u2013 18 September 1790) was the sixth child and fourth son of Frederick, Prince of Wales and Augusta of Saxe-Gotha, and a younger brother of George III.",
+    "George Yardley: George Harry Yardley III (November 3, 1928 \u2013 August 13, 2004) was an American basketball player.",
+    "Amelia Cary, Viscountess Falkland: A granddaughter of George III, Amelia was named after her aunt Princess Amelia.",
+    "Boonecroft: It includes the remains of the 1720 log cabin built by Quaker settler George Boone, III."
+   ],
+   "answer": "George III",
+   "answer_usage": {
+    "in": 595,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.47160370799247175
+   },
+   "retrieval_latency_seconds": 0.016131083946675062,
+   "query": "George III children",
+   "query_usage": {
+    "in": 469,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5631761249387637
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "William J. Weaver: He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+    "William J. Weaver: William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+    "William J. Weaver: He also worked for Joseph Booth's Polygraphic Society.",
+    "Prince Edward, Duke of Kent and Strathearn: Prince Edward, Duke of Kent and Strathearn, (Edward Augustus; 2 November 1767 \u2013 23 January 1820) was the fourth son and fifth child of the British king George III and the father of Queen Victoria.",
+    "Prince George, Duke of Kent: Prince George, Duke of Kent, {'1': \", '2': \", '3': \", '4': \"} (George Edward Alexander Edmund; 20 December 1902 \u2013 25 August 1942) was the fourth son of George V of the United Kingdom and Queen Mary.",
+    "Kensington Palace: It has been a residence of the British Royal Family since the 17th century, and is currently the official London residence of the Duke and Duchess of Cambridge, Prince Harry, the Duke and Duchess of Gloucester, the Duke and Duchess of Kent, and Prince and Princess Michael of Kent.",
+    "Prince Henry, Duke of Cumberland and Strathearn: Prince Henry, Duke of Cumberland and Strathearn (Henry Frederick; 7 November 1745 \u2013 18 September 1790) was the sixth child and fourth son of Frederick, Prince of Wales and Augusta of Saxe-Gotha, and a younger brother of George III.",
+    "George Yardley: George Harry Yardley III (November 3, 1928 \u2013 August 13, 2004) was an American basketball player.",
+    "Amelia Cary, Viscountess Falkland: A granddaughter of George III, Amelia was named after her aunt Princess Amelia.",
+    "Boonecroft: It includes the remains of the 1720 log cabin built by Quaker settler George Boone, III.",
+    "Frederick, Prince of Wales: He was the eldest but estranged son of George II of Great Britain and Caroline of Ansbach, as well as the father of King George III.",
+    "Selim III: His father Ottoman Sultan Mustafa III was very well educated and believed in the necessity of reforms."
+   ],
+   "answer": "George III",
+   "answer_usage": {
+    "in": 662,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5802860830444843
+   },
+   "retrieval_latency_seconds": 0.005930167040787637,
+   "query": "George III children father",
+   "query_usage": {
+    "in": 580,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5772143339272588
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "William J. Weaver: He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+    "William J. Weaver: William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+    "William J. Weaver: He also worked for Joseph Booth's Polygraphic Society.",
+    "Prince Edward, Duke of Kent and Strathearn: Prince Edward, Duke of Kent and Strathearn, (Edward Augustus; 2 November 1767 \u2013 23 January 1820) was the fourth son and fifth child of the British king George III and the father of Queen Victoria.",
+    "Prince George, Duke of Kent: Prince George, Duke of Kent, {'1': \", '2': \", '3': \", '4': \"} (George Edward Alexander Edmund; 20 December 1902 \u2013 25 August 1942) was the fourth son of George V of the United Kingdom and Queen Mary.",
+    "Kensington Palace: It has been a residence of the British Royal Family since the 17th century, and is currently the official London residence of the Duke and Duchess of Cambridge, Prince Harry, the Duke and Duchess of Gloucester, the Duke and Duchess of Kent, and Prince and Princess Michael of Kent.",
+    "Prince Henry, Duke of Cumberland and Strathearn: Prince Henry, Duke of Cumberland and Strathearn (Henry Frederick; 7 November 1745 \u2013 18 September 1790) was the sixth child and fourth son of Frederick, Prince of Wales and Augusta of Saxe-Gotha, and a younger brother of George III.",
+    "George Yardley: George Harry Yardley III (November 3, 1928 \u2013 August 13, 2004) was an American basketball player.",
+    "Amelia Cary, Viscountess Falkland: A granddaughter of George III, Amelia was named after her aunt Princess Amelia.",
+    "Boonecroft: It includes the remains of the 1720 log cabin built by Quaker settler George Boone, III.",
+    "Frederick, Prince of Wales: He was the eldest but estranged son of George II of Great Britain and Caroline of Ansbach, as well as the father of King George III.",
+    "Selim III: His father Ottoman Sultan Mustafa III was very well educated and believed in the necessity of reforms."
+   ],
+   "answer": "George III",
+   "answer_usage": {
+    "in": 662,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5980932909296826
+   },
+   "retrieval_latency_seconds": 0.0061300829984247684,
+   "query": "George III father",
+   "query_usage": {
+    "in": 647,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6004259999608621
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "William J. Weaver: He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+    "William J. Weaver: William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+    "William J. Weaver: He also worked for Joseph Booth's Polygraphic Society.",
+    "Prince Edward, Duke of Kent and Strathearn: Prince Edward, Duke of Kent and Strathearn, (Edward Augustus; 2 November 1767 \u2013 23 January 1820) was the fourth son and fifth child of the British king George III and the father of Queen Victoria.",
+    "Prince George, Duke of Kent: Prince George, Duke of Kent, {'1': \", '2': \", '3': \", '4': \"} (George Edward Alexander Edmund; 20 December 1902 \u2013 25 August 1942) was the fourth son of George V of the United Kingdom and Queen Mary.",
+    "Kensington Palace: It has been a residence of the British Royal Family since the 17th century, and is currently the official London residence of the Duke and Duchess of Cambridge, Prince Harry, the Duke and Duchess of Gloucester, the Duke and Duchess of Kent, and Prince and Princess Michael of Kent.",
+    "Prince Henry, Duke of Cumberland and Strathearn: Prince Henry, Duke of Cumberland and Strathearn (Henry Frederick; 7 November 1745 \u2013 18 September 1790) was the sixth child and fourth son of Frederick, Prince of Wales and Augusta of Saxe-Gotha, and a younger brother of George III.",
+    "George Yardley: George Harry Yardley III (November 3, 1928 \u2013 August 13, 2004) was an American basketball player.",
+    "Amelia Cary, Viscountess Falkland: A granddaughter of George III, Amelia was named after her aunt Princess Amelia.",
+    "Boonecroft: It includes the remains of the 1720 log cabin built by Quaker settler George Boone, III.",
+    "Frederick, Prince of Wales: He was the eldest but estranged son of George II of Great Britain and Caroline of Ansbach, as well as the father of King George III.",
+    "Selim III: His father Ottoman Sultan Mustafa III was very well educated and believed in the necessity of reforms."
+   ],
+   "answer": "George III",
+   "answer_usage": {
+    "in": 662,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5794923750218004
+   },
+   "retrieval_latency_seconds": 0.0026666250778362155,
+   "query": "George III father",
+   "query_usage": {
+    "in": 647,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6387627499643713
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "William J. Weaver: He is perhaps most famous for his portrait of Alexander Hamilton which hangs in the United States State Department, and his full length portrait of Prince Edward, Duke of Kent and Strathearn, which hangs in Province House (Nova Scotia), Canada.",
+    "William J. Weaver: William Joseph Weaver (1759-1817) was an artist born in London who came to prominence in North America.",
+    "William J. Weaver: He also worked for Joseph Booth's Polygraphic Society.",
+    "Prince Edward, Duke of Kent and Strathearn: Prince Edward, Duke of Kent and Strathearn, (Edward Augustus; 2 November 1767 \u2013 23 January 1820) was the fourth son and fifth child of the British king George III and the father of Queen Victoria.",
+    "Prince George, Duke of Kent: Prince George, Duke of Kent, {'1': \", '2': \", '3': \", '4': \"} (George Edward Alexander Edmund; 20 December 1902 \u2013 25 August 1942) was the fourth son of George V of the United Kingdom and Queen Mary.",
+    "Kensington Palace: It has been a residence of the British Royal Family since the 17th century, and is currently the official London residence of the Duke and Duchess of Cambridge, Prince Harry, the Duke and Duchess of Gloucester, the Duke and Duchess of Kent, and Prince and Princess Michael of Kent.",
+    "Prince Henry, Duke of Cumberland and Strathearn: Prince Henry, Duke of Cumberland and Strathearn (Henry Frederick; 7 November 1745 \u2013 18 September 1790) was the sixth child and fourth son of Frederick, Prince of Wales and Augusta of Saxe-Gotha, and a younger brother of George III.",
+    "George Yardley: George Harry Yardley III (November 3, 1928 \u2013 August 13, 2004) was an American basketball player.",
+    "Amelia Cary, Viscountess Falkland: A granddaughter of George III, Amelia was named after her aunt Princess Amelia.",
+    "Boonecroft: It includes the remains of the 1720 log cabin built by Quaker settler George Boone, III.",
+    "Frederick, Prince of Wales: He was the eldest but estranged son of George II of Great Britain and Caroline of Ansbach, as well as the father of King George III.",
+    "Selim III: His father Ottoman Sultan Mustafa III was very well educated and believed in the necessity of reforms."
+   ],
+   "answer": "George III",
+   "answer_usage": {
+    "in": 662,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.586715167039074
+   },
+   "retrieval_latency_seconds": 0.0023862499510869384,
+   "query": "George III father",
+   "query_usage": {
+    "in": 647,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6003979999804869
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   31.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.8421052631578947,
+   3.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9473684210526315,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.9473684210526315,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   10.0,
+   0.9473684210526315,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   12.0,
+   0.9473684210526315,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   12.0,
+   0.9473684210526315,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   12.0,
+   0.9473684210526315,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   12.0,
+   0.9473684210526315,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

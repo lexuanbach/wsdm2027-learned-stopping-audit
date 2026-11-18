@@ -1,0 +1,343 @@
+{
+ "id": "5ab295eb554299194fa93412",
+ "question": "Were both Ernst Messerschmid and Reinhold Ewald ESA astronauts?",
+ "gold_answers": [
+  "no"
+ ],
+ "support_titles": [
+  "Ernst Messerschmid",
+  "Reinhold Ewald"
+ ],
+ "support_sentences": [
+  "Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+  "Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No",
+   "answer_usage": {
+    "in": 82,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5693529580021277
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Ernst Messerschmid: Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+    "Luca Parmitano: He was selected as an ESA astronaut in May 2009.",
+    "Claude Nicollier: In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston."
+   ],
+   "answer": "Unknown",
+   "answer_usage": {
+    "in": 188,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5257320000091568
+   },
+   "retrieval_latency_seconds": 0.0014460829552263021,
+   "query": "Ernst Messerschmid ESA astronaut",
+   "query_usage": {
+    "in": 67,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6986573750618845
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Ernst Messerschmid: Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+    "Luca Parmitano: He was selected as an ESA astronaut in May 2009.",
+    "Claude Nicollier: In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston.",
+    "Reinhold Ewald: Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 225,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.48567208298482
+   },
+   "retrieval_latency_seconds": 0.0011274999706074595,
+   "query": "Reinhold Ewald astronaut ESA",
+   "query_usage": {
+    "in": 173,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5734039169037715
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Ernst Messerschmid: Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+    "Luca Parmitano: He was selected as an ESA astronaut in May 2009.",
+    "Claude Nicollier: In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston.",
+    "Reinhold Ewald: Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 225,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.507679249974899
+   },
+   "retrieval_latency_seconds": 0.0016294160159304738,
+   "query": "Ernst Messerschmid ESA astronaut",
+   "query_usage": {
+    "in": 210,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5551082500023767
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Ernst Messerschmid: Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+    "Luca Parmitano: He was selected as an ESA astronaut in May 2009.",
+    "Claude Nicollier: In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston.",
+    "Reinhold Ewald: Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 225,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.512805207981728
+   },
+   "retrieval_latency_seconds": 0.0011725419899448752,
+   "query": "Ernst Messerschmid ESA astronaut",
+   "query_usage": {
+    "in": 210,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.584233041969128
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Ernst Messerschmid: Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+    "Luca Parmitano: He was selected as an ESA astronaut in May 2009.",
+    "Claude Nicollier: In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston.",
+    "Reinhold Ewald: Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 225,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.48335341608617455
+   },
+   "retrieval_latency_seconds": 0.0018781659891828895,
+   "query": "Ernst Messerschmid ESA astronaut",
+   "query_usage": {
+    "in": 210,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5885741249658167
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Ernst Messerschmid: Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+    "Luca Parmitano: He was selected as an ESA astronaut in May 2009.",
+    "Claude Nicollier: In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston.",
+    "Reinhold Ewald: Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 225,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5052634590538219
+   },
+   "retrieval_latency_seconds": 0.0009403749136254191,
+   "query": "Ernst Messerschmid ESA astronaut",
+   "query_usage": {
+    "in": 210,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5678939160425216
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Ernst Messerschmid: Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+    "Luca Parmitano: He was selected as an ESA astronaut in May 2009.",
+    "Claude Nicollier: In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston.",
+    "Reinhold Ewald: Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 225,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.50015966698993
+   },
+   "retrieval_latency_seconds": 0.0007640839321538806,
+   "query": "Ernst Messerschmid ESA astronaut",
+   "query_usage": {
+    "in": 210,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5809395830146968
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Ernst Messerschmid: Prof. Dr. Ernst Willi Messerschmid (born May 21, 1945) is a German physicist and former astronaut.",
+    "Luca Parmitano: He was selected as an ESA astronaut in May 2009.",
+    "Claude Nicollier: In 2000 he was assigned to the Astronaut Office Extravehicular Activity Branch, while maintaining a position as Lead ESA Astronaut in Houston.",
+    "Reinhold Ewald: Dr. Reinhold Ewald (born December 18, 1956) is a German physicist and ESA astronaut."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 225,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.4849491670029238
+   },
+   "retrieval_latency_seconds": 0.0011019579833373427,
+   "query": "Ernst Messerschmid ESA astronaut",
+   "query_usage": {
+    "in": 210,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6226244160206988
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4444444444444444,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   4.0,
+   0.6666666666666666,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   4.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

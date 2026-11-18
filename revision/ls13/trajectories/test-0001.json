@@ -1,0 +1,375 @@
+{
+ "id": "5a88982155429938390d3f81",
+ "question": "What year did the shopping centre on the street numbered B411 open in the space of in the retail space of the former William Whiteley Limited department store?",
+ "gold_answers": [
+  "1989"
+ ],
+ "support_titles": [
+  "Queensway, London",
+  "Whiteleys"
+ ],
+ "support_sentences": [
+  "It is home to Whiteleys, many restaurants (especially Chinese and Middle Eastern), caf\u00e9s, pubs, souvenir shops and a few high-street retail chains.",
+  "The street is numbered the B411 in the British road numbering scheme.",
+  "Whiteleys is a large shopping centre in Bayswater, London, England, which opened in 1989.",
+  "It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this answer from the provided evidence",
+   "answer_usage": {
+    "in": 94,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.8201410829788074
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "William Whiteley: He was the founder of the William Whiteley Limited retail company whose eponymous department store became the Whiteleys shopping centre.",
+    "Whiteleys: It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store.",
+    "William Whiteley Limited: William Whiteley Limited was a large British retail company founded by William Whiteley in 1863."
+   ],
+   "answer": "1911",
+   "answer_usage": {
+    "in": 194,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5476276249391958
+   },
+   "retrieval_latency_seconds": 0.0070342919789254665,
+   "query": "William Whiteley Limited department store shopping centre",
+   "query_usage": {
+    "in": 79,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6569002090254799
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "William Whiteley: He was the founder of the William Whiteley Limited retail company whose eponymous department store became the Whiteleys shopping centre.",
+    "Whiteleys: It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store.",
+    "William Whiteley Limited: William Whiteley Limited was a large British retail company founded by William Whiteley in 1863.",
+    "Whiteleys: Whiteleys is a large shopping centre in Bayswater, London, England, which opened in 1989.",
+    "Lavington Square Shopping Centre: Since opening the shopping centre has undergone several upgrades and name changes the most major upgrades to the centre were done after Centro bought the shopping centre in 1994."
+   ],
+   "answer": "1989",
+   "answer_usage": {
+    "in": 271,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.577098042005673
+   },
+   "retrieval_latency_seconds": 0.007883582962676883,
+   "query": "Whiteleys shopping centre B411 street address opening year",
+   "query_usage": {
+    "in": 179,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6418449169723317
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "William Whiteley: He was the founder of the William Whiteley Limited retail company whose eponymous department store became the Whiteleys shopping centre.",
+    "Whiteleys: It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store.",
+    "William Whiteley Limited: William Whiteley Limited was a large British retail company founded by William Whiteley in 1863.",
+    "Whiteleys: Whiteleys is a large shopping centre in Bayswater, London, England, which opened in 1989.",
+    "Lavington Square Shopping Centre: Since opening the shopping centre has undergone several upgrades and name changes the most major upgrades to the centre were done after Centro bought the shopping centre in 1994.",
+    "Pentagon Shopping Centre: The shopping centre contains over 70 shops and 7 leisure facilities, many high street names in fashion, homeware and food stores."
+   ],
+   "answer": "1989",
+   "answer_usage": {
+    "in": 306,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.596239916048944
+   },
+   "retrieval_latency_seconds": 0.0051698749884963036,
+   "query": "B411 street location Whiteleys shopping centre",
+   "query_usage": {
+    "in": 256,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6234825409483165
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "William Whiteley: He was the founder of the William Whiteley Limited retail company whose eponymous department store became the Whiteleys shopping centre.",
+    "Whiteleys: It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store.",
+    "William Whiteley Limited: William Whiteley Limited was a large British retail company founded by William Whiteley in 1863.",
+    "Whiteleys: Whiteleys is a large shopping centre in Bayswater, London, England, which opened in 1989.",
+    "Lavington Square Shopping Centre: Since opening the shopping centre has undergone several upgrades and name changes the most major upgrades to the centre were done after Centro bought the shopping centre in 1994.",
+    "Pentagon Shopping Centre: The shopping centre contains over 70 shops and 7 leisure facilities, many high street names in fashion, homeware and food stores.",
+    "Athlone Town Centre: The Shopping centre is located in the heart of Athlone town enclosing a site on Dublin Gate Street and Gleeson Street.",
+    "High Street, Lincoln: The High Street of Lincoln, England, (road number B1262) is a long shopping high street."
+   ],
+   "answer": "1989",
+   "answer_usage": {
+    "in": 373,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5543826249195263
+   },
+   "retrieval_latency_seconds": 0.11257145809940994,
+   "query": "What street is Whiteleys shopping centre located on and what is its street number?",
+   "query_usage": {
+    "in": 291,
+    "out": 21,
+    "calls": 1,
+    "latency_seconds": 0.7733645410044119
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "William Whiteley: He was the founder of the William Whiteley Limited retail company whose eponymous department store became the Whiteleys shopping centre.",
+    "Whiteleys: It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store.",
+    "William Whiteley Limited: William Whiteley Limited was a large British retail company founded by William Whiteley in 1863.",
+    "Whiteleys: Whiteleys is a large shopping centre in Bayswater, London, England, which opened in 1989.",
+    "Lavington Square Shopping Centre: Since opening the shopping centre has undergone several upgrades and name changes the most major upgrades to the centre were done after Centro bought the shopping centre in 1994.",
+    "Pentagon Shopping Centre: The shopping centre contains over 70 shops and 7 leisure facilities, many high street names in fashion, homeware and food stores.",
+    "Athlone Town Centre: The Shopping centre is located in the heart of Athlone town enclosing a site on Dublin Gate Street and Gleeson Street.",
+    "High Street, Lincoln: The High Street of Lincoln, England, (road number B1262) is a long shopping high street.",
+    "Queensway, London: The street is numbered the B411 in the British road numbering scheme."
+   ],
+   "answer": "1989",
+   "answer_usage": {
+    "in": 397,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5974630829878151
+   },
+   "retrieval_latency_seconds": 0.005116540938615799,
+   "query": "B411 street location shopping centre",
+   "query_usage": {
+    "in": 358,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5840340000577271
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "William Whiteley: He was the founder of the William Whiteley Limited retail company whose eponymous department store became the Whiteleys shopping centre.",
+    "Whiteleys: It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store.",
+    "William Whiteley Limited: William Whiteley Limited was a large British retail company founded by William Whiteley in 1863.",
+    "Whiteleys: Whiteleys is a large shopping centre in Bayswater, London, England, which opened in 1989.",
+    "Lavington Square Shopping Centre: Since opening the shopping centre has undergone several upgrades and name changes the most major upgrades to the centre were done after Centro bought the shopping centre in 1994.",
+    "Pentagon Shopping Centre: The shopping centre contains over 70 shops and 7 leisure facilities, many high street names in fashion, homeware and food stores.",
+    "Athlone Town Centre: The Shopping centre is located in the heart of Athlone town enclosing a site on Dublin Gate Street and Gleeson Street.",
+    "High Street, Lincoln: The High Street of Lincoln, England, (road number B1262) is a long shopping high street.",
+    "Queensway, London: The street is numbered the B411 in the British road numbering scheme.",
+    "Whiteleys: The store's main entrance was located on Queensway."
+   ],
+   "answer": "1989",
+   "answer_usage": {
+    "in": 416,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5473397090099752
+   },
+   "retrieval_latency_seconds": 0.008019209024496377,
+   "query": "Whiteleys shopping centre Queensway B411 London opened year",
+   "query_usage": {
+    "in": 382,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.7767224160488695
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "William Whiteley: He was the founder of the William Whiteley Limited retail company whose eponymous department store became the Whiteleys shopping centre.",
+    "Whiteleys: It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store.",
+    "William Whiteley Limited: William Whiteley Limited was a large British retail company founded by William Whiteley in 1863.",
+    "Whiteleys: Whiteleys is a large shopping centre in Bayswater, London, England, which opened in 1989.",
+    "Lavington Square Shopping Centre: Since opening the shopping centre has undergone several upgrades and name changes the most major upgrades to the centre were done after Centro bought the shopping centre in 1994.",
+    "Pentagon Shopping Centre: The shopping centre contains over 70 shops and 7 leisure facilities, many high street names in fashion, homeware and food stores.",
+    "Athlone Town Centre: The Shopping centre is located in the heart of Athlone town enclosing a site on Dublin Gate Street and Gleeson Street.",
+    "High Street, Lincoln: The High Street of Lincoln, England, (road number B1262) is a long shopping high street.",
+    "Queensway, London: The street is numbered the B411 in the British road numbering scheme.",
+    "Whiteleys: The store's main entrance was located on Queensway."
+   ],
+   "answer": "1989",
+   "answer_usage": {
+    "in": 416,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5143849580781534
+   },
+   "retrieval_latency_seconds": 0.016210832982324064,
+   "query": "Whiteleys shopping centre opening year Queensway B411",
+   "query_usage": {
+    "in": 401,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.623115292051807
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "William Whiteley: He was the founder of the William Whiteley Limited retail company whose eponymous department store became the Whiteleys shopping centre.",
+    "Whiteleys: It has been built in the retail space of the former William Whiteley Limited department store, and opened in 1911 as London's first department store.",
+    "William Whiteley Limited: William Whiteley Limited was a large British retail company founded by William Whiteley in 1863.",
+    "Whiteleys: Whiteleys is a large shopping centre in Bayswater, London, England, which opened in 1989.",
+    "Lavington Square Shopping Centre: Since opening the shopping centre has undergone several upgrades and name changes the most major upgrades to the centre were done after Centro bought the shopping centre in 1994.",
+    "Pentagon Shopping Centre: The shopping centre contains over 70 shops and 7 leisure facilities, many high street names in fashion, homeware and food stores.",
+    "Athlone Town Centre: The Shopping centre is located in the heart of Athlone town enclosing a site on Dublin Gate Street and Gleeson Street.",
+    "High Street, Lincoln: The High Street of Lincoln, England, (road number B1262) is a long shopping high street.",
+    "Queensway, London: The street is numbered the B411 in the British road numbering scheme.",
+    "Whiteleys: The store's main entrance was located on Queensway."
+   ],
+   "answer": "1989",
+   "answer_usage": {
+    "in": 416,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5469250840833411
+   },
+   "retrieval_latency_seconds": 0.007609708933159709,
+   "query": "Whiteleys shopping centre opening year Queensway B411",
+   "query_usage": {
+    "in": 401,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6392277498962358
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   8.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6190476190476191,
+   3.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6190476190476191,
+   2.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.6666666666666666,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.7142857142857143,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.8095238095238095,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   10.0,
+   0.8095238095238095,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   10.0,
+   0.8095238095238095,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   10.0,
+   0.8095238095238095,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

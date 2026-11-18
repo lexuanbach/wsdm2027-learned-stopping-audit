@@ -1,0 +1,366 @@
+{
+ "id": "5a81d1f0554299676cceb0ee",
+ "question": "Which part of Handel's Messiah covers the birth of a child who, according to the gospels of Luke and Matthew, was born in Bethlehem?",
+ "gold_answers": [
+  "Part I"
+ ],
+ "support_titles": [
+  "Messiah Part II",
+  "Nativity of Jesus"
+ ],
+ "support_sentences": [
+  "Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+  "This listing covers Part II in a table and comments on individual movements, reflecting the relation of the musical setting to the text.",
+  "Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+  "The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew.",
+  "The two accounts agree that Jesus was born in Bethlehem in the time of Herod the Great to a betrothed virgin whose name was Mary."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Part the First",
+   "answer_usage": {
+    "in": 96,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5597735419869423
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Messiah Part III: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part I: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part III: Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts."
+   ],
+   "answer": "Part I",
+   "answer_usage": {
+    "in": 186,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.564123124931939
+   },
+   "retrieval_latency_seconds": 0.06056129198987037,
+   "query": "Handel's Messiah birth of Christ Bethlehem part section",
+   "query_usage": {
+    "in": 81,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.5981650000903755
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Messiah Part III: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part I: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part III: Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+    "Messiah Part II: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+    "Messiah Part I: Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.",
+    "Messiah Part III: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth."
+   ],
+   "answer": "Part I",
+   "answer_usage": {
+    "in": 317,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.4626611249987036
+   },
+   "retrieval_latency_seconds": 0.1503207499627024,
+   "query": "Messiah Part II birth of Jesus Bethlehem",
+   "query_usage": {
+    "in": 171,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.5517042080173269
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Messiah Part III: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part I: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part III: Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+    "Messiah Part II: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+    "Messiah Part I: Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.",
+    "Messiah Part III: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.",
+    "Nativity of Jesus: The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew."
+   ],
+   "answer": "Part I",
+   "answer_usage": {
+    "in": 345,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5888673749286681
+   },
+   "retrieval_latency_seconds": 0.2507851669797674,
+   "query": "Messiah Part I birth of Jesus Bethlehem Luke Matthew gospel",
+   "query_usage": {
+    "in": 302,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.7039812500588596
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Messiah Part III: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part I: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part III: Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+    "Messiah Part II: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+    "Messiah Part I: Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.",
+    "Messiah Part III: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.",
+    "Nativity of Jesus: The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew."
+   ],
+   "answer": "Part I",
+   "answer_usage": {
+    "in": 345,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5601864169584587
+   },
+   "retrieval_latency_seconds": 0.06314904091414064,
+   "query": "Messiah Part I birth of Jesus Bethlehem",
+   "query_usage": {
+    "in": 330,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6270489160669968
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Messiah Part III: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part I: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part III: Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+    "Messiah Part II: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+    "Messiah Part I: Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.",
+    "Messiah Part III: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.",
+    "Nativity of Jesus: The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew."
+   ],
+   "answer": "Part I",
+   "answer_usage": {
+    "in": 345,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.572679250035435
+   },
+   "retrieval_latency_seconds": 0.06058362498879433,
+   "query": "Messiah Part I birth of Jesus Bethlehem",
+   "query_usage": {
+    "in": 330,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6366137089207768
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Messiah Part III: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part I: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part III: Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+    "Messiah Part II: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+    "Messiah Part I: Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.",
+    "Messiah Part III: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.",
+    "Nativity of Jesus: The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew."
+   ],
+   "answer": "Part I",
+   "answer_usage": {
+    "in": 345,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5590644169133157
+   },
+   "retrieval_latency_seconds": 0.10646245907992125,
+   "query": "Messiah Part I birth of Jesus Bethlehem",
+   "query_usage": {
+    "in": 330,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6296503330813721
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Messiah Part III: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part I: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part III: Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+    "Messiah Part II: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+    "Messiah Part I: Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.",
+    "Messiah Part III: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.",
+    "Nativity of Jesus: The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew."
+   ],
+   "answer": "Part I",
+   "answer_usage": {
+    "in": 345,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5829415830085054
+   },
+   "retrieval_latency_seconds": 0.33774945803452283,
+   "query": "Messiah Part I birth of Jesus Bethlehem",
+   "query_usage": {
+    "in": 330,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6293072500266135
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Messiah Part III: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part I: Part III concentrates on Paul's teaching of the and Christ's glorification in heaven.",
+    "Messiah Part III: Messiah (HWV 56), the English-language oratorio composed by George Frideric Handel in 1741, is structured in three parts.",
+    "Messiah Part II: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds and reflects the Messiah's deeds on earth.",
+    "Messiah Part I: Part I begins with the prophecy of the Messiah and his virgin birth by several prophets, namely Isaiah.",
+    "Messiah Part III: Part I begins with the prophecy of the Messiah and his birth, shows the annunciation to the shepherds as a scene from the Gospel of Luke, and reflects the Messiah's deeds on Earth.",
+    "Nativity of Jesus: The nativity of Jesus or birth of Jesus is described in the gospels of Luke and Matthew."
+   ],
+   "answer": "Part I",
+   "answer_usage": {
+    "in": 345,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5849068749230355
+   },
+   "retrieval_latency_seconds": 0.11394212499726564,
+   "query": "Messiah Part I birth of Jesus Bethlehem",
+   "query_usage": {
+    "in": 330,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6372394160134718
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.5,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.36363636363636365,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5454545454545454,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.6363636363636364,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   7.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   7.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   7.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   7.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   7.0,
+   0.6363636363636364,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

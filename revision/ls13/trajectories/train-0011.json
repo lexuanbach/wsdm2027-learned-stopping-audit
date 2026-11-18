@@ -1,0 +1,357 @@
+{
+ "id": "5a88dc5a5542993b751ca890",
+ "question": "What Australian Electoral Division in New South Wales created in 1906 covers suburbs like Alexandria?",
+ "gold_answers": [
+  "Division of Cook"
+ ],
+ "support_titles": [
+  "Division of Cook (1906\u201355)",
+  "Alexandria, New South Wales"
+ ],
+ "support_sentences": [
+  "The Division of Cook was an Australian Electoral Division in New South Wales.",
+  "It was located in the inner suburbs of Sydney, taking in the suburbs of Alexandria, Redfern and Surry Hills.",
+  "Alexandria is a suburb in the inner-east of Sydney, New South Wales, Australia."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Division of Grayndler",
+   "answer_usage": {
+    "in": 80,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6154350830474868
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Division of Cook (1906\u201355): The Division of Cook was an Australian Electoral Division in New South Wales.",
+    "Division of Bland: The Division of Bland was an Australian Electoral Division in New South Wales.",
+    "Division of Barrier: The Division of Barrier was an Australian Electoral Division in New South Wales."
+   ],
+   "answer": "Division of Cook",
+   "answer_usage": {
+    "in": 144,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6176034579984844
+   },
+   "retrieval_latency_seconds": 0.05650970805436373,
+   "query": "Australian Electoral Division Alexandria New South Wales 1906",
+   "query_usage": {
+    "in": 65,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5952419590903446
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Division of Cook (1906\u201355): The Division of Cook was an Australian Electoral Division in New South Wales.",
+    "Division of Bland: The Division of Bland was an Australian Electoral Division in New South Wales.",
+    "Division of Barrier: The Division of Barrier was an Australian Electoral Division in New South Wales.",
+    "Division of Cook (1906\u201355): It was located in the inner suburbs of Sydney, taking in the suburbs of Alexandria, Redfern and Surry Hills.",
+    "Division of Cook (1906\u201355): The division was created in 1906 and abolished in 1955."
+   ],
+   "answer": "Division of Cook",
+   "answer_usage": {
+    "in": 209,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5780200830195099
+   },
+   "retrieval_latency_seconds": 0.054607124999165535,
+   "query": "Division of Cook 1906 Alexandria suburbs covered",
+   "query_usage": {
+    "in": 129,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5958952920045704
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Division of Cook (1906\u201355): The Division of Cook was an Australian Electoral Division in New South Wales.",
+    "Division of Bland: The Division of Bland was an Australian Electoral Division in New South Wales.",
+    "Division of Barrier: The Division of Barrier was an Australian Electoral Division in New South Wales.",
+    "Division of Cook (1906\u201355): It was located in the inner suburbs of Sydney, taking in the suburbs of Alexandria, Redfern and Surry Hills.",
+    "Division of Cook (1906\u201355): The division was created in 1906 and abolished in 1955.",
+    "Division of Cook (1906\u201355): The Division was named for James Cook, who discovered the east coast of Australia in 1770."
+   ],
+   "answer": "Division of Cook",
+   "answer_usage": {
+    "in": 240,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5673314169980586
+   },
+   "retrieval_latency_seconds": 0.2294509579660371,
+   "query": "I have found the answer already in the known facts. The Division of Cook (1906\u201355) was created in 1906 in New South Wales",
+   "query_usage": {
+    "in": 194,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.9025892920326442
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Division of Cook (1906\u201355): The Division of Cook was an Australian Electoral Division in New South Wales.",
+    "Division of Bland: The Division of Bland was an Australian Electoral Division in New South Wales.",
+    "Division of Barrier: The Division of Barrier was an Australian Electoral Division in New South Wales.",
+    "Division of Cook (1906\u201355): It was located in the inner suburbs of Sydney, taking in the suburbs of Alexandria, Redfern and Surry Hills.",
+    "Division of Cook (1906\u201355): The division was created in 1906 and abolished in 1955.",
+    "Division of Cook (1906\u201355): The Division was named for James Cook, who discovered the east coast of Australia in 1770."
+   ],
+   "answer": "Division of Cook",
+   "answer_usage": {
+    "in": 240,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5513668330386281
+   },
+   "retrieval_latency_seconds": 0.36204012494999915,
+   "query": "Based on the known information, I already have the answer to the question. The Division of Cook (1906\u201355) was created in 1906",
+   "query_usage": {
+    "in": 225,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7923195419134572
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Division of Cook (1906\u201355): The Division of Cook was an Australian Electoral Division in New South Wales.",
+    "Division of Bland: The Division of Bland was an Australian Electoral Division in New South Wales.",
+    "Division of Barrier: The Division of Barrier was an Australian Electoral Division in New South Wales.",
+    "Division of Cook (1906\u201355): It was located in the inner suburbs of Sydney, taking in the suburbs of Alexandria, Redfern and Surry Hills.",
+    "Division of Cook (1906\u201355): The division was created in 1906 and abolished in 1955.",
+    "Division of Cook (1906\u201355): The Division was named for James Cook, who discovered the east coast of Australia in 1770."
+   ],
+   "answer": "Division of Cook",
+   "answer_usage": {
+    "in": 240,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5786635830299929
+   },
+   "retrieval_latency_seconds": 0.47133949992712587,
+   "query": "Based on the known information, I already have the answer to the question. The Division of Cook (1906\u201355) was created in 1906",
+   "query_usage": {
+    "in": 225,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7940025419229642
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Division of Cook (1906\u201355): The Division of Cook was an Australian Electoral Division in New South Wales.",
+    "Division of Bland: The Division of Bland was an Australian Electoral Division in New South Wales.",
+    "Division of Barrier: The Division of Barrier was an Australian Electoral Division in New South Wales.",
+    "Division of Cook (1906\u201355): It was located in the inner suburbs of Sydney, taking in the suburbs of Alexandria, Redfern and Surry Hills.",
+    "Division of Cook (1906\u201355): The division was created in 1906 and abolished in 1955.",
+    "Division of Cook (1906\u201355): The Division was named for James Cook, who discovered the east coast of Australia in 1770."
+   ],
+   "answer": "Division of Cook",
+   "answer_usage": {
+    "in": 240,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5911812920821831
+   },
+   "retrieval_latency_seconds": 0.45192087499890476,
+   "query": "Based on the known information, I already have the answer to the question. The Division of Cook (1906\u201355) was created in 1906",
+   "query_usage": {
+    "in": 225,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.768608000013046
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Division of Cook (1906\u201355): The Division of Cook was an Australian Electoral Division in New South Wales.",
+    "Division of Bland: The Division of Bland was an Australian Electoral Division in New South Wales.",
+    "Division of Barrier: The Division of Barrier was an Australian Electoral Division in New South Wales.",
+    "Division of Cook (1906\u201355): It was located in the inner suburbs of Sydney, taking in the suburbs of Alexandria, Redfern and Surry Hills.",
+    "Division of Cook (1906\u201355): The division was created in 1906 and abolished in 1955.",
+    "Division of Cook (1906\u201355): The Division was named for James Cook, who discovered the east coast of Australia in 1770."
+   ],
+   "answer": "Division of Cook",
+   "answer_usage": {
+    "in": 240,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5698025829624385
+   },
+   "retrieval_latency_seconds": 0.46130920900031924,
+   "query": "Based on the known information, I already have the answer to the question. The Division of Cook (1906\u201355) was created in 1906",
+   "query_usage": {
+    "in": 225,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7993000840069726
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Division of Cook (1906\u201355): The Division of Cook was an Australian Electoral Division in New South Wales.",
+    "Division of Bland: The Division of Bland was an Australian Electoral Division in New South Wales.",
+    "Division of Barrier: The Division of Barrier was an Australian Electoral Division in New South Wales.",
+    "Division of Cook (1906\u201355): It was located in the inner suburbs of Sydney, taking in the suburbs of Alexandria, Redfern and Surry Hills.",
+    "Division of Cook (1906\u201355): The division was created in 1906 and abolished in 1955.",
+    "Division of Cook (1906\u201355): The Division was named for James Cook, who discovered the east coast of Australia in 1770."
+   ],
+   "answer": "Division of Cook",
+   "answer_usage": {
+    "in": 240,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6395469999406487
+   },
+   "retrieval_latency_seconds": 0.5531581250252202,
+   "query": "Based on the known information, I already have the answer to the question. The Division of Cook (1906\u201355) was created in 1906",
+   "query_usage": {
+    "in": 225,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7853280829731375
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.6666666666666666,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5714285714285714,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7857142857142857,
+   2.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.7857142857142857,
+   1.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.7857142857142857,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

@@ -1,0 +1,384 @@
+{
+ "id": "5ab864945542990e739ec8e1",
+ "question": "Substorm was described in qualitative terms by a scientist nominated for what seven times?",
+ "gold_answers": [
+  "Nobel Prize"
+ ],
+ "support_titles": [
+  "Substorm",
+  "Kristian Birkeland"
+ ],
+ "support_sentences": [
+  "Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+  "Birkeland was nominated for the Nobel Prize seven times."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I don't have enough information to answer this question. The evidence section is empty, and the question refers to a specific scientist and their nominations, which I cannot determine without additional context",
+   "answer_usage": {
+    "in": 79,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.864084625034593
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Substorm: Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+    "Substorm: Sydney Chapman used the term substorm about 1960 which is now the standard term.",
+    "Substorm: Visually, a substorm is seen as a sudden brightening and increased movement of auroral arcs."
+   ],
+   "answer": "Nobel Prize",
+   "answer_usage": {
+    "in": 159,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5951485829427838
+   },
+   "retrieval_latency_seconds": 0.002415125025436282,
+   "query": "Substorm qualitative description scientist",
+   "query_usage": {
+    "in": 64,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5453087079804391
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Substorm: Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+    "Substorm: Sydney Chapman used the term substorm about 1960 which is now the standard term.",
+    "Substorm: Visually, a substorm is seen as a sudden brightening and increased movement of auroral arcs.",
+    "Kristian Birkeland: Birkeland was nominated for the Nobel Prize seven times.",
+    "Kristian Birkeland: Kristian Olaf Bernhard Birkeland (13 December 1867 \u2013 15 June 1917) was a Norwegian scientist.",
+    "Kristian Birkeland: In order to fund his research on the aurorae, he invented the electromagnetic cannon and the Birkeland-Eyde process of fixing nitrogen from the air."
+   ],
+   "answer": "the Nobel Prize",
+   "answer_usage": {
+    "in": 272,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.568045207997784
+   },
+   "retrieval_latency_seconds": 0.013935000053606927,
+   "query": "Kristian Birkeland Nobel Prize nominations",
+   "query_usage": {
+    "in": 144,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6073518750490621
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Substorm: Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+    "Substorm: Sydney Chapman used the term substorm about 1960 which is now the standard term.",
+    "Substorm: Visually, a substorm is seen as a sudden brightening and increased movement of auroral arcs.",
+    "Kristian Birkeland: Birkeland was nominated for the Nobel Prize seven times.",
+    "Kristian Birkeland: Kristian Olaf Bernhard Birkeland (13 December 1867 \u2013 15 June 1917) was a Norwegian scientist.",
+    "Kristian Birkeland: In order to fund his research on the aurorae, he invented the electromagnetic cannon and the Birkeland-Eyde process of fixing nitrogen from the air.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll)."
+   ],
+   "answer": "the Nobel Prize",
+   "answer_usage": {
+    "in": 379,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5845253329025581
+   },
+   "retrieval_latency_seconds": 0.2329556669574231,
+   "query": "I have enough information to answer the question. Based on the known facts:",
+   "query_usage": {
+    "in": 257,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7282274590106681
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Substorm: Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+    "Substorm: Sydney Chapman used the term substorm about 1960 which is now the standard term.",
+    "Substorm: Visually, a substorm is seen as a sudden brightening and increased movement of auroral arcs.",
+    "Kristian Birkeland: Birkeland was nominated for the Nobel Prize seven times.",
+    "Kristian Birkeland: Kristian Olaf Bernhard Birkeland (13 December 1867 \u2013 15 June 1917) was a Norwegian scientist.",
+    "Kristian Birkeland: In order to fund his research on the aurorae, he invented the electromagnetic cannon and the Birkeland-Eyde process of fixing nitrogen from the air.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style."
+   ],
+   "answer": "the Nobel Prize",
+   "answer_usage": {
+    "in": 410,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.598596042022109
+   },
+   "retrieval_latency_seconds": 0.1111151248915121,
+   "query": "I have enough information to answer this question. Based on the known facts:",
+   "query_usage": {
+    "in": 364,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.6896090420195833
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Substorm: Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+    "Substorm: Sydney Chapman used the term substorm about 1960 which is now the standard term.",
+    "Substorm: Visually, a substorm is seen as a sudden brightening and increased movement of auroral arcs.",
+    "Kristian Birkeland: Birkeland was nominated for the Nobel Prize seven times.",
+    "Kristian Birkeland: Kristian Olaf Bernhard Birkeland (13 December 1867 \u2013 15 June 1917) was a Norwegian scientist.",
+    "Kristian Birkeland: In order to fund his research on the aurorae, he invented the electromagnetic cannon and the Birkeland-Eyde process of fixing nitrogen from the air.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Andy Roddick Foundation: This is all designed to build resilient students that have the skills, traits, and opportunities needed to reach their full potential."
+   ],
+   "answer": "the Nobel Prize",
+   "answer_usage": {
+    "in": 444,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5153710829326883
+   },
+   "retrieval_latency_seconds": 0.1831820000661537,
+   "query": "I have all the information needed to answer this question.",
+   "query_usage": {
+    "in": 395,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7331361669348553
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Substorm: Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+    "Substorm: Sydney Chapman used the term substorm about 1960 which is now the standard term.",
+    "Substorm: Visually, a substorm is seen as a sudden brightening and increased movement of auroral arcs.",
+    "Kristian Birkeland: Birkeland was nominated for the Nobel Prize seven times.",
+    "Kristian Birkeland: Kristian Olaf Bernhard Birkeland (13 December 1867 \u2013 15 June 1917) was a Norwegian scientist.",
+    "Kristian Birkeland: In order to fund his research on the aurorae, he invented the electromagnetic cannon and the Birkeland-Eyde process of fixing nitrogen from the air.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Andy Roddick Foundation: This is all designed to build resilient students that have the skills, traits, and opportunities needed to reach their full potential."
+   ],
+   "answer": "the Nobel Prize",
+   "answer_usage": {
+    "in": 444,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.48675475001800805
+   },
+   "retrieval_latency_seconds": 0.6402797499904409,
+   "query": "I need to verify the connection between Kristian Birkeland and Nobel Prize nominations to confirm the answer.",
+   "query_usage": {
+    "in": 429,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8866808329476044
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Substorm: Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+    "Substorm: Sydney Chapman used the term substorm about 1960 which is now the standard term.",
+    "Substorm: Visually, a substorm is seen as a sudden brightening and increased movement of auroral arcs.",
+    "Kristian Birkeland: Birkeland was nominated for the Nobel Prize seven times.",
+    "Kristian Birkeland: Kristian Olaf Bernhard Birkeland (13 December 1867 \u2013 15 June 1917) was a Norwegian scientist.",
+    "Kristian Birkeland: In order to fund his research on the aurorae, he invented the electromagnetic cannon and the Birkeland-Eyde process of fixing nitrogen from the air.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Andy Roddick Foundation: This is all designed to build resilient students that have the skills, traits, and opportunities needed to reach their full potential."
+   ],
+   "answer": "the Nobel Prize",
+   "answer_usage": {
+    "in": 444,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.48142266704235226
+   },
+   "retrieval_latency_seconds": 0.13727841700892895,
+   "query": "I need to verify the connection between Kristian Birkeland and Nobel Prize nominations to confirm the answer.",
+   "query_usage": {
+    "in": 429,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.9191794589860365
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Substorm: Substorms were first described in qualitative terms by Kristian Birkeland which he called polar elementary storms.",
+    "Substorm: Sydney Chapman used the term substorm about 1960 which is now the standard term.",
+    "Substorm: Visually, a substorm is seen as a sudden brightening and increased movement of auroral arcs.",
+    "Kristian Birkeland: Birkeland was nominated for the Nobel Prize seven times.",
+    "Kristian Birkeland: Kristian Olaf Bernhard Birkeland (13 December 1867 \u2013 15 June 1917) was a Norwegian scientist.",
+    "Kristian Birkeland: In order to fund his research on the aurorae, he invented the electromagnetic cannon and the Birkeland-Eyde process of fixing nitrogen from the air.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response.",
+    "Nanocar: Rather, it was designed to answer the question of how fullerenes move about on metal surfaces; specifically, whether they roll or slide (they roll).",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Andy Roddick Foundation: This is all designed to build resilient students that have the skills, traits, and opportunities needed to reach their full potential."
+   ],
+   "answer": "the Nobel Prize",
+   "answer_usage": {
+    "in": 444,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.510493415989913
+   },
+   "retrieval_latency_seconds": 0.2626076251035556,
+   "query": "I need to verify the connection between Kristian Birkeland and Nobel Prize nominations to confirm the answer.",
+   "query_usage": {
+    "in": 429,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.898812333936803
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   30.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9285714285714286,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.9285714285714286,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   10.0,
+   0.9285714285714286,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.9285714285714286,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.9285714285714286,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.9285714285714286,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.9285714285714286,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

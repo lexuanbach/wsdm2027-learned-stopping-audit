@@ -1,0 +1,357 @@
+{
+ "id": "5a7dc3275542997cc2c4749c",
+ "question": "What stadium does the team who has Kent Baer as the defensive coordinator play its home games?",
+ "gold_answers": [
+  "Sam Boyd Stadium"
+ ],
+ "support_titles": [
+  "Kent Baer",
+  "UNLV Rebels football"
+ ],
+ "support_sentences": [
+  "He is the defensive coordinator for UNLV Rebels.",
+  "The team's home games are played at Sam Boyd Stadium in Whitney, Nevada."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this without evidence about which team Kent Baer is the defensive coordinator for",
+   "answer_usage": {
+    "in": 81,
+    "out": 24,
+    "calls": 1,
+    "latency_seconds": 0.8026733750011772
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Kent Baer: He is the defensive coordinator for UNLV Rebels.",
+    "Kent Baer: Kent Lex Baer (born May 2, 1951) is an American college football coach.",
+    "Trenton Lightning: The team's defensive coordinator was Chuck Murphy and offensive coordinator was Tom Cocuzza."
+   ],
+   "answer": "Allegiant Stadium",
+   "answer_usage": {
+    "in": 151,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5591194999869913
+   },
+   "retrieval_latency_seconds": 0.0024769159499555826,
+   "query": "Kent Baer defensive coordinator",
+   "query_usage": {
+    "in": 66,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5895195410121232
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Kent Baer: He is the defensive coordinator for UNLV Rebels.",
+    "Kent Baer: Kent Lex Baer (born May 2, 1951) is an American college football coach.",
+    "Trenton Lightning: The team's defensive coordinator was Chuck Murphy and offensive coordinator was Tom Cocuzza.",
+    "UNLV Rebels football: The team's home games are played at Sam Boyd Stadium in Whitney, Nevada.",
+    "UNLV Rebels football: The UNLV Rebels football program is a college football team that represents the University of Nevada, Las Vegas (UNLV).",
+    "2009\u201310 UNLV Runnin' Rebels basketball team: The 2009\u201310 UNLV Runnin' Rebels basketball team represented the University of Nevada, Las Vegas."
+   ],
+   "answer": "Sam Boyd Stadium",
+   "answer_usage": {
+    "in": 261,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5543436669977382
+   },
+   "retrieval_latency_seconds": 0.0055376660311594605,
+   "query": "UNLV Rebels home stadium",
+   "query_usage": {
+    "in": 136,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5993502920027822
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Kent Baer: He is the defensive coordinator for UNLV Rebels.",
+    "Kent Baer: Kent Lex Baer (born May 2, 1951) is an American college football coach.",
+    "Trenton Lightning: The team's defensive coordinator was Chuck Murphy and offensive coordinator was Tom Cocuzza.",
+    "UNLV Rebels football: The team's home games are played at Sam Boyd Stadium in Whitney, Nevada.",
+    "UNLV Rebels football: The UNLV Rebels football program is a college football team that represents the University of Nevada, Las Vegas (UNLV).",
+    "2009\u201310 UNLV Runnin' Rebels basketball team: The 2009\u201310 UNLV Runnin' Rebels basketball team represented the University of Nevada, Las Vegas."
+   ],
+   "answer": "Sam Boyd Stadium",
+   "answer_usage": {
+    "in": 261,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5576864170143381
+   },
+   "retrieval_latency_seconds": 0.19468037493061274,
+   "query": "Based on the known information, I already have the answer to the question. Kent Baer is the defensive coordinator for UNLV Rebels, and",
+   "query_usage": {
+    "in": 246,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7905432919505984
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Kent Baer: He is the defensive coordinator for UNLV Rebels.",
+    "Kent Baer: Kent Lex Baer (born May 2, 1951) is an American college football coach.",
+    "Trenton Lightning: The team's defensive coordinator was Chuck Murphy and offensive coordinator was Tom Cocuzza.",
+    "UNLV Rebels football: The team's home games are played at Sam Boyd Stadium in Whitney, Nevada.",
+    "UNLV Rebels football: The UNLV Rebels football program is a college football team that represents the University of Nevada, Las Vegas (UNLV).",
+    "2009\u201310 UNLV Runnin' Rebels basketball team: The 2009\u201310 UNLV Runnin' Rebels basketball team represented the University of Nevada, Las Vegas."
+   ],
+   "answer": "Sam Boyd Stadium",
+   "answer_usage": {
+    "in": 261,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6357920410810038
+   },
+   "retrieval_latency_seconds": 0.24431587499566376,
+   "query": "Based on the known information, I already have the answer to the question. Kent Baer is the defensive coordinator for UNLV Rebels, and",
+   "query_usage": {
+    "in": 246,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 1.1125991670414805
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Kent Baer: He is the defensive coordinator for UNLV Rebels.",
+    "Kent Baer: Kent Lex Baer (born May 2, 1951) is an American college football coach.",
+    "Trenton Lightning: The team's defensive coordinator was Chuck Murphy and offensive coordinator was Tom Cocuzza.",
+    "UNLV Rebels football: The team's home games are played at Sam Boyd Stadium in Whitney, Nevada.",
+    "UNLV Rebels football: The UNLV Rebels football program is a college football team that represents the University of Nevada, Las Vegas (UNLV).",
+    "2009\u201310 UNLV Runnin' Rebels basketball team: The 2009\u201310 UNLV Runnin' Rebels basketball team represented the University of Nevada, Las Vegas."
+   ],
+   "answer": "Sam Boyd Stadium",
+   "answer_usage": {
+    "in": 261,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5226268749684095
+   },
+   "retrieval_latency_seconds": 0.32454325002618134,
+   "query": "Based on the known information, I already have the answer to the question. Kent Baer is the defensive coordinator for UNLV Rebels, and",
+   "query_usage": {
+    "in": 246,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7833031250629574
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Kent Baer: He is the defensive coordinator for UNLV Rebels.",
+    "Kent Baer: Kent Lex Baer (born May 2, 1951) is an American college football coach.",
+    "Trenton Lightning: The team's defensive coordinator was Chuck Murphy and offensive coordinator was Tom Cocuzza.",
+    "UNLV Rebels football: The team's home games are played at Sam Boyd Stadium in Whitney, Nevada.",
+    "UNLV Rebels football: The UNLV Rebels football program is a college football team that represents the University of Nevada, Las Vegas (UNLV).",
+    "2009\u201310 UNLV Runnin' Rebels basketball team: The 2009\u201310 UNLV Runnin' Rebels basketball team represented the University of Nevada, Las Vegas."
+   ],
+   "answer": "Sam Boyd Stadium",
+   "answer_usage": {
+    "in": 261,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5476869998965412
+   },
+   "retrieval_latency_seconds": 0.21484354103449732,
+   "query": "Based on the known information, I already have the answer to the question. Kent Baer is the defensive coordinator for UNLV Rebels, and",
+   "query_usage": {
+    "in": 246,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8044509169412777
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Kent Baer: He is the defensive coordinator for UNLV Rebels.",
+    "Kent Baer: Kent Lex Baer (born May 2, 1951) is an American college football coach.",
+    "Trenton Lightning: The team's defensive coordinator was Chuck Murphy and offensive coordinator was Tom Cocuzza.",
+    "UNLV Rebels football: The team's home games are played at Sam Boyd Stadium in Whitney, Nevada.",
+    "UNLV Rebels football: The UNLV Rebels football program is a college football team that represents the University of Nevada, Las Vegas (UNLV).",
+    "2009\u201310 UNLV Runnin' Rebels basketball team: The 2009\u201310 UNLV Runnin' Rebels basketball team represented the University of Nevada, Las Vegas."
+   ],
+   "answer": "Sam Boyd Stadium",
+   "answer_usage": {
+    "in": 261,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5519618330290541
+   },
+   "retrieval_latency_seconds": 0.20959616696927696,
+   "query": "Based on the known information, I already have the answer to the question. Kent Baer is the defensive coordinator for UNLV Rebels, and",
+   "query_usage": {
+    "in": 246,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7667203339515254
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Kent Baer: He is the defensive coordinator for UNLV Rebels.",
+    "Kent Baer: Kent Lex Baer (born May 2, 1951) is an American college football coach.",
+    "Trenton Lightning: The team's defensive coordinator was Chuck Murphy and offensive coordinator was Tom Cocuzza.",
+    "UNLV Rebels football: The team's home games are played at Sam Boyd Stadium in Whitney, Nevada.",
+    "UNLV Rebels football: The UNLV Rebels football program is a college football team that represents the University of Nevada, Las Vegas (UNLV).",
+    "2009\u201310 UNLV Runnin' Rebels basketball team: The 2009\u201310 UNLV Runnin' Rebels basketball team represented the University of Nevada, Las Vegas."
+   ],
+   "answer": "Sam Boyd Stadium",
+   "answer_usage": {
+    "in": 261,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5407218750333413
+   },
+   "retrieval_latency_seconds": 0.20276470796670765,
+   "query": "Based on the known information, I already have the answer to the question. Kent Baer is the defensive coordinator for UNLV Rebels, and",
+   "query_usage": {
+    "in": 246,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7679023339878768
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.4,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   15.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.375,
+   3.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5625,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.5625,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.5625,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.5625,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.5625,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.5625,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.5625,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

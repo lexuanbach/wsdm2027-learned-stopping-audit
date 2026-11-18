@@ -1,0 +1,343 @@
+{
+ "id": "5a82bb3c55429966c78a6a86",
+ "question": "Live at Radio City is a live Album recorded in what City?",
+ "gold_answers": [
+  "New York City"
+ ],
+ "support_titles": [
+  "Live at Radio City",
+  "Radio City Music Hall"
+ ],
+ "support_sentences": [
+  "Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+  "Radio City Music Hall is an entertainment venue located in Rockefeller Center in New York City."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 74,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.48963079205714166
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Live at Radio City: Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+    "Idina Menzel: Live at Radio City: Idina Menzel: Live at Radio City was a concert by American singer-songwriter and actress Idina Menzel at Radio City Music Hall in New York City, New York on June 16, 2014.",
+    "Live Radio City Music Hall 2003: Live Radio City Music Hall 2003 is a live album by American R&B/soul singer Luther Vandross, released in 2003 (see 2003 in music) and recorded live at Manhattan's Radio City Music Hall in early February 2003, two months before Vandross' hospitalization for a serious stroke."
+   ],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 252,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5146962499711663
+   },
+   "retrieval_latency_seconds": 0.05661862506531179,
+   "query": "Live at Radio City album",
+   "query_usage": {
+    "in": 59,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6861386250238866
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Live at Radio City: Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+    "Idina Menzel: Live at Radio City: Idina Menzel: Live at Radio City was a concert by American singer-songwriter and actress Idina Menzel at Radio City Music Hall in New York City, New York on June 16, 2014.",
+    "Live Radio City Music Hall 2003: Live Radio City Music Hall 2003 is a live album by American R&B/soul singer Luther Vandross, released in 2003 (see 2003 in music) and recorded live at Manhattan's Radio City Music Hall in early February 2003, two months before Vandross' hospitalization for a serious stroke.",
+    "Radio City Music Hall: Radio City Music Hall is an entertainment venue located in Rockefeller Center in New York City."
+   ],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 279,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6014447499765083
+   },
+   "retrieval_latency_seconds": 0.008085916982963681,
+   "query": "Radio City Music Hall location",
+   "query_usage": {
+    "in": 237,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5984756660182029
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Live at Radio City: Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+    "Idina Menzel: Live at Radio City: Idina Menzel: Live at Radio City was a concert by American singer-songwriter and actress Idina Menzel at Radio City Music Hall in New York City, New York on June 16, 2014.",
+    "Live Radio City Music Hall 2003: Live Radio City Music Hall 2003 is a live album by American R&B/soul singer Luther Vandross, released in 2003 (see 2003 in music) and recorded live at Manhattan's Radio City Music Hall in early February 2003, two months before Vandross' hospitalization for a serious stroke.",
+    "Radio City Music Hall: Radio City Music Hall is an entertainment venue located in Rockefeller Center in New York City."
+   ],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 279,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6101818340830505
+   },
+   "retrieval_latency_seconds": 0.3170434170169756,
+   "query": "I have enough information to answer the question. Based on the known facts, Radio City Music Hall is located in New York City, and \"Live at Radio City",
+   "query_usage": {
+    "in": 264,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8007076249923557
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Live at Radio City: Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+    "Idina Menzel: Live at Radio City: Idina Menzel: Live at Radio City was a concert by American singer-songwriter and actress Idina Menzel at Radio City Music Hall in New York City, New York on June 16, 2014.",
+    "Live Radio City Music Hall 2003: Live Radio City Music Hall 2003 is a live album by American R&B/soul singer Luther Vandross, released in 2003 (see 2003 in music) and recorded live at Manhattan's Radio City Music Hall in early February 2003, two months before Vandross' hospitalization for a serious stroke.",
+    "Radio City Music Hall: Radio City Music Hall is an entertainment venue located in Rockefeller Center in New York City."
+   ],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 279,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5488443750655279
+   },
+   "retrieval_latency_seconds": 0.19459354202263057,
+   "query": "I have enough information to answer the question. Based on the known facts, Radio City Music Hall is located in New York City, and \"Live at Radio City",
+   "query_usage": {
+    "in": 264,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8017980409786105
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Live at Radio City: Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+    "Idina Menzel: Live at Radio City: Idina Menzel: Live at Radio City was a concert by American singer-songwriter and actress Idina Menzel at Radio City Music Hall in New York City, New York on June 16, 2014.",
+    "Live Radio City Music Hall 2003: Live Radio City Music Hall 2003 is a live album by American R&B/soul singer Luther Vandross, released in 2003 (see 2003 in music) and recorded live at Manhattan's Radio City Music Hall in early February 2003, two months before Vandross' hospitalization for a serious stroke.",
+    "Radio City Music Hall: Radio City Music Hall is an entertainment venue located in Rockefeller Center in New York City."
+   ],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 279,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.543325333041139
+   },
+   "retrieval_latency_seconds": 0.4510043750051409,
+   "query": "I have enough information to answer the question. Based on the known facts, Radio City Music Hall is located in New York City, and \"Live at Radio City",
+   "query_usage": {
+    "in": 264,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7895810840418562
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Live at Radio City: Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+    "Idina Menzel: Live at Radio City: Idina Menzel: Live at Radio City was a concert by American singer-songwriter and actress Idina Menzel at Radio City Music Hall in New York City, New York on June 16, 2014.",
+    "Live Radio City Music Hall 2003: Live Radio City Music Hall 2003 is a live album by American R&B/soul singer Luther Vandross, released in 2003 (see 2003 in music) and recorded live at Manhattan's Radio City Music Hall in early February 2003, two months before Vandross' hospitalization for a serious stroke.",
+    "Radio City Music Hall: Radio City Music Hall is an entertainment venue located in Rockefeller Center in New York City."
+   ],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 279,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5441062500467524
+   },
+   "retrieval_latency_seconds": 0.235496332985349,
+   "query": "I have enough information to answer the question. Based on the known facts, Radio City Music Hall is located in New York City, and \"Live at Radio City",
+   "query_usage": {
+    "in": 264,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.814835958997719
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Live at Radio City: Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+    "Idina Menzel: Live at Radio City: Idina Menzel: Live at Radio City was a concert by American singer-songwriter and actress Idina Menzel at Radio City Music Hall in New York City, New York on June 16, 2014.",
+    "Live Radio City Music Hall 2003: Live Radio City Music Hall 2003 is a live album by American R&B/soul singer Luther Vandross, released in 2003 (see 2003 in music) and recorded live at Manhattan's Radio City Music Hall in early February 2003, two months before Vandross' hospitalization for a serious stroke.",
+    "Radio City Music Hall: Radio City Music Hall is an entertainment venue located in Rockefeller Center in New York City."
+   ],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 279,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5543538338970393
+   },
+   "retrieval_latency_seconds": 0.2633629160700366,
+   "query": "I have enough information to answer the question. Based on the known facts, Radio City Music Hall is located in New York City, and \"Live at Radio City",
+   "query_usage": {
+    "in": 264,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8010897919302806
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Live at Radio City: Live at Radio City is a live album and video by Dave Matthews and Tim Reynolds recorded at Radio City Music Hall on April 22, 2007.",
+    "Idina Menzel: Live at Radio City: Idina Menzel: Live at Radio City was a concert by American singer-songwriter and actress Idina Menzel at Radio City Music Hall in New York City, New York on June 16, 2014.",
+    "Live Radio City Music Hall 2003: Live Radio City Music Hall 2003 is a live album by American R&B/soul singer Luther Vandross, released in 2003 (see 2003 in music) and recorded live at Manhattan's Radio City Music Hall in early February 2003, two months before Vandross' hospitalization for a serious stroke.",
+    "Radio City Music Hall: Radio City Music Hall is an entertainment venue located in Rockefeller Center in New York City."
+   ],
+   "answer": "New York City",
+   "answer_usage": {
+    "in": 279,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6952750000637025
+   },
+   "retrieval_latency_seconds": 0.17978825001046062,
+   "query": "I have enough information to answer the question. Based on the known facts, Radio City Music Hall is located in New York City, and \"Live at Radio City",
+   "query_usage": {
+    "in": 264,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8443223750218749
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.9,
+   3.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   4.0,
+   0.9,
+   1.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   4.0,
+   0.9,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   4.0,
+   0.9,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   4.0,
+   0.9,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   4.0,
+   0.9,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   4.0,
+   0.9,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   4.0,
+   0.9,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

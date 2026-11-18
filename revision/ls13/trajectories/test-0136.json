@@ -1,0 +1,375 @@
+{
+ "id": "5ae0f8a05542997b2ef7d0bc",
+ "question": "Phil Edwards is an American surfer from California whose photo appeared in the cover of what magazine which has over 3 million subscribers and is read by 23 million people each week?",
+ "gold_answers": [
+  "Sports Illustrated"
+ ],
+ "support_titles": [
+  "Phil Edwards (surfer)",
+  "Sports Illustrated"
+ ],
+ "support_sentences": [
+  "Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+  "Sports Illustrated is an American sports media franchise owned by Time Inc. Its self-titled magazine has over 3 million subscribers and is read by 23 million people each week, including over 18 million men."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "LIFE Magazine",
+   "answer_usage": {
+    "in": 99,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.645670042023994
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Phil Edwards (surfer): Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+    "Phil Edwards (surfer): He was the subject of a cover story, and his photo appeared on the cover of Sports Illustrated in 1966.",
+    "Terry Martin (surfer): Terry Martin (1937 \u2013 May 12, 2012) was a California surfer and surfboard shaper who worked for Hobie Surfboards, shaping more than 80,000 surfboards, including boards for surf legends such as Corky Carroll and Phil Edwards."
+   ],
+   "answer": "Sports Illustrated",
+   "answer_usage": {
+    "in": 232,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5499917500419542
+   },
+   "retrieval_latency_seconds": 0.014761792030185461,
+   "query": "Phil Edwards American surfer California magazine cover",
+   "query_usage": {
+    "in": 84,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6372727500274777
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Phil Edwards (surfer): Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+    "Phil Edwards (surfer): He was the subject of a cover story, and his photo appeared on the cover of Sports Illustrated in 1966.",
+    "Terry Martin (surfer): Terry Martin (1937 \u2013 May 12, 2012) was a California surfer and surfboard shaper who worked for Hobie Surfboards, shaping more than 80,000 surfboards, including boards for surf legends such as Corky Carroll and Phil Edwards.",
+    "Sports Illustrated: Sports Illustrated is an American sports media franchise owned by Time Inc. Its self-titled magazine has over 3 million subscribers and is read by 23 million people each week, including over 18 million men.",
+    "Sports Illustrated: It was the first magazine with circulation over one million to win the National Magazine Award for General Excellence twice.",
+    "PlayStation World: The magazine had a circulation of 17,132 along with a readership of 210,000."
+   ],
+   "answer": "Sports Illustrated",
+   "answer_usage": {
+    "in": 338,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5400521659757942
+   },
+   "retrieval_latency_seconds": 0.001980917062610388,
+   "query": "Sports Illustrated subscribers circulation readership",
+   "query_usage": {
+    "in": 217,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6578519169706851
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Phil Edwards (surfer): Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+    "Phil Edwards (surfer): He was the subject of a cover story, and his photo appeared on the cover of Sports Illustrated in 1966.",
+    "Terry Martin (surfer): Terry Martin (1937 \u2013 May 12, 2012) was a California surfer and surfboard shaper who worked for Hobie Surfboards, shaping more than 80,000 surfboards, including boards for surf legends such as Corky Carroll and Phil Edwards.",
+    "Sports Illustrated: Sports Illustrated is an American sports media franchise owned by Time Inc. Its self-titled magazine has over 3 million subscribers and is read by 23 million people each week, including over 18 million men.",
+    "Sports Illustrated: It was the first magazine with circulation over one million to win the National Magazine Award for General Excellence twice.",
+    "PlayStation World: The magazine had a circulation of 17,132 along with a readership of 210,000.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer."
+   ],
+   "answer": "Sports Illustrated",
+   "answer_usage": {
+    "in": 419,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.564316084026359
+   },
+   "retrieval_latency_seconds": 0.482633417006582,
+   "query": "Based on the information provided, I have already found the answer to the question. The known facts clearly establish that:",
+   "query_usage": {
+    "in": 323,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8617287499364465
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Phil Edwards (surfer): Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+    "Phil Edwards (surfer): He was the subject of a cover story, and his photo appeared on the cover of Sports Illustrated in 1966.",
+    "Terry Martin (surfer): Terry Martin (1937 \u2013 May 12, 2012) was a California surfer and surfboard shaper who worked for Hobie Surfboards, shaping more than 80,000 surfboards, including boards for surf legends such as Corky Carroll and Phil Edwards.",
+    "Sports Illustrated: Sports Illustrated is an American sports media franchise owned by Time Inc. Its self-titled magazine has over 3 million subscribers and is read by 23 million people each week, including over 18 million men.",
+    "Sports Illustrated: It was the first magazine with circulation over one million to win the National Magazine Award for General Excellence twice.",
+    "PlayStation World: The magazine had a circulation of 17,132 along with a readership of 210,000.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer."
+   ],
+   "answer": "Sports Illustrated",
+   "answer_usage": {
+    "in": 419,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6200858330121264
+   },
+   "retrieval_latency_seconds": 0.15209429198876023,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly show that:",
+   "query_usage": {
+    "in": 404,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8001400419743732
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Phil Edwards (surfer): Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+    "Phil Edwards (surfer): He was the subject of a cover story, and his photo appeared on the cover of Sports Illustrated in 1966.",
+    "Terry Martin (surfer): Terry Martin (1937 \u2013 May 12, 2012) was a California surfer and surfboard shaper who worked for Hobie Surfboards, shaping more than 80,000 surfboards, including boards for surf legends such as Corky Carroll and Phil Edwards.",
+    "Sports Illustrated: Sports Illustrated is an American sports media franchise owned by Time Inc. Its self-titled magazine has over 3 million subscribers and is read by 23 million people each week, including over 18 million men.",
+    "Sports Illustrated: It was the first magazine with circulation over one million to win the National Magazine Award for General Excellence twice.",
+    "PlayStation World: The magazine had a circulation of 17,132 along with a readership of 210,000.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer."
+   ],
+   "answer": "Sports Illustrated",
+   "answer_usage": {
+    "in": 419,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.572248833021149
+   },
+   "retrieval_latency_seconds": 0.5742880000034347,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly show that:",
+   "query_usage": {
+    "in": 404,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8331766671035439
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Phil Edwards (surfer): Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+    "Phil Edwards (surfer): He was the subject of a cover story, and his photo appeared on the cover of Sports Illustrated in 1966.",
+    "Terry Martin (surfer): Terry Martin (1937 \u2013 May 12, 2012) was a California surfer and surfboard shaper who worked for Hobie Surfboards, shaping more than 80,000 surfboards, including boards for surf legends such as Corky Carroll and Phil Edwards.",
+    "Sports Illustrated: Sports Illustrated is an American sports media franchise owned by Time Inc. Its self-titled magazine has over 3 million subscribers and is read by 23 million people each week, including over 18 million men.",
+    "Sports Illustrated: It was the first magazine with circulation over one million to win the National Magazine Award for General Excellence twice.",
+    "PlayStation World: The magazine had a circulation of 17,132 along with a readership of 210,000.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer."
+   ],
+   "answer": "Sports Illustrated",
+   "answer_usage": {
+    "in": 419,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5949148749932647
+   },
+   "retrieval_latency_seconds": 0.14220350002869964,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly show that:",
+   "query_usage": {
+    "in": 404,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8295787080423906
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Phil Edwards (surfer): Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+    "Phil Edwards (surfer): He was the subject of a cover story, and his photo appeared on the cover of Sports Illustrated in 1966.",
+    "Terry Martin (surfer): Terry Martin (1937 \u2013 May 12, 2012) was a California surfer and surfboard shaper who worked for Hobie Surfboards, shaping more than 80,000 surfboards, including boards for surf legends such as Corky Carroll and Phil Edwards.",
+    "Sports Illustrated: Sports Illustrated is an American sports media franchise owned by Time Inc. Its self-titled magazine has over 3 million subscribers and is read by 23 million people each week, including over 18 million men.",
+    "Sports Illustrated: It was the first magazine with circulation over one million to win the National Magazine Award for General Excellence twice.",
+    "PlayStation World: The magazine had a circulation of 17,132 along with a readership of 210,000.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer."
+   ],
+   "answer": "Sports Illustrated",
+   "answer_usage": {
+    "in": 419,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5594465419417247
+   },
+   "retrieval_latency_seconds": 0.2096149589633569,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly show that:",
+   "query_usage": {
+    "in": 404,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7917028340743855
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Phil Edwards (surfer): Philip (\"Phil\") Edwards (born June 10, 1938) is an American surfer from Oceanside, California.",
+    "Phil Edwards (surfer): He was the subject of a cover story, and his photo appeared on the cover of Sports Illustrated in 1966.",
+    "Terry Martin (surfer): Terry Martin (1937 \u2013 May 12, 2012) was a California surfer and surfboard shaper who worked for Hobie Surfboards, shaping more than 80,000 surfboards, including boards for surf legends such as Corky Carroll and Phil Edwards.",
+    "Sports Illustrated: Sports Illustrated is an American sports media franchise owned by Time Inc. Its self-titled magazine has over 3 million subscribers and is read by 23 million people each week, including over 18 million men.",
+    "Sports Illustrated: It was the first magazine with circulation over one million to win the National Magazine Award for General Excellence twice.",
+    "PlayStation World: The magazine had a circulation of 17,132 along with a readership of 210,000.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Quantum chaos: The primary question that quantum chaos seeks to answer is: \"What is the relationship between quantum mechanics and classical chaos?\"",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer."
+   ],
+   "answer": "Sports Illustrated",
+   "answer_usage": {
+    "in": 419,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.549125749967061
+   },
+   "retrieval_latency_seconds": 0.1469687499338761,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly show that:",
+   "query_usage": {
+    "in": 404,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8958341669058427
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.9333333333333333,
+   3.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.9333333333333333,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

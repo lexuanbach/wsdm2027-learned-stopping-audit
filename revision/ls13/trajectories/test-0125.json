@@ -1,0 +1,370 @@
+{
+ "id": "5a8089dc5542992bc0c4a765",
+ "question": "The current coach of the Los Angeles Clippers was signed as a free agent to the San Antonio Spurs during what season?",
+ "gold_answers": [
+  "1994\u201395 NBA season"
+ ],
+ "support_titles": [
+  "1994\u201395 San Antonio Spurs season",
+  "Doc Rivers"
+ ],
+ "support_sentences": [
+  "The 1994\u201395 NBA season was the Spurs' 19th season in the National Basketball Association, and 28th season as a franchise.",
+  "Early into the season, they signed free agent Doc Rivers, who was released by the New York Knicks.",
+  "He is the current head coach for the Los Angeles Clippers."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "1996-97",
+   "answer_usage": {
+    "in": 88,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5908034580061212
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Doc Rivers: He is the current head coach for the Los Angeles Clippers.",
+    "Sam Cassell: Samuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers.",
+    "List of Los Angeles Clippers seasons: The Los Angeles Clippers are a professional basketball team based in Los Angeles, California."
+   ],
+   "answer": "1996-97",
+   "answer_usage": {
+    "in": 173,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5780505839502439
+   },
+   "retrieval_latency_seconds": 0.12666633306071162,
+   "query": "Who is the current coach of the Los Angeles Clippers?",
+   "query_usage": {
+    "in": 73,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.7926024589687586
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Doc Rivers: He is the current head coach for the Los Angeles Clippers.",
+    "Sam Cassell: Samuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers.",
+    "List of Los Angeles Clippers seasons: The Los Angeles Clippers are a professional basketball team based in Los Angeles, California.",
+    "1994\u201395 San Antonio Spurs season: Early into the season, they signed free agent Doc Rivers, who was released by the New York Knicks.",
+    "2003\u201304 Seattle SuperSonics season: Following the season, Brent Barry signed as a free agent with the San Antonio Spurs.",
+    "1996\u201397 San Antonio Spurs season: During the offseason, the Spurs signed free agent and former All-Star Dominique Wilkins, who played in Greece last season, while re-signing free agent Vernon Maxwell."
+   ],
+   "answer": "1994\u201395",
+   "answer_usage": {
+    "in": 302,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6118836249224842
+   },
+   "retrieval_latency_seconds": 0.010309458011761308,
+   "query": "Doc Rivers signed San Antonio Spurs free agent season",
+   "query_usage": {
+    "in": 158,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.699551000026986
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Doc Rivers: He is the current head coach for the Los Angeles Clippers.",
+    "Sam Cassell: Samuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers.",
+    "List of Los Angeles Clippers seasons: The Los Angeles Clippers are a professional basketball team based in Los Angeles, California.",
+    "1994\u201395 San Antonio Spurs season: Early into the season, they signed free agent Doc Rivers, who was released by the New York Knicks.",
+    "2003\u201304 Seattle SuperSonics season: Following the season, Brent Barry signed as a free agent with the San Antonio Spurs.",
+    "1996\u201397 San Antonio Spurs season: During the offseason, the Spurs signed free agent and former All-Star Dominique Wilkins, who played in Greece last season, while re-signing free agent Vernon Maxwell.",
+    "1994\u201395 San Antonio Spurs season: The 1994\u201395 NBA season was the Spurs' 19th season in the National Basketball Association, and 28th season as a franchise.",
+    "2013\u201314 San Antonio Spurs season: The 2013\u201314 San Antonio Spurs season was the 47th season of the franchise, their 41st in San Antonio and the 38th in the National Basketball Association (NBA)."
+   ],
+   "answer": "1994\u201395",
+   "answer_usage": {
+    "in": 409,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5427631249185652
+   },
+   "retrieval_latency_seconds": 0.15892345900647342,
+   "query": "I have found the answer already in the known facts provided. According to the \"1994\u201395 San Antonio Spurs season\" entry, Doc Rivers",
+   "query_usage": {
+    "in": 287,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7834910409292206
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Doc Rivers: He is the current head coach for the Los Angeles Clippers.",
+    "Sam Cassell: Samuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers.",
+    "List of Los Angeles Clippers seasons: The Los Angeles Clippers are a professional basketball team based in Los Angeles, California.",
+    "1994\u201395 San Antonio Spurs season: Early into the season, they signed free agent Doc Rivers, who was released by the New York Knicks.",
+    "2003\u201304 Seattle SuperSonics season: Following the season, Brent Barry signed as a free agent with the San Antonio Spurs.",
+    "1996\u201397 San Antonio Spurs season: During the offseason, the Spurs signed free agent and former All-Star Dominique Wilkins, who played in Greece last season, while re-signing free agent Vernon Maxwell.",
+    "1994\u201395 San Antonio Spurs season: The 1994\u201395 NBA season was the Spurs' 19th season in the National Basketball Association, and 28th season as a franchise.",
+    "2013\u201314 San Antonio Spurs season: The 2013\u201314 San Antonio Spurs season was the 47th season of the franchise, their 41st in San Antonio and the 38th in the National Basketball Association (NBA)."
+   ],
+   "answer": "1994\u201395",
+   "answer_usage": {
+    "in": 409,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5614911660086364
+   },
+   "retrieval_latency_seconds": 0.5103218340082094,
+   "query": "I have found the answer already in the known facts. According to the \"1994\u201395 San Antonio Spurs season\" entry, Doc Rivers (",
+   "query_usage": {
+    "in": 394,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8247017089743167
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Doc Rivers: He is the current head coach for the Los Angeles Clippers.",
+    "Sam Cassell: Samuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers.",
+    "List of Los Angeles Clippers seasons: The Los Angeles Clippers are a professional basketball team based in Los Angeles, California.",
+    "1994\u201395 San Antonio Spurs season: Early into the season, they signed free agent Doc Rivers, who was released by the New York Knicks.",
+    "2003\u201304 Seattle SuperSonics season: Following the season, Brent Barry signed as a free agent with the San Antonio Spurs.",
+    "1996\u201397 San Antonio Spurs season: During the offseason, the Spurs signed free agent and former All-Star Dominique Wilkins, who played in Greece last season, while re-signing free agent Vernon Maxwell.",
+    "1994\u201395 San Antonio Spurs season: The 1994\u201395 NBA season was the Spurs' 19th season in the National Basketball Association, and 28th season as a franchise.",
+    "2013\u201314 San Antonio Spurs season: The 2013\u201314 San Antonio Spurs season was the 47th season of the franchise, their 41st in San Antonio and the 38th in the National Basketball Association (NBA)."
+   ],
+   "answer": "1994\u201395",
+   "answer_usage": {
+    "in": 409,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5381141250254586
+   },
+   "retrieval_latency_seconds": 0.4982320830458775,
+   "query": "I have found the answer already in the known facts. According to the \"1994\u201395 San Antonio Spurs season\" entry, Doc Rivers (",
+   "query_usage": {
+    "in": 394,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8079460000153631
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Doc Rivers: He is the current head coach for the Los Angeles Clippers.",
+    "Sam Cassell: Samuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers.",
+    "List of Los Angeles Clippers seasons: The Los Angeles Clippers are a professional basketball team based in Los Angeles, California.",
+    "1994\u201395 San Antonio Spurs season: Early into the season, they signed free agent Doc Rivers, who was released by the New York Knicks.",
+    "2003\u201304 Seattle SuperSonics season: Following the season, Brent Barry signed as a free agent with the San Antonio Spurs.",
+    "1996\u201397 San Antonio Spurs season: During the offseason, the Spurs signed free agent and former All-Star Dominique Wilkins, who played in Greece last season, while re-signing free agent Vernon Maxwell.",
+    "1994\u201395 San Antonio Spurs season: The 1994\u201395 NBA season was the Spurs' 19th season in the National Basketball Association, and 28th season as a franchise.",
+    "2013\u201314 San Antonio Spurs season: The 2013\u201314 San Antonio Spurs season was the 47th season of the franchise, their 41st in San Antonio and the 38th in the National Basketball Association (NBA)."
+   ],
+   "answer": "1994\u201395",
+   "answer_usage": {
+    "in": 409,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5355326670687646
+   },
+   "retrieval_latency_seconds": 0.46853633294813335,
+   "query": "I have found the answer already in the known facts. According to the \"1994\u201395 San Antonio Spurs season\" entry, Doc Rivers (",
+   "query_usage": {
+    "in": 394,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8343659170204774
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Doc Rivers: He is the current head coach for the Los Angeles Clippers.",
+    "Sam Cassell: Samuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers.",
+    "List of Los Angeles Clippers seasons: The Los Angeles Clippers are a professional basketball team based in Los Angeles, California.",
+    "1994\u201395 San Antonio Spurs season: Early into the season, they signed free agent Doc Rivers, who was released by the New York Knicks.",
+    "2003\u201304 Seattle SuperSonics season: Following the season, Brent Barry signed as a free agent with the San Antonio Spurs.",
+    "1996\u201397 San Antonio Spurs season: During the offseason, the Spurs signed free agent and former All-Star Dominique Wilkins, who played in Greece last season, while re-signing free agent Vernon Maxwell.",
+    "1994\u201395 San Antonio Spurs season: The 1994\u201395 NBA season was the Spurs' 19th season in the National Basketball Association, and 28th season as a franchise.",
+    "2013\u201314 San Antonio Spurs season: The 2013\u201314 San Antonio Spurs season was the 47th season of the franchise, their 41st in San Antonio and the 38th in the National Basketball Association (NBA)."
+   ],
+   "answer": "1994\u201395",
+   "answer_usage": {
+    "in": 409,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5809189580613747
+   },
+   "retrieval_latency_seconds": 0.15980954200495034,
+   "query": "I have found the answer already in the known facts. According to the \"1994\u201395 San Antonio Spurs season\" entry, Doc Rivers (",
+   "query_usage": {
+    "in": 394,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8552546660648659
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Doc Rivers: He is the current head coach for the Los Angeles Clippers.",
+    "Sam Cassell: Samuel James Cassell Sr. (born November 18, 1969) is a former professional basketball player and current assistant coach of the Los Angeles Clippers.",
+    "List of Los Angeles Clippers seasons: The Los Angeles Clippers are a professional basketball team based in Los Angeles, California.",
+    "1994\u201395 San Antonio Spurs season: Early into the season, they signed free agent Doc Rivers, who was released by the New York Knicks.",
+    "2003\u201304 Seattle SuperSonics season: Following the season, Brent Barry signed as a free agent with the San Antonio Spurs.",
+    "1996\u201397 San Antonio Spurs season: During the offseason, the Spurs signed free agent and former All-Star Dominique Wilkins, who played in Greece last season, while re-signing free agent Vernon Maxwell.",
+    "1994\u201395 San Antonio Spurs season: The 1994\u201395 NBA season was the Spurs' 19th season in the National Basketball Association, and 28th season as a franchise.",
+    "2013\u201314 San Antonio Spurs season: The 2013\u201314 San Antonio Spurs season was the 47th season of the franchise, their 41st in San Antonio and the 38th in the National Basketball Association (NBA)."
+   ],
+   "answer": "1994\u201395",
+   "answer_usage": {
+    "in": 409,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5416407079901546
+   },
+   "retrieval_latency_seconds": 0.15508229099214077,
+   "query": "I have found the answer already in the known facts. According to the \"1994\u201395 San Antonio Spurs season\" entry, Doc Rivers (",
+   "query_usage": {
+    "in": 394,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8340749579947442
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4,
+   3.0,
+   0.0,
+   2.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.9,
+   3.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.9,
+   2.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.9,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.9,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.9,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.9,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.9,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "id": "5a719bf25542994082a3e891",
+ "question": "The astronomer who formulated the theory of stellar nucleosynthesis co-authored what landmark paper?",
+ "gold_answers": [
+  "BFH"
+ ],
+ "support_titles": [
+  "B2FH paper",
+  "Fred Hoyle"
+ ],
+ "support_sentences": [
+  "The BFH paper, named after the initials of the authors of the paper, Margaret Burbidge, Geoffrey Burbidge, William Fowler, and Fred Hoyle, is a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in 1957.",
+  "Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "B\u00b2FH paper (or \"Synthesis of the Elements in Stars\")",
+   "answer_usage": {
+    "in": 82,
+    "out": 21,
+    "calls": 1,
+    "latency_seconds": 0.8293799579842016
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Fred Hoyle: Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis.",
+    "Stellar nucleosynthesis: Such a graph of the abundances can be seen at History of nucleosynthesis theory article.",
+    "Stellar nucleosynthesis: Of the several processes of nucleosynthesis, stellar nucleosynthesis is the dominating contributor to elemental abundances in the universe."
+   ],
+   "answer": "I need to find what landmark paper Fred Hoyle co-authored. However, the evidence provided only states that Fred Hoyle \"formulated the theory of stellar nucleosynthesis\" but",
+   "answer_usage": {
+    "in": 192,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8117562090046704
+   },
+   "retrieval_latency_seconds": 0.0031921250047162175,
+   "query": "stellar nucleosynthesis theory astronomer",
+   "query_usage": {
+    "in": 67,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.5976494579808787
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Fred Hoyle: Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis.",
+    "Stellar nucleosynthesis: Such a graph of the abundances can be seen at History of nucleosynthesis theory article.",
+    "Stellar nucleosynthesis: Of the several processes of nucleosynthesis, stellar nucleosynthesis is the dominating contributor to elemental abundances in the universe.",
+    "B2FH paper: The BFH paper, named after the initials of the authors of the paper, Margaret Burbidge, Geoffrey Burbidge, William Fowler, and Fred Hoyle, is a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in 1957.",
+    "Stellar nucleosynthesis: The term supernova nucleosynthesis is used to describe the creation of elements during the evolution and explosion of a pre-supernova star, a concept put forth by Fred Hoyle in 1954."
+   ],
+   "answer": "The B2FH paper",
+   "answer_usage": {
+    "in": 315,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.57104320905637
+   },
+   "retrieval_latency_seconds": 0.0035751669201999903,
+   "query": "Fred Hoyle landmark paper co-authored stellar nucleosynthesis",
+   "query_usage": {
+    "in": 177,
+    "out": 17,
+    "calls": 1,
+    "latency_seconds": 0.5797288329340518
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Fred Hoyle: Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis.",
+    "Stellar nucleosynthesis: Such a graph of the abundances can be seen at History of nucleosynthesis theory article.",
+    "Stellar nucleosynthesis: Of the several processes of nucleosynthesis, stellar nucleosynthesis is the dominating contributor to elemental abundances in the universe.",
+    "B2FH paper: The BFH paper, named after the initials of the authors of the paper, Margaret Burbidge, Geoffrey Burbidge, William Fowler, and Fred Hoyle, is a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in 1957.",
+    "Stellar nucleosynthesis: The term supernova nucleosynthesis is used to describe the creation of elements during the evolution and explosion of a pre-supernova star, a concept put forth by Fred Hoyle in 1954.",
+    "Fred Hoyle: He also wrote science fiction novels, short stories and radio plays, and co-authored twelve books with his son, Geoffrey Hoyle."
+   ],
+   "answer": "B2FH paper",
+   "answer_usage": {
+    "in": 350,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5404227910330519
+   },
+   "retrieval_latency_seconds": 0.010635875049047172,
+   "query": "B2FH paper authors Margaret Burbidge Geoffrey Burbidge William Fowler Fred Hoyle 1957",
+   "query_usage": {
+    "in": 300,
+    "out": 30,
+    "calls": 1,
+    "latency_seconds": 0.6936208329861984
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Fred Hoyle: Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis.",
+    "Stellar nucleosynthesis: Such a graph of the abundances can be seen at History of nucleosynthesis theory article.",
+    "Stellar nucleosynthesis: Of the several processes of nucleosynthesis, stellar nucleosynthesis is the dominating contributor to elemental abundances in the universe.",
+    "B2FH paper: The BFH paper, named after the initials of the authors of the paper, Margaret Burbidge, Geoffrey Burbidge, William Fowler, and Fred Hoyle, is a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in 1957.",
+    "Stellar nucleosynthesis: The term supernova nucleosynthesis is used to describe the creation of elements during the evolution and explosion of a pre-supernova star, a concept put forth by Fred Hoyle in 1954.",
+    "Fred Hoyle: He also wrote science fiction novels, short stories and radio plays, and co-authored twelve books with his son, Geoffrey Hoyle."
+   ],
+   "answer": "B2FH paper",
+   "answer_usage": {
+    "in": 350,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5304600419476628
+   },
+   "retrieval_latency_seconds": 0.004044291912578046,
+   "query": "B2FH paper authors Margaret Burbidge Geoffrey Burbidge William Fowler Fred Hoyle 1957",
+   "query_usage": {
+    "in": 335,
+    "out": 30,
+    "calls": 1,
+    "latency_seconds": 0.831812750082463
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Fred Hoyle: Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis.",
+    "Stellar nucleosynthesis: Such a graph of the abundances can be seen at History of nucleosynthesis theory article.",
+    "Stellar nucleosynthesis: Of the several processes of nucleosynthesis, stellar nucleosynthesis is the dominating contributor to elemental abundances in the universe.",
+    "B2FH paper: The BFH paper, named after the initials of the authors of the paper, Margaret Burbidge, Geoffrey Burbidge, William Fowler, and Fred Hoyle, is a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in 1957.",
+    "Stellar nucleosynthesis: The term supernova nucleosynthesis is used to describe the creation of elements during the evolution and explosion of a pre-supernova star, a concept put forth by Fred Hoyle in 1954.",
+    "Fred Hoyle: He also wrote science fiction novels, short stories and radio plays, and co-authored twelve books with his son, Geoffrey Hoyle."
+   ],
+   "answer": "B2FH paper",
+   "answer_usage": {
+    "in": 350,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5347574999323115
+   },
+   "retrieval_latency_seconds": 0.01901187503244728,
+   "query": "B2FH paper authors Margaret Burbidge Geoffrey Burbidge William Fowler Fred Hoyle 1957",
+   "query_usage": {
+    "in": 335,
+    "out": 30,
+    "calls": 1,
+    "latency_seconds": 0.6935549579793587
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Fred Hoyle: Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis.",
+    "Stellar nucleosynthesis: Such a graph of the abundances can be seen at History of nucleosynthesis theory article.",
+    "Stellar nucleosynthesis: Of the several processes of nucleosynthesis, stellar nucleosynthesis is the dominating contributor to elemental abundances in the universe.",
+    "B2FH paper: The BFH paper, named after the initials of the authors of the paper, Margaret Burbidge, Geoffrey Burbidge, William Fowler, and Fred Hoyle, is a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in 1957.",
+    "Stellar nucleosynthesis: The term supernova nucleosynthesis is used to describe the creation of elements during the evolution and explosion of a pre-supernova star, a concept put forth by Fred Hoyle in 1954.",
+    "Fred Hoyle: He also wrote science fiction novels, short stories and radio plays, and co-authored twelve books with his son, Geoffrey Hoyle."
+   ],
+   "answer": "B2FH paper",
+   "answer_usage": {
+    "in": 350,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5127946250140667
+   },
+   "retrieval_latency_seconds": 0.007208333001472056,
+   "query": "B2FH paper authors Margaret Burbidge Geoffrey Burbidge William Fowler Fred Hoyle 1957",
+   "query_usage": {
+    "in": 335,
+    "out": 30,
+    "calls": 1,
+    "latency_seconds": 0.7038936249446124
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Fred Hoyle: Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis.",
+    "Stellar nucleosynthesis: Such a graph of the abundances can be seen at History of nucleosynthesis theory article.",
+    "Stellar nucleosynthesis: Of the several processes of nucleosynthesis, stellar nucleosynthesis is the dominating contributor to elemental abundances in the universe.",
+    "B2FH paper: The BFH paper, named after the initials of the authors of the paper, Margaret Burbidge, Geoffrey Burbidge, William Fowler, and Fred Hoyle, is a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in 1957.",
+    "Stellar nucleosynthesis: The term supernova nucleosynthesis is used to describe the creation of elements during the evolution and explosion of a pre-supernova star, a concept put forth by Fred Hoyle in 1954.",
+    "Fred Hoyle: He also wrote science fiction novels, short stories and radio plays, and co-authored twelve books with his son, Geoffrey Hoyle."
+   ],
+   "answer": "B2FH paper",
+   "answer_usage": {
+    "in": 350,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5066989170154557
+   },
+   "retrieval_latency_seconds": 0.016015792032703757,
+   "query": "B2FH paper authors Margaret Burbidge Geoffrey Burbidge William Fowler Fred Hoyle 1957",
+   "query_usage": {
+    "in": 335,
+    "out": 30,
+    "calls": 1,
+    "latency_seconds": 0.7081522080115974
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Fred Hoyle: Sir Fred Hoyle FRS (24 June 1915 \u2013 20 August 2001) was an English astronomer who formulated the theory of stellar nucleosynthesis.",
+    "Stellar nucleosynthesis: Such a graph of the abundances can be seen at History of nucleosynthesis theory article.",
+    "Stellar nucleosynthesis: Of the several processes of nucleosynthesis, stellar nucleosynthesis is the dominating contributor to elemental abundances in the universe.",
+    "B2FH paper: The BFH paper, named after the initials of the authors of the paper, Margaret Burbidge, Geoffrey Burbidge, William Fowler, and Fred Hoyle, is a landmark paper of stellar physics published in \"Reviews of Modern Physics\" in 1957.",
+    "Stellar nucleosynthesis: The term supernova nucleosynthesis is used to describe the creation of elements during the evolution and explosion of a pre-supernova star, a concept put forth by Fred Hoyle in 1954.",
+    "Fred Hoyle: He also wrote science fiction novels, short stories and radio plays, and co-authored twelve books with his son, Geoffrey Hoyle."
+   ],
+   "answer": "B2FH paper",
+   "answer_usage": {
+    "in": 350,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5262737919110805
+   },
+   "retrieval_latency_seconds": 0.00944874994456768,
+   "query": "B2FH paper authors Margaret Burbidge Geoffrey Burbidge William Fowler Fred Hoyle 1957",
+   "query_usage": {
+    "in": 335,
+    "out": 30,
+    "calls": 1,
+    "latency_seconds": 0.6775079159997404
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   9.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.6153846153846154,
+   3.0,
+   1.0,
+   25.0,
+   0.375,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.7692307692307693,
+   2.0,
+   1.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.9230769230769231,
+   1.0,
+   0.0,
+   2.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   2.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

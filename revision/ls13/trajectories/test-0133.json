@@ -1,0 +1,377 @@
+{
+ "id": "5ab946d7554299743d22eaaf",
+ "question": "What is the rank of the incumbent that RJ Harris challenged in 2010?",
+ "gold_answers": [
+  "the fourth-ranking Republican leader in the House"
+ ],
+ "support_titles": [
+  "R. J. Harris",
+  "Tom Cole"
+ ],
+ "support_sentences": [
+  "In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+  "The chairman of the National Republican Congressional Committee (NRCC) from 2006 to 2008, he was, during his tenure, the fourth-ranking Republican leader in the House."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 78,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6565189160173759
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "R. J. Harris: In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+    "Maine gubernatorial election, 2010: Incumbent Democratic Governor John Baldacci was term-limited and unable to seek re-election.",
+    "Michigan gubernatorial election, 2010: Incumbent Democratic Governor Jennifer Granholm was prohibited by the state's Constitution from seeking a third term."
+   ],
+   "answer": "U.S. Representative",
+   "answer_usage": {
+    "in": 174,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6012178750243038
+   },
+   "retrieval_latency_seconds": 0.012503375066444278,
+   "query": "RJ Harris 2010 election challenge incumbent",
+   "query_usage": {
+    "in": 63,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6896405409788713
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "R. J. Harris: In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+    "Maine gubernatorial election, 2010: Incumbent Democratic Governor John Baldacci was term-limited and unable to seek re-election.",
+    "Michigan gubernatorial election, 2010: Incumbent Democratic Governor Jennifer Granholm was prohibited by the state's Constitution from seeking a third term.",
+    "Tom Cole: Thomas Jeffery Cole (born April 28, 1949) is the U.S. Representative for Oklahoma 's 4 congressional district , serving since 2003.",
+    "Tom Cole: The chairman of the National Republican Congressional Committee (NRCC) from 2006 to 2008, he was, during his tenure, the fourth-ranking Republican leader in the House."
+   ],
+   "answer": "fourth-ranking Republican leader in the House",
+   "answer_usage": {
+    "in": 263,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6420487909344956
+   },
+   "retrieval_latency_seconds": 0.003964000032283366,
+   "query": "Tom Cole rank congressional seniority",
+   "query_usage": {
+    "in": 159,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.7061830000020564
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "R. J. Harris: In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+    "Maine gubernatorial election, 2010: Incumbent Democratic Governor John Baldacci was term-limited and unable to seek re-election.",
+    "Michigan gubernatorial election, 2010: Incumbent Democratic Governor Jennifer Granholm was prohibited by the state's Constitution from seeking a third term.",
+    "Tom Cole: Thomas Jeffery Cole (born April 28, 1949) is the U.S. Representative for Oklahoma 's 4 congressional district , serving since 2003.",
+    "Tom Cole: The chairman of the National Republican Congressional Committee (NRCC) from 2006 to 2008, he was, during his tenure, the fourth-ranking Republican leader in the House.",
+    "Demotion: A demotion is a compulsory reduction in an employee's rank or job title within the organizational hierarchy of a company, public service department, or other body.",
+    "Need theory: This model was developed in the 1960s soon after Maslow's hierarchy of needs in the 1940s.",
+    "Demotion: A move to a position at the same rank or level elsewhere in the organization is called a lateral move or deployment."
+   ],
+   "answer": "U.S. Representative for Oklahoma's 4th congressional district",
+   "answer_usage": {
+    "in": 365,
+    "out": 18,
+    "calls": 1,
+    "latency_seconds": 0.6215142499422655
+   },
+   "retrieval_latency_seconds": 0.13680700003169477,
+   "query": "I need to find Tom Cole's current rank or position in the House hierarchy as of 2010.",
+   "query_usage": {
+    "in": 248,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8533942500362173
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "R. J. Harris: In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+    "Maine gubernatorial election, 2010: Incumbent Democratic Governor John Baldacci was term-limited and unable to seek re-election.",
+    "Michigan gubernatorial election, 2010: Incumbent Democratic Governor Jennifer Granholm was prohibited by the state's Constitution from seeking a third term.",
+    "Tom Cole: Thomas Jeffery Cole (born April 28, 1949) is the U.S. Representative for Oklahoma 's 4 congressional district , serving since 2003.",
+    "Tom Cole: The chairman of the National Republican Congressional Committee (NRCC) from 2006 to 2008, he was, during his tenure, the fourth-ranking Republican leader in the House.",
+    "Demotion: A demotion is a compulsory reduction in an employee's rank or job title within the organizational hierarchy of a company, public service department, or other body.",
+    "Need theory: This model was developed in the 1960s soon after Maslow's hierarchy of needs in the 1940s.",
+    "Demotion: A move to a position at the same rank or level elsewhere in the organization is called a lateral move or deployment.",
+    "Tom Cole: He is a member of the Republican Party."
+   ],
+   "answer": "U.S. Representative",
+   "answer_usage": {
+    "in": 379,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5744978749426082
+   },
+   "retrieval_latency_seconds": 0.014216417097486556,
+   "query": "Tom Cole House Republican leadership rank 2010",
+   "query_usage": {
+    "in": 350,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.702493041055277
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "R. J. Harris: In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+    "Maine gubernatorial election, 2010: Incumbent Democratic Governor John Baldacci was term-limited and unable to seek re-election.",
+    "Michigan gubernatorial election, 2010: Incumbent Democratic Governor Jennifer Granholm was prohibited by the state's Constitution from seeking a third term.",
+    "Tom Cole: Thomas Jeffery Cole (born April 28, 1949) is the U.S. Representative for Oklahoma 's 4 congressional district , serving since 2003.",
+    "Tom Cole: The chairman of the National Republican Congressional Committee (NRCC) from 2006 to 2008, he was, during his tenure, the fourth-ranking Republican leader in the House.",
+    "Demotion: A demotion is a compulsory reduction in an employee's rank or job title within the organizational hierarchy of a company, public service department, or other body.",
+    "Need theory: This model was developed in the 1960s soon after Maslow's hierarchy of needs in the 1940s.",
+    "Demotion: A move to a position at the same rank or level elsewhere in the organization is called a lateral move or deployment.",
+    "Tom Cole: He is a member of the Republican Party.",
+    "Bill McCollum: As a member of the House, McCollum rose to become Vice Chairman of the House Republican Conference, the fifth-highest ranking position in the House Republican leadership."
+   ],
+   "answer": "fourth-ranking Republican leader in the House",
+   "answer_usage": {
+    "in": 419,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5845198750030249
+   },
+   "retrieval_latency_seconds": 0.009195916936732829,
+   "query": "Tom Cole House Republican leadership rank position 2010",
+   "query_usage": {
+    "in": 364,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.671154041076079
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "R. J. Harris: In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+    "Maine gubernatorial election, 2010: Incumbent Democratic Governor John Baldacci was term-limited and unable to seek re-election.",
+    "Michigan gubernatorial election, 2010: Incumbent Democratic Governor Jennifer Granholm was prohibited by the state's Constitution from seeking a third term.",
+    "Tom Cole: Thomas Jeffery Cole (born April 28, 1949) is the U.S. Representative for Oklahoma 's 4 congressional district , serving since 2003.",
+    "Tom Cole: The chairman of the National Republican Congressional Committee (NRCC) from 2006 to 2008, he was, during his tenure, the fourth-ranking Republican leader in the House.",
+    "Demotion: A demotion is a compulsory reduction in an employee's rank or job title within the organizational hierarchy of a company, public service department, or other body.",
+    "Need theory: This model was developed in the 1960s soon after Maslow's hierarchy of needs in the 1940s.",
+    "Demotion: A move to a position at the same rank or level elsewhere in the organization is called a lateral move or deployment.",
+    "Tom Cole: He is a member of the Republican Party.",
+    "Bill McCollum: As a member of the House, McCollum rose to become Vice Chairman of the House Republican Conference, the fifth-highest ranking position in the House Republican leadership."
+   ],
+   "answer": "fourth-ranking Republican leader in the House",
+   "answer_usage": {
+    "in": 419,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.594447375042364
+   },
+   "retrieval_latency_seconds": 0.037359582958742976,
+   "query": "Tom Cole House Republican leadership rank 2010",
+   "query_usage": {
+    "in": 404,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.597740542027168
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "R. J. Harris: In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+    "Maine gubernatorial election, 2010: Incumbent Democratic Governor John Baldacci was term-limited and unable to seek re-election.",
+    "Michigan gubernatorial election, 2010: Incumbent Democratic Governor Jennifer Granholm was prohibited by the state's Constitution from seeking a third term.",
+    "Tom Cole: Thomas Jeffery Cole (born April 28, 1949) is the U.S. Representative for Oklahoma 's 4 congressional district , serving since 2003.",
+    "Tom Cole: The chairman of the National Republican Congressional Committee (NRCC) from 2006 to 2008, he was, during his tenure, the fourth-ranking Republican leader in the House.",
+    "Demotion: A demotion is a compulsory reduction in an employee's rank or job title within the organizational hierarchy of a company, public service department, or other body.",
+    "Need theory: This model was developed in the 1960s soon after Maslow's hierarchy of needs in the 1940s.",
+    "Demotion: A move to a position at the same rank or level elsewhere in the organization is called a lateral move or deployment.",
+    "Tom Cole: He is a member of the Republican Party.",
+    "Bill McCollum: As a member of the House, McCollum rose to become Vice Chairman of the House Republican Conference, the fifth-highest ranking position in the House Republican leadership."
+   ],
+   "answer": "fourth-ranking Republican leader in the House",
+   "answer_usage": {
+    "in": 419,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.5690897499443963
+   },
+   "retrieval_latency_seconds": 0.007908000028692186,
+   "query": "Tom Cole House Republican leadership rank 2010",
+   "query_usage": {
+    "in": 404,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6076132910093293
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "R. J. Harris: In 2010, he unsuccessfully challenged incumbent Tom Cole for the Republican Party nomination in the primary election for Oklahoma's 4th congressional district.",
+    "Maine gubernatorial election, 2010: Incumbent Democratic Governor John Baldacci was term-limited and unable to seek re-election.",
+    "Michigan gubernatorial election, 2010: Incumbent Democratic Governor Jennifer Granholm was prohibited by the state's Constitution from seeking a third term.",
+    "Tom Cole: Thomas Jeffery Cole (born April 28, 1949) is the U.S. Representative for Oklahoma 's 4 congressional district , serving since 2003.",
+    "Tom Cole: The chairman of the National Republican Congressional Committee (NRCC) from 2006 to 2008, he was, during his tenure, the fourth-ranking Republican leader in the House.",
+    "Demotion: A demotion is a compulsory reduction in an employee's rank or job title within the organizational hierarchy of a company, public service department, or other body.",
+    "Need theory: This model was developed in the 1960s soon after Maslow's hierarchy of needs in the 1940s.",
+    "Demotion: A move to a position at the same rank or level elsewhere in the organization is called a lateral move or deployment.",
+    "Tom Cole: He is a member of the Republican Party.",
+    "Bill McCollum: As a member of the House, McCollum rose to become Vice Chairman of the House Republican Conference, the fifth-highest ranking position in the House Republican leadership."
+   ],
+   "answer": "fourth-ranking Republican leader in the House",
+   "answer_usage": {
+    "in": 419,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6277161659672856
+   },
+   "retrieval_latency_seconds": 0.01597425004001707,
+   "query": "Tom Cole House Republican leadership rank 2010",
+   "query_usage": {
+    "in": 404,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6050311669241637
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  0,
+  0,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   1.0,
+   3.0,
+   0.3333333333333333,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6666666666666666,
+   2.0,
+   1.0,
+   6.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.75,
+   3.0,
+   1.0,
+   9.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.75,
+   1.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   5.0,
+   10.0,
+   0.75,
+   1.0,
+   1.0,
+   6.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   6.0,
+   10.0,
+   0.75,
+   0.0,
+   0.0,
+   6.0,
+   1.0,
+   0.0,
+   4.0
+  ],
+  [
+   7.0,
+   10.0,
+   0.75,
+   0.0,
+   0.0,
+   6.0,
+   1.0,
+   1.0,
+   4.0
+  ],
+  [
+   8.0,
+   10.0,
+   0.75,
+   0.0,
+   0.0,
+   6.0,
+   1.0,
+   1.0,
+   4.0
+  ]
+ ]
+}

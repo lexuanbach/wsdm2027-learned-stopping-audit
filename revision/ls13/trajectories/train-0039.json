@@ -1,0 +1,374 @@
+{
+ "id": "5abf12f25542997719eab667",
+ "question": "Are McFarland, USA and The Black Hole both sports films?",
+ "gold_answers": [
+  "no"
+ ],
+ "support_titles": [
+  "McFarland, USA",
+  "The Black Hole"
+ ],
+ "support_sentences": [
+  "McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+  "The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No",
+   "answer_usage": {
+    "in": 77,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5349074159748852
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "McFarland, USA: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+    "McFarland, USA: The film also stars Maria Bello and Morgan Saylor.",
+    "McFarland, USA: The film was co-produced by Walt Disney Pictures and Mayhem Pictures."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 200,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5829368329141289
+   },
+   "retrieval_latency_seconds": 0.0017228340730071068,
+   "query": "McFarland USA genre",
+   "query_usage": {
+    "in": 62,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5799270418938249
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "McFarland, USA: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+    "McFarland, USA: The film also stars Maria Bello and Morgan Saylor.",
+    "McFarland, USA: The film was co-produced by Walt Disney Pictures and Mayhem Pictures.",
+    "The Black Hole: The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions.",
+    "Extreme mass ratio inspiral: In the case of a black hole in orbit around another black hole this is an extreme mass ratio binary black hole.",
+    "Black hole bomb: The mechanism by which the black hole bomb functions is called superradiant instability."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 287,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5827761249383911
+   },
+   "retrieval_latency_seconds": 0.07050329097546637,
+   "query": "The Black Hole film genre",
+   "query_usage": {
+    "in": 185,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6051415000110865
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "McFarland, USA: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+    "McFarland, USA: The film also stars Maria Bello and Morgan Saylor.",
+    "McFarland, USA: The film was co-produced by Walt Disney Pictures and Mayhem Pictures.",
+    "The Black Hole: The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions.",
+    "Extreme mass ratio inspiral: In the case of a black hole in orbit around another black hole this is an extreme mass ratio binary black hole.",
+    "Black hole bomb: The mechanism by which the black hole bomb functions is called superradiant instability.",
+    "Science fiction films in India: The genre of science fiction has been prevalent in the Indian film industry since the second half of the 20th century.",
+    "The Black Hole: The film was released on December 18, 1979 in the United Kingdom and on December 21, 1979 in the United States."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 358,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5942702499451116
+   },
+   "retrieval_latency_seconds": 0.3373771249316633,
+   "query": "The Black Hole 1979 film genre science fiction",
+   "query_usage": {
+    "in": 272,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.67765029205475
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "McFarland, USA: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+    "McFarland, USA: The film also stars Maria Bello and Morgan Saylor.",
+    "McFarland, USA: The film was co-produced by Walt Disney Pictures and Mayhem Pictures.",
+    "The Black Hole: The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions.",
+    "Extreme mass ratio inspiral: In the case of a black hole in orbit around another black hole this is an extreme mass ratio binary black hole.",
+    "Black hole bomb: The mechanism by which the black hole bomb functions is called superradiant instability.",
+    "Science fiction films in India: The genre of science fiction has been prevalent in the Indian film industry since the second half of the 20th century.",
+    "The Black Hole: The film was released on December 18, 1979 in the United Kingdom and on December 21, 1979 in the United States.",
+    "Sports film: A sports film is a film genre that uses sport as the theme of a film."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5671560419723392
+   },
+   "retrieval_latency_seconds": 0.08155387488659471,
+   "query": "The Black Hole 1979 film genre sports",
+   "query_usage": {
+    "in": 343,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6622296250425279
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "McFarland, USA: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+    "McFarland, USA: The film also stars Maria Bello and Morgan Saylor.",
+    "McFarland, USA: The film was co-produced by Walt Disney Pictures and Mayhem Pictures.",
+    "The Black Hole: The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions.",
+    "Extreme mass ratio inspiral: In the case of a black hole in orbit around another black hole this is an extreme mass ratio binary black hole.",
+    "Black hole bomb: The mechanism by which the black hole bomb functions is called superradiant instability.",
+    "Science fiction films in India: The genre of science fiction has been prevalent in the Indian film industry since the second half of the 20th century.",
+    "The Black Hole: The film was released on December 18, 1979 in the United Kingdom and on December 21, 1979 in the United States.",
+    "Sports film: A sports film is a film genre that uses sport as the theme of a film."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.579703374998644
+   },
+   "retrieval_latency_seconds": 0.2837263329420239,
+   "query": "Is The Black Hole a sports film?",
+   "query_usage": {
+    "in": 365,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6588917910121381
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "McFarland, USA: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+    "McFarland, USA: The film also stars Maria Bello and Morgan Saylor.",
+    "McFarland, USA: The film was co-produced by Walt Disney Pictures and Mayhem Pictures.",
+    "The Black Hole: The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions.",
+    "Extreme mass ratio inspiral: In the case of a black hole in orbit around another black hole this is an extreme mass ratio binary black hole.",
+    "Black hole bomb: The mechanism by which the black hole bomb functions is called superradiant instability.",
+    "Science fiction films in India: The genre of science fiction has been prevalent in the Indian film industry since the second half of the 20th century.",
+    "The Black Hole: The film was released on December 18, 1979 in the United Kingdom and on December 21, 1979 in the United States.",
+    "Sports film: A sports film is a film genre that uses sport as the theme of a film."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.565451915957965
+   },
+   "retrieval_latency_seconds": 0.10918179200962186,
+   "query": "Is The Black Hole a sports film?",
+   "query_usage": {
+    "in": 365,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6477844999171793
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "McFarland, USA: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+    "McFarland, USA: The film also stars Maria Bello and Morgan Saylor.",
+    "McFarland, USA: The film was co-produced by Walt Disney Pictures and Mayhem Pictures.",
+    "The Black Hole: The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions.",
+    "Extreme mass ratio inspiral: In the case of a black hole in orbit around another black hole this is an extreme mass ratio binary black hole.",
+    "Black hole bomb: The mechanism by which the black hole bomb functions is called superradiant instability.",
+    "Science fiction films in India: The genre of science fiction has been prevalent in the Indian film industry since the second half of the 20th century.",
+    "The Black Hole: The film was released on December 18, 1979 in the United Kingdom and on December 21, 1979 in the United States.",
+    "Sports film: A sports film is a film genre that uses sport as the theme of a film."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.7607886670157313
+   },
+   "retrieval_latency_seconds": 0.10081304202321917,
+   "query": "Is The Black Hole a sports film?",
+   "query_usage": {
+    "in": 365,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6529051249381155
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "McFarland, USA: McFarland, USA (also known as McFarland) is a 2015 American sports drama film directed by Niki Caro, produced by Mark Ciardi and Gordon Gray, written by Christopher Cleveland, Bettina Gilois and Grant Thompson with music composed by Ant\u00f4nio Pinto.",
+    "McFarland, USA: The film also stars Maria Bello and Morgan Saylor.",
+    "McFarland, USA: The film was co-produced by Walt Disney Pictures and Mayhem Pictures.",
+    "The Black Hole: The Black Hole is a 1979 American science fiction film directed by Gary Nelson and produced by Walt Disney Productions.",
+    "Extreme mass ratio inspiral: In the case of a black hole in orbit around another black hole this is an extreme mass ratio binary black hole.",
+    "Black hole bomb: The mechanism by which the black hole bomb functions is called superradiant instability.",
+    "Science fiction films in India: The genre of science fiction has been prevalent in the Indian film industry since the second half of the 20th century.",
+    "The Black Hole: The film was released on December 18, 1979 in the United Kingdom and on December 21, 1979 in the United States.",
+    "Sports film: A sports film is a film genre that uses sport as the theme of a film."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5406282920157537
+   },
+   "retrieval_latency_seconds": 0.106799541041255,
+   "query": "Is The Black Hole a sports film?",
+   "query_usage": {
+    "in": 365,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6768654580228031
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.7,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.8,
+   2.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.8,
+   1.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.8,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.8,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.8,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.8,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

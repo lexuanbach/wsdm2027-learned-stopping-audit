@@ -1,0 +1,376 @@
+{
+ "id": "5a7a5ea15542994f819ef1c7",
+ "question": "Who born earlier, Lewis Terman or  G. Stanley Hall?",
+ "gold_answers": [
+  "G. Stanley Hall"
+ ],
+ "support_titles": [
+  "Lewis Terman",
+  "G. Stanley Hall"
+ ],
+ "support_sentences": [
+  "Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+  "A \"Review of General Psychology\" survey, published in 2002, ranked Terman as the 72nd most cited psychologist of the 20th century, in a tie with G. Stanley Hall.",
+  "Granville Stanley Hall (February 1, 1846 \u2013 April 24, 1924) was a pioneering American psychologist and educator."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "G. Stanley Hall",
+   "answer_usage": {
+    "in": 76,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5939903750550002
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Lewis Terman: Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+    "Lewis Terman: He also served as president of the American Psychological Association.",
+    "Lewis Terman: He was a prominent eugenicist and was a member of the Human Betterment Foundation."
+   ],
+   "answer": "I need to find G. Stanley Hall's birth date to compare with Lewis Terman's birth date (January 15, 1877)",
+   "answer_usage": {
+    "in": 156,
+    "out": 40,
+    "calls": 1,
+    "latency_seconds": 0.8501901250565425
+   },
+   "retrieval_latency_seconds": 0.0050544580444693565,
+   "query": "Lewis Terman birth date",
+   "query_usage": {
+    "in": 61,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6961067089578137
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Lewis Terman: Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+    "Lewis Terman: He also served as president of the American Psychological Association.",
+    "Lewis Terman: He was a prominent eugenicist and was a member of the Human Betterment Foundation.",
+    "G. Stanley Hall: Granville Stanley Hall (February 1, 1846 \u2013 April 24, 1924) was a pioneering American psychologist and educator.",
+    "G. Stanley Hall: His interests focused on childhood development and evolutionary theory.",
+    "G. Stanley Hall: Hall was the first president of the American Psychological Association and the first president of Clark University."
+   ],
+   "answer": "G. Stanley Hall",
+   "answer_usage": {
+    "in": 239,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5411639999365434
+   },
+   "retrieval_latency_seconds": 0.003213833086192608,
+   "query": "G. Stanley Hall birth date",
+   "query_usage": {
+    "in": 141,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5363535829819739
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Lewis Terman: Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+    "Lewis Terman: He also served as president of the American Psychological Association.",
+    "Lewis Terman: He was a prominent eugenicist and was a member of the Human Betterment Foundation.",
+    "G. Stanley Hall: Granville Stanley Hall (February 1, 1846 \u2013 April 24, 1924) was a pioneering American psychologist and educator.",
+    "G. Stanley Hall: His interests focused on childhood development and evolutionary theory.",
+    "G. Stanley Hall: Hall was the first president of the American Psychological Association and the first president of Clark University.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Having a Great Birth in Australia: All of the mothers in this book chose to have their birth care provided by an individual midwife.",
+    "Bank of British North America: The end dates are the final dates appearing on notes, which may have circulated for some time after."
+   ],
+   "answer": "G. Stanley Hall",
+   "answer_usage": {
+    "in": 327,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6563725830055773
+   },
+   "retrieval_latency_seconds": 0.3266234169714153,
+   "query": "Based on the information provided, I already have the birth dates for both individuals:",
+   "query_usage": {
+    "in": 224,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.717862999998033
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Lewis Terman: Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+    "Lewis Terman: He also served as president of the American Psychological Association.",
+    "Lewis Terman: He was a prominent eugenicist and was a member of the Human Betterment Foundation.",
+    "G. Stanley Hall: Granville Stanley Hall (February 1, 1846 \u2013 April 24, 1924) was a pioneering American psychologist and educator.",
+    "G. Stanley Hall: His interests focused on childhood development and evolutionary theory.",
+    "G. Stanley Hall: Hall was the first president of the American Psychological Association and the first president of Clark University.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Having a Great Birth in Australia: All of the mothers in this book chose to have their birth care provided by an individual midwife.",
+    "Bank of British North America: The end dates are the final dates appearing on notes, which may have circulated for some time after."
+   ],
+   "answer": "G. Stanley Hall",
+   "answer_usage": {
+    "in": 327,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6428480829345062
+   },
+   "retrieval_latency_seconds": 0.3533353750826791,
+   "query": "Based on the information provided, I already have the birth dates for both individuals:",
+   "query_usage": {
+    "in": 312,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7511115829693154
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Lewis Terman: Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+    "Lewis Terman: He also served as president of the American Psychological Association.",
+    "Lewis Terman: He was a prominent eugenicist and was a member of the Human Betterment Foundation.",
+    "G. Stanley Hall: Granville Stanley Hall (February 1, 1846 \u2013 April 24, 1924) was a pioneering American psychologist and educator.",
+    "G. Stanley Hall: His interests focused on childhood development and evolutionary theory.",
+    "G. Stanley Hall: Hall was the first president of the American Psychological Association and the first president of Clark University.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Having a Great Birth in Australia: All of the mothers in this book chose to have their birth care provided by an individual midwife.",
+    "Bank of British North America: The end dates are the final dates appearing on notes, which may have circulated for some time after."
+   ],
+   "answer": "G. Stanley Hall",
+   "answer_usage": {
+    "in": 327,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6002722919220105
+   },
+   "retrieval_latency_seconds": 0.11829083296470344,
+   "query": "Based on the information provided, I already have the birth dates for both individuals:",
+   "query_usage": {
+    "in": 312,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8079629999119788
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Lewis Terman: Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+    "Lewis Terman: He also served as president of the American Psychological Association.",
+    "Lewis Terman: He was a prominent eugenicist and was a member of the Human Betterment Foundation.",
+    "G. Stanley Hall: Granville Stanley Hall (February 1, 1846 \u2013 April 24, 1924) was a pioneering American psychologist and educator.",
+    "G. Stanley Hall: His interests focused on childhood development and evolutionary theory.",
+    "G. Stanley Hall: Hall was the first president of the American Psychological Association and the first president of Clark University.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Having a Great Birth in Australia: All of the mothers in this book chose to have their birth care provided by an individual midwife.",
+    "Bank of British North America: The end dates are the final dates appearing on notes, which may have circulated for some time after."
+   ],
+   "answer": "G. Stanley Hall",
+   "answer_usage": {
+    "in": 327,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6541887080529705
+   },
+   "retrieval_latency_seconds": 0.18499937502201647,
+   "query": "Based on the information provided, I already have the birth dates for both individuals:",
+   "query_usage": {
+    "in": 312,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7571379999862984
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Lewis Terman: Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+    "Lewis Terman: He also served as president of the American Psychological Association.",
+    "Lewis Terman: He was a prominent eugenicist and was a member of the Human Betterment Foundation.",
+    "G. Stanley Hall: Granville Stanley Hall (February 1, 1846 \u2013 April 24, 1924) was a pioneering American psychologist and educator.",
+    "G. Stanley Hall: His interests focused on childhood development and evolutionary theory.",
+    "G. Stanley Hall: Hall was the first president of the American Psychological Association and the first president of Clark University.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Having a Great Birth in Australia: All of the mothers in this book chose to have their birth care provided by an individual midwife.",
+    "Bank of British North America: The end dates are the final dates appearing on notes, which may have circulated for some time after."
+   ],
+   "answer": "G. Stanley Hall",
+   "answer_usage": {
+    "in": 327,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6158580839401111
+   },
+   "retrieval_latency_seconds": 0.11140029190573841,
+   "query": "Based on the information provided, I already have the birth dates for both individuals:",
+   "query_usage": {
+    "in": 312,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7347479580203071
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Lewis Terman: Lewis Madison Terman (January 15, 1877 \u2013 December 21, 1956) was an American psychologist and author.",
+    "Lewis Terman: He also served as president of the American Psychological Association.",
+    "Lewis Terman: He was a prominent eugenicist and was a member of the Human Betterment Foundation.",
+    "G. Stanley Hall: Granville Stanley Hall (February 1, 1846 \u2013 April 24, 1924) was a pioneering American psychologist and educator.",
+    "G. Stanley Hall: His interests focused on childhood development and evolutionary theory.",
+    "G. Stanley Hall: Hall was the first president of the American Psychological Association and the first president of Clark University.",
+    "Tax code (PAYE): The code is normally based on information provided to HMRC by the taxpayer or their employer.",
+    "Having a Great Birth in Australia: All of the mothers in this book chose to have their birth care provided by an individual midwife.",
+    "Bank of British North America: The end dates are the final dates appearing on notes, which may have circulated for some time after."
+   ],
+   "answer": "G. Stanley Hall",
+   "answer_usage": {
+    "in": 327,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6190499999793246
+   },
+   "retrieval_latency_seconds": 0.12463379092514515,
+   "query": "Based on the information provided, I already have the birth dates for both individuals:",
+   "query_usage": {
+    "in": 312,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7544529580045491
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  0.25,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.2222222222222222,
+   3.0,
+   1.0,
+   21.0,
+   0.29411764705882354,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5555555555555556,
+   3.0,
+   1.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   9.0,
+   0.6666666666666666,
+   3.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   9.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

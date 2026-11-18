@@ -1,0 +1,371 @@
+{
+ "id": "5a8b429f5542995d1e6f132c",
+ "question": "Stella Maxwell has been a model for a famous fashion shown since when?",
+ "gold_answers": [
+  "Since 2015"
+ ],
+ "support_titles": [
+  "Victoria's Secret Fashion Show",
+  "Stella Maxwell"
+ ],
+ "support_sentences": [
+  "The show features some of the world's leading fashion models such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Behati Prinsloo, Candice Swanepoel, Lily Aldridge, Elsa Hosk, Jasmine Tookes, Josephine Skriver, Lais Ribeiro, Martha Hunt, Romee Strijd, Sara Sampaio, Stella Maxwell, and Taylor Marie Hill.",
+  "Since 2015, she has been one of the Victoria's Secret Angels."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 76,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.7282040000427514
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Stella Maxwell: Stella Maynes Maxwell (born May 15, 1990) is a British-New Zealand fashion model.",
+    "Victoria's Secret Fashion Show 2016: The show features some of the world's leading fashion models, such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Lily Aldridge, Elsa Hosk, Sara Sampaio, Taylor Hill, Stella Maxwell, Jasmine Tookes, Lais Ribeiro, Romee Strijd, Josephine Skriver and Martha Hunt.",
+    "Cruiserweight (band): The band consisted of vocalist Stella Maxwell, guitarist Urny Maxwell, bassist David Hawkins, and drummer Yogi Maxwell."
+   ],
+   "answer": "2016",
+   "answer_usage": {
+    "in": 239,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5181030000094324
+   },
+   "retrieval_latency_seconds": 0.0038586249575018883,
+   "query": "Stella Maxwell model fashion show",
+   "query_usage": {
+    "in": 61,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5727048750268295
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Stella Maxwell: Stella Maynes Maxwell (born May 15, 1990) is a British-New Zealand fashion model.",
+    "Victoria's Secret Fashion Show 2016: The show features some of the world's leading fashion models, such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Lily Aldridge, Elsa Hosk, Sara Sampaio, Taylor Hill, Stella Maxwell, Jasmine Tookes, Lais Ribeiro, Romee Strijd, Josephine Skriver and Martha Hunt.",
+    "Cruiserweight (band): The band consisted of vocalist Stella Maxwell, guitarist Urny Maxwell, bassist David Hawkins, and drummer Yogi Maxwell.",
+    "Stella Maxwell: Since 2015, she has been one of the Victoria's Secret Angels.",
+    "Victoria's Secret Fashion Show: The show features some of the world's leading fashion models such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Behati Prinsloo, Candice Swanepoel, Lily Aldridge, Elsa Hosk, Jasmine Tookes, Josephine Skriver, Lais Ribeiro, Martha Hunt, Romee Strijd, Sara Sampaio, Stella Maxwell, and Taylor Marie Hill."
+   ],
+   "answer": "2015",
+   "answer_usage": {
+    "in": 376,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.4960392089560628
+   },
+   "retrieval_latency_seconds": 0.1178018330829218,
+   "query": "Stella Maxwell Victoria's Secret Angel start date when did she become",
+   "query_usage": {
+    "in": 224,
+    "out": 16,
+    "calls": 1,
+    "latency_seconds": 0.6793892920250073
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Stella Maxwell: Stella Maynes Maxwell (born May 15, 1990) is a British-New Zealand fashion model.",
+    "Victoria's Secret Fashion Show 2016: The show features some of the world's leading fashion models, such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Lily Aldridge, Elsa Hosk, Sara Sampaio, Taylor Hill, Stella Maxwell, Jasmine Tookes, Lais Ribeiro, Romee Strijd, Josephine Skriver and Martha Hunt.",
+    "Cruiserweight (band): The band consisted of vocalist Stella Maxwell, guitarist Urny Maxwell, bassist David Hawkins, and drummer Yogi Maxwell.",
+    "Stella Maxwell: Since 2015, she has been one of the Victoria's Secret Angels.",
+    "Victoria's Secret Fashion Show: The show features some of the world's leading fashion models such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Behati Prinsloo, Candice Swanepoel, Lily Aldridge, Elsa Hosk, Jasmine Tookes, Josephine Skriver, Lais Ribeiro, Martha Hunt, Romee Strijd, Sara Sampaio, Stella Maxwell, and Taylor Marie Hill.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Laisa Vulakoro: She has been described as Fiji's answer to Ren\u00e9e Geyer."
+   ],
+   "answer": "2015",
+   "answer_usage": {
+    "in": 426,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.547245959052816
+   },
+   "retrieval_latency_seconds": 0.30798450007569045,
+   "query": "Based on the information provided, I already have the answer to the question. The known facts clearly state that \"Since 2015, she has been one of",
+   "query_usage": {
+    "in": 361,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7548260419862345
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Stella Maxwell: Stella Maynes Maxwell (born May 15, 1990) is a British-New Zealand fashion model.",
+    "Victoria's Secret Fashion Show 2016: The show features some of the world's leading fashion models, such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Lily Aldridge, Elsa Hosk, Sara Sampaio, Taylor Hill, Stella Maxwell, Jasmine Tookes, Lais Ribeiro, Romee Strijd, Josephine Skriver and Martha Hunt.",
+    "Cruiserweight (band): The band consisted of vocalist Stella Maxwell, guitarist Urny Maxwell, bassist David Hawkins, and drummer Yogi Maxwell.",
+    "Stella Maxwell: Since 2015, she has been one of the Victoria's Secret Angels.",
+    "Victoria's Secret Fashion Show: The show features some of the world's leading fashion models such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Behati Prinsloo, Candice Swanepoel, Lily Aldridge, Elsa Hosk, Jasmine Tookes, Josephine Skriver, Lais Ribeiro, Martha Hunt, Romee Strijd, Sara Sampaio, Stella Maxwell, and Taylor Marie Hill.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Laisa Vulakoro: She has been described as Fiji's answer to Ren\u00e9e Geyer.",
+    "Rodney Bay: On a cloudless day, one can clearly see Martinique."
+   ],
+   "answer": "2015",
+   "answer_usage": {
+    "in": 447,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5801021249499172
+   },
+   "retrieval_latency_seconds": 0.7145238330122083,
+   "query": "Based on the information provided, I can already answer the question. The known facts clearly state that \"Since 2015, she has been one of the Victoria",
+   "query_usage": {
+    "in": 411,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8328223749995232
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Stella Maxwell: Stella Maynes Maxwell (born May 15, 1990) is a British-New Zealand fashion model.",
+    "Victoria's Secret Fashion Show 2016: The show features some of the world's leading fashion models, such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Lily Aldridge, Elsa Hosk, Sara Sampaio, Taylor Hill, Stella Maxwell, Jasmine Tookes, Lais Ribeiro, Romee Strijd, Josephine Skriver and Martha Hunt.",
+    "Cruiserweight (band): The band consisted of vocalist Stella Maxwell, guitarist Urny Maxwell, bassist David Hawkins, and drummer Yogi Maxwell.",
+    "Stella Maxwell: Since 2015, she has been one of the Victoria's Secret Angels.",
+    "Victoria's Secret Fashion Show: The show features some of the world's leading fashion models such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Behati Prinsloo, Candice Swanepoel, Lily Aldridge, Elsa Hosk, Jasmine Tookes, Josephine Skriver, Lais Ribeiro, Martha Hunt, Romee Strijd, Sara Sampaio, Stella Maxwell, and Taylor Marie Hill.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Laisa Vulakoro: She has been described as Fiji's answer to Ren\u00e9e Geyer.",
+    "Rodney Bay: On a cloudless day, one can clearly see Martinique.",
+    "Victoria's Secret Fashion Show 2015: The show features some of the world's leading fashion models, including then current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Candice Swanepoel, Lily Aldridge, Behati Prinsloo, Elsa Hosk, Lais Ribeiro, Sara Sampaio, Jac Jagaciak, Kate Grigorieva, Martha Hunt, Taylor Hill, Jasmine Tookes, Romee Strijd and Stella Maxwell."
+   ],
+   "answer": "2015",
+   "answer_usage": {
+    "in": 572,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6342099589528516
+   },
+   "retrieval_latency_seconds": 0.5756718330085278,
+   "query": "The search results already contain the answer. According to the known facts, Stella Maxwell has been a Victoria's Secret Angel since 2015, which is when",
+   "query_usage": {
+    "in": 432,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8129312500823289
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Stella Maxwell: Stella Maynes Maxwell (born May 15, 1990) is a British-New Zealand fashion model.",
+    "Victoria's Secret Fashion Show 2016: The show features some of the world's leading fashion models, such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Lily Aldridge, Elsa Hosk, Sara Sampaio, Taylor Hill, Stella Maxwell, Jasmine Tookes, Lais Ribeiro, Romee Strijd, Josephine Skriver and Martha Hunt.",
+    "Cruiserweight (band): The band consisted of vocalist Stella Maxwell, guitarist Urny Maxwell, bassist David Hawkins, and drummer Yogi Maxwell.",
+    "Stella Maxwell: Since 2015, she has been one of the Victoria's Secret Angels.",
+    "Victoria's Secret Fashion Show: The show features some of the world's leading fashion models such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Behati Prinsloo, Candice Swanepoel, Lily Aldridge, Elsa Hosk, Jasmine Tookes, Josephine Skriver, Lais Ribeiro, Martha Hunt, Romee Strijd, Sara Sampaio, Stella Maxwell, and Taylor Marie Hill.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Laisa Vulakoro: She has been described as Fiji's answer to Ren\u00e9e Geyer.",
+    "Rodney Bay: On a cloudless day, one can clearly see Martinique.",
+    "Victoria's Secret Fashion Show 2015: The show features some of the world's leading fashion models, including then current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Candice Swanepoel, Lily Aldridge, Behati Prinsloo, Elsa Hosk, Lais Ribeiro, Sara Sampaio, Jac Jagaciak, Kate Grigorieva, Martha Hunt, Taylor Hill, Jasmine Tookes, Romee Strijd and Stella Maxwell."
+   ],
+   "answer": "2015",
+   "answer_usage": {
+    "in": 572,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5970625829650089
+   },
+   "retrieval_latency_seconds": 0.2985954999458045,
+   "query": "Based on the known information, I already have the answer: Stella Maxwell has been a Victoria's Secret Angel since 2015, as stated in the facts",
+   "query_usage": {
+    "in": 557,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8148563749855384
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Stella Maxwell: Stella Maynes Maxwell (born May 15, 1990) is a British-New Zealand fashion model.",
+    "Victoria's Secret Fashion Show 2016: The show features some of the world's leading fashion models, such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Lily Aldridge, Elsa Hosk, Sara Sampaio, Taylor Hill, Stella Maxwell, Jasmine Tookes, Lais Ribeiro, Romee Strijd, Josephine Skriver and Martha Hunt.",
+    "Cruiserweight (band): The band consisted of vocalist Stella Maxwell, guitarist Urny Maxwell, bassist David Hawkins, and drummer Yogi Maxwell.",
+    "Stella Maxwell: Since 2015, she has been one of the Victoria's Secret Angels.",
+    "Victoria's Secret Fashion Show: The show features some of the world's leading fashion models such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Behati Prinsloo, Candice Swanepoel, Lily Aldridge, Elsa Hosk, Jasmine Tookes, Josephine Skriver, Lais Ribeiro, Martha Hunt, Romee Strijd, Sara Sampaio, Stella Maxwell, and Taylor Marie Hill.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Laisa Vulakoro: She has been described as Fiji's answer to Ren\u00e9e Geyer.",
+    "Rodney Bay: On a cloudless day, one can clearly see Martinique.",
+    "Victoria's Secret Fashion Show 2015: The show features some of the world's leading fashion models, including then current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Candice Swanepoel, Lily Aldridge, Behati Prinsloo, Elsa Hosk, Lais Ribeiro, Sara Sampaio, Jac Jagaciak, Kate Grigorieva, Martha Hunt, Taylor Hill, Jasmine Tookes, Romee Strijd and Stella Maxwell."
+   ],
+   "answer": "2015",
+   "answer_usage": {
+    "in": 572,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5966091669397429
+   },
+   "retrieval_latency_seconds": 0.4249240420758724,
+   "query": "Based on the known information, I already have the answer: Stella Maxwell has been a Victoria's Secret Angel since 2015, as stated in the facts",
+   "query_usage": {
+    "in": 557,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.920963125070557
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Stella Maxwell: Stella Maynes Maxwell (born May 15, 1990) is a British-New Zealand fashion model.",
+    "Victoria's Secret Fashion Show 2016: The show features some of the world's leading fashion models, such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Lily Aldridge, Elsa Hosk, Sara Sampaio, Taylor Hill, Stella Maxwell, Jasmine Tookes, Lais Ribeiro, Romee Strijd, Josephine Skriver and Martha Hunt.",
+    "Cruiserweight (band): The band consisted of vocalist Stella Maxwell, guitarist Urny Maxwell, bassist David Hawkins, and drummer Yogi Maxwell.",
+    "Stella Maxwell: Since 2015, she has been one of the Victoria's Secret Angels.",
+    "Victoria's Secret Fashion Show: The show features some of the world's leading fashion models such as current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Behati Prinsloo, Candice Swanepoel, Lily Aldridge, Elsa Hosk, Jasmine Tookes, Josephine Skriver, Lais Ribeiro, Martha Hunt, Romee Strijd, Sara Sampaio, Stella Maxwell, and Taylor Marie Hill.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Laisa Vulakoro: She has been described as Fiji's answer to Ren\u00e9e Geyer.",
+    "Rodney Bay: On a cloudless day, one can clearly see Martinique.",
+    "Victoria's Secret Fashion Show 2015: The show features some of the world's leading fashion models, including then current Victoria's Secret Angels Adriana Lima, Alessandra Ambrosio, Candice Swanepoel, Lily Aldridge, Behati Prinsloo, Elsa Hosk, Lais Ribeiro, Sara Sampaio, Jac Jagaciak, Kate Grigorieva, Martha Hunt, Taylor Hill, Jasmine Tookes, Romee Strijd and Stella Maxwell."
+   ],
+   "answer": "2015",
+   "answer_usage": {
+    "in": 572,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.6108349160058424
+   },
+   "retrieval_latency_seconds": 0.2957745420280844,
+   "query": "Based on the known information, I already have the answer: Stella Maxwell has been a Victoria's Secret Angel since 2015, as stated in the facts",
+   "query_usage": {
+    "in": 557,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.79053825000301
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666,
+  0.6666666666666666
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4166666666666667,
+   3.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6666666666666666,
+   2.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   3.0,
+   7.0,
+   0.6666666666666666,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   3.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.6666666666666666,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   5.0,
+   9.0,
+   0.6666666666666666,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   6.0,
+   9.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   7.0,
+   9.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ],
+  [
+   8.0,
+   9.0,
+   0.6666666666666666,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   3.0
+  ]
+ ]
+}

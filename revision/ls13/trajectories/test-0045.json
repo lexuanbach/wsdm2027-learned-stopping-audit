@@ -1,0 +1,357 @@
+{
+ "id": "5ab92e02554299753720f775",
+ "question": "What was the largest passenger capacity of the plane type used for BOAC Flight 911 ?",
+ "gold_answers": [
+  "219"
+ ],
+ "support_titles": [
+  "BOAC Flight 911",
+  "Boeing 707"
+ ],
+ "support_sentences": [
+  "The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+  "Versions of the aircraft have a capacity from 140 to 219 passengers and a range of 2500 to ."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "189",
+   "answer_usage": {
+    "in": 81,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5506780840223655
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "BOAC Flight 911: BOAC Flight 911 (Speedbird 911) was a round-the-world flight operated by British Overseas Airways Corporation that crashed as a result of an encounter with severe clear-air turbulence near Mount Fuji in Japan on 5 March 1966.",
+    "BOAC Flight 911: The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+    "BOAC Flight 712: The engine fell off the aircraft in flight."
+   ],
+   "answer": "189",
+   "answer_usage": {
+    "in": 218,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5907197090564296
+   },
+   "retrieval_latency_seconds": 0.000957125099375844,
+   "query": "BOAC Flight 911",
+   "query_usage": {
+    "in": 66,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5498000830411911
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "BOAC Flight 911: BOAC Flight 911 (Speedbird 911) was a round-the-world flight operated by British Overseas Airways Corporation that crashed as a result of an encounter with severe clear-air turbulence near Mount Fuji in Japan on 5 March 1966.",
+    "BOAC Flight 911: The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+    "BOAC Flight 712: The engine fell off the aircraft in flight.",
+    "Boeing 707: Versions of the aircraft have a capacity from 140 to 219 passengers and a range of 2500 to .",
+    "Boeing 707: The Boeing 707 is a mid-sized, long-range, narrow-body, four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979.",
+    "Boeing 707: Its name is commonly pronounced as \"seven oh seven\"."
+   ],
+   "answer": "219",
+   "answer_usage": {
+    "in": 318,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5452663750620559
+   },
+   "retrieval_latency_seconds": 0.0022226249566301703,
+   "query": "Boeing 707 maximum passenger capacity",
+   "query_usage": {
+    "in": 203,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5981885419460014
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "BOAC Flight 911: BOAC Flight 911 (Speedbird 911) was a round-the-world flight operated by British Overseas Airways Corporation that crashed as a result of an encounter with severe clear-air turbulence near Mount Fuji in Japan on 5 March 1966.",
+    "BOAC Flight 911: The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+    "BOAC Flight 712: The engine fell off the aircraft in flight.",
+    "Boeing 707: Versions of the aircraft have a capacity from 140 to 219 passengers and a range of 2500 to .",
+    "Boeing 707: The Boeing 707 is a mid-sized, long-range, narrow-body, four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979.",
+    "Boeing 707: Its name is commonly pronounced as \"seven oh seven\"."
+   ],
+   "answer": "219",
+   "answer_usage": {
+    "in": 318,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5699006250360981
+   },
+   "retrieval_latency_seconds": 0.0024814169155433774,
+   "query": "Boeing 707-436 maximum passenger capacity",
+   "query_usage": {
+    "in": 303,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6608143330086023
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "BOAC Flight 911: BOAC Flight 911 (Speedbird 911) was a round-the-world flight operated by British Overseas Airways Corporation that crashed as a result of an encounter with severe clear-air turbulence near Mount Fuji in Japan on 5 March 1966.",
+    "BOAC Flight 911: The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+    "BOAC Flight 712: The engine fell off the aircraft in flight.",
+    "Boeing 707: Versions of the aircraft have a capacity from 140 to 219 passengers and a range of 2500 to .",
+    "Boeing 707: The Boeing 707 is a mid-sized, long-range, narrow-body, four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979.",
+    "Boeing 707: Its name is commonly pronounced as \"seven oh seven\"."
+   ],
+   "answer": "219",
+   "answer_usage": {
+    "in": 318,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5455348750110716
+   },
+   "retrieval_latency_seconds": 0.002785207936540246,
+   "query": "Boeing 707-436 maximum passenger capacity",
+   "query_usage": {
+    "in": 303,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.9357345000607893
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "BOAC Flight 911: BOAC Flight 911 (Speedbird 911) was a round-the-world flight operated by British Overseas Airways Corporation that crashed as a result of an encounter with severe clear-air turbulence near Mount Fuji in Japan on 5 March 1966.",
+    "BOAC Flight 911: The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+    "BOAC Flight 712: The engine fell off the aircraft in flight.",
+    "Boeing 707: Versions of the aircraft have a capacity from 140 to 219 passengers and a range of 2500 to .",
+    "Boeing 707: The Boeing 707 is a mid-sized, long-range, narrow-body, four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979.",
+    "Boeing 707: Its name is commonly pronounced as \"seven oh seven\"."
+   ],
+   "answer": "219",
+   "answer_usage": {
+    "in": 318,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5720479999436066
+   },
+   "retrieval_latency_seconds": 0.0016024999786168337,
+   "query": "Boeing 707-436 maximum passenger capacity",
+   "query_usage": {
+    "in": 303,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6606934580486268
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "BOAC Flight 911: BOAC Flight 911 (Speedbird 911) was a round-the-world flight operated by British Overseas Airways Corporation that crashed as a result of an encounter with severe clear-air turbulence near Mount Fuji in Japan on 5 March 1966.",
+    "BOAC Flight 911: The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+    "BOAC Flight 712: The engine fell off the aircraft in flight.",
+    "Boeing 707: Versions of the aircraft have a capacity from 140 to 219 passengers and a range of 2500 to .",
+    "Boeing 707: The Boeing 707 is a mid-sized, long-range, narrow-body, four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979.",
+    "Boeing 707: Its name is commonly pronounced as \"seven oh seven\"."
+   ],
+   "answer": "219",
+   "answer_usage": {
+    "in": 318,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5582975000143051
+   },
+   "retrieval_latency_seconds": 0.005776625010184944,
+   "query": "Boeing 707-436 maximum passenger capacity",
+   "query_usage": {
+    "in": 303,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6509509580209851
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "BOAC Flight 911: BOAC Flight 911 (Speedbird 911) was a round-the-world flight operated by British Overseas Airways Corporation that crashed as a result of an encounter with severe clear-air turbulence near Mount Fuji in Japan on 5 March 1966.",
+    "BOAC Flight 911: The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+    "BOAC Flight 712: The engine fell off the aircraft in flight.",
+    "Boeing 707: Versions of the aircraft have a capacity from 140 to 219 passengers and a range of 2500 to .",
+    "Boeing 707: The Boeing 707 is a mid-sized, long-range, narrow-body, four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979.",
+    "Boeing 707: Its name is commonly pronounced as \"seven oh seven\"."
+   ],
+   "answer": "219",
+   "answer_usage": {
+    "in": 318,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.8849535000044852
+   },
+   "retrieval_latency_seconds": 0.0031282081035897136,
+   "query": "Boeing 707-436 maximum passenger capacity",
+   "query_usage": {
+    "in": 303,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6307200000155717
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "BOAC Flight 911: BOAC Flight 911 (Speedbird 911) was a round-the-world flight operated by British Overseas Airways Corporation that crashed as a result of an encounter with severe clear-air turbulence near Mount Fuji in Japan on 5 March 1966.",
+    "BOAC Flight 911: The Boeing 707-436 on this flight was commanded by Captain Bernard Dobson, 45, from Dorset, an experienced 707 pilot who had been flying these aircraft since November 1960.",
+    "BOAC Flight 712: The engine fell off the aircraft in flight.",
+    "Boeing 707: Versions of the aircraft have a capacity from 140 to 219 passengers and a range of 2500 to .",
+    "Boeing 707: The Boeing 707 is a mid-sized, long-range, narrow-body, four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979.",
+    "Boeing 707: Its name is commonly pronounced as \"seven oh seven\"."
+   ],
+   "answer": "219",
+   "answer_usage": {
+    "in": 318,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.5603486660402268
+   },
+   "retrieval_latency_seconds": 0.0026950830360874534,
+   "query": "Boeing 707-436 maximum passenger capacity",
+   "query_usage": {
+    "in": 303,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.6674699160503224
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.42857142857142855,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5,
+   3.0,
+   1.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   6.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

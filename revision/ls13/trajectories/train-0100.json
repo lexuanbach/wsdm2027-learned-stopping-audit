@@ -1,0 +1,369 @@
+{
+ "id": "5ab9aed855429970cfb8eb6d",
+ "question": "Do the bands named Phoenix and Shearwater specialize in the exact same genre?",
+ "gold_answers": [
+  "no"
+ ],
+ "support_titles": [
+  "Phoenix (band)",
+  "Shearwater (band)"
+ ],
+ "support_sentences": [
+  "Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+  "Shearwater is an American indie rock band from Austin, Texas, led by multi-instrumentalist and lead singer Jonathan Meiburg, a singer-songwriter."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No",
+   "answer_usage": {
+    "in": 79,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5857366250129417
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "River Phoenix: He was the older brother of Rain Phoenix, Joaquin Phoenix, Liberty Phoenix, and Summer Phoenix.",
+    "Phoenix (band): Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+    "Baby Lemonade (band): Baby Lemonade is a band in the neo-psychedelia genre formed in Los Angeles."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 199,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.558707833988592
+   },
+   "retrieval_latency_seconds": 0.0035816660383716226,
+   "query": "Phoenix band genre",
+   "query_usage": {
+    "in": 64,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5782475000014529
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "River Phoenix: He was the older brother of Rain Phoenix, Joaquin Phoenix, Liberty Phoenix, and Summer Phoenix.",
+    "Phoenix (band): Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+    "Baby Lemonade (band): Baby Lemonade is a band in the neo-psychedelia genre formed in Los Angeles.",
+    "Shearwater (band): Shearwater is an American indie rock band from Austin, Texas, led by multi-instrumentalist and lead singer Jonathan Meiburg, a singer-songwriter.",
+    "Shearwater (band): The band's music is notable for its imagery based in nature, cerebral yet intimate melodic songs, as well as Meiburg's vocals.",
+    "Carnivores (band): Their musical style has been described as belonging to the noise pop genre."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 306,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5677204170497134
+   },
+   "retrieval_latency_seconds": 0.00622645893599838,
+   "query": "Shearwater band genre music style",
+   "query_usage": {
+    "in": 184,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6744400840252638
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "River Phoenix: He was the older brother of Rain Phoenix, Joaquin Phoenix, Liberty Phoenix, and Summer Phoenix.",
+    "Phoenix (band): Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+    "Baby Lemonade (band): Baby Lemonade is a band in the neo-psychedelia genre formed in Los Angeles.",
+    "Shearwater (band): Shearwater is an American indie rock band from Austin, Texas, led by multi-instrumentalist and lead singer Jonathan Meiburg, a singer-songwriter.",
+    "Shearwater (band): The band's music is notable for its imagery based in nature, cerebral yet intimate melodic songs, as well as Meiburg's vocals.",
+    "Carnivores (band): Their musical style has been described as belonging to the noise pop genre.",
+    "The Mexican Spitfires: The Mexican Spitfires were an Australian indie rock\u2013indie pop band formed in 1986.",
+    "The Primitives: Often described as an indie pop or indie rock band, The Primitives' musical style can also be seen as straddling power pop, new wave and pop punk."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5894930840004236
+   },
+   "retrieval_latency_seconds": 0.005502374959178269,
+   "query": "Shearwater band genre indie rock indie pop differences",
+   "query_usage": {
+    "in": 291,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6704139170469716
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "River Phoenix: He was the older brother of Rain Phoenix, Joaquin Phoenix, Liberty Phoenix, and Summer Phoenix.",
+    "Phoenix (band): Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+    "Baby Lemonade (band): Baby Lemonade is a band in the neo-psychedelia genre formed in Los Angeles.",
+    "Shearwater (band): Shearwater is an American indie rock band from Austin, Texas, led by multi-instrumentalist and lead singer Jonathan Meiburg, a singer-songwriter.",
+    "Shearwater (band): The band's music is notable for its imagery based in nature, cerebral yet intimate melodic songs, as well as Meiburg's vocals.",
+    "Carnivores (band): Their musical style has been described as belonging to the noise pop genre.",
+    "The Mexican Spitfires: The Mexican Spitfires were an Australian indie rock\u2013indie pop band formed in 1986.",
+    "The Primitives: Often described as an indie pop or indie rock band, The Primitives' musical style can also be seen as straddling power pop, new wave and pop punk."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6018367499345914
+   },
+   "retrieval_latency_seconds": 0.0077078749891370535,
+   "query": "Shearwater band genre indie rock indie pop",
+   "query_usage": {
+    "in": 365,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.658510833978653
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "River Phoenix: He was the older brother of Rain Phoenix, Joaquin Phoenix, Liberty Phoenix, and Summer Phoenix.",
+    "Phoenix (band): Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+    "Baby Lemonade (band): Baby Lemonade is a band in the neo-psychedelia genre formed in Los Angeles.",
+    "Shearwater (band): Shearwater is an American indie rock band from Austin, Texas, led by multi-instrumentalist and lead singer Jonathan Meiburg, a singer-songwriter.",
+    "Shearwater (band): The band's music is notable for its imagery based in nature, cerebral yet intimate melodic songs, as well as Meiburg's vocals.",
+    "Carnivores (band): Their musical style has been described as belonging to the noise pop genre.",
+    "The Mexican Spitfires: The Mexican Spitfires were an Australian indie rock\u2013indie pop band formed in 1986.",
+    "The Primitives: Often described as an indie pop or indie rock band, The Primitives' musical style can also be seen as straddling power pop, new wave and pop punk."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5766800000565127
+   },
+   "retrieval_latency_seconds": 0.010618667001836002,
+   "query": "Shearwater band genre indie rock indie pop",
+   "query_usage": {
+    "in": 365,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6318765420001
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "River Phoenix: He was the older brother of Rain Phoenix, Joaquin Phoenix, Liberty Phoenix, and Summer Phoenix.",
+    "Phoenix (band): Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+    "Baby Lemonade (band): Baby Lemonade is a band in the neo-psychedelia genre formed in Los Angeles.",
+    "Shearwater (band): Shearwater is an American indie rock band from Austin, Texas, led by multi-instrumentalist and lead singer Jonathan Meiburg, a singer-songwriter.",
+    "Shearwater (band): The band's music is notable for its imagery based in nature, cerebral yet intimate melodic songs, as well as Meiburg's vocals.",
+    "Carnivores (band): Their musical style has been described as belonging to the noise pop genre.",
+    "The Mexican Spitfires: The Mexican Spitfires were an Australian indie rock\u2013indie pop band formed in 1986.",
+    "The Primitives: Often described as an indie pop or indie rock band, The Primitives' musical style can also be seen as straddling power pop, new wave and pop punk."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5937898340635002
+   },
+   "retrieval_latency_seconds": 0.01032166590448469,
+   "query": "Shearwater band genre indie rock indie pop",
+   "query_usage": {
+    "in": 365,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6886303749633953
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "River Phoenix: He was the older brother of Rain Phoenix, Joaquin Phoenix, Liberty Phoenix, and Summer Phoenix.",
+    "Phoenix (band): Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+    "Baby Lemonade (band): Baby Lemonade is a band in the neo-psychedelia genre formed in Los Angeles.",
+    "Shearwater (band): Shearwater is an American indie rock band from Austin, Texas, led by multi-instrumentalist and lead singer Jonathan Meiburg, a singer-songwriter.",
+    "Shearwater (band): The band's music is notable for its imagery based in nature, cerebral yet intimate melodic songs, as well as Meiburg's vocals.",
+    "Carnivores (band): Their musical style has been described as belonging to the noise pop genre.",
+    "The Mexican Spitfires: The Mexican Spitfires were an Australian indie rock\u2013indie pop band formed in 1986.",
+    "The Primitives: Often described as an indie pop or indie rock band, The Primitives' musical style can also be seen as straddling power pop, new wave and pop punk."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5699648329755291
+   },
+   "retrieval_latency_seconds": 0.009471375029534101,
+   "query": "Shearwater band genre indie rock indie pop",
+   "query_usage": {
+    "in": 365,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6709087090566754
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "River Phoenix: He was the older brother of Rain Phoenix, Joaquin Phoenix, Liberty Phoenix, and Summer Phoenix.",
+    "Phoenix (band): Phoenix is an indie pop band from Versailles, France, consisting of Thomas Mars (lead vocals), Deck d'Arcy (bass/ keyboards/ backing vocals), Christian Mazzalai (guitar/ keyboards/ backing vocals) and Laurent Brancowitz (guitar/ backing vocals).",
+    "Baby Lemonade (band): Baby Lemonade is a band in the neo-psychedelia genre formed in Los Angeles.",
+    "Shearwater (band): Shearwater is an American indie rock band from Austin, Texas, led by multi-instrumentalist and lead singer Jonathan Meiburg, a singer-songwriter.",
+    "Shearwater (band): The band's music is notable for its imagery based in nature, cerebral yet intimate melodic songs, as well as Meiburg's vocals.",
+    "Carnivores (band): Their musical style has been described as belonging to the noise pop genre.",
+    "The Mexican Spitfires: The Mexican Spitfires were an Australian indie rock\u2013indie pop band formed in 1986.",
+    "The Primitives: Often described as an indie pop or indie rock band, The Primitives' musical style can also be seen as straddling power pop, new wave and pop punk."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 380,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6068132919026539
+   },
+   "retrieval_latency_seconds": 0.005488457973115146,
+   "query": "Shearwater band genre indie rock indie pop",
+   "query_usage": {
+    "in": 365,
+    "out": 13,
+    "calls": 1,
+    "latency_seconds": 0.6574497090186924
+   }
+  }
+ ],
+ "prefix_em": [
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.4166666666666667,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.5,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.5,
+   2.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.5,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   1.0
+  ]
+ ]
+}

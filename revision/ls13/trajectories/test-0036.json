@@ -1,0 +1,384 @@
+{
+ "id": "5ae058e855429945ae959331",
+ "question": "Are  Chrysalis and Look both women's magazines?",
+ "gold_answers": [
+  "yes"
+ ],
+ "support_titles": [
+  "Chrysalis (magazine)",
+  "Look (UK magazine)"
+ ],
+ "support_sentences": [
+  "Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+  "Look is a glossy high street fashion and celebrity weekly magazine for young women."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "No",
+   "answer_usage": {
+    "in": 73,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.46047933294903487
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Chrysalis (magazine): Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+    "Chrysalis (magazine): Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality.",
+    "Chrysalis (magazine): \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art."
+   ],
+   "answer": "No",
+   "answer_usage": {
+    "in": 163,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.6037013750756159
+   },
+   "retrieval_latency_seconds": 0.0069448750000447035,
+   "query": "Chrysalis magazine type",
+   "query_usage": {
+    "in": 58,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.5227909999666736
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Chrysalis (magazine): Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+    "Chrysalis (magazine): Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality.",
+    "Chrysalis (magazine): \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art.",
+    "Look (UK magazine): Look is a glossy high street fashion and celebrity weekly magazine for young women.",
+    "Shape (magazine): Weider also endorsed a sexier approach to editorial while MacIntyre endorsed a healthier look for women, eschewing sexiness in the models and the copy.",
+    "Lear's: Lear's was a monthly women's magazine, intended for women over 50."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 251,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5029605840099975
+   },
+   "retrieval_latency_seconds": 0.01886325003579259,
+   "query": "Look magazine women's",
+   "query_usage": {
+    "in": 148,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6522778749931604
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Chrysalis (magazine): Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+    "Chrysalis (magazine): Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality.",
+    "Chrysalis (magazine): \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art.",
+    "Look (UK magazine): Look is a glossy high street fashion and celebrity weekly magazine for young women.",
+    "Shape (magazine): Weider also endorsed a sexier approach to editorial while MacIntyre endorsed a healthier look for women, eschewing sexiness in the models and the copy.",
+    "Lear's: Lear's was a monthly women's magazine, intended for women over 50.",
+    "M\u00e1xima (magazine): The magazine is the Portuguese version of the French women's magazine \"Madame Figaro\".",
+    "The Lady (magazine): The Lady is Britain's longest-running weekly women's magazine."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 300,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5967366669792682
+   },
+   "retrieval_latency_seconds": 0.08457062498200685,
+   "query": "Look magazine women's magazine classification",
+   "query_usage": {
+    "in": 236,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.6661782079609111
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Chrysalis (magazine): Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+    "Chrysalis (magazine): Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality.",
+    "Chrysalis (magazine): \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art.",
+    "Look (UK magazine): Look is a glossy high street fashion and celebrity weekly magazine for young women.",
+    "Shape (magazine): Weider also endorsed a sexier approach to editorial while MacIntyre endorsed a healthier look for women, eschewing sexiness in the models and the copy.",
+    "Lear's: Lear's was a monthly women's magazine, intended for women over 50.",
+    "M\u00e1xima (magazine): The magazine is the Portuguese version of the French women's magazine \"Madame Figaro\".",
+    "The Lady (magazine): The Lady is Britain's longest-running weekly women's magazine.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 400,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.555062250001356
+   },
+   "retrieval_latency_seconds": 0.10293958301190287,
+   "query": "I have enough information to answer this question. Both sources confirm:",
+   "query_usage": {
+    "in": 285,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.931994125014171
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Chrysalis (magazine): Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+    "Chrysalis (magazine): Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality.",
+    "Chrysalis (magazine): \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art.",
+    "Look (UK magazine): Look is a glossy high street fashion and celebrity weekly magazine for young women.",
+    "Shape (magazine): Weider also endorsed a sexier approach to editorial while MacIntyre endorsed a healthier look for women, eschewing sexiness in the models and the copy.",
+    "Lear's: Lear's was a monthly women's magazine, intended for women over 50.",
+    "M\u00e1xima (magazine): The magazine is the Portuguese version of the French women's magazine \"Madame Figaro\".",
+    "The Lady (magazine): The Lady is Britain's longest-running weekly women's magazine.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 400,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5658648749813437
+   },
+   "retrieval_latency_seconds": 0.022642584051936865,
+   "query": "Look magazine women's",
+   "query_usage": {
+    "in": 385,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6643790419911966
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Chrysalis (magazine): Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+    "Chrysalis (magazine): Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality.",
+    "Chrysalis (magazine): \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art.",
+    "Look (UK magazine): Look is a glossy high street fashion and celebrity weekly magazine for young women.",
+    "Shape (magazine): Weider also endorsed a sexier approach to editorial while MacIntyre endorsed a healthier look for women, eschewing sexiness in the models and the copy.",
+    "Lear's: Lear's was a monthly women's magazine, intended for women over 50.",
+    "M\u00e1xima (magazine): The magazine is the Portuguese version of the French women's magazine \"Madame Figaro\".",
+    "The Lady (magazine): The Lady is Britain's longest-running weekly women's magazine.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 400,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5645238340366632
+   },
+   "retrieval_latency_seconds": 0.023040250060148537,
+   "query": "Look magazine women's",
+   "query_usage": {
+    "in": 385,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6496757499407977
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Chrysalis (magazine): Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+    "Chrysalis (magazine): Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality.",
+    "Chrysalis (magazine): \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art.",
+    "Look (UK magazine): Look is a glossy high street fashion and celebrity weekly magazine for young women.",
+    "Shape (magazine): Weider also endorsed a sexier approach to editorial while MacIntyre endorsed a healthier look for women, eschewing sexiness in the models and the copy.",
+    "Lear's: Lear's was a monthly women's magazine, intended for women over 50.",
+    "M\u00e1xima (magazine): The magazine is the Portuguese version of the French women's magazine \"Madame Figaro\".",
+    "The Lady (magazine): The Lady is Britain's longest-running weekly women's magazine.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 400,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5570134170120582
+   },
+   "retrieval_latency_seconds": 0.014596458990126848,
+   "query": "Look magazine women's",
+   "query_usage": {
+    "in": 385,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.60383495897986
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Chrysalis (magazine): Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980.",
+    "Chrysalis (magazine): Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality.",
+    "Chrysalis (magazine): \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art.",
+    "Look (UK magazine): Look is a glossy high street fashion and celebrity weekly magazine for young women.",
+    "Shape (magazine): Weider also endorsed a sexier approach to editorial while MacIntyre endorsed a healthier look for women, eschewing sexiness in the models and the copy.",
+    "Lear's: Lear's was a monthly women's magazine, intended for women over 50.",
+    "M\u00e1xima (magazine): The magazine is the Portuguese version of the French women's magazine \"Madame Figaro\".",
+    "The Lady (magazine): The Lady is Britain's longest-running weekly women's magazine.",
+    "The American Ruling Class: It seeks to answer the question, \"Does America have a ruling class?\"",
+    "Lloyd Shearer: In this column he used the name Walter Scott, and discussed rumors about celebrities using a question-and-answer style.",
+    "Advice column: The advice column format is question and answer: a (usually anonymous) reader writes to the media outlet with a problem in the form of a question, and the media outlet provides an answer or response."
+   ],
+   "answer": "Yes",
+   "answer_usage": {
+    "in": 400,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5813561250688508
+   },
+   "retrieval_latency_seconds": 0.058767500100657344,
+   "query": "Look magazine women's",
+   "query_usage": {
+    "in": 385,
+    "out": 7,
+    "calls": 1,
+    "latency_seconds": 0.6023229169659317
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   6.0,
+   0.625,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   8.0,
+   0.625,
+   2.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   4.0,
+   11.0,
+   0.625,
+   3.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   11.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   11.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   11.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   11.0,
+   0.625,
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

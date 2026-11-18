@@ -231,8 +231,7 @@ observed diagnostics, not a causal decomposition of the oracle gap.
 \paragraph{Late retrieval creates headroom that FBG only partly captures.}
 Late retrieval produces 79 harmful and 14 helpful reversals, with a 95\% ratio
 interval of 3.2 to 11.1 and $p<10^{-3}$. Guarded FBG realizes 24 beneficial
-and 32 harmful flips. The asymmetry creates stopping headroom, while the
-flips show FBG captures only part of it.
+and 32 harmful flips. FBG captures only part of this stopping headroom.
 
 \paragraph{Refitting and rerolling localize the instability.}
 Held-out-prefix FBG correlations range from 0.26 to 0.60 and absolute errors
@@ -258,8 +257,7 @@ conditions. A simple policy dominates in 51 to 100\% of resamples in seven of
 eight reported runs.
 
 Two rerolled continuations per primary-cell stop beat the logged best in 10.0\%
-of cases and change correctness in 5.7\%. These are reachable gains outside
-the logged path, which FBG omits by labeling one realized future.
+of cases and change correctness in 5.7\%. These are reachable gains outside the logged path.
 
 The original clipped target variants move mean guarded EM by at most
 0.2 points. The logged guarded policies have D/F/I counts 9/3/2 across the
@@ -292,6 +290,10 @@ D/F/I counts 11/2/1 for logged guarded FBG and 3/9/2 for FBG-only.
 Across calls, tokens, and a wall-time proxy, mean matched-cost gaps are
 negative and all 84 conditional simultaneous bands include zero (supplement).
 These exploratory checks preserve the frozen 26-cell analysis.
+A fresh eight-search Haiku 4.5 check uses 120 training and 200 test questions.
+FBG-only reaches 55.5 EM at 8.19 calls, but all 12 conditional simultaneous
+matched-cost bands across horizons four and eight include zero (supplement).
+
 \subsection{RQ4: Can we certify stopped answers?}
 
 \input{sections/06-results-rq4}

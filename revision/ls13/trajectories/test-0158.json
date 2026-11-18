@@ -1,0 +1,366 @@
+{
+ "id": "5ae241005542994d89d5b3a4",
+ "question": "What nationality was the pirate who along with Robert Culliford stole Jean Fantin's ship ?",
+ "gold_answers": [
+  "Scottish"
+ ],
+ "support_titles": [
+  "Jean Fantin",
+  "William Kidd"
+ ],
+ "support_sentences": [
+  "He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+  "William Kidd, also \"Captain William Kidd\" or simply \"Captain Kidd\" (c.1654 \u2013 23 May 1701) was a Scottish sailor who was tried and executed for piracy after returning from a voyage to the Indian Ocean."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "I cannot determine this from the evidence provided",
+   "answer_usage": {
+    "in": 84,
+    "out": 14,
+    "calls": 1,
+    "latency_seconds": 0.6883300839690492
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Jean Fantin: He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+    "Jean Fantin: Jean Fantin (fl 1681-1689) was a French pirate active in the Caribbean and off the coast of Africa.",
+    "Joseph Wheeler (pirate): He is best known for sailing alongside Dirk Chivers and Robert Culliford."
+   ],
+   "answer": "Scottish",
+   "answer_usage": {
+    "in": 171,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5675177089869976
+   },
+   "retrieval_latency_seconds": 0.003425625036470592,
+   "query": "Jean Fantin ship pirate Robert Culliford",
+   "query_usage": {
+    "in": 69,
+    "out": 15,
+    "calls": 1,
+    "latency_seconds": 0.6843622910091653
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Jean Fantin: He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+    "Jean Fantin: Jean Fantin (fl 1681-1689) was a French pirate active in the Caribbean and off the coast of Africa.",
+    "Joseph Wheeler (pirate): He is best known for sailing alongside Dirk Chivers and Robert Culliford.",
+    "William Kidd: William Kidd, also \"Captain William Kidd\" or simply \"Captain Kidd\" (c.1654 \u2013 23 May 1701) was a Scottish sailor who was tried and executed for piracy after returning from a voyage to the Indian Ocean.",
+    "William Kidd: Some modern historians deem his piratical reputation unjust."
+   ],
+   "answer": "Scottish",
+   "answer_usage": {
+    "in": 257,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.543865584069863
+   },
+   "retrieval_latency_seconds": 0.005808167043142021,
+   "query": "William Kidd nationality",
+   "query_usage": {
+    "in": 156,
+    "out": 8,
+    "calls": 1,
+    "latency_seconds": 0.565980332903564
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Jean Fantin: He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+    "Jean Fantin: Jean Fantin (fl 1681-1689) was a French pirate active in the Caribbean and off the coast of Africa.",
+    "Joseph Wheeler (pirate): He is best known for sailing alongside Dirk Chivers and Robert Culliford.",
+    "William Kidd: William Kidd, also \"Captain William Kidd\" or simply \"Captain Kidd\" (c.1654 \u2013 23 May 1701) was a Scottish sailor who was tried and executed for piracy after returning from a voyage to the Indian Ocean.",
+    "William Kidd: Some modern historians deem his piratical reputation unjust.",
+    "William Wallace (disambiguation): William Wallace (died 1305) was a Scottish knight, landowner and leader during the Wars of Scottish Independence."
+   ],
+   "answer": "Scottish",
+   "answer_usage": {
+    "in": 288,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5621099580312148
+   },
+   "retrieval_latency_seconds": 0.005301374942064285,
+   "query": "William Kidd nationality Scottish",
+   "query_usage": {
+    "in": 242,
+    "out": 9,
+    "calls": 1,
+    "latency_seconds": 0.5289428330725059
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Jean Fantin: He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+    "Jean Fantin: Jean Fantin (fl 1681-1689) was a French pirate active in the Caribbean and off the coast of Africa.",
+    "Joseph Wheeler (pirate): He is best known for sailing alongside Dirk Chivers and Robert Culliford.",
+    "William Kidd: William Kidd, also \"Captain William Kidd\" or simply \"Captain Kidd\" (c.1654 \u2013 23 May 1701) was a Scottish sailor who was tried and executed for piracy after returning from a voyage to the Indian Ocean.",
+    "William Kidd: Some modern historians deem his piratical reputation unjust.",
+    "William Wallace (disambiguation): William Wallace (died 1305) was a Scottish knight, landowner and leader during the Wars of Scottish Independence.",
+    "Robert Culliford: was an English pirate from Cornwall who is best remembered for repeatedly \"checking the designs\" of Captain William Kidd.",
+    "James Kelly (pirate): James Gilliam, also known as James Kelly, (died July 12, 1701) was an English pirate active in the Indian Ocean during the 1690s and was a longtime associate of Captain William Kidd."
+   ],
+   "answer": "Scottish",
+   "answer_usage": {
+    "in": 378,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5540951249422505
+   },
+   "retrieval_latency_seconds": 0.005212582997046411,
+   "query": "William Kidd nationality Scottish pirate",
+   "query_usage": {
+    "in": 273,
+    "out": 11,
+    "calls": 1,
+    "latency_seconds": 0.6197557499399409
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Jean Fantin: He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+    "Jean Fantin: Jean Fantin (fl 1681-1689) was a French pirate active in the Caribbean and off the coast of Africa.",
+    "Joseph Wheeler (pirate): He is best known for sailing alongside Dirk Chivers and Robert Culliford.",
+    "William Kidd: William Kidd, also \"Captain William Kidd\" or simply \"Captain Kidd\" (c.1654 \u2013 23 May 1701) was a Scottish sailor who was tried and executed for piracy after returning from a voyage to the Indian Ocean.",
+    "William Kidd: Some modern historians deem his piratical reputation unjust.",
+    "William Wallace (disambiguation): William Wallace (died 1305) was a Scottish knight, landowner and leader during the Wars of Scottish Independence.",
+    "Robert Culliford: was an English pirate from Cornwall who is best remembered for repeatedly \"checking the designs\" of Captain William Kidd.",
+    "James Kelly (pirate): James Gilliam, also known as James Kelly, (died July 12, 1701) was an English pirate active in the Indian Ocean during the 1690s and was a longtime associate of Captain William Kidd."
+   ],
+   "answer": "Scottish",
+   "answer_usage": {
+    "in": 378,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5363026249688119
+   },
+   "retrieval_latency_seconds": 0.1897609590087086,
+   "query": "I need to find the nationality of the pirate who stole Jean Fantin's ship along with Robert Culliford.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7212752500781789
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Jean Fantin: He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+    "Jean Fantin: Jean Fantin (fl 1681-1689) was a French pirate active in the Caribbean and off the coast of Africa.",
+    "Joseph Wheeler (pirate): He is best known for sailing alongside Dirk Chivers and Robert Culliford.",
+    "William Kidd: William Kidd, also \"Captain William Kidd\" or simply \"Captain Kidd\" (c.1654 \u2013 23 May 1701) was a Scottish sailor who was tried and executed for piracy after returning from a voyage to the Indian Ocean.",
+    "William Kidd: Some modern historians deem his piratical reputation unjust.",
+    "William Wallace (disambiguation): William Wallace (died 1305) was a Scottish knight, landowner and leader during the Wars of Scottish Independence.",
+    "Robert Culliford: was an English pirate from Cornwall who is best remembered for repeatedly \"checking the designs\" of Captain William Kidd.",
+    "James Kelly (pirate): James Gilliam, also known as James Kelly, (died July 12, 1701) was an English pirate active in the Indian Ocean during the 1690s and was a longtime associate of Captain William Kidd."
+   ],
+   "answer": "Scottish",
+   "answer_usage": {
+    "in": 378,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.538334166049026
+   },
+   "retrieval_latency_seconds": 0.4622993330704048,
+   "query": "I need to find the nationality of the pirate who stole Jean Fantin's ship along with Robert Culliford.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.725872959010303
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Jean Fantin: He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+    "Jean Fantin: Jean Fantin (fl 1681-1689) was a French pirate active in the Caribbean and off the coast of Africa.",
+    "Joseph Wheeler (pirate): He is best known for sailing alongside Dirk Chivers and Robert Culliford.",
+    "William Kidd: William Kidd, also \"Captain William Kidd\" or simply \"Captain Kidd\" (c.1654 \u2013 23 May 1701) was a Scottish sailor who was tried and executed for piracy after returning from a voyage to the Indian Ocean.",
+    "William Kidd: Some modern historians deem his piratical reputation unjust.",
+    "William Wallace (disambiguation): William Wallace (died 1305) was a Scottish knight, landowner and leader during the Wars of Scottish Independence.",
+    "Robert Culliford: was an English pirate from Cornwall who is best remembered for repeatedly \"checking the designs\" of Captain William Kidd.",
+    "James Kelly (pirate): James Gilliam, also known as James Kelly, (died July 12, 1701) was an English pirate active in the Indian Ocean during the 1690s and was a longtime associate of Captain William Kidd."
+   ],
+   "answer": "Scottish",
+   "answer_usage": {
+    "in": 378,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5482932080049068
+   },
+   "retrieval_latency_seconds": 0.12298870808444917,
+   "query": "I need to find the nationality of the pirate who stole Jean Fantin's ship along with Robert Culliford.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7363442500354722
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Jean Fantin: He is best known for having his ship stolen by William Kidd and Robert Culliford.",
+    "Jean Fantin: Jean Fantin (fl 1681-1689) was a French pirate active in the Caribbean and off the coast of Africa.",
+    "Joseph Wheeler (pirate): He is best known for sailing alongside Dirk Chivers and Robert Culliford.",
+    "William Kidd: William Kidd, also \"Captain William Kidd\" or simply \"Captain Kidd\" (c.1654 \u2013 23 May 1701) was a Scottish sailor who was tried and executed for piracy after returning from a voyage to the Indian Ocean.",
+    "William Kidd: Some modern historians deem his piratical reputation unjust.",
+    "William Wallace (disambiguation): William Wallace (died 1305) was a Scottish knight, landowner and leader during the Wars of Scottish Independence.",
+    "Robert Culliford: was an English pirate from Cornwall who is best remembered for repeatedly \"checking the designs\" of Captain William Kidd.",
+    "James Kelly (pirate): James Gilliam, also known as James Kelly, (died July 12, 1701) was an English pirate active in the Indian Ocean during the 1690s and was a longtime associate of Captain William Kidd."
+   ],
+   "answer": "Scottish",
+   "answer_usage": {
+    "in": 378,
+    "out": 6,
+    "calls": 1,
+    "latency_seconds": 0.5444755830103531
+   },
+   "retrieval_latency_seconds": 0.2801882920321077,
+   "query": "I need to find the nationality of the pirate who stole Jean Fantin's ship along with Robert Culliford.",
+   "query_usage": {
+    "in": 363,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7258403749438003
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1,
+  1
+ ],
+ "prefix_f1": [
+  0.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   7.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5333333333333333,
+   3.0,
+   1.0,
+   1.0,
+   0.0,
+   0.0,
+   2.0
+  ],
+  [
+   2.0,
+   5.0,
+   0.6,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   0.0,
+   2.0
+  ],
+  [
+   3.0,
+   6.0,
+   0.6,
+   1.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   4.0,
+   8.0,
+   0.6,
+   2.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   5.0,
+   8.0,
+   0.6,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   6.0,
+   8.0,
+   0.6,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   7.0,
+   8.0,
+   0.6,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ],
+  [
+   8.0,
+   8.0,
+   0.6,
+   0.0,
+   0.0,
+   1.0,
+   1.0,
+   1.0,
+   2.0
+  ]
+ ]
+}

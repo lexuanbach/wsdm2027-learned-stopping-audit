@@ -1,0 +1,345 @@
+{
+ "id": "5a8ac87d55429970aeb7031d",
+ "question": "What brother of Stanley Alan Van Gundy is a color commentator for ESPN?",
+ "gold_answers": [
+  "Jeffrey William Van Gundy"
+ ],
+ "support_titles": [
+  "Stan Van Gundy",
+  "Jeff Van Gundy"
+ ],
+ "support_sentences": [
+  "Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+  "He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+  "Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst.",
+  "He is a color commentator for ESPN."
+ ],
+ "trajectory": [
+  {
+   "searches": 0,
+   "evidence": [],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 78,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5436674589291215
+   },
+   "retrieval_latency_seconds": 0.0
+  },
+  {
+   "searches": 1,
+   "evidence": [
+    "Stan Van Gundy: Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+    "Stan Van Gundy: He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+    "Jeff Van Gundy: Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst."
+   ],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 189,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.48688229196704924
+   },
+   "retrieval_latency_seconds": 0.004411083995364606,
+   "query": "Stanley Alan Van Gundy brothers",
+   "query_usage": {
+    "in": 63,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6119083340745419
+   }
+  },
+  {
+   "searches": 2,
+   "evidence": [
+    "Stan Van Gundy: Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+    "Stan Van Gundy: He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+    "Jeff Van Gundy: Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst.",
+    "Jeff Van Gundy: He is a color commentator for ESPN."
+   ],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 206,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6194707079557702
+   },
+   "retrieval_latency_seconds": 0.0038613328943029046,
+   "query": "Jeff Van Gundy ESPN color commentator",
+   "query_usage": {
+    "in": 174,
+    "out": 12,
+    "calls": 1,
+    "latency_seconds": 0.5885326659772545
+   }
+  },
+  {
+   "searches": 3,
+   "evidence": [
+    "Stan Van Gundy: Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+    "Stan Van Gundy: He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+    "Jeff Van Gundy: Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst.",
+    "Jeff Van Gundy: He is a color commentator for ESPN."
+   ],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 206,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.6106511660618708
+   },
+   "retrieval_latency_seconds": 0.20067837508395314,
+   "query": "Based on the information provided, I already have the answer: Jeff Van Gundy is the brother of Stanley Alan Van Gundy who is a color comment",
+   "query_usage": {
+    "in": 191,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.736623500008136
+   }
+  },
+  {
+   "searches": 4,
+   "evidence": [
+    "Stan Van Gundy: Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+    "Stan Van Gundy: He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+    "Jeff Van Gundy: Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst.",
+    "Jeff Van Gundy: He is a color commentator for ESPN."
+   ],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 206,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.678427540929988
+   },
+   "retrieval_latency_seconds": 0.16877466591540724,
+   "query": "Based on the information provided, I already have the answer: **Jeff Van Gundy** is the brother of Stanley Alan Van Gundy who is a",
+   "query_usage": {
+    "in": 191,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7290961659746245
+   }
+  },
+  {
+   "searches": 5,
+   "evidence": [
+    "Stan Van Gundy: Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+    "Stan Van Gundy: He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+    "Jeff Van Gundy: Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst.",
+    "Jeff Van Gundy: He is a color commentator for ESPN."
+   ],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 206,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.571926667005755
+   },
+   "retrieval_latency_seconds": 0.4432560419663787,
+   "query": "Based on the information provided, I already have the answer: **Jeff Van Gundy** is the brother of Stanley Alan Van Gundy who is a",
+   "query_usage": {
+    "in": 191,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.6899338329676539
+   }
+  },
+  {
+   "searches": 6,
+   "evidence": [
+    "Stan Van Gundy: Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+    "Stan Van Gundy: He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+    "Jeff Van Gundy: Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst.",
+    "Jeff Van Gundy: He is a color commentator for ESPN."
+   ],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 206,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5726051670499146
+   },
+   "retrieval_latency_seconds": 0.20162195898592472,
+   "query": "Based on the information provided, I already have the answer: Jeff Van Gundy is the brother of Stanley Alan Van Gundy who is a color comment",
+   "query_usage": {
+    "in": 191,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7740265000611544
+   }
+  },
+  {
+   "searches": 7,
+   "evidence": [
+    "Stan Van Gundy: Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+    "Stan Van Gundy: He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+    "Jeff Van Gundy: Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst.",
+    "Jeff Van Gundy: He is a color commentator for ESPN."
+   ],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 206,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5467946659773588
+   },
+   "retrieval_latency_seconds": 0.20127354096621275,
+   "query": "Based on the information provided, I already have the answer: Jeff Van Gundy is the brother of Stanley Alan Van Gundy who is a color comment",
+   "query_usage": {
+    "in": 191,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.8227914581075311
+   }
+  },
+  {
+   "searches": 8,
+   "evidence": [
+    "Stan Van Gundy: Stanley Alan Van Gundy (born August 26, 1959) is an American professional basketball coach, currently serving as the head coach and president of basketball operations of the National Basketball Association's Detroit Pistons.",
+    "Stan Van Gundy: He is the brother of former New York Knicks and Houston Rockets coach Jeff Van Gundy.",
+    "Jeff Van Gundy: Jeffrey William Van Gundy (born January 19, 1962) is an American basketball coach and TV analyst.",
+    "Jeff Van Gundy: He is a color commentator for ESPN."
+   ],
+   "answer": "Jeff Van Gundy",
+   "answer_usage": {
+    "in": 206,
+    "out": 10,
+    "calls": 1,
+    "latency_seconds": 0.5568303340114653
+   },
+   "retrieval_latency_seconds": 0.4284279579296708,
+   "query": "Based on the information provided, I already have the answer: **Jeff Van Gundy** is the brother of Stanley Alan Van Gundy who is a",
+   "query_usage": {
+    "in": 191,
+    "out": 32,
+    "calls": 1,
+    "latency_seconds": 0.7235002500237897
+   }
+  }
+ ],
+ "prefix_em": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prefix_f1": [
+  0.5714285714285715,
+  0.5714285714285715,
+  0.5714285714285715,
+  0.5714285714285715,
+  0.5714285714285715,
+  0.5714285714285715,
+  0.5714285714285715,
+  0.5714285714285715,
+  0.5714285714285715
+ ],
+ "prefix_features": [
+  [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0,
+   3.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  [
+   1.0,
+   3.0,
+   0.5384615384615384,
+   3.0,
+   0.0,
+   3.0,
+   1.0,
+   0.0,
+   1.0
+  ],
+  [
+   2.0,
+   4.0,
+   0.9230769230769231,
+   1.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   3.0,
+   4.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   4.0,
+   4.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   5.0,
+   4.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   6.0,
+   4.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   7.0,
+   4.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  [
+   8.0,
+   4.0,
+   0.9230769230769231,
+   0.0,
+   0.0,
+   3.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ ]
+}
