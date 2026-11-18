@@ -1,0 +1,14 @@
+# Third-party data and attribution
+
+The MIT license applies to the authors' code and authored documentation, not third-party datasets, Wikipedia passages or model weights.
+
+Stored trajectories and critic caches contain selected questions, answer labels, article titles, supporting sentences, and retrieved passages from the following sources. They have been transformed into retrieval trajectories, numerical features, predictions and aggregate evaluation results. The original source identifiers and article titles remain in the records; these identify the underlying material. No ownership of these source texts is claimed.
+
+- **HotpotQA**, Zhilin Yang, Peng Qi, Saizheng Zhang, Yoshua Bengio, William W. Cohen, Ruslan Salakhutdinov and Christopher D. Manning (EMNLP 2018): https://hotpotqa.github.io/ . Dataset and processed Wikipedia: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ .
+- **2WikiMultihopQA**, Xanh Ho, Anh-Khoa Duong Nguyen, Saku Sugawara and Akiko Aizawa (COLING 2020): https://github.com/Alab-NII/2wikimultihop . Repository code: Apache 2.0. Wikipedia/Wikidata-derived passages remain under their original source terms; the repository code license is not asserted to supersede those terms.
+- **MuSiQue**, Harsh Trivedi, Niranjan Balasubramanian, Tushar Khot and Ashish Sabharwal (TACL 2022): https://github.com/StonyBrookNLP/musique . Dataset: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ .
+- **Wikipedia** excerpts retain the applicable Wikimedia attribution/share-alike terms. Article titles in each record identify their source at `https://en.wikipedia.org/wiki/TITLE` (spaces replaced by underscores). See https://en.wikipedia.org/wiki/Wikipedia:Copyrights . Adapted CC BY-SA material in this artifact is distributed under CC BY-SA 4.0. Source article histories identify contributors.
+
+Other benchmark/model names in summary tables are citations and do not imply that their full datasets or weights are distributed here. Source bibliographic entries are in `manuscript/references.bib`. Provider-generated predictions remain subject to applicable provider terms. Third-party license texts are in LICENSES/.
+
+- **MultiHop-RAG**, Yixuan Tang and Yi Yang (COLM 2024): https://github.com/yixuantt/MultiHop-RAG . Database: ODC Attribution 1.0 (https://opendatacommons.org/licenses/by/1-0/). This does not transfer news publishers' text copyrights. Publisher passage fields are removed from the public extnews records and caches; numerical features/results, IDs and short answers remain. Obtain original corpus from the upstream project under its terms. See PUBLIC-RELEASE-CHANGES.json.

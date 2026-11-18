@@ -1,0 +1,2743 @@
+{
+ "what": "one policy/configuration card per cell; a join of data already on disk, no new numbers",
+ "cards": [
+  {
+   "tag": "corpus_guarded_qwen3b",
+   "label": "Corpus (seed 7, q-sample A)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 13,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.04,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 27.77777777777778,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 28.888888888888886,
+       "searches": 3.3555555555555556
+      },
+      {
+       "lambda": 0.02,
+       "em": 28.888888888888886,
+       "searches": 3.111111111111111
+      },
+      {
+       "lambda": 0.04,
+       "em": 27.77777777777778,
+       "searches": 2.922222222222222
+      },
+      {
+       "lambda": 0.07,
+       "em": 26.666666666666668,
+       "searches": 2.7444444444444445
+      },
+      {
+       "lambda": 0.12,
+       "em": 26.666666666666668,
+       "searches": 2.488888888888889
+      },
+      {
+       "lambda": 0.2,
+       "em": 25.555555555555554,
+       "searches": 2.311111111111111
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": 0.25,
+     "ci95": [
+      -0.75,
+      1.5
+     ],
+     "lower95_one_sided": -0.75,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": true,
+    "stoprag": true
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 9.0,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 18.25,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 24.5,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 25.0,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 24.5,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 24.25,
+     "calls": 5.725
+    },
+    "value_only": {
+     "em": 25.0,
+     "calls": 6.35
+    },
+    "guarded_value": {
+     "em": 24.75,
+     "calls": 6.75
+    },
+    "tasr": {
+     "em": 24.75,
+     "calls": 6.68
+    },
+    "semantic_guard": {
+     "em": 24.0,
+     "calls": 6.03
+    },
+    "stoprag": {
+     "em": 21.0,
+     "calls": 4.715
+    },
+    "halt_nli": {
+     "em": 24.0,
+     "calls": 9.655
+    },
+    "halt_relevance": {
+     "em": 24.0,
+     "calls": 8.7
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed11",
+   "label": "Corpus (seed 11, q-sample A)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 13,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 11,
+    "temperature": 0.2
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.07,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 24.444444444444443,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 25.555555555555554,
+       "searches": 3.311111111111111
+      },
+      {
+       "lambda": 0.02,
+       "em": 26.666666666666668,
+       "searches": 3.2333333333333334
+      },
+      {
+       "lambda": 0.04,
+       "em": 27.77777777777778,
+       "searches": 3.033333333333333
+      },
+      {
+       "lambda": 0.07,
+       "em": 25.555555555555554,
+       "searches": 2.8
+      },
+      {
+       "lambda": 0.12,
+       "em": 23.333333333333332,
+       "searches": 2.533333333333333
+      },
+      {
+       "lambda": 0.2,
+       "em": 23.333333333333332,
+       "searches": 2.3444444444444446
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": 0.25,
+     "ci95": [
+      -1.0,
+      1.5
+     ],
+     "lower95_one_sided": -0.75,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": false,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 9.0,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 19.25,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 25.75,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 25.25,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 25.0,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 25.0,
+     "calls": 5.695
+    },
+    "value_only": {
+     "em": 25.25,
+     "calls": 5.74
+    },
+    "guarded_value": {
+     "em": 25.25,
+     "calls": 6.505
+    },
+    "semantic_guard": {
+     "em": 24.75,
+     "calls": 6.12
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed19",
+   "label": "Corpus (seed 19, q-sample A)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 13,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 19,
+    "temperature": 0.2
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.04,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 27.77777777777778,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 27.77777777777778,
+       "searches": 3.2888888888888888
+      },
+      {
+       "lambda": 0.02,
+       "em": 27.77777777777778,
+       "searches": 3.1666666666666665
+      },
+      {
+       "lambda": 0.04,
+       "em": 27.77777777777778,
+       "searches": 2.966666666666667
+      },
+      {
+       "lambda": 0.07,
+       "em": 25.555555555555554,
+       "searches": 2.7111111111111112
+      },
+      {
+       "lambda": 0.12,
+       "em": 24.444444444444443,
+       "searches": 2.5
+      },
+      {
+       "lambda": 0.2,
+       "em": 24.444444444444443,
+       "searches": 2.3444444444444446
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": -0.5,
+     "ci95": [
+      -1.5,
+      0.5
+     ],
+     "lower95_one_sided": -1.25,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": false,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 9.0,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 18.75,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 24.25,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 26.0,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 26.0,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 25.5,
+     "calls": 5.715
+    },
+    "value_only": {
+     "em": 25.25,
+     "calls": 6.375
+    },
+    "guarded_value": {
+     "em": 25.5,
+     "calls": 6.675
+    },
+    "semantic_guard": {
+     "em": 25.75,
+     "calls": 7.185
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data17",
+   "label": "Corpus (seed 7, q-sample B)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 17,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.04,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 46.666666666666664,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 46.666666666666664,
+       "searches": 3.0444444444444443
+      },
+      {
+       "lambda": 0.02,
+       "em": 46.666666666666664,
+       "searches": 2.8555555555555556
+      },
+      {
+       "lambda": 0.04,
+       "em": 46.666666666666664,
+       "searches": 2.7333333333333334
+      },
+      {
+       "lambda": 0.07,
+       "em": 45.55555555555556,
+       "searches": 2.566666666666667
+      },
+      {
+       "lambda": 0.12,
+       "em": 45.55555555555556,
+       "searches": 2.488888888888889
+      },
+      {
+       "lambda": 0.2,
+       "em": 45.55555555555556,
+       "searches": 2.422222222222222
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 4,
+    "predeclared_primary": {
+     "mean_em_points": -2.0,
+     "ci95": [
+      -3.5,
+      -0.5
+     ],
+     "lower95_one_sided": -3.25,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": false,
+     "reduces_calls": true,
+     "confirmation_success": false
+    }
+   },
+   "comparators_present": {
+    "tasr": false,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 7.0,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 22.5,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 29.0,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 31.5,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 31.25,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 27.75,
+     "calls": 5.745
+    },
+    "value_only": {
+     "em": 29.5,
+     "calls": 6.615
+    },
+    "guarded_value": {
+     "em": 29.25,
+     "calls": 6.71
+    },
+    "semantic_guard": {
+     "em": 28.0,
+     "calls": 5.96
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data23",
+   "label": "Corpus (seed 7, q-sample C)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 23,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 25.555555555555554,
+     "reason": "fallback_max_em",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 24.444444444444443,
+       "searches": 3.088888888888889
+      },
+      {
+       "lambda": 0.02,
+       "em": 24.444444444444443,
+       "searches": 2.888888888888889
+      },
+      {
+       "lambda": 0.04,
+       "em": 24.444444444444443,
+       "searches": 2.6222222222222222
+      },
+      {
+       "lambda": 0.07,
+       "em": 24.444444444444443,
+       "searches": 2.522222222222222
+      },
+      {
+       "lambda": 0.12,
+       "em": 24.444444444444443,
+       "searches": 2.411111111111111
+      },
+      {
+       "lambda": 0.2,
+       "em": 24.444444444444443,
+       "searches": 2.388888888888889
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": -3.25,
+     "ci95": [
+      -5.25,
+      -1.25
+     ],
+     "lower95_one_sided": -5.0,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": false,
+     "reduces_calls": true,
+     "confirmation_success": false
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": true,
+    "stoprag": true
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 6.5,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 14.5,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 22.25,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 24.75,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 26.5,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 23.25,
+     "calls": 5.9
+    },
+    "value_only": {
+     "em": 13.5,
+     "calls": 2.67
+    },
+    "guarded_value": {
+     "em": 23.25,
+     "calls": 5.9
+    },
+    "tasr": {
+     "em": 25.5,
+     "calls": 7.435
+    },
+    "semantic_guard": {
+     "em": 23.25,
+     "calls": 5.92
+    },
+    "stoprag": {
+     "em": 25.25,
+     "calls": 8.245
+    },
+    "halt_nli": {
+     "em": 22.0,
+     "calls": 7.545
+    },
+    "halt_relevance": {
+     "em": 23.75,
+     "calls": 8.66
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data29",
+   "label": "Corpus (seed 7, q-sample D)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 29,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.04,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 32.22222222222222,
+     "reason": "fallback_max_em",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 30.0,
+       "searches": 3.2777777777777777
+      },
+      {
+       "lambda": 0.02,
+       "em": 30.0,
+       "searches": 3.0555555555555554
+      },
+      {
+       "lambda": 0.04,
+       "em": 30.0,
+       "searches": 2.6777777777777776
+      },
+      {
+       "lambda": 0.07,
+       "em": 28.888888888888886,
+       "searches": 2.488888888888889
+      },
+      {
+       "lambda": 0.12,
+       "em": 28.888888888888886,
+       "searches": 2.411111111111111
+      },
+      {
+       "lambda": 0.2,
+       "em": 28.888888888888886,
+       "searches": 2.3333333333333335
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 4,
+    "predeclared_primary": {
+     "mean_em_points": 1.5,
+     "ci95": [
+      0.0,
+      3.0
+     ],
+     "lower95_one_sided": 0.25,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": true,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 6.25,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 19.5,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 25.5,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 26.5,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 25.5,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 26.5,
+     "calls": 5.885
+    },
+    "value_only": {
+     "em": 26.25,
+     "calls": 5.415
+    },
+    "guarded_value": {
+     "em": 27.0,
+     "calls": 6.36
+    },
+    "tasr": {
+     "em": 26.75,
+     "calls": 7.515
+    },
+    "semantic_guard": {
+     "em": 27.0,
+     "calls": 6.405
+    },
+    "halt_nli": {
+     "em": 25.25,
+     "calls": 9.23
+    },
+    "halt_relevance": {
+     "em": 24.0,
+     "calls": 8.665
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data31",
+   "label": "Corpus (seed 7, q-sample E)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 31,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.02,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 32.22222222222222,
+     "reason": "fallback_max_em",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 30.0,
+       "searches": 3.477777777777778
+      },
+      {
+       "lambda": 0.02,
+       "em": 30.0,
+       "searches": 3.3666666666666667
+      },
+      {
+       "lambda": 0.04,
+       "em": 28.888888888888886,
+       "searches": 3.0555555555555554
+      },
+      {
+       "lambda": 0.07,
+       "em": 27.77777777777778,
+       "searches": 2.8444444444444446
+      },
+      {
+       "lambda": 0.12,
+       "em": 27.77777777777778,
+       "searches": 2.6333333333333333
+      },
+      {
+       "lambda": 0.2,
+       "em": 27.77777777777778,
+       "searches": 2.4555555555555557
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 4,
+    "predeclared_primary": {
+     "mean_em_points": 0.0,
+     "ci95": [
+      -0.75,
+      0.75
+     ],
+     "lower95_one_sided": -0.5,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 6.75,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 25.75,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 31.5,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 32.5,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 34.25,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 32.0,
+     "calls": 5.71
+    },
+    "value_only": {
+     "em": 33.25,
+     "calls": 7.51
+    },
+    "guarded_value": {
+     "em": 34.25,
+     "calls": 7.755
+    },
+    "tasr": {
+     "em": 33.75,
+     "calls": 7.495
+    },
+    "semantic_guard": {
+     "em": 34.0,
+     "calls": 7.435
+    }
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data17",
+   "label": "2Wiki corpus (seed 7, draw 1)",
+   "data": {
+    "input_file": "2wiki_dev_hotpot_schema.parquet",
+    "input_sha256": "555cab3b1cdded5a853a451c3123f9633d61dbb1d2e46f5ddc50c04f11819650",
+    "data_seed": 17,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "2WikiMultihopQA dev-context FTS5/BM25",
+    "sentence_count": 206743,
+    "question_context_count": 12576,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 31.11111111111111,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 32.22222222222222,
+       "searches": 2.7
+      },
+      {
+       "lambda": 0.02,
+       "em": 32.22222222222222,
+       "searches": 2.566666666666667
+      },
+      {
+       "lambda": 0.04,
+       "em": 32.22222222222222,
+       "searches": 2.488888888888889
+      },
+      {
+       "lambda": 0.07,
+       "em": 32.22222222222222,
+       "searches": 2.477777777777778
+      },
+      {
+       "lambda": 0.12,
+       "em": 32.22222222222222,
+       "searches": 2.3555555555555556
+      },
+      {
+       "lambda": 0.2,
+       "em": 32.22222222222222,
+       "searches": 2.3333333333333335
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": 0.25,
+     "ci95": [
+      -2.0,
+      2.5
+     ],
+     "lower95_one_sided": -1.5,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": true,
+    "stoprag": true
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 8.75,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 18.0,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 25.0,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 24.25,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 23.25,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 23.5,
+     "calls": 5.495
+    },
+    "value_only": {
+     "em": 20.25,
+     "calls": 3.11
+    },
+    "guarded_value": {
+     "em": 23.5,
+     "calls": 5.495
+    },
+    "tasr": {
+     "em": 24.0,
+     "calls": 5.885
+    },
+    "semantic_guard": {
+     "em": 23.5,
+     "calls": 5.525
+    },
+    "stoprag": {
+     "em": 23.25,
+     "calls": 8.76
+    },
+    "halt_nli": {
+     "em": 23.0,
+     "calls": 6.445
+    },
+    "halt_relevance": {
+     "em": 20.5,
+     "calls": 6.37
+    }
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data23",
+   "label": "2Wiki corpus (seed 7, draw 2)",
+   "data": {
+    "input_file": "2wiki_dev_hotpot_schema.parquet",
+    "input_sha256": "555cab3b1cdded5a853a451c3123f9633d61dbb1d2e46f5ddc50c04f11819650",
+    "data_seed": 23,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "2WikiMultihopQA dev-context FTS5/BM25",
+    "sentence_count": 206743,
+    "question_context_count": 12576,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 31.11111111111111,
+     "reason": "fallback_max_em",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 30.0,
+       "searches": 3.3
+      },
+      {
+       "lambda": 0.02,
+       "em": 30.0,
+       "searches": 3.077777777777778
+      },
+      {
+       "lambda": 0.04,
+       "em": 30.0,
+       "searches": 2.7222222222222223
+      },
+      {
+       "lambda": 0.07,
+       "em": 30.0,
+       "searches": 2.6
+      },
+      {
+       "lambda": 0.12,
+       "em": 30.0,
+       "searches": 2.4444444444444446
+      },
+      {
+       "lambda": 0.2,
+       "em": 30.0,
+       "searches": 2.2888888888888888
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 4,
+    "predeclared_primary": {
+     "mean_em_points": -1.75,
+     "ci95": [
+      -3.75,
+      0.0
+     ],
+     "lower95_one_sided": -3.25,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": false,
+     "reduces_calls": true,
+     "confirmation_success": false
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 6.25,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 18.5,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 24.0,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 25.5,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 25.25,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 23.25,
+     "calls": 5.51
+    },
+    "value_only": {
+     "em": 19.0,
+     "calls": 3.835
+    },
+    "guarded_value": {
+     "em": 23.5,
+     "calls": 5.59
+    },
+    "tasr": {
+     "em": 25.5,
+     "calls": 7.365
+    },
+    "semantic_guard": {
+     "em": 24.0,
+     "calls": 7.305
+    }
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data29",
+   "label": "2Wiki corpus (seed 7, draw 3)",
+   "data": {
+    "input_file": "2wiki_dev_hotpot_schema.parquet",
+    "input_sha256": "555cab3b1cdded5a853a451c3123f9633d61dbb1d2e46f5ddc50c04f11819650",
+    "data_seed": 29,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "2WikiMultihopQA dev-context FTS5/BM25",
+    "sentence_count": 206743,
+    "question_context_count": 12576,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 21.11111111111111,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 23.333333333333332,
+       "searches": 2.8666666666666667
+      },
+      {
+       "lambda": 0.02,
+       "em": 23.333333333333332,
+       "searches": 2.7
+      },
+      {
+       "lambda": 0.04,
+       "em": 23.333333333333332,
+       "searches": 2.6
+      },
+      {
+       "lambda": 0.07,
+       "em": 23.333333333333332,
+       "searches": 2.5444444444444443
+      },
+      {
+       "lambda": 0.12,
+       "em": 23.333333333333332,
+       "searches": 2.511111111111111
+      },
+      {
+       "lambda": 0.2,
+       "em": 22.22222222222222,
+       "searches": 2.4444444444444446
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 2,
+    "predeclared_primary": {
+     "mean_em_points": 0.25,
+     "ci95": [
+      -1.75,
+      2.25
+     ],
+     "lower95_one_sided": -1.25,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 6.0,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 23.0,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 26.25,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 25.5,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 25.5,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 25.25,
+     "calls": 5.61
+    },
+    "value_only": {
+     "em": 24.25,
+     "calls": 3.115
+    },
+    "guarded_value": {
+     "em": 25.75,
+     "calls": 5.66
+    },
+    "tasr": {
+     "em": 25.5,
+     "calls": 7.695
+    },
+    "semantic_guard": {
+     "em": 25.5,
+     "calls": 5.655
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data17",
+   "label": "MuSiQue corpus (seed 7, draw 1)",
+   "data": {
+    "input_file": "musique_ans_dev.jsonl",
+    "input_sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+    "data_seed": 17,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "MuSiQue-answerable dev paragraph FTS5/BM25",
+    "sentence_count": 21100,
+    "question_context_count": 2417,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 11.11111111111111,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 11.11111111111111,
+       "searches": 3.2333333333333334
+      },
+      {
+       "lambda": 0.02,
+       "em": 11.11111111111111,
+       "searches": 3.1
+      },
+      {
+       "lambda": 0.04,
+       "em": 11.11111111111111,
+       "searches": 2.922222222222222
+      },
+      {
+       "lambda": 0.07,
+       "em": 11.11111111111111,
+       "searches": 2.8666666666666667
+      },
+      {
+       "lambda": 0.12,
+       "em": 11.11111111111111,
+       "searches": 2.8222222222222224
+      },
+      {
+       "lambda": 0.2,
+       "em": 11.11111111111111,
+       "searches": 2.811111111111111
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": -1.75,
+     "ci95": [
+      -3.25,
+      -0.5
+     ],
+     "lower95_one_sided": -3.0,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": false,
+     "reduces_calls": true,
+     "confirmation_success": false
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": true,
+    "stoprag": true
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 0.5,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 3.25,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 7.25,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 7.25,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 9.25,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 7.5,
+     "calls": 6.53
+    },
+    "value_only": {
+     "em": 3.75,
+     "calls": 3.025
+    },
+    "guarded_value": {
+     "em": 7.5,
+     "calls": 6.54
+    },
+    "tasr": {
+     "em": 8.5,
+     "calls": 8.605
+    },
+    "semantic_guard": {
+     "em": 7.5,
+     "calls": 6.53
+    },
+    "stoprag": {
+     "em": 8.75,
+     "calls": 8.395
+    },
+    "halt_nli": {
+     "em": 8.0,
+     "calls": 9.455
+    },
+    "halt_relevance": {
+     "em": 8.5,
+     "calls": 9.05
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data23",
+   "label": "MuSiQue corpus (seed 7, draw 2)",
+   "data": {
+    "input_file": "musique_ans_dev.jsonl",
+    "input_sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+    "data_seed": 23,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "MuSiQue-answerable dev paragraph FTS5/BM25",
+    "sentence_count": 21100,
+    "question_context_count": 2417,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 18.88888888888889,
+     "reason": "fallback_max_em",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 16.666666666666664,
+       "searches": 3.2111111111111112
+      },
+      {
+       "lambda": 0.02,
+       "em": 16.666666666666664,
+       "searches": 3.111111111111111
+      },
+      {
+       "lambda": 0.04,
+       "em": 16.666666666666664,
+       "searches": 2.988888888888889
+      },
+      {
+       "lambda": 0.07,
+       "em": 16.666666666666664,
+       "searches": 2.8555555555555556
+      },
+      {
+       "lambda": 0.12,
+       "em": 16.666666666666664,
+       "searches": 2.8
+      },
+      {
+       "lambda": 0.2,
+       "em": 16.666666666666664,
+       "searches": 2.7444444444444445
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 4,
+    "predeclared_primary": {
+     "mean_em_points": -1.0,
+     "ci95": [
+      -2.5,
+      0.25
+     ],
+     "lower95_one_sided": -2.25,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 0.25,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 6.0,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 10.0,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 9.25,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 10.25,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 9.25,
+     "calls": 6.45
+    },
+    "value_only": {
+     "em": 2.5,
+     "calls": 1.44
+    },
+    "guarded_value": {
+     "em": 9.25,
+     "calls": 6.495
+    },
+    "tasr": {
+     "em": 9.75,
+     "calls": 8.785
+    },
+    "semantic_guard": {
+     "em": 9.25,
+     "calls": 6.98
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data29",
+   "label": "MuSiQue corpus (seed 7, draw 3)",
+   "data": {
+    "input_file": "musique_ans_dev.jsonl",
+    "input_sha256": "15fa63794d18a94ce12411aca6e2327e65b6e83b0b1490efab3f1962e48abf3b",
+    "data_seed": 29,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "MuSiQue-answerable dev paragraph FTS5/BM25",
+    "sentence_count": 21100,
+    "question_context_count": 2417,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 7.777777777777778,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 5.555555555555555,
+       "searches": 3.3777777777777778
+      },
+      {
+       "lambda": 0.02,
+       "em": 5.555555555555555,
+       "searches": 3.2222222222222223
+      },
+      {
+       "lambda": 0.04,
+       "em": 6.666666666666667,
+       "searches": 2.911111111111111
+      },
+      {
+       "lambda": 0.07,
+       "em": 6.666666666666667,
+       "searches": 2.7888888888888888
+      },
+      {
+       "lambda": 0.12,
+       "em": 6.666666666666667,
+       "searches": 2.7555555555555555
+      },
+      {
+       "lambda": 0.2,
+       "em": 7.777777777777778,
+       "searches": 2.7111111111111112
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": -1.25,
+     "ci95": [
+      -2.5,
+      -0.25
+     ],
+     "lower95_one_sided": -2.25,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 0.25,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 6.0,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 10.75,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 10.75,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 12.0,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 10.75,
+     "calls": 6.425
+    },
+    "value_only": {
+     "em": 0.25,
+     "calls": 1.0
+    },
+    "guarded_value": {
+     "em": 10.75,
+     "calls": 6.425
+    },
+    "tasr": {
+     "em": 12.0,
+     "calls": 8.88
+    },
+    "semantic_guard": {
+     "em": 10.75,
+     "calls": 6.51
+    }
+   }
+  },
+  {
+   "tag": "wiki25m_guarded_qwen3b",
+   "label": "Wikipedia 25M hybrid",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 13,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "qwen2.5:3b-instruct",
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "family": "qwen2",
+    "parameter_size": "3.1B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "filename": "fever_wiki.sqlite",
+    "sentence_count": 25247888,
+    "size_bytes": 13485760512,
+    "schema": "sentences + external-content FTS5 sentences_fts",
+    "source_provenance": {},
+    "source_label": "official FEVER Wikipedia 2017 wiki-pages",
+    "sha256": "e903b6bd72337f236ae6667642597565f5f5b3b95a0748275b4459eef2671149",
+    "reranker": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "reranker_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "reranker_device": "mps",
+    "reranker_candidate_k": 50
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 20.0,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 20.0,
+       "searches": 3.2555555555555555
+      },
+      {
+       "lambda": 0.02,
+       "em": 20.0,
+       "searches": 2.933333333333333
+      },
+      {
+       "lambda": 0.04,
+       "em": 21.11111111111111,
+       "searches": 2.7444444444444445
+      },
+      {
+       "lambda": 0.07,
+       "em": 21.11111111111111,
+       "searches": 2.577777777777778
+      },
+      {
+       "lambda": 0.12,
+       "em": 21.11111111111111,
+       "searches": 2.488888888888889
+      },
+      {
+       "lambda": 0.2,
+       "em": 21.11111111111111,
+       "searches": 2.4555555555555557
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 2,
+    "predeclared_primary": {
+     "mean_em_points": -0.25,
+     "ci95": [
+      -2.0,
+      1.25
+     ],
+     "lower95_one_sided": -1.5,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": true,
+    "verifier_inspired_substitute": true,
+    "stoprag": true
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 9.0,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 17.75,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 23.0,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 21.5,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 21.5,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 21.25,
+     "calls": 5.875
+    },
+    "value_only": {
+     "em": 18.0,
+     "calls": 3.135
+    },
+    "guarded_value": {
+     "em": 21.25,
+     "calls": 5.895
+    },
+    "tasr": {
+     "em": 21.25,
+     "calls": 8.08
+    },
+    "semantic_guard": {
+     "em": 21.25,
+     "calls": 5.935
+    },
+    "stoprag": {
+     "em": 21.5,
+     "calls": 8.55
+    },
+    "halt_nli": {
+     "em": 20.75,
+     "calls": 6.495
+    },
+    "halt_relevance": {
+     "em": 20.5,
+     "calls": 6.72
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_llama3b_data17",
+   "label": "Corpus / Llama-3.2-3B (q-sample B)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 17,
+    "n_train": 120,
+    "n_test": 400
+   },
+   "backbone": {
+    "model": "llama3.2:3b",
+    "requested_model": "llama3.2:3b",
+    "backend": "ollama",
+    "ollama_version": "0.30.10",
+    "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+    "family": "llama",
+    "parameter_size": "3.2B",
+    "quantization_level": "Q4_K_M",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.02,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 43.333333333333336,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 43.333333333333336,
+       "searches": 3.411111111111111
+      },
+      {
+       "lambda": 0.02,
+       "em": 43.333333333333336,
+       "searches": 3.2111111111111112
+      },
+      {
+       "lambda": 0.04,
+       "em": 42.22222222222222,
+       "searches": 2.8222222222222224
+      },
+      {
+       "lambda": 0.07,
+       "em": 40.0,
+       "searches": 2.5555555555555554
+      },
+      {
+       "lambda": 0.12,
+       "em": 40.0,
+       "searches": 2.411111111111111
+      },
+      {
+       "lambda": 0.2,
+       "em": 40.0,
+       "searches": 2.188888888888889
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 4,
+    "predeclared_primary": {
+     "mean_em_points": -0.25,
+     "ci95": [
+      -1.25,
+      0.75
+     ],
+     "lower95_one_sided": -1.25,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": true,
+    "semantic_guard": false,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 16.5,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 27.75,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 36.25,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 38.25,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 39.0,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 34.75,
+     "calls": 5.325
+    },
+    "value_only": {
+     "em": 38.75,
+     "calls": 7.59
+    },
+    "guarded_value": {
+     "em": 38.75,
+     "calls": 7.605
+    },
+    "tasr": {
+     "em": 37.5,
+     "calls": 6.76
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data17",
+   "label": "Corpus / Haiku 4.5 (q-sample B)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 17,
+    "n_train": 120,
+    "n_test": 200
+   },
+   "backbone": {
+    "model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "backend": "amazon-bedrock",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 53.333333333333336,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 53.333333333333336,
+       "searches": 2.7111111111111112
+      },
+      {
+       "lambda": 0.02,
+       "em": 53.333333333333336,
+       "searches": 2.6
+      },
+      {
+       "lambda": 0.04,
+       "em": 53.333333333333336,
+       "searches": 2.5
+      },
+      {
+       "lambda": 0.07,
+       "em": 53.333333333333336,
+       "searches": 2.3777777777777778
+      },
+      {
+       "lambda": 0.12,
+       "em": 53.333333333333336,
+       "searches": 2.3222222222222224
+      },
+      {
+       "lambda": 0.2,
+       "em": 53.333333333333336,
+       "searches": 2.2444444444444445
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": -0.5,
+     "ci95": [
+      -3.0,
+      2.0
+     ],
+     "lower95_one_sided": -2.5,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": false,
+    "semantic_guard": false,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 27.5,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 29.0,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 46.5,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 49.5,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 50.0,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 49.5,
+     "calls": 5.55
+    },
+    "value_only": {
+     "em": 36.0,
+     "calls": 3.25
+    },
+    "guarded_value": {
+     "em": 49.5,
+     "calls": 5.59
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data23",
+   "label": "Corpus / Haiku 4.5 (q-sample C)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 23,
+    "n_train": 120,
+    "n_test": 200
+   },
+   "backbone": {
+    "model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "backend": "amazon-bedrock",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.01,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 48.888888888888886,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 48.888888888888886,
+       "searches": 3.4
+      },
+      {
+       "lambda": 0.02,
+       "em": 47.77777777777778,
+       "searches": 3.1777777777777776
+      },
+      {
+       "lambda": 0.04,
+       "em": 47.77777777777778,
+       "searches": 2.977777777777778
+      },
+      {
+       "lambda": 0.07,
+       "em": 46.666666666666664,
+       "searches": 2.7888888888888888
+      },
+      {
+       "lambda": 0.12,
+       "em": 45.55555555555556,
+       "searches": 2.477777777777778
+      },
+      {
+       "lambda": 0.2,
+       "em": 46.666666666666664,
+       "searches": 2.3444444444444446
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": -0.5,
+     "ci95": [
+      -1.5,
+      0.0
+     ],
+     "lower95_one_sided": -1.5,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": false,
+    "semantic_guard": false,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 24.0,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 27.0,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 44.5,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 48.5,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 50.0,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 45.0,
+     "calls": 5.53
+    },
+    "value_only": {
+     "em": 49.5,
+     "calls": 7.29
+    },
+    "guarded_value": {
+     "em": 49.5,
+     "calls": 7.32
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data29",
+   "label": "Corpus / Haiku 4.5 (q-sample D)",
+   "data": {
+    "input_file": "hotpot_val.parquet",
+    "input_sha256": "c20b638ca82b21d04fe12e14ff417ad05153d4d215a65de54497fca4e972f7c6",
+    "data_seed": 29,
+    "n_train": 120,
+    "n_test": 200
+   },
+   "backbone": {
+    "model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "backend": "amazon-bedrock",
+    "llm_seed": 7,
+    "temperature": 0.0
+   },
+   "retrieval": {
+    "kind": "HotpotQA validation-context FTS5/BM25",
+    "sentence_count": 269558,
+    "question_context_count": 7405,
+    "scope": "all validation contexts, including questions outside train/test"
+   },
+   "controller": {
+    "max_steps": 4,
+    "k": 3,
+    "primary_rule": "guarded",
+    "alpha": 0.1,
+    "certificate_calibration_fraction": 0.25,
+    "lambda_logged": 0.2,
+    "lambda_grid": [
+     0.01,
+     0.02,
+     0.04,
+     0.07,
+     0.12,
+     0.2
+    ],
+    "selection": {
+     "rule": "guarded",
+     "band_em_points": 1.0,
+     "train_reference_em": 50.0,
+     "reason": "cheapest_within_band",
+     "frontier": [
+      {
+       "lambda": 0.01,
+       "em": 51.11111111111111,
+       "searches": 2.811111111111111
+      },
+      {
+       "lambda": 0.02,
+       "em": 51.11111111111111,
+       "searches": 2.7555555555555555
+      },
+      {
+       "lambda": 0.04,
+       "em": 51.11111111111111,
+       "searches": 2.7111111111111112
+      },
+      {
+       "lambda": 0.07,
+       "em": 51.11111111111111,
+       "searches": 2.688888888888889
+      },
+      {
+       "lambda": 0.12,
+       "em": 50.0,
+       "searches": 2.5444444444444443
+      },
+      {
+       "lambda": 0.2,
+       "em": 50.0,
+       "searches": 2.466666666666667
+      }
+     ],
+     "n_policy_training_episodes": 90,
+     "n_certificate_calibration_episodes": 30,
+     "certificate_split_seed": 41,
+     "certificate_units": "one deployed-policy stop per held-out episode"
+    }
+   },
+   "frozen_selection": {
+    "rule": "cheapest grid point with train EM >= train reference EM - 1.0 band; fallback argmax train EM; ties broken by fewest searches; TRAINING CHAINS ONLY",
+    "training_selected_fixed_budget": 3,
+    "predeclared_primary": {
+     "mean_em_points": -1.0,
+     "ci95": [
+      -3.0,
+      1.0
+     ],
+     "lower95_one_sided": -2.5,
+     "predeclared_margin_em_points": 3.0,
+     "passes_noninferiority": true,
+     "reduces_calls": true,
+     "confirmation_success": true
+    }
+   },
+   "comparators_present": {
+    "tasr": false,
+    "semantic_guard": false,
+    "verifier_inspired_substitute": false,
+    "stoprag": false
+   },
+   "frontier_em_at_calls": {
+    "fixed_0": {
+     "em": 18.0,
+     "calls": 1.0
+    },
+    "fixed_1": {
+     "em": 29.0,
+     "calls": 3.0
+    },
+    "fixed_2": {
+     "em": 45.0,
+     "calls": 5.0
+    },
+    "fixed_3": {
+     "em": 46.0,
+     "calls": 7.0
+    },
+    "fixed_4": {
+     "em": 46.0,
+     "calls": 9.0
+    },
+    "answer_repeat": {
+     "em": 45.0,
+     "calls": 5.63
+    },
+    "value_only": {
+     "em": 41.0,
+     "calls": 4.36
+    },
+    "guarded_value": {
+     "em": 45.0,
+     "calls": 5.94
+    }
+   }
+  }
+ ]
+}

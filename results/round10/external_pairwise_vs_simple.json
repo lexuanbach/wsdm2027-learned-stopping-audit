@@ -1,0 +1,158 @@
+{
+ "what": "paired per-question EM differences between each learned policy and each simple policy on the external non-Wikipedia cell",
+ "cell": "extnews_guarded_qwen3b",
+ "policies": {
+  "guarded_value": {
+   "em": 73.25,
+   "calls": 7.4,
+   "vs": {
+    "fixed_2": {
+     "mean_em_points": 2.25,
+     "ci95": [
+      -0.25,
+      5.0
+     ],
+     "lower95_one_sided": 0.0
+    },
+    "fixed_3": {
+     "mean_em_points": 1.25,
+     "ci95": [
+      -0.25,
+      2.75
+     ],
+     "lower95_one_sided": 0.0
+    },
+    "fixed_4": {
+     "mean_em_points": 0.5,
+     "ci95": [
+      0.0,
+      1.25
+     ],
+     "lower95_one_sided": 0.0
+    },
+    "answer_repeat": {
+     "mean_em_points": 1.0,
+     "ci95": [
+      -0.5,
+      2.75
+     ],
+     "lower95_one_sided": -0.5
+    }
+   }
+  },
+  "value_only": {
+   "em": 73.0,
+   "calls": 7.27,
+   "vs": {
+    "fixed_2": {
+     "mean_em_points": 2.0,
+     "ci95": [
+      -0.5,
+      4.5
+     ],
+     "lower95_one_sided": -0.25
+    },
+    "fixed_3": {
+     "mean_em_points": 1.0,
+     "ci95": [
+      -0.5,
+      2.5
+     ],
+     "lower95_one_sided": -0.25
+    },
+    "fixed_4": {
+     "mean_em_points": 0.25,
+     "ci95": [
+      -0.5,
+      1.25
+     ],
+     "lower95_one_sided": -0.5
+    },
+    "answer_repeat": {
+     "mean_em_points": 0.75,
+     "ci95": [
+      -1.0,
+      2.5
+     ],
+     "lower95_one_sided": -0.75
+    }
+   }
+  },
+  "stop_classifier": {
+   "em": 70.5,
+   "calls": 4.35,
+   "vs": {
+    "fixed_2": {
+     "mean_em_points": -0.5,
+     "ci95": [
+      -2.5,
+      1.5
+     ],
+     "lower95_one_sided": -2.25
+    },
+    "fixed_3": {
+     "mean_em_points": -1.5,
+     "ci95": [
+      -4.5,
+      1.5
+     ],
+     "lower95_one_sided": -4.0
+    },
+    "fixed_4": {
+     "mean_em_points": -2.25,
+     "ci95": [
+      -5.25,
+      0.506
+     ],
+     "lower95_one_sided": -4.75
+    },
+    "answer_repeat": {
+     "mean_em_points": -1.75,
+     "ci95": [
+      -4.0,
+      0.5
+     ],
+     "lower95_one_sided": -3.75
+    }
+   }
+  },
+  "sufficiency_gate": {
+   "em": 73.75,
+   "calls": 7.645,
+   "vs": {
+    "fixed_2": {
+     "mean_em_points": 2.75,
+     "ci95": [
+      0.25,
+      5.5
+     ],
+     "lower95_one_sided": 0.5
+    },
+    "fixed_3": {
+     "mean_em_points": 1.75,
+     "ci95": [
+      0.25,
+      3.5
+     ],
+     "lower95_one_sided": 0.5
+    },
+    "fixed_4": {
+     "mean_em_points": 1.0,
+     "ci95": [
+      0.25,
+      2.0
+     ],
+     "lower95_one_sided": 0.25
+    },
+    "answer_repeat": {
+     "mean_em_points": 1.5,
+     "ci95": [
+      0.0,
+      3.0
+     ],
+     "lower95_one_sided": 0.25
+    }
+   }
+  }
+ }
+}

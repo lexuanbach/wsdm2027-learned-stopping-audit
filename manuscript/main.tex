@@ -1,0 +1,128 @@
+%% VoI-Search WSDM 2027 camera-ready working revision
+%% Build: latexmk -pdf main.tex
+%% xcolor is loaded by acmart, so the table option must be passed ahead of it
+\PassOptionsToPackage{table}{xcolor}
+\documentclass[sigconf,balance=false]{acmart}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,calc,backgrounds}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{balance}
+\usepackage{needspace}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+
+%% Venue metadata
+\copyrightyear{2027}
+\acmYear{2027}
+% Production draft: replace only with ACM-supplied rights metadata.
+\setcopyright{none}
+\acmConference[WSDM '27]{Proceedings of the 20th ACM International Conference
+  on Web Search and Data Mining}{February 15 to 19, 2027}{Hong Kong SAR, China}
+\acmBooktitle{Proceedings of the 20th ACM International Conference on Web
+  Search and Data Mining (WSDM '27), February 15 to 19, 2027, Hong Kong SAR, China}
+\acmDOI{10.1145/3862322.3863667}
+\acmISBN{979-8-4007-3117-4/2027/02}
+
+%% Shorthands
+\newcommand{\system}{VoI-Search}
+\emergencystretch=2em
+%% zebra striping for dense data tables
+\definecolor{rowshade}{gray}{0.93}
+\newcommand{\act}[1]{\textsc{#1}}
+\newcommand{\fbgpred}{\widehat{\mathrm{FBG}}}
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Assumption}
+\setlength{\headheight}{16pt}
+\hypersetup{pdftitle={A Selection-Aware Audit of Learned Stopping in Short-Horizon Iterative Retrieval}}
+
+\begin{document}
+
+\title{A Selection-Aware Audit of Learned Stopping in Short-Horizon Iterative Retrieval}
+
+\author{Xuan-Bach Le}
+\orcid{0009-0003-6848-5403}
+\affiliation{\institution{Ho Chi Minh City University of Technology (HCMUT), VNU-HCM}\city{Ho Chi Minh City}\country{Vietnam}}
+\email{lexuanbach@hcmut.edu.vn}
+\author{Phat T. Tran-Truong}
+\orcid{0000-0003-3199-6333}
+\affiliation{\institution{Ho Chi Minh City University of Technology (HCMUT), VNU-HCM}\city{Ho Chi Minh City}\country{Vietnam}}
+\email{phatttt@hcmut.edu.vn}
+\author{Son Ha Xuan}
+\orcid{0000-0002-5336-0566}
+\affiliation{\department{The Business School}\institution{RMIT University}\city{Ho Chi Minh City}\country{Vietnam}}
+\email{ha.son@rmit.edu.vn}
+\author{Duy Nguyen}
+\orcid{0009-0000-6348-8830}
+\affiliation{\institution{University of Economics Ho Chi Minh City}\city{Ho Chi Minh City}\country{Vietnam}}
+\email{duynguyen.726202321440@st.ueh.edu.vn}
+% Duy Nguyen ORCID supplied directly by the corresponding author.
+% Names follow the author's WSDM listings. Synchronize CMT/ACM before submission.
+\renewcommand{\shortauthors}{Le et al.}
+
+
+\begin{abstract}
+Does learned stopping improve a development-selected simple-policy frontier,
+or merely save calls relative to full search? We audit four logit-free signals
+in four-search retrieval trajectories: future-best gain (FBG), binary future
+improvement, current-answer error, and evidence coverage. Scores are cross-fit
+by trajectory, selection is frozen on development questions, and untouched
+questions are evaluated at matched calls, tokens, and wall time.
+Across 26 core cells, simple policies Pareto-dominate guarded FBG in 15.
+The guard improves the selected fixed budget in five. Neither FBG rule has a
+positive cellwise equal-call interval in the 18-cell matched-cost family.
+No learned policy with an available simultaneous analysis retains a positive
+max-t interval. A hindsight oracle nevertheless improves full search in all
+14 fully instrumented cells by 4.84 exact-match points on average.
+Current-error estimates order stopped-answer risk better than random in all
+18 cells, versus seven for FBG, but independent question draws change endpoint
+decisions. Answer-once accounting further strengthens fixed budgets.
+Our contribution is a frontier-based audit protocol and a cross-signal
+diagnosis separating stopping opportunity, prediction quality, and policy
+utility within the tested controllers, training sizes, and replay horizon.
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10002951.10003317.10003338</concept_id>
+<concept_desc>Information systems~Retrieval models and ranking</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10002951.10003317.10003347.10003350</concept_id>
+<concept_desc>Information systems~Web searching and information discovery</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10010147.10010178.10010199</concept_id>
+<concept_desc>Computing methodologies~Intelligent agents</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+\ccsdesc[500]{Information systems~Retrieval models and ranking}
+\ccsdesc[500]{Information systems~Web searching and information discovery}
+\ccsdesc[500]{Computing methodologies~Intelligent agents}
+
+\keywords{iterative retrieval, search agents, adaptive stopping, future-best gain, evaluation audit, efficiency}
+
+\maketitle
+
+\input{sections/01-introduction}
+\input{sections/02-related}
+\input{sections/03-problem}
+\input{sections/04-method}
+\input{sections/05-setup}
+\input{sections/06-results}
+\input{sections/07-limitations}
+\input{sections/07-conclusion}
+\phantomsection\label{body:end}
+\clearpage
+\input{sections/08-ethics}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\end{document}

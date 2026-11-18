@@ -1,0 +1,266 @@
+{
+ "question": "does question-type mixture or gold-support retrieval recall track the draw-to-draw full-budget EM swing?",
+ "draws": {
+  "corpus_guarded_qwen3b": {
+   "n": 400,
+   "full_budget_em": 24.5,
+   "guarded_em": 24.75,
+   "guarded_minus_full_em": 0.25,
+   "type_counts": {
+    "bridge": 324,
+    "comparison": 76
+   },
+   "level_counts": {
+    "hard": 400
+   },
+   "support_recall_mean": 0.5587,
+   "strata": {
+    "bridge": {
+     "n": 324,
+     "share": 0.81,
+     "full_budget_em": 21.3,
+     "guarded_minus_full_em": 0.0
+    },
+    "comparison": {
+     "n": 76,
+     "share": 0.19,
+     "full_budget_em": 38.16,
+     "guarded_minus_full_em": 1.32
+    },
+    "recall_1": {
+     "n": 111,
+     "share": 0.2775,
+     "full_budget_em": 46.85,
+     "guarded_minus_full_em": 0.9
+    },
+    "recall_lt_1": {
+     "n": 289,
+     "share": 0.7225,
+     "full_budget_em": 15.92,
+     "guarded_minus_full_em": 0.0
+    }
+   },
+   "label": "A"
+  },
+  "corpus_guarded_qwen3b_data17": {
+   "n": 400,
+   "full_budget_em": 31.25,
+   "guarded_em": 29.25,
+   "guarded_minus_full_em": -2.0,
+   "type_counts": {
+    "bridge": 329,
+    "comparison": 71
+   },
+   "level_counts": {
+    "hard": 400
+   },
+   "support_recall_mean": 0.5548,
+   "strata": {
+    "bridge": {
+     "n": 329,
+     "share": 0.8225,
+     "full_budget_em": 27.66,
+     "guarded_minus_full_em": -2.13
+    },
+    "comparison": {
+     "n": 71,
+     "share": 0.1775,
+     "full_budget_em": 47.89,
+     "guarded_minus_full_em": -1.41
+    },
+    "recall_1": {
+     "n": 115,
+     "share": 0.2875,
+     "full_budget_em": 52.17,
+     "guarded_minus_full_em": -5.22
+    },
+    "recall_lt_1": {
+     "n": 285,
+     "share": 0.7125,
+     "full_budget_em": 22.81,
+     "guarded_minus_full_em": -0.7
+    }
+   },
+   "label": "B"
+  },
+  "corpus_guarded_qwen3b_data23": {
+   "n": 400,
+   "full_budget_em": 26.5,
+   "guarded_em": 23.25,
+   "guarded_minus_full_em": -3.25,
+   "type_counts": {
+    "bridge": 331,
+    "comparison": 69
+   },
+   "level_counts": {
+    "hard": 400
+   },
+   "support_recall_mean": 0.5495,
+   "strata": {
+    "bridge": {
+     "n": 331,
+     "share": 0.8275,
+     "full_budget_em": 22.66,
+     "guarded_minus_full_em": -3.93
+    },
+    "comparison": {
+     "n": 69,
+     "share": 0.1725,
+     "full_budget_em": 44.93,
+     "guarded_minus_full_em": 0.0
+    },
+    "recall_1": {
+     "n": 114,
+     "share": 0.285,
+     "full_budget_em": 47.37,
+     "guarded_minus_full_em": -10.53
+    },
+    "recall_lt_1": {
+     "n": 286,
+     "share": 0.715,
+     "full_budget_em": 18.18,
+     "guarded_minus_full_em": -0.35
+    }
+   },
+   "label": "C"
+  },
+  "corpus_guarded_qwen3b_data29": {
+   "n": 400,
+   "full_budget_em": 25.5,
+   "guarded_em": 27.0,
+   "guarded_minus_full_em": 1.5,
+   "type_counts": {
+    "bridge": 336,
+    "comparison": 64
+   },
+   "level_counts": {
+    "hard": 400
+   },
+   "support_recall_mean": 0.5235,
+   "strata": {
+    "bridge": {
+     "n": 336,
+     "share": 0.84,
+     "full_budget_em": 23.21,
+     "guarded_minus_full_em": 1.79
+    },
+    "comparison": {
+     "n": 64,
+     "share": 0.16,
+     "full_budget_em": 37.5,
+     "guarded_minus_full_em": 0.0
+    },
+    "recall_1": {
+     "n": 92,
+     "share": 0.23,
+     "full_budget_em": 46.74,
+     "guarded_minus_full_em": 1.09
+    },
+    "recall_lt_1": {
+     "n": 308,
+     "share": 0.77,
+     "full_budget_em": 19.16,
+     "guarded_minus_full_em": 1.62
+    }
+   },
+   "label": "D"
+  },
+  "corpus_guarded_qwen3b_data31": {
+   "n": 400,
+   "full_budget_em": 34.25,
+   "guarded_em": 34.25,
+   "guarded_minus_full_em": 0.0,
+   "type_counts": {
+    "bridge": 323,
+    "comparison": 77
+   },
+   "level_counts": {
+    "hard": 400
+   },
+   "support_recall_mean": 0.592,
+   "strata": {
+    "bridge": {
+     "n": 323,
+     "share": 0.8075,
+     "full_budget_em": 30.96,
+     "guarded_minus_full_em": -0.31
+    },
+    "comparison": {
+     "n": 77,
+     "share": 0.1925,
+     "full_budget_em": 48.05,
+     "guarded_minus_full_em": 1.3
+    },
+    "recall_1": {
+     "n": 124,
+     "share": 0.31,
+     "full_budget_em": 50.81,
+     "guarded_minus_full_em": 0.0
+    },
+    "recall_lt_1": {
+     "n": 276,
+     "share": 0.69,
+     "full_budget_em": 26.81,
+     "guarded_minus_full_em": 0.0
+    }
+   },
+   "label": "E"
+  }
+ },
+ "summary": {
+  "n_draws": 5,
+  "full_budget_em_range": [
+   24.5,
+   34.25
+  ],
+  "full_budget_em_swing": 9.75,
+  "bridge_share_range": [
+   0.8075,
+   0.84
+  ],
+  "support_recall_range": [
+   0.5235,
+   0.592
+  ],
+  "recall1_share_range": [
+   0.23,
+   0.31
+  ],
+  "pearson_bridge_share_vs_em": {
+   "r": -0.447,
+   "p": 0.45,
+   "n": 5
+  },
+  "pearson_support_recall_vs_em": {
+   "r": 0.742,
+   "p": 0.151,
+   "n": 5
+  },
+  "pearson_recall1_share_vs_em": {
+   "r": 0.697,
+   "p": 0.191,
+   "n": 5
+  },
+  "level_values": [
+   "hard"
+  ],
+  "level_is_degenerate": true,
+  "direct_standardisation": {
+   "pooled_cell_shares": {
+    "bridge|r<1": 0.607,
+    "comparison|r1": 0.0635,
+    "bridge|r1": 0.2145,
+    "comparison|r<1": 0.115
+   },
+   "standardised_full_budget_em": {
+    "corpus_guarded_qwen3b": 24.42,
+    "corpus_guarded_qwen3b_data17": 30.93,
+    "corpus_guarded_qwen3b_data23": 26.48,
+    "corpus_guarded_qwen3b_data29": 26.84,
+    "corpus_guarded_qwen3b_data31": 33.29
+   },
+   "standardised_swing": 8.87,
+   "raw_swing": 9.75
+  }
+ }
+}

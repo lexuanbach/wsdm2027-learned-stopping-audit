@@ -1,0 +1,20 @@
+{
+ "n_test": 140,
+ "skr_knn": {
+  "em": 27.1,
+  "s": 1.0
+ },
+ "adaptive_rag_trained": {
+  "em": 37.9,
+  "s": 3.81
+ },
+ "flare_direct": {
+  "em": 34.3,
+  "s": 1.66
+ },
+ "selfrag_released": {
+  "em": 0.7,
+  "s": 0.14,
+  "backbone": "selfrag_llama2_7b (released)"
+ }
+}

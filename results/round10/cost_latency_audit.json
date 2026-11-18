@@ -1,0 +1,1308 @@
+{
+ "what": "p50/p95/p99 latency distributions and paired per-axis cost deltas from the logged per-prefix ledgers",
+ "backbones_covered": [
+  "llama3.2:3b",
+  "qwen2.5:3b-instruct",
+  "us.anthropic.claude-haiku-4-5-20251001-v1:0"
+ ],
+ "money": "NOT MEASURED ANYWHERE. No dollar figure is reported.",
+ "failures": "NOT LOGGED. See failure_note on every row.",
+ "cells": [
+  {
+   "tag": "corpus_guarded_qwen3b",
+   "label": "Corpus (seed 7, q-sample A)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.5375,
+    "p50": 0.4651,
+    "p90": 0.9037,
+    "p95": 1.055,
+    "p99": 1.4092,
+    "max": 3.5082,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 5.4704,
+    "p50": 5.2703,
+    "p90": 6.9991,
+    "p95": 7.4068,
+    "p99": 9.4844,
+    "max": 20.0499,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.12653,
+    "p50": 0.1198,
+    "p95": 0.3053,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 6.75,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -2.25,
+     "ci95": [
+      -2.4,
+      -2.1
+     ],
+     "relative_saving_pct": 25.0
+    },
+    "input_tokens": {
+     "guarded_mean": 1261.33,
+     "full_budget_mean": 1820.8475,
+     "paired_mean_delta": -559.5175,
+     "ci95": [
+      -596.842,
+      -522.7454
+     ],
+     "relative_saving_pct": 30.73
+    },
+    "wall_seconds": {
+     "guarded_mean": 4.1705,
+     "full_budget_mean": 5.4704,
+     "paired_mean_delta": -1.2999,
+     "ci95": [
+      -1.3988,
+      -1.2039
+     ],
+     "relative_saving_pct": 23.76
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed11",
+   "label": "Corpus (seed 11, q-sample A)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.5429,
+    "p50": 0.3768,
+    "p90": 1.0289,
+    "p95": 1.6311,
+    "p99": 2.8657,
+    "max": 6.2823,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 5.5294,
+    "p50": 4.6027,
+    "p90": 9.5915,
+    "p95": 12.7398,
+    "p99": 18.3809,
+    "max": 19.4605,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.12875,
+    "p50": 0.0958,
+    "p95": 0.3303,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 6.505,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -2.495,
+     "ci95": [
+      -2.64,
+      -2.355
+     ],
+     "relative_saving_pct": 27.72
+    },
+    "input_tokens": {
+     "guarded_mean": 1187.8625,
+     "full_budget_mean": 1815.1275,
+     "paired_mean_delta": -627.265,
+     "ci95": [
+      -665.7682,
+      -588.9849
+     ],
+     "relative_saving_pct": 34.56
+    },
+    "wall_seconds": {
+     "guarded_mean": 4.0633,
+     "full_budget_mean": 5.5294,
+     "paired_mean_delta": -1.4662,
+     "ci95": [
+      -1.6232,
+      -1.3224
+     ],
+     "relative_saving_pct": 26.52
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed19",
+   "label": "Corpus (seed 19, q-sample A)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.5264,
+    "p50": 0.4616,
+    "p90": 0.9117,
+    "p95": 1.0409,
+    "p99": 1.3129,
+    "max": 1.8222,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 5.2132,
+    "p50": 5.1142,
+    "p90": 6.582,
+    "p95": 7.0816,
+    "p99": 7.8035,
+    "max": 8.4937,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.09519,
+    "p50": 0.0878,
+    "p95": 0.2317,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 6.675,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -2.325,
+     "ci95": [
+      -2.49,
+      -2.165
+     ],
+     "relative_saving_pct": 25.83
+    },
+    "input_tokens": {
+     "guarded_mean": 1236.795,
+     "full_budget_mean": 1819.4925,
+     "paired_mean_delta": -582.6975,
+     "ci95": [
+      -625.9029,
+      -540.8217
+     ],
+     "relative_saving_pct": 32.03
+    },
+    "wall_seconds": {
+     "guarded_mean": 3.929,
+     "full_budget_mean": 5.2132,
+     "paired_mean_delta": -1.2842,
+     "ci95": [
+      -1.3835,
+      -1.1862
+     ],
+     "relative_saving_pct": 24.63
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data17",
+   "label": "Corpus (seed 7, q-sample B)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.487,
+    "p50": 0.4271,
+    "p90": 0.8184,
+    "p95": 0.9272,
+    "p99": 1.1021,
+    "max": 1.4006,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 4.8977,
+    "p50": 4.8163,
+    "p90": 6.1403,
+    "p95": 6.6175,
+    "p99": 7.6735,
+    "max": 8.4401,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.10294,
+    "p50": 0.1056,
+    "p95": 0.2393,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 6.71,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -2.29,
+     "ci95": [
+      -2.46,
+      -2.12
+     ],
+     "relative_saving_pct": 25.44
+    },
+    "input_tokens": {
+     "guarded_mean": 1245.88,
+     "full_budget_mean": 1847.9925,
+     "paired_mean_delta": -602.1125,
+     "ci95": [
+      -648.3477,
+      -556.1924
+     ],
+     "relative_saving_pct": 32.58
+    },
+    "wall_seconds": {
+     "guarded_mean": 3.7166,
+     "full_budget_mean": 4.8977,
+     "paired_mean_delta": -1.1812,
+     "ci95": [
+      -1.2774,
+      -1.0874
+     ],
+     "relative_saving_pct": 24.12
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data23",
+   "label": "Corpus (seed 7, q-sample C)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.1738,
+    "p50": 0.1615,
+    "p90": 0.2483,
+    "p95": 0.2741,
+    "p99": 0.3042,
+    "max": 0.3647,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 1.9106,
+    "p50": 1.8775,
+    "p90": 2.2821,
+    "p95": 2.4278,
+    "p99": 2.6073,
+    "max": 2.6316,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.06922,
+    "p50": 0.076,
+    "p95": 0.1484,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 5.9,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -3.1,
+     "ci95": [
+      -3.265,
+      -2.9399
+     ],
+     "relative_saving_pct": 34.44
+    },
+    "input_tokens": {
+     "guarded_mean": 1062.36,
+     "full_budget_mean": 1856.1175,
+     "paired_mean_delta": -793.7575,
+     "ci95": [
+      -837.7373,
+      -748.7515
+     ],
+     "relative_saving_pct": 42.76
+    },
+    "wall_seconds": {
+     "guarded_mean": 1.2709,
+     "full_budget_mean": 1.9106,
+     "paired_mean_delta": -0.6398,
+     "ci95": [
+      -0.6755,
+      -0.6044
+     ],
+     "relative_saving_pct": 33.48
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data29",
+   "label": "Corpus (seed 7, q-sample D)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.1737,
+    "p50": 0.1612,
+    "p90": 0.246,
+    "p95": 0.2718,
+    "p99": 0.303,
+    "max": 0.3616,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 1.8863,
+    "p50": 1.8588,
+    "p90": 2.2359,
+    "p95": 2.3618,
+    "p99": 2.5496,
+    "max": 2.7963,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.06464,
+    "p50": 0.0692,
+    "p95": 0.1439,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 6.36,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -2.64,
+     "ci95": [
+      -2.785,
+      -2.49
+     ],
+     "relative_saving_pct": 29.33
+    },
+    "input_tokens": {
+     "guarded_mean": 1161.4225,
+     "full_budget_mean": 1842.35,
+     "paired_mean_delta": -680.9275,
+     "ci95": [
+      -721.1834,
+      -640.1622
+     ],
+     "relative_saving_pct": 36.96
+    },
+    "wall_seconds": {
+     "guarded_mean": 1.3536,
+     "full_budget_mean": 1.8863,
+     "paired_mean_delta": -0.5327,
+     "ci95": [
+      -0.5642,
+      -0.5006
+     ],
+     "relative_saving_pct": 28.24
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data31",
+   "label": "Corpus (seed 7, q-sample E)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.2336,
+    "p50": 0.182,
+    "p90": 0.3645,
+    "p95": 0.6683,
+    "p99": 0.9981,
+    "max": 1.445,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 2.5784,
+    "p50": 1.9688,
+    "p90": 3.7165,
+    "p95": 8.0403,
+    "p99": 10.363,
+    "max": 11.2401,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.09512,
+    "p50": 0.0782,
+    "p95": 0.2903,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 7.755,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -1.245,
+     "ci95": [
+      -1.38,
+      -1.115
+     ],
+     "relative_saving_pct": 13.83
+    },
+    "input_tokens": {
+     "guarded_mean": 1506.0675,
+     "full_budget_mean": 1811.5925,
+     "paired_mean_delta": -305.525,
+     "ci95": [
+      -339.8058,
+      -272.6564
+     ],
+     "relative_saving_pct": 16.86
+    },
+    "wall_seconds": {
+     "guarded_mean": 2.2537,
+     "full_budget_mean": 2.5784,
+     "paired_mean_delta": -0.3247,
+     "ci95": [
+      -0.3713,
+      -0.281
+     ],
+     "relative_saving_pct": 12.59
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data17",
+   "label": "2Wiki corpus (seed 7, draw 1)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.1611,
+    "p50": 0.1541,
+    "p90": 0.2225,
+    "p95": 0.2412,
+    "p99": 0.2797,
+    "max": 0.3187,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 1.6841,
+    "p50": 1.6695,
+    "p90": 1.9344,
+    "p95": 2.0096,
+    "p99": 2.2018,
+    "max": 2.3585,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.04681,
+    "p50": 0.0509,
+    "p95": 0.0998,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 5.495,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -3.505,
+     "ci95": [
+      -3.66,
+      -3.35
+     ],
+     "relative_saving_pct": 38.94
+    },
+    "input_tokens": {
+     "guarded_mean": 899.57,
+     "full_budget_mean": 1713.545,
+     "paired_mean_delta": -813.975,
+     "ci95": [
+      -855.8689,
+      -773.8824
+     ],
+     "relative_saving_pct": 47.5
+    },
+    "wall_seconds": {
+     "guarded_mean": 1.0408,
+     "full_budget_mean": 1.6841,
+     "paired_mean_delta": -0.6433,
+     "ci95": [
+      -0.6765,
+      -0.6105
+     ],
+     "relative_saving_pct": 38.2
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data23",
+   "label": "2Wiki corpus (seed 7, draw 2)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.1657,
+    "p50": 0.1597,
+    "p90": 0.2227,
+    "p95": 0.2407,
+    "p99": 0.2719,
+    "max": 0.3159,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 1.7191,
+    "p50": 1.7074,
+    "p90": 1.9397,
+    "p95": 1.9991,
+    "p99": 2.2123,
+    "max": 2.3822,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.0455,
+    "p50": 0.0505,
+    "p95": 0.096,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 5.59,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -3.41,
+     "ci95": [
+      -3.57,
+      -3.25
+     ],
+     "relative_saving_pct": 37.89
+    },
+    "input_tokens": {
+     "guarded_mean": 898.895,
+     "full_budget_mean": 1704.9325,
+     "paired_mean_delta": -806.0375,
+     "ci95": [
+      -848.7756,
+      -762.6971
+     ],
+     "relative_saving_pct": 47.28
+    },
+    "wall_seconds": {
+     "guarded_mean": 1.0827,
+     "full_budget_mean": 1.7191,
+     "paired_mean_delta": -0.6363,
+     "ci95": [
+      -0.6699,
+      -0.6031
+     ],
+     "relative_saving_pct": 37.02
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data29",
+   "label": "2Wiki corpus (seed 7, draw 3)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.1619,
+    "p50": 0.1555,
+    "p90": 0.2239,
+    "p95": 0.2418,
+    "p99": 0.2816,
+    "max": 0.3625,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 1.6764,
+    "p50": 1.662,
+    "p90": 1.9378,
+    "p95": 2.0097,
+    "p99": 2.1949,
+    "max": 2.2838,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.04383,
+    "p50": 0.0466,
+    "p95": 0.0978,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 5.66,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -3.34,
+     "ci95": [
+      -3.49,
+      -3.19
+     ],
+     "relative_saving_pct": 37.11
+    },
+    "input_tokens": {
+     "guarded_mean": 932.085,
+     "full_budget_mean": 1724.7975,
+     "paired_mean_delta": -792.7125,
+     "ci95": [
+      -832.4887,
+      -753.3243
+     ],
+     "relative_saving_pct": 45.96
+    },
+    "wall_seconds": {
+     "guarded_mean": 1.0687,
+     "full_budget_mean": 1.6764,
+     "paired_mean_delta": -0.6077,
+     "ci95": [
+      -0.6386,
+      -0.5767
+     ],
+     "relative_saving_pct": 36.25
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data17",
+   "label": "MuSiQue corpus (seed 7, draw 1)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.2021,
+    "p50": 0.1894,
+    "p90": 0.2984,
+    "p95": 0.3247,
+    "p99": 0.3872,
+    "max": 0.5778,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 1.8715,
+    "p50": 1.8546,
+    "p90": 2.2284,
+    "p95": 2.3377,
+    "p99": 2.6459,
+    "max": 2.7595,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.01057,
+    "p50": 0.0097,
+    "p95": 0.0267,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 6.54,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -2.46,
+     "ci95": [
+      -2.625,
+      -2.3
+     ],
+     "relative_saving_pct": 27.33
+    },
+    "input_tokens": {
+     "guarded_mean": 3121.285,
+     "full_budget_mean": 4946.2625,
+     "paired_mean_delta": -1824.9775,
+     "ci95": [
+      -1965.0732,
+      -1689.657
+     ],
+     "relative_saving_pct": 36.9
+    },
+    "wall_seconds": {
+     "guarded_mean": 1.4027,
+     "full_budget_mean": 1.8715,
+     "paired_mean_delta": -0.4688,
+     "ci95": [
+      -0.5035,
+      -0.4349
+     ],
+     "relative_saving_pct": 25.05
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data23",
+   "label": "MuSiQue corpus (seed 7, draw 2)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.2071,
+    "p50": 0.1951,
+    "p90": 0.3039,
+    "p95": 0.3321,
+    "p99": 0.405,
+    "max": 0.567,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 1.92,
+    "p50": 1.8896,
+    "p90": 2.2994,
+    "p95": 2.4919,
+    "p99": 2.9005,
+    "max": 3.2582,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.01124,
+    "p50": 0.0101,
+    "p95": 0.0285,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 6.495,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -2.505,
+     "ci95": [
+      -2.655,
+      -2.355
+     ],
+     "relative_saving_pct": 27.83
+    },
+    "input_tokens": {
+     "guarded_mean": 2986.88,
+     "full_budget_mean": 4730.1075,
+     "paired_mean_delta": -1743.2275,
+     "ci95": [
+      -1866.6303,
+      -1619.1561
+     ],
+     "relative_saving_pct": 36.85
+    },
+    "wall_seconds": {
+     "guarded_mean": 1.4354,
+     "full_budget_mean": 1.92,
+     "paired_mean_delta": -0.4847,
+     "ci95": [
+      -0.5176,
+      -0.4523
+     ],
+     "relative_saving_pct": 25.24
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data29",
+   "label": "MuSiQue corpus (seed 7, draw 3)",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.2165,
+    "p50": 0.2042,
+    "p90": 0.3173,
+    "p95": 0.3482,
+    "p99": 0.4151,
+    "max": 0.586,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 2.0079,
+    "p50": 1.9845,
+    "p90": 2.3992,
+    "p95": 2.5876,
+    "p99": 2.8746,
+    "max": 3.1717,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.0119,
+    "p50": 0.0108,
+    "p95": 0.0318,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 6.425,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -2.575,
+     "ci95": [
+      -2.725,
+      -2.42
+     ],
+     "relative_saving_pct": 28.61
+    },
+    "input_tokens": {
+     "guarded_mean": 2946.08,
+     "full_budget_mean": 4851.81,
+     "paired_mean_delta": -1905.73,
+     "ci95": [
+      -2039.6628,
+      -1772.1324
+     ],
+     "relative_saving_pct": 39.28
+    },
+    "wall_seconds": {
+     "guarded_mean": 1.472,
+     "full_budget_mean": 2.0079,
+     "paired_mean_delta": -0.5359,
+     "ci95": [
+      -0.5725,
+      -0.4994
+     ],
+     "relative_saving_pct": 26.69
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "wiki25m_guarded_qwen3b",
+   "label": "Wikipedia 25M hybrid",
+   "backbone": {
+    "requested_model": "qwen2.5:3b-instruct",
+    "backend": "ollama",
+    "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.6096,
+    "p50": 0.544,
+    "p90": 0.999,
+    "p95": 1.1379,
+    "p99": 1.4469,
+    "max": 2.6493,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 11.7544,
+    "p50": 10.8737,
+    "p90": 17.503,
+    "p95": 19.605,
+    "p99": 26.0983,
+    "max": 31.8832,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 1.25365,
+    "p50": 0.9985,
+    "p95": 3.6546,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 5.895,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -3.105,
+     "ci95": [
+      -3.285,
+      -2.925
+     ],
+     "relative_saving_pct": 34.5
+    },
+    "input_tokens": {
+     "guarded_mean": 1116.885,
+     "full_budget_mean": 1968.95,
+     "paired_mean_delta": -852.065,
+     "ci95": [
+      -902.6691,
+      -801.2796
+     ],
+     "relative_saving_pct": 43.28
+    },
+    "wall_seconds": {
+     "guarded_mean": 7.5474,
+     "full_budget_mean": 11.7544,
+     "paired_mean_delta": -4.207,
+     "ci95": [
+      -4.5208,
+      -3.9032
+     ],
+     "relative_saving_pct": 35.79
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_llama3b_data17",
+   "label": "Corpus / Llama-3.2-3B (q-sample B)",
+   "backbone": {
+    "requested_model": "llama3.2:3b",
+    "backend": "ollama",
+    "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+    "quantization_level": "Q4_K_M"
+   },
+   "n_test_questions": 400,
+   "n_llm_calls_logged_full_budget": 3600,
+   "per_llm_call_latency_seconds": {
+    "mean": 0.7864,
+    "p50": 0.6866,
+    "p90": 1.2341,
+    "p95": 1.4884,
+    "p99": 2.1756,
+    "max": 4.1082,
+    "n": 3600
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 7.9567,
+    "p50": 7.6913,
+    "p90": 10.2963,
+    "p95": 11.629,
+    "p99": 14.8968,
+    "max": 21.5795,
+    "n": 400
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.17586,
+    "p50": 0.1429,
+    "p95": 0.4782,
+    "n": 2000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 7.605,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -1.395,
+     "ci95": [
+      -1.545,
+      -1.245
+     ],
+     "relative_saving_pct": 15.5
+    },
+    "input_tokens": {
+     "guarded_mean": 1582.855,
+     "full_budget_mean": 1996.7925,
+     "paired_mean_delta": -413.9375,
+     "ci95": [
+      -459.0704,
+      -369.0081
+     ],
+     "relative_saving_pct": 20.73
+    },
+    "wall_seconds": {
+     "guarded_mean": 6.6973,
+     "full_budget_mean": 7.9567,
+     "paired_mean_delta": -1.2594,
+     "ci95": [
+      -1.4076,
+      -1.1153
+     ],
+     "relative_saving_pct": 15.83
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data17",
+   "label": "Corpus / Haiku 4.5 (q-sample B)",
+   "backbone": {
+    "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "backend": "amazon-bedrock",
+    "digest": null,
+    "quantization_level": null
+   },
+   "n_test_questions": 200,
+   "n_llm_calls_logged_full_budget": 1800,
+   "per_llm_call_latency_seconds": {
+    "mean": 1.4478,
+    "p50": 1.2996,
+    "p90": 1.6011,
+    "p95": 1.8132,
+    "p99": 2.338,
+    "max": 62.5294,
+    "n": 1800
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 13.4302,
+    "p50": 12.415,
+    "p90": 13.7484,
+    "p95": 14.4797,
+    "p99": 71.8781,
+    "max": 75.019,
+    "n": 200
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.08001,
+    "p50": 0.0093,
+    "p95": 0.425,
+    "n": 1000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 5.59,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -3.41,
+     "ci95": [
+      -3.67,
+      -3.14
+     ],
+     "relative_saving_pct": 37.89
+    },
+    "input_tokens": {
+     "guarded_mean": 1085.54,
+     "full_budget_mean": 2142.345,
+     "paired_mean_delta": -1056.805,
+     "ci95": [
+      -1144.497,
+      -970.2097
+     ],
+     "relative_saving_pct": 49.33
+    },
+    "wall_seconds": {
+     "guarded_mean": 7.7308,
+     "full_budget_mean": 13.4302,
+     "paired_mean_delta": -5.6994,
+     "ci95": [
+      -6.9463,
+      -4.7209
+     ],
+     "relative_saving_pct": 42.44
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data23",
+   "label": "Corpus / Haiku 4.5 (q-sample C)",
+   "backbone": {
+    "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "backend": "amazon-bedrock",
+    "digest": null,
+    "quantization_level": null
+   },
+   "n_test_questions": 200,
+   "n_llm_calls_logged_full_budget": 1800,
+   "per_llm_call_latency_seconds": {
+    "mean": 1.4373,
+    "p50": 1.2961,
+    "p90": 1.5887,
+    "p95": 1.7391,
+    "p99": 2.383,
+    "max": 62.3334,
+    "n": 1800
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 13.3898,
+    "p50": 12.42,
+    "p90": 13.8487,
+    "p95": 14.4792,
+    "p99": 72.4705,
+    "max": 75.1954,
+    "n": 200
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.09083,
+    "p50": 0.0095,
+    "p95": 0.4436,
+    "n": 1000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 7.32,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -1.68,
+     "ci95": [
+      -1.89,
+      -1.46
+     ],
+     "relative_saving_pct": 18.67
+    },
+    "input_tokens": {
+     "guarded_mean": 1558.36,
+     "full_budget_mean": 2133.925,
+     "paired_mean_delta": -575.565,
+     "ci95": [
+      -653.3409,
+      -497.5941
+     ],
+     "relative_saving_pct": 26.97
+    },
+    "wall_seconds": {
+     "guarded_mean": 10.611,
+     "full_budget_mean": 13.3898,
+     "paired_mean_delta": -2.7788,
+     "ci95": [
+      -3.6031,
+      -2.2007
+     ],
+     "relative_saving_pct": 20.75
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data29",
+   "label": "Corpus / Haiku 4.5 (q-sample D)",
+   "backbone": {
+    "requested_model": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
+    "backend": "amazon-bedrock",
+    "digest": null,
+    "quantization_level": null
+   },
+   "n_test_questions": 200,
+   "n_llm_calls_logged_full_budget": 1800,
+   "per_llm_call_latency_seconds": {
+    "mean": 1.4403,
+    "p50": 1.2996,
+    "p90": 1.6067,
+    "p95": 1.7938,
+    "p99": 2.4034,
+    "max": 62.7292,
+    "n": 1800
+   },
+   "per_question_wall_seconds_full_budget": {
+    "mean": 13.3979,
+    "p50": 12.3432,
+    "p90": 13.7319,
+    "p95": 14.4333,
+    "p99": 73.1587,
+    "max": 75.8326,
+    "n": 200
+   },
+   "per_retrieval_latency_seconds": {
+    "mean": 0.08703,
+    "p50": 0.0095,
+    "p95": 0.4334,
+    "n": 1000
+   },
+   "paired_cost_delta_guarded_minus_full": {
+    "calls": {
+     "guarded_mean": 5.94,
+     "full_budget_mean": 9.0,
+     "paired_mean_delta": -3.06,
+     "ci95": [
+      -3.29,
+      -2.83
+     ],
+     "relative_saving_pct": 34.0
+    },
+    "input_tokens": {
+     "guarded_mean": 1141.04,
+     "full_budget_mean": 2133.315,
+     "paired_mean_delta": -992.275,
+     "ci95": [
+      -1077.0859,
+      -909.4694
+     ],
+     "relative_saving_pct": 46.51
+    },
+    "wall_seconds": {
+     "guarded_mean": 9.0663,
+     "full_budget_mean": 13.3979,
+     "paired_mean_delta": -4.3316,
+     "ci95": [
+      -4.6705,
+      -3.9922
+     ],
+     "relative_saving_pct": 32.33
+    }
+   },
+   "billed_cost_usd": null,
+   "billed_cost_note": "not measured; no invoice or pricing telemetry exists for any run in this artifact",
+   "failure_or_timeout_count": null,
+   "failure_note": "NOT LOGGED. run_experiment.py retries inside a bare except and writes no failure code, so the failure rate is unknown for every completed cell; it is not zero-by-evidence."
+  }
+ ]
+}

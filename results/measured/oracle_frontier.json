@@ -1,0 +1,263 @@
+{
+ "convention": "stop at the first prefix with prefix_em == 1; charge the full budget when no prefix is correct",
+ "stored_field_rejected": "per_q.oracle_searches is argmax (prefix_em, -searches) and charges 0 searches to never-correct questions; not used here",
+ "cells": {
+  "corpus_guarded_qwen3b": {
+   "n": 400,
+   "oracle": {
+    "em": 29.5,
+    "searches": 3.138,
+    "llm_calls": 7.275
+   },
+   "full_budget": {
+    "em": 24.5,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.295,
+   "stored_oracle_searches_mean": 0.3175,
+   "headroom_em": 5.0,
+   "calls_saved": 1.725,
+   "label": "A s7"
+  },
+  "corpus_guarded_qwen3b_seed11": {
+   "n": 400,
+   "oracle": {
+    "em": 30.25,
+    "searches": 3.118,
+    "llm_calls": 7.235
+   },
+   "full_budget": {
+    "em": 25.0,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.3025,
+   "stored_oracle_searches_mean": 0.3275,
+   "headroom_em": 5.25,
+   "calls_saved": 1.765,
+   "label": "A s11"
+  },
+  "corpus_guarded_qwen3b_seed19": {
+   "n": 400,
+   "oracle": {
+    "em": 30.25,
+    "searches": 3.127,
+    "llm_calls": 7.255
+   },
+   "full_budget": {
+    "em": 26.0,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.3025,
+   "stored_oracle_searches_mean": 0.3375,
+   "headroom_em": 4.25,
+   "calls_saved": 1.745,
+   "label": "A s19"
+  },
+  "corpus_guarded_qwen3b_data17": {
+   "n": 400,
+   "oracle": {
+    "em": 37.0,
+    "searches": 2.998,
+    "llm_calls": 6.995
+   },
+   "full_budget": {
+    "em": 31.25,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.37,
+   "stored_oracle_searches_mean": 0.4775,
+   "headroom_em": 5.75,
+   "calls_saved": 2.005,
+   "label": "B"
+  },
+  "corpus_guarded_qwen3b_data23": {
+   "n": 400,
+   "oracle": {
+    "em": 30.25,
+    "searches": 3.228,
+    "llm_calls": 7.455
+   },
+   "full_budget": {
+    "em": 26.5,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.3025,
+   "stored_oracle_searches_mean": 0.4375,
+   "headroom_em": 3.75,
+   "calls_saved": 1.545,
+   "label": "C"
+  },
+  "corpus_guarded_qwen3b_data29": {
+   "n": 400,
+   "oracle": {
+    "em": 32.25,
+    "searches": 3.12,
+    "llm_calls": 7.24
+   },
+   "full_budget": {
+    "em": 25.5,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.3225,
+   "stored_oracle_searches_mean": 0.41,
+   "headroom_em": 6.75,
+   "calls_saved": 1.76,
+   "label": "D"
+  },
+  "corpus_guarded_qwen3b_data31": {
+   "n": 400,
+   "oracle": {
+    "em": 39.0,
+    "searches": 2.938,
+    "llm_calls": 6.875
+   },
+   "full_budget": {
+    "em": 34.25,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.39,
+   "stored_oracle_searches_mean": 0.4975,
+   "headroom_em": 4.75,
+   "calls_saved": 2.125,
+   "label": "E"
+  },
+  "corpus2wiki_guarded_qwen3b_data17": {
+   "n": 400,
+   "oracle": {
+    "em": 30.25,
+    "searches": 3.115,
+    "llm_calls": 7.23
+   },
+   "full_budget": {
+    "em": 23.25,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.3025,
+   "stored_oracle_searches_mean": 0.325,
+   "headroom_em": 7.0,
+   "calls_saved": 1.77,
+   "label": "2Wiki d1"
+  },
+  "corpus2wiki_guarded_qwen3b_data23": {
+   "n": 400,
+   "oracle": {
+    "em": 31.25,
+    "searches": 3.155,
+    "llm_calls": 7.31
+   },
+   "full_budget": {
+    "em": 25.25,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.3125,
+   "stored_oracle_searches_mean": 0.405,
+   "headroom_em": 6.0,
+   "calls_saved": 1.69,
+   "label": "2Wiki d2"
+  },
+  "corpus2wiki_guarded_qwen3b_data29": {
+   "n": 400,
+   "oracle": {
+    "em": 33.5,
+    "searches": 3.038,
+    "llm_calls": 7.075
+   },
+   "full_budget": {
+    "em": 25.5,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.335,
+   "stored_oracle_searches_mean": 0.3775,
+   "headroom_em": 8.0,
+   "calls_saved": 1.925,
+   "label": "2Wiki d3"
+  },
+  "corpusmusique_guarded_qwen3b_data17": {
+   "n": 400,
+   "oracle": {
+    "em": 11.25,
+    "searches": 3.777,
+    "llm_calls": 8.555
+   },
+   "full_budget": {
+    "em": 9.25,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.1125,
+   "stored_oracle_searches_mean": 0.2275,
+   "headroom_em": 2.0,
+   "calls_saved": 0.445,
+   "label": "MuSiQue d1"
+  },
+  "corpusmusique_guarded_qwen3b_data23": {
+   "n": 400,
+   "oracle": {
+    "em": 12.5,
+    "searches": 3.712,
+    "llm_calls": 8.425
+   },
+   "full_budget": {
+    "em": 10.25,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.125,
+   "stored_oracle_searches_mean": 0.2125,
+   "headroom_em": 2.25,
+   "calls_saved": 0.575,
+   "label": "MuSiQue d2"
+  },
+  "corpusmusique_guarded_qwen3b_data29": {
+   "n": 400,
+   "oracle": {
+    "em": 13.75,
+    "searches": 3.695,
+    "llm_calls": 8.39
+   },
+   "full_budget": {
+    "em": 12.0,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.1375,
+   "stored_oracle_searches_mean": 0.245,
+   "headroom_em": 1.75,
+   "calls_saved": 0.61,
+   "label": "MuSiQue d3"
+  },
+  "wiki25m_guarded_qwen3b": {
+   "n": 400,
+   "oracle": {
+    "em": 26.75,
+    "searches": 3.19,
+    "llm_calls": 7.38
+   },
+   "full_budget": {
+    "em": 21.5,
+    "searches": 4.0,
+    "llm_calls": 9.0
+   },
+   "reachable_rate": 0.2675,
+   "stored_oracle_searches_mean": 0.26,
+   "headroom_em": 5.25,
+   "calls_saved": 1.62,
+   "label": "Wiki 25M"
+  }
+ },
+ "headroom_em_min": 1.75,
+ "headroom_em_max": 8.0,
+ "headroom_em_mean": 4.84,
+ "cells_where_oracle_beats_full": 14,
+ "n_cells": 14
+}

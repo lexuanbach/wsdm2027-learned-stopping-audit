@@ -1,0 +1,3718 @@
+{
+ "status": "derived_from_frozen_measured_runs_no_new_llm_calls",
+ "n_boot": 400,
+ "seed": 2027,
+ "nested_refit_select": {
+  "corpus_guarded_qwen3b": {
+   "tag": "corpus_guarded_qwen3b",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.0,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.04,
+   "lambda_frequency": {
+    "0.01": 4,
+    "0.02": 20,
+    "0.04": 44,
+    "0.07": 64,
+    "0.12": 93,
+    "0.2": 175
+   },
+   "lambda_logged_frequency": 0.11,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 0,
+    "2": 71,
+    "3": 329,
+    "4": 0
+   },
+   "guarded_em": {
+    "mean": 24.431,
+    "p2.5": 24.0,
+    "p50": 24.25,
+    "p97.5": 25.0
+   },
+   "guarded_calls": {
+    "mean": 6.241,
+    "p2.5": 5.78,
+    "p50": 6.107,
+    "p97.5": 7.205
+   },
+   "value_em": {
+    "mean": 22.704,
+    "p2.5": 18.5,
+    "p50": 23.125,
+    "p97.5": 25.5
+   },
+   "value_calls": {
+    "mean": 4.929,
+    "p2.5": 3.285,
+    "p50": 4.822,
+    "p97.5": 6.86
+   },
+   "guarded_minus_full_em": {
+    "mean": -0.069,
+    "p2.5": -0.5,
+    "p50": -0.25,
+    "p97.5": 0.5
+   },
+   "value_minus_full_em": {
+    "mean": -1.796,
+    "p2.5": -6.0,
+    "p50": -1.375,
+    "p97.5": 1.0
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -0.481,
+    "p2.5": -1.0,
+    "p50": -0.5,
+    "p97.5": 0.25
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": -0.069,
+    "p2.5": -0.5,
+    "p50": -0.25,
+    "p97.5": 0.5
+   },
+   "value_minus_fixed2_em": {
+    "mean": -1.796,
+    "p2.5": -6.0,
+    "p50": -1.375,
+    "p97.5": 1.0
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 0.75,
+   "p_value_dominated_by_simple": 0.22,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.713,
+    "fixed-3": 0.055,
+    "fixed-4": 0.0,
+    "repetition": 0.51
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.022,
+    "fixed-2": 0.198,
+    "fixed-3": 0.005,
+    "fixed-4": 0.0,
+    "repetition": 0.033
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.102,
+   "p_value_strictly_beats_bstar": 0.145,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -0.109,
+    "p2.5": -1.75,
+    "p50": 0.0,
+    "p97.5": 1.25
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": -0.055,
+    "p2.5": -1.75,
+    "p50": 0.0,
+    "p97.5": 1.75
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -1.786,
+    "p2.5": -7.25,
+    "p50": -1.25,
+    "p97.5": 1.756
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus_guarded_qwen3b_seed11": {
+   "tag": "corpus_guarded_qwen3b_seed11",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.008622,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.07,
+   "lambda_frequency": {
+    "0.01": 3,
+    "0.02": 10,
+    "0.04": 21,
+    "0.07": 31,
+    "0.12": 63,
+    "0.2": 272
+   },
+   "lambda_logged_frequency": 0.077,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 1,
+    "2": 5,
+    "3": 394,
+    "4": 0
+   },
+   "guarded_em": {
+    "mean": 24.886,
+    "p2.5": 24.5,
+    "p50": 25.0,
+    "p97.5": 25.25
+   },
+   "guarded_calls": {
+    "mean": 6.071,
+    "p2.5": 5.745,
+    "p50": 5.93,
+    "p97.5": 7.156
+   },
+   "value_em": {
+    "mean": 21.956,
+    "p2.5": 19.0,
+    "p50": 21.5,
+    "p97.5": 25.75
+   },
+   "value_calls": {
+    "mean": 4.286,
+    "p2.5": 3.06,
+    "p50": 4.008,
+    "p97.5": 6.696
+   },
+   "guarded_minus_full_em": {
+    "mean": -0.114,
+    "p2.5": -0.5,
+    "p50": 0.0,
+    "p97.5": 0.25
+   },
+   "value_minus_full_em": {
+    "mean": -3.044,
+    "p2.5": -6.0,
+    "p50": -3.5,
+    "p97.5": 0.75
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -0.355,
+    "p2.5": -0.75,
+    "p50": -0.25,
+    "p97.5": 0.006
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": -0.864,
+    "p2.5": -1.25,
+    "p50": -0.75,
+    "p97.5": -0.5
+   },
+   "value_minus_fixed2_em": {
+    "mean": -3.794,
+    "p2.5": -6.75,
+    "p50": -4.25,
+    "p97.5": 0.0
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 1.0,
+   "p_value_dominated_by_simple": 0.24,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 1.0,
+    "fixed-3": 0.04,
+    "fixed-4": 0.0,
+    "repetition": 0.873
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.048,
+    "fixed-2": 0.193,
+    "fixed-3": 0.013,
+    "fixed-4": 0.0,
+    "repetition": 0.037
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.12,
+   "p_value_strictly_beats_bstar": 0.095,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -0.153,
+    "p2.5": -1.5,
+    "p50": -0.25,
+    "p97.5": 1.25
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": -0.834,
+    "p2.5": -3.0,
+    "p50": -0.75,
+    "p97.5": 1.0
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -3.089,
+    "p2.5": -7.756,
+    "p50": -3.25,
+    "p97.5": 1.256
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus_guarded_qwen3b_seed19": {
+   "tag": "corpus_guarded_qwen3b_seed19",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.0,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.04,
+   "lambda_frequency": {
+    "0.01": 42,
+    "0.02": 64,
+    "0.04": 69,
+    "0.07": 80,
+    "0.12": 66,
+    "0.2": 79
+   },
+   "lambda_logged_frequency": 0.172,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 0,
+    "2": 105,
+    "3": 295,
+    "4": 0
+   },
+   "guarded_em": {
+    "mean": 25.589,
+    "p2.5": 25.0,
+    "p50": 25.5,
+    "p97.5": 26.25
+   },
+   "guarded_calls": {
+    "mean": 6.517,
+    "p2.5": 5.745,
+    "p50": 6.502,
+    "p97.5": 7.445
+   },
+   "value_em": {
+    "mean": 23.84,
+    "p2.5": 18.75,
+    "p50": 24.75,
+    "p97.5": 26.25
+   },
+   "value_calls": {
+    "mean": 5.548,
+    "p2.5": 3.28,
+    "p50": 5.8,
+    "p97.5": 7.235
+   },
+   "guarded_minus_full_em": {
+    "mean": -0.411,
+    "p2.5": -1.0,
+    "p50": -0.5,
+    "p97.5": 0.25
+   },
+   "value_minus_full_em": {
+    "mean": -2.16,
+    "p2.5": -7.25,
+    "p50": -1.25,
+    "p97.5": 0.25
+   },
+   "guarded_minus_bstar_em": {
+    "mean": 0.048,
+    "p2.5": -1.0,
+    "p50": -0.25,
+    "p97.5": 1.75
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": 1.339,
+    "p2.5": 0.75,
+    "p50": 1.25,
+    "p97.5": 2.0
+   },
+   "value_minus_fixed2_em": {
+    "mean": -0.41,
+    "p2.5": -5.5,
+    "p50": 0.5,
+    "p97.5": 2.0
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 0.67,
+   "p_value_dominated_by_simple": 0.48,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.0,
+    "fixed-3": 0.177,
+    "fixed-4": 0.0,
+    "repetition": 0.545
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.022,
+    "fixed-2": 0.095,
+    "fixed-3": 0.07,
+    "fixed-4": 0.0,
+    "repetition": 0.352
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.098,
+   "p_value_strictly_beats_bstar": 0.043,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -0.456,
+    "p2.5": -2.0,
+    "p50": -0.5,
+    "p97.5": 0.756
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": 1.337,
+    "p2.5": -0.75,
+    "p50": 1.25,
+    "p97.5": 3.5
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -2.203,
+    "p2.5": -8.25,
+    "p50": -1.5,
+    "p97.5": 0.75
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus_guarded_qwen3b_data17": {
+   "tag": "corpus_guarded_qwen3b_data17",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.057909,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.04,
+   "lambda_frequency": {
+    "0.01": 4,
+    "0.02": 7,
+    "0.04": 11,
+    "0.07": 18,
+    "0.12": 47,
+    "0.2": 313
+   },
+   "lambda_logged_frequency": 0.028,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 0,
+    "2": 22,
+    "3": 126,
+    "4": 252
+   },
+   "guarded_em": {
+    "mean": 28.271,
+    "p2.5": 27.5,
+    "p50": 28.0,
+    "p97.5": 29.5
+   },
+   "guarded_calls": {
+    "mean": 6.061,
+    "p2.5": 5.79,
+    "p50": 5.975,
+    "p97.5": 6.99
+   },
+   "value_em": {
+    "mean": 27.487,
+    "p2.5": 24.25,
+    "p50": 27.5,
+    "p97.5": 29.756
+   },
+   "value_calls": {
+    "mean": 4.46,
+    "p2.5": 3.575,
+    "p50": 4.27,
+    "p97.5": 6.831
+   },
+   "guarded_minus_full_em": {
+    "mean": -2.979,
+    "p2.5": -3.75,
+    "p50": -3.25,
+    "p97.5": -1.75
+   },
+   "value_minus_full_em": {
+    "mean": -3.763,
+    "p2.5": -7.0,
+    "p50": -3.75,
+    "p97.5": -1.494
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -2.934,
+    "p2.5": -3.75,
+    "p50": -3.25,
+    "p97.5": -0.75
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": -0.729,
+    "p2.5": -1.5,
+    "p50": -1.0,
+    "p97.5": 0.5
+   },
+   "value_minus_fixed2_em": {
+    "mean": -1.513,
+    "p2.5": -4.75,
+    "p50": -1.5,
+    "p97.5": 0.756
+   },
+   "p_guarded_point_below_margin": 0.512,
+   "p_guarded_dominated_by_simple": 0.925,
+   "p_value_dominated_by_simple": 0.07,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.905,
+    "fixed-3": 0.022,
+    "fixed-4": 0.0,
+    "repetition": 0.24
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.003,
+    "fixed-2": 0.052,
+    "fixed-3": 0.018,
+    "fixed-4": 0.0,
+    "repetition": 0.0
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.0,
+   "p_value_strictly_beats_bstar": 0.0,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -2.934,
+    "p2.5": -5.25,
+    "p50": -3.0,
+    "p97.5": -1.0
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": -0.651,
+    "p2.5": -2.75,
+    "p50": -0.75,
+    "p97.5": 1.256
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -3.776,
+    "p2.5": -8.006,
+    "p50": -3.5,
+    "p97.5": -0.25
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus_guarded_qwen3b_data23": {
+   "tag": "corpus_guarded_qwen3b_data23",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.016005,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.2,
+   "lambda_frequency": {
+    "0.01": 8,
+    "0.02": 6,
+    "0.04": 21,
+    "0.07": 43,
+    "0.12": 66,
+    "0.2": 256
+   },
+   "lambda_logged_frequency": 0.64,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 0,
+    "2": 140,
+    "3": 260,
+    "4": 0
+   },
+   "guarded_em": {
+    "mean": 23.401,
+    "p2.5": 23.0,
+    "p50": 23.25,
+    "p97.5": 24.506
+   },
+   "guarded_calls": {
+    "mean": 6.034,
+    "p2.5": 5.9,
+    "p50": 5.93,
+    "p97.5": 6.85
+   },
+   "value_em": {
+    "mean": 15.317,
+    "p2.5": 10.75,
+    "p50": 14.5,
+    "p97.5": 23.5
+   },
+   "value_calls": {
+    "mean": 3.237,
+    "p2.5": 2.16,
+    "p50": 2.925,
+    "p97.5": 6.172
+   },
+   "guarded_minus_full_em": {
+    "mean": -3.099,
+    "p2.5": -3.5,
+    "p50": -3.25,
+    "p97.5": -1.994
+   },
+   "value_minus_full_em": {
+    "mean": -11.183,
+    "p2.5": -15.75,
+    "p50": -12.0,
+    "p97.5": -3.0
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -0.474,
+    "p2.5": -1.75,
+    "p50": -1.0,
+    "p97.5": 1.0
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": 1.151,
+    "p2.5": 0.75,
+    "p50": 1.0,
+    "p97.5": 2.256
+   },
+   "value_minus_fixed2_em": {
+    "mean": -6.933,
+    "p2.5": -11.5,
+    "p50": -7.75,
+    "p97.5": 1.25
+   },
+   "p_guarded_point_below_margin": 0.698,
+   "p_guarded_dominated_by_simple": 0.505,
+   "p_value_dominated_by_simple": 0.072,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.0,
+    "fixed-3": 0.013,
+    "fixed-4": 0.0,
+    "repetition": 0.492
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.003,
+    "fixed-1": 0.022,
+    "fixed-2": 0.033,
+    "fixed-3": 0.005,
+    "fixed-4": 0.0,
+    "repetition": 0.013
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.005,
+   "p_value_strictly_beats_bstar": 0.003,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -3.066,
+    "p2.5": -5.0,
+    "p50": -3.0,
+    "p97.5": -1.244
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": 1.134,
+    "p2.5": -0.756,
+    "p50": 1.25,
+    "p97.5": 3.256
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -11.191,
+    "p2.5": -18.506,
+    "p50": -11.625,
+    "p97.5": -2.744
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus_guarded_qwen3b_data29": {
+   "tag": "corpus_guarded_qwen3b_data29",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.049974,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.04,
+   "lambda_frequency": {
+    "0.01": 46,
+    "0.02": 47,
+    "0.04": 43,
+    "0.07": 56,
+    "0.12": 77,
+    "0.2": 131
+   },
+   "lambda_logged_frequency": 0.107,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 3,
+    "2": 157,
+    "3": 37,
+    "4": 203
+   },
+   "guarded_em": {
+    "mean": 26.512,
+    "p2.5": 25.75,
+    "p50": 26.5,
+    "p97.5": 27.0
+   },
+   "guarded_calls": {
+    "mean": 6.396,
+    "p2.5": 5.895,
+    "p50": 6.115,
+    "p97.5": 7.895
+   },
+   "value_em": {
+    "mean": 22.881,
+    "p2.5": 19.244,
+    "p50": 23.125,
+    "p97.5": 26.5
+   },
+   "value_calls": {
+    "mean": 4.58,
+    "p2.5": 3.02,
+    "p50": 4.197,
+    "p97.5": 7.425
+   },
+   "guarded_minus_full_em": {
+    "mean": 1.012,
+    "p2.5": 0.25,
+    "p50": 1.0,
+    "p97.5": 1.5
+   },
+   "value_minus_full_em": {
+    "mean": -2.619,
+    "p2.5": -6.256,
+    "p50": -2.375,
+    "p97.5": 1.0
+   },
+   "guarded_minus_bstar_em": {
+    "mean": 0.964,
+    "p2.5": 0.0,
+    "p50": 1.0,
+    "p97.5": 1.5
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": 1.012,
+    "p2.5": 0.25,
+    "p50": 1.0,
+    "p97.5": 1.5
+   },
+   "value_minus_fixed2_em": {
+    "mean": -2.619,
+    "p2.5": -6.256,
+    "p50": -2.375,
+    "p97.5": 1.0
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 0.725,
+   "p_value_dominated_by_simple": 0.357,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.015,
+    "fixed-3": 0.15,
+    "fixed-4": 0.0,
+    "repetition": 0.725
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.077,
+    "fixed-2": 0.155,
+    "fixed-3": 0.077,
+    "fixed-4": 0.0,
+    "repetition": 0.203
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.583,
+   "p_value_strictly_beats_bstar": 0.21,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": 0.993,
+    "p2.5": -0.75,
+    "p50": 1.0,
+    "p97.5": 2.756
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": 0.969,
+    "p2.5": -1.006,
+    "p50": 1.0,
+    "p97.5": 3.0
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -2.669,
+    "p2.5": -8.75,
+    "p50": -2.25,
+    "p97.5": 2.25
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus_guarded_qwen3b_data31": {
+   "tag": "corpus_guarded_qwen3b_data31",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.0,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.02,
+   "lambda_frequency": {
+    "0.01": 57,
+    "0.02": 54,
+    "0.04": 50,
+    "0.07": 69,
+    "0.12": 77,
+    "0.2": 93
+   },
+   "lambda_logged_frequency": 0.135,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 5,
+    "2": 16,
+    "3": 12,
+    "4": 367
+   },
+   "guarded_em": {
+    "mean": 33.424,
+    "p2.5": 32.0,
+    "p50": 33.625,
+    "p97.5": 34.5
+   },
+   "guarded_calls": {
+    "mean": 6.839,
+    "p2.5": 5.745,
+    "p50": 6.655,
+    "p97.5": 8.365
+   },
+   "value_em": {
+    "mean": 30.311,
+    "p2.5": 25.75,
+    "p50": 30.75,
+    "p97.5": 34.0
+   },
+   "value_calls": {
+    "mean": 5.457,
+    "p2.5": 3.109,
+    "p50": 5.332,
+    "p97.5": 8.205
+   },
+   "guarded_minus_full_em": {
+    "mean": -0.826,
+    "p2.5": -2.25,
+    "p50": -0.625,
+    "p97.5": 0.25
+   },
+   "value_minus_full_em": {
+    "mean": -3.939,
+    "p2.5": -8.5,
+    "p50": -3.5,
+    "p97.5": -0.25
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -0.557,
+    "p2.5": -2.25,
+    "p50": -0.5,
+    "p97.5": 1.006
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": 1.924,
+    "p2.5": 0.5,
+    "p50": 2.125,
+    "p97.5": 3.0
+   },
+   "value_minus_fixed2_em": {
+    "mean": -1.189,
+    "p2.5": -5.75,
+    "p50": -0.75,
+    "p97.5": 2.5
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 0.075,
+   "p_value_dominated_by_simple": 0.177,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.0,
+    "fixed-3": 0.003,
+    "fixed-4": 0.0,
+    "repetition": 0.072
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.033,
+    "fixed-2": 0.09,
+    "fixed-3": 0.025,
+    "fixed-4": 0.0,
+    "repetition": 0.06
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.25,
+   "p_value_strictly_beats_bstar": 0.018,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -0.848,
+    "p2.5": -3.75,
+    "p50": -0.75,
+    "p97.5": 1.0
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": 1.916,
+    "p2.5": -0.506,
+    "p50": 2.0,
+    "p97.5": 4.75
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -3.914,
+    "p2.5": -10.25,
+    "p50": -3.25,
+    "p97.5": 0.25
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus2wiki_guarded_qwen3b_data17": {
+   "tag": "corpus2wiki_guarded_qwen3b_data17",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.0,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.2,
+   "lambda_frequency": {
+    "0.01": 0,
+    "0.02": 0,
+    "0.04": 0,
+    "0.07": 8,
+    "0.12": 75,
+    "0.2": 317
+   },
+   "lambda_logged_frequency": 0.792,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 12,
+    "2": 141,
+    "3": 247,
+    "4": 0
+   },
+   "guarded_em": {
+    "mean": 23.505,
+    "p2.5": 23.5,
+    "p50": 23.5,
+    "p97.5": 23.506
+   },
+   "guarded_calls": {
+    "mean": 5.562,
+    "p2.5": 5.495,
+    "p50": 5.545,
+    "p97.5": 5.72
+   },
+   "value_em": {
+    "mean": 20.981,
+    "p2.5": 18.5,
+    "p50": 21.125,
+    "p97.5": 23.0
+   },
+   "value_calls": {
+    "mean": 3.5,
+    "p2.5": 2.785,
+    "p50": 3.45,
+    "p97.5": 4.526
+   },
+   "guarded_minus_full_em": {
+    "mean": 0.255,
+    "p2.5": 0.25,
+    "p50": 0.25,
+    "p97.5": 0.256
+   },
+   "value_minus_full_em": {
+    "mean": -2.269,
+    "p2.5": -4.75,
+    "p50": -2.125,
+    "p97.5": -0.25
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -0.822,
+    "p2.5": -1.5,
+    "p50": -0.75,
+    "p97.5": 5.5
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": -1.495,
+    "p2.5": -1.5,
+    "p50": -1.5,
+    "p97.5": -1.494
+   },
+   "value_minus_fixed2_em": {
+    "mean": -4.019,
+    "p2.5": -6.5,
+    "p50": -3.875,
+    "p97.5": -2.0
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 1.0,
+   "p_value_dominated_by_simple": 0.007,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 1.0,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.897
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.005,
+    "fixed-2": 0.003,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.0
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.0,
+   "p_value_strictly_beats_bstar": 0.013,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": 0.251,
+    "p2.5": -2.25,
+    "p50": 0.25,
+    "p97.5": 2.25
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": -1.476,
+    "p2.5": -3.0,
+    "p50": -1.5,
+    "p97.5": 0.0
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -2.252,
+    "p2.5": -6.25,
+    "p50": -2.0,
+    "p97.5": 1.25
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus2wiki_guarded_qwen3b_data23": {
+   "tag": "corpus2wiki_guarded_qwen3b_data23",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.04777,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.2,
+   "lambda_frequency": {
+    "0.01": 14,
+    "0.02": 28,
+    "0.04": 28,
+    "0.07": 56,
+    "0.12": 66,
+    "0.2": 208
+   },
+   "lambda_logged_frequency": 0.52,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 11,
+    "2": 34,
+    "3": 124,
+    "4": 231
+   },
+   "guarded_em": {
+    "mean": 23.566,
+    "p2.5": 23.0,
+    "p50": 23.5,
+    "p97.5": 24.75
+   },
+   "guarded_calls": {
+    "mean": 6.08,
+    "p2.5": 5.54,
+    "p50": 5.805,
+    "p97.5": 7.615
+   },
+   "value_em": {
+    "mean": 20.052,
+    "p2.5": 16.25,
+    "p50": 19.75,
+    "p97.5": 23.75
+   },
+   "value_calls": {
+    "mean": 4.535,
+    "p2.5": 2.955,
+    "p50": 3.99,
+    "p97.5": 7.325
+   },
+   "guarded_minus_full_em": {
+    "mean": -1.684,
+    "p2.5": -2.25,
+    "p50": -1.75,
+    "p97.5": -0.5
+   },
+   "value_minus_full_em": {
+    "mean": -5.198,
+    "p2.5": -9.0,
+    "p50": -5.5,
+    "p97.5": -1.5
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -1.469,
+    "p2.5": -2.25,
+    "p50": -1.75,
+    "p97.5": 4.75
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": -0.434,
+    "p2.5": -1.0,
+    "p50": -0.5,
+    "p97.5": 0.75
+   },
+   "value_minus_fixed2_em": {
+    "mean": -3.948,
+    "p2.5": -7.75,
+    "p50": -4.25,
+    "p97.5": -0.25
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 0.95,
+   "p_value_dominated_by_simple": 0.58,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.907,
+    "fixed-3": 0.12,
+    "fixed-4": 0.0,
+    "repetition": 0.315
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.245,
+    "fixed-2": 0.325,
+    "fixed-3": 0.07,
+    "fixed-4": 0.0,
+    "repetition": 0.19
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.003,
+   "p_value_strictly_beats_bstar": 0.0,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -1.657,
+    "p2.5": -3.75,
+    "p50": -1.75,
+    "p97.5": 0.25
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": -0.435,
+    "p2.5": -2.0,
+    "p50": -0.5,
+    "p97.5": 1.25
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -5.213,
+    "p2.5": -10.0,
+    "p50": -5.25,
+    "p97.5": -0.75
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpus2wiki_guarded_qwen3b_data29": {
+   "tag": "corpus2wiki_guarded_qwen3b_data29",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.0,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.2,
+   "lambda_frequency": {
+    "0.01": 0,
+    "0.02": 0,
+    "0.04": 0,
+    "0.07": 10,
+    "0.12": 58,
+    "0.2": 332
+   },
+   "lambda_logged_frequency": 0.83,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 0,
+    "2": 359,
+    "3": 41,
+    "4": 0
+   },
+   "guarded_em": {
+    "mean": 25.574,
+    "p2.5": 25.25,
+    "p50": 25.5,
+    "p97.5": 26.0
+   },
+   "guarded_calls": {
+    "mean": 5.692,
+    "p2.5": 5.61,
+    "p50": 5.675,
+    "p97.5": 5.89
+   },
+   "value_em": {
+    "mean": 21.387,
+    "p2.5": 9.994,
+    "p50": 23.5,
+    "p97.5": 26.0
+   },
+   "value_calls": {
+    "mean": 3.043,
+    "p2.5": 1.38,
+    "p50": 3.258,
+    "p97.5": 4.126
+   },
+   "guarded_minus_full_em": {
+    "mean": 0.074,
+    "p2.5": -0.25,
+    "p50": 0.0,
+    "p97.5": 0.5
+   },
+   "value_minus_full_em": {
+    "mean": -4.112,
+    "p2.5": -15.506,
+    "p50": -2.0,
+    "p97.5": 0.5
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -0.599,
+    "p2.5": -1.0,
+    "p50": -0.5,
+    "p97.5": 0.25
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": -0.676,
+    "p2.5": -1.0,
+    "p50": -0.75,
+    "p97.5": -0.25
+   },
+   "value_minus_fixed2_em": {
+    "mean": -4.862,
+    "p2.5": -16.256,
+    "p50": -2.75,
+    "p97.5": -0.25
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 1.0,
+   "p_value_dominated_by_simple": 0.098,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 1.0,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.292
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.098,
+    "fixed-2": 0.0,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.0
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.045,
+   "p_value_strictly_beats_bstar": 0.018,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": 0.064,
+    "p2.5": -1.75,
+    "p50": 0.0,
+    "p97.5": 2.25
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": -0.668,
+    "p2.5": -2.5,
+    "p50": -0.75,
+    "p97.5": 1.25
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -4.171,
+    "p2.5": -17.512,
+    "p50": -2.0,
+    "p97.5": 2.0
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpusmusique_guarded_qwen3b_data17": {
+   "tag": "corpusmusique_guarded_qwen3b_data17",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.00841,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.2,
+   "lambda_frequency": {
+    "0.01": 0,
+    "0.02": 1,
+    "0.04": 7,
+    "0.07": 16,
+    "0.12": 93,
+    "0.2": 283
+   },
+   "lambda_logged_frequency": 0.708,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 27,
+    "2": 36,
+    "3": 337,
+    "4": 0
+   },
+   "guarded_em": {
+    "mean": 7.422,
+    "p2.5": 7.25,
+    "p50": 7.5,
+    "p97.5": 7.5
+   },
+   "guarded_calls": {
+    "mean": 6.569,
+    "p2.5": 6.53,
+    "p50": 6.555,
+    "p97.5": 6.685
+   },
+   "value_em": {
+    "mean": 2.824,
+    "p2.5": 0.5,
+    "p50": 3.25,
+    "p97.5": 4.75
+   },
+   "value_calls": {
+    "mean": 2.524,
+    "p2.5": 1.0,
+    "p50": 2.83,
+    "p97.5": 3.746
+   },
+   "guarded_minus_full_em": {
+    "mean": -1.828,
+    "p2.5": -2.0,
+    "p50": -1.75,
+    "p97.5": -1.75
+   },
+   "value_minus_full_em": {
+    "mean": -6.426,
+    "p2.5": -8.75,
+    "p50": -6.0,
+    "p97.5": -4.5
+   },
+   "guarded_minus_bstar_em": {
+    "mean": 0.442,
+    "p2.5": 0.0,
+    "p50": 0.25,
+    "p97.5": 4.25
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": 0.172,
+    "p2.5": 0.0,
+    "p50": 0.25,
+    "p97.5": 0.25
+   },
+   "value_minus_fixed2_em": {
+    "mean": -4.426,
+    "p2.5": -6.75,
+    "p50": -4.0,
+    "p97.5": -2.5
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 0.76,
+   "p_value_dominated_by_simple": 0.048,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.315,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.76
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.003,
+    "fixed-1": 0.045,
+    "fixed-2": 0.0,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.0
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.843,
+   "p_value_strictly_beats_bstar": 0.007,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -1.786,
+    "p2.5": -3.25,
+    "p50": -1.75,
+    "p97.5": -0.5
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": 0.236,
+    "p2.5": -1.5,
+    "p50": 0.25,
+    "p97.5": 2.0
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -6.296,
+    "p2.5": -10.256,
+    "p50": -6.0,
+    "p97.5": -3.25
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpusmusique_guarded_qwen3b_data23": {
+   "tag": "corpusmusique_guarded_qwen3b_data23",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.136715,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.2,
+   "lambda_frequency": {
+    "0.01": 25,
+    "0.02": 57,
+    "0.04": 59,
+    "0.07": 50,
+    "0.12": 83,
+    "0.2": 126
+   },
+   "lambda_logged_frequency": 0.315,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 4,
+    "2": 7,
+    "3": 44,
+    "4": 345
+   },
+   "guarded_em": {
+    "mean": 9.521,
+    "p2.5": 9.25,
+    "p50": 9.5,
+    "p97.5": 10.25
+   },
+   "guarded_calls": {
+    "mean": 6.776,
+    "p2.5": 6.45,
+    "p50": 6.617,
+    "p97.5": 7.74
+   },
+   "value_em": {
+    "mean": 6.927,
+    "p2.5": 2.0,
+    "p50": 7.0,
+    "p97.5": 10.5
+   },
+   "value_calls": {
+    "mean": 4.206,
+    "p2.5": 1.245,
+    "p50": 3.792,
+    "p97.5": 7.485
+   },
+   "guarded_minus_full_em": {
+    "mean": -0.729,
+    "p2.5": -1.0,
+    "p50": -0.75,
+    "p97.5": 0.0
+   },
+   "value_minus_full_em": {
+    "mean": -3.323,
+    "p2.5": -8.25,
+    "p50": -3.25,
+    "p97.5": 0.25
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -0.572,
+    "p2.5": -1.0,
+    "p50": -0.75,
+    "p97.5": 0.5
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": -0.479,
+    "p2.5": -0.75,
+    "p50": -0.5,
+    "p97.5": 0.25
+   },
+   "value_minus_fixed2_em": {
+    "mean": -3.073,
+    "p2.5": -8.0,
+    "p50": -3.0,
+    "p97.5": 0.5
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 0.97,
+   "p_value_dominated_by_simple": 0.362,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.97,
+    "fixed-3": 0.005,
+    "fixed-4": 0.0,
+    "repetition": 0.285
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.08,
+    "fixed-2": 0.282,
+    "fixed-3": 0.013,
+    "fixed-4": 0.0,
+    "repetition": 0.022
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.128,
+   "p_value_strictly_beats_bstar": 0.138,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -0.716,
+    "p2.5": -2.25,
+    "p50": -0.75,
+    "p97.5": 0.5
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": -0.439,
+    "p2.5": -1.75,
+    "p50": -0.5,
+    "p97.5": 1.0
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -3.26,
+    "p2.5": -9.25,
+    "p50": -2.5,
+    "p97.5": 0.75
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "corpusmusique_guarded_qwen3b_data29": {
+   "tag": "corpusmusique_guarded_qwen3b_data29",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.0,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.2,
+   "lambda_frequency": {
+    "0.01": 13,
+    "0.02": 8,
+    "0.04": 24,
+    "0.07": 53,
+    "0.12": 106,
+    "0.2": 196
+   },
+   "lambda_logged_frequency": 0.49,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 59,
+    "2": 76,
+    "3": 144,
+    "4": 121
+   },
+   "guarded_em": {
+    "mean": 10.83,
+    "p2.5": 10.75,
+    "p50": 10.75,
+    "p97.5": 11.25
+   },
+   "guarded_calls": {
+    "mean": 6.546,
+    "p2.5": 6.425,
+    "p50": 6.435,
+    "p97.5": 7.886
+   },
+   "value_em": {
+    "mean": 3.264,
+    "p2.5": 0.25,
+    "p50": 1.25,
+    "p97.5": 10.506
+   },
+   "value_calls": {
+    "mean": 2.257,
+    "p2.5": 1.0,
+    "p50": 1.248,
+    "p97.5": 6.651
+   },
+   "guarded_minus_full_em": {
+    "mean": -1.17,
+    "p2.5": -1.25,
+    "p50": -1.25,
+    "p97.5": -0.75
+   },
+   "value_minus_full_em": {
+    "mean": -8.736,
+    "p2.5": -11.75,
+    "p50": -10.75,
+    "p97.5": -1.494
+   },
+   "guarded_minus_bstar_em": {
+    "mean": 0.403,
+    "p2.5": -1.25,
+    "p50": 0.0,
+    "p97.5": 5.006
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": 0.08,
+    "p2.5": 0.0,
+    "p50": 0.0,
+    "p97.5": 0.5
+   },
+   "value_minus_fixed2_em": {
+    "mean": -7.486,
+    "p2.5": -10.5,
+    "p50": -9.5,
+    "p97.5": -0.244
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 0.812,
+   "p_value_dominated_by_simple": 0.172,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 0.812,
+    "fixed-3": 0.003,
+    "fixed-4": 0.0,
+    "repetition": 0.35
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.003,
+    "fixed-1": 0.125,
+    "fixed-2": 0.045,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.022
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.345,
+   "p_value_strictly_beats_bstar": 0.005,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -1.148,
+    "p2.5": -2.25,
+    "p50": -1.25,
+    "p97.5": -0.25
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": 0.1,
+    "p2.5": -1.25,
+    "p50": 0.0,
+    "p97.5": 1.5
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -8.839,
+    "p2.5": -14.5,
+    "p50": -9.25,
+    "p97.5": -1.994
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  },
+  "wiki25m_guarded_qwen3b": {
+   "tag": "wiki25m_guarded_qwen3b",
+   "n_boot": 400,
+   "n_test": 400,
+   "n_policy_training_episodes": 90,
+   "resampling_unit": "policy-training episode (chain), with replacement",
+   "pipeline_per_replicate": [
+    "5-fold cross-fitted critic scores on the resample",
+    "guarded-rule threshold selection (cheapest within 1 EM band)",
+    "fixed-budget selection B* (max training EM)",
+    "critic refit on the full resample",
+    "frozen policies replayed on the untouched test questions"
+   ],
+   "logged_guarded_replay_match_rate": 1.0,
+   "refit_on_original_chains_max_abs_score_deviation": 0.004967,
+   "refit_on_original_chains_guarded_stop_agreement": 1.0,
+   "logged_lambda": 0.2,
+   "lambda_frequency": {
+    "0.01": 0,
+    "0.02": 0,
+    "0.04": 0,
+    "0.07": 5,
+    "0.12": 76,
+    "0.2": 319
+   },
+   "lambda_logged_frequency": 0.797,
+   "bstar_frequency": {
+    "0": 0,
+    "1": 58,
+    "2": 287,
+    "3": 23,
+    "4": 32
+   },
+   "guarded_em": {
+    "mean": 21.259,
+    "p2.5": 21.25,
+    "p50": 21.25,
+    "p97.5": 21.5
+   },
+   "guarded_calls": {
+    "mean": 5.955,
+    "p2.5": 5.875,
+    "p50": 5.945,
+    "p97.5": 6.09
+   },
+   "value_em": {
+    "mean": 17.879,
+    "p2.5": 10.0,
+    "p50": 18.5,
+    "p97.5": 20.256
+   },
+   "value_calls": {
+    "mean": 3.23,
+    "p2.5": 1.525,
+    "p50": 3.29,
+    "p97.5": 4.061
+   },
+   "guarded_minus_full_em": {
+    "mean": -0.241,
+    "p2.5": -0.25,
+    "p50": -0.25,
+    "p97.5": 0.0
+   },
+   "value_minus_full_em": {
+    "mean": -3.621,
+    "p2.5": -11.5,
+    "p50": -3.0,
+    "p97.5": -1.244
+   },
+   "guarded_minus_bstar_em": {
+    "mean": -0.773,
+    "p2.5": -1.75,
+    "p50": -1.75,
+    "p97.5": 3.5
+   },
+   "guarded_minus_fixed2_em": {
+    "mean": -1.741,
+    "p2.5": -1.75,
+    "p50": -1.75,
+    "p97.5": -1.5
+   },
+   "value_minus_fixed2_em": {
+    "mean": -5.121,
+    "p2.5": -13.0,
+    "p50": -4.5,
+    "p97.5": -2.744
+   },
+   "p_guarded_point_below_margin": 0.0,
+   "p_guarded_dominated_by_simple": 1.0,
+   "p_value_dominated_by_simple": 0.1,
+   "guarded_dominator_frequency": {
+    "fixed-0": 0.0,
+    "fixed-1": 0.0,
+    "fixed-2": 1.0,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.917
+   },
+   "value_dominator_frequency": {
+    "fixed-0": 0.003,
+    "fixed-1": 0.098,
+    "fixed-2": 0.0,
+    "fixed-3": 0.0,
+    "fixed-4": 0.0,
+    "repetition": 0.0
+   },
+   "dominator_note": "share of replicates in which each simple competitor (fixed-k or answer repetition) Pareto-dominates the refit rule; a replicate can have several dominators",
+   "p_guarded_strictly_beats_bstar": 0.0,
+   "p_value_strictly_beats_bstar": 0.003,
+   "total_uncertainty_guarded_minus_full_em": {
+    "mean": -0.245,
+    "p2.5": -1.75,
+    "p50": -0.25,
+    "p97.5": 1.25
+   },
+   "total_uncertainty_guarded_minus_fixed2_em": {
+    "mean": -1.734,
+    "p2.5": -3.5,
+    "p50": -1.75,
+    "p97.5": -0.494
+   },
+   "total_uncertainty_value_minus_full_em": {
+    "mean": -3.74,
+    "p2.5": -11.756,
+    "p50": -3.25,
+    "p97.5": 0.006
+   },
+   "interpretation": "Intervals labelled 'guarded_minus_*' vary only training episodes (critic fit + threshold + B* selection) with the test sample fixed; 'total_uncertainty_*' additionally resample the paired test questions."
+  }
+ },
+ "hierarchical_variance": {
+  "question_sample_A_runs": [
+   "corpus_guarded_qwen3b",
+   "corpus_guarded_qwen3b_seed11",
+   "corpus_guarded_qwen3b_seed19"
+  ],
+  "independent_question_samples": {
+   "B": "corpus_guarded_qwen3b_data17",
+   "C": "corpus_guarded_qwen3b_data23",
+   "D": "corpus_guarded_qwen3b_data29",
+   "E": "corpus_guarded_qwen3b_data31"
+  },
+  "n_independent_question_samples": 5,
+  "n_runs": 7,
+  "n_questions_per_sample": 400,
+  "question_id_overlap_between_samples": {
+   "A-B": 22,
+   "A-C": 17,
+   "A-D": 24,
+   "A-E": 22,
+   "B-C": 22,
+   "B-D": 21,
+   "B-E": 25,
+   "C-D": 23,
+   "C-E": 17,
+   "D-E": 24
+  },
+  "overlap_note": "All samples are independent draws from the same 7,405-question validation pool, so a few ids recur by chance; the pooled bootstrap clusters on question id across all runs.",
+  "contrasts": {
+   "guarded_minus_full": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": 0.25,
+      "ci95": [
+       -0.75,
+       1.25
+      ],
+      "lower95_one_sided": -0.75
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": 0.25,
+      "ci95": [
+       -1.0,
+       1.5
+      ],
+      "lower95_one_sided": -0.75
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": -0.5,
+      "ci95": [
+       -1.5,
+       0.5
+      ],
+      "lower95_one_sided": -1.25
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": -2.0,
+      "ci95": [
+       -3.5,
+       -0.5
+      ],
+      "lower95_one_sided": -3.25
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": -3.25,
+      "ci95": [
+       -5.25,
+       -1.25
+      ],
+      "lower95_one_sided": -5.0
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": 1.5,
+      "ci95": [
+       0.0,
+       3.25
+      ],
+      "lower95_one_sided": 0.25
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       -0.75,
+       0.75
+      ],
+      "lower95_one_sided": -0.5
+     }
+    },
+    "sample_means_em_points": {
+     "A": -0.0,
+     "B": -2.0,
+     "C": -3.25,
+     "D": 1.5,
+     "E": 0.0
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.487,
+     "B": 0.785,
+     "C": 1.019,
+     "D": 0.788,
+     "E": 0.354
+    },
+    "sample_A_three_run_mean_em_points": -0.0,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.00752,
+     "var_run_within_question": 0.00583,
+     "icc_question": 0.5633,
+     "se_mean_question_sampling_only_em_points": 0.578,
+     "se_mean_run_only_em_points": 0.22,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 1.871,
+     "expected_sd_under_question_sampling_em": 0.726,
+     "excess_between_sample_sd_em": 1.724,
+     "range_of_sample_means_em": [
+      -3.25,
+      1.5
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": -0.536,
+    "pooled_question_clustered_ci95": [
+     -1.181,
+     0.106
+    ],
+    "pooled_lower95_one_sided": -1.068,
+    "sample_B_em_points": -2.0,
+    "between_sample_gap_em_points": -2.0,
+    "gap_se_question_sampling_em_points": 0.924,
+    "gap_z": -2.165,
+    "pooled_four_run_mean_em_points": -0.536
+   },
+   "guarded_minus_fixed3": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": -0.25,
+      "ci95": [
+       -1.25,
+       0.75
+      ],
+      "lower95_one_sided": -1.25
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       -1.0,
+       1.0
+      ],
+      "lower95_one_sided": -0.75
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": -0.5,
+      "ci95": [
+       -1.75,
+       0.75
+      ],
+      "lower95_one_sided": -1.5
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": -2.25,
+      "ci95": [
+       -4.0,
+       -0.5
+      ],
+      "lower95_one_sided": -3.75
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": -1.5,
+      "ci95": [
+       -3.25,
+       0.25
+      ],
+      "lower95_one_sided": -3.0
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": 0.5,
+      "ci95": [
+       -1.25,
+       2.25
+      ],
+      "lower95_one_sided": -1.0
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": 1.75,
+      "ci95": [
+       0.5,
+       3.25
+      ],
+      "lower95_one_sided": 0.5
+     }
+    },
+    "sample_means_em_points": {
+     "A": -0.25,
+     "B": -2.25,
+     "C": -1.5,
+     "D": 0.5,
+     "E": 1.75
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.479,
+     "B": 0.895,
+     "C": 0.864,
+     "D": 0.936,
+     "E": 0.746
+    },
+    "sample_A_three_run_mean_em_points": -0.25,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.00752,
+     "var_run_within_question": 0.005,
+     "icc_question": 0.6005,
+     "se_mean_question_sampling_only_em_points": 0.559,
+     "se_mean_run_only_em_points": 0.204,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 1.587,
+     "expected_sd_under_question_sampling_em": 0.801,
+     "excess_between_sample_sd_em": 1.37,
+     "range_of_sample_means_em": [
+      -2.25,
+      1.75
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": -0.321,
+    "pooled_question_clustered_ci95": [
+     -1.03,
+     0.368
+    ],
+    "pooled_lower95_one_sided": -0.917,
+    "sample_B_em_points": -2.25,
+    "between_sample_gap_em_points": -2.0,
+    "gap_se_question_sampling_em_points": 1.016,
+    "gap_z": -1.969,
+    "pooled_four_run_mean_em_points": -0.321
+   },
+   "guarded_minus_fixed2": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": 0.25,
+      "ci95": [
+       -1.5,
+       2.0
+      ],
+      "lower95_one_sided": -1.25
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": -0.5,
+      "ci95": [
+       -2.25,
+       1.25
+      ],
+      "lower95_one_sided": -2.0
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": 1.25,
+      "ci95": [
+       -0.75,
+       3.25
+      ],
+      "lower95_one_sided": -0.5
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": 0.25,
+      "ci95": [
+       -1.25,
+       1.75
+      ],
+      "lower95_one_sided": -1.0
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": 1.0,
+      "ci95": [
+       -1.0,
+       3.0
+      ],
+      "lower95_one_sided": -0.75
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": 1.5,
+      "ci95": [
+       -0.25,
+       3.25
+      ],
+      "lower95_one_sided": 0.0
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": 2.75,
+      "ci95": [
+       0.5,
+       5.25
+      ],
+      "lower95_one_sided": 0.75
+     }
+    },
+    "sample_means_em_points": {
+     "A": 0.333,
+     "B": 0.25,
+     "C": 1.0,
+     "D": 1.5,
+     "E": 2.75
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.834,
+     "B": 0.751,
+     "C": 1.0,
+     "D": 0.934,
+     "E": 1.193
+    },
+    "sample_A_three_run_mean_em_points": 0.333,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.02339,
+     "var_run_within_question": 0.01333,
+     "icc_question": 0.6369,
+     "se_mean_question_sampling_only_em_points": 0.958,
+     "se_mean_run_only_em_points": 0.333,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 1.022,
+     "expected_sd_under_question_sampling_em": 0.954,
+     "excess_between_sample_sd_em": 0.367,
+     "range_of_sample_means_em": [
+      0.25,
+      2.75
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": 0.929,
+    "pooled_question_clustered_ci95": [
+     0.0,
+     1.859
+    ],
+    "pooled_lower95_one_sided": 0.143,
+    "sample_B_em_points": 0.25,
+    "between_sample_gap_em_points": -0.083,
+    "gap_se_question_sampling_em_points": 1.122,
+    "gap_z": -0.074,
+    "pooled_four_run_mean_em_points": 0.929
+   },
+   "guarded_minus_repeat": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": 0.5,
+      "ci95": [
+       -0.75,
+       2.0
+      ],
+      "lower95_one_sided": -0.5
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": 0.25,
+      "ci95": [
+       -1.0,
+       1.5
+      ],
+      "lower95_one_sided": -0.75
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       -1.25,
+       1.5
+      ],
+      "lower95_one_sided": -1.25
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": 1.5,
+      "ci95": [
+       0.0,
+       3.0
+      ],
+      "lower95_one_sided": 0.25
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "lower95_one_sided": 0.0
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": 0.5,
+      "ci95": [
+       -0.5,
+       1.5
+      ],
+      "lower95_one_sided": -0.25
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": 2.25,
+      "ci95": [
+       0.25,
+       4.5
+      ],
+      "lower95_one_sided": 0.5
+     }
+    },
+    "sample_means_em_points": {
+     "A": 0.25,
+     "B": 1.5,
+     "C": 0.0,
+     "D": 0.5,
+     "E": 2.25
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.607,
+     "B": 0.788,
+     "C": 0.0,
+     "D": 0.5,
+     "E": 1.085
+    },
+    "sample_A_three_run_mean_em_points": 0.25,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.01253,
+     "var_run_within_question": 0.00667,
+     "icc_question": 0.6527,
+     "se_mean_question_sampling_only_em_points": 0.693,
+     "se_mean_run_only_em_points": 0.236,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 0.945,
+     "expected_sd_under_question_sampling_em": 0.695,
+     "excess_between_sample_sd_em": 0.641,
+     "range_of_sample_means_em": [
+      0.0,
+      2.25
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": 0.714,
+    "pooled_question_clustered_ci95": [
+     0.035,
+     1.399
+    ],
+    "pooled_lower95_one_sided": 0.142,
+    "sample_B_em_points": 1.5,
+    "between_sample_gap_em_points": 1.25,
+    "gap_se_question_sampling_em_points": 0.995,
+    "gap_z": 1.256,
+    "pooled_four_run_mean_em_points": 0.714
+   },
+   "value_minus_full": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": 0.5,
+      "ci95": [
+       -0.75,
+       1.75
+      ],
+      "lower95_one_sided": -0.5
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": 0.25,
+      "ci95": [
+       -1.75,
+       2.5
+      ],
+      "lower95_one_sided": -1.5
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": -0.75,
+      "ci95": [
+       -2.0,
+       0.5
+      ],
+      "lower95_one_sided": -1.75
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": -1.75,
+      "ci95": [
+       -3.5,
+       -0.25
+      ],
+      "lower95_one_sided": -3.25
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": -13.0,
+      "ci95": [
+       -17.0,
+       -9.25
+      ],
+      "lower95_one_sided": -16.25
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": 0.75,
+      "ci95": [
+       -1.5,
+       3.0
+      ],
+      "lower95_one_sided": -1.25
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": -1.0,
+      "ci95": [
+       -2.25,
+       0.0
+      ],
+      "lower95_one_sided": -2.0
+     }
+    },
+    "sample_means_em_points": {
+     "A": -0.0,
+     "B": -1.75,
+     "C": -13.0,
+     "D": 0.75,
+     "E": -1.0
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.613,
+     "B": 0.826,
+     "C": 1.959,
+     "D": 1.146,
+     "E": 0.611
+    },
+    "sample_A_three_run_mean_em_points": -0.0,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.0092,
+     "var_run_within_question": 0.0175,
+     "icc_question": 0.3447,
+     "se_mean_question_sampling_only_em_points": 0.817,
+     "se_mean_run_only_em_points": 0.382,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 5.671,
+     "expected_sd_under_question_sampling_em": 1.147,
+     "excess_between_sample_sd_em": 5.553,
+     "range_of_sample_means_em": [
+      -13.0,
+      0.75
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": -2.143,
+    "pooled_question_clustered_ci95": [
+     -3.056,
+     -1.235
+    ],
+    "pooled_lower95_one_sided": -2.91,
+    "sample_B_em_points": -1.75,
+    "between_sample_gap_em_points": -1.75,
+    "gap_se_question_sampling_em_points": 1.028,
+    "gap_z": -1.702,
+    "pooled_four_run_mean_em_points": -2.143
+   },
+   "value_minus_fixed3": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       -1.25,
+       1.25
+      ],
+      "lower95_one_sided": -1.0
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.0,
+       2.0
+      ],
+      "lower95_one_sided": -1.5
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": -0.75,
+      "ci95": [
+       -2.25,
+       0.75
+      ],
+      "lower95_one_sided": -2.0
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": -2.0,
+      "ci95": [
+       -3.75,
+       -0.25
+      ],
+      "lower95_one_sided": -3.5
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": -11.25,
+      "ci95": [
+       -15.0,
+       -7.5
+      ],
+      "lower95_one_sided": -14.5
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": -0.25,
+      "ci95": [
+       -2.5,
+       2.0
+      ],
+      "lower95_one_sided": -2.0
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": 0.75,
+      "ci95": [
+       -0.75,
+       2.5
+      ],
+      "lower95_one_sided": -0.5
+     }
+    },
+    "sample_means_em_points": {
+     "A": -0.25,
+     "B": -2.0,
+     "C": -11.25,
+     "D": -0.25,
+     "E": 0.75
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.607,
+     "B": 0.931,
+     "C": 1.905,
+     "D": 1.091,
+     "E": 0.829
+    },
+    "sample_A_three_run_mean_em_points": -0.25,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.0092,
+     "var_run_within_question": 0.01667,
+     "icc_question": 0.3556,
+     "se_mean_question_sampling_only_em_points": 0.804,
+     "se_mean_run_only_em_points": 0.373,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 4.936,
+     "expected_sd_under_question_sampling_em": 1.161,
+     "excess_between_sample_sd_em": 4.797,
+     "range_of_sample_means_em": [
+      -11.25,
+      0.75
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": -1.929,
+    "pooled_question_clustered_ci95": [
+     -2.872,
+     -0.999
+    ],
+    "pooled_lower95_one_sided": -2.72,
+    "sample_B_em_points": -2.0,
+    "between_sample_gap_em_points": -1.75,
+    "gap_se_question_sampling_em_points": 1.112,
+    "gap_z": -1.574,
+    "pooled_four_run_mean_em_points": -1.929
+   },
+   "value_minus_fixed2": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": 0.5,
+      "ci95": [
+       -1.25,
+       2.25
+      ],
+      "lower95_one_sided": -1.0
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": -0.5,
+      "ci95": [
+       -2.0,
+       1.0
+      ],
+      "lower95_one_sided": -1.75
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": 1.0,
+      "ci95": [
+       -1.0,
+       3.0
+      ],
+      "lower95_one_sided": -0.5
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": 0.5,
+      "ci95": [
+       -0.75,
+       2.0
+      ],
+      "lower95_one_sided": -0.75
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": -8.75,
+      "ci95": [
+       -12.25,
+       -5.5
+      ],
+      "lower95_one_sided": -11.75
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": 0.75,
+      "ci95": [
+       -0.25,
+       2.0
+      ],
+      "lower95_one_sided": 0.0
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": 1.75,
+      "ci95": [
+       -0.25,
+       4.0
+      ],
+      "lower95_one_sided": 0.0
+     }
+    },
+    "sample_means_em_points": {
+     "A": 0.333,
+     "B": 0.5,
+     "C": -8.75,
+     "D": 0.75,
+     "E": 1.75
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.708,
+     "B": 0.708,
+     "C": 1.733,
+     "D": 0.558,
+     "E": 1.088
+    },
+    "sample_A_three_run_mean_em_points": 0.333,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.01421,
+     "var_run_within_question": 0.0175,
+     "icc_question": 0.448,
+     "se_mean_question_sampling_only_em_points": 0.89,
+     "se_mean_run_only_em_points": 0.382,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 4.321,
+     "expected_sd_under_question_sampling_em": 1.049,
+     "excess_between_sample_sd_em": 4.192,
+     "range_of_sample_means_em": [
+      -8.75,
+      1.75
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": -0.679,
+    "pooled_question_clustered_ci95": [
+     -1.571,
+     0.211
+    ],
+    "pooled_lower95_one_sided": -1.433,
+    "sample_B_em_points": 0.5,
+    "between_sample_gap_em_points": 0.167,
+    "gap_se_question_sampling_em_points": 1.001,
+    "gap_z": 0.167,
+    "pooled_four_run_mean_em_points": -0.679
+   },
+   "fixed3_minus_full": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": 0.5,
+      "ci95": [
+       0.0,
+       1.25
+      ],
+      "lower95_one_sided": 0.0
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": 0.25,
+      "ci95": [
+       -0.5,
+       1.0
+      ],
+      "lower95_one_sided": -0.5
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       -0.75,
+       0.75
+      ],
+      "lower95_one_sided": -0.5
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": 0.25,
+      "ci95": [
+       -1.0,
+       1.5
+      ],
+      "lower95_one_sided": -0.75
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": -1.75,
+      "ci95": [
+       -3.25,
+       -0.5
+      ],
+      "lower95_one_sided": -3.0
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": 1.0,
+      "ci95": [
+       -0.75,
+       3.0
+      ],
+      "lower95_one_sided": -0.5
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": -1.75,
+      "ci95": [
+       -3.25,
+       -0.5
+      ],
+      "lower95_one_sided": -3.0
+     }
+    },
+    "sample_means_em_points": {
+     "A": 0.25,
+     "B": 0.25,
+     "C": -1.75,
+     "D": 1.0,
+     "E": -1.75
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.323,
+     "B": 0.662,
+     "C": 0.656,
+     "D": 0.935,
+     "E": 0.656
+    },
+    "sample_A_three_run_mean_em_points": 0.25,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.00334,
+     "var_run_within_question": 0.0025,
+     "icc_question": 0.5717,
+     "se_mean_question_sampling_only_em_points": 0.382,
+     "se_mean_run_only_em_points": 0.144,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 1.27,
+     "expected_sd_under_question_sampling_em": 0.675,
+     "excess_between_sample_sd_em": 1.075,
+     "range_of_sample_means_em": [
+      -1.75,
+      1.0
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": -0.214,
+    "pooled_question_clustered_ci95": [
+     -0.746,
+     0.358
+    ],
+    "pooled_lower95_one_sided": -0.668,
+    "sample_B_em_points": 0.25,
+    "between_sample_gap_em_points": 0.0,
+    "gap_se_question_sampling_em_points": 0.737,
+    "gap_z": 0.0,
+    "pooled_four_run_mean_em_points": -0.214
+   },
+   "fixed2_minus_full": {
+    "per_run": {
+     "corpus_guarded_qwen3b": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.0,
+       2.0
+      ],
+      "lower95_one_sided": -1.75
+     },
+     "corpus_guarded_qwen3b_seed11": {
+      "mean_em_points": 0.75,
+      "ci95": [
+       -1.5,
+       3.0
+      ],
+      "lower95_one_sided": -1.0
+     },
+     "corpus_guarded_qwen3b_seed19": {
+      "mean_em_points": -1.75,
+      "ci95": [
+       -4.0,
+       0.5
+      ],
+      "lower95_one_sided": -3.75
+     },
+     "corpus_guarded_qwen3b_data17": {
+      "mean_em_points": -2.25,
+      "ci95": [
+       -4.5,
+       -0.25
+      ],
+      "lower95_one_sided": -4.0
+     },
+     "corpus_guarded_qwen3b_data23": {
+      "mean_em_points": -4.25,
+      "ci95": [
+       -6.75,
+       -1.75
+      ],
+      "lower95_one_sided": -6.25
+     },
+     "corpus_guarded_qwen3b_data29": {
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.5,
+       2.5
+      ],
+      "lower95_one_sided": -2.0
+     },
+     "corpus_guarded_qwen3b_data31": {
+      "mean_em_points": -2.75,
+      "ci95": [
+       -5.25,
+       -0.25
+      ],
+      "lower95_one_sided": -4.75
+     }
+    },
+    "sample_means_em_points": {
+     "A": -0.333,
+     "B": -2.25,
+     "C": -4.25,
+     "D": 0.0,
+     "E": -2.75
+    },
+    "sample_question_sampling_se_em_points": {
+     "A": 0.987,
+     "B": 1.085,
+     "C": 1.283,
+     "D": 1.226,
+     "E": 1.244
+    },
+    "sample_A_three_run_mean_em_points": -0.333,
+    "sample_A_variance_components": {
+     "n_questions": 400,
+     "n_runs": 3,
+     "var_question": 0.03342,
+     "var_run_within_question": 0.01667,
+     "icc_question": 0.6672,
+     "se_mean_question_sampling_only_em_points": 1.119,
+     "se_mean_run_only_em_points": 0.373,
+     "note": "Per-question paired contrast d = policy EM - comparator EM; var_run is the stochastic-trajectory component at fixed questions, var_question the between-question component. SEs are for a 400-question mean."
+    },
+    "between_sample": {
+     "observed_sd_of_sample_means_em": 1.763,
+     "expected_sd_under_question_sampling_em": 1.17,
+     "excess_between_sample_sd_em": 1.318,
+     "range_of_sample_means_em": [
+      -4.25,
+      0.0
+     ],
+     "n_samples": 5
+    },
+    "pooled_all_run_mean_em_points": -1.464,
+    "pooled_question_clustered_ci95": [
+     -2.582,
+     -0.32
+    ],
+    "pooled_lower95_one_sided": -2.401,
+    "sample_B_em_points": -2.25,
+    "between_sample_gap_em_points": -1.917,
+    "gap_se_question_sampling_em_points": 1.467,
+    "gap_z": -1.306,
+    "pooled_four_run_mean_em_points": -1.464
+   }
+  },
+  "guarded_margin_pass_by_run": {
+   "corpus_guarded_qwen3b": true,
+   "corpus_guarded_qwen3b_seed11": true,
+   "corpus_guarded_qwen3b_seed19": true,
+   "corpus_guarded_qwen3b_data17": false,
+   "corpus_guarded_qwen3b_data23": false,
+   "corpus_guarded_qwen3b_data29": true,
+   "corpus_guarded_qwen3b_data31": true
+  },
+  "independent_sample_margin_passes": {
+   "passed": 3,
+   "of": 5,
+   "note": "primary sample A counted once (seed-7 run) plus each independent draw"
+  },
+  "pooled_calls": {
+   "guarded": 6.665,
+   "value": 5.811,
+   "repeat": 5.768,
+   "fixed2": 5.0,
+   "fixed3": 7.0,
+   "full": 9.0
+  },
+  "design_note": "Sample A carries three stochastic runs on fixed questions; each further data seed is an independent question draw evaluated once. 'between_sample' compares the spread of sample means with the spread expected from question sampling alone; with fewer than three independent samples it is descriptive only."
+ },
+ "decision_matrix": {
+  "verdict_rule": "Against the simple family {fixed-0..fixed-B, answer repetition}: L = some simple policy Pareto-dominates the learned policy on (EM, LLM calls); W = undominated and strictly dominates the training-selected fixed budget B*; T = undominated but does not strictly dominate B*. Certificate: corrected SGR at any target on the dedicated split (fresh runs only; historical cells are n/a).",
+  "cells": [
+   {
+    "cell": "final_haiku",
+    "label": "HotpotQA / Haiku 4.5",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 52.14,
+    "bstar": 2,
+    "bstar_em": 52.14,
+    "bstar_calls": 5.0,
+    "repeat_em": 50.0,
+    "repeat_calls": 5.471,
+    "certificate": "n/a",
+    "value_em": 50.71,
+    "value_calls": 4.757,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -1.429,
+    "value_ci95_vs_full": [
+     -5.0,
+     2.143
+    ],
+    "guarded_em": 51.43,
+    "guarded_calls": 5.714,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2"
+    ],
+    "guarded_delta_vs_full": -0.714,
+    "guarded_ci95_vs_full": [
+     -3.571,
+     1.429
+    ]
+   },
+   {
+    "cell": "final_sonnet45",
+    "label": "HotpotQA / Sonnet 4.5",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 52.14,
+    "bstar": 3,
+    "bstar_em": 52.14,
+    "bstar_calls": 7.0,
+    "repeat_em": 52.86,
+    "repeat_calls": 5.929,
+    "certificate": "n/a",
+    "value_em": 53.57,
+    "value_calls": 6.7,
+    "value_verdict": "W",
+    "value_dominated_by": [],
+    "value_delta_vs_full": 1.429,
+    "value_ci95_vs_full": [
+     0.0,
+     3.571
+    ],
+    "guarded_em": 53.57,
+    "guarded_calls": 6.771,
+    "guarded_verdict": "W",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": 1.429,
+    "guarded_ci95_vs_full": [
+     0.0,
+     3.571
+    ]
+   },
+   {
+    "cell": "final_gptoss120b",
+    "label": "HotpotQA / GPT-oss-120B",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 57.14,
+    "bstar": 2,
+    "bstar_em": 59.29,
+    "bstar_calls": 5.0,
+    "repeat_em": 55.0,
+    "repeat_calls": 4.686,
+    "certificate": "n/a",
+    "value_em": 55.71,
+    "value_calls": 5.971,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "fixed-2"
+    ],
+    "value_delta_vs_full": -1.429,
+    "value_ci95_vs_full": [
+     -4.286,
+     1.429
+    ],
+    "guarded_em": 55.71,
+    "guarded_calls": 6.186,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2"
+    ],
+    "guarded_delta_vs_full": -1.429,
+    "guarded_ci95_vs_full": [
+     -4.286,
+     1.429
+    ]
+   },
+   {
+    "cell": "final_novalite",
+    "label": "HotpotQA / Nova Lite",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 54.29,
+    "bstar": 3,
+    "bstar_em": 54.29,
+    "bstar_calls": 7.0,
+    "repeat_em": 54.29,
+    "repeat_calls": 5.043,
+    "certificate": "n/a",
+    "value_em": 52.86,
+    "value_calls": 6.871,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "fixed-2",
+     "repetition"
+    ],
+    "value_delta_vs_full": -1.429,
+    "value_ci95_vs_full": [
+     -3.571,
+     0.0
+    ],
+    "guarded_em": 53.57,
+    "guarded_calls": 6.957,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2",
+     "repetition"
+    ],
+    "guarded_delta_vs_full": -0.714,
+    "guarded_ci95_vs_full": [
+     -2.143,
+     0.0
+    ]
+   },
+   {
+    "cell": "final_qwen3b",
+    "label": "HotpotQA / Qwen2.5-3B",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 38.57,
+    "bstar": 3,
+    "bstar_em": 40.0,
+    "bstar_calls": 7.0,
+    "repeat_em": 39.29,
+    "repeat_calls": 5.871,
+    "certificate": "n/a",
+    "value_em": 39.29,
+    "value_calls": 6.114,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "repetition"
+    ],
+    "value_delta_vs_full": 0.714,
+    "value_ci95_vs_full": [
+     -3.571,
+     5.0
+    ],
+    "guarded_em": 40.0,
+    "guarded_calls": 6.729,
+    "guarded_verdict": "W",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": 1.429,
+    "guarded_ci95_vs_full": [
+     -2.143,
+     5.0
+    ]
+   },
+   {
+    "cell": "final_llama3b",
+    "label": "HotpotQA / Llama-3.2-3B",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 39.29,
+    "bstar": 2,
+    "bstar_em": 37.86,
+    "bstar_calls": 5.0,
+    "repeat_em": 37.86,
+    "repeat_calls": 5.386,
+    "certificate": "n/a",
+    "value_em": 37.86,
+    "value_calls": 5.429,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "fixed-2",
+     "repetition"
+    ],
+    "value_delta_vs_full": -1.429,
+    "value_ci95_vs_full": [
+     -6.429,
+     3.571
+    ],
+    "guarded_em": 39.29,
+    "guarded_calls": 6.314,
+    "guarded_verdict": "T",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": 0.0,
+    "guarded_ci95_vs_full": [
+     -4.286,
+     4.286
+    ]
+   },
+   {
+    "cell": "final_commandr35b",
+    "label": "HotpotQA / Command-R-35B",
+    "n": 100,
+    "setting": "historical",
+    "full_em": 51.0,
+    "bstar": 3,
+    "bstar_em": 52.0,
+    "bstar_calls": 7.0,
+    "repeat_em": 54.0,
+    "repeat_calls": 5.06,
+    "certificate": "n/a",
+    "value_em": 53.0,
+    "value_calls": 6.76,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "repetition"
+    ],
+    "value_delta_vs_full": 2.0,
+    "value_ci95_vs_full": [
+     0.0,
+     5.0
+    ],
+    "guarded_em": 53.0,
+    "guarded_calls": 6.78,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "repetition"
+    ],
+    "guarded_delta_vs_full": 2.0,
+    "guarded_ci95_vs_full": [
+     0.0,
+     5.0
+    ]
+   },
+   {
+    "cell": "final_kimik25",
+    "label": "HotpotQA / Kimi K2.5",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 59.29,
+    "bstar": 2,
+    "bstar_em": 59.29,
+    "bstar_calls": 5.0,
+    "repeat_em": 56.43,
+    "repeat_calls": 4.671,
+    "certificate": "n/a",
+    "value_em": 57.86,
+    "value_calls": 4.943,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -1.429,
+    "value_ci95_vs_full": [
+     -5.0,
+     1.446
+    ],
+    "guarded_em": 57.86,
+    "guarded_calls": 5.314,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2"
+    ],
+    "guarded_delta_vs_full": -1.429,
+    "guarded_ci95_vs_full": [
+     -5.0,
+     1.446
+    ]
+   },
+   {
+    "cell": "final_minimaxm25",
+    "label": "HotpotQA / MiniMax M2.5",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 55.71,
+    "bstar": 4,
+    "bstar_em": 55.71,
+    "bstar_calls": 9.0,
+    "repeat_em": 45.0,
+    "repeat_calls": 4.2,
+    "certificate": "n/a",
+    "value_em": 53.57,
+    "value_calls": 4.414,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -2.143,
+    "value_ci95_vs_full": [
+     -7.143,
+     2.857
+    ],
+    "guarded_em": 53.57,
+    "guarded_calls": 5.529,
+    "guarded_verdict": "T",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": -2.143,
+    "guarded_ci95_vs_full": [
+     -6.429,
+     2.143
+    ]
+   },
+   {
+    "cell": "final2wiki_qwen3b",
+    "label": "2Wiki / Qwen2.5-3B",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 28.57,
+    "bstar": 3,
+    "bstar_em": 30.71,
+    "bstar_calls": 7.0,
+    "repeat_em": 29.29,
+    "repeat_calls": 5.7,
+    "certificate": "n/a",
+    "value_em": 28.57,
+    "value_calls": 6.2,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "fixed-2",
+     "repetition"
+    ],
+    "value_delta_vs_full": 0.0,
+    "value_ci95_vs_full": [
+     -2.857,
+     2.857
+    ],
+    "guarded_em": 29.29,
+    "guarded_calls": 6.871,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2",
+     "repetition"
+    ],
+    "guarded_delta_vs_full": 0.714,
+    "guarded_ci95_vs_full": [
+     -1.429,
+     2.857
+    ]
+   },
+   {
+    "cell": "rev2_musique_qwen3b",
+    "label": "MuSiQue / Qwen2.5-3B",
+    "n": 140,
+    "setting": "historical",
+    "full_em": 13.57,
+    "bstar": 2,
+    "bstar_em": 12.86,
+    "bstar_calls": 5.0,
+    "repeat_em": 12.86,
+    "repeat_calls": 6.271,
+    "certificate": "n/a",
+    "value_em": 12.14,
+    "value_calls": 5.086,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "fixed-2"
+    ],
+    "value_delta_vs_full": -1.429,
+    "value_ci95_vs_full": [
+     -4.286,
+     1.429
+    ],
+    "guarded_em": 13.57,
+    "guarded_calls": 6.386,
+    "guarded_verdict": "T",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": 0.0,
+    "guarded_ci95_vs_full": [
+     0.0,
+     0.0
+    ]
+   },
+   {
+    "cell": "rev2_musique_llama3b",
+    "label": "MuSiQue / Llama-3.2-3B",
+    "n": 100,
+    "setting": "historical",
+    "full_em": 18.0,
+    "bstar": 3,
+    "bstar_em": 18.0,
+    "bstar_calls": 7.0,
+    "repeat_em": 17.0,
+    "repeat_calls": 5.86,
+    "certificate": "n/a",
+    "value_em": 16.0,
+    "value_calls": 5.86,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "repetition"
+    ],
+    "value_delta_vs_full": -2.0,
+    "value_ci95_vs_full": [
+     -7.0,
+     3.0
+    ],
+    "guarded_em": 18.0,
+    "guarded_calls": 6.88,
+    "guarded_verdict": "W",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": 0.0,
+    "guarded_ci95_vs_full": [
+     -3.0,
+     3.0
+    ]
+   },
+   {
+    "cell": "corpus_guarded_qwen3b",
+    "label": "Corpus (seed 7, q-sample A)",
+    "short": "corpus_s7",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 24.5,
+    "bstar": 3,
+    "bstar_em": 25.0,
+    "bstar_calls": 7.0,
+    "repeat_em": 24.25,
+    "repeat_calls": 5.725,
+    "certificate": "refuse",
+    "value_em": 25.0,
+    "value_calls": 6.35,
+    "value_verdict": "W",
+    "value_dominated_by": [],
+    "value_delta_vs_full": 0.5,
+    "value_ci95_vs_full": [
+     -0.75,
+     1.75
+    ],
+    "guarded_em": 24.75,
+    "guarded_calls": 6.75,
+    "guarded_verdict": "T",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": 0.25,
+    "guarded_ci95_vs_full": [
+     -0.75,
+     1.5
+    ]
+   },
+   {
+    "cell": "corpus_guarded_qwen3b_seed11",
+    "label": "Corpus (seed 11, q-sample A)",
+    "short": "corpus_s11",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 25.0,
+    "bstar": 3,
+    "bstar_em": 25.25,
+    "bstar_calls": 7.0,
+    "repeat_em": 25.0,
+    "repeat_calls": 5.695,
+    "certificate": "refuse",
+    "value_em": 25.25,
+    "value_calls": 5.74,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "fixed-2"
+    ],
+    "value_delta_vs_full": 0.25,
+    "value_ci95_vs_full": [
+     -2.0,
+     2.5
+    ],
+    "guarded_em": 25.25,
+    "guarded_calls": 6.505,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2"
+    ],
+    "guarded_delta_vs_full": 0.25,
+    "guarded_ci95_vs_full": [
+     -1.0,
+     1.5
+    ]
+   },
+   {
+    "cell": "corpus_guarded_qwen3b_seed19",
+    "label": "Corpus (seed 19, q-sample A)",
+    "short": "corpus_s19",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 26.0,
+    "bstar": 3,
+    "bstar_em": 26.0,
+    "bstar_calls": 7.0,
+    "repeat_em": 25.5,
+    "repeat_calls": 5.715,
+    "certificate": "refuse",
+    "value_em": 25.25,
+    "value_calls": 6.375,
+    "value_verdict": "L",
+    "value_dominated_by": [
+     "repetition"
+    ],
+    "value_delta_vs_full": -0.75,
+    "value_ci95_vs_full": [
+     -2.0,
+     0.5
+    ],
+    "guarded_em": 25.5,
+    "guarded_calls": 6.675,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "repetition"
+    ],
+    "guarded_delta_vs_full": -0.5,
+    "guarded_ci95_vs_full": [
+     -1.5,
+     0.5
+    ]
+   },
+   {
+    "cell": "corpus_guarded_qwen3b_data17",
+    "label": "Corpus (seed 7, q-sample B)",
+    "short": "corpus_qB",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 31.25,
+    "bstar": 4,
+    "bstar_em": 31.25,
+    "bstar_calls": 9.0,
+    "repeat_em": 27.75,
+    "repeat_calls": 5.745,
+    "certificate": "refuse",
+    "value_em": 29.5,
+    "value_calls": 6.615,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -1.75,
+    "value_ci95_vs_full": [
+     -3.5,
+     -0.25
+    ],
+    "guarded_em": 29.25,
+    "guarded_calls": 6.71,
+    "guarded_verdict": "T",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": -2.0,
+    "guarded_ci95_vs_full": [
+     -3.5,
+     -0.5
+    ]
+   },
+   {
+    "cell": "corpus_guarded_qwen3b_data23",
+    "label": "Corpus (seed 7, q-sample C)",
+    "short": "corpus_qC",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 26.5,
+    "bstar": 3,
+    "bstar_em": 24.75,
+    "bstar_calls": 7.0,
+    "repeat_em": 23.25,
+    "repeat_calls": 5.9,
+    "certificate": "refuse",
+    "value_em": 13.5,
+    "value_calls": 2.67,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -13.0,
+    "value_ci95_vs_full": [
+     -17.0,
+     -9.25
+    ],
+    "guarded_em": 23.25,
+    "guarded_calls": 5.9,
+    "guarded_verdict": "T",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": -3.25,
+    "guarded_ci95_vs_full": [
+     -5.25,
+     -1.25
+    ]
+   },
+   {
+    "cell": "corpus_guarded_qwen3b_data29",
+    "label": "Corpus (seed 7, q-sample D)",
+    "short": "corpus_qD",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 25.5,
+    "bstar": 4,
+    "bstar_em": 25.5,
+    "bstar_calls": 9.0,
+    "repeat_em": 26.5,
+    "repeat_calls": 5.885,
+    "certificate": "refuse",
+    "value_em": 26.25,
+    "value_calls": 5.415,
+    "value_verdict": "W",
+    "value_dominated_by": [],
+    "value_delta_vs_full": 0.75,
+    "value_ci95_vs_full": [
+     -1.5,
+     3.0
+    ],
+    "guarded_em": 27.0,
+    "guarded_calls": 6.36,
+    "guarded_verdict": "W",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": 1.5,
+    "guarded_ci95_vs_full": [
+     0.0,
+     3.0
+    ]
+   },
+   {
+    "cell": "corpus_guarded_qwen3b_data31",
+    "label": "Corpus (seed 7, q-sample E)",
+    "short": "corpus_qE",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 34.25,
+    "bstar": 4,
+    "bstar_em": 34.25,
+    "bstar_calls": 9.0,
+    "repeat_em": 32.0,
+    "repeat_calls": 5.71,
+    "certificate": "refuse",
+    "value_em": 33.25,
+    "value_calls": 7.51,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -1.0,
+    "value_ci95_vs_full": [
+     -2.25,
+     0.0
+    ],
+    "guarded_em": 34.25,
+    "guarded_calls": 7.755,
+    "guarded_verdict": "W",
+    "guarded_dominated_by": [],
+    "guarded_delta_vs_full": 0.0,
+    "guarded_ci95_vs_full": [
+     -0.75,
+     0.75
+    ]
+   },
+   {
+    "cell": "corpus2wiki_guarded_qwen3b_data17",
+    "label": "2Wiki corpus (seed 7, draw 1)",
+    "short": "w2_d1",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 23.25,
+    "bstar": 3,
+    "bstar_em": 24.25,
+    "bstar_calls": 7.0,
+    "repeat_em": 23.5,
+    "repeat_calls": 5.495,
+    "certificate": "refuse",
+    "value_em": 20.25,
+    "value_calls": 3.11,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -3.0,
+    "value_ci95_vs_full": [
+     -6.25,
+     0.25
+    ],
+    "guarded_em": 23.5,
+    "guarded_calls": 5.495,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2"
+    ],
+    "guarded_delta_vs_full": 0.25,
+    "guarded_ci95_vs_full": [
+     -2.0,
+     2.5
+    ]
+   },
+   {
+    "cell": "corpus2wiki_guarded_qwen3b_data23",
+    "label": "2Wiki corpus (seed 7, draw 2)",
+    "short": "w2_d2",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 25.25,
+    "bstar": 4,
+    "bstar_em": 25.25,
+    "bstar_calls": 9.0,
+    "repeat_em": 23.25,
+    "repeat_calls": 5.51,
+    "certificate": "refuse",
+    "value_em": 19.0,
+    "value_calls": 3.835,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -6.25,
+    "value_ci95_vs_full": [
+     -9.25,
+     -3.5
+    ],
+    "guarded_em": 23.5,
+    "guarded_calls": 5.59,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2"
+    ],
+    "guarded_delta_vs_full": -1.75,
+    "guarded_ci95_vs_full": [
+     -3.75,
+     0.0
+    ]
+   },
+   {
+    "cell": "corpus2wiki_guarded_qwen3b_data29",
+    "label": "2Wiki corpus (seed 7, draw 3)",
+    "short": "w2_d3",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 25.5,
+    "bstar": 2,
+    "bstar_em": 26.25,
+    "bstar_calls": 5.0,
+    "repeat_em": 25.25,
+    "repeat_calls": 5.61,
+    "certificate": "refuse",
+    "value_em": 24.25,
+    "value_calls": 3.115,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -1.25,
+    "value_ci95_vs_full": [
+     -4.75,
+     2.25
+    ],
+    "guarded_em": 25.75,
+    "guarded_calls": 5.66,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2"
+    ],
+    "guarded_delta_vs_full": 0.25,
+    "guarded_ci95_vs_full": [
+     -1.75,
+     2.25
+    ]
+   },
+   {
+    "cell": "corpusmusique_guarded_qwen3b_data17",
+    "label": "MuSiQue corpus (seed 7, draw 1)",
+    "short": "mq_d1",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 9.25,
+    "bstar": 3,
+    "bstar_em": 7.25,
+    "bstar_calls": 7.0,
+    "repeat_em": 7.5,
+    "repeat_calls": 6.53,
+    "certificate": "refuse",
+    "value_em": 3.75,
+    "value_calls": 3.025,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -5.5,
+    "value_ci95_vs_full": [
+     -8.25,
+     -3.0
+    ],
+    "guarded_em": 7.5,
+    "guarded_calls": 6.54,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "repetition"
+    ],
+    "guarded_delta_vs_full": -1.75,
+    "guarded_ci95_vs_full": [
+     -3.25,
+     -0.5
+    ]
+   },
+   {
+    "cell": "corpusmusique_guarded_qwen3b_data23",
+    "label": "MuSiQue corpus (seed 7, draw 2)",
+    "short": "mq_d2",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 10.25,
+    "bstar": 4,
+    "bstar_em": 10.25,
+    "bstar_calls": 9.0,
+    "repeat_em": 9.25,
+    "repeat_calls": 6.45,
+    "certificate": "refuse",
+    "value_em": 2.5,
+    "value_calls": 1.44,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -7.75,
+    "value_ci95_vs_full": [
+     -10.5,
+     -5.25
+    ],
+    "guarded_em": 9.25,
+    "guarded_calls": 6.495,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2",
+     "repetition"
+    ],
+    "guarded_delta_vs_full": -1.0,
+    "guarded_ci95_vs_full": [
+     -2.5,
+     0.25
+    ]
+   },
+   {
+    "cell": "corpusmusique_guarded_qwen3b_data29",
+    "label": "MuSiQue corpus (seed 7, draw 3)",
+    "short": "mq_d3",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 12.0,
+    "bstar": 3,
+    "bstar_em": 10.75,
+    "bstar_calls": 7.0,
+    "repeat_em": 10.75,
+    "repeat_calls": 6.425,
+    "certificate": "refuse",
+    "value_em": 0.25,
+    "value_calls": 1.0,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -11.75,
+    "value_ci95_vs_full": [
+     -15.0,
+     -8.75
+    ],
+    "guarded_em": 10.75,
+    "guarded_calls": 6.425,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2"
+    ],
+    "guarded_delta_vs_full": -1.25,
+    "guarded_ci95_vs_full": [
+     -2.5,
+     -0.25
+    ]
+   },
+   {
+    "cell": "wiki25m_guarded_qwen3b",
+    "label": "Wikipedia 25M hybrid",
+    "short": "wiki25m",
+    "n": 400,
+    "setting": "fresh",
+    "full_em": 21.5,
+    "bstar": 2,
+    "bstar_em": 23.0,
+    "bstar_calls": 5.0,
+    "repeat_em": 21.25,
+    "repeat_calls": 5.875,
+    "certificate": "refuse",
+    "value_em": 18.0,
+    "value_calls": 3.135,
+    "value_verdict": "T",
+    "value_dominated_by": [],
+    "value_delta_vs_full": -3.5,
+    "value_ci95_vs_full": [
+     -6.0,
+     -1.0
+    ],
+    "guarded_em": 21.25,
+    "guarded_calls": 5.895,
+    "guarded_verdict": "L",
+    "guarded_dominated_by": [
+     "fixed-2",
+     "repetition"
+    ],
+    "guarded_delta_vs_full": -0.25,
+    "guarded_ci95_vs_full": [
+     -2.0,
+     1.25
+    ]
+   }
+  ],
+  "tally": {
+   "value": {
+    "W": 3,
+    "T": 13,
+    "L": 10
+   },
+   "guarded": {
+    "W": 5,
+    "T": 6,
+    "L": 15
+   },
+   "certificate_refusals": 14,
+   "certificate_evaluable_cells": 14,
+   "n_cells": 26
+  }
+ }
+}

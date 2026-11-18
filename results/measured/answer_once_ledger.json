@@ -1,0 +1,3388 @@
+{
+ "description": "Second cost currency on the declared 18-cell common family. Policies whose stopping signal needs an answer at every prefix keep 1+2T live calls; policies that can defer generation to the end pay 1+T. No run was re-executed; EM and search counts are the measured values in corpus_confirmation*.json.",
+ "answer_once_capable": [
+  "fixed_0",
+  "fixed_1",
+  "fixed_2",
+  "fixed_3",
+  "fixed_4",
+  "fixed_5",
+  "fixed_6",
+  "full_budget"
+ ],
+ "needs_per_prefix_answer": [
+  "answer_repeat",
+  "guarded_value",
+  "repeat_conditioned_gain",
+  "semantic_guard",
+  "tasr",
+  "value_only"
+ ],
+ "summary": {
+  "primary": {
+   "n_cells": 18,
+   "guarded_dominated_by_simple_family": 11,
+   "answer_repeat_present": 18,
+   "answer_repeat_dominated_by_a_fixed_budget": 11,
+   "cells_where_guard_cost_exceeds_simple_family_range": 0,
+   "cells_where_guard_cost_exceeds_fixed_budget_range": 0
+  },
+  "answer_once": {
+   "n_cells": 18,
+   "guarded_dominated_by_simple_family": 17,
+   "answer_repeat_present": 18,
+   "answer_repeat_dominated_by_a_fixed_budget": 18,
+   "cells_where_guard_cost_exceeds_simple_family_range": 15,
+   "cells_where_guard_cost_exceeds_fixed_budget_range": 18
+  }
+ },
+ "primary_cell": {
+  "cell": "corpus_confirmation",
+  "n_test": 400,
+  "policies": {
+   "full_budget": {
+    "em": 24.5,
+    "searches": 4.0,
+    "primary_calls": 9.0,
+    "answer_once_calls": 5.0,
+    "answer_once_applies": true
+   },
+   "guarded_value": {
+    "em": 24.75,
+    "searches": 2.875,
+    "primary_calls": 6.75,
+    "answer_once_calls": 6.75,
+    "answer_once_applies": false
+   },
+   "value_only": {
+    "em": 25.0,
+    "searches": 2.675,
+    "primary_calls": 6.35,
+    "answer_once_calls": 6.35,
+    "answer_once_applies": false
+   },
+   "answer_repeat": {
+    "em": 24.25,
+    "searches": 2.362,
+    "primary_calls": 5.725,
+    "answer_once_calls": 5.725,
+    "answer_once_applies": false
+   },
+   "semantic_guard": {
+    "em": 24.0,
+    "searches": 2.515,
+    "primary_calls": 6.03,
+    "answer_once_calls": 6.03,
+    "answer_once_applies": false
+   },
+   "tasr": {
+    "em": 24.75,
+    "searches": 2.84,
+    "primary_calls": 6.68,
+    "answer_once_calls": 6.68,
+    "answer_once_applies": false
+   },
+   "repeat_conditioned_gain": {
+    "em": 24.5,
+    "searches": 2.888,
+    "primary_calls": 6.775,
+    "answer_once_calls": 6.775,
+    "answer_once_applies": false
+   },
+   "fixed_0": {
+    "em": 9.0,
+    "searches": 0.0,
+    "primary_calls": 1.0,
+    "answer_once_calls": 1.0,
+    "answer_once_applies": true
+   },
+   "fixed_1": {
+    "em": 18.25,
+    "searches": 1.0,
+    "primary_calls": 3.0,
+    "answer_once_calls": 2.0,
+    "answer_once_applies": true
+   },
+   "fixed_2": {
+    "em": 24.5,
+    "searches": 2.0,
+    "primary_calls": 5.0,
+    "answer_once_calls": 3.0,
+    "answer_once_applies": true
+   },
+   "fixed_3": {
+    "em": 25.0,
+    "searches": 3.0,
+    "primary_calls": 7.0,
+    "answer_once_calls": 4.0,
+    "answer_once_applies": true
+   },
+   "fixed_4": {
+    "em": 24.5,
+    "searches": 4.0,
+    "primary_calls": 9.0,
+    "answer_once_calls": 5.0,
+    "answer_once_applies": true
+   }
+  },
+  "primary": {
+   "verdicts": {
+    "full_budget": {
+     "dominated_by": [
+      "fixed_2",
+      "fixed_3"
+     ],
+     "verdict": "L"
+    },
+    "guarded_value": {
+     "dominated_by": [],
+     "verdict": "N"
+    },
+    "value_only": {
+     "dominated_by": [],
+     "verdict": "N"
+    },
+    "semantic_guard": {
+     "dominated_by": [
+      "answer_repeat",
+      "fixed_2"
+     ],
+     "verdict": "L"
+    },
+    "tasr": {
+     "dominated_by": [],
+     "verdict": "N"
+    },
+    "repeat_conditioned_gain": {
+     "dominated_by": [
+      "fixed_2"
+     ],
+     "verdict": "L"
+    }
+   },
+   "max_fixed_budget_calls": 9.0,
+   "guarded_cost_inside_fixed_range": true,
+   "answer_repeat_dominated_by_fixed": [
+    "fixed_2"
+   ],
+   "max_simple_family_calls": 9.0,
+   "guarded_calls": 6.75,
+   "guarded_cost_inside_simple_range": true
+  },
+  "answer_once": {
+   "verdicts": {
+    "full_budget": {
+     "dominated_by": [
+      "fixed_2",
+      "fixed_3"
+     ],
+     "verdict": "L"
+    },
+    "guarded_value": {
+     "dominated_by": [
+      "fixed_3"
+     ],
+     "verdict": "L"
+    },
+    "value_only": {
+     "dominated_by": [
+      "fixed_3"
+     ],
+     "verdict": "L"
+    },
+    "semantic_guard": {
+     "dominated_by": [
+      "answer_repeat",
+      "fixed_2",
+      "fixed_3",
+      "fixed_4"
+     ],
+     "verdict": "L"
+    },
+    "tasr": {
+     "dominated_by": [
+      "fixed_3"
+     ],
+     "verdict": "L"
+    },
+    "repeat_conditioned_gain": {
+     "dominated_by": [
+      "fixed_2",
+      "fixed_3",
+      "fixed_4"
+     ],
+     "verdict": "L"
+    }
+   },
+   "max_fixed_budget_calls": 5.0,
+   "guarded_cost_inside_fixed_range": false,
+   "answer_repeat_dominated_by_fixed": [
+    "fixed_2",
+    "fixed_3",
+    "fixed_4"
+   ],
+   "max_simple_family_calls": 5.725,
+   "guarded_calls": 6.75,
+   "guarded_cost_inside_simple_range": false
+  }
+ },
+ "cells": [
+  {
+   "cell": "corpus_confirmation",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 24.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 24.75,
+     "searches": 2.875,
+     "primary_calls": 6.75,
+     "answer_once_calls": 6.75,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 25.0,
+     "searches": 2.675,
+     "primary_calls": 6.35,
+     "answer_once_calls": 6.35,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 24.25,
+     "searches": 2.362,
+     "primary_calls": 5.725,
+     "answer_once_calls": 5.725,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 24.0,
+     "searches": 2.515,
+     "primary_calls": 6.03,
+     "answer_once_calls": 6.03,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 24.75,
+     "searches": 2.84,
+     "primary_calls": 6.68,
+     "answer_once_calls": 6.68,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 24.5,
+     "searches": 2.888,
+     "primary_calls": 6.775,
+     "answer_once_calls": 6.775,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 9.0,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 18.25,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 24.5,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 25.0,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 24.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 6.75,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.725,
+    "guarded_calls": 6.75,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus2wiki_guarded_qwen3b_data17",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 23.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 23.5,
+     "searches": 2.248,
+     "primary_calls": 5.495,
+     "answer_once_calls": 5.495,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 20.25,
+     "searches": 1.055,
+     "primary_calls": 3.11,
+     "answer_once_calls": 3.11,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 23.5,
+     "searches": 2.248,
+     "primary_calls": 5.495,
+     "answer_once_calls": 5.495,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 23.5,
+     "searches": 2.263,
+     "primary_calls": 5.525,
+     "answer_once_calls": 5.525,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 24.0,
+     "searches": 2.442,
+     "primary_calls": 5.885,
+     "answer_once_calls": 5.885,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 23.5,
+     "searches": 2.248,
+     "primary_calls": 5.495,
+     "answer_once_calls": 5.495,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 8.75,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 18.0,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 25.0,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 24.25,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 23.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 5.495,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3"
+    ],
+    "max_simple_family_calls": 5.495,
+    "guarded_calls": 5.495,
+    "guarded_cost_inside_simple_range": true
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus2wiki_guarded_qwen3b_data23",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 25.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 23.5,
+     "searches": 2.295,
+     "primary_calls": 5.59,
+     "answer_once_calls": 5.59,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 19.0,
+     "searches": 1.417,
+     "primary_calls": 3.835,
+     "answer_once_calls": 3.835,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 23.25,
+     "searches": 2.255,
+     "primary_calls": 5.51,
+     "answer_once_calls": 5.51,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 24.0,
+     "searches": 3.152,
+     "primary_calls": 7.305,
+     "answer_once_calls": 7.305,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 25.5,
+     "searches": 3.183,
+     "primary_calls": 7.365,
+     "answer_once_calls": 7.365,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 23.25,
+     "searches": 2.32,
+     "primary_calls": 5.64,
+     "answer_once_calls": 5.64,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 6.25,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 18.5,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 24.0,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 25.5,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 25.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 5.59,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.51,
+    "guarded_calls": 5.59,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus2wiki_guarded_qwen3b_data29",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 25.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 25.75,
+     "searches": 2.33,
+     "primary_calls": 5.66,
+     "answer_once_calls": 5.66,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 24.25,
+     "searches": 1.058,
+     "primary_calls": 3.115,
+     "answer_once_calls": 3.115,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 25.25,
+     "searches": 2.305,
+     "primary_calls": 5.61,
+     "answer_once_calls": 5.61,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 25.5,
+     "searches": 2.328,
+     "primary_calls": 5.655,
+     "answer_once_calls": 5.655,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 25.5,
+     "searches": 3.348,
+     "primary_calls": 7.695,
+     "answer_once_calls": 7.695,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 26.25,
+     "searches": 2.382,
+     "primary_calls": 5.765,
+     "answer_once_calls": 5.765,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 6.0,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 23.0,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 26.25,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 25.5,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 25.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 5.66,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.61,
+    "guarded_calls": 5.66,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_haiku45_data17",
+   "n_test": 200,
+   "policies": {
+    "full_budget": {
+     "em": 50.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 49.5,
+     "searches": 2.295,
+     "primary_calls": 5.59,
+     "answer_once_calls": 5.59,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 36.0,
+     "searches": 1.125,
+     "primary_calls": 3.25,
+     "answer_once_calls": 3.25,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 49.5,
+     "searches": 2.275,
+     "primary_calls": 5.55,
+     "answer_once_calls": 5.55,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 49.0,
+     "searches": 2.36,
+     "primary_calls": 5.72,
+     "answer_once_calls": 5.72,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 27.5,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 29.0,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 46.5,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 49.5,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 50.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 5.59,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.55,
+    "guarded_calls": 5.59,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_haiku45_data23",
+   "n_test": 200,
+   "policies": {
+    "full_budget": {
+     "em": 50.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 49.5,
+     "searches": 3.16,
+     "primary_calls": 7.32,
+     "answer_once_calls": 7.32,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 49.5,
+     "searches": 3.145,
+     "primary_calls": 7.29,
+     "answer_once_calls": 7.29,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 45.0,
+     "searches": 2.265,
+     "primary_calls": 5.53,
+     "answer_once_calls": 5.53,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 48.0,
+     "searches": 2.49,
+     "primary_calls": 5.98,
+     "answer_once_calls": 5.98,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 24.0,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 27.0,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 44.5,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 48.5,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 50.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [],
+      "verdict": "N"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 7.32,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.53,
+    "guarded_calls": 7.32,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_haiku45_data29",
+   "n_test": 200,
+   "policies": {
+    "full_budget": {
+     "em": 46.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 45.0,
+     "searches": 2.47,
+     "primary_calls": 5.94,
+     "answer_once_calls": 5.94,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 41.0,
+     "searches": 1.68,
+     "primary_calls": 4.36,
+     "answer_once_calls": 4.36,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 45.0,
+     "searches": 2.315,
+     "primary_calls": 5.63,
+     "answer_once_calls": 5.63,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 46.0,
+     "searches": 2.755,
+     "primary_calls": 6.51,
+     "answer_once_calls": 6.51,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 18.0,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 29.0,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 45.0,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 46.0,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 46.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [],
+      "verdict": "N"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 5.94,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.63,
+    "guarded_calls": 5.94,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_llama3b_data17",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 39.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 38.75,
+     "searches": 3.303,
+     "primary_calls": 7.605,
+     "answer_once_calls": 7.605,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 38.75,
+     "searches": 3.295,
+     "primary_calls": 7.59,
+     "answer_once_calls": 7.59,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 34.75,
+     "searches": 2.163,
+     "primary_calls": 5.325,
+     "answer_once_calls": 5.325,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 36.0,
+     "searches": 2.58,
+     "primary_calls": 6.16,
+     "answer_once_calls": 6.16,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 16.5,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 27.75,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 36.25,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 38.25,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 39.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 7.605,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.325,
+    "guarded_calls": 7.605,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_qwen3b_data17",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 31.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 29.25,
+     "searches": 2.855,
+     "primary_calls": 6.71,
+     "answer_once_calls": 6.71,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 29.5,
+     "searches": 2.808,
+     "primary_calls": 6.615,
+     "answer_once_calls": 6.615,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 27.75,
+     "searches": 2.373,
+     "primary_calls": 5.745,
+     "answer_once_calls": 5.745,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 28.0,
+     "searches": 2.48,
+     "primary_calls": 5.96,
+     "answer_once_calls": 5.96,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 27.75,
+     "searches": 2.45,
+     "primary_calls": 5.9,
+     "answer_once_calls": 5.9,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 7.0,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 22.5,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 29.0,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 31.5,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 31.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 6.71,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.745,
+    "guarded_calls": 6.71,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_qwen3b_data23",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 26.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 23.25,
+     "searches": 2.45,
+     "primary_calls": 5.9,
+     "answer_once_calls": 5.9,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 13.5,
+     "searches": 0.835,
+     "primary_calls": 2.67,
+     "answer_once_calls": 2.67,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 23.25,
+     "searches": 2.45,
+     "primary_calls": 5.9,
+     "answer_once_calls": 5.9,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 23.25,
+     "searches": 2.46,
+     "primary_calls": 5.92,
+     "answer_once_calls": 5.92,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 25.5,
+     "searches": 3.217,
+     "primary_calls": 7.435,
+     "answer_once_calls": 7.435,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 23.25,
+     "searches": 2.45,
+     "primary_calls": 5.9,
+     "answer_once_calls": 5.9,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 6.5,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 14.5,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 22.25,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 24.75,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 26.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [],
+      "verdict": "N"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 5.9,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_1"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.9,
+    "guarded_calls": 5.9,
+    "guarded_cost_inside_simple_range": true
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_qwen3b_data29",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 25.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 27.0,
+     "searches": 2.68,
+     "primary_calls": 6.36,
+     "answer_once_calls": 6.36,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 26.25,
+     "searches": 2.208,
+     "primary_calls": 5.415,
+     "answer_once_calls": 5.415,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 26.5,
+     "searches": 2.442,
+     "primary_calls": 5.885,
+     "answer_once_calls": 5.885,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 27.0,
+     "searches": 2.703,
+     "primary_calls": 6.405,
+     "answer_once_calls": 6.405,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 26.75,
+     "searches": 3.257,
+     "primary_calls": 7.515,
+     "answer_once_calls": 7.515,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 26.5,
+     "searches": 2.46,
+     "primary_calls": 5.92,
+     "answer_once_calls": 5.92,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 6.25,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 19.5,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 25.5,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 26.5,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 25.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "tasr": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 6.36,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "tasr": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_3"
+    ],
+    "max_simple_family_calls": 5.885,
+    "guarded_calls": 6.36,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_qwen3b_data31",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 34.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 34.25,
+     "searches": 3.377,
+     "primary_calls": 7.755,
+     "answer_once_calls": 7.755,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 33.25,
+     "searches": 3.255,
+     "primary_calls": 7.51,
+     "answer_once_calls": 7.51,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 32.0,
+     "searches": 2.355,
+     "primary_calls": 5.71,
+     "answer_once_calls": 5.71,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 34.0,
+     "searches": 3.217,
+     "primary_calls": 7.435,
+     "answer_once_calls": 7.435,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 33.75,
+     "searches": 3.248,
+     "primary_calls": 7.495,
+     "answer_once_calls": 7.495,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 33.5,
+     "searches": 2.938,
+     "primary_calls": 6.875,
+     "answer_once_calls": 6.875,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 6.75,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 25.75,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 31.5,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 32.5,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 34.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "tasr": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [],
+      "verdict": "N"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 7.755,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.71,
+    "guarded_calls": 7.755,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_qwen3b_seed11",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 25.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 25.25,
+     "searches": 2.752,
+     "primary_calls": 6.505,
+     "answer_once_calls": 6.505,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 25.25,
+     "searches": 2.37,
+     "primary_calls": 5.74,
+     "answer_once_calls": 5.74,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 25.0,
+     "searches": 2.348,
+     "primary_calls": 5.695,
+     "answer_once_calls": 5.695,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 24.75,
+     "searches": 2.56,
+     "primary_calls": 6.12,
+     "answer_once_calls": 6.12,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 24.75,
+     "searches": 2.73,
+     "primary_calls": 6.46,
+     "answer_once_calls": 6.46,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 9.0,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 19.25,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 25.75,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 25.25,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 25.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 6.505,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.695,
+    "guarded_calls": 6.505,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpus_guarded_qwen3b_seed19",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 26.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 25.5,
+     "searches": 2.837,
+     "primary_calls": 6.675,
+     "answer_once_calls": 6.675,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 25.25,
+     "searches": 2.688,
+     "primary_calls": 6.375,
+     "answer_once_calls": 6.375,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 25.5,
+     "searches": 2.357,
+     "primary_calls": 5.715,
+     "answer_once_calls": 5.715,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 25.75,
+     "searches": 3.092,
+     "primary_calls": 7.185,
+     "answer_once_calls": 7.185,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 25.75,
+     "searches": 2.965,
+     "primary_calls": 6.93,
+     "answer_once_calls": 6.93,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 9.0,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 18.75,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 24.25,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 26.0,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 26.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "answer_repeat"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [],
+      "verdict": "N"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 6.675,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.715,
+    "guarded_calls": 6.675,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpusmusique_guarded_qwen3b_data17",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 9.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 7.5,
+     "searches": 2.77,
+     "primary_calls": 6.54,
+     "answer_once_calls": 6.54,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 3.75,
+     "searches": 1.012,
+     "primary_calls": 3.025,
+     "answer_once_calls": 3.025,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 7.5,
+     "searches": 2.765,
+     "primary_calls": 6.53,
+     "answer_once_calls": 6.53,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 7.5,
+     "searches": 2.765,
+     "primary_calls": 6.53,
+     "answer_once_calls": 6.53,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 8.5,
+     "searches": 3.803,
+     "primary_calls": 8.605,
+     "answer_once_calls": 8.605,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 7.5,
+     "searches": 2.775,
+     "primary_calls": 6.55,
+     "answer_once_calls": 6.55,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 0.5,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 3.25,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 7.25,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 7.25,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 9.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "tasr": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 6.54,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 6.53,
+    "guarded_calls": 6.54,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpusmusique_guarded_qwen3b_data23",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 10.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 9.25,
+     "searches": 2.748,
+     "primary_calls": 6.495,
+     "answer_once_calls": 6.495,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 2.5,
+     "searches": 0.22,
+     "primary_calls": 1.44,
+     "answer_once_calls": 1.44,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 9.25,
+     "searches": 2.725,
+     "primary_calls": 6.45,
+     "answer_once_calls": 6.45,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 9.25,
+     "searches": 2.99,
+     "primary_calls": 6.98,
+     "answer_once_calls": 6.98,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 9.75,
+     "searches": 3.893,
+     "primary_calls": 8.785,
+     "answer_once_calls": 8.785,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 10.0,
+     "searches": 2.993,
+     "primary_calls": 6.985,
+     "answer_once_calls": 6.985,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 0.25,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 6.0,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 10.0,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 9.25,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 10.25,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 6.495,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 6.45,
+    "guarded_calls": 6.495,
+    "guarded_cost_inside_simple_range": false
+   }
+  },
+  {
+   "cell": "corpus_confirmation_corpusmusique_guarded_qwen3b_data29",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 12.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 10.75,
+     "searches": 2.712,
+     "primary_calls": 6.425,
+     "answer_once_calls": 6.425,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 0.25,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 10.75,
+     "searches": 2.712,
+     "primary_calls": 6.425,
+     "answer_once_calls": 6.425,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 10.75,
+     "searches": 2.755,
+     "primary_calls": 6.51,
+     "answer_once_calls": 6.51,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 12.0,
+     "searches": 3.94,
+     "primary_calls": 8.88,
+     "answer_once_calls": 8.88,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 10.75,
+     "searches": 2.717,
+     "primary_calls": 6.435,
+     "answer_once_calls": 6.435,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 0.25,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 6.0,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 10.75,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 10.75,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 12.0,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 6.425,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 6.425,
+    "guarded_calls": 6.425,
+    "guarded_cost_inside_simple_range": true
+   }
+  },
+  {
+   "cell": "corpus_confirmation_wiki25m_guarded_qwen3b",
+   "n_test": 400,
+   "policies": {
+    "full_budget": {
+     "em": 21.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    },
+    "guarded_value": {
+     "em": 21.25,
+     "searches": 2.447,
+     "primary_calls": 5.895,
+     "answer_once_calls": 5.895,
+     "answer_once_applies": false
+    },
+    "value_only": {
+     "em": 18.0,
+     "searches": 1.067,
+     "primary_calls": 3.135,
+     "answer_once_calls": 3.135,
+     "answer_once_applies": false
+    },
+    "answer_repeat": {
+     "em": 21.25,
+     "searches": 2.438,
+     "primary_calls": 5.875,
+     "answer_once_calls": 5.875,
+     "answer_once_applies": false
+    },
+    "semantic_guard": {
+     "em": 21.25,
+     "searches": 2.467,
+     "primary_calls": 5.935,
+     "answer_once_calls": 5.935,
+     "answer_once_applies": false
+    },
+    "tasr": {
+     "em": 21.25,
+     "searches": 3.54,
+     "primary_calls": 8.08,
+     "answer_once_calls": 8.08,
+     "answer_once_applies": false
+    },
+    "repeat_conditioned_gain": {
+     "em": 21.25,
+     "searches": 2.482,
+     "primary_calls": 5.965,
+     "answer_once_calls": 5.965,
+     "answer_once_applies": false
+    },
+    "fixed_0": {
+     "em": 9.0,
+     "searches": 0.0,
+     "primary_calls": 1.0,
+     "answer_once_calls": 1.0,
+     "answer_once_applies": true
+    },
+    "fixed_1": {
+     "em": 17.75,
+     "searches": 1.0,
+     "primary_calls": 3.0,
+     "answer_once_calls": 2.0,
+     "answer_once_applies": true
+    },
+    "fixed_2": {
+     "em": 23.0,
+     "searches": 2.0,
+     "primary_calls": 5.0,
+     "answer_once_calls": 3.0,
+     "answer_once_applies": true
+    },
+    "fixed_3": {
+     "em": 21.5,
+     "searches": 3.0,
+     "primary_calls": 7.0,
+     "answer_once_calls": 4.0,
+     "answer_once_applies": true
+    },
+    "fixed_4": {
+     "em": 21.5,
+     "searches": 4.0,
+     "primary_calls": 9.0,
+     "answer_once_calls": 5.0,
+     "answer_once_applies": true
+    }
+   },
+   "primary": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [],
+      "verdict": "N"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 9.0,
+    "guarded_cost_inside_fixed_range": true,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2"
+    ],
+    "max_simple_family_calls": 9.0,
+    "guarded_calls": 5.895,
+    "guarded_cost_inside_simple_range": true
+   },
+   "answer_once": {
+    "verdicts": {
+     "full_budget": {
+      "dominated_by": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "verdict": "L"
+     },
+     "guarded_value": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "value_only": {
+      "dominated_by": [
+       "fixed_2"
+      ],
+      "verdict": "L"
+     },
+     "semantic_guard": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "tasr": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     },
+     "repeat_conditioned_gain": {
+      "dominated_by": [
+       "answer_repeat",
+       "fixed_2",
+       "fixed_3",
+       "fixed_4"
+      ],
+      "verdict": "L"
+     }
+    },
+    "max_fixed_budget_calls": 5.0,
+    "guarded_cost_inside_fixed_range": false,
+    "answer_repeat_dominated_by_fixed": [
+     "fixed_2",
+     "fixed_3",
+     "fixed_4"
+    ],
+    "max_simple_family_calls": 5.875,
+    "guarded_calls": 5.895,
+    "guarded_cost_inside_simple_range": false
+   }
+  }
+ ]
+}

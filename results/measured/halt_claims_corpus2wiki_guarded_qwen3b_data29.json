@@ -1,0 +1,4520 @@
+{
+ "model": "qwen2.5:3b-instruct",
+ "prompt": "You decompose a multi-hop question into the facts that must be RETRIEVED before it can be answered. Never answer the question. Each line states what must be found and mentions an entity from the question. Output at most {k} lines, no numbering, no explanation.\n\nQuestion: Which magazine was started first, Arthur's Magazine or First for Women?\nFacts:\nThe year Arthur's Magazine was first published.\nThe year First for Women was first published.\n\nQuestion: The Oberoi family is part of a hotel company that has a head office in what city?\nFacts:\nThe hotel company the Oberoi family is part of.\nThe city where that hotel company has its head office.\n\nQuestion: {q}\nFacts:",
+ "max_claims": 4,
+ "llm_seed": 7,
+ "temperature": 0.0,
+ "n_claim_generation_calls": 520,
+ "rows": [
+  {
+   "split": "train",
+   "id": "0cc0c339084911ebbd55ac1f6bf848b6",
+   "claims": [
+    "The director of The Perfect Specimen film.",
+    "The director of the 1984 Finders Keepers film."
+   ],
+   "raw": "The director of The Perfect Specimen film.\nThe director of the 1984 Finders Keepers film."
+  },
+  {
+   "split": "train",
+   "id": "e64f0b1c0bdc11eba7f7acde48001122",
+   "claims": [
+    "Christian, Duke Of Saxe-Weissenfels's mother name."
+   ],
+   "raw": "Christian, Duke Of Saxe-Weissenfels's mother name."
+  },
+  {
+   "split": "train",
+   "id": "2fa5c12e091711ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year The Man In Grey was released.",
+    "The year The Queen's Traitor was released."
+   ],
+   "raw": "The year The Man In Grey was released.\nThe year The Queen's Traitor was released."
+  },
+  {
+   "split": "train",
+   "id": "c01a2fa8087111ebbd63ac1f6bf848b6",
+   "claims": [
+    "The director who made Adam's Rib.",
+    "The director who made Thendral Veesum."
+   ],
+   "raw": "The director who made Adam's Rib.\nThe director who made Thendral Veesum."
+  },
+  {
+   "split": "train",
+   "id": "8b1591d20bda11eba7f7acde48001122",
+   "claims": [
+    "The composer who wrote the song If I Don't Have You."
+   ],
+   "raw": "The composer who wrote the song If I Don't Have You."
+  },
+  {
+   "split": "train",
+   "id": "e43af5200bdc11eba7f7acde48001122",
+   "claims": [
+    "Donika Kastrioti's husband."
+   ],
+   "raw": "Donika Kastrioti's husband."
+  },
+  {
+   "split": "train",
+   "id": "8bbf3e73091011ebbdadac1f6bf848b6",
+   "claims": [
+    "The year The First 9\u00bd Weeks was released.",
+    "The year Christmas In Tattertown was released."
+   ],
+   "raw": "The year The First 9\u00bd Weeks was released.\nThe year Christmas In Tattertown was released."
+  },
+  {
+   "split": "train",
+   "id": "3a238506088611ebbd6dac1f6bf848b6",
+   "claims": [
+    "The director who made Josser On The Farm.",
+    "The director who made The Great O'Malley."
+   ],
+   "raw": "The director who made Josser On The Farm.\nThe director who made The Great O'Malley."
+  },
+  {
+   "split": "train",
+   "id": "360d5fa60bdc11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song Oceania."
+   ],
+   "raw": "The performer of the song Oceania."
+  },
+  {
+   "split": "train",
+   "id": "37e0b22a0bdb11eba7f7acde48001122",
+   "claims": [
+    "Juan Manuel Morales's father."
+   ],
+   "raw": "Juan Manuel Morales's father."
+  },
+  {
+   "split": "train",
+   "id": "ce1c42b20baf11ebab90acde48001122",
+   "claims": [
+    "Malin Berghagen's father."
+   ],
+   "raw": "Malin Berghagen's father."
+  },
+  {
+   "split": "train",
+   "id": "cd4ceac40bd911eba7f7acde48001122",
+   "claims": [
+    "The place of death of the composer of the song Love Is Here To Stay."
+   ],
+   "raw": "The place of death of the composer of the song Love Is Here To Stay."
+  },
+  {
+   "split": "train",
+   "id": "a14e5c3e0bdc11eba7f7acde48001122",
+   "claims": [
+    "The director of the film 1939 (Film).",
+    "The place of birth of the director."
+   ],
+   "raw": "The director of the film 1939 (Film).\nThe place of birth of the director."
+  },
+  {
+   "split": "train",
+   "id": "c0521bca087611ebbd67ac1f6bf848b6",
+   "claims": [
+    "Country of origin for The Church (Band).",
+    "Country of origin for Kookies N Kream."
+   ],
+   "raw": "Country of origin for The Church (Band).\nCountry of origin for Kookies N Kream."
+  },
+  {
+   "split": "train",
+   "id": "56d2ffcc08d811ebbd9aac1f6bf848b6",
+   "claims": [
+    "The directors of Homecoming (1984 Film).",
+    "The director of Hello Cheyenne.",
+    "The nationality of the director of Homecoming (1984 Film).",
+    "The nationality of the director of Hello Cheyenne."
+   ],
+   "raw": "The directors of Homecoming (1984 Film).\nThe director of Hello Cheyenne.\nThe nationality of the director of Homecoming (1984 Film).\nThe nationality of the director of Hello Cheyenne."
+  },
+  {
+   "split": "train",
+   "id": "0e2fe3b40bdc11eba7f7acde48001122",
+   "claims": [
+    "George Carnegie, 6th Earl of Northesk's father."
+   ],
+   "raw": "George Carnegie, 6th Earl of Northesk's father."
+  },
+  {
+   "split": "train",
+   "id": "fada11b40bda11eba7f7acde48001122",
+   "claims": [
+    "The performer who performed the song Come Over To My Place.",
+    "The place where the performer was born."
+   ],
+   "raw": "The performer who performed the song Come Over To My Place.\nThe place where the performer was born."
+  },
+  {
+   "split": "train",
+   "id": "dcf15106087811ebbd67ac1f6bf848b6",
+   "claims": [
+    "The director who made Five Red Tulips.",
+    "The director who made Laughing At Death."
+   ],
+   "raw": "The director who made Five Red Tulips.\nThe director who made Laughing At Death."
+  },
+  {
+   "split": "train",
+   "id": "3d624700088311ebbd6dac1f6bf848b6",
+   "claims": [
+    "The director who made Buffalo Bill In Tomahawk Territory.",
+    "The director who made Lady From Lisbon."
+   ],
+   "raw": "The director who made Buffalo Bill In Tomahawk Territory.\nThe director who made Lady From Lisbon."
+  },
+  {
+   "split": "train",
+   "id": "6cca51a20baf11ebab90acde48001122",
+   "claims": [
+    "Piers Butler Of Duiske's paternal grandfather."
+   ],
+   "raw": "Piers Butler Of Duiske's paternal grandfather."
+  },
+  {
+   "split": "train",
+   "id": "d4bd5cec08de11ebbd9fac1f6bf848b6",
+   "claims": [
+    "The director who made Giubbe Rosse.",
+    "The director who made Ivo The Genius."
+   ],
+   "raw": "The director who made Giubbe Rosse.\nThe director who made Ivo The Genius."
+  },
+  {
+   "split": "train",
+   "id": "137ae8ec087a11ebbd67ac1f6bf848b6",
+   "claims": [
+    "The director who made The Secret Of Mayerling.",
+    "The director who made Brand Of The Devil."
+   ],
+   "raw": "The director who made The Secret Of Mayerling.\nThe director who made Brand Of The Devil."
+  },
+  {
+   "split": "train",
+   "id": "2e51af0e0bde11eba7f7acde48001122",
+   "claims": [
+    "The place of burial of Louis Of Lower Lorraine's father."
+   ],
+   "raw": "The place of burial of Louis Of Lower Lorraine's father."
+  },
+  {
+   "split": "train",
+   "id": "122f7ba408a411ebbd7cac1f6bf848b6",
+   "claims": [
+    "The director who made Ada Apa Dengan Cinta.",
+    "The director who made Adam & Paul.",
+    "The year the director of Ada Apa Dengan Cinta was born.",
+    "The year the director of Adam & Paul was born."
+   ],
+   "raw": "The director who made Ada Apa Dengan Cinta.\nThe director who made Adam & Paul.\nThe year the director of Ada Apa Dengan Cinta was born.\nThe year the director of Adam & Paul was born."
+  },
+  {
+   "split": "train",
+   "id": "fe6b99fe08d011ebbd95ac1f6bf848b6",
+   "claims": [
+    "The director who made America America.",
+    "The director who made Bees In Paradise."
+   ],
+   "raw": "The director who made America America.\nThe director who made Bees In Paradise."
+  },
+  {
+   "split": "train",
+   "id": "8c82acb20bda11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the performer of the song Adore You."
+   ],
+   "raw": "The nationality of the performer of the song Adore You."
+  },
+  {
+   "split": "train",
+   "id": "f2ff844c0bda11eba7f7acde48001122",
+   "claims": [
+    "The director of film Legend Of A Fighter."
+   ],
+   "raw": "The director of film Legend Of A Fighter."
+  },
+  {
+   "split": "train",
+   "id": "5860258c0bde11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Of Snails And Men.",
+    "The birthplace of that director."
+   ],
+   "raw": "The director who directed the film Of Snails And Men.\nThe birthplace of that director."
+  },
+  {
+   "split": "train",
+   "id": "5b63d40a0bb011ebab90acde48001122",
+   "claims": [
+    "Christopher Cornford's mother.",
+    "Christopher Cornford's mother's parents."
+   ],
+   "raw": "Christopher Cornford's mother.\nChristopher Cornford's mother's parents."
+  },
+  {
+   "split": "train",
+   "id": "24b732bd08d111ebbd95ac1f6bf848b6",
+   "claims": [
+    "Birth year of Andrew Renzullo.",
+    "Birth year of Miriam C\u00e1rdenas Cant\u00fa."
+   ],
+   "raw": "Birth year of Andrew Renzullo.\nBirth year of Miriam C\u00e1rdenas Cant\u00fa."
+  },
+  {
+   "split": "train",
+   "id": "481d48000baf11ebab90acde48001122",
+   "claims": [
+    "The person who is the mother-in-law of Maria Of Aragon, Lady Of Cameros."
+   ],
+   "raw": "The person who is the mother-in-law of Maria Of Aragon, Lady Of Cameros."
+  },
+  {
+   "split": "train",
+   "id": "afc6b59708b611ebbd88ac1f6bf848b6",
+   "claims": [
+    "The director who made Main Tera Hero.",
+    "The director who made Betrayed Women."
+   ],
+   "raw": "The director who made Main Tera Hero.\nThe director who made Betrayed Women."
+  },
+  {
+   "split": "train",
+   "id": "afbfedfc08c411ebbd8eac1f6bf848b6",
+   "claims": [
+    "Gunnar Kulldorff's date of death.",
+    "Gordon Gibson Sr.'s date of death."
+   ],
+   "raw": "Gunnar Kulldorff's date of death.\nGordon Gibson Sr.'s date of death."
+  },
+  {
+   "split": "train",
+   "id": "32d8b8ce0bde11eba7f7acde48001122",
+   "claims": [
+    "Cosima Von B\u00fclow Pavoncelli's father name."
+   ],
+   "raw": "Cosima Von B\u00fclow Pavoncelli's father name."
+  },
+  {
+   "split": "train",
+   "id": "a60dbb0a08e111ebbda3ac1f6bf848b6",
+   "claims": [
+    "The director of Steppin' In Society.",
+    "The director of Why I Would Not Marry."
+   ],
+   "raw": "The director of Steppin' In Society.\nThe director of Why I Would Not Marry."
+  },
+  {
+   "split": "train",
+   "id": "470e29a308cb11ebbd92ac1f6bf848b6",
+   "claims": [
+    "No facts provided.",
+    "Mart Van Duren's age.",
+    "Madeleine Simms' age.",
+    "Entity related to their relationship if known."
+   ],
+   "raw": "No facts provided.  \nMart Van Duren's age.  \nMadeleine Simms' age.  \nEntity related to their relationship if known."
+  },
+  {
+   "split": "train",
+   "id": "c77d1fc60bdc11eba7f7acde48001122",
+   "claims": [
+    "The director of the film The Black Star.",
+    "The location where the film The Black Star was shot."
+   ],
+   "raw": "The director of the film The Black Star.\nThe location where the film The Black Star was shot."
+  },
+  {
+   "split": "train",
+   "id": "42359f760bde11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song Thru Your Phone."
+   ],
+   "raw": "The performer of the song Thru Your Phone."
+  },
+  {
+   "split": "train",
+   "id": "ace717d0088411ebbd6dac1f6bf848b6",
+   "claims": [
+    "The director of Colierul De Turcoaze.",
+    "The director of Leo And Loree."
+   ],
+   "raw": "The director of Colierul De Turcoaze.\nThe director of Leo And Loree."
+  },
+  {
+   "split": "train",
+   "id": "c7a9e30308ae11ebbd83ac1f6bf848b6",
+   "claims": [
+    "The director who made Gang Bullets.",
+    "The director who made Day Of The Idioms."
+   ],
+   "raw": "The director who made Gang Bullets.\nThe director who made Day Of The Idioms."
+  },
+  {
+   "split": "train",
+   "id": "f7a8440208ab11ebbd82ac1f6bf848b6",
+   "claims": [
+    "Martin Stapleton's date of birth.",
+    "Gina Fulton's date of birth."
+   ],
+   "raw": "Martin Stapleton's date of birth.\nGina Fulton's date of birth."
+  },
+  {
+   "split": "train",
+   "id": "4ed186f00bde11eba7f7acde48001122",
+   "claims": [
+    "The husband of Dobrodeia Of Kiev."
+   ],
+   "raw": "The husband of Dobrodeia Of Kiev."
+  },
+  {
+   "split": "train",
+   "id": "3208a1cc0baf11ebab90acde48001122",
+   "claims": [
+    "Paternal grandmother of John, Duke Of Durazzo."
+   ],
+   "raw": "Paternal grandmother of John, Duke Of Durazzo."
+  },
+  {
+   "split": "train",
+   "id": "23b46a400bda11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Magic Mirror.",
+    "The birthplace of the director who made the film Magic Mirror."
+   ],
+   "raw": "The director who directed the film Magic Mirror.\nThe birthplace of the director who made the film Magic Mirror."
+  },
+  {
+   "split": "train",
+   "id": "f1a04d600bdb11eba7f7acde48001122",
+   "claims": [
+    "The director of the 1938 film Dollar."
+   ],
+   "raw": "The director of the 1938 film Dollar."
+  },
+  {
+   "split": "train",
+   "id": "786b1222088911ebbd6eac1f6bf848b6",
+   "claims": [
+    "The birth year of Princess Maria Ferdinanda Of Saxony.",
+    "The birth year of Rupprecht Von Keller."
+   ],
+   "raw": "The birth year of Princess Maria Ferdinanda Of Saxony.\nThe birth year of Rupprecht Von Keller."
+  },
+  {
+   "split": "train",
+   "id": "d9976b0c0bdd11eba7f7acde48001122",
+   "claims": [
+    "Devdas Chhotray's father's place of death."
+   ],
+   "raw": "Devdas Chhotray's father's place of death."
+  },
+  {
+   "split": "train",
+   "id": "3cd6aab00bda11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Nuits Rouges.",
+    "The birthplace of the director of Nuits Rouges."
+   ],
+   "raw": "The director who directed the film Nuits Rouges.\nThe birthplace of the director of Nuits Rouges."
+  },
+  {
+   "split": "train",
+   "id": "7d4329fe0bdd11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Akcja Pod Arsena\u0142em.",
+    "The university or institution where the director graduated from."
+   ],
+   "raw": "The director who directed the film Akcja Pod Arsena\u0142em.\nThe university or institution where the director graduated from."
+  },
+  {
+   "split": "train",
+   "id": "09aa4e1a0bdc11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film A Woman Of The Sea."
+   ],
+   "raw": "The director who directed the film A Woman Of The Sea."
+  },
+  {
+   "split": "train",
+   "id": "9a59530408ba11ebbd88ac1f6bf848b6",
+   "claims": [
+    "Country where White Diamond: A Personal Portrait Of Kylie Minogue was released.",
+    "Country where Desert Victory was released."
+   ],
+   "raw": "Country where White Diamond: A Personal Portrait Of Kylie Minogue was released.\nCountry where Desert Victory was released."
+  },
+  {
+   "split": "train",
+   "id": "bc61bfd608d311ebbd96ac1f6bf848b6",
+   "claims": [
+    "The director who made He Who Gets Slapped.",
+    "The director who made Mysterious Mr. Parkes.",
+    "The date of death for the director of He Who Gets Slapped.",
+    "The date of death for the director of Mysterious Mr. Parkes."
+   ],
+   "raw": "The director who made He Who Gets Slapped.\nThe director who made Mysterious Mr. Parkes.\nThe date of death for the director of He Who Gets Slapped.\nThe date of death for the director of Mysterious Mr. Parkes."
+  },
+  {
+   "split": "train",
+   "id": "49ec1ade0bdd11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film My Heidelberg, I Can Not Forget You."
+   ],
+   "raw": "The director who directed the film My Heidelberg, I Can Not Forget You."
+  },
+  {
+   "split": "train",
+   "id": "68cb46960bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Brother Rat."
+   ],
+   "raw": "The director of the film Brother Rat."
+  },
+  {
+   "split": "train",
+   "id": "0c13a2ca088811ebbd6eac1f6bf848b6",
+   "claims": [
+    "The director of The King's Pirate.",
+    "The director of Trauma (1993 Film).",
+    "The birth year of the director of The King's Pirate.",
+    "The birth year of the director of Trauma (1993 Film)."
+   ],
+   "raw": "The director of The King's Pirate.\nThe director of Trauma (1993 Film).\nThe birth year of the director of The King's Pirate.\nThe birth year of the director of Trauma (1993 Film)."
+  },
+  {
+   "split": "train",
+   "id": "96a1b68a0bd911eba7f7acde48001122",
+   "claims": [
+    "The director of the film Killer Diller."
+   ],
+   "raw": "The director of the film Killer Diller."
+  },
+  {
+   "split": "train",
+   "id": "9da14ff1086311ebbd5eac1f6bf848b6",
+   "claims": [
+    "Saeed Nafisi's date of death.",
+    "Wilhelm Knechtel's date of death."
+   ],
+   "raw": "Saeed Nafisi's date of death.\nWilhelm Knechtel's date of death."
+  },
+  {
+   "split": "train",
+   "id": "6837abca0bb011ebab90acde48001122",
+   "claims": [
+    "Princess Adrienne, Duchess Of Blekinge's mother."
+   ],
+   "raw": "Princess Adrienne, Duchess Of Blekinge's mother."
+  },
+  {
+   "split": "train",
+   "id": "a944870c0bdb11eba7f7acde48001122",
+   "claims": [
+    "Tad Lincoln's mother."
+   ],
+   "raw": "Tad Lincoln's mother."
+  },
+  {
+   "split": "train",
+   "id": "bcbd76e608a111ebbd79ac1f6bf848b6",
+   "claims": [
+    "The director of the film Needhikku Thalaivanangu.",
+    "The director of the film I Drink Your Blood."
+   ],
+   "raw": "The director of the film Needhikku Thalaivanangu.\nThe director of the film I Drink Your Blood."
+  },
+  {
+   "split": "train",
+   "id": "1b9c91660bda11eba7f7acde48001122",
+   "claims": [
+    "The place of birth of George Linnaeus Banks's wife."
+   ],
+   "raw": "The place of birth of George Linnaeus Banks's wife."
+  },
+  {
+   "split": "train",
+   "id": "b916e47a0bdd11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song The Age Of Not Believing.",
+    "The father of the performer of the song The Age Of Not Believing."
+   ],
+   "raw": "The performer of the song The Age Of Not Believing.\nThe father of the performer of the song The Age Of Not Believing."
+  },
+  {
+   "split": "train",
+   "id": "1c8c6a080bdd11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the director of the film Sweet Substitute."
+   ],
+   "raw": "The nationality of the director of the film Sweet Substitute."
+  },
+  {
+   "split": "train",
+   "id": "b29a53de08db11ebbd9cac1f6bf848b6",
+   "claims": [
+    "The director who made The Woman With The Orchid.",
+    "The director who made Helicopter Canada."
+   ],
+   "raw": "The director who made The Woman With The Orchid.\nThe director who made Helicopter Canada."
+  },
+  {
+   "split": "train",
+   "id": "ec70a8a308a311ebbd7cac1f6bf848b6",
+   "claims": [
+    "The lifespan of Werner Mensching.",
+    "The lifespan of Karel Zich."
+   ],
+   "raw": "The lifespan of Werner Mensching.\nThe lifespan of Karel Zich."
+  },
+  {
+   "split": "train",
+   "id": "897694360bb011ebab90acde48001122",
+   "claims": [
+    "Paternal grandfather of King Zhao Of Wei."
+   ],
+   "raw": "Paternal grandfather of King Zhao Of Wei."
+  },
+  {
+   "split": "train",
+   "id": "37a4158e0bb011ebab90acde48001122",
+   "claims": [
+    "The father of Marie Charlotte de La Tr\u00e9moille."
+   ],
+   "raw": "The father of Marie Charlotte de La Tr\u00e9moille."
+  },
+  {
+   "split": "train",
+   "id": "3c68e44c0bdc11eba7f7acde48001122",
+   "claims": [
+    "Alessandro Vitelli's father."
+   ],
+   "raw": "Alessandro Vitelli's father."
+  },
+  {
+   "split": "train",
+   "id": "b0165ea60baf11ebab90acde48001122",
+   "claims": [
+    "Mehmed I's father.",
+    "Mehmed I's mother.",
+    "The name of Mehmed I's maternal grandparents."
+   ],
+   "raw": "Mehmed I's father.\nMehmed I's mother.\nThe name of Mehmed I's maternal grandparents."
+  },
+  {
+   "split": "train",
+   "id": "03d7dadb087f11ebbd6bac1f6bf848b6",
+   "claims": [
+    "The countries of origin for both directors."
+   ],
+   "raw": "The countries of origin for both directors."
+  },
+  {
+   "split": "train",
+   "id": "085e01bc0bde11eba7f7acde48001122",
+   "claims": [
+    "The place of birth of Alexandru Darie's father."
+   ],
+   "raw": "The place of birth of Alexandru Darie's father."
+  },
+  {
+   "split": "train",
+   "id": "5da37fee08d211ebbd95ac1f6bf848b6",
+   "claims": [
+    "Director of both Next Time We Love and A Master Builder films.",
+    "Country of origin for each director."
+   ],
+   "raw": "Director of both Next Time We Love and A Master Builder films.\nCountry of origin for each director."
+  },
+  {
+   "split": "train",
+   "id": "463593660bdd11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the director of the film Legendary Assassin."
+   ],
+   "raw": "The nationality of the director of the film Legendary Assassin."
+  },
+  {
+   "split": "train",
+   "id": "85707a1a0bdc11eba7f7acde48001122",
+   "claims": [
+    "Beatrice, Countess Of Alburquerque's father."
+   ],
+   "raw": "Beatrice, Countess Of Alburquerque's father."
+  },
+  {
+   "split": "train",
+   "id": "681d4fcc0bde11eba7f7acde48001122",
+   "claims": [
+    "Vigrahapala I's father in Pala Dynasty."
+   ],
+   "raw": "Vigrahapala I's father in Pala Dynasty."
+  },
+  {
+   "split": "train",
+   "id": "bb72bde108a711ebbd7fac1f6bf848b6",
+   "claims": [
+    "Monica Ro\u0219u birth year.",
+    "Bruno Bizarro birth year."
+   ],
+   "raw": "Monica Ro\u0219u birth year.\nBruno Bizarro birth year."
+  },
+  {
+   "split": "train",
+   "id": "f1caf470088411ebbd6dac1f6bf848b6",
+   "claims": [
+    "The director of Private Information.",
+    "The director of My Family'S Beautiful!."
+   ],
+   "raw": "The director of Private Information.\nThe director of My Family'S Beautiful!."
+  },
+  {
+   "split": "train",
+   "id": "3e5ca16a0bd911eba7f7acde48001122",
+   "claims": [
+    "The performer of the song Goodbye Pork Pie Hat."
+   ],
+   "raw": "The performer of the song Goodbye Pork Pie Hat."
+  },
+  {
+   "split": "train",
+   "id": "c6b372a60bdd11eba7f7acde48001122",
+   "claims": [
+    "Alessandro Ruspoli's father's title (Prince of Cerveteri).",
+    "Alessandro Ruspoli's father's name.",
+    "The date of Alessandro Ruspoli's father's death."
+   ],
+   "raw": "Alessandro Ruspoli's father's title (Prince of Cerveteri).\nAlessandro Ruspoli's father's name.\nThe date of Alessandro Ruspoli's father's death."
+  },
+  {
+   "split": "train",
+   "id": "d29bc89e094811ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Kind Of Love was released.",
+    "The year Around The Fur was released."
+   ],
+   "raw": "The year Kind Of Love was released.\nThe year Around The Fur was released."
+  },
+  {
+   "split": "train",
+   "id": "a1c998940bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the film High Lane."
+   ],
+   "raw": "The director of the film High Lane."
+  },
+  {
+   "split": "train",
+   "id": "c96e25320baf11ebab90acde48001122",
+   "claims": [
+    "Lady Teresa Waugh's mother's maiden name.",
+    "Lady Teresa Waugh's mother's parents' details."
+   ],
+   "raw": "Lady Teresa Waugh's mother's maiden name.\nLady Teresa Waugh's mother's parents' details."
+  },
+  {
+   "split": "train",
+   "id": "efcb57f00bdb11eba7f7acde48001122",
+   "claims": [
+    "Pedro Afonso, Count Of Barcellos's father."
+   ],
+   "raw": "Pedro Afonso, Count Of Barcellos's father."
+  },
+  {
+   "split": "train",
+   "id": "44fe8eae09c211ebbdb0ac1f6bf848b6",
+   "claims": [
+    "Perth And District Collegiate Institute location.",
+    "Holy Trinity Catholic High School (Edmonton) location."
+   ],
+   "raw": "Perth And District Collegiate Institute location.\nHoly Trinity Catholic High School (Edmonton) location."
+  },
+  {
+   "split": "train",
+   "id": "49d965aa0bde11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song Butse Kik."
+   ],
+   "raw": "The performer of the song Butse Kik."
+  },
+  {
+   "split": "train",
+   "id": "2e1a14d60bde11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Les Assassins Du Dimanche."
+   ],
+   "raw": "The director of the film Les Assassins Du Dimanche."
+  },
+  {
+   "split": "train",
+   "id": "c4962ee20bdc11eba7f7acde48001122",
+   "claims": [
+    "The performer who performed the song It Seems Like You're Ready.",
+    "The birthplace of that performer."
+   ],
+   "raw": "The performer who performed the song It Seems Like You're Ready.\nThe birthplace of that performer."
+  },
+  {
+   "split": "train",
+   "id": "6a76a6b60bb011ebab90acde48001122",
+   "claims": [
+    "Princess Marie Of Waldeck And Pyrmont's mother.",
+    "Maternal grandparents of Princess Marie Of Waldeck And Pyrmont."
+   ],
+   "raw": "Princess Marie Of Waldeck And Pyrmont's mother.\nMaternal grandparents of Princess Marie Of Waldeck And Pyrmont."
+  },
+  {
+   "split": "train",
+   "id": "4aa79a4008ca11ebbd92ac1f6bf848b6",
+   "claims": [
+    "Ren Changxia's birth year.",
+    "Tsui Hark's birth year."
+   ],
+   "raw": "Ren Changxia's birth year.\nTsui Hark's birth year."
+  },
+  {
+   "split": "train",
+   "id": "c7d040e80bdc11eba7f7acde48001122",
+   "claims": [
+    "Mary Basset's father."
+   ],
+   "raw": "Mary Basset's father."
+  },
+  {
+   "split": "train",
+   "id": "5d8a63bc0bdc11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Bonnie May.",
+    "The birthplace of the director of the film Bonnie May."
+   ],
+   "raw": "The director of the film Bonnie May.\nThe birthplace of the director of the film Bonnie May."
+  },
+  {
+   "split": "train",
+   "id": "2866ecac08ce11ebbd94ac1f6bf848b6",
+   "claims": [
+    "The director of En Kvinde Er Overfl\u00f8dig.",
+    "The director of Aakrosh (2010 Film).",
+    "The birth year of the director of En Kvinde Er Overfl\u00f8dig.",
+    "The birth year of the director of Aakrosh (2010 Film)."
+   ],
+   "raw": "The director of En Kvinde Er Overfl\u00f8dig.\nThe director of Aakrosh (2010 Film).\nThe birth year of the director of En Kvinde Er Overfl\u00f8dig.\nThe birth year of the director of Aakrosh (2010 Film)."
+  },
+  {
+   "split": "train",
+   "id": "78468d8c0bd911eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Meet Maxwell Archer.",
+    "The birthplace of the director of Meet Maxwell Archer."
+   ],
+   "raw": "The director who directed the film Meet Maxwell Archer.\nThe birthplace of the director of Meet Maxwell Archer."
+  },
+  {
+   "split": "train",
+   "id": "2e1a8aa40bdb11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the director of the film The Diary Of A Slumlord."
+   ],
+   "raw": "The nationality of the director of the film The Diary Of A Slumlord."
+  },
+  {
+   "split": "train",
+   "id": "e02a195408e211ebbda4ac1f6bf848b6",
+   "claims": [
+    "The director who made Legion Of Terror.",
+    "The director who made Tumse Achha Kaun Hai."
+   ],
+   "raw": "The director who made Legion Of Terror.\nThe director who made Tumse Achha Kaun Hai."
+  },
+  {
+   "split": "train",
+   "id": "d10e511a0bda11eba7f7acde48001122",
+   "claims": [
+    "Imperial Noble Consort Shujia's husband's nationality."
+   ],
+   "raw": "Imperial Noble Consort Shujia's husband's nationality."
+  },
+  {
+   "split": "train",
+   "id": "f47416a6085811ebbd5bac1f6bf848b6",
+   "claims": [
+    "The director of The Cat And The Moon was born.",
+    "The director of Chicken Party was born."
+   ],
+   "raw": "The director of The Cat And The Moon was born.\nThe director of Chicken Party was born."
+  },
+  {
+   "split": "train",
+   "id": "bdf9ad8f088511ebbd6dac1f6bf848b6",
+   "claims": [
+    "The director who made Strangers' Meeting.",
+    "The director who made The Fortunate Fool."
+   ],
+   "raw": "The director who made Strangers' Meeting.\nThe director who made The Fortunate Fool."
+  },
+  {
+   "split": "train",
+   "id": "6da7cd5a0bd911eba7f7acde48001122",
+   "claims": [
+    "Esm\u00e9 Stewart, 3rd Duke of Lennox's wife."
+   ],
+   "raw": "Esm\u00e9 Stewart, 3rd Duke of Lennox's wife."
+  },
+  {
+   "split": "train",
+   "id": "1b99cbbc0bde11eba7f7acde48001122",
+   "claims": [
+    "Place of birth of Leona Lewis."
+   ],
+   "raw": "Place of birth of Leona Lewis."
+  },
+  {
+   "split": "train",
+   "id": "5418bd9b08c811ebbd91ac1f6bf848b6",
+   "claims": [
+    "The director of Pr\u00edpad Barnab\u00e1\u0161 Kos.",
+    "The director of Is There Justice?."
+   ],
+   "raw": "The director of Pr\u00edpad Barnab\u00e1\u0161 Kos.\nThe director of Is There Justice?."
+  },
+  {
+   "split": "train",
+   "id": "b8e9d716088411ebbd6dac1f6bf848b6",
+   "claims": [
+    "The director born for the film \u015eaban.",
+    "The director born for the film Son Of \u015eaban.",
+    "The director born for the film East/West."
+   ],
+   "raw": "The director born for the film \u015eaban.\nThe director born for the film Son Of \u015eaban.\nThe director born for the film East/West."
+  },
+  {
+   "split": "train",
+   "id": "3c72c8f40bdc11eba7f7acde48001122",
+   "claims": [
+    "Ostromir's father name."
+   ],
+   "raw": "Ostromir's father name."
+  },
+  {
+   "split": "train",
+   "id": "e85d87f4095111ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Nora Industrier was established.",
+    "The year Remington Arms was established."
+   ],
+   "raw": "The year Nora Industrier was established.\nThe year Remington Arms was established."
+  },
+  {
+   "split": "train",
+   "id": "7bf36cfd088411ebbd6dac1f6bf848b6",
+   "claims": [
+    "The birth year of Joshua Chamberlain.",
+    "The birth year of Carroll Righter."
+   ],
+   "raw": "The birth year of Joshua Chamberlain.\nThe birth year of Carroll Righter."
+  },
+  {
+   "split": "train",
+   "id": "c5a00e860bda11eba7f7acde48001122",
+   "claims": [
+    "Sylvia Burka's husband name."
+   ],
+   "raw": "Sylvia Burka's husband name."
+  },
+  {
+   "split": "train",
+   "id": "fbcd5af80bae11ebab90acde48001122",
+   "claims": [
+    "The paternal grandfather of Sir Arthur Gore, 1st Baronet."
+   ],
+   "raw": "The paternal grandfather of Sir Arthur Gore, 1st Baronet."
+  },
+  {
+   "split": "train",
+   "id": "e5fa9df9085c11ebbd5cac1f6bf848b6",
+   "claims": [
+    "Humbert Lund\u00e9n birth year.",
+    "Zita Hanrot birth year."
+   ],
+   "raw": "Humbert Lund\u00e9n birth year.\nZita Hanrot birth year."
+  },
+  {
+   "split": "train",
+   "id": "7c56407c085811ebbd5aac1f6bf848b6",
+   "claims": [
+    "The director of High Steppers.",
+    "The director of The Darling Of New York."
+   ],
+   "raw": "The director of High Steppers.\nThe director of The Darling Of New York."
+  },
+  {
+   "split": "train",
+   "id": "25b06fd408c311ebbd8dac1f6bf848b6",
+   "claims": [
+    "The director of Apartment Zero.",
+    "The director of The House By The Cemetery.",
+    "The birth year of the director of Apartment Zero.",
+    "The birth year of the director of The House By The Cemetery."
+   ],
+   "raw": "The director of Apartment Zero.\nThe director of The House By The Cemetery.\nThe birth year of the director of Apartment Zero.\nThe birth year of the director of The House By The Cemetery."
+  },
+  {
+   "split": "train",
+   "id": "282afcd60bdc11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song Throwback."
+   ],
+   "raw": "The performer of the song Throwback."
+  },
+  {
+   "split": "train",
+   "id": "ee5cf4a008a711ebbd7fac1f6bf848b6",
+   "claims": [
+    "The year Museum Of Croatian Archaeological Monuments was established.",
+    "The year Bayernhof Music Museum was established."
+   ],
+   "raw": "The year Museum Of Croatian Archaeological Monuments was established.\nThe year Bayernhof Music Museum was established."
+  },
+  {
+   "split": "train",
+   "id": "7b3f24c80bdd11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Journal Of A Crime."
+   ],
+   "raw": "The director who directed the film Journal Of A Crime."
+  },
+  {
+   "split": "train",
+   "id": "ed614be108f811ebbdaaac1f6bf848b6",
+   "claims": [
+    "Nationality of Frederick Mulder.",
+    "Nationality of Thomas Lee (South Carolina)."
+   ],
+   "raw": "Nationality of Frederick Mulder.\nNationality of Thomas Lee (South Carolina)."
+  },
+  {
+   "split": "train",
+   "id": "44aa02a00bda11eba7f7acde48001122",
+   "claims": [
+    "Rudolf, Crown Prince Of Austria's mother name."
+   ],
+   "raw": "Rudolf, Crown Prince Of Austria's mother name."
+  },
+  {
+   "split": "train",
+   "id": "b83a9e940baf11ebab90acde48001122",
+   "claims": [
+    "The mother-in-law of Marie Of Blois, Duchess Of Anjou."
+   ],
+   "raw": "The mother-in-law of Marie Of Blois, Duchess Of Anjou."
+  },
+  {
+   "split": "train",
+   "id": "614e250f087311ebbd66ac1f6bf848b6",
+   "claims": [
+    "The director who made Life As It Comes.",
+    "The director who made Voice Of The City."
+   ],
+   "raw": "The director who made Life As It Comes.\nThe director who made Voice Of The City."
+  },
+  {
+   "split": "train",
+   "id": "a87ceb2a0bdb11eba7f7acde48001122",
+   "claims": [
+    "Elise Doganieri's husband's nationality."
+   ],
+   "raw": "Elise Doganieri's husband's nationality."
+  },
+  {
+   "split": "train",
+   "id": "cd956aa40bdb11eba7f7acde48001122",
+   "claims": [
+    "The spouse of the performer of song It'S Yours (Tamia Song).",
+    "The performer of the song It'S Yours (Tamia Song)."
+   ],
+   "raw": "The spouse of the performer of song It'S Yours (Tamia Song).\nThe performer of the song It'S Yours (Tamia Song)."
+  },
+  {
+   "split": "train",
+   "id": "d15bca5e0bd911eba7f7acde48001122",
+   "claims": [
+    "The person who directed the film The Autobiography Of Nicolae Ceau\u0219escu.",
+    "The birthplace of the director of The Autobiography Of Nicolae Ceau\u0219escu."
+   ],
+   "raw": "The person who directed the film The Autobiography Of Nicolae Ceau\u0219escu.\nThe birthplace of the director of The Autobiography Of Nicolae Ceau\u0219escu."
+  },
+  {
+   "split": "test",
+   "id": "b70542bc0bdd11eba7f7acde48001122",
+   "claims": [
+    "Richard Onslow, 3rd Baron Onslow's father."
+   ],
+   "raw": "Richard Onslow, 3rd Baron Onslow's father."
+  },
+  {
+   "split": "test",
+   "id": "fb971ec60bda11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Eel Girl.",
+    "The birthplace of the director of Eel Girl."
+   ],
+   "raw": "The director who directed the film Eel Girl.\nThe birthplace of the director of Eel Girl."
+  },
+  {
+   "split": "test",
+   "id": "28aacbc5087011ebbd62ac1f6bf848b6",
+   "claims": [
+    "The year film Ra Choi was released.",
+    "The year film Get Married 3 was released."
+   ],
+   "raw": "The year film Ra Choi was released.\nThe year film Get Married 3 was released."
+  },
+  {
+   "split": "test",
+   "id": "c21c81d9087411ebbd67ac1f6bf848b6",
+   "claims": [
+    "Pavel Aleksandrovich Krylov's birth year.",
+    "Puccio Corona's birth year."
+   ],
+   "raw": "Pavel Aleksandrovich Krylov's birth year.\nPuccio Corona's birth year."
+  },
+  {
+   "split": "test",
+   "id": "faecc3fa08d211ebbd96ac1f6bf848b6",
+   "claims": [
+    "Nationality of the director of the 2017 film The Heretics.",
+    "Nationality of the director of the film Eve And The Fire Horse."
+   ],
+   "raw": "Nationality of the director of the 2017 film The Heretics.\nNationality of the director of the film Eve And The Fire Horse."
+  },
+  {
+   "split": "test",
+   "id": "9926fbf6089e11ebbd78ac1f6bf848b6",
+   "claims": [
+    "Emmanuel Oduol's age.",
+    "Kodardas Kalidas Shah's age."
+   ],
+   "raw": "Emmanuel Oduol's age.\nKodardas Kalidas Shah's age."
+  },
+  {
+   "split": "test",
+   "id": "30c8f31e0bde11eba7f7acde48001122",
+   "claims": [
+    "John Egerton, 3rd Earl of Bridgewater."
+   ],
+   "raw": "John Egerton, 3rd Earl of Bridgewater."
+  },
+  {
+   "split": "test",
+   "id": "5d0eadd80bde11eba7f7acde48001122",
+   "claims": [
+    "Maria Quisling's husband."
+   ],
+   "raw": "Maria Quisling's husband."
+  },
+  {
+   "split": "test",
+   "id": "f96b81940baf11ebab90acde48001122",
+   "claims": [
+    "Paternal grandfather of Nina Caroline Studley-Herbert, 12th Countess Of Seafield."
+   ],
+   "raw": "Paternal grandfather of Nina Caroline Studley-Herbert, 12th Countess Of Seafield."
+  },
+  {
+   "split": "test",
+   "id": "e35b10de08cd11ebbd93ac1f6bf848b6",
+   "claims": [
+    "The director who made Paper Bullets.",
+    "The director who made Karakolda Ayna."
+   ],
+   "raw": "The director who made Paper Bullets.\nThe director who made Karakolda Ayna."
+  },
+  {
+   "split": "test",
+   "id": "3c8ef8f60bde11eba7f7acde48001122",
+   "claims": [
+    "The director who made the 1995 film Napoleon.",
+    "The film \"Napoleon\" (1995).",
+    "The educational background of the director of \"Napoleon\" (1995)."
+   ],
+   "raw": "The director who made the 1995 film Napoleon.\nThe film \"Napoleon\" (1995).\nThe educational background of the director of \"Napoleon\" (1995)."
+  },
+  {
+   "split": "test",
+   "id": "4c6a905e088311ebbd6dac1f6bf848b6",
+   "claims": [
+    "The director of A Light Woman.",
+    "The director of Our Mother's House."
+   ],
+   "raw": "The director of A Light Woman.\nThe director of Our Mother's House."
+  },
+  {
+   "split": "test",
+   "id": "e2f18f160bdd11eba7f7acde48001122",
+   "claims": [
+    "John Hodget-Foley's father."
+   ],
+   "raw": "John Hodget-Foley's father."
+  },
+  {
+   "split": "test",
+   "id": "113cba620bde11eba7f7acde48001122",
+   "claims": [
+    "Director of the 1950 film No Sin On The Alpine Pastures.",
+    "Location where the 1950 film No Sin On The Alpine Pastures was directed."
+   ],
+   "raw": "Director of the 1950 film No Sin On The Alpine Pastures.\nLocation where the 1950 film No Sin On The Alpine Pastures was directed."
+  },
+  {
+   "split": "test",
+   "id": "08cae5720baf11ebab90acde48001122",
+   "claims": [
+    "Gilukhipa's father.",
+    "Gilukhipa's father's father."
+   ],
+   "raw": "Gilukhipa's father.\nGilukhipa's father's father."
+  },
+  {
+   "split": "test",
+   "id": "c7807a7608ef11ebbda8ac1f6bf848b6",
+   "claims": [
+    "Christian Clavier's place of birth.",
+    "Jos\u00e9ph Fr\u00e8res' place of birth."
+   ],
+   "raw": "Christian Clavier's place of birth.\nJos\u00e9ph Fr\u00e8res' place of birth."
+  },
+  {
+   "split": "test",
+   "id": "627f38e00bda11eba7f7acde48001122",
+   "claims": [
+    "Celina Szymanowska's husband."
+   ],
+   "raw": "Celina Szymanowska's husband."
+  },
+  {
+   "split": "test",
+   "id": "14b2eec4086311ebbd5eac1f6bf848b6",
+   "claims": [
+    "The director of Ingrid \u2013 Die Geschichte Eines Fotomodells.",
+    "The director of South Of Rio."
+   ],
+   "raw": "The director of Ingrid \u2013 Die Geschichte Eines Fotomodells.\nThe director of South Of Rio."
+  },
+  {
+   "split": "test",
+   "id": "578f9b8c0bda11eba7f7acde48001122",
+   "claims": [
+    "Juana Del Pino Y Vera Mujica's father name."
+   ],
+   "raw": "Juana Del Pino Y Vera Mujica's father name."
+  },
+  {
+   "split": "test",
+   "id": "bc00399e0baf11ebab90acde48001122",
+   "claims": [
+    "Hawise, Duchess Of Brittany's mother.",
+    "Maternal grandfather of Hawise, Duchess Of Brittany."
+   ],
+   "raw": "Hawise, Duchess Of Brittany's mother.\nMaternal grandfather of Hawise, Duchess Of Brittany."
+  },
+  {
+   "split": "test",
+   "id": "21e561520bde11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Please (Film).",
+    "The birthplace of the director who directed the film Please (Film)."
+   ],
+   "raw": "The director who directed the film Please (Film).\nThe birthplace of the director who directed the film Please (Film)."
+  },
+  {
+   "split": "test",
+   "id": "740078fc092211ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year The Aryan was released.",
+    "The year Battles of Chief Pontiac was released."
+   ],
+   "raw": "The year The Aryan was released.\nThe year Battles of Chief Pontiac was released."
+  },
+  {
+   "split": "test",
+   "id": "bf95f3a2093c11ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Mashdi Ebad was released.",
+    "The year That's The Way The Cookie Crumbles was released."
+   ],
+   "raw": "The year Mashdi Ebad was released.\nThe year That's The Way The Cookie Crumbles was released."
+  },
+  {
+   "split": "test",
+   "id": "8997238e0bda11eba7f7acde48001122",
+   "claims": [
+    "The director who made the 1990 film Whispers."
+   ],
+   "raw": "The director who made the 1990 film Whispers."
+  },
+  {
+   "split": "test",
+   "id": "48ee55a4086b11ebbd5fac1f6bf848b6",
+   "claims": [
+    "The director who made Alice Of Wonderland In Paris.",
+    "The director who made The Roundabouts Of Handsome Karl."
+   ],
+   "raw": "The director who made Alice Of Wonderland In Paris.\nThe director who made The Roundabouts Of Handsome Karl."
+  },
+  {
+   "split": "test",
+   "id": "6f5e8d1d08f911ebbdaaac1f6bf848b6",
+   "claims": [
+    "The year Naya Raasta was released.",
+    "The year Kavalai Illaadha Manithan was released."
+   ],
+   "raw": "The year Naya Raasta was released.\nThe year Kavalai Illaadha Manithan was released."
+  },
+  {
+   "split": "test",
+   "id": "aa0380a40bda11eba7f7acde48001122",
+   "claims": [
+    "Flavius Justus's father's name."
+   ],
+   "raw": "Flavius Justus's father's name."
+  },
+  {
+   "split": "test",
+   "id": "b6e4474808a311ebbd7bac1f6bf848b6",
+   "claims": [
+    "The director who made Tell It To The Bees.",
+    "The director who made House Of The Black Death."
+   ],
+   "raw": "The director who made Tell It To The Bees.\nThe director who made House Of The Black Death."
+  },
+  {
+   "split": "test",
+   "id": "172fd661094811ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year The Peak Scaler was released.",
+    "The year Pehla Pehla Pyaar was released."
+   ],
+   "raw": "The year The Peak Scaler was released.\nThe year Pehla Pehla Pyaar was released."
+  },
+  {
+   "split": "test",
+   "id": "c467dc5e08f311ebbdaaac1f6bf848b6",
+   "claims": [
+    "The person named Felix Cicaterri.",
+    "The person named Rajiv Gandhi."
+   ],
+   "raw": "The person named Felix Cicaterri.\nThe person named Rajiv Gandhi."
+  },
+  {
+   "split": "test",
+   "id": "22606f5a0bde11eba7f7acde48001122",
+   "claims": [
+    "Lady Mi's husband's nationality."
+   ],
+   "raw": "Lady Mi's husband's nationality."
+  },
+  {
+   "split": "test",
+   "id": "614058a208b611ebbd88ac1f6bf848b6",
+   "claims": [
+    "Solomon Hardy's date of death.",
+    "Ambrosine Phillpotts's date of death."
+   ],
+   "raw": "Solomon Hardy's date of death.\nAmbrosine Phillpotts's date of death."
+  },
+  {
+   "split": "test",
+   "id": "83938bc8084c11ebbd56ac1f6bf848b6",
+   "claims": [
+    "The year film Inn For Trouble was released.",
+    "The year film F\u00e6ngslende Feriedage was released."
+   ],
+   "raw": "The year film Inn For Trouble was released.\nThe year film F\u00e6ngslende Feriedage was released."
+  },
+  {
+   "split": "test",
+   "id": "e43f26380bda11eba7f7acde48001122",
+   "claims": [
+    "The mother of the director of the film The Eye Of The Monocle."
+   ],
+   "raw": "The mother of the director of the film The Eye Of The Monocle."
+  },
+  {
+   "split": "test",
+   "id": "9ffc814e0baf11ebab90acde48001122",
+   "claims": [
+    "Paternal grandfather of John, Count Of Saint-Pol."
+   ],
+   "raw": "Paternal grandfather of John, Count Of Saint-Pol."
+  },
+  {
+   "split": "test",
+   "id": "57022c280baf11ebab90acde48001122",
+   "claims": [
+    "Shams Al-Dawla's paternal grandfather."
+   ],
+   "raw": "Shams Al-Dawla's paternal grandfather."
+  },
+  {
+   "split": "test",
+   "id": "eb5b6a640bdd11eba7f7acde48001122",
+   "claims": [
+    "Neville Chamberlain's father name."
+   ],
+   "raw": "Neville Chamberlain's father name."
+  },
+  {
+   "split": "test",
+   "id": "b5b4c8720bda11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the 2005 film Pizza.",
+    "The birthplace of the director who directed the 2005 film Pizza."
+   ],
+   "raw": "The director who directed the 2005 film Pizza.\nThe birthplace of the director who directed the 2005 film Pizza."
+  },
+  {
+   "split": "test",
+   "id": "e170bd3a08b111ebbd85ac1f6bf848b6",
+   "claims": [
+    "The director who made Hridayame Sakshi.",
+    "The director who made Mofturi 1900."
+   ],
+   "raw": "The director who made Hridayame Sakshi.\nThe director who made Mofturi 1900."
+  },
+  {
+   "split": "test",
+   "id": "67713d6e0bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Rag Tale.",
+    "The place of birth of the director of Rag Tale."
+   ],
+   "raw": "The director of the film Rag Tale.\nThe place of birth of the director of Rag Tale."
+  },
+  {
+   "split": "test",
+   "id": "d146745a089211ebbd74ac1f6bf848b6",
+   "claims": [
+    "The director of Dynamite Smith.",
+    "The director of A Son Of Satan."
+   ],
+   "raw": "The director of Dynamite Smith.\nThe director of A Son Of Satan."
+  },
+  {
+   "split": "test",
+   "id": "fb4101280bdd11eba7f7acde48001122",
+   "claims": [
+    "Helen Dortch Longstreet's husband."
+   ],
+   "raw": "Helen Dortch Longstreet's husband."
+  },
+  {
+   "split": "test",
+   "id": "b05e11340bdb11eba7f7acde48001122",
+   "claims": [
+    "Anastasia De Torby's mother name."
+   ],
+   "raw": "Anastasia De Torby's mother name."
+  },
+  {
+   "split": "test",
+   "id": "cece8b7e0bdd11eba7f7acde48001122",
+   "claims": [
+    "Chrissy Gephardt's father's name."
+   ],
+   "raw": "Chrissy Gephardt's father's name."
+  },
+  {
+   "split": "test",
+   "id": "505840b40bb011ebab90acde48001122",
+   "claims": [
+    "Agnes Dunbar Moodie's family relationships."
+   ],
+   "raw": "Agnes Dunbar Moodie's family relationships."
+  },
+  {
+   "split": "test",
+   "id": "fcc1bcc008d311ebbd96ac1f6bf848b6",
+   "claims": [
+    "The director who made The Whisperers film.",
+    "The director who made Concert Of Intrigue."
+   ],
+   "raw": "The director who made The Whisperers film.\nThe director who made Concert Of Intrigue."
+  },
+  {
+   "split": "test",
+   "id": "cfad61500bdd11eba7f7acde48001122",
+   "claims": [
+    "The composer who wrote the film Bad Man's River.",
+    "The location where the composer died."
+   ],
+   "raw": "The composer who wrote the film Bad Man's River.  \nThe location where the composer died."
+  },
+  {
+   "split": "test",
+   "id": "8ed5dbc6086811ebbd5eac1f6bf848b6",
+   "claims": [
+    "The directors of the film City Park (1951).",
+    "The director of the film The Song Of The Nations."
+   ],
+   "raw": "The directors of the film City Park (1951).\nThe director of the film The Song Of The Nations."
+  },
+  {
+   "split": "test",
+   "id": "1b62189208a111ebbd78ac1f6bf848b6",
+   "claims": [
+    "The year Lani Loa \u2013 The Passage was released.",
+    "The year The Heart Of Ezra Greer was released."
+   ],
+   "raw": "The year Lani Loa \u2013 The Passage was released.\nThe year The Heart Of Ezra Greer was released."
+  },
+  {
+   "split": "test",
+   "id": "8af63e07093f11ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Vishwavidhaata was released.",
+    "The year The Son Of Amir Is Dead was released."
+   ],
+   "raw": "The year Vishwavidhaata was released.\nThe year The Son Of Amir Is Dead was released."
+  },
+  {
+   "split": "test",
+   "id": "3644026908df11ebbda0ac1f6bf848b6",
+   "claims": [
+    "Achim Steiner's age.",
+    "Norberto Bravo's age."
+   ],
+   "raw": "Achim Steiner's age.\nNorberto Bravo's age."
+  },
+  {
+   "split": "test",
+   "id": "94c13eb80bdd11eba7f7acde48001122",
+   "claims": [
+    "Paleologo Zaccaria's father's name."
+   ],
+   "raw": "Paleologo Zaccaria's father's name."
+  },
+  {
+   "split": "test",
+   "id": "a5937fe00baf11ebab90acde48001122",
+   "claims": [
+    "Maternal grandmother of Archduchess Maria Theresa Of Austria.",
+    "Archduke Ferdinand von Habsburg-Lothringen is her paternal grandfather."
+   ],
+   "raw": "Maternal grandmother of Archduchess Maria Theresa Of Austria.\nArchduke Ferdinand von Habsburg-Lothringen is her paternal grandfather."
+  },
+  {
+   "split": "test",
+   "id": "4fb9d00c0bdb11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Cradle Of Fear."
+   ],
+   "raw": "The director of the film Cradle Of Fear."
+  },
+  {
+   "split": "test",
+   "id": "e2105ac1086b11ebbd60ac1f6bf848b6",
+   "claims": [
+    "Sumner Locke's birth year.",
+    "Lawrence Joseph Henderson's birth year."
+   ],
+   "raw": "Sumner Locke's birth year.\nLawrence Joseph Henderson's birth year."
+  },
+  {
+   "split": "test",
+   "id": "62c96c7c0bde11eba7f7acde48001122",
+   "claims": [
+    "John Coolidge's mother's place of birth."
+   ],
+   "raw": "John Coolidge's mother's place of birth."
+  },
+  {
+   "split": "test",
+   "id": "0277d67a08c411ebbd8eac1f6bf848b6",
+   "claims": [
+    "The director of Toto And Cleopatra.",
+    "The director of Land Of Peace."
+   ],
+   "raw": "The director of Toto And Cleopatra.\nThe director of Land Of Peace."
+  },
+  {
+   "split": "test",
+   "id": "71a1099a0bb011ebab90acde48001122",
+   "claims": [
+    "The paternal grandfather of Khalifa Bin Jassim Al Thani."
+   ],
+   "raw": "The paternal grandfather of Khalifa Bin Jassim Al Thani."
+  },
+  {
+   "split": "test",
+   "id": "c34451720bdc11eba7f7acde48001122",
+   "claims": [
+    "The wife of Camille Paule."
+   ],
+   "raw": "The wife of Camille Paule."
+  },
+  {
+   "split": "test",
+   "id": "6cea7531086811ebbd5eac1f6bf848b6",
+   "claims": [
+    "The director who made Docking The Boat.",
+    "The director who made Harlan County, Usa."
+   ],
+   "raw": "The director who made Docking The Boat.\nThe director who made Harlan County, Usa."
+  },
+  {
+   "split": "test",
+   "id": "ab475b98088311ebbd6dac1f6bf848b6",
+   "claims": [
+    "The year Charlie Chaplin 2 was released.",
+    "The year Kadathanadan Ambadi was released."
+   ],
+   "raw": "The year Charlie Chaplin 2 was released.\nThe year Kadathanadan Ambadi was released."
+  },
+  {
+   "split": "test",
+   "id": "0bb7a3b60bdb11eba7f7acde48001122",
+   "claims": [
+    "The spouse of the director of the film La Criada Bien Criada."
+   ],
+   "raw": "The spouse of the director of the film La Criada Bien Criada."
+  },
+  {
+   "split": "test",
+   "id": "62e816ab08c211ebbd8cac1f6bf848b6",
+   "claims": [
+    "The director of Sextette.",
+    "The director of Kelkkaatha Sabdham.",
+    "The birth year of the director of Sextette.",
+    "The birth year of the director of Kelkkaatha Sabdham."
+   ],
+   "raw": "The director of Sextette.\nThe director of Kelkkaatha Sabdham.\nThe birth year of the director of Sextette.\nThe birth year of the director of Kelkkaatha Sabdham."
+  },
+  {
+   "split": "test",
+   "id": "6ce225120bdb11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song C\u00f3mo S\u00e9.",
+    "The birthplace or hometown of the performer."
+   ],
+   "raw": "The performer of the song C\u00f3mo S\u00e9.\nThe birthplace or hometown of the performer."
+  },
+  {
+   "split": "test",
+   "id": "e4cd03ae0bda11eba7f7acde48001122",
+   "claims": [
+    "Claude Nelson Warren's wife."
+   ],
+   "raw": "Claude Nelson Warren's wife."
+  },
+  {
+   "split": "test",
+   "id": "63b35a580bd911eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film The Iron Man (Serial).",
+    "The birthplace of the director who directed The Iron Man (Serial)."
+   ],
+   "raw": "The director who directed the film The Iron Man (Serial).\nThe birthplace of the director who directed The Iron Man (Serial)."
+  },
+  {
+   "split": "test",
+   "id": "7755730e0baf11ebab90acde48001122",
+   "claims": [
+    "Henry I Of Cyprus's mother.",
+    "Maternal grandparents of Henry I Of Cyprus."
+   ],
+   "raw": "Henry I Of Cyprus's mother.\nMaternal grandparents of Henry I Of Cyprus."
+  },
+  {
+   "split": "test",
+   "id": "66eefd9e0bde11eba7f7acde48001122",
+   "claims": [
+    "The director who made the film Skirts Ahoy!."
+   ],
+   "raw": "The director who made the film Skirts Ahoy!."
+  },
+  {
+   "split": "test",
+   "id": "64d6954e09ba11ebbdb0ac1f6bf848b6",
+   "claims": [
+    "Country where Kaltwasserkarspitze is located.",
+    "Country where Gr\u00fcbelekopf is located."
+   ],
+   "raw": "Country where Kaltwasserkarspitze is located.\nCountry where Gr\u00fcbelekopf is located."
+  },
+  {
+   "split": "test",
+   "id": "07b1cc3c0baf11ebab90acde48001122",
+   "claims": [
+    "Anne Hill Carter Lee's spouse.",
+    "Anne Hill Carter Lee's spouse's children."
+   ],
+   "raw": "Anne Hill Carter Lee's spouse.\nAnne Hill Carter Lee's spouse's children."
+  },
+  {
+   "split": "test",
+   "id": "64d036380bdc11eba7f7acde48001122",
+   "claims": [
+    "The father of Duchess Maria Dorothea Of W\u00fcrttemberg.",
+    "The place where the father of Duchess Maria Dorothea Of W\u00fcrttemberg was born."
+   ],
+   "raw": "The father of Duchess Maria Dorothea Of W\u00fcrttemberg.\nThe place where the father of Duchess Maria Dorothea Of W\u00fcrttemberg was born."
+  },
+  {
+   "split": "test",
+   "id": "62a9cd640bb011ebab90acde48001122",
+   "claims": [
+    "The person who is the father-in-law of John Ernest, Duke Of Saxe-Eisenach."
+   ],
+   "raw": "The person who is the father-in-law of John Ernest, Duke Of Saxe-Eisenach."
+  },
+  {
+   "split": "test",
+   "id": "c22067860bdc11eba7f7acde48001122",
+   "claims": [
+    "The spouse of the director of the film Around a Small Mountain."
+   ],
+   "raw": "The spouse of the director of the film Around a Small Mountain."
+  },
+  {
+   "split": "test",
+   "id": "8dc985120bdc11eba7f7acde48001122",
+   "claims": [
+    "Maria Of J\u00fclich-Berg's mother's name."
+   ],
+   "raw": "Maria Of J\u00fclich-Berg's mother's name."
+  },
+  {
+   "split": "test",
+   "id": "89b6241c089b11ebbd78ac1f6bf848b6",
+   "claims": [
+    "Edward Bligh, 5th Earl Of Darnley's age.",
+    "Adolfo Costa Du Rels' age."
+   ],
+   "raw": "Edward Bligh, 5th Earl Of Darnley's age.\nAdolfo Costa Du Rels' age."
+  },
+  {
+   "split": "test",
+   "id": "518c5a80091f11ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Assassination Nation was released.",
+    "The year Call Of The Yukon was released."
+   ],
+   "raw": "The year Assassination Nation was released.\nThe year Call Of The Yukon was released."
+  },
+  {
+   "split": "test",
+   "id": "3c23074c086211ebbd5dac1f6bf848b6",
+   "claims": [
+    "Director of Doughnuts And Society movie.",
+    "Director of Seven Deaths In The Cat's Eye movie."
+   ],
+   "raw": "Director of Doughnuts And Society movie.\nDirector of Seven Deaths In The Cat's Eye movie."
+  },
+  {
+   "split": "test",
+   "id": "87ceaacc0bda11eba7f7acde48001122",
+   "claims": [
+    "The place of birth of Zhu Gaoxu's father."
+   ],
+   "raw": "The place of birth of Zhu Gaoxu's father."
+  },
+  {
+   "split": "test",
+   "id": "0f3c04300bdd11eba7f7acde48001122",
+   "claims": [
+    "The person who directed the film The 3 Rooms Of Melancholia.",
+    "The birthplace of the director of The 3 Rooms Of Melancholia."
+   ],
+   "raw": "The person who directed the film The 3 Rooms Of Melancholia.\nThe birthplace of the director of The 3 Rooms Of Melancholia."
+  },
+  {
+   "split": "test",
+   "id": "7df3efc40baf11ebab90acde48001122",
+   "claims": [
+    "Fernando Berm\u00fadez De Cea's uncle."
+   ],
+   "raw": "Fernando Berm\u00fadez De Cea's uncle."
+  },
+  {
+   "split": "test",
+   "id": "a16f91c00bdb11eba7f7acde48001122",
+   "claims": [
+    "The director of the film A Single Shot.",
+    "The date of birth of the director of A Single Shot."
+   ],
+   "raw": "The director of the film A Single Shot.\nThe date of birth of the director of A Single Shot."
+  },
+  {
+   "split": "test",
+   "id": "812d167e0bb011ebab90acde48001122",
+   "claims": [
+    "Edmund Stafford, 5th Earl of Stafford's maternal grandfather."
+   ],
+   "raw": "Edmund Stafford, 5th Earl of Stafford's maternal grandfather."
+  },
+  {
+   "split": "test",
+   "id": "93acf0b9088511ebbd6dac1f6bf848b6",
+   "claims": [
+    "The person named J\u00f6rn Lenz was born.",
+    "The person named Alejandro Romualdo was born."
+   ],
+   "raw": "The person named J\u00f6rn Lenz was born.\nThe person named Alejandro Romualdo was born."
+  },
+  {
+   "split": "test",
+   "id": "de24a3c2089211ebbd74ac1f6bf848b6",
+   "claims": [
+    "Jean-Baptiste Chardon's date of death.",
+    "Alejandro Aguilar Reyes's date of death."
+   ],
+   "raw": "Jean-Baptiste Chardon's date of death.\nAlejandro Aguilar Reyes's date of death."
+  },
+  {
+   "split": "test",
+   "id": "09e3f8ac0bde11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Ninamaninja Kalpadukal.",
+    "The place of birth for that director."
+   ],
+   "raw": "The director of the film Ninamaninja Kalpadukal.\nThe place of birth for that director."
+  },
+  {
+   "split": "test",
+   "id": "ab4cf04e089711ebbd77ac1f6bf848b6",
+   "claims": [
+    "The director of the film Husbands And Lovers.",
+    "The director of the film Il Trafficone."
+   ],
+   "raw": "The director of the film Husbands And Lovers.\nThe director of the film Il Trafficone."
+  },
+  {
+   "split": "test",
+   "id": "0a6f4b240bb011ebab90acde48001122",
+   "claims": [
+    "Cecil Calvert, 2nd Baron Baltimore's father."
+   ],
+   "raw": "Cecil Calvert, 2nd Baron Baltimore's father."
+  },
+  {
+   "split": "test",
+   "id": "f2dbc5b4089e11ebbd78ac1f6bf848b6",
+   "claims": [
+    "The year Mickey'S Disguises was released.",
+    "The year Angel Eyes (Film) was released."
+   ],
+   "raw": "The year Mickey'S Disguises was released.\nThe year Angel Eyes (Film) was released."
+  },
+  {
+   "split": "test",
+   "id": "61e86d5a0bdc11eba7f7acde48001122",
+   "claims": [
+    "The director of the film 29+1.",
+    "Where the director studied."
+   ],
+   "raw": "The director of the film 29+1.\nWhere the director studied."
+  },
+  {
+   "split": "test",
+   "id": "1f7ab2f2086211ebbd5dac1f6bf848b6",
+   "claims": [
+    "Mai Ying Hua's birth year.",
+    "Jeanne Sylvanie Arnould-Plessy's birth year."
+   ],
+   "raw": "Mai Ying Hua's birth year.\nJeanne Sylvanie Arnould-Plessy's birth year."
+  },
+  {
+   "split": "test",
+   "id": "b0093fea0bdd11eba7f7acde48001122",
+   "claims": [
+    "Azam Jah's father's nationality."
+   ],
+   "raw": "Azam Jah's father's nationality."
+  },
+  {
+   "split": "test",
+   "id": "539eaecb08a111ebbd79ac1f6bf848b6",
+   "claims": [
+    "Claire Parker's date of death.",
+    "Chauncey Brewer Sabin's date of death."
+   ],
+   "raw": "Claire Parker's date of death.\nChauncey Brewer Sabin's date of death."
+  },
+  {
+   "split": "test",
+   "id": "2973264e08b811ebbd88ac1f6bf848b6",
+   "claims": [
+    "The director who made Gendernauts.",
+    "The director who made I Am Guilty."
+   ],
+   "raw": "The director who made Gendernauts.\nThe director who made I Am Guilty."
+  },
+  {
+   "split": "test",
+   "id": "13f2f6740baf11ebab90acde48001122",
+   "claims": [
+    "Birger Brosa's father.",
+    "Birger Brosa's father's parents."
+   ],
+   "raw": "Birger Brosa's father.\nBirger Brosa's father's parents."
+  },
+  {
+   "split": "test",
+   "id": "c9a4f37409b511ebbdb0ac1f6bf848b6",
+   "claims": [
+    "Country where Dronningkrona is located.",
+    "Country where Leirungstinden is located."
+   ],
+   "raw": "Country where Dronningkrona is located.\nCountry where Leirungstinden is located."
+  },
+  {
+   "split": "test",
+   "id": "48da05b6084f11ebbd56ac1f6bf848b6",
+   "claims": [
+    "The director of D@Bbe.",
+    "The director of The Curse Of The Jade Scorpion."
+   ],
+   "raw": "The director of D@Bbe.\nThe director of The Curse Of The Jade Scorpion."
+  },
+  {
+   "split": "test",
+   "id": "6a6283f20bb011ebab90acde48001122",
+   "claims": [
+    "Maternal grandmother of Princess Amalie Of Saxony.",
+    "Maternal grandparents of Princess Amalie Of Saxony."
+   ],
+   "raw": "Maternal grandmother of Princess Amalie Of Saxony.\nMaternal grandparents of Princess Amalie Of Saxony."
+  },
+  {
+   "split": "test",
+   "id": "9c7fddf80bdd11eba7f7acde48001122",
+   "claims": [
+    "Adolfo Sormani's father nationality."
+   ],
+   "raw": "Adolfo Sormani's father nationality."
+  },
+  {
+   "split": "test",
+   "id": "3b91ed660bdc11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the composer of the film Citizen Mavzik."
+   ],
+   "raw": "The nationality of the composer of the film Citizen Mavzik."
+  },
+  {
+   "split": "test",
+   "id": "43828fba0bde11eba7f7acde48001122",
+   "claims": [
+    "Bernard (Son Of Charles The Fat)'s father's name."
+   ],
+   "raw": "Bernard (Son Of Charles The Fat)'s father's name."
+  },
+  {
+   "split": "test",
+   "id": "dc9dc6e40baf11ebab90acde48001122",
+   "claims": [
+    "Princess Hermine Of Waldeck And Pyrmont's father.",
+    "Princess Hermine Of Waldeck And Pyrmont's mother."
+   ],
+   "raw": "Princess Hermine Of Waldeck And Pyrmont's father.\nPrincess Hermine Of Waldeck And Pyrmont's mother."
+  },
+  {
+   "split": "test",
+   "id": "c7134f820bdd11eba7f7acde48001122",
+   "claims": [
+    "Florentine Rost Van Tonningen's husband."
+   ],
+   "raw": "Florentine Rost Van Tonningen's husband."
+  },
+  {
+   "split": "test",
+   "id": "b3cb68420bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the film 12 To The Moon."
+   ],
+   "raw": "The director of the film 12 To The Moon."
+  },
+  {
+   "split": "test",
+   "id": "754519fc0bdc11eba7f7acde48001122",
+   "claims": [
+    "The place of death for Prince Adarnase Of Kartli's father."
+   ],
+   "raw": "The place of death for Prince Adarnase Of Kartli's father."
+  },
+  {
+   "split": "test",
+   "id": "d2781aee086611ebbd5eac1f6bf848b6",
+   "claims": [
+    "Country of origin for The Malfaged.",
+    "Country of origin for The Fabulous Thunderbirds."
+   ],
+   "raw": "Country of origin for The Malfaged.\nCountry of origin for The Fabulous Thunderbirds."
+  },
+  {
+   "split": "test",
+   "id": "0e73737408ba11ebbd88ac1f6bf848b6",
+   "claims": [
+    "The director of Time Out For Rhythm was born.",
+    "The director of Night Boat To Dublin was born."
+   ],
+   "raw": "The director of Time Out For Rhythm was born.\nThe director of Night Boat To Dublin was born."
+  },
+  {
+   "split": "test",
+   "id": "1d096e16086c11ebbd60ac1f6bf848b6",
+   "claims": [
+    "Mollie Hunt's age.",
+    "Jim Lanigan's age."
+   ],
+   "raw": "Mollie Hunt's age.\nJim Lanigan's age."
+  },
+  {
+   "split": "test",
+   "id": "9cba304f088a11ebbd6fac1f6bf848b6",
+   "claims": [
+    "The director who made Bhoodana.",
+    "The director who made Scanners."
+   ],
+   "raw": "The director who made Bhoodana.\nThe director who made Scanners."
+  },
+  {
+   "split": "test",
+   "id": "ba773ad00bd911eba7f7acde48001122",
+   "claims": [
+    "The father of the director of the film Ae Dil Hai Mushkil."
+   ],
+   "raw": "The father of the director of the film Ae Dil Hai Mushkil."
+  },
+  {
+   "split": "test",
+   "id": "b5bb630a0bdd11eba7f7acde48001122",
+   "claims": [
+    "Richard De Redvers, 2nd Earl of Devon."
+   ],
+   "raw": "Richard De Redvers, 2nd Earl of Devon."
+  },
+  {
+   "split": "test",
+   "id": "f78c20920bda11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Catherine & Co.",
+    "The place of death for that director."
+   ],
+   "raw": "The director who directed the film Catherine & Co.\nThe place of death for that director."
+  },
+  {
+   "split": "test",
+   "id": "6a59f5a20bb011ebab90acde48001122",
+   "claims": [
+    "Talal Of Jordan's father.",
+    "Talal Of Jordan's paternal grandfather."
+   ],
+   "raw": "Talal Of Jordan's father.\nTalal Of Jordan's paternal grandfather."
+  },
+  {
+   "split": "test",
+   "id": "29bddf900bb011ebab90acde48001122",
+   "claims": [
+    "Mother of Grand Duchess Natalya Alexeyevna Of Russia (1714\u20131728)."
+   ],
+   "raw": "Mother of Grand Duchess Natalya Alexeyevna Of Russia (1714\u20131728)."
+  },
+  {
+   "split": "test",
+   "id": "a664606d087e11ebbd6bac1f6bf848b6",
+   "claims": [
+    "The director of The Wind's Fierce.",
+    "The director of Special Delivery (1927 Film)."
+   ],
+   "raw": "The director of The Wind's Fierce.\nThe director of Special Delivery (1927 Film)."
+  },
+  {
+   "split": "test",
+   "id": "cd48a8e60bda11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Sweet Lies.",
+    "The spouse of the director of the film Sweet Lies."
+   ],
+   "raw": "The director of the film Sweet Lies.\nThe spouse of the director of the film Sweet Lies."
+  },
+  {
+   "split": "test",
+   "id": "57bf31020bdb11eba7f7acde48001122",
+   "claims": [
+    "Alain Renoir's mother name."
+   ],
+   "raw": "Alain Renoir's mother name."
+  },
+  {
+   "split": "test",
+   "id": "446355820bb011ebab90acde48001122",
+   "claims": [
+    "The paternal grandfather of Mark Getty."
+   ],
+   "raw": "The paternal grandfather of Mark Getty."
+  },
+  {
+   "split": "test",
+   "id": "6c47523a0bdb11eba7f7acde48001122",
+   "claims": [
+    "Lisa Dahlkvist's father's name."
+   ],
+   "raw": "Lisa Dahlkvist's father's name."
+  },
+  {
+   "split": "test",
+   "id": "505a63d40bd911eba7f7acde48001122",
+   "claims": [
+    "The place of death of Abu'l-Hasan Ali ibn al-Ikhshid's father."
+   ],
+   "raw": "The place of death of Abu'l-Hasan Ali ibn al-Ikhshid's father."
+  },
+  {
+   "split": "test",
+   "id": "4a85df04089811ebbd77ac1f6bf848b6",
+   "claims": [
+    "Country where \"My Father The Hero\" was produced.",
+    "Country where \"Wyoming Roundup\" was produced."
+   ],
+   "raw": "Country where \"My Father The Hero\" was produced.  \nCountry where \"Wyoming Roundup\" was produced."
+  },
+  {
+   "split": "test",
+   "id": "a996914408ef11ebbda8ac1f6bf848b6",
+   "claims": [
+    "Country where Seattle Times Building is located.",
+    "Country where Philip Foster Farm is located."
+   ],
+   "raw": "Country where Seattle Times Building is located.\nCountry where Philip Foster Farm is located."
+  },
+  {
+   "split": "test",
+   "id": "11562eb0090711ebbdadac1f6bf848b6",
+   "claims": [
+    "Country where \"Son Of Rambow\" was released.",
+    "Country where \"From Bedrooms To Billions\" was released."
+   ],
+   "raw": "Country where \"Son Of Rambow\" was released.\nCountry where \"From Bedrooms To Billions\" was released."
+  },
+  {
+   "split": "test",
+   "id": "132a5430085d11ebbd5cac1f6bf848b6",
+   "claims": [
+    "Kyle Wiltjer's place of birth.",
+    "Christopher T. Russell's place of birth."
+   ],
+   "raw": "Kyle Wiltjer's place of birth.\nChristopher T. Russell's place of birth."
+  },
+  {
+   "split": "test",
+   "id": "1f9ccd180bde11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song I'Ll Come Running Back To You."
+   ],
+   "raw": "The performer of the song I'Ll Come Running Back To You."
+  },
+  {
+   "split": "test",
+   "id": "d36533540bdd11eba7f7acde48001122",
+   "claims": [
+    "The place of death for William S. Burroughs Jr.'s father."
+   ],
+   "raw": "The place of death for William S. Burroughs Jr.'s father."
+  },
+  {
+   "split": "test",
+   "id": "867efe19097a11ebbdb0ac1f6bf848b6",
+   "claims": [
+    "Vampires: Los Muertos origin country.",
+    "His Majesty, Bunker Bean origin country."
+   ],
+   "raw": "Vampires: Los Muertos origin country.\nHis Majesty, Bunker Bean origin country."
+  },
+  {
+   "split": "test",
+   "id": "4b37342c0bde11eba7f7acde48001122",
+   "claims": [
+    "Rainilaiarivony's father."
+   ],
+   "raw": "Rainilaiarivony's father."
+  },
+  {
+   "split": "test",
+   "id": "ee42bc920bdc11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the director of the film El Sicario.",
+    "The nationality of the director of the film Room 164."
+   ],
+   "raw": "The nationality of the director of the film El Sicario.\nThe nationality of the director of the film Room 164."
+  },
+  {
+   "split": "test",
+   "id": "ba1542d00bd911eba7f7acde48001122",
+   "claims": [
+    "The director of the film Will Not End Here."
+   ],
+   "raw": "The director of the film Will Not End Here."
+  },
+  {
+   "split": "test",
+   "id": "01ad79ba0bde11eba7f7acde48001122",
+   "claims": [
+    "Mieszko Ii Lambert's father."
+   ],
+   "raw": "Mieszko Ii Lambert's father."
+  },
+  {
+   "split": "test",
+   "id": "1800b6fc086911ebbd5eac1f6bf848b6",
+   "claims": [
+    "The film released more recently."
+   ],
+   "raw": "The film released more recently."
+  },
+  {
+   "split": "test",
+   "id": "aaa9af320bdb11eba7f7acde48001122",
+   "claims": [
+    "The editor of magazine The Texas Ranger (Magazine).",
+    "The date of birth of the editor of magazine The Texas Ranger (Magazine)."
+   ],
+   "raw": "The editor of magazine The Texas Ranger (Magazine).\nThe date of birth of the editor of magazine The Texas Ranger (Magazine)."
+  },
+  {
+   "split": "test",
+   "id": "e3fe2a600bdb11eba7f7acde48001122",
+   "claims": [
+    "Pierre-Gilles Lakafia's father."
+   ],
+   "raw": "Pierre-Gilles Lakafia's father."
+  },
+  {
+   "split": "test",
+   "id": "34ff0ba00bdc11eba7f7acde48001122",
+   "claims": [
+    "The composer of the 1953 film The Cousin From Nowhere.",
+    "The parentage relationship involving the composer of the 1953 film."
+   ],
+   "raw": "The composer of the 1953 film The Cousin From Nowhere.\nThe parentage relationship involving the composer of the 1953 film."
+  },
+  {
+   "split": "test",
+   "id": "c3d340d208ab11ebbd82ac1f6bf848b6",
+   "claims": [
+    "\u00c1lvaro Grant Macdonald's birth year.",
+    "Adri\u00e1n Horacio G\u00f3mez's birth year."
+   ],
+   "raw": "\u00c1lvaro Grant Macdonald's birth year.\nAdri\u00e1n Horacio G\u00f3mez's birth year."
+  },
+  {
+   "split": "test",
+   "id": "301a026a0bb011ebab90acde48001122",
+   "claims": [
+    "The father of John Ernest."
+   ],
+   "raw": "The father of John Ernest."
+  },
+  {
+   "split": "test",
+   "id": "8e7dfe8e0baf11ebab90acde48001122",
+   "claims": [
+    "The father of Elena Asenina Of Bulgaria."
+   ],
+   "raw": "The father of Elena Asenina Of Bulgaria."
+  },
+  {
+   "split": "test",
+   "id": "b3bab9fa0bda11eba7f7acde48001122",
+   "claims": [
+    "The director of the film The White Countess."
+   ],
+   "raw": "The director of the film The White Countess."
+  },
+  {
+   "split": "test",
+   "id": "1e9d0e980bdc11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Lunar Eclipse."
+   ],
+   "raw": "The director of the film Lunar Eclipse."
+  },
+  {
+   "split": "test",
+   "id": "671322a00bde11eba7f7acde48001122",
+   "claims": [
+    "Suzanne Farrington's mother place of death."
+   ],
+   "raw": "Suzanne Farrington's mother place of death."
+  },
+  {
+   "split": "test",
+   "id": "7c71892a08d711ebbd9aac1f6bf848b6",
+   "claims": [
+    "The lifespan of Sammy Drechsel.",
+    "The lifespan of Wolfgang Fischer."
+   ],
+   "raw": "The lifespan of Sammy Drechsel.\nThe lifespan of Wolfgang Fischer."
+  },
+  {
+   "split": "test",
+   "id": "1dd18a37086a11ebbd5fac1f6bf848b6",
+   "claims": [
+    "The director who made All The Gold In The World.",
+    "The director who made The Crowning Touch."
+   ],
+   "raw": "The director who made All The Gold In The World.\nThe director who made The Crowning Touch."
+  },
+  {
+   "split": "test",
+   "id": "4d366f120bda11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film The Dangerous Talent.",
+    "The birthplace of the director of The Dangerous Talent."
+   ],
+   "raw": "The director who directed the film The Dangerous Talent.\nThe birthplace of the director of The Dangerous Talent."
+  },
+  {
+   "split": "test",
+   "id": "4d9ddebe085711ebbd5aac1f6bf848b6",
+   "claims": [
+    "Country where \"The Other Half\" was released.",
+    "Country where \"Spy Kids 2: The Island Of Lost Dreams\" was released."
+   ],
+   "raw": "Country where \"The Other Half\" was released.\nCountry where \"Spy Kids 2: The Island Of Lost Dreams\" was released."
+  },
+  {
+   "split": "test",
+   "id": "8a07d2d60bdb11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film His English Wife.",
+    "The birthplace of the director of His English Wife."
+   ],
+   "raw": "The director who directed the film His English Wife.\nThe birthplace of the director of His English Wife."
+  },
+  {
+   "split": "test",
+   "id": "4b72962a086e11ebbd62ac1f6bf848b6",
+   "claims": [
+    "Victoriana Mej\u00eda Marulanda birth year.",
+    "Fyodor Tuvin birth year."
+   ],
+   "raw": "Victoriana Mej\u00eda Marulanda birth year.\nFyodor Tuvin birth year."
+  },
+  {
+   "split": "test",
+   "id": "1cf4dbe80baf11ebab90acde48001122",
+   "claims": [
+    "Ad\u00e9la\u00efde Of France's mother.",
+    "Ad\u00e9la\u00efde Of France's mother's father."
+   ],
+   "raw": "Ad\u00e9la\u00efde Of France's mother.\nAd\u00e9la\u00efde Of France's mother's father."
+  },
+  {
+   "split": "test",
+   "id": "4ebea1ab08ac11ebbd82ac1f6bf848b6",
+   "claims": [
+    "The director who made Wings Over The Pacific.",
+    "The director who made Enticement."
+   ],
+   "raw": "The director who made Wings Over The Pacific.\nThe director who made Enticement."
+  },
+  {
+   "split": "test",
+   "id": "5580e98b088b11ebbd6fac1f6bf848b6",
+   "claims": [
+    "Country of origin for The Orange Thief.",
+    "Country of origin for Adulterers (Film)."
+   ],
+   "raw": "Country of origin for The Orange Thief.\nCountry of origin for Adulterers (Film)."
+  },
+  {
+   "split": "test",
+   "id": "703a61f00bdd11eba7f7acde48001122",
+   "claims": [
+    "Otto III van Holland's father name."
+   ],
+   "raw": "Otto III van Holland's father name."
+  },
+  {
+   "split": "test",
+   "id": "fd9d708c0bdd11eba7f7acde48001122",
+   "claims": [
+    "The performer who performed the song Stargirl Interlude.",
+    "The birthplace of that performer."
+   ],
+   "raw": "The performer who performed the song Stargirl Interlude.\nThe birthplace of that performer."
+  },
+  {
+   "split": "test",
+   "id": "17b05b5e0bdb11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Pengantin Pantai Biru.",
+    "Country the director is from."
+   ],
+   "raw": "The director of the film Pengantin Pantai Biru.  \nCountry the director is from."
+  },
+  {
+   "split": "test",
+   "id": "1dbd09b308a111ebbd78ac1f6bf848b6",
+   "claims": [
+    "Elizabeth Jane Gardner's date of death.",
+    "Steve Tesich's date of death."
+   ],
+   "raw": "Elizabeth Jane Gardner's date of death.\nSteve Tesich's date of death."
+  },
+  {
+   "split": "test",
+   "id": "4dac82e40bdd11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the 1988 film Dancing In The Dust."
+   ],
+   "raw": "The director who directed the 1988 film Dancing In The Dust."
+  },
+  {
+   "split": "test",
+   "id": "f7c153ce092e11ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Celine: Through The Eyes Of The World was released.",
+    "The year Dilan 1991 was released."
+   ],
+   "raw": "The year Celine: Through The Eyes Of The World was released.\nThe year Dilan 1991 was released."
+  },
+  {
+   "split": "test",
+   "id": "1a7946ce087b11ebbd67ac1f6bf848b6",
+   "claims": [
+    "The director who made The Good Guys And The Bad Guys.",
+    "The director who made Love At Times Square."
+   ],
+   "raw": "The director who made The Good Guys And The Bad Guys.\nThe director who made Love At Times Square."
+  },
+  {
+   "split": "test",
+   "id": "e74ac71f08ae11ebbd83ac1f6bf848b6",
+   "claims": [
+    "The year Inventing The Abbotts was released.",
+    "The year Fighting Coast Guard was released."
+   ],
+   "raw": "The year Inventing The Abbotts was released.\nThe year Fighting Coast Guard was released."
+  },
+  {
+   "split": "test",
+   "id": "22a11ef608d211ebbd95ac1f6bf848b6",
+   "claims": [
+    "The director of Paid Back.",
+    "The director of Painted Angels."
+   ],
+   "raw": "The director of Paid Back.\nThe director of Painted Angels."
+  },
+  {
+   "split": "test",
+   "id": "acc2383c0bdd11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the composer of the song In\u00fatil Paisagem."
+   ],
+   "raw": "The nationality of the composer of the song In\u00fatil Paisagem."
+  },
+  {
+   "split": "test",
+   "id": "7ae641b80bd911eba7f7acde48001122",
+   "claims": [
+    "The director who made the film Gunde Jhallumandi.",
+    "The film Gunde Jhallumandi."
+   ],
+   "raw": "The director who made the film Gunde Jhallumandi.\nThe film Gunde Jhallumandi."
+  },
+  {
+   "split": "test",
+   "id": "83c0b2aa08e111ebbda2ac1f6bf848b6",
+   "claims": [
+    "The director of Muthukkal Moondru.",
+    "The director of Three Desperate Men."
+   ],
+   "raw": "The director of Muthukkal Moondru.\nThe director of Three Desperate Men."
+  },
+  {
+   "split": "test",
+   "id": "56f73ba60baf11ebab90acde48001122",
+   "claims": [
+    "Maternal grandmother of Peter II, Duke of Bourbon."
+   ],
+   "raw": "Maternal grandmother of Peter II, Duke of Bourbon."
+  },
+  {
+   "split": "test",
+   "id": "6b2794bf088911ebbd6eac1f6bf848b6",
+   "claims": [
+    "The director who made Mana Desam.",
+    "The director who made Les Visiteurs Du Soir."
+   ],
+   "raw": "The director who made Mana Desam.\nThe director who made Les Visiteurs Du Soir."
+  },
+  {
+   "split": "test",
+   "id": "67a8b039092711ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Baker'S Hawk was released.",
+    "The year Majority (Film) was released."
+   ],
+   "raw": "The year Baker'S Hawk was released.\nThe year Majority (Film) was released."
+  },
+  {
+   "split": "test",
+   "id": "c5ac4c80090111ebbdadac1f6bf848b6",
+   "claims": [
+    "The year film Porisadaya was released.",
+    "The year film Henry Gamsay's Birthday Party was released."
+   ],
+   "raw": "The year film Porisadaya was released.\nThe year film Henry Gamsay's Birthday Party was released."
+  },
+  {
+   "split": "test",
+   "id": "3d1cae66089711ebbd76ac1f6bf848b6",
+   "claims": [
+    "The director who made The Secret Witness.",
+    "The director who made Mentioned In Confidence."
+   ],
+   "raw": "The director who made The Secret Witness.\nThe director who made Mentioned In Confidence."
+  },
+  {
+   "split": "test",
+   "id": "d057431e0bdd11eba7f7acde48001122",
+   "claims": [
+    "Sophia I, Abbess Of Gandersheim's mother nationality."
+   ],
+   "raw": "Sophia I, Abbess Of Gandersheim's mother nationality."
+  },
+  {
+   "split": "test",
+   "id": "cfb1d1ed092e11ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year film Bhuvan Shome was released.",
+    "The year film Plugg was released."
+   ],
+   "raw": "The year film Bhuvan Shome was released.\nThe year film Plugg was released."
+  },
+  {
+   "split": "test",
+   "id": "0d58f95c0bdd11eba7f7acde48001122",
+   "claims": [
+    "The country where the director of the film First Victory Loan: Return Journey is from."
+   ],
+   "raw": "The country where the director of the film First Victory Loan: Return Journey is from."
+  },
+  {
+   "split": "test",
+   "id": "4e743442096411ebbdafac1f6bf848b6",
+   "claims": [
+    "The year Myferrylink was first established.",
+    "The year Cressi-Sub was first established."
+   ],
+   "raw": "The year Myferrylink was first established.\nThe year Cressi-Sub was first established."
+  },
+  {
+   "split": "test",
+   "id": "bbb42c7c088811ebbd6eac1f6bf848b6",
+   "claims": [
+    "The director who made Everything'S Ducky.",
+    "The director who made Karthika (Film).",
+    "When did the director of Everything'S Ducky die?",
+    "When did the director of Karthika (Film) die?"
+   ],
+   "raw": "The director who made Everything'S Ducky.\nThe director who made Karthika (Film).\nWhen did the director of Everything'S Ducky die?\nWhen did the director of Karthika (Film) die?"
+  },
+  {
+   "split": "test",
+   "id": "20dc870c08c011ebbd8aac1f6bf848b6",
+   "claims": [
+    "Gilles Marguet or P. K. Abdul Aziz."
+   ],
+   "raw": "Gilles Marguet or P. K. Abdul Aziz."
+  },
+  {
+   "split": "test",
+   "id": "170b21e60bb011ebab90acde48001122",
+   "claims": [
+    "Sister Of Saint Anne's grandchild."
+   ],
+   "raw": "Sister Of Saint Anne's grandchild."
+  },
+  {
+   "split": "test",
+   "id": "bac6c6d9092211ebbdaeac1f6bf848b6",
+   "claims": [
+    "The country where \"Beyond The Reach\" was originated.",
+    "The country where \"Mondovino\" was originated."
+   ],
+   "raw": "The country where \"Beyond The Reach\" was originated.\nThe country where \"Mondovino\" was originated."
+  },
+  {
+   "split": "test",
+   "id": "0163c021087511ebbd67ac1f6bf848b6",
+   "claims": [
+    "The director who made Je Suis N\u00e9 D'Une Cigogne.",
+    "The director who made The Legend Of Bagger Vance."
+   ],
+   "raw": "The director who made Je Suis N\u00e9 D'Une Cigogne.\nThe director who made The Legend Of Bagger Vance."
+  },
+  {
+   "split": "test",
+   "id": "7225178208d411ebbd96ac1f6bf848b6",
+   "claims": [
+    "The director of the film Talking Feet.",
+    "The director of the film The Third Miracle."
+   ],
+   "raw": "The director of the film Talking Feet.\nThe director of the film The Third Miracle."
+  },
+  {
+   "split": "test",
+   "id": "9c78f60708d511ebbd98ac1f6bf848b6",
+   "claims": [
+    "The lifespan of Mignon McLauglin.",
+    "The lifespan of Gottfried Baist."
+   ],
+   "raw": "The lifespan of Mignon McLauglin.\nThe lifespan of Gottfried Baist."
+  },
+  {
+   "split": "test",
+   "id": "7bc2c4340bda11eba7f7acde48001122",
+   "claims": [
+    "The spouse of the director of the film Streets Of Blood.",
+    "The director of the film Streets Of Blood."
+   ],
+   "raw": "The spouse of the director of the film Streets Of Blood.\nThe director of the film Streets Of Blood."
+  },
+  {
+   "split": "test",
+   "id": "f06996ca0bdd11eba7f7acde48001122",
+   "claims": [
+    "The father of Adam Kazimierz Czartoryski.",
+    "The place where Adam Kazimierz Czartoryski was born."
+   ],
+   "raw": "The father of Adam Kazimierz Czartoryski.\nThe place where Adam Kazimierz Czartoryski was born."
+  },
+  {
+   "split": "test",
+   "id": "bd6f350408d311ebbd96ac1f6bf848b6",
+   "claims": [
+    "Jerry Hardin's birth date.",
+    "Harry Sinclair Drago's birth date."
+   ],
+   "raw": "Jerry Hardin's birth date.\nHarry Sinclair Drago's birth date."
+  },
+  {
+   "split": "test",
+   "id": "ba81957c0baf11ebab90acde48001122",
+   "claims": [
+    "Maternal grandmother of Archduke Carl Ludwig Of Austria."
+   ],
+   "raw": "Maternal grandmother of Archduke Carl Ludwig Of Austria."
+  },
+  {
+   "split": "test",
+   "id": "3704a63f08a411ebbd7cac1f6bf848b6",
+   "claims": [
+    "The birth year of David Generelo.",
+    "The birth year of Guido Ko\u00e7er."
+   ],
+   "raw": "The birth year of David Generelo.\nThe birth year of Guido Ko\u00e7er."
+  },
+  {
+   "split": "test",
+   "id": "63a51a37096711ebbdafac1f6bf848b6",
+   "claims": [
+    "The year Lucky 13 was released.",
+    "The year Recollections Of The Yellow House was released."
+   ],
+   "raw": "The year Lucky 13 was released.\nThe year Recollections Of The Yellow House was released."
+  },
+  {
+   "split": "test",
+   "id": "123d4cf40bdb11eba7f7acde48001122",
+   "claims": [
+    "The performer who sang the song Remember.",
+    "The country or region where the performer was born."
+   ],
+   "raw": "The performer who sang the song Remember.\nThe country or region where the performer was born."
+  },
+  {
+   "split": "test",
+   "id": "e61479860bda11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song Pluto."
+   ],
+   "raw": "The performer of the song Pluto."
+  },
+  {
+   "split": "test",
+   "id": "3593f6ac089e11ebbd78ac1f6bf848b6",
+   "claims": [
+    "Country where The Buttercup Chain originates.",
+    "Country where Happy Is The Bride originates."
+   ],
+   "raw": "Country where The Buttercup Chain originates.\nCountry where Happy Is The Bride originates."
+  },
+  {
+   "split": "test",
+   "id": "c365be0608ae11ebbd83ac1f6bf848b6",
+   "claims": [
+    "The year film Starsuckers was released.",
+    "The year film Enemies Closer was released."
+   ],
+   "raw": "The year film Starsuckers was released.\nThe year film Enemies Closer was released."
+  },
+  {
+   "split": "test",
+   "id": "d10610cc0bda11eba7f7acde48001122",
+   "claims": [
+    "The award that the director of film Just A Kiss (Film) received."
+   ],
+   "raw": "The award that the director of film Just A Kiss (Film) received."
+  },
+  {
+   "split": "test",
+   "id": "71bf184e0bde11eba7f7acde48001122",
+   "claims": [
+    "Dmitri Sheremetev's father's place of death."
+   ],
+   "raw": "Dmitri Sheremetev's father's place of death."
+  },
+  {
+   "split": "test",
+   "id": "8113911c086911ebbd5eac1f6bf848b6",
+   "claims": [
+    "W. K. McNeil's birth year.",
+    "Curuppumullage Jinarajadasa's birth year."
+   ],
+   "raw": "W. K. McNeil's birth year.\nCuruppumullage Jinarajadasa's birth year."
+  },
+  {
+   "split": "test",
+   "id": "3451a87208e711ebbda5ac1f6bf848b6",
+   "claims": [
+    "Caur\u00e9s River location.",
+    "Siriji River location."
+   ],
+   "raw": "Caur\u00e9s River location.\nSiriji River location."
+  },
+  {
+   "split": "test",
+   "id": "f4dbeb2f08b611ebbd88ac1f6bf848b6",
+   "claims": [
+    "Country where St. Joseph'S School, Darjeeling is located.",
+    "Country where Adarsh Vidya Kendra is located."
+   ],
+   "raw": "Country where St. Joseph'S School, Darjeeling is located.\nCountry where Adarsh Vidya Kendra is located."
+  },
+  {
+   "split": "test",
+   "id": "5a733ed40bdb11eba7f7acde48001122",
+   "claims": [
+    "The person who founded the company that published Moulin Rouge (Magazine)."
+   ],
+   "raw": "The person who founded the company that published Moulin Rouge (Magazine)."
+  },
+  {
+   "split": "test",
+   "id": "25783848086f11ebbd62ac1f6bf848b6",
+   "claims": [
+    "The director of Mr. Doodle Kicks Off.",
+    "The director of Boyz N The Hood."
+   ],
+   "raw": "The director of Mr. Doodle Kicks Off.\nThe director of Boyz N The Hood."
+  },
+  {
+   "split": "test",
+   "id": "d225ba6c089111ebbd73ac1f6bf848b6",
+   "claims": [
+    "Georges Pr\u00eatre's date of death.",
+    "Laura Riding's date of death."
+   ],
+   "raw": "Georges Pr\u00eatre's date of death.\nLaura Riding's date of death."
+  },
+  {
+   "split": "test",
+   "id": "2c460574087e11ebbd6bac1f6bf848b6",
+   "claims": [
+    "The director of the film Baxter.",
+    "The director of the film Vera Baxter.",
+    "The director of the film Plonger."
+   ],
+   "raw": "The director of the film Baxter.\nThe director of the film Vera Baxter.\nThe director of the film Plonger."
+  },
+  {
+   "split": "test",
+   "id": "c6e07b2c0bdb11eba7f7acde48001122",
+   "claims": [
+    "The director of the 1915 film Evidence."
+   ],
+   "raw": "The director of the 1915 film Evidence."
+  },
+  {
+   "split": "test",
+   "id": "ce895ad3095211ebbdaeac1f6bf848b6",
+   "claims": [
+    "The film The Burned Barns has more directors.",
+    "The film The Nevadan has more directors."
+   ],
+   "raw": "The film The Burned Barns has more directors.\nThe film The Nevadan has more directors."
+  },
+  {
+   "split": "test",
+   "id": "178a2b9408d611ebbd98ac1f6bf848b6",
+   "claims": [
+    "Shahanuddin Choudhury's birth year.",
+    "Domenico Distilo's birth year."
+   ],
+   "raw": "Shahanuddin Choudhury's birth year.\nDomenico Distilo's birth year."
+  },
+  {
+   "split": "test",
+   "id": "24df39cb088011ebbd6cac1f6bf848b6",
+   "claims": [
+    "The directors of the film How Do I Become A Film Star.",
+    "The directors of the film Bauern Erf\u00fcllen Den Plan."
+   ],
+   "raw": "The directors of the film How Do I Become A Film Star.\nThe directors of the film Bauern Erf\u00fcllen Den Plan."
+  },
+  {
+   "split": "test",
+   "id": "eeea54e0085611ebbd59ac1f6bf848b6",
+   "claims": [
+    "The director of Movie Days.",
+    "The director of The Story Of A Boy."
+   ],
+   "raw": "The director of Movie Days.\nThe director of The Story Of A Boy."
+  },
+  {
+   "split": "test",
+   "id": "ac90d99c0bdb11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song You Should See Me In A Crown."
+   ],
+   "raw": "The performer of the song You Should See Me In A Crown."
+  },
+  {
+   "split": "test",
+   "id": "6aed324e0bd911eba7f7acde48001122",
+   "claims": [
+    "Thomas Lyon-Bowes, Lord Glamis's father."
+   ],
+   "raw": "Thomas Lyon-Bowes, Lord Glamis's father."
+  },
+  {
+   "split": "test",
+   "id": "db760b4a0bdd11eba7f7acde48001122",
+   "claims": [
+    "\u015eehzade Yusuf Izzeddin's father name."
+   ],
+   "raw": "\u015eehzade Yusuf Izzeddin's father name."
+  },
+  {
+   "split": "test",
+   "id": "7a51eb9208ac11ebbd83ac1f6bf848b6",
+   "claims": [
+    "The director of Avasara Police 100.",
+    "The director of Iniyum Puzayozhukum."
+   ],
+   "raw": "The director of Avasara Police 100.\nThe director of Iniyum Puzayozhukum."
+  },
+  {
+   "split": "test",
+   "id": "60408ca60bde11eba7f7acde48001122",
+   "claims": [
+    "Director of the 2018 film Death Of A Nation.",
+    "School or institution attended by the director."
+   ],
+   "raw": "Director of the 2018 film Death Of A Nation.\nSchool or institution attended by the director."
+  },
+  {
+   "split": "test",
+   "id": "2356557d08ab11ebbd81ac1f6bf848b6",
+   "claims": [
+    "The director who made Let'S Live Again.",
+    "The director who made The Charm School (Film).",
+    "The date of death for each director."
+   ],
+   "raw": "The director who made Let'S Live Again.\nThe director who made The Charm School (Film).\nThe date of death for each director."
+  },
+  {
+   "split": "test",
+   "id": "70f721c308e811ebbda6ac1f6bf848b6",
+   "claims": [
+    "Piotr Wala's lifespan.",
+    "Joseph Pitton De Tournefort's lifespan."
+   ],
+   "raw": "Piotr Wala's lifespan.\nJoseph Pitton De Tournefort's lifespan."
+  },
+  {
+   "split": "test",
+   "id": "8223ad8e097811ebbdb0ac1f6bf848b6",
+   "claims": [
+    "The year The Beginning Or The End was released.",
+    "The year Hold Back The Night was released."
+   ],
+   "raw": "The year The Beginning Or The End was released.\nThe year Hold Back The Night was released."
+  },
+  {
+   "split": "test",
+   "id": "dd1a82740baf11ebab90acde48001122",
+   "claims": [
+    "James Roosevelt's siblings.",
+    "James Roosevelt."
+   ],
+   "raw": "James Roosevelt's siblings.\nJames Roosevelt."
+  },
+  {
+   "split": "test",
+   "id": "f73a80a80bd911eba7f7acde48001122",
+   "claims": [
+    "Arthur Macarthur Iv's father."
+   ],
+   "raw": "Arthur Macarthur Iv's father."
+  },
+  {
+   "split": "test",
+   "id": "f47bff600bdc11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Gates Of Paris (Film).",
+    "The date of death of the director of the film Gates Of Paris (Film)."
+   ],
+   "raw": "The director of the film Gates Of Paris (Film).\nThe date of death of the director of the film Gates Of Paris (Film)."
+  },
+  {
+   "split": "test",
+   "id": "42a5f1a40bde11eba7f7acde48001122",
+   "claims": [
+    "The birthplace of Emily Eavis' father."
+   ],
+   "raw": "The birthplace of Emily Eavis' father."
+  },
+  {
+   "split": "test",
+   "id": "acfe24b7096511ebbdafac1f6bf848b6",
+   "claims": [
+    "La Parisienne (Film) origin country.",
+    "Paris Awakens origin country."
+   ],
+   "raw": "La Parisienne (Film) origin country.\nParis Awakens origin country."
+  },
+  {
+   "split": "test",
+   "id": "2ce44ca80bde11eba7f7acde48001122",
+   "claims": [
+    "Jacques Bizet's father."
+   ],
+   "raw": "Jacques Bizet's father."
+  },
+  {
+   "split": "test",
+   "id": "6d0f23b008b011ebbd84ac1f6bf848b6",
+   "claims": [
+    "The year The Meanest Man In Texas was released.",
+    "The year Terms Of Endearment was released."
+   ],
+   "raw": "The year The Meanest Man In Texas was released.\nThe year Terms Of Endearment was released."
+  },
+  {
+   "split": "test",
+   "id": "3091e6da0bde11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the director of the film Imperfect Journey."
+   ],
+   "raw": "The nationality of the director of the film Imperfect Journey."
+  },
+  {
+   "split": "test",
+   "id": "05f0e6680bdb11eba7f7acde48001122",
+   "claims": [
+    "Carl Von Fersen's wife name."
+   ],
+   "raw": "Carl Von Fersen's wife name."
+  },
+  {
+   "split": "test",
+   "id": "08b4d30e08d511ebbd98ac1f6bf848b6",
+   "claims": [
+    "The director of the film Killer: Dead Or Alive.",
+    "The director of the film Adultery: A User'S Guide."
+   ],
+   "raw": "The director of the film Killer: Dead Or Alive.\nThe director of the film Adultery: A User'S Guide."
+  },
+  {
+   "split": "test",
+   "id": "16e632b80bde11eba7f7acde48001122",
+   "claims": [
+    "Judith Of Swabia's mother."
+   ],
+   "raw": "Judith Of Swabia's mother."
+  },
+  {
+   "split": "test",
+   "id": "f7e5bd9a0bdb11eba7f7acde48001122",
+   "claims": [
+    "The director who made the film Haut Les C\u0153urs!.",
+    "The film titled Haut Les C\u0153urs!",
+    "The educational institution where the director graduated."
+   ],
+   "raw": "The director who made the film Haut Les C\u0153urs!.\nThe film titled Haut Les C\u0153urs!\nThe educational institution where the director graduated."
+  },
+  {
+   "split": "test",
+   "id": "61456758085411ebbd59ac1f6bf848b6",
+   "claims": [
+    "The director of the film Taste Of Cherry.",
+    "The director of the film Renegades Of The Sage."
+   ],
+   "raw": "The director of the film Taste Of Cherry.\nThe director of the film Renegades Of The Sage."
+  },
+  {
+   "split": "test",
+   "id": "b26dd25c0bdb11eba7f7acde48001122",
+   "claims": [
+    "The director who made the film Academy Of Doom."
+   ],
+   "raw": "The director who made the film Academy Of Doom."
+  },
+  {
+   "split": "test",
+   "id": "c58a7e3e0bdc11eba7f7acde48001122",
+   "claims": [
+    "Julie Berwald's mother place of birth."
+   ],
+   "raw": "Julie Berwald's mother place of birth."
+  },
+  {
+   "split": "test",
+   "id": "1ae417780bb011ebab90acde48001122",
+   "claims": [
+    "Riksjarl Of Sweden's mother."
+   ],
+   "raw": "Riksjarl Of Sweden's mother."
+  },
+  {
+   "split": "test",
+   "id": "314536e808bb11ebbd88ac1f6bf848b6",
+   "claims": [
+    "The director of Life Is Hot In Cracktown was born.",
+    "The director of Between Maybes was born."
+   ],
+   "raw": "The director of Life Is Hot In Cracktown was born.\nThe director of Between Maybes was born."
+  },
+  {
+   "split": "test",
+   "id": "ba8ffb9e0baf11ebab90acde48001122",
+   "claims": [
+    "Carlos Bardem's mother.",
+    "Maternal grandparents of Carlos Bardem."
+   ],
+   "raw": "Carlos Bardem's mother.\nMaternal grandparents of Carlos Bardem."
+  },
+  {
+   "split": "test",
+   "id": "9d2db9820bdd11eba7f7acde48001122",
+   "claims": [
+    "Henry Beaufort, 2nd Earl of Somerset's mother name."
+   ],
+   "raw": "Henry Beaufort, 2nd Earl of Somerset's mother name."
+  },
+  {
+   "split": "test",
+   "id": "23c80429088411ebbd6dac1f6bf848b6",
+   "claims": [
+    "Director of film 11:14 nationality.",
+    "Director of film Born That Way (Film) nationality."
+   ],
+   "raw": "Director of film 11:14 nationality.\nDirector of film Born That Way (Film) nationality."
+  },
+  {
+   "split": "test",
+   "id": "a214276e08dc11ebbd9cac1f6bf848b6",
+   "claims": [
+    "The director of Biblioth\u00e8que Pascal.",
+    "The director of Star Wars: The Rise Of Skywalker."
+   ],
+   "raw": "The director of Biblioth\u00e8que Pascal.\nThe director of Star Wars: The Rise Of Skywalker."
+  },
+  {
+   "split": "test",
+   "id": "ec9995820bdc11eba7f7acde48001122",
+   "claims": [
+    "Meketaten's mother's name."
+   ],
+   "raw": "Meketaten's mother's name."
+  },
+  {
+   "split": "test",
+   "id": "a0b7ab54088511ebbd6dac1f6bf848b6",
+   "claims": [
+    "The director who made The Mate Of The Sally Ann.",
+    "The director who made The Legend Of Hercules."
+   ],
+   "raw": "The director who made The Mate Of The Sally Ann.\nThe director who made The Legend Of Hercules."
+  },
+  {
+   "split": "test",
+   "id": "921c15d40bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Ben Johnson: Third Cowboy On The Right.",
+    "The place of birth for the director of the film Ben Johnson: Third Cowboy On The Right."
+   ],
+   "raw": "The director of the film Ben Johnson: Third Cowboy On The Right.\nThe place of birth for the director of the film Ben Johnson: Third Cowboy On The Right."
+  },
+  {
+   "split": "test",
+   "id": "9634ee940baf11ebab90acde48001122",
+   "claims": [
+    "Mamie Lincoln Isham's father's name.",
+    "Mamie Lincoln Isham's father's parents' names."
+   ],
+   "raw": "Mamie Lincoln Isham's father's name.\nMamie Lincoln Isham's father's parents' names."
+  },
+  {
+   "split": "test",
+   "id": "60402bf80bde11eba7f7acde48001122",
+   "claims": [
+    "Conall Mac Comgaill's father."
+   ],
+   "raw": "Conall Mac Comgaill's father."
+  },
+  {
+   "split": "test",
+   "id": "75612cee0bde11eba7f7acde48001122",
+   "claims": [
+    "Muhammad I Of Khwarazm's father's nationality."
+   ],
+   "raw": "Muhammad I Of Khwarazm's father's nationality."
+  },
+  {
+   "split": "test",
+   "id": "c2b303ae08c411ebbd8eac1f6bf848b6",
+   "claims": [
+    "The director of Lucky Cowboy.",
+    "The director of O.K. Connery."
+   ],
+   "raw": "The director of Lucky Cowboy.\nThe director of O.K. Connery."
+  },
+  {
+   "split": "test",
+   "id": "44afb3b2089c11ebbd78ac1f6bf848b6",
+   "claims": [
+    "The director who made Laughing At Trouble.",
+    "The director who made The Train For Venice."
+   ],
+   "raw": "The director who made Laughing At Trouble.\nThe director who made The Train For Venice."
+  },
+  {
+   "split": "test",
+   "id": "04b2864e0bdb11eba7f7acde48001122",
+   "claims": [
+    "The person who directed the film Trick For Trick."
+   ],
+   "raw": "The person who directed the film Trick For Trick."
+  },
+  {
+   "split": "test",
+   "id": "b1d520f2087011ebbd63ac1f6bf848b6",
+   "claims": [
+    "Director of La Aventura De Los Paraguas Asesinos.",
+    "Director of Arm In Arm Down The Street (1966 Film).",
+    "Country of origin for each director."
+   ],
+   "raw": "Director of La Aventura De Los Paraguas Asesinos.\nDirector of Arm In Arm Down The Street (1966 Film).\nCountry of origin for each director."
+  },
+  {
+   "split": "test",
+   "id": "e29a23e408bc11ebbd89ac1f6bf848b6",
+   "claims": [
+    "The directors of Mare Matto.",
+    "The director of Mother Song.",
+    "The country of origin for the director of Mare Matto.",
+    "The country of origin for the director of Mother Song."
+   ],
+   "raw": "The directors of Mare Matto.\nThe director of Mother Song.\nThe country of origin for the director of Mare Matto.\nThe country of origin for the director of Mother Song."
+  },
+  {
+   "split": "test",
+   "id": "b82ce9420bdd11eba7f7acde48001122",
+   "claims": [
+    "Mary Tappan Wright's husband."
+   ],
+   "raw": "Mary Tappan Wright's husband."
+  },
+  {
+   "split": "test",
+   "id": "1ea838c00bde11eba7f7acde48001122",
+   "claims": [
+    "Gaudemunda Of Lithuania's father's place of death."
+   ],
+   "raw": "Gaudemunda Of Lithuania's father's place of death."
+  },
+  {
+   "split": "test",
+   "id": "6b58975d08df11ebbda0ac1f6bf848b6",
+   "claims": [
+    "The director of the film Demons Of War.",
+    "The director of the film Farce Of The Penguins."
+   ],
+   "raw": "The director of the film Demons Of War.\nThe director of the film Farce Of The Penguins."
+  },
+  {
+   "split": "test",
+   "id": "6a0a17b80baf11ebab90acde48001122",
+   "claims": [
+    "Alice Claypoole Vanderbilt's husband.",
+    "Mother-in-law of Alice Claypoole Vanderbilt."
+   ],
+   "raw": "Alice Claypoole Vanderbilt's husband.\nMother-in-law of Alice Claypoole Vanderbilt."
+  },
+  {
+   "split": "test",
+   "id": "f67a19540bdd11eba7f7acde48001122",
+   "claims": [
+    "Edward, 2Nd Duke Of York's father name."
+   ],
+   "raw": "Edward, 2Nd Duke Of York's father name."
+  },
+  {
+   "split": "test",
+   "id": "b34f43d1087b11ebbd69ac1f6bf848b6",
+   "claims": [
+    "Director of Elle Boit Pas, Elle Fume Pas, Elle Drague Pas, Mais... Elle Cause!",
+    "Director of The Very Eye Of Night."
+   ],
+   "raw": "Director of Elle Boit Pas, Elle Fume Pas, Elle Drague Pas, Mais... Elle Cause!\nDirector of The Very Eye Of Night."
+  },
+  {
+   "split": "test",
+   "id": "e0c830e708f411ebbdaaac1f6bf848b6",
+   "claims": [
+    "Citrus Center location information.",
+    "Lyon Building location information."
+   ],
+   "raw": "Citrus Center location information.\nLyon Building location information."
+  },
+  {
+   "split": "test",
+   "id": "e0ce1111097711ebbdb0ac1f6bf848b6",
+   "claims": [
+    "Umm Al-Tuyour location.",
+    "Hama Governorate location.",
+    "Sharqliyya location."
+   ],
+   "raw": "Umm Al-Tuyour location.\nHama Governorate location.\nSharqliyya location."
+  },
+  {
+   "split": "test",
+   "id": "b670607d08b611ebbd88ac1f6bf848b6",
+   "claims": [
+    "The director who made Long Vacations Of 36.",
+    "The director who made Mother Joan Of The Angels."
+   ],
+   "raw": "The director who made Long Vacations Of 36.\nThe director who made Mother Joan Of The Angels."
+  },
+  {
+   "split": "test",
+   "id": "77217c880bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the 1915 film The Deep Purple."
+   ],
+   "raw": "The director of the 1915 film The Deep Purple."
+  },
+  {
+   "split": "test",
+   "id": "547dc2680bdd11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Dos Basuras.",
+    "The location where the director died."
+   ],
+   "raw": "The director who directed the film Dos Basuras.\nThe location where the director died."
+  },
+  {
+   "split": "test",
+   "id": "b812da4c089111ebbd73ac1f6bf848b6",
+   "claims": [
+    "The director of The Wax Model.",
+    "The director of Khoon Ka Karz."
+   ],
+   "raw": "The director of The Wax Model.\nThe director of Khoon Ka Karz."
+  },
+  {
+   "split": "test",
+   "id": "27d8771e0bdb11eba7f7acde48001122",
+   "claims": [
+    "The teacher of the composer of the song Der Doppelg\u00e4nger."
+   ],
+   "raw": "The teacher of the composer of the song Der Doppelg\u00e4nger."
+  },
+  {
+   "split": "test",
+   "id": "5aa25a540bde11eba7f7acde48001122",
+   "claims": [
+    "Cornelia Cole Fairbanks's husband's name."
+   ],
+   "raw": "Cornelia Cole Fairbanks's husband's name."
+  },
+  {
+   "split": "test",
+   "id": "04e9521d088b11ebbd6fac1f6bf848b6",
+   "claims": [
+    "Aboud Omar or Hala Hameed."
+   ],
+   "raw": "Aboud Omar or Hala Hameed."
+  },
+  {
+   "split": "test",
+   "id": "881866100baf11ebab90acde48001122",
+   "claims": [
+    "Julia Cornelia Paula's father-in-law."
+   ],
+   "raw": "Julia Cornelia Paula's father-in-law."
+  },
+  {
+   "split": "test",
+   "id": "cf57f2ef087011ebbd63ac1f6bf848b6",
+   "claims": [
+    "Country where \"Madame Bovary\" by Gustave Flaubert originates.",
+    "Country where \"Mary Moreau\" appears in Moby-Dick originates."
+   ],
+   "raw": "Country where \"Madame Bovary\" by Gustave Flaubert originates.\nCountry where \"Mary Moreau\" appears in Moby-Dick originates."
+  },
+  {
+   "split": "test",
+   "id": "20c7b59608db11ebbd9cac1f6bf848b6",
+   "claims": [
+    "Arthur Stannard Vernay's age.",
+    "Janusz Biela\u0144ski's age."
+   ],
+   "raw": "Arthur Stannard Vernay's age.\nJanusz Biela\u0144ski's age."
+  },
+  {
+   "split": "test",
+   "id": "6a8f19480bde11eba7f7acde48001122",
+   "claims": [
+    "Gian Giacomo Crispo's father."
+   ],
+   "raw": "Gian Giacomo Crispo's father."
+  },
+  {
+   "split": "test",
+   "id": "7ff5ce48091b11ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Autumn Milk was released.",
+    "The year Antonieta was released."
+   ],
+   "raw": "The year Autumn Milk was released.\nThe year Antonieta was released."
+  },
+  {
+   "split": "test",
+   "id": "8fc9ab900bdb11eba7f7acde48001122",
+   "claims": [
+    "The director who works on the film Rare Birds."
+   ],
+   "raw": "The director who works on the film Rare Birds."
+  },
+  {
+   "split": "test",
+   "id": "bab5dcee0bda11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song Dream Brother."
+   ],
+   "raw": "The performer of the song Dream Brother."
+  },
+  {
+   "split": "test",
+   "id": "5a4342620bde11eba7f7acde48001122",
+   "claims": [
+    "The wife of Arthur Harold Stone's name."
+   ],
+   "raw": "The wife of Arthur Harold Stone's name."
+  },
+  {
+   "split": "test",
+   "id": "c1ed092a0bd911eba7f7acde48001122",
+   "claims": [
+    "The performer who sang the song Forget About The World."
+   ],
+   "raw": "The performer who sang the song Forget About The World."
+  },
+  {
+   "split": "test",
+   "id": "050fa39608df11ebbd9fac1f6bf848b6",
+   "claims": [
+    "The director who made Shoot-Out At Medicine Bend.",
+    "The director who made A Song Is Born."
+   ],
+   "raw": "The director who made Shoot-Out At Medicine Bend.\nThe director who made A Song Is Born."
+  },
+  {
+   "split": "test",
+   "id": "a916ff4c0bdd11eba7f7acde48001122",
+   "claims": [
+    "Walburga Habsburg Douglas's father."
+   ],
+   "raw": "Walburga Habsburg Douglas's father."
+  },
+  {
+   "split": "test",
+   "id": "33d1a6d60bda11eba7f7acde48001122",
+   "claims": [
+    "The spouse of the director of the film Kranthiyoji Basavanna."
+   ],
+   "raw": "The spouse of the director of the film Kranthiyoji Basavanna."
+  },
+  {
+   "split": "test",
+   "id": "e2cecd29096711ebbdafac1f6bf848b6",
+   "claims": [
+    "The year Colt, Alison & Morrison Ltd was established.",
+    "The year Fairline Boats was established."
+   ],
+   "raw": "The year Colt, Alison & Morrison Ltd was established.\nThe year Fairline Boats was established."
+  },
+  {
+   "split": "test",
+   "id": "caccb6f208d811ebbd9cac1f6bf848b6",
+   "claims": [
+    "The director who made The House Of Pulcini.",
+    "The director who made Diary Of A Married Woman."
+   ],
+   "raw": "The director who made The House Of Pulcini.\nThe director who made Diary Of A Married Woman."
+  },
+  {
+   "split": "test",
+   "id": "b5790c240bda11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Les Tuche 2.",
+    "The birth year of the director of Les Tuche 2."
+   ],
+   "raw": "The director of the film Les Tuche 2.  \nThe birth year of the director of Les Tuche 2."
+  },
+  {
+   "split": "test",
+   "id": "7d8182b60bd911eba7f7acde48001122",
+   "claims": [
+    "The director of the film Encore (1996 Film).",
+    "The spouse of the director of the film Encore (1996 Film)."
+   ],
+   "raw": "The director of the film Encore (1996 Film).\nThe spouse of the director of the film Encore (1996 Film)."
+  },
+  {
+   "split": "test",
+   "id": "7d87730c087211ebbd66ac1f6bf848b6",
+   "claims": [
+    "Country where \"Wizards Of The Lost Kingdom\" was produced.",
+    "Country where the 1981 film \"Final Exam\" was produced."
+   ],
+   "raw": "Country where \"Wizards Of The Lost Kingdom\" was produced.\nCountry where the 1981 film \"Final Exam\" was produced."
+  },
+  {
+   "split": "test",
+   "id": "2ecc6bf40bde11eba7f7acde48001122",
+   "claims": [
+    "The editor of magazine Black Mask (Magazine).",
+    "The location where the editor of magazine Black Mask (Magazine) died."
+   ],
+   "raw": "The editor of magazine Black Mask (Magazine).\nThe location where the editor of magazine Black Mask (Magazine) died."
+  },
+  {
+   "split": "test",
+   "id": "c3aa16f8089711ebbd77ac1f6bf848b6",
+   "claims": [
+    "The director of the film The Pinto Bandit.",
+    "The director of the film Normal Life."
+   ],
+   "raw": "The director of the film The Pinto Bandit.\nThe director of the film Normal Life."
+  },
+  {
+   "split": "test",
+   "id": "a6961cb20bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Angus (Film).",
+    "The place of birth of the director of the film Angus (Film)."
+   ],
+   "raw": "The director of the film Angus (Film).\nThe place of birth of the director of the film Angus (Film)."
+  },
+  {
+   "split": "test",
+   "id": "ddb04f2608c011ebbd8aac1f6bf848b6",
+   "claims": [
+    "The director of Up In The World.",
+    "The director of Giovent\u00f9 Alla Sbarra."
+   ],
+   "raw": "The director of Up In The World.\nThe director of Giovent\u00f9 Alla Sbarra."
+  },
+  {
+   "split": "test",
+   "id": "711c760608ff11ebbdadac1f6bf848b6",
+   "claims": [
+    "The year Tweet Tweet My Lovely was released.",
+    "The year Knee Deep In The Hoopla was released."
+   ],
+   "raw": "The year Tweet Tweet My Lovely was released.\nThe year Knee Deep In The Hoopla was released."
+  },
+  {
+   "split": "test",
+   "id": "8ab49ff80bda11eba7f7acde48001122",
+   "claims": [
+    "The person Juwayriyya Bint Al-Harith's husband was."
+   ],
+   "raw": "The person Juwayriyya Bint Al-Harith's husband was."
+  },
+  {
+   "split": "test",
+   "id": "b00177ba08a411ebbd7dac1f6bf848b6",
+   "claims": [
+    "The director who made Western Limited.",
+    "The director who made Mission To Carvas."
+   ],
+   "raw": "The director who made Western Limited.\nThe director who made Mission To Carvas."
+  },
+  {
+   "split": "test",
+   "id": "84977c000bdd11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song X (Chris Brown Song)."
+   ],
+   "raw": "The performer of the song X (Chris Brown Song)."
+  },
+  {
+   "split": "test",
+   "id": "d18f92b4085d11ebbd5cac1f6bf848b6",
+   "claims": [
+    "The year Fast Five was released.",
+    "The year The Testament Of Dr. Mabose was released."
+   ],
+   "raw": "The year Fast Five was released.\nThe year The Testament Of Dr. Mabose was released."
+  },
+  {
+   "split": "test",
+   "id": "6efc1e6c0bda11eba7f7acde48001122",
+   "claims": [
+    "The director of the film White Vengeance.",
+    "The place of birth of the director of the film White Vengeance."
+   ],
+   "raw": "The director of the film White Vengeance.\nThe place of birth of the director of the film White Vengeance."
+  },
+  {
+   "split": "test",
+   "id": "54f10a4a0bdb11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Duch\u00e1\u010dek Will Fix It."
+   ],
+   "raw": "The director of the film Duch\u00e1\u010dek Will Fix It."
+  },
+  {
+   "split": "test",
+   "id": "9a030344096611ebbdafac1f6bf848b6",
+   "claims": [
+    "The year Nine Girls was released.",
+    "The year Candida, Woman Of The Year was released."
+   ],
+   "raw": "The year Nine Girls was released.\nThe year Candida, Woman Of The Year was released."
+  },
+  {
+   "split": "test",
+   "id": "0745c7f20bdd11eba7f7acde48001122",
+   "claims": [
+    "The father of the director of film At Five In The Afternoon."
+   ],
+   "raw": "The father of the director of film At Five In The Afternoon."
+  },
+  {
+   "split": "test",
+   "id": "8a9903ca0bd911eba7f7acde48001122",
+   "claims": [
+    "Mother of Amadeus VIII, Duke of Savoy.",
+    "Nationality of Amadeus VIII, Duke of Savoy's mother."
+   ],
+   "raw": "Mother of Amadeus VIII, Duke of Savoy.\nNationality of Amadeus VIII, Duke of Savoy's mother."
+  },
+  {
+   "split": "test",
+   "id": "e0b640240bd911eba7f7acde48001122",
+   "claims": [
+    "Rosita Spencer-Churchill's husband.",
+    "Place of death of Rosita Spencer-Churchill's husband."
+   ],
+   "raw": "Rosita Spencer-Churchill's husband.\nPlace of death of Rosita Spencer-Churchill's husband."
+  },
+  {
+   "split": "test",
+   "id": "32d160b60bdd11eba7f7acde48001122",
+   "claims": [
+    "Thomas Wodehouse's father."
+   ],
+   "raw": "Thomas Wodehouse's father."
+  },
+  {
+   "split": "test",
+   "id": "279623fe089111ebbd72ac1f6bf848b6",
+   "claims": [
+    "The birth year of James Parton.",
+    "The birth year of Laura Fygi."
+   ],
+   "raw": "The birth year of James Parton.\nThe birth year of Laura Fygi."
+  },
+  {
+   "split": "test",
+   "id": "be9164e80bdd11eba7f7acde48001122",
+   "claims": [
+    "The performer of the song The Autumn Waltz."
+   ],
+   "raw": "The performer of the song The Autumn Waltz."
+  },
+  {
+   "split": "test",
+   "id": "ee559aaa08c211ebbd8cac1f6bf848b6",
+   "claims": [
+    "The director of Cl\u00e9o From 5 To 7.",
+    "The director of Yesenia (Film).",
+    "When did the director die?"
+   ],
+   "raw": "The director of Cl\u00e9o From 5 To 7.\nThe director of Yesenia (Film).\nWhen did the director die?"
+  },
+  {
+   "split": "test",
+   "id": "3450ecb008c511ebbd8eac1f6bf848b6",
+   "claims": [
+    "The director who made The Lady Owner film.",
+    "The director who made Behind Prison Gates film."
+   ],
+   "raw": "The director who made The Lady Owner film.\nThe director who made Behind Prison Gates film."
+  },
+  {
+   "split": "test",
+   "id": "f377a0fc089311ebbd75ac1f6bf848b6",
+   "claims": [
+    "The director of the film The Boss And The Worker.",
+    "The director of the film Claire'S Knee."
+   ],
+   "raw": "The director of the film The Boss And The Worker.\nThe director of the film Claire'S Knee."
+  },
+  {
+   "split": "test",
+   "id": "981f1da9087111ebbd63ac1f6bf848b6",
+   "claims": [
+    "The lifespan of Amos Tuck.",
+    "The lifespan of Hans D\u00f6brich."
+   ],
+   "raw": "The lifespan of Amos Tuck.\nThe lifespan of Hans D\u00f6brich."
+  },
+  {
+   "split": "test",
+   "id": "9c91985408bd11ebbd8aac1f6bf848b6",
+   "claims": [
+    "The year Marek Janowski was born.",
+    "The year Ulf Kirsten was born."
+   ],
+   "raw": "The year Marek Janowski was born.\nThe year Ulf Kirsten was born."
+  },
+  {
+   "split": "test",
+   "id": "302d5ef40bde11eba7f7acde48001122",
+   "claims": [
+    "Archduchess Karoline Marie Of Austria\u7684\u6bcd\u4eb2\u540d\u3002"
+   ],
+   "raw": "Archduchess Karoline Marie Of Austria\u7684\u6bcd\u4eb2\u540d\u3002"
+  },
+  {
+   "split": "test",
+   "id": "c4835786085d11ebbd5cac1f6bf848b6",
+   "claims": [
+    "The director of Daughters Of The Night.",
+    "The director of Carthage In Flames."
+   ],
+   "raw": "The director of Daughters Of The Night.\nThe director of Carthage In Flames."
+  },
+  {
+   "split": "test",
+   "id": "549d1a62086a11ebbd5fac1f6bf848b6",
+   "claims": [
+    "Specimen Band origin country.",
+    "The Bangles origin country."
+   ],
+   "raw": "Specimen Band origin country.\nThe Bangles origin country."
+  },
+  {
+   "split": "test",
+   "id": "e6802e620bdd11eba7f7acde48001122",
+   "claims": [
+    "Leni Sinclair's husband."
+   ],
+   "raw": "Leni Sinclair's husband."
+  },
+  {
+   "split": "test",
+   "id": "81422bee089b11ebbd78ac1f6bf848b6",
+   "claims": [
+    "Director of film The Imaginarium Of Doctor Parnassus.",
+    "Director of film Oh Dad, Poor Dad, Mamma'S Hung You In The Closet And I'm Feeling So Sad."
+   ],
+   "raw": "Director of film The Imaginarium Of Doctor Parnassus.\nDirector of film Oh Dad, Poor Dad, Mamma'S Hung You In The Closet And I'm Feeling So Sad."
+  },
+  {
+   "split": "test",
+   "id": "498dc8a2089111ebbd72ac1f6bf848b6",
+   "claims": [
+    "The director who made Dahleez.",
+    "The director who made The Lights Of Buenos Aires."
+   ],
+   "raw": "The director who made Dahleez.\nThe director who made The Lights Of Buenos Aires."
+  },
+  {
+   "split": "test",
+   "id": "344e4d34091f11ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Ndoto Za Elibidi was released.",
+    "The year Madonna: Truth Or Dare was released."
+   ],
+   "raw": "The year Ndoto Za Elibidi was released.\nThe year Madonna: Truth Or Dare was released."
+  },
+  {
+   "split": "test",
+   "id": "a8bff83c0bdd11eba7f7acde48001122",
+   "claims": [
+    "Heinz Heydrich's father."
+   ],
+   "raw": "Heinz Heydrich's father."
+  },
+  {
+   "split": "test",
+   "id": "0404d0e40bdb11eba7f7acde48001122",
+   "claims": [
+    "Antiochus Ix Cyzicenus's father's name."
+   ],
+   "raw": "Antiochus Ix Cyzicenus's father's name."
+  },
+  {
+   "split": "test",
+   "id": "320b908a0baf11ebab90acde48001122",
+   "claims": [
+    "The father of Maria Amalia, Duchess Of Parma."
+   ],
+   "raw": "The father of Maria Amalia, Duchess Of Parma."
+  },
+  {
+   "split": "test",
+   "id": "6dff625e0bde11eba7f7acde48001122",
+   "claims": [
+    "Leophron's father's name."
+   ],
+   "raw": "Leophron's father's name."
+  },
+  {
+   "split": "test",
+   "id": "976c613308d411ebbd96ac1f6bf848b6",
+   "claims": [
+    "Country where Copatana River is located.",
+    "Country where Faria Timb\u00f3 River is located."
+   ],
+   "raw": "Country where Copatana River is located.\nCountry where Faria Timb\u00f3 River is located."
+  },
+  {
+   "split": "test",
+   "id": "e7fafa0c08d011ebbd95ac1f6bf848b6",
+   "claims": [
+    "The director who made Monkey Shines.",
+    "The director who made The Big Show-Off."
+   ],
+   "raw": "The director who made Monkey Shines.\nThe director who made The Big Show-Off."
+  },
+  {
+   "split": "test",
+   "id": "8ba63ce8098f11ebbdb0ac1f6bf848b6",
+   "claims": [
+    "Country where Mavrolithari village is located.",
+    "Country where Ampelakia village is located."
+   ],
+   "raw": "Country where Mavrolithari village is located.\nCountry where Ampelakia village is located."
+  },
+  {
+   "split": "test",
+   "id": "3630fd780bda11eba7f7acde48001122",
+   "claims": [
+    "Hannah Tompkins's husband."
+   ],
+   "raw": "Hannah Tompkins's husband."
+  },
+  {
+   "split": "test",
+   "id": "299505620baf11ebab90acde48001122",
+   "claims": [
+    "Magdalene Of J\u00fclich-Cleves-Berg's marital status and spouse."
+   ],
+   "raw": "Magdalene Of J\u00fclich-Cleves-Berg's marital status and spouse."
+  },
+  {
+   "split": "test",
+   "id": "e7e16a100baf11ebab90acde48001122",
+   "claims": [
+    "Tanishaa Mukerji's mother's maiden name.",
+    "Tanishaa Mukerji's mother's paternal family background."
+   ],
+   "raw": "Tanishaa Mukerji's mother's maiden name.\nTanishaa Mukerji's mother's paternal family background."
+  },
+  {
+   "split": "test",
+   "id": "2db2384a0bdc11eba7f7acde48001122",
+   "claims": [
+    "P\u00e1l Esterh\u00e1zy's father."
+   ],
+   "raw": "P\u00e1l Esterh\u00e1zy's father."
+  },
+  {
+   "split": "test",
+   "id": "b8960ed408b011ebbd85ac1f6bf848b6",
+   "claims": [
+    "Walter E. Massey's place of origin.",
+    "Matt Horwich's place of origin."
+   ],
+   "raw": "Walter E. Massey's place of origin.\nMatt Horwich's place of origin."
+  },
+  {
+   "split": "test",
+   "id": "adf633ba08b911ebbd88ac1f6bf848b6",
+   "claims": [
+    "The lifespan of Theodore McMillan.",
+    "The lifespan of Hillel Slovak."
+   ],
+   "raw": "The lifespan of Theodore McMillan.\nThe lifespan of Hillel Slovak."
+  },
+  {
+   "split": "test",
+   "id": "d57ccc52087b11ebbd69ac1f6bf848b6",
+   "claims": [
+    "The director who made A Trip To Paris.",
+    "The director who made The Truth About Women."
+   ],
+   "raw": "The director who made A Trip To Paris.\nThe director who made The Truth About Women."
+  },
+  {
+   "split": "test",
+   "id": "b96d74c40bd911eba7f7acde48001122",
+   "claims": [
+    "The performer who sang the song Poison.",
+    "The current location of the performer's birthplace."
+   ],
+   "raw": "The performer who sang the song Poison.\nThe current location of the performer's birthplace."
+  },
+  {
+   "split": "test",
+   "id": "6b84004a0baf11ebab90acde48001122",
+   "claims": [
+    "Marie Friederike Of Hesse-Kassel's father.",
+    "Marie Friederike Of Hesse-Kassel's parents."
+   ],
+   "raw": "Marie Friederike Of Hesse-Kassel's father.\nMarie Friederike Of Hesse-Kassel's parents."
+  },
+  {
+   "split": "test",
+   "id": "714be734088c11ebbd6fac1f6bf848b6",
+   "claims": [
+    "The director who made Slums Of Berlin.",
+    "The director who made Phantom India."
+   ],
+   "raw": "The director who made Slums Of Berlin.\nThe director who made Phantom India."
+  },
+  {
+   "split": "test",
+   "id": "286461f808ba11ebbd88ac1f6bf848b6",
+   "claims": [
+    "Jean H\u00e9rold-Paquis age information.",
+    "Nick Stephenss age information."
+   ],
+   "raw": "Jean H\u00e9rold-Paquis age information.\nNick Stephenss age information."
+  },
+  {
+   "split": "test",
+   "id": "29bd8c0c0bb011ebab90acde48001122",
+   "claims": [
+    "The paternal grandfather of William de Ferrers, 4th Earl of Derby."
+   ],
+   "raw": "The paternal grandfather of William de Ferrers, 4th Earl of Derby."
+  },
+  {
+   "split": "test",
+   "id": "55dc0b7a088f11ebbd72ac1f6bf848b6",
+   "claims": [
+    "The director of Douce Violence (Film).",
+    "The director of The Cowboy's Flute."
+   ],
+   "raw": "The director of Douce Violence (Film).\nThe director of The Cowboy's Flute."
+  },
+  {
+   "split": "test",
+   "id": "43d525ba0baf11ebab90acde48001122",
+   "claims": [
+    "Infante Francisco de Paula, Duke of C\u00e1diz's marital status."
+   ],
+   "raw": "Infante Francisco de Paula, Duke of C\u00e1diz's marital status."
+  },
+  {
+   "split": "test",
+   "id": "061601a608bc11ebbd88ac1f6bf848b6",
+   "claims": [
+    "Clueso age range or birth year.",
+    "Heimrad B\u00e4cker birth year."
+   ],
+   "raw": "Clueso age range or birth year.\nHeimrad B\u00e4cker birth year."
+  },
+  {
+   "split": "test",
+   "id": "a7e043d60bdd11eba7f7acde48001122",
+   "claims": [
+    "Rachel Weisz's husband."
+   ],
+   "raw": "Rachel Weisz's husband."
+  },
+  {
+   "split": "test",
+   "id": "051f62de0bde11eba7f7acde48001122",
+   "claims": [
+    "The father of Augustus William, Duke Of Brunswick-Bevern."
+   ],
+   "raw": "The father of Augustus William, Duke Of Brunswick-Bevern."
+  },
+  {
+   "split": "test",
+   "id": "8130dbcf085e11ebbd5cac1f6bf848b6",
+   "claims": [
+    "The director who made Life Is A Long Quiet River.",
+    "The director who made Peruvazhiyambalam."
+   ],
+   "raw": "The director who made Life Is A Long Quiet River.\nThe director who made Peruvazhiyambalam."
+  },
+  {
+   "split": "test",
+   "id": "05ca361608a511ebbd7dac1f6bf848b6",
+   "claims": [
+    "Percy Rugg age information.",
+    "Junior Ponce age information."
+   ],
+   "raw": "Percy Rugg age information.\nJunior Ponce age information."
+  },
+  {
+   "split": "test",
+   "id": "80cea3ec0baf11ebab90acde48001122",
+   "claims": [
+    "The paternal grandfather of Johann, Count Of Cleves."
+   ],
+   "raw": "The paternal grandfather of Johann, Count Of Cleves."
+  },
+  {
+   "split": "test",
+   "id": "91f8aeb508b811ebbd88ac1f6bf848b6",
+   "claims": [
+    "The director of Show Them No Mercy!",
+    "The director of To Mary \u2013 With Love."
+   ],
+   "raw": "The director of Show Them No Mercy!\nThe director of To Mary \u2013 With Love."
+  },
+  {
+   "split": "test",
+   "id": "1822cbb4089111ebbd72ac1f6bf848b6",
+   "claims": [
+    "The director of The Newest Pledge.",
+    "The director of M\u00e1s All\u00e1 De La Aventura."
+   ],
+   "raw": "The director of The Newest Pledge.\nThe director of M\u00e1s All\u00e1 De La Aventura."
+  },
+  {
+   "split": "test",
+   "id": "5e7f9165094211ebbdaeac1f6bf848b6",
+   "claims": [
+    "The year Romance In The Dark was released.",
+    "The year Suddenly Seventeen was released."
+   ],
+   "raw": "The year Romance In The Dark was released.\nThe year Suddenly Seventeen was released."
+  },
+  {
+   "split": "test",
+   "id": "1b36941208a911ebbd7fac1f6bf848b6",
+   "claims": [
+    "The director who made Anchorman 2: The Legend Continues.",
+    "The director who made Much Adhok Shomoro (Much Ado About Nixi)."
+   ],
+   "raw": "The director who made Anchorman 2: The Legend Continues.\nThe director who made Much Adhok Shomoro (Much Ado About Nixi)."
+  },
+  {
+   "split": "test",
+   "id": "4bcc0eb20bde11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Udayananu Tharam."
+   ],
+   "raw": "The director of the film Udayananu Tharam."
+  },
+  {
+   "split": "test",
+   "id": "424c542a08bc11ebbd88ac1f6bf848b6",
+   "claims": [
+    "Director of the film Auto Driver.",
+    "Director of the film Kahani Hum Sab Ki."
+   ],
+   "raw": "Director of the film Auto Driver.\nDirector of the film Kahani Hum Sab Ki."
+  },
+  {
+   "split": "test",
+   "id": "5d41911e0baf11ebab90acde48001122",
+   "claims": [
+    "Maternal grandmother of Dakota Johnson."
+   ],
+   "raw": "Maternal grandmother of Dakota Johnson."
+  },
+  {
+   "split": "test",
+   "id": "e7b41722089e11ebbd78ac1f6bf848b6",
+   "claims": [
+    "Victor Amadeus, Prince Of Anhalt-Bernburg's relation to Lu Shiow-Yen.",
+    "Lu Shiow-Yen's relation to Victor Amadeus, Prince Of Anhalt-Bernburg."
+   ],
+   "raw": "Victor Amadeus, Prince Of Anhalt-Bernburg's relation to Lu Shiow-Yen.\nLu Shiow-Yen's relation to Victor Amadeus, Prince Of Anhalt-Bernburg."
+  },
+  {
+   "split": "test",
+   "id": "a9cc5f240bdb11eba7f7acde48001122",
+   "claims": [
+    "The spouse of the director of the film Eden And After."
+   ],
+   "raw": "The spouse of the director of the film Eden And After."
+  },
+  {
+   "split": "test",
+   "id": "ea897033084e11ebbd56ac1f6bf848b6",
+   "claims": [
+    "The birth year of Marie Agba-Otikpo.",
+    "The birth year of Mariam El-Masri."
+   ],
+   "raw": "The birth year of Marie Agba-Otikpo.\nThe birth year of Mariam El-Masri."
+  },
+  {
+   "split": "test",
+   "id": "492c06120bde11eba7f7acde48001122",
+   "claims": [
+    "Ralph Rumney's wife name."
+   ],
+   "raw": "Ralph Rumney's wife name."
+  },
+  {
+   "split": "test",
+   "id": "b23c52da0baf11ebab90acde48001122",
+   "claims": [
+    "Paternal grandmother of Prince Albert Of Schleswig-Holstein-Sonderburg-Gl\u00fccksburg."
+   ],
+   "raw": "Paternal grandmother of Prince Albert Of Schleswig-Holstein-Sonderburg-Gl\u00fccksburg."
+  },
+  {
+   "split": "test",
+   "id": "5232c94509b811ebbdb0ac1f6bf848b6",
+   "claims": [
+    "Country where Yana Kusma is located.",
+    "Country where Pillune (La Uni\u00f3n) is located."
+   ],
+   "raw": "Country where Yana Kusma is located.\nCountry where Pillune (La Uni\u00f3n) is located."
+  },
+  {
+   "split": "test",
+   "id": "911afad908d111ebbd95ac1f6bf848b6",
+   "claims": [
+    "Bernard J. Ganter's place of birth.",
+    "Ronnie Eldridge's place of birth."
+   ],
+   "raw": "Bernard J. Ganter's place of birth.\nRonnie Eldridge's place of birth."
+  },
+  {
+   "split": "test",
+   "id": "8266a796087a11ebbd67ac1f6bf848b6",
+   "claims": [
+    "The director who made Shadows Of Forgotten Ancestors.",
+    "The director who made Antareen."
+   ],
+   "raw": "The director who made Shadows Of Forgotten Ancestors.\nThe director who made Antareen."
+  },
+  {
+   "split": "test",
+   "id": "6aac7fba0bde11eba7f7acde48001122",
+   "claims": [
+    "The director of the film The Man Without A Face."
+   ],
+   "raw": "The director of the film The Man Without A Face."
+  },
+  {
+   "split": "test",
+   "id": "416d82040bdc11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Hrab\u011bnka Z Podskal\u00ed."
+   ],
+   "raw": "The director who directed the film Hrab\u011bnka Z Podskal\u00ed."
+  },
+  {
+   "split": "test",
+   "id": "6e5de2c908b611ebbd88ac1f6bf848b6",
+   "claims": [
+    "The director who made Promised Heaven.",
+    "The director who made Fire Over England."
+   ],
+   "raw": "The director who made Promised Heaven.\nThe director who made Fire Over England."
+  },
+  {
+   "split": "test",
+   "id": "6c0b26320bb011ebab90acde48001122",
+   "claims": [
+    "Dzeliwe Of Eswatini's father-in-law."
+   ],
+   "raw": "Dzeliwe Of Eswatini's father-in-law."
+  },
+  {
+   "split": "test",
+   "id": "56b2c4dc08a111ebbd79ac1f6bf848b6",
+   "claims": [
+    "The director who made Make Me An Offer.",
+    "The director who made The Island Of Dreams."
+   ],
+   "raw": "The director who made Make Me An Offer.\nThe director who made The Island Of Dreams."
+  },
+  {
+   "split": "test",
+   "id": "ce3a708808bd11ebbd8aac1f6bf848b6",
+   "claims": [
+    "The director who made Dark Interval.",
+    "The director who made Yeti Obhijaan.",
+    "The year the director for Dark Interval was born.",
+    "The year the director for Yeti Obhijaan was born."
+   ],
+   "raw": "The director who made Dark Interval.\nThe director who made Yeti Obhijaan.\nThe year the director for Dark Interval was born.\nThe year the director for Yeti Obhijaan was born."
+  },
+  {
+   "split": "test",
+   "id": "74eb875e086a11ebbd5fac1f6bf848b6",
+   "claims": [
+    "Nationality of the directors of The Measure Of All Things.",
+    "Nationality of the directors of The Time Of Your Life (Film)."
+   ],
+   "raw": "Nationality of the directors of The Measure Of All Things.\nNationality of the directors of The Time Of Your Life (Film)."
+  },
+  {
+   "split": "test",
+   "id": "5c9e73200bdd11eba7f7acde48001122",
+   "claims": [
+    "The place of burial of Munni Begum's husband."
+   ],
+   "raw": "The place of burial of Munni Begum's husband."
+  },
+  {
+   "split": "test",
+   "id": "ccd086f80bdb11eba7f7acde48001122",
+   "claims": [
+    "The director who directed the film Do You Believe? (Film).",
+    "The birthplace of the director who directed the film Do You Believe?."
+   ],
+   "raw": "The director who directed the film Do You Believe? (Film).\nThe birthplace of the director who directed the film Do You Believe?."
+  },
+  {
+   "split": "test",
+   "id": "497a2625091211ebbdadac1f6bf848b6",
+   "claims": [
+    "The album Bearing Straight was released.",
+    "The album Me And You And The World was released."
+   ],
+   "raw": "The album Bearing Straight was released.\nThe album Me And You And The World was released."
+  },
+  {
+   "split": "test",
+   "id": "ac9716f60bd911eba7f7acde48001122",
+   "claims": [
+    "Place of birth of the performer of song Break It To Me Gently (Aretha Franklin Song).",
+    "Aretha Franklin.",
+    "City where the hotel company the Oberoi family is part of has its head office."
+   ],
+   "raw": "Place of birth of the performer of song Break It To Me Gently (Aretha Franklin Song).\nAretha Franklin.\nCity where the hotel company the Oberoi family is part of has its head office."
+  },
+  {
+   "split": "test",
+   "id": "2ad168d509b411ebbdb0ac1f6bf848b6",
+   "claims": [
+    "Country where Poncione Della Marcia is located.",
+    "Country where Plattenh\u00f6rner is located."
+   ],
+   "raw": "Country where Poncione Della Marcia is located.\nCountry where Plattenh\u00f6rner is located."
+  },
+  {
+   "split": "test",
+   "id": "565d21740bdc11eba7f7acde48001122",
+   "claims": [
+    "Aleksandra Marianna Wiesio\u0142owska's father's place of burial."
+   ],
+   "raw": "Aleksandra Marianna Wiesio\u0142owska's father's place of burial."
+  },
+  {
+   "split": "test",
+   "id": "8924701a08c811ebbd91ac1f6bf848b6",
+   "claims": [
+    "Michael Davitt lifespan information.",
+    "Varoujan Hakhbandian lifespan information."
+   ],
+   "raw": "Michael Davitt lifespan information.\nVaroujan Hakhbandian lifespan information."
+  },
+  {
+   "split": "test",
+   "id": "d875b0800bdd11eba7f7acde48001122",
+   "claims": [
+    "The creator of It's Only TV."
+   ],
+   "raw": "The creator of It's Only TV."
+  },
+  {
+   "split": "test",
+   "id": "6a7725140bb011ebab90acde48001122",
+   "claims": [
+    "Prince Waldemar Of Schaumburg-Lippe's father.",
+    "The name of Prince Waldemar Of Schaumburg-Lippe's paternal grandmother."
+   ],
+   "raw": "Prince Waldemar Of Schaumburg-Lippe's father.\nThe name of Prince Waldemar Of Schaumburg-Lippe's paternal grandmother."
+  },
+  {
+   "split": "test",
+   "id": "099f34280bda11eba7f7acde48001122",
+   "claims": [
+    "The director of the 2017 film The Zone.",
+    "The location where the film The Zone was directed."
+   ],
+   "raw": "The director of the 2017 film The Zone.\nThe location where the film The Zone was directed."
+  },
+  {
+   "split": "test",
+   "id": "06b9dfa20bde11eba7f7acde48001122",
+   "claims": [
+    "The father of Princess Elisabeth Of Saxe-Altenburg.",
+    "Where the father of Princess Elisabeth Of Saxe-Altenburg was born."
+   ],
+   "raw": "The father of Princess Elisabeth Of Saxe-Altenburg.\nWhere the father of Princess Elisabeth Of Saxe-Altenburg was born."
+  },
+  {
+   "split": "test",
+   "id": "51478b9e08d611ebbd98ac1f6bf848b6",
+   "claims": [
+    "Country where The King's Command was produced.",
+    "Country where Experiment Alcatraz was produced."
+   ],
+   "raw": "Country where The King's Command was produced.\nCountry where Experiment Alcatraz was produced."
+  },
+  {
+   "split": "test",
+   "id": "6a775a2e0bde11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Kilippattu."
+   ],
+   "raw": "The director of the film Kilippattu."
+  },
+  {
+   "split": "test",
+   "id": "cf798e100bd911eba7f7acde48001122",
+   "claims": [
+    "Henry Stafford, 1st Baron Stafford's mother."
+   ],
+   "raw": "Henry Stafford, 1st Baron Stafford's mother."
+  },
+  {
+   "split": "test",
+   "id": "fde280820bdd11eba7f7acde48001122",
+   "claims": [
+    "The award received by the director of the film Nina'S Heavenly Delights."
+   ],
+   "raw": "The award received by the director of the film Nina'S Heavenly Delights."
+  },
+  {
+   "split": "test",
+   "id": "c767a888085a11ebbd5cac1f6bf848b6",
+   "claims": [
+    "The director of Sympathy For Mr. Vengeance was born.",
+    "The director of Kamikaze 1989 was born."
+   ],
+   "raw": "The director of Sympathy For Mr. Vengeance was born.\nThe director of Kamikaze 1989 was born."
+  },
+  {
+   "split": "test",
+   "id": "dbf41c00086911ebbd5fac1f6bf848b6",
+   "claims": [
+    "The director who made Honeymoons.",
+    "The director who made Moabite Notebook."
+   ],
+   "raw": "The director who made Honeymoons.\nThe director who made Moabite Notebook."
+  },
+  {
+   "split": "test",
+   "id": "35e09904086b11ebbd5fac1f6bf848b6",
+   "claims": [
+    "The director of I Learned It From Father.",
+    "The director of Sengottai Singam."
+   ],
+   "raw": "The director of I Learned It From Father.\nThe director of Sengottai Singam."
+  },
+  {
+   "split": "test",
+   "id": "3bf1539d08ed11ebbda7ac1f6bf848b6",
+   "claims": [
+    "Thomas Briscoe death date.",
+    "Bill Sprouse Jr.'s death date."
+   ],
+   "raw": "Thomas Briscoe death date.\nBill Sprouse Jr.'s death date."
+  },
+  {
+   "split": "test",
+   "id": "f43518160bdc11eba7f7acde48001122",
+   "claims": [
+    "The director of the 1924 film Breed Of The Border.",
+    "The place of birth of the director of the 1924 film Breed Of The Border."
+   ],
+   "raw": "The director of the 1924 film Breed Of The Border.\nThe place of birth of the director of the 1924 film Breed Of The Border."
+  },
+  {
+   "split": "test",
+   "id": "925e59120bdd11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the director of the film Down Where The Buffalo Go."
+   ],
+   "raw": "The nationality of the director of the film Down Where The Buffalo Go."
+  },
+  {
+   "split": "test",
+   "id": "0b86c27208c611ebbd90ac1f6bf848b6",
+   "claims": [
+    "The year This Night Is Still Ours was released.",
+    "The year Huma Gun Anmogaldi was released."
+   ],
+   "raw": "The year This Night Is Still Ours was released.\nThe year Huma Gun Anmogaldi was released."
+  },
+  {
+   "split": "test",
+   "id": "d8a042780bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the film Great Grand Masti."
+   ],
+   "raw": "The director of the film Great Grand Masti."
+  },
+  {
+   "split": "test",
+   "id": "4f8e349e08e111ebbda2ac1f6bf848b6",
+   "claims": [
+    "The director who made Hotel Paradis.",
+    "The director who made Devil's Doorway."
+   ],
+   "raw": "The director who made Hotel Paradis.\nThe director who made Devil's Doorway."
+  },
+  {
+   "split": "test",
+   "id": "c6d93b11087411ebbd67ac1f6bf848b6",
+   "claims": [
+    "The director who made How Dark The Nights Are On The Black Sea.",
+    "The director who made La Carapate."
+   ],
+   "raw": "The director who made How Dark The Nights Are On The Black Sea.\nThe director who made La Carapate."
+  },
+  {
+   "split": "test",
+   "id": "391fed160bb011ebab90acde48001122",
+   "claims": [
+    "Paternal grandmother of Princess Feodora Of Hohenlohe-Langenburg."
+   ],
+   "raw": "Paternal grandmother of Princess Feodora Of Hohenlohe-Langenburg."
+  },
+  {
+   "split": "test",
+   "id": "49e0153808ac11ebbd82ac1f6bf848b6",
+   "claims": [
+    "The director who made Alla Luce Del Sole.",
+    "The director who made Allegheny Uprising."
+   ],
+   "raw": "The director who made Alla Luce Del Sole.\nThe director who made Allegheny Uprising."
+  },
+  {
+   "split": "test",
+   "id": "123d23820bdb11eba7f7acde48001122",
+   "claims": [
+    "The father of the director of the film Iron Monkey 2."
+   ],
+   "raw": "The father of the director of the film Iron Monkey 2."
+  },
+  {
+   "split": "test",
+   "id": "d0a64a540bdd11eba7f7acde48001122",
+   "claims": [
+    "The country where the director of !Women Art Revolution is from."
+   ],
+   "raw": "The country where the director of !Women Art Revolution is from."
+  },
+  {
+   "split": "test",
+   "id": "6c40a31c0baf11ebab90acde48001122",
+   "claims": [
+    "Fu Song'E's father-in-law."
+   ],
+   "raw": "Fu Song'E's father-in-law."
+  },
+  {
+   "split": "test",
+   "id": "f1d1f07a0bdd11eba7f7acde48001122",
+   "claims": [
+    "Joan Of Navarre, Queen Of England\u7684\u6bcd\u4eb2."
+   ],
+   "raw": "Joan Of Navarre, Queen Of England\u7684\u6bcd\u4eb2."
+  },
+  {
+   "split": "test",
+   "id": "3007ec78085011ebbd56ac1f6bf848b6",
+   "claims": [
+    "The director of Crimes Of The Future.",
+    "The director of The Sex Of The Stars."
+   ],
+   "raw": "The director of Crimes Of The Future.\nThe director of The Sex Of The Stars."
+  },
+  {
+   "split": "test",
+   "id": "f2e143d80bda11eba7f7acde48001122",
+   "claims": [
+    "The nationality of the director for the film Code Blue."
+   ],
+   "raw": "The nationality of the director for the film Code Blue."
+  },
+  {
+   "split": "test",
+   "id": "c365fbe2095111ebbdaeac1f6bf848b6",
+   "claims": [
+    "The number of directors for the film F.B.I. Frog Butthead Investigators.",
+    "The number of directors for the film Invisible Strangler."
+   ],
+   "raw": "The number of directors for the film F.B.I. Frog Butthead Investigators.\nThe number of directors for the film Invisible Strangler."
+  },
+  {
+   "split": "test",
+   "id": "d376f0a80bdd11eba7f7acde48001122",
+   "claims": [
+    "The composer who wrote the film Supernova (2000 Film).",
+    "Where that composer studied."
+   ],
+   "raw": "The composer who wrote the film Supernova (2000 Film).\nWhere that composer studied."
+  },
+  {
+   "split": "test",
+   "id": "844db8ce0bdb11eba7f7acde48001122",
+   "claims": [
+    "The director of the film A Chrysanthemum Bursts In Cincoesquinas.",
+    "The place of birth of that director."
+   ],
+   "raw": "The director of the film A Chrysanthemum Bursts In Cincoesquinas.\nThe place of birth of that director."
+  },
+  {
+   "split": "test",
+   "id": "4ec7cb7c0bdb11eba7f7acde48001122",
+   "claims": [
+    "The composer of the 1953 film Salome."
+   ],
+   "raw": "The composer of the 1953 film Salome."
+  },
+  {
+   "split": "test",
+   "id": "3bf7693408df11ebbda0ac1f6bf848b6",
+   "claims": [
+    "The director who made Return Of The Ewok.",
+    "The director who made Rattle Of A Simple Man."
+   ],
+   "raw": "The director who made Return Of The Ewok.\nThe director who made Rattle Of A Simple Man."
+  },
+  {
+   "split": "test",
+   "id": "d3703f600bdd11eba7f7acde48001122",
+   "claims": [
+    "Dina Moscovitch's husband's name."
+   ],
+   "raw": "Dina Moscovitch's husband's name."
+  },
+  {
+   "split": "test",
+   "id": "48e6d06e086f11ebbd62ac1f6bf848b6",
+   "claims": [
+    "The director of Lost In The Stratosphere.",
+    "The director of Blind Man'S Eyes."
+   ],
+   "raw": "The director of Lost In The Stratosphere.\nThe director of Blind Man'S Eyes."
+  },
+  {
+   "split": "test",
+   "id": "79703b0808a611ebbd7fac1f6bf848b6",
+   "claims": [
+    "No facts provided.",
+    "The birth year of Frederick Howard Bryant.",
+    "The birth year of Hamad Al-Robai.",
+    "The current age difference between the two individuals."
+   ],
+   "raw": "No facts provided.  \nThe birth year of Frederick Howard Bryant.  \nThe birth year of Hamad Al-Robai.  \nThe current age difference between the two individuals."
+  },
+  {
+   "split": "test",
+   "id": "9b1655a108e511ebbda4ac1f6bf848b6",
+   "claims": [
+    "Country where \"Old Dog\" was produced.",
+    "Country where \"The Crimson Stain Mystery\" is set."
+   ],
+   "raw": "Country where \"Old Dog\" was produced.\nCountry where \"The Crimson Stain Mystery\" is set."
+  },
+  {
+   "split": "test",
+   "id": "29bf69d20bb011ebab90acde48001122",
+   "claims": [
+    "The stepmother of Sara Ali Khan."
+   ],
+   "raw": "The stepmother of Sara Ali Khan."
+  },
+  {
+   "split": "test",
+   "id": "bd45d8220baf11ebab90acde48001122",
+   "claims": [
+    "Prince Alexander Ferdinand Of Prussia's father.",
+    "The name of Prince Alexander Ferdinand Of Prussia's paternal grandmother."
+   ],
+   "raw": "Prince Alexander Ferdinand Of Prussia's father.\nThe name of Prince Alexander Ferdinand Of Prussia's paternal grandmother."
+  },
+  {
+   "split": "test",
+   "id": "42a0e6420bdd11eba7f7acde48001122",
+   "claims": [
+    "The director of the film The Devil (1921 Film)."
+   ],
+   "raw": "The director of the film The Devil (1921 Film)."
+  },
+  {
+   "split": "test",
+   "id": "19fcd6e4086b11ebbd5fac1f6bf848b6",
+   "claims": [
+    "The director who made A Cafe In Cairo.",
+    "The director who made War Drums."
+   ],
+   "raw": "The director who made A Cafe In Cairo.\nThe director who made War Drums."
+  },
+  {
+   "split": "test",
+   "id": "1b053aca0bdd11eba7f7acde48001122",
+   "claims": [
+    "Sebasti\u00e1n Marroqu\u00edn's father."
+   ],
+   "raw": "Sebasti\u00e1n Marroqu\u00edn's father."
+  },
+  {
+   "split": "test",
+   "id": "ef22b9d208b211ebbd85ac1f6bf848b6",
+   "claims": [
+    "Country where \"Love Is In The Hair\" originated.",
+    "Country where \"Harold & Kumar Escape From Guantanamo Bay\" originated."
+   ],
+   "raw": "Country where \"Love Is In The Hair\" originated.\nCountry where \"Harold & Kumar Escape From Guantanamo Bay\" originated."
+  }
+ ]
+}

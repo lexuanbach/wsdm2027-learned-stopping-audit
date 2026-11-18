@@ -1,0 +1,4605 @@
+{
+ "model": "qwen2.5:3b-instruct",
+ "prompt": "You decompose a multi-hop question into the facts that must be RETRIEVED before it can be answered. Never answer the question. Each line states what must be found and mentions an entity from the question. Output at most {k} lines, no numbering, no explanation.\n\nQuestion: Which magazine was started first, Arthur's Magazine or First for Women?\nFacts:\nThe year Arthur's Magazine was first published.\nThe year First for Women was first published.\n\nQuestion: The Oberoi family is part of a hotel company that has a head office in what city?\nFacts:\nThe hotel company the Oberoi family is part of.\nThe city where that hotel company has its head office.\n\nQuestion: {q}\nFacts:",
+ "max_claims": 4,
+ "llm_seed": 7,
+ "temperature": 0.0,
+ "n_claim_generation_calls": 520,
+ "rows": [
+  {
+   "split": "train",
+   "id": "5abb8ebe5542993f40c73b2d",
+   "claims": [
+    "Claudia Albertario appeared on a British made dance competition television series franchise."
+   ],
+   "raw": "Claudia Albertario appeared on a British made dance competition television series franchise."
+  },
+  {
+   "split": "train",
+   "id": "5abaee845542996606241696",
+   "claims": [
+    "A boxer named Tony Harrison lost an International Boxing Federation light middleweight world title on February 25, 2017.",
+    "The state where that boxer is from."
+   ],
+   "raw": "A boxer named Tony Harrison lost an International Boxing Federation light middleweight world title on February 25, 2017.\nThe state where that boxer is from."
+  },
+  {
+   "split": "train",
+   "id": "5a7bcd68554299294a54aaf0",
+   "claims": [
+    "The year Mark Steven Johnson was born.",
+    "The year Robert Thornby was born."
+   ],
+   "raw": "The year Mark Steven Johnson was born.\nThe year Robert Thornby was born."
+  },
+  {
+   "split": "train",
+   "id": "5a8ce851554299441c6b9f6c",
+   "claims": [
+    "The actor who plays Phileas Fogg in \"Around the World in 80 Days\".",
+    "The 1939 Goldwyn Productions film featuring that actor and Gary Cooper.",
+    "The author of the novel upon which the 1939 film was based."
+   ],
+   "raw": "The actor who plays Phileas Fogg in \"Around the World in 80 Days\".\nThe 1939 Goldwyn Productions film featuring that actor and Gary Cooper.\nThe author of the novel upon which the 1939 film was based."
+  },
+  {
+   "split": "train",
+   "id": "5a7c6b6655429935c91b519a",
+   "claims": [
+    "The governing body that governs Richford, Vermont."
+   ],
+   "raw": "The governing body that governs Richford, Vermont."
+  },
+  {
+   "split": "train",
+   "id": "5a832a625542990548d0b1b4",
+   "claims": [
+    "National Route A002 passes near an airport.",
+    "Largest airport in Greater Buenos Aires.",
+    "Location of the airport on National Route A002."
+   ],
+   "raw": "National Route A002 passes near an airport.\nLargest airport in Greater Buenos Aires.\nLocation of the airport on National Route A002."
+  },
+  {
+   "split": "train",
+   "id": "5ab1e76c554299449642c800",
+   "claims": [
+    "The year of the first worst hotel fire in modern US History.",
+    "The year of the second worst hotel fire in modern US History.",
+    "The year of the third worst hotel fire in modern US History."
+   ],
+   "raw": "The year of the first worst hotel fire in modern US History.\nThe year of the second worst hotel fire in modern US History.\nThe year of the third worst hotel fire in modern US History."
+  },
+  {
+   "split": "train",
+   "id": "5ae51fa25542992663a4f11f",
+   "claims": [
+    "Purdue University's professor of forest ecology from 1947 to 1973."
+   ],
+   "raw": "Purdue University's professor of forest ecology from 1947 to 1973."
+  },
+  {
+   "split": "train",
+   "id": "5a8fab8c5542995b4424208a",
+   "claims": [
+    "Nietzsche's philosophical novel title.",
+    "The composer who set Nietzsche's philosophical novel to music."
+   ],
+   "raw": "Nietzsche's philosophical novel title.\nThe composer who set Nietzsche's philosophical novel to music."
+  },
+  {
+   "split": "train",
+   "id": "5adf95745542995534e8c7f8",
+   "claims": [
+    "\u015aivar\u0101ma Swami conducts courses on Vaishnava Theology."
+   ],
+   "raw": "\u015aivar\u0101ma Swami conducts courses on Vaishnava Theology."
+  },
+  {
+   "split": "train",
+   "id": "5ade26db5542997c77aded77",
+   "claims": [
+    "Sawin Millett's role or connection to Bangor Daily News.",
+    "Media coverage or story involving Sawin Millett and Bangor Daily News."
+   ],
+   "raw": "Sawin Millett's role or connection to Bangor Daily News.\nMedia coverage or story involving Sawin Millett and Bangor Daily News."
+  },
+  {
+   "split": "train",
+   "id": "5abc8d75554299700f9d7900",
+   "claims": [
+    "The Irish Fine Gael politician who has served as Taoiseach and Minister for Defence.",
+    "Since 6 June 2017, The Leader of Fine Gael."
+   ],
+   "raw": "The Irish Fine Gael politician who has served as Taoiseach and Minister for Defence.\nSince 6 June 2017, The Leader of Fine Gael."
+  },
+  {
+   "split": "train",
+   "id": "5ae3d4345542992f92d82387",
+   "claims": [
+    "The group that included a girl born in 1987.",
+    "The year the group was formed.",
+    "The summer month when the group was formed."
+   ],
+   "raw": "The group that included a girl born in 1987.\nThe year the group was formed.\nThe summer month when the group was formed."
+  },
+  {
+   "split": "train",
+   "id": "5a7263e05542997f82783998",
+   "claims": [
+    "Medieval fortress being referred to.",
+    "Chapel located at the bottom of a hill."
+   ],
+   "raw": "Medieval fortress being referred to.\nChapel located at the bottom of a hill."
+  },
+  {
+   "split": "train",
+   "id": "5a7568805542992db9473658",
+   "claims": [
+    "The aviator who participated in the Transatlantic flight organized by Mussolini.",
+    "The heir apparent to Italian dictator Benito Mussolini.",
+    "The name of the aviator who participated."
+   ],
+   "raw": "The aviator who participated in the Transatlantic flight organized by Mussolini.\nThe heir apparent to Italian dictator Benito Mussolini.\nThe name of the aviator who participated."
+  },
+  {
+   "split": "train",
+   "id": "5a84b9c95542997b5ce3ff35",
+   "claims": [
+    "Cyaxares relationship to Astyages.",
+    "Astyages ruled for 53 years."
+   ],
+   "raw": "Cyaxares relationship to Astyages.\nAstyages ruled for 53 years."
+  },
+  {
+   "split": "train",
+   "id": "5a8f541e5542992414482a53",
+   "claims": [
+    "The singer of the song that held the record.",
+    "The title of the song that held the record."
+   ],
+   "raw": "The singer of the song that held the record.\nThe title of the song that held the record."
+  },
+  {
+   "split": "train",
+   "id": "5add95035542990dbb2f7e77",
+   "claims": [
+    "Cherie Currie's profession.",
+    "Steve Augeri's profession."
+   ],
+   "raw": "Cherie Currie's profession.\nSteve Augeri's profession."
+  },
+  {
+   "split": "train",
+   "id": "5a86f94a5542991e7718169e",
+   "claims": [
+    "An actress who appeared in A Patch of Blue.",
+    "A role played by that actress in A Patch of Blue.",
+    "A film titled A Patch of Blue."
+   ],
+   "raw": "An actress who appeared in A Patch of Blue.\nA role played by that actress in A Patch of Blue.\nA film titled A Patch of Blue."
+  },
+  {
+   "split": "train",
+   "id": "5a85b0c85542994c784ddb40",
+   "claims": [
+    "2017 Texas Tech Red Raiders baseball team.",
+    "Dan Law Field at Rip Griffin Park.",
+    "Institution they have in common."
+   ],
+   "raw": "2017 Texas Tech Red Raiders baseball team.\nDan Law Field at Rip Griffin Park.\nInstitution they have in common."
+  },
+  {
+   "split": "train",
+   "id": "5adfb698554299603e418385",
+   "claims": [
+    "The creator who originally serialized a manga series with a superheroine between 1994 and 1995.",
+    "The manga series that was originally serialized by that creator."
+   ],
+   "raw": "The creator who originally serialized a manga series with a superheroine between 1994 and 1995.\nThe manga series that was originally serialized by that creator."
+  },
+  {
+   "split": "train",
+   "id": "5a8d427f5542994ba4e3dc41",
+   "claims": [
+    "Erik Wickberg's role as a military leader.",
+    "The religious sect associated with the army he led."
+   ],
+   "raw": "Erik Wickberg's role as a military leader.\nThe religious sect associated with the army he led."
+  },
+  {
+   "split": "train",
+   "id": "5a7789195542995d831811a2",
+   "claims": [
+    "The person who recorded the song \"Jupiter (Swallow the Moon)\"."
+   ],
+   "raw": "The person who recorded the song \"Jupiter (Swallow the Moon)\"."
+  },
+  {
+   "split": "train",
+   "id": "5a773ae055429972597f14b0",
+   "claims": [
+    "The actress with the last name Saravanan who starred in the 2004 Tamil film Arul."
+   ],
+   "raw": "The actress with the last name Saravanan who starred in the 2004 Tamil film Arul."
+  },
+  {
+   "split": "train",
+   "id": "5a7f6eab5542992097ad2f66",
+   "claims": [
+    "The foundry operating in Putnam County, New York during the 19th century.",
+    "The specific name of that foundry."
+   ],
+   "raw": "The foundry operating in Putnam County, New York during the 19th century.\nThe specific name of that foundry."
+  },
+  {
+   "split": "train",
+   "id": "5add6b595542992200553b0c",
+   "claims": [
+    "The artist who created the artwork \"Shit\"."
+   ],
+   "raw": "The artist who created the artwork \"Shit\"."
+  },
+  {
+   "split": "train",
+   "id": "5adead1855429939a52fe948",
+   "claims": [
+    "The person who created the \"Planet Earth Rock and Roll Orchestra.\"",
+    "The record label for the \"Planet Earth Rock and Roll Orchestra\" album.",
+    "The date when that person passed away."
+   ],
+   "raw": "The person who created the \"Planet Earth Rock and Roll Orchestra.\"\nThe record label for the \"Planet Earth Rock and Roll Orchestra\" album.\nThe date when that person passed away."
+  },
+  {
+   "split": "train",
+   "id": "5ab2bc6b554299545a2cfa40",
+   "claims": [
+    "Pablo Jose Ozuna's cousin.",
+    "Dominican professional baseball left fielder."
+   ],
+   "raw": "Pablo Jose Ozuna's cousin.\nDominican professional baseball left fielder."
+  },
+  {
+   "split": "train",
+   "id": "5ade9545554299728e26c740",
+   "claims": [
+    "The recipient of the 2007 Brownlow Medal.",
+    "The team that the recipient of the 2007 Brownlow Medal played for."
+   ],
+   "raw": "The recipient of the 2007 Brownlow Medal.\nThe team that the recipient of the 2007 Brownlow Medal played for."
+  },
+  {
+   "split": "train",
+   "id": "5a7e08b55542997cc2c474fe",
+   "claims": [
+    "Current NHL team owners.",
+    "NHL team that won the Stanley Cup in 1992.",
+    "Player who played for that team in 1992."
+   ],
+   "raw": "Current NHL team owners.\nNHL team that won the Stanley Cup in 1992.\nPlayer who played for that team in 1992."
+  },
+  {
+   "split": "train",
+   "id": "5a8796f75542996e4f308865",
+   "claims": [
+    "The successor company to Standard Oil."
+   ],
+   "raw": "The successor company to Standard Oil."
+  },
+  {
+   "split": "train",
+   "id": "5a7a33a35542994f819ef14c",
+   "claims": [
+    "The female MSNBC journalist critiqued on the Daily Howler."
+   ],
+   "raw": "The female MSNBC journalist critiqued on the Daily Howler."
+  },
+  {
+   "split": "train",
+   "id": "5a7291c35542991f9a20c4f4",
+   "claims": [
+    "Harold Ramis directed movies that starred Bill Murray."
+   ],
+   "raw": "Harold Ramis directed movies that starred Bill Murray."
+  },
+  {
+   "split": "train",
+   "id": "5ab7f27e5542991d322237d6",
+   "claims": [
+    "Aughton Park railway station branch line within the Northern Line network.",
+    "Distance of Aughton Park railway station from Liverpool."
+   ],
+   "raw": "Aughton Park railway station branch line within the Northern Line network.\nDistance of Aughton Park railway station from Liverpool."
+  },
+  {
+   "split": "train",
+   "id": "5adc99cf554299438c868e0d",
+   "claims": [
+    "Louis Armstrong musical collaborations.",
+    "Singer who worked with Louis Armstrong in 1951.",
+    "Middle name of the singer who worked with Louis Armstrong."
+   ],
+   "raw": "Louis Armstrong musical collaborations.\nSinger who worked with Louis Armstrong in 1951.\nMiddle name of the singer who worked with Louis Armstrong."
+  },
+  {
+   "split": "train",
+   "id": "5a8645825542991e771815eb",
+   "claims": [
+    "The name given to Deckers Creek's western beginning."
+   ],
+   "raw": "The name given to Deckers Creek's western beginning."
+  },
+  {
+   "split": "train",
+   "id": "5ab431d855429942dd415ed2",
+   "claims": [
+    "The company with a headquarters in Whitley, Convernty, United Kingdom."
+   ],
+   "raw": "The company with a headquarters in Whitley, Convernty, United Kingdom."
+  },
+  {
+   "split": "train",
+   "id": "5a81dacc55429926c1cdada0",
+   "claims": [
+    "The author of the play that was adapted into a film featuring the orchestral arrangement Suite from Henry V."
+   ],
+   "raw": "The author of the play that was adapted into a film featuring the orchestral arrangement Suite from Henry V."
+  },
+  {
+   "split": "train",
+   "id": "5a7af23a55429931da12c994",
+   "claims": [
+    "Candace Flynn's voice actor.",
+    "Actress who achieved mainstream success on a show."
+   ],
+   "raw": "Candace Flynn's voice actor.\nActress who achieved mainstream success on a show."
+  },
+  {
+   "split": "train",
+   "id": "5abee75f5542993fe9a41d8e",
+   "claims": [
+    "Channel 8 broadcasts American sports series.",
+    "American sports series premiered in 1973."
+   ],
+   "raw": "Channel 8 broadcasts American sports series.\nAmerican sports series premiered in 1973."
+  },
+  {
+   "split": "train",
+   "id": "5adebbbd554299728e26c793",
+   "claims": [
+    "Northland Mall's opening date.",
+    "Other directionally-named shopping centers in Columbus.",
+    "Shopping center located at the intersection of US-40 and I-270."
+   ],
+   "raw": "Northland Mall's opening date.\nOther directionally-named shopping centers in Columbus.\nShopping center located at the intersection of US-40 and I-270."
+  },
+  {
+   "split": "train",
+   "id": "5a8a1a9c5542992d82986ebb",
+   "claims": [
+    "Ara Berberian's role in the opera.",
+    "An opera by Giuseppe Verdi."
+   ],
+   "raw": "Ara Berberian's role in the opera.\nAn opera by Giuseppe Verdi."
+  },
+  {
+   "split": "train",
+   "id": "5ade5b835542997c77adee10",
+   "claims": [
+    "Formerly named Grenier Army Air Field location."
+   ],
+   "raw": "Formerly named Grenier Army Air Field location."
+  },
+  {
+   "split": "train",
+   "id": "5a8900c75542997e5c09a6ed",
+   "claims": [
+    "What ingredient is in Cosmopolitan cocktail?",
+    "What ingredient is in Cuba Libre cocktail?"
+   ],
+   "raw": "What ingredient is in Cosmopolitan cocktail?\nWhat ingredient is in Cuba Libre cocktail?"
+  },
+  {
+   "split": "train",
+   "id": "5ab442645542991751b4d70c",
+   "claims": [
+    "Downtown Bentonville's location within Arkansas.",
+    "Population size of the state in the southeastern region of the United States as of 2017."
+   ],
+   "raw": "Downtown Bentonville's location within Arkansas.\nPopulation size of the state in the southeastern region of the United States as of 2017."
+  },
+  {
+   "split": "train",
+   "id": "5a90937955429933b8a20568",
+   "claims": [
+    "The father of Manning Marius Kimmel.",
+    "The year Manning Marius Kimmel's father retired from the Navy."
+   ],
+   "raw": "The father of Manning Marius Kimmel.\nThe year Manning Marius Kimmel's father retired from the Navy."
+  },
+  {
+   "split": "train",
+   "id": "5ac537975542996feb3fea3c",
+   "claims": [
+    "Walt Zeboski who took photographs during the 1980 presidential campaign.",
+    "The 40th President of the United States during the 1980 election.",
+    "The year the 40th President was elected."
+   ],
+   "raw": "Walt Zeboski who took photographs during the 1980 presidential campaign.\nThe 40th President of the United States during the 1980 election.\nThe year the 40th President was elected."
+  },
+  {
+   "split": "train",
+   "id": "5ac5391e5542994611c8b439",
+   "claims": [
+    "Sal de Mi Piel is a song.",
+    "The nationality of the actress who sang Sal de Mi Piel."
+   ],
+   "raw": "Sal de Mi Piel is a song.\nThe nationality of the actress who sang Sal de Mi Piel."
+  },
+  {
+   "split": "train",
+   "id": "5abd578a5542993062266c5d",
+   "claims": [
+    "W. H. Shipman House location information.",
+    "Hawaii county where the W. H. Shipman House is located."
+   ],
+   "raw": "W. H. Shipman House location information.\nHawaii county where the W. H. Shipman House is located."
+  },
+  {
+   "split": "train",
+   "id": "5a7b23d355429931da12c9f1",
+   "claims": [
+    "Eric Gaffney's discography.",
+    "Pearl Jam's formation year."
+   ],
+   "raw": "Eric Gaffney's discography.\nPearl Jam's formation year."
+  },
+  {
+   "split": "train",
+   "id": "5ab66a3555429954757d3290",
+   "claims": [
+    "The player who scored goals in the 2006 KNVB Cup Final."
+   ],
+   "raw": "The player who scored goals in the 2006 KNVB Cup Final."
+  },
+  {
+   "split": "train",
+   "id": "5a8389445542996488c2e450",
+   "claims": [
+    "Length of Hampshire and Hampden Canal.",
+    "Length of Tennessee\u2013Tombigbee Waterway."
+   ],
+   "raw": "Length of Hampshire and Hampden Canal.\nLength of Tennessee\u2013Tombigbee Waterway."
+  },
+  {
+   "split": "train",
+   "id": "5adfd56655429925eb1afaac",
+   "claims": [
+    "The disc jockey notable for using \"A Touch of Velvet, A Sting of Brass.\"",
+    "The birth name of that disc jockey."
+   ],
+   "raw": "The disc jockey notable for using \"A Touch of Velvet, A Sting of Brass.\"\nThe birth name of that disc jockey."
+  },
+  {
+   "split": "train",
+   "id": "5a867089554299211dda2b30",
+   "claims": [
+    "The frequency with which Shonen Jump is published.",
+    "The frequency with which Rolling Stone is published."
+   ],
+   "raw": "The frequency with which Shonen Jump is published.\nThe frequency with which Rolling Stone is published."
+  },
+  {
+   "split": "train",
+   "id": "5adfc8f45542992d7e9f93d0",
+   "claims": [
+    "Guy Garvey's previous band.",
+    "Joe Duddell worked with that band."
+   ],
+   "raw": "Guy Garvey's previous band.\nJoe Duddell worked with that band."
+  },
+  {
+   "split": "train",
+   "id": "5ae5c7fd554299546bf82f5b",
+   "claims": [
+    "Bailee Madison notable works including the 2011 film.",
+    "Dennis Dugan directed the 2011 American Romantic comedy film.",
+    "Allan Loeb wrote the 2011 American Romantic comedy film with someone else."
+   ],
+   "raw": "Bailee Madison notable works including the 2011 film.\nDennis Dugan directed the 2011 American Romantic comedy film.\nAllan Loeb wrote the 2011 American Romantic comedy film with someone else."
+  },
+  {
+   "split": "train",
+   "id": "5abcfc365542993a06baf9d6",
+   "claims": [
+    "CBS series that starred the actor known for \"Rebel Without a Cause.\"",
+    "Actor known for \"Rebel Without a Cause.\""
+   ],
+   "raw": "CBS series that starred the actor known for \"Rebel Without a Cause.\"\nActor known for \"Rebel Without a Cause.\""
+  },
+  {
+   "split": "train",
+   "id": "5ae5df84554299546bf82fa8",
+   "claims": [
+    "Operation Julian took place."
+   ],
+   "raw": "Operation Julian took place."
+  },
+  {
+   "split": "train",
+   "id": "5a73b0975542992d56e7e387",
+   "claims": [
+    "BB postcode area includes.",
+    "Market towns in Lancashire.",
+    "Specific market town in Lancashire that is part of the specified BB postcode area."
+   ],
+   "raw": "BB postcode area includes.\nMarket towns in Lancashire.\nSpecific market town in Lancashire that is part of the specified BB postcode area."
+  },
+  {
+   "split": "train",
+   "id": "5a73090455429901807daf6e",
+   "claims": [
+    "Vocelli Pizza and Noble Roman's restaurant type."
+   ],
+   "raw": "Vocelli Pizza and Noble Roman's restaurant type."
+  },
+  {
+   "split": "train",
+   "id": "5ade64c7554299728e26c710",
+   "claims": [
+    "Northeast Florida Regional Airport's location relative to St. Augustine.",
+    "Glacier Park International Airport's location.",
+    "Kalispell's location relative to Glacier Park International Airport."
+   ],
+   "raw": "Northeast Florida Regional Airport's location relative to St. Augustine.\nGlacier Park International Airport's location.\nKalispell's location relative to Glacier Park International Airport."
+  },
+  {
+   "split": "train",
+   "id": "5a737ef85542992d56e7e336",
+   "claims": [
+    "British rock band who released Brothers in Arms in 1985."
+   ],
+   "raw": "British rock band who released Brothers in Arms in 1985."
+  },
+  {
+   "split": "train",
+   "id": "5abd0803554299700f9d7979",
+   "claims": [
+    "Italian violinist, guitarist, and composer who composed Caprice No. 5.",
+    "Most celebrated violin virtuoso of his time this Italian musician was."
+   ],
+   "raw": "Italian violinist, guitarist, and composer who composed Caprice No. 5.\nMost celebrated violin virtuoso of his time this Italian musician was."
+  },
+  {
+   "split": "train",
+   "id": "5a82c51055429966c78a6a8d",
+   "claims": [
+    "Recording sessions for Michael Jackson's \"Beat It\"."
+   ],
+   "raw": "Recording sessions for Michael Jackson's \"Beat It\"."
+  },
+  {
+   "split": "train",
+   "id": "5a7c6fde55429907fabeef87",
+   "claims": [
+    "WWE Super Tuesday event details.",
+    "Arena where WWE Super Tuesday was held.",
+    "Current name of the venue."
+   ],
+   "raw": "WWE Super Tuesday event details.\nArena where WWE Super Tuesday was held.\nCurrent name of the venue."
+  },
+  {
+   "split": "train",
+   "id": "5abebbe65542997719eab59d",
+   "claims": [
+    "Birthdate of this American comedian, actress, and writer.",
+    "This person was a supporting cast remember in Brooklyn Nine-Nine as Gina."
+   ],
+   "raw": "Birthdate of this American comedian, actress, and writer.\nThis person was a supporting cast remember in Brooklyn Nine-Nine as Gina."
+  },
+  {
+   "split": "train",
+   "id": "5a7a1f795542996c55b2dd1b",
+   "claims": [
+    "The store today owned by the State of Qatar."
+   ],
+   "raw": "The store today owned by the State of Qatar."
+  },
+  {
+   "split": "train",
+   "id": "5add98985542990dbb2f7e82",
+   "claims": [
+    "The man who published an individualist anarchist journal."
+   ],
+   "raw": "The man who published an individualist anarchist journal."
+  },
+  {
+   "split": "train",
+   "id": "5ab724b45542991d32223785",
+   "claims": [
+    "Moss Side railway station details.",
+    "Blackpool South railway station details.",
+    "Distance between Moss Side and Waterloo Road tram stop."
+   ],
+   "raw": "Moss Side railway station details.\nBlackpool South railway station details.\nDistance between Moss Side and Waterloo Road tram stop."
+  },
+  {
+   "split": "train",
+   "id": "5a859a0c5542992a431d1b69",
+   "claims": [
+    "Icehouse pieces origin.",
+    "El Grande origin."
+   ],
+   "raw": "Icehouse pieces origin.\nEl Grande origin."
+  },
+  {
+   "split": "train",
+   "id": "5ac3c264554299204fd21e37",
+   "claims": [
+    "The neighborhood known as the black Wall Street."
+   ],
+   "raw": "The neighborhood known as the black Wall Street."
+  },
+  {
+   "split": "train",
+   "id": "5a89a99f55429946c8d6e98f",
+   "claims": [
+    "Jerome Storm's place of origin.",
+    "Andr\u00e9s Wood's place of origin."
+   ],
+   "raw": "Jerome Storm's place of origin.\nAndr\u00e9s Wood's place of origin."
+  },
+  {
+   "split": "train",
+   "id": "5ae66d515542992ae0d16346",
+   "claims": [
+    "The singer who popularized \"I'll Keep the Lovelight Burning\"."
+   ],
+   "raw": "The singer who popularized \"I'll Keep the Lovelight Burning\"."
+  },
+  {
+   "split": "train",
+   "id": "5abff00c5542994516f45537",
+   "claims": [
+    "The film genre of Baghdad ER.",
+    "The film genre of Olympia."
+   ],
+   "raw": "The film genre of Baghdad ER.\nThe film genre of Olympia."
+  },
+  {
+   "split": "train",
+   "id": "5a76a8bb5542993569682c76",
+   "claims": [
+    "Gildo Siopaes won a bronze medal for bobsleigh."
+   ],
+   "raw": "Gildo Siopaes won a bronze medal for bobsleigh."
+  },
+  {
+   "split": "train",
+   "id": "5ab2e3a15542992953946893",
+   "claims": [
+    "The state where the author of \"The New American Story\" served as a US Senator."
+   ],
+   "raw": "The state where the author of \"The New American Story\" served as a US Senator."
+  },
+  {
+   "split": "train",
+   "id": "5adf5c175542995ec70e8fd0",
+   "claims": [
+    "Company headquartered in Whitley, Coventry, United Kingdom.",
+    "Production plans for the company starting in Nitra in 2018."
+   ],
+   "raw": "Company headquartered in Whitley, Coventry, United Kingdom.\nProduction plans for the company starting in Nitra in 2018."
+  },
+  {
+   "split": "train",
+   "id": "5ab2e84855429929539468a6",
+   "claims": [
+    "The state in which Kessler v. Treat took place.",
+    "The dissenting party in Kessler v. Treat."
+   ],
+   "raw": "The state in which Kessler v. Treat took place.\nThe dissenting party in Kessler v. Treat."
+  },
+  {
+   "split": "train",
+   "id": "5ab55a9b5542992aa134a2ba",
+   "claims": [
+    "Legends of the Fall novella.",
+    "Poetry and fiction writer wrote the novella."
+   ],
+   "raw": "Legends of the Fall novella.\nPoetry and fiction writer wrote the novella."
+  },
+  {
+   "split": "train",
+   "id": "5ac11201554299294b21908c",
+   "claims": [
+    "Ron Teachworth's county of origin."
+   ],
+   "raw": "Ron Teachworth's county of origin."
+  },
+  {
+   "split": "train",
+   "id": "5abffafe5542997d64295988",
+   "claims": [
+    "Nick Jr Too's launch date.",
+    "Rival channel created by Turner Broadcasting.",
+    "Sister station of Cartoon Network."
+   ],
+   "raw": "Nick Jr Too's launch date.\nRival channel created by Turner Broadcasting.\nSister station of Cartoon Network."
+  },
+  {
+   "split": "train",
+   "id": "5abc7d6d5542993a06baf8f3",
+   "claims": [
+    "Kevin Yorn's representation.",
+    "Australian actor who played the role of Josh Taylor.",
+    "Name of the soap opera."
+   ],
+   "raw": "Kevin Yorn's representation.\nAustralian actor who played the role of Josh Taylor.\nName of the soap opera."
+  },
+  {
+   "split": "train",
+   "id": "5ac458f8554299204fd21f2a",
+   "claims": [
+    "Yeshahework Yilma's mother name.",
+    "The man who was Ethiopia's emperor from 1930 to 1974."
+   ],
+   "raw": "Yeshahework Yilma's mother name.\nThe man who was Ethiopia's emperor from 1930 to 1974."
+  },
+  {
+   "split": "train",
+   "id": "5ae382ee5542992e3233c430",
+   "claims": [
+    "Carl von Clausewitz's association with realism."
+   ],
+   "raw": "Carl von Clausewitz's association with realism."
+  },
+  {
+   "split": "train",
+   "id": "5a8672e4554299211dda2b39",
+   "claims": [
+    "iPhone model completely developed by Apple CEO born in 1960."
+   ],
+   "raw": "iPhone model completely developed by Apple CEO born in 1960."
+  },
+  {
+   "split": "train",
+   "id": "5a8781b65542993e715abf8f",
+   "claims": [
+    "David O. Russell's place of birth.",
+    "Tony Gatlif's place of birth."
+   ],
+   "raw": "David O. Russell's place of birth.\nTony Gatlif's place of birth."
+  },
+  {
+   "split": "train",
+   "id": "5adc2f53554299438c868d6d",
+   "claims": [
+    "The year Triumph of the Will was made.",
+    "The year The End of America was made."
+   ],
+   "raw": "The year Triumph of the Will was made.\nThe year The End of America was made."
+  },
+  {
+   "split": "train",
+   "id": "5ab6c1da554299710c8d1f4c",
+   "claims": [
+    "Matt's (Matti) Wiktor Hoikka was a blacksmith and politician."
+   ],
+   "raw": "Matt's (Matti) Wiktor Hoikka was a blacksmith and politician."
+  },
+  {
+   "split": "train",
+   "id": "5a8d263f554299653c1aa139",
+   "claims": [
+    "The band that sang Gives You Hell formed."
+   ],
+   "raw": "The band that sang Gives You Hell formed."
+  },
+  {
+   "split": "train",
+   "id": "5a79d2fe5542994f819ef0c3",
+   "claims": [
+    "Aleksandr Ivanovsky's birth year.",
+    "Arthur Lubin's birth year."
+   ],
+   "raw": "Aleksandr Ivanovsky's birth year.\nArthur Lubin's birth year."
+  },
+  {
+   "split": "train",
+   "id": "5a7228f655429971e9dc9312",
+   "claims": [
+    "John Ehrlichman wrote a novel about the CIA.",
+    "The novel had a key theme related to the Watergate scandal."
+   ],
+   "raw": "John Ehrlichman wrote a novel about the CIA.\nThe novel had a key theme related to the Watergate scandal."
+  },
+  {
+   "split": "train",
+   "id": "5a7aa5e75542992d025e66d9",
+   "claims": [
+    "Ho Iat Seng's current membership in a legislative assembly.",
+    "Number of members in the legislative assembly."
+   ],
+   "raw": "Ho Iat Seng's current membership in a legislative assembly.\nNumber of members in the legislative assembly."
+  },
+  {
+   "split": "train",
+   "id": "5a8bc1b85542997f31a41db8",
+   "claims": [
+    "Milium geographical distribution information.",
+    "Eucommia geographical distribution information."
+   ],
+   "raw": "Milium geographical distribution information.\nEucommia geographical distribution information."
+  },
+  {
+   "split": "train",
+   "id": "5ae234385542992decbdcc59",
+   "claims": [
+    "The year the Spengler Cup was held in 1992.",
+    "The professional Swiss ice hockey club that hosted all matches in 1992."
+   ],
+   "raw": "The year the Spengler Cup was held in 1992.\nThe professional Swiss ice hockey club that hosted all matches in 1992."
+  },
+  {
+   "split": "train",
+   "id": "5a737dc455429908901be2c9",
+   "claims": [
+    "The multi-use sports and recreation facility housing Dynamo Kyiv."
+   ],
+   "raw": "The multi-use sports and recreation facility housing Dynamo Kyiv."
+  },
+  {
+   "split": "train",
+   "id": "5adc393f5542996e685252e7",
+   "claims": [
+    "Maher Sabry's occupation.",
+    "Til Schweiger's occupation."
+   ],
+   "raw": "Maher Sabry's occupation.\nTil Schweiger's occupation."
+  },
+  {
+   "split": "train",
+   "id": "5a8704f8554299211dda2ba4",
+   "claims": [
+    "Isles led by Aonghus M\u00f3r."
+   ],
+   "raw": "Isles led by Aonghus M\u00f3r."
+  },
+  {
+   "split": "train",
+   "id": "5a81b99c5542995ce29dcc56",
+   "claims": [
+    "Atlas Shrugged was written as a book, not a film. (No entity mentioned from the question.)",
+    "The person who wrote Atlas Shrugged and their philosophical stance."
+   ],
+   "raw": "Atlas Shrugged was written as a book, not a film. (No entity mentioned from the question.)\n\nThe person who wrote Atlas Shrugged and their philosophical stance."
+  },
+  {
+   "split": "train",
+   "id": "5a8c5bff554299240d9c2139",
+   "claims": [
+    "Number of members in the conference represented by Michigan State Spartans in the 1993 Liberty Bowl.",
+    "Michigan State Spartans belong to."
+   ],
+   "raw": "Number of members in the conference represented by Michigan State Spartans in the 1993 Liberty Bowl.\nMichigan State Spartans belong to."
+  },
+  {
+   "split": "train",
+   "id": "5adf81105542992d7e9f9388",
+   "claims": [
+    "The name of the neighborhood where 359 Broadway is located.",
+    "The history or naming tradition of the neighbourhood."
+   ],
+   "raw": "The name of the neighborhood where 359 Broadway is located.\nThe history or naming tradition of the neighbourhood."
+  },
+  {
+   "split": "train",
+   "id": "5a79dae35542994f819ef0d3",
+   "claims": [
+    "Bass Rock location in Scotland."
+   ],
+   "raw": "Bass Rock location in Scotland."
+  },
+  {
+   "split": "train",
+   "id": "5ae0ba15554299603e41844d",
+   "claims": [
+    "The plant with about 40 species native to Asia."
+   ],
+   "raw": "Facts:\nThe plant with about 40 species native to Asia."
+  },
+  {
+   "split": "train",
+   "id": "5a8be7735542997f31a41df2",
+   "claims": [
+    "The team that drafted Derrick Hamilton in 2004.",
+    "The conference the team belongs to."
+   ],
+   "raw": "The team that drafted Derrick Hamilton in 2004.\nThe conference the team belongs to."
+  },
+  {
+   "split": "train",
+   "id": "5a81ca835542990a1d231ebd",
+   "claims": [
+    "The band/group that covered \"Leather-Winged Bat\" in 1969."
+   ],
+   "raw": "The band/group that covered \"Leather-Winged Bat\" in 1969."
+  },
+  {
+   "split": "train",
+   "id": "5ac4f2235542996feb3fe995",
+   "claims": [
+    "Darleen Carr's elder sister.",
+    "Best known role of the Von Trapp daughter."
+   ],
+   "raw": "Darleen Carr's elder sister.\nBest known role of the Von Trapp daughter."
+  },
+  {
+   "split": "train",
+   "id": "5aba9813554299232ef4a357",
+   "claims": [
+    "Yuen Woo-ping is a choreographer.",
+    "Basil Dean is a choreographer."
+   ],
+   "raw": "Yuen Woo-ping is a choreographer.\nBasil Dean is a choreographer."
+  },
+  {
+   "split": "train",
+   "id": "5a7557d75542992d0ec05f68",
+   "claims": [
+    "The \"Roseanne\" star who appeared in Scream 2."
+   ],
+   "raw": "The \"Roseanne\" star who appeared in Scream 2."
+  },
+  {
+   "split": "train",
+   "id": "5adcc7515542994ed6169bff",
+   "claims": [
+    "Akademik Lomonosov was named after.",
+    "A Russian polymath, scientist, and writer."
+   ],
+   "raw": "Akademik Lomonosov was named after.\nA Russian polymath, scientist, and writer."
+  },
+  {
+   "split": "train",
+   "id": "5add813e5542992200553b46",
+   "claims": [
+    "Eddie Jemison's role in the television series \"IZombie\".",
+    "Date when the television series \"IZombie\" premiered."
+   ],
+   "raw": "Eddie Jemison's role in the television series \"IZombie\".\nDate when the television series \"IZombie\" premiered."
+  },
+  {
+   "split": "train",
+   "id": "5a8b465855429949d91db522",
+   "claims": [
+    "Jennifer Kent's directorial debut film title."
+   ],
+   "raw": "Jennifer Kent's directorial debut film title."
+  },
+  {
+   "split": "train",
+   "id": "5ab30ebf554299753aec592c",
+   "claims": [
+    "Rebecca Gibney's filmography.",
+    "Kate Winslet's filmography."
+   ],
+   "raw": "Rebecca Gibney's filmography.\nKate Winslet's filmography."
+  },
+  {
+   "split": "train",
+   "id": "5a8763475542996e4f3087c0",
+   "claims": [
+    "The championship Simon Pagenaud substituted for in 2017.",
+    "The driver who replaced Simon Pagenaud in 2017.",
+    "The racing championship secured by that driver in 2017."
+   ],
+   "raw": "The championship Simon Pagenaud substituted for in 2017.\nThe driver who replaced Simon Pagenaud in 2017.\nThe racing championship secured by that driver in 2017."
+  },
+  {
+   "split": "train",
+   "id": "5a80956e5542996402f6a579",
+   "claims": [
+    "The proper name of the husband of Lollia Paullina."
+   ],
+   "raw": "The proper name of the husband of Lollia Paullina."
+  },
+  {
+   "split": "train",
+   "id": "5a73266d5542994cef4bc47d",
+   "claims": [
+    "Who opened Gunnersby Park.",
+    "What was the name of the agreement signed in the Munich Agreement."
+   ],
+   "raw": "Who opened Gunnersby Park.  \nWhat was the name of the agreement signed in the Munich Agreement."
+  },
+  {
+   "split": "train",
+   "id": "5a7294b65542991f9a20c509",
+   "claims": [
+    "The upcoming horror film adaptation.",
+    "The name of the movie.",
+    "The actress starring in the upcoming horror film.",
+    "Melanie Griffiths's daughter."
+   ],
+   "raw": "The upcoming horror film adaptation.\nThe name of the movie.\nThe actress starring in the upcoming horror film.\nMelanie Griffiths's daughter."
+  },
+  {
+   "split": "train",
+   "id": "5ab811e95542995dae37ea22",
+   "claims": [
+    "The American singer, songwriter and record producer.",
+    "The single \"Marvin Gaye\" featuring Julie Frost."
+   ],
+   "raw": "The American singer, songwriter and record producer.\nThe single \"Marvin Gaye\" featuring Julie Frost."
+  },
+  {
+   "split": "train",
+   "id": "5a876f785542993e715abf42",
+   "claims": [
+    "William Blake Herron's roles in the movie industry.",
+    "John Carpenter's roles in the movie industry."
+   ],
+   "raw": "William Blake Herron's roles in the movie industry.\nJohn Carpenter's roles in the movie industry."
+  },
+  {
+   "split": "train",
+   "id": "5ab9aab555429970cfb8eb65",
+   "claims": [
+    "The largest publicly owned company in Minnesota.",
+    "Minnesota's most populous county."
+   ],
+   "raw": "The largest publicly owned company in Minnesota.\nMinnesota's most populous county."
+  },
+  {
+   "split": "train",
+   "id": "5ac131575542994d76dccdb6",
+   "claims": [
+    "The prize being referred to.",
+    "The player who received the prize along with the recipient.",
+    "Chinese club Tianjin Quanjian.",
+    "The recipient's name or identifier."
+   ],
+   "raw": "The prize being referred to.\nThe player who received the prize along with the recipient.\nChinese club Tianjin Quanjian.\nThe recipient's name or identifier."
+  },
+  {
+   "split": "train",
+   "id": "5a76fe7b5542994aec3b71b2",
+   "claims": [
+    "Eric Stark Maskin was associated with a university.",
+    "The location of that university."
+   ],
+   "raw": "Eric Stark Maskin was associated with a university.\nThe location of that university."
+  },
+  {
+   "split": "test",
+   "id": "5a874e9b554299211dda2bd3",
+   "claims": [
+    "First Lady to be born outside the United States or areas that would become part of the United States.",
+    "Before marrying, what did this person do?"
+   ],
+   "raw": "First Lady to be born outside the United States or areas that would become part of the United States.\nBefore marrying, what did this person do?"
+  },
+  {
+   "split": "test",
+   "id": "5ab8420555429919ba4e2290",
+   "claims": [
+    "The main division of Christendom objected to by the Ranters."
+   ],
+   "raw": "The main division of Christendom objected to by the Ranters."
+  },
+  {
+   "split": "test",
+   "id": "5ade595e5542992fa25da761",
+   "claims": [
+    "The actress who portrayed C. C. Babcock on \"The Nanny.\"",
+    "The actor who portrayed Punk #1 in \"Interface.\""
+   ],
+   "raw": "The actress who portrayed C. C. Babcock on \"The Nanny.\"\nThe actor who portrayed Punk #1 in \"Interface.\""
+  },
+  {
+   "split": "test",
+   "id": "5a8a39b355429930ff3c0d13",
+   "claims": [
+    "Liza Weil's character name in a TV series.",
+    "Who created the TV series."
+   ],
+   "raw": "Liza Weil's character name in a TV series.\nWho created the TV series."
+  },
+  {
+   "split": "test",
+   "id": "5a81fa59554299676cceb1b0",
+   "claims": [
+    "Jonah Meyerson's profession.",
+    "Alison Pill's profession."
+   ],
+   "raw": "Jonah Meyerson's profession.\nAlison Pill's profession."
+  },
+  {
+   "split": "test",
+   "id": "5abed7d75542990832d3a0f7",
+   "claims": [
+    "SR connector is based on."
+   ],
+   "raw": "SR connector is based on."
+  },
+  {
+   "split": "test",
+   "id": "5ac415445542995c82c4acb7",
+   "claims": [
+    "The actor who played Amelia Vanek in the film adaptation of Monster."
+   ],
+   "raw": "The actor who played Amelia Vanek in the film adaptation of Monster."
+  },
+  {
+   "split": "test",
+   "id": "5ae33fa95542990afbd1e0f2",
+   "claims": [
+    "Minersville School District v. Gobitis decision year.",
+    "Gravel v. United States decision year."
+   ],
+   "raw": "Minersville School District v. Gobitis decision year.\nGravel v. United States decision year."
+  },
+  {
+   "split": "test",
+   "id": "5a835a7b554299123d8c20fc",
+   "claims": [
+    "The year Right On! was first published.",
+    "The year Castle of Frankenstein was first published."
+   ],
+   "raw": "The year Right On! was first published.\nThe year Castle of Frankenstein was first published."
+  },
+  {
+   "split": "test",
+   "id": "5a7c827e55429907fabeefa7",
+   "claims": [
+    "The conference the 2011 Tennessee Tech Golden Eagles football team was part of.",
+    "The number of teams competing in that conference's football division."
+   ],
+   "raw": "The conference the 2011 Tennessee Tech Golden Eagles football team was part of.\nThe number of teams competing in that conference's football division."
+  },
+  {
+   "split": "test",
+   "id": "5ae7e1fc55429952e35ea9cc",
+   "claims": [
+    "Color clothing worn during Oranjegekte in the Netherlands.",
+    "Month Oranjegekte is celebrated in the Netherlands.",
+    "Day Koningsdag falls on in the Dutch calendar."
+   ],
+   "raw": "Color clothing worn during Oranjegekte in the Netherlands.\nMonth Oranjegekte is celebrated in the Netherlands.\nDay Koningsdag falls on in the Dutch calendar."
+  },
+  {
+   "split": "test",
+   "id": "5abd5b0355429933744ab789",
+   "claims": [
+    "The road in Westminster, London, associated with the Beatles.",
+    "Westminster road associated with a band similar to Booker T. & the M.G.s."
+   ],
+   "raw": "The road in Westminster, London, associated with the Beatles.\nWestminster road associated with a band similar to Booker T. & the M.G.s."
+  },
+  {
+   "split": "test",
+   "id": "5ae6f1675542991bbc9761a1",
+   "claims": [
+    "British music producer notable for working with an English electronic band.",
+    "Founders of the English electronic band: Dave Gahan, Martin Gore, and Andy Fletcher."
+   ],
+   "raw": "British music producer notable for working with an English electronic band.\nFounders of the English electronic band: Dave Gahan, Martin Gore, and Andy Fletcher."
+  },
+  {
+   "split": "test",
+   "id": "5ae0850055429945ae959396",
+   "claims": [
+    "The birth year of Andrew Preston.",
+    "The birth year of James Taylor."
+   ],
+   "raw": "The birth year of Andrew Preston.\nThe birth year of James Taylor."
+  },
+  {
+   "split": "test",
+   "id": "5ab3952e5542992ade7c6de8",
+   "claims": [
+    "The day of the week when the eleventh season's finale of American Dad aired."
+   ],
+   "raw": "The day of the week when the eleventh season's finale of American Dad aired."
+  },
+  {
+   "split": "test",
+   "id": "5a8fa20555429918e830d298",
+   "claims": [
+    "The organization whose first Grand Wizard was convicted for the 1966 murder of Vernon Dahmer.",
+    "The year the organization's first Grand Wizard was convicted.",
+    "The number of active members in that organization in 1967."
+   ],
+   "raw": "The organization whose first Grand Wizard was convicted for the 1966 murder of Vernon Dahmer.\nThe year the organization's first Grand Wizard was convicted.\nThe number of active members in that organization in 1967."
+  },
+  {
+   "split": "test",
+   "id": "5a8a231a55429930ff3c0cb4",
+   "claims": [
+    "Kasimir Bileski's location (Canadian province).",
+    "Two US states bordering the Canadian province."
+   ],
+   "raw": "Kasimir Bileski's location (Canadian province).\nTwo US states bordering the Canadian province."
+  },
+  {
+   "split": "test",
+   "id": "5adf4da15542995534e8c780",
+   "claims": [
+    "Philip Cortez political affiliation.",
+    "Julian Castro political affiliation."
+   ],
+   "raw": "Philip Cortez political affiliation.\nJulian Castro political affiliation."
+  },
+  {
+   "split": "test",
+   "id": "5a827e8455429940e5e1a8dd",
+   "claims": [
+    "Les Patterson Saves the World actor.",
+    "Author of the autobiography."
+   ],
+   "raw": "Les Patterson Saves the World actor.\nAuthor of the autobiography."
+  },
+  {
+   "split": "test",
+   "id": "5ae4d3c95542990ba0bbb165",
+   "claims": [
+    "City where the Nusretiye Clock Tower can be found.",
+    "City where the Eski Imaret Mosque can be found."
+   ],
+   "raw": "City where the Nusretiye Clock Tower can be found.\nCity where the Eski Imaret Mosque can be found."
+  },
+  {
+   "split": "test",
+   "id": "5ac44629554299194317395d",
+   "claims": [
+    "Michael J. Hunter's predecessor as the administrator.",
+    "Name of the agency concerned."
+   ],
+   "raw": "Michael J. Hunter's predecessor as the administrator.\nName of the agency concerned."
+  },
+  {
+   "split": "test",
+   "id": "5ae655845542991bbc9760c3",
+   "claims": [
+    "An American physicist who coined the term \"soft energy path.\"",
+    "Today he is chairman and chief scientist of."
+   ],
+   "raw": "An American physicist who coined the term \"soft energy path.\"\nToday he is chairman and chief scientist of."
+  },
+  {
+   "split": "test",
+   "id": "5ac1089f554299012d1db688",
+   "claims": [
+    "Shengzhou's historical name changes record.",
+    "Linchuan District's historical name changes record."
+   ],
+   "raw": "Shengzhou's historical name changes record.\nLinchuan District's historical name changes record."
+  },
+  {
+   "split": "test",
+   "id": "5ae3b30f5542994393b9e74f",
+   "claims": [
+    "Droga5's clients in the fashion industry.",
+    "The other fashion designer founded by the mentioned American fashion designer."
+   ],
+   "raw": "Droga5's clients in the fashion industry.\nThe other fashion designer founded by the mentioned American fashion designer."
+  },
+  {
+   "split": "test",
+   "id": "5ae0247955429925eb1afc22",
+   "claims": [
+    "Character Xavin first appeared in a comic series.",
+    "Comic series featuring character Xavin."
+   ],
+   "raw": "Character Xavin first appeared in a comic series.\nComic series featuring character Xavin."
+  },
+  {
+   "split": "test",
+   "id": "5a8501915542997175ce1f5a",
+   "claims": [
+    "PC Magazine is a technology publication.",
+    "Sculptural Pursuit is not known for being a technology publication."
+   ],
+   "raw": "PC Magazine is a technology publication.\nSculptural Pursuit is not known for being a technology publication."
+  },
+  {
+   "split": "test",
+   "id": "5ae063085542993d6555eb37",
+   "claims": [
+    "Jennifer Ventimilia co-wrote a teleplay for The Simpsons."
+   ],
+   "raw": "Jennifer Ventimilia co-wrote a teleplay for The Simpsons."
+  },
+  {
+   "split": "test",
+   "id": "5adbd1d25542994650320bf6",
+   "claims": [
+    "Former partner in ice skating of Vladimir Fedorov.",
+    "Current job of the mentioned person."
+   ],
+   "raw": "Former partner in ice skating of Vladimir Fedorov.\nCurrent job of the mentioned person."
+  },
+  {
+   "split": "test",
+   "id": "5a7a8d2355429941d65f26a1",
+   "claims": [
+    "Zacar\u00edas Ferreira's nephew in professional basketball.",
+    "College basketball team the nephew played for."
+   ],
+   "raw": "Zacar\u00edas Ferreira's nephew in professional basketball.\nCollege basketball team the nephew played for."
+  },
+  {
+   "split": "test",
+   "id": "5a839c8b5542996488c2e479",
+   "claims": [
+    "James Spedding was chiefly known for editing the works of."
+   ],
+   "raw": "James Spedding was chiefly known for editing the works of."
+  },
+  {
+   "split": "test",
+   "id": "5a87144155429960ec39b72b",
+   "claims": [
+    "GeekDad covers topics related to plastic construction toys.",
+    "Line of plastic construction toys is manufactured by a privately held company.",
+    "That company is based in Billund, Denmark.",
+    "Billund is the city where the privately held company is located."
+   ],
+   "raw": "GeekDad covers topics related to plastic construction toys.\nLine of plastic construction toys is manufactured by a privately held company.\nThat company is based in Billund, Denmark.\nBillund is the city where the privately held company is located."
+  },
+  {
+   "split": "test",
+   "id": "5a8aad0d5542992d82986f55",
+   "claims": [
+    "The 1991 film that featured the song \"Breakin' the Rules\".",
+    "The singer who performed the song \"Breakin' the Rules\"."
+   ],
+   "raw": "The 1991 film that featured the song \"Breakin' the Rules\".\nThe singer who performed the song \"Breakin' the Rules\"."
+  },
+  {
+   "split": "test",
+   "id": "5ae13e205542997b2ef7d157",
+   "claims": [
+    "The largest military installation in the United States."
+   ],
+   "raw": "The largest military installation in the United States."
+  },
+  {
+   "split": "test",
+   "id": "5a7ae38c5542992d025e6721",
+   "claims": [
+    "When did Teinosuke Kinugasa die?",
+    "When did Don O. Newland die?"
+   ],
+   "raw": "When did Teinosuke Kinugasa die?\nWhen did Don O. Newland die?"
+  },
+  {
+   "split": "test",
+   "id": "5a8634fe554299211dda2aac",
+   "claims": [
+    "The athletic conference the Colgate Raiders women's ice hockey team played in.",
+    "The name of the athletic conference the Colgate Raiders women's ice hockey team played in used to be affiliated with."
+   ],
+   "raw": "The athletic conference the Colgate Raiders women's ice hockey team played in.\nThe name of the athletic conference the Colgate Raiders women's ice hockey team played in used to be affiliated with."
+  },
+  {
+   "split": "test",
+   "id": "5a8838885542994846c1ce39",
+   "claims": [
+    "Length of the Sandy and Beaver Canal in Ohio.",
+    "Length of New Jersey's Morris Canal."
+   ],
+   "raw": "Length of the Sandy and Beaver Canal in Ohio.\nLength of New Jersey's Morris Canal."
+  },
+  {
+   "split": "test",
+   "id": "5ae52c0f5542992663a4f12e",
+   "claims": [
+    "Major cities near Faith Lutheran Middle School and High School."
+   ],
+   "raw": "Major cities near Faith Lutheran Middle School and High School."
+  },
+  {
+   "split": "test",
+   "id": "5ab7ccf455429928e1fe3910",
+   "claims": [
+    "The town where Lake George Avenue Historic District is located."
+   ],
+   "raw": "The town where Lake George Avenue Historic District is located."
+  },
+  {
+   "split": "test",
+   "id": "5ac55ba05542993e66e8233d",
+   "claims": [
+    "Sinhawalokana's main cast members (including an cricket star).",
+    "An cricket star who played a supporting role in Sinhawaloka.",
+    "The cricket team that had a former captain."
+   ],
+   "raw": "Sinhawalokana's main cast members (including an cricket star).\nAn cricket star who played a supporting role in Sinhawaloka.\nThe cricket team that had a former captain."
+  },
+  {
+   "split": "test",
+   "id": "5a89d36e554299515336132a",
+   "claims": [
+    "The director who directed the film based on the rock opera 5:15.",
+    "The rock opera 5:15 was based on a film."
+   ],
+   "raw": "The director who directed the film based on the rock opera 5:15.  \nThe rock opera 5:15 was based on a film."
+  },
+  {
+   "split": "test",
+   "id": "5a89e28f5542992e4fca843e",
+   "claims": [
+    "Kevin House Jr.'s professional football team.",
+    "NFL conference that includes his professional football team."
+   ],
+   "raw": "Kevin House Jr.'s professional football team.\nNFL conference that includes his professional football team."
+  },
+  {
+   "split": "test",
+   "id": "5ae04ea555429924de1b709e",
+   "claims": [
+    "Rawlins Park's location within a neighborhood.",
+    "Reason for the neighborhood's name."
+   ],
+   "raw": "Rawlins Park's location within a neighborhood.\nReason for the neighborhood's name."
+  },
+  {
+   "split": "test",
+   "id": "5a7a19765542996a35c170cf",
+   "claims": [
+    "Pashto-speaking diaspora's main country of residence."
+   ],
+   "raw": "Pashto-speaking diaspora's main country of residence."
+  },
+  {
+   "split": "test",
+   "id": "5addd82c5542990dbb2f7eb9",
+   "claims": [
+    "Nationality of Ray Wilson.",
+    "Nationality of Leo."
+   ],
+   "raw": "Nationality of Ray Wilson.\nNationality of Leo."
+  },
+  {
+   "split": "test",
+   "id": "5a882ffb5542994846c1ce0d",
+   "claims": [
+    "The river where Stade 24 Novembre is located."
+   ],
+   "raw": "The river where Stade 24 Novembre is located."
+  },
+  {
+   "split": "test",
+   "id": "5a85a8655542997b5ce40011",
+   "claims": [
+    "The earlier front-engined sports car following the Porsche 944.",
+    "The model preceding the Porsche 968 in the lineup."
+   ],
+   "raw": "The earlier front-engined sports car following the Porsche 944.\nThe model preceding the Porsche 968 in the lineup."
+  },
+  {
+   "split": "test",
+   "id": "5abdb5b455429965af743dfa",
+   "claims": [
+    "The other star in the television series Ma Boy.",
+    "The South Korean actress who began her career as a child actress in 2006 and was initially known for \"Moon Embracing the Sun\" (2012).",
+    "The television series Ma Boy."
+   ],
+   "raw": "The other star in the television series Ma Boy.\nThe South Korean actress who began her career as a child actress in 2006 and was initially known for \"Moon Embracing the Sun\" (2012).\nThe television series Ma Boy."
+  },
+  {
+   "split": "test",
+   "id": "5a77cb5e55429967ab1052a7",
+   "claims": [
+    "The voice actor who voices Homer Simpson.",
+    "An alien character voiced by Homer Simpson in \"The Simpsons\"."
+   ],
+   "raw": "The voice actor who voices Homer Simpson.  \nAn alien character voiced by Homer Simpson in \"The Simpsons\"."
+  },
+  {
+   "split": "test",
+   "id": "5a7c646e55429907fabeef7c",
+   "claims": [
+    "Aerodynamik song by Kraftwerk.",
+    "Album containing the song Aerodynamik was released for.",
+    "University of the Tour de France bicycle race."
+   ],
+   "raw": "Aerodynamik song by Kraftwerk.\nAlbum containing the song Aerodynamik was released for.\nUniversity of the Tour de France bicycle race."
+  },
+  {
+   "split": "test",
+   "id": "5ab7c6995542993667794005",
+   "claims": [
+    "Cover band the musician was involved with before composing for a specific game.",
+    "Specific game containing Chocobos and Moogles."
+   ],
+   "raw": "Cover band the musician was involved with before composing for a specific game.\nSpecific game containing Chocobos and Moogles."
+  },
+  {
+   "split": "test",
+   "id": "5a87ee7b55429938390d3eb6",
+   "claims": [
+    "Tom Shearn's intended team name."
+   ],
+   "raw": "Tom Shearn's intended team name."
+  },
+  {
+   "split": "test",
+   "id": "5a8c9e7c554299653c1aa0d1",
+   "claims": [
+    "I Am... Yours residency show by Beyonc\u00e9.",
+    "Hotel connected to Wynn in Las Vegas."
+   ],
+   "raw": "I Am... Yours residency show by Beyonc\u00e9.\nHotel connected to Wynn in Las Vegas."
+  },
+  {
+   "split": "test",
+   "id": "5a82119155429926c1cdae28",
+   "claims": [
+    "Charice's first international studio album.",
+    "A singer who rose to popularity through something."
+   ],
+   "raw": "Charice's first international studio album.\nA singer who rose to popularity through something."
+  },
+  {
+   "split": "test",
+   "id": "5a85a2845542997175ce1fe1",
+   "claims": [
+    "Aloinopsis plant species information.",
+    "Eriogonum plant species information."
+   ],
+   "raw": "Aloinopsis plant species information.\nEriogonum plant species information."
+  },
+  {
+   "split": "test",
+   "id": "5abcf299554299700f9d7936",
+   "claims": [
+    "Tim Rice is a lyricist.",
+    "Leslie Marmon Silko is a lyricist."
+   ],
+   "raw": "Tim Rice is a lyricist.\nLeslie Marmon Silko is a lyricist."
+  },
+  {
+   "split": "test",
+   "id": "5ae1d5a3554299234fd04319",
+   "claims": [
+    "The football player who topped the 10,000-yard career rushing mark.",
+    "The team (New England Patriots) where that player has played."
+   ],
+   "raw": "The football player who topped the 10,000-yard career rushing mark.\nThe team (New England Patriots) where that player has played."
+  },
+  {
+   "split": "test",
+   "id": "5a90b1635542990a984936a9",
+   "claims": [
+    "The person who served as the secretary to the Winter Queen."
+   ],
+   "raw": "The person who served as the secretary to the Winter Queen."
+  },
+  {
+   "split": "test",
+   "id": "5a7a51b95542990783324f0f",
+   "claims": [
+    "Liam Cunningham birth year.",
+    "Michael Fassbender birth year."
+   ],
+   "raw": "Liam Cunningham birth year.\nMichael Fassbender birth year."
+  },
+  {
+   "split": "test",
+   "id": "5adf8f675542995534e8c7eb",
+   "claims": [
+    "John Valliant\u2019s work."
+   ],
+   "raw": "John Valliant\u2019s work."
+  },
+  {
+   "split": "test",
+   "id": "5a7f275d55429934daa2fd01",
+   "claims": [
+    "Jonathan Marray nationality.",
+    "Wayne Black nationality."
+   ],
+   "raw": "Jonathan Marray nationality.\nWayne Black nationality."
+  },
+  {
+   "split": "test",
+   "id": "5ab2d28b55429916697740ee",
+   "claims": [
+    "Oprah Winfrey's narration documentary."
+   ],
+   "raw": "Oprah Winfrey's narration documentary."
+  },
+  {
+   "split": "test",
+   "id": "5ac164da55429964131be1bf",
+   "claims": [
+    "Linhai and Gongqingcheng are types of cities in China."
+   ],
+   "raw": "Linhai and Gongqingcheng are types of cities in China."
+  },
+  {
+   "split": "test",
+   "id": "5a8d02cc554299441c6b9fb6",
+   "claims": [
+    "University of St Andrews education of John MacGregor, Baron MacGregor of Pulham Market.",
+    "Another university he attended was established by a monastic order."
+   ],
+   "raw": "University of St Andrews education of John MacGregor, Baron MacGregor of Pulham Market.\nAnother university he attended was established by a monastic order."
+  },
+  {
+   "split": "test",
+   "id": "5ac37dd6554299218029dbdb",
+   "claims": [
+    "State where Digital Summer is from.",
+    "State where Underoath is from."
+   ],
+   "raw": "State where Digital Summer is from.\nState where Underoath is from."
+  },
+  {
+   "split": "test",
+   "id": "5ae325bd5542991a06ce9936",
+   "claims": [
+    "Patrol Squadron Four (VP-4).",
+    "Naval station where VP-4 is based.",
+    "Former name of the Naval station where VP-4 is based."
+   ],
+   "raw": "Facts:\nPatrol Squadron Four (VP-4).\nNaval station where VP-4 is based.\nFormer name of the Naval station where VP-4 is based."
+  },
+  {
+   "split": "test",
+   "id": "5a78f753554299078472776e",
+   "claims": [
+    "The musician Philip Labonte was born.",
+    "The musician Alexi Laiho was born."
+   ],
+   "raw": "The musician Philip Labonte was born.\nThe musician Alexi Laiho was born."
+  },
+  {
+   "split": "test",
+   "id": "5ab94ade554299743d22eac7",
+   "claims": [
+    "Persona Non Grata includes interviews."
+   ],
+   "raw": "Persona Non Grata includes interviews."
+  },
+  {
+   "split": "test",
+   "id": "5ab41677554299753aec5a38",
+   "claims": [
+    "Air-cooled version of the weapon system used on HMAS \"Narani\"."
+   ],
+   "raw": "Air-cooled version of the weapon system used on HMAS \"Narani\"."
+  },
+  {
+   "split": "test",
+   "id": "5a75f7db5542994ccc918670",
+   "claims": [
+    "The country's official kennel club that recognizes the American Hairless Terrier.",
+    "The country's official kennel club that recognizes the Saint-Usuge Spaniel."
+   ],
+   "raw": "The country's official kennel club that recognizes the American Hairless Terrier.\nThe country's official kennel club that recognizes the Saint-Usuge Spaniel."
+  },
+  {
+   "split": "test",
+   "id": "5ab5df4c5542997d4ad1f218",
+   "claims": [
+    "Ben McNiece's career start date.",
+    "Melbourne Cricket Ground history or location.",
+    "Anzac Day clash format and participants historically.",
+    "The year of the specific match between Ben McNiece and Collingwood."
+   ],
+   "raw": "Ben McNiece's career start date.\nMelbourne Cricket Ground history or location.\nAnzac Day clash format and participants historically.\nThe year of the specific match between Ben McNiece and Collingwood."
+  },
+  {
+   "split": "test",
+   "id": "5adc1af75542994650320c75",
+   "claims": [
+    "Brian Higgins wrote a single by Cher.",
+    "The album containing that single is The Very Best of Cher.",
+    "The release year of The Very Best of Cher must be found.",
+    "Cher's single was included in this album and its release year."
+   ],
+   "raw": "Brian Higgins wrote a single by Cher.  \nThe album containing that single is The Very Best of Cher.  \nThe release year of The Very Best of Cher must be found.\nCher's single was included in this album and its release year."
+  },
+  {
+   "split": "test",
+   "id": "5a75e29f5542992d0ec0600c",
+   "claims": [
+    "The actor with the birth name Charles Dennis Buchinsky.",
+    "The comedy show Leslie Nielsen was part of.",
+    "The current name used by the actor in the comedy show.",
+    "The production company behind the comedy show."
+   ],
+   "raw": "The actor with the birth name Charles Dennis Buchinsky.  \nThe comedy show Leslie Nielsen was part of.  \nThe current name used by the actor in the comedy show.  \nThe production company behind the comedy show."
+  },
+  {
+   "split": "test",
+   "id": "5ab438395542990594ba9bb9",
+   "claims": [
+    "One of the stars who played the two oldest children in a TV series.",
+    "A 2010 movie was based on that TV series."
+   ],
+   "raw": "One of the stars who played the two oldest children in a TV series.\nA 2010 movie was based on that TV series."
+  },
+  {
+   "split": "test",
+   "id": "5ae712fa554299572ea546b9",
+   "claims": [
+    "The band of Confederate army deserters in the 2016 movie.",
+    "The 2016 movie starring Matthew McConaughey, Gugu Mbatha-Raw, and Keri Russell."
+   ],
+   "raw": "The band of Confederate army deserters in the 2016 movie.\nThe 2016 movie starring Matthew McConaughey, Gugu Mbatha-Raw, and Keri Russell."
+  },
+  {
+   "split": "test",
+   "id": "5a83dd2c554299334474609e",
+   "claims": [
+    "German cinematographer's name.",
+    "Five actors who worked with the specified German cinematographer."
+   ],
+   "raw": "German cinematographer's name.\nFive actors who worked with the specified German cinematographer."
+  },
+  {
+   "split": "test",
+   "id": "5a8bd9c95542997f31a41de2",
+   "claims": [
+    "The university where the biographer of John Clare teaches English Literature."
+   ],
+   "raw": "The university where the biographer of John Clare teaches English Literature."
+  },
+  {
+   "split": "test",
+   "id": "5a8ed8b955429917b4a5bdd3",
+   "claims": [
+    "North Midland Divisional Engineers participated in a specific battle during WWII.",
+    "Duration of the battle involving this division."
+   ],
+   "raw": "North Midland Divisional Engineers participated in a specific battle during WWII.  \nDuration of the battle involving this division."
+  },
+  {
+   "split": "test",
+   "id": "5ae5b301554299546bf82f2d",
+   "claims": [
+    "The entity that produces the hormone promoting sodium retention in the distal nephron."
+   ],
+   "raw": "The entity that produces the hormone promoting sodium retention in the distal nephron."
+  },
+  {
+   "split": "test",
+   "id": "5ab8e70b5542991b5579f031",
+   "claims": [
+    "Nordic terms for a ghost besides d\u00edsir."
+   ],
+   "raw": "Nordic terms for a ghost besides d\u00edsir."
+  },
+  {
+   "split": "test",
+   "id": "5ab465095542991751b4d75a",
+   "claims": [
+    "The manufacturing period for the sedan variant of the Volvo V50 car."
+   ],
+   "raw": "The manufacturing period for the sedan variant of the Volvo V50 car."
+  },
+  {
+   "split": "test",
+   "id": "5ae135fb55429920d523431f",
+   "claims": [
+    "Scott Workman's notable roles or credits.",
+    "Name of the TV Network for his successful show."
+   ],
+   "raw": "Scott Workman's notable roles or credits.\nName of the TV Network for his successful show."
+  },
+  {
+   "split": "test",
+   "id": "5aba05cb55429939ce03dc56",
+   "claims": [
+    "Tigerair's parent airline within Singapore."
+   ],
+   "raw": "Tigerair's parent airline within Singapore."
+  },
+  {
+   "split": "test",
+   "id": "5a74ae6a55429916b01641c9",
+   "claims": [
+    "Famous composer who used microtonal music."
+   ],
+   "raw": "Famous composer who used microtonal music."
+  },
+  {
+   "split": "test",
+   "id": "5a8a9bc15542996c9b8d5f36",
+   "claims": [
+    "Nicholas Dante's most famous work."
+   ],
+   "raw": "Nicholas Dante's most famous work."
+  },
+  {
+   "split": "test",
+   "id": "5abd247e5542996e802b472f",
+   "claims": [
+    "Robert Philibosian is a politician.",
+    "David Ignatius is a journalist."
+   ],
+   "raw": "Robert Philibosian is a politician.\nDavid Ignatius is a journalist."
+  },
+  {
+   "split": "test",
+   "id": "5a80993d5542996402f6a589",
+   "claims": [
+    "Spike Jonze's 1999 film.",
+    "Who directed the 1999 fantasy-comedy?"
+   ],
+   "raw": "Spike Jonze's 1999 film.\nWho directed the 1999 fantasy-comedy?"
+  },
+  {
+   "split": "test",
+   "id": "5a77b1a75542992a6e59df8d",
+   "claims": [
+    "American artist who also illustrated for Bill Nye and George W. Peck.",
+    "An 1876 novel by Mark Twain about a young boy growing up along the Mississippi River.",
+    "Who is the American artist in question?"
+   ],
+   "raw": "American artist who also illustrated for Bill Nye and George W. Peck.\nAn 1876 novel by Mark Twain about a young boy growing up along the Mississippi River.\nWho is the American artist in question?"
+  },
+  {
+   "split": "test",
+   "id": "5a8601f855429960ec39b5fd",
+   "claims": [
+    "St. Louis Rams won during which Heisman Trophy season.",
+    "The team that won the Heisman Trophy in 2008.",
+    "The specific St. Louis Rams season when they were playing."
+   ],
+   "raw": "St. Louis Rams won during which Heisman Trophy season.\nThe team that won the Heisman Trophy in 2008.\nThe specific St. Louis Rams season when they were playing."
+  },
+  {
+   "split": "test",
+   "id": "5a90b6985542990a984936c2",
+   "claims": [
+    "Colin Firth's role in the film \"Arthur Newman\".",
+    "Actress who played a significant role in the play making her professional debut."
+   ],
+   "raw": "Colin Firth's role in the film \"Arthur Newman\".\nActress who played a significant role in the play making her professional debut."
+  },
+  {
+   "split": "test",
+   "id": "5a77322055429972597f1494",
+   "claims": [
+    "The company that acquired RadioShack in 1963.",
+    "The software application originally made for that company."
+   ],
+   "raw": "The company that acquired RadioShack in 1963.\nThe software application originally made for that company."
+  },
+  {
+   "split": "test",
+   "id": "5a8e06785542995085b37383",
+   "claims": [
+    "The English rock band T-Bolan was formed.",
+    "The year the English rock band T-Bolan was formed."
+   ],
+   "raw": "The English rock band T-Bolan was formed.\nThe year the English rock band T-Bolan was formed."
+  },
+  {
+   "split": "test",
+   "id": "5ab4341c55429942dd415ede",
+   "claims": [
+    "The shogunate that had the Sh\u014dgitai elite corps."
+   ],
+   "raw": "The shogunate that had the Sh\u014dgitai elite corps."
+  },
+  {
+   "split": "test",
+   "id": "5a70f39c5542994082a3e429",
+   "claims": [
+    "Independent candidate in Maine's 2010 gubernatorial race.",
+    "Libby Mitchell's opponent in Maine's 2010 gubernatorial race."
+   ],
+   "raw": "Independent candidate in Maine's 2010 gubernatorial race.\nLibby Mitchell's opponent in Maine's 2010 gubernatorial race."
+  },
+  {
+   "split": "test",
+   "id": "5a7933b255429907847277eb",
+   "claims": [
+    "The composer Philip Glass was also a teacher.",
+    "The composer Franz Schreker was also a teacher."
+   ],
+   "raw": "The composer Philip Glass was also a teacher.\nThe composer Franz Schreker was also a teacher."
+  },
+  {
+   "split": "test",
+   "id": "5ae0ead25542990adbacf6c8",
+   "claims": [
+    "Plastic water-filled barriers found along MacArthur Road in Pennsylvania."
+   ],
+   "raw": "Plastic water-filled barriers found along MacArthur Road in Pennsylvania."
+  },
+  {
+   "split": "test",
+   "id": "5abbe188554299642a094ba0",
+   "claims": [
+    "Forbes magazine named the highest-paid model in 1995.",
+    "The model who played a role in the film \"Fair Game\"."
+   ],
+   "raw": "Forbes magazine named the highest-paid model in 1995.\nThe model who played a role in the film \"Fair Game\"."
+  },
+  {
+   "split": "test",
+   "id": "5ae7cea355429952e35ea9c1",
+   "claims": [
+    "The series whose first season was released on Netflix.",
+    "The actor whose name is pronounced as John-A-Kite.",
+    "The release date of the series' first season on Netflix.",
+    "The name of the series."
+   ],
+   "raw": "The series whose first season was released on Netflix.\nThe actor whose name is pronounced as John-A-Kite.\nThe release date of the series' first season on Netflix.\nThe name of the series."
+  },
+  {
+   "split": "test",
+   "id": "5a7cf4e355429907fabef062",
+   "claims": [
+    "Todd Boehly's current position at the firm where Mark Walter is the CEO."
+   ],
+   "raw": "Todd Boehly's current position at the firm where Mark Walter is the CEO."
+  },
+  {
+   "split": "test",
+   "id": "5a84c89a5542992a431d1a9c",
+   "claims": [
+    "Another name for the forest containing Oakenclough."
+   ],
+   "raw": "Another name for the forest containing Oakenclough."
+  },
+  {
+   "split": "test",
+   "id": "5abaf6865542996cc5e49f3c",
+   "claims": [
+    "Thomas Doherty's role in the sitcom.",
+    "Israeli sitcom \"North Star\".",
+    "Sitcom based on the Israeli series \"North Star\"."
+   ],
+   "raw": "Thomas Doherty's role in the sitcom.\nIsraeli sitcom \"North Star\".\nSitcom based on the Israeli series \"North Star\"."
+  },
+  {
+   "split": "test",
+   "id": "5a8319b255429940e5e1a960",
+   "claims": [
+    "The animated television series with the current arrangement.",
+    "A person who has scored or orchestrated music for more than 30 films and television shows.",
+    "The year the theme music was composed in 1989."
+   ],
+   "raw": "The animated television series with the current arrangement.\nA person who has scored or orchestrated music for more than 30 films and television shows.\nThe year the theme music was composed in 1989."
+  },
+  {
+   "split": "test",
+   "id": "5a75e814554299109176e5c7",
+   "claims": [
+    "Republican Chairman who was born on June 1st.",
+    "Person born on June 1, 1956."
+   ],
+   "raw": "Republican Chairman who was born on June 1st.\nPerson born on June 1, 1956."
+  },
+  {
+   "split": "test",
+   "id": "5ae504a855429908b63264df",
+   "claims": [
+    "A documentary about \"Beowulf & Grendel\".",
+    "My Kid Could Paint That.",
+    "Wrath of Gods."
+   ],
+   "raw": "A documentary about \"Beowulf & Grendel\".\nMy Kid Could Paint That.\nWrath of Gods."
+  },
+  {
+   "split": "test",
+   "id": "5adde73f5542992200553b94",
+   "claims": [
+    "Spider-Man character in comics.",
+    "Spider-Man character in films."
+   ],
+   "raw": "Spider-Man character in comics.\nSpider-Man character in films."
+  },
+  {
+   "split": "test",
+   "id": "5a7a098d5542996c55b2dce3",
+   "claims": [
+    "Dane William De Haan's previous movies.",
+    "Anton Corbijn's previous movies and actors he worked with."
+   ],
+   "raw": "Dane William De Haan's previous movies.\nAnton Corbijn's previous movies and actors he worked with."
+  },
+  {
+   "split": "test",
+   "id": "5ac19ff65542994d76dcce8f",
+   "claims": [
+    "Is \"The Devils of Loudun\" an opera?",
+    "Is \"Maskarade\" (or Maskarad) an opera?"
+   ],
+   "raw": "Is \"The Devils of Loudun\" an opera?\nIs \"Maskarade\" (or Maskarad) an opera?"
+  },
+  {
+   "split": "test",
+   "id": "5ac2546a554299636651997b",
+   "claims": [
+    "Studio albums released by Candlelight Red.",
+    "Studio albums released by Motion City Soundtrack."
+   ],
+   "raw": "Studio albums released by Candlelight Red.\nStudio albums released by Motion City Soundtrack."
+  },
+  {
+   "split": "test",
+   "id": "5ab6cd0e554299710c8d1f68",
+   "claims": [
+    "A Uruguayan professional footballer.",
+    "Luz Pfannenstiel."
+   ],
+   "raw": "A Uruguayan professional footballer.\nLuz Pfannenstiel."
+  },
+  {
+   "split": "test",
+   "id": "5ac2a75755429967731025dc",
+   "claims": [
+    "The movie John Gavin Malkovich, Matt Damon, and Edward Norton starred in."
+   ],
+   "raw": "The movie John Gavin Malkovich, Matt Damon, and Edward Norton starred in."
+  },
+  {
+   "split": "test",
+   "id": "5ac43530554299204fd21f0a",
+   "claims": [
+    "Annette Crosbie's 1976 film nomination.",
+    "Classic fairy tale that the film retells."
+   ],
+   "raw": "Annette Crosbie's 1976 film nomination.\nClassic fairy tale that the film retells."
+  },
+  {
+   "split": "test",
+   "id": "5abbfbcf55429965836003cf",
+   "claims": [
+    "James Leal Greenleaf's monument."
+   ],
+   "raw": "James Leal Greenleaf's monument."
+  },
+  {
+   "split": "test",
+   "id": "5a7a69365542996c55b2dd9b",
+   "claims": [
+    "Shannyn Sossamon's films.",
+    "Michael Lehmann's films."
+   ],
+   "raw": "Shannyn Sossamon's films.\nMichael Lehmann's films."
+  },
+  {
+   "split": "test",
+   "id": "5a8b7cb95542995d1e6f13bb",
+   "claims": [
+    "A group of outlaws from the 1890s.",
+    "A Yugoslav rock band."
+   ],
+   "raw": "A group of outlaws from the 1890s.\nA Yugoslav rock band."
+  },
+  {
+   "split": "test",
+   "id": "5a732aa055429901807daf9f",
+   "claims": [
+    "The largest convention center in the U.S. state of Georgia.",
+    "The year this convention center opened."
+   ],
+   "raw": "The largest convention center in the U.S. state of Georgia.\nThe year this convention center opened."
+  },
+  {
+   "split": "test",
+   "id": "5ae0f2bf5542997b2ef7d09e",
+   "claims": [
+    "The attack that resulted in the formal surrender of German forces.",
+    "An entity related to the attacks mentioned (Battle of Guam or Spring 1945 offensive in Italy)."
+   ],
+   "raw": "The attack that resulted in the formal surrender of German forces.  \nAn entity related to the attacks mentioned (Battle of Guam or Spring 1945 offensive in Italy)."
+  },
+  {
+   "split": "test",
+   "id": "5ae54e005542993aec5ec19a",
+   "claims": [
+    "Richard Yardumian is a psychiatrist.",
+    "Edward Khantzian is a psychiatrist."
+   ],
+   "raw": "Richard Yardumian is a psychiatrist.\nEdward Khantzian is a psychiatrist."
+  },
+  {
+   "split": "test",
+   "id": "5a89ddf25542992e4fca83ff",
+   "claims": [
+    "Lee Donghae's nationality.",
+    "Dappy's nationality."
+   ],
+   "raw": "Lee Donghae's nationality.\nDappy's nationality."
+  },
+  {
+   "split": "test",
+   "id": "5a7b01645542992d025e6734",
+   "claims": [
+    "The property shared by the films Sweet Crude and Tunisian Victory."
+   ],
+   "raw": "The property shared by the films Sweet Crude and Tunisian Victory."
+  },
+  {
+   "split": "test",
+   "id": "5a7f95685542995d8a8ddeaa",
+   "claims": [
+    "A famous photograher who worked as a set photographer in Hollywood film productions.",
+    "The nationality of this person."
+   ],
+   "raw": "A famous photograher who worked as a set photographer in Hollywood film productions.\nThe nationality of this person."
+  },
+  {
+   "split": "test",
+   "id": "5aba8f1b55429955dce3ee85",
+   "claims": [
+    "The English professional footballer who played as a center-back in the 2011 FA Community Shield."
+   ],
+   "raw": "The English professional footballer who played as a center-back in the 2011 FA Community Shield."
+  },
+  {
+   "split": "test",
+   "id": "5adf6a5c5542995ec70e8ff9",
+   "claims": [
+    "The most successful American and international five-and-dime business."
+   ],
+   "raw": "The most successful American and international five-and-dime business."
+  },
+  {
+   "split": "test",
+   "id": "5a8d9573554299068b959d51",
+   "claims": [
+    "Old English poem that commemorates the capturing of the five main towns."
+   ],
+   "raw": "Old English poem that commemorates the capturing of the five main towns."
+  },
+  {
+   "split": "test",
+   "id": "5a8b3f8a5542995d1e6f131f",
+   "claims": [
+    "A company founded by a man who hired Wallace L. Dow to build a home in Worthing, Minnesota.",
+    "The man who hired Wallace L. Dow to build the home in Worthing, Minnesota.",
+    "The company founded by that man."
+   ],
+   "raw": "A company founded by a man who hired Wallace L. Dow to build a home in Worthing, Minnesota.\nThe man who hired Wallace L. Dow to build the home in Worthing, Minnesota.\nThe company founded by that man."
+  },
+  {
+   "split": "test",
+   "id": "5ab6e6c7554299710c8d1fa4",
+   "claims": [
+    "Tony Roberts retired from a sports broadcasting team.",
+    "An American sportscaster from Buffalo, New York took over his position."
+   ],
+   "raw": "Tony Roberts retired from a sports broadcasting team.\nAn American sportscaster from Buffalo, New York took over his position."
+  },
+  {
+   "split": "test",
+   "id": "5ae1412a55429920d523434c",
+   "claims": [
+    "Prol\u00f3gica CP-400 is a computer system.",
+    "Atari ST is a computer system."
+   ],
+   "raw": "Prol\u00f3gica CP-400 is a computer system.\nAtari ST is a computer system."
+  },
+  {
+   "split": "test",
+   "id": "5a84ac585542991dd0999d72",
+   "claims": [
+    "Belarusian State Technological University's location during evacuation in 1941.",
+    "The city where Belarusian State Technological University was evacuated to in 1941."
+   ],
+   "raw": "Belarusian State Technological University's location during evacuation in 1941.\nThe city where Belarusian State Technological University was evacuated to in 1941."
+  },
+  {
+   "split": "test",
+   "id": "5a8ed7b455429917b4a5bdd1",
+   "claims": [
+    "American actress who played Yolanda Saldivar in Selena.",
+    "Rob is an American sitcom that starred."
+   ],
+   "raw": "American actress who played Yolanda Saldivar in Selena.\nRob is an American sitcom that starred."
+  },
+  {
+   "split": "test",
+   "id": "5a84f5195542994c784dda9d",
+   "claims": [
+    "Nathan Sharanskys co-author of the book The Case for Democracy currently holds."
+   ],
+   "raw": "Nathan Sharanskys co-author of the book The Case for Democracy currently holds."
+  },
+  {
+   "split": "test",
+   "id": "5ac47763554299204fd21f5b",
+   "claims": [
+    "The person for whom the original owner of Heythrop Park came to prominence."
+   ],
+   "raw": "The person for whom the original owner of Heythrop Park came to prominence."
+  },
+  {
+   "split": "test",
+   "id": "5ab42b905542992339550040",
+   "claims": [
+    "The musician who wrote the song Firework.",
+    "The genre of music the artist made before pop."
+   ],
+   "raw": "The musician who wrote the song Firework.\nThe genre of music the artist made before pop."
+  },
+  {
+   "split": "test",
+   "id": "5ae15d70554299422ee9966f",
+   "claims": [
+    "The American drama film Les Mis\u00e9rables starred in 1935.",
+    "The husband of Elsa Lanchester's name."
+   ],
+   "raw": "The American drama film Les Mis\u00e9rables starred in 1935.\nThe husband of Elsa Lanchester's name."
+  },
+  {
+   "split": "test",
+   "id": "5ae6a5d15542991bbc97615d",
+   "claims": [
+    "Barranca de Yaco's location along an ancient road.",
+    "Approximate length of the ancient road."
+   ],
+   "raw": "Barranca de Yaco's location along an ancient road.\nApproximate length of the ancient road."
+  },
+  {
+   "split": "test",
+   "id": "5ade190f55429975fa854e40",
+   "claims": [
+    "The scandal involving the Government of Canada in the province of Quebec."
+   ],
+   "raw": "The scandal involving the Government of Canada in the province of Quebec."
+  },
+  {
+   "split": "test",
+   "id": "5abdf72055429976d4830a37",
+   "claims": [
+    "Francis Asbury began attending the revival meetings.",
+    "The month in which Francis Asbury began attending the revival meetings."
+   ],
+   "raw": "Francis Asbury began attending the revival meetings.\nThe month in which Francis Asbury began attending the revival meetings."
+  },
+  {
+   "split": "test",
+   "id": "5a8f53ad5542992414482a50",
+   "claims": [
+    "Infantry regiment featured in the 2006 film \"Only the Brave\"."
+   ],
+   "raw": "Infantry regiment featured in the 2006 film \"Only the Brave\"."
+  },
+  {
+   "split": "test",
+   "id": "5ae1d0e8554299234fd0430a",
+   "claims": [
+    "The king of Northumbria mentioned in \"The Historia\".",
+    "The abbot who is central to the king's election."
+   ],
+   "raw": "The king of Northumbria mentioned in \"The Historia\".\nThe abbot who is central to the king's election."
+  },
+  {
+   "split": "test",
+   "id": "5abffdec554299012d1db55d",
+   "claims": [
+    "Lindka Cierach's clients.",
+    "The film \"The Queen\".",
+    "Queen Elizabeth II's role in the film."
+   ],
+   "raw": "Lindka Cierach's clients.\nThe film \"The Queen\".\nQueen Elizabeth II's role in the film."
+  },
+  {
+   "split": "test",
+   "id": "5a8f47a55542997ba9cb3219",
+   "claims": [
+    "Hormel Foods Corporation's brand of canned cooked meat.",
+    "Popular snack and lunch food commonly found in Hawaii."
+   ],
+   "raw": "Hormel Foods Corporation's brand of canned cooked meat.\nPopular snack and lunch food commonly found in Hawaii."
+  },
+  {
+   "split": "test",
+   "id": "5ac04a265542997d642959f1",
+   "claims": [
+    "The Navy that operated the single-engine BAE Systems Hawk."
+   ],
+   "raw": "The Navy that operated the single-engine BAE Systems Hawk."
+  },
+  {
+   "split": "test",
+   "id": "5ae74fb95542991e8301cc57",
+   "claims": [
+    "Stev McQueen's original film role.",
+    "Pierce Brosnan's remake film role."
+   ],
+   "raw": "Stev McQueen's original film role.\nPierce Brosnan's remake film role."
+  },
+  {
+   "split": "test",
+   "id": "5ac3c10a554299204fd21e33",
+   "claims": [
+    "The group that released the song Call Me Ma\u00f1ana.",
+    "The number of records sold by that group."
+   ],
+   "raw": "The group that released the song Call Me Ma\u00f1ana.\nThe number of records sold by that group."
+  },
+  {
+   "split": "test",
+   "id": "5a8ec02e5542995a26add501",
+   "claims": [
+    "Abso Lutely Productions produced an American sketch comedy television series starring John C. Reilly."
+   ],
+   "raw": "Abso Lutely Productions produced an American sketch comedy television series starring John C. Reilly."
+  },
+  {
+   "split": "test",
+   "id": "5a84e1095542997175ce1f25",
+   "claims": [
+    "The private research university Jung Seul-ki studied at."
+   ],
+   "raw": "The private research university Jung Seul-ki studied at."
+  },
+  {
+   "split": "test",
+   "id": "5add23d05542994734353871",
+   "claims": [
+    "The primary duty of the Austrian Pinscher.",
+    "The primary duty of the Maremma Sheepdog."
+   ],
+   "raw": "The primary duty of the Austrian Pinscher.\nThe primary duty of the Maremma Sheepdog."
+  },
+  {
+   "split": "test",
+   "id": "5a74b55455429974ef308c39",
+   "claims": [
+    "The writer of the blog Preposterous Universe."
+   ],
+   "raw": "The writer of the blog Preposterous Universe."
+  },
+  {
+   "split": "test",
+   "id": "5a8bc29a5542995d1e6f1446",
+   "claims": [
+    "The album Quiet in Heaven/Song of Liberty was released."
+   ],
+   "raw": "The album Quiet in Heaven/Song of Liberty was released."
+  },
+  {
+   "split": "test",
+   "id": "5adff2aa554299603e4183d0",
+   "claims": [
+    "Markus Feeley's career.",
+    "Bobby Fuller's career."
+   ],
+   "raw": "Markus Feeley's career.\nBobby Fuller's career."
+  },
+  {
+   "split": "test",
+   "id": "5adbf69c55429947ff173871",
+   "claims": [
+    "Tolex and General Tire manufacture accessories for vehicles."
+   ],
+   "raw": "Tolex and General Tire manufacture accessories for vehicles."
+  },
+  {
+   "split": "test",
+   "id": "5a88a35c554299206df2b316",
+   "claims": [
+    "The territory where the Ibrahim-al-Ibrahim Mosque is located.",
+    "The head of state of the territory where the mosque is located."
+   ],
+   "raw": "The territory where the Ibrahim-al-Ibrahim Mosque is located.\nThe head of state of the territory where the mosque is located."
+  },
+  {
+   "split": "test",
+   "id": "5a8ee3a755429917b4a5be02",
+   "claims": [
+    "College Humor is a 1933 American pre-Code musical comedy film.",
+    "The American singer and actor who starred in this film."
+   ],
+   "raw": "College Humor is a 1933 American pre-Code musical comedy film.\nThe American singer and actor who starred in this film."
+  },
+  {
+   "split": "test",
+   "id": "5ab4b9f75542990594ba9ca4",
+   "claims": [
+    "Chris Write's first album release.",
+    "Artist who performed \"I Love You\" on Chris Write's first album."
+   ],
+   "raw": "Chris Write's first album release.\nArtist who performed \"I Love You\" on Chris Write's first album."
+  },
+  {
+   "split": "test",
+   "id": "5aba549f554299232ef4a290",
+   "claims": [
+    "The type of song produced by Alexander Grant for Eminem."
+   ],
+   "raw": "The type of song produced by Alexander Grant for Eminem."
+  },
+  {
+   "split": "test",
+   "id": "5aba916c55429901930fa83b",
+   "claims": [
+    "Canadian Province that was captured.",
+    "Supporting tribes involved in capturing the province."
+   ],
+   "raw": "Canadian Province that was captured.\nSupporting tribes involved in capturing the province."
+  },
+  {
+   "split": "test",
+   "id": "5ae388ea5542994393b9e6f0",
+   "claims": [
+    "An Australian-born British independent filmmaker known for work with THE PERIODIC TABLE OF VIDEOS.",
+    "Country of birth and nationality of the filmmaker in question."
+   ],
+   "raw": "An Australian-born British independent filmmaker known for work with THE PERIODIC TABLE OF VIDEOS.\nCountry of birth and nationality of the filmmaker in question."
+  },
+  {
+   "split": "test",
+   "id": "5ae2b794554299495565db10",
+   "claims": [
+    "The producer of Michel'le.",
+    "When was Michel'le released?"
+   ],
+   "raw": "The producer of Michel'le.\nWhen was Michel'le released?"
+  },
+  {
+   "split": "test",
+   "id": "5ac34994554299741d48a242",
+   "claims": [
+    "The CGI animated series that preceded \"Mixels\"."
+   ],
+   "raw": "The CGI animated series that preceded \"Mixels\"."
+  },
+  {
+   "split": "test",
+   "id": "5a74be0b5542996c70cfadc8",
+   "claims": [
+    "Comcast owns a film studio.",
+    "That film studio produced the movie Radio Patrol."
+   ],
+   "raw": "Comcast owns a film studio.\nThat film studio produced the movie Radio Patrol."
+  },
+  {
+   "split": "test",
+   "id": "5ae530e355429908b6326561",
+   "claims": [
+    "The publisher who made appearance in the panel game show.",
+    "\"The Twilight Zone\" episode titled \"Twenty Two.\"",
+    "The panel game show where the publisher appeared.",
+    "The name of the series \"The Twilight Zone.\""
+   ],
+   "raw": "The publisher who made appearance in the panel game show.\n\"The Twilight Zone\" episode titled \"Twenty Two.\"\nThe panel game show where the publisher appeared.\nThe name of the series \"The Twilight Zone.\""
+  },
+  {
+   "split": "test",
+   "id": "5abdc74755429965af743e36",
+   "claims": [
+    "The American retired professional basketball player who coaches the University of the Pacific Tigers.",
+    "The city where the hotel company with the Oberoi family is part of has its head office."
+   ],
+   "raw": "The American retired professional basketball player who coaches the University of the Pacific Tigers.\nThe city where the hotel company with the Oberoi family is part of has its head office."
+  },
+  {
+   "split": "test",
+   "id": "5abec90a5542994516f45438",
+   "claims": [
+    "1920s Republican political strategy involved.",
+    "US state associated with this strategy."
+   ],
+   "raw": "1920s Republican political strategy involved.\nUS state associated with this strategy."
+  },
+  {
+   "split": "test",
+   "id": "5ab5ec2a5542992aa134a3e3",
+   "claims": [
+    "Takahiro Moriuchi's profession.",
+    "Doug Pinnick's profession."
+   ],
+   "raw": "Takahiro Moriuchi's profession.\nDoug Pinnick's profession."
+  },
+  {
+   "split": "test",
+   "id": "5a8494b15542991dd0999d35",
+   "claims": [
+    "The year Allure was first published.",
+    "The year Genre was first published."
+   ],
+   "raw": "The year Allure was first published.\nThe year Genre was first published."
+  },
+  {
+   "split": "test",
+   "id": "5a750ccc5542993748c897a8",
+   "claims": [
+    "The year Beaulieu Mine was first entered into production.",
+    "The year Con Mine was first entered into production."
+   ],
+   "raw": "The year Beaulieu Mine was first entered into production.\nThe year Con Mine was first entered into production."
+  },
+  {
+   "split": "test",
+   "id": "5ac2759655429921a00aaf7f",
+   "claims": [
+    "Benjamin Burnley's musical genre.",
+    "Yannis Philippakis's musical genre."
+   ],
+   "raw": "Benjamin Burnley's musical genre.\nYannis Philippakis's musical genre."
+  },
+  {
+   "split": "test",
+   "id": "5a7cdc1b55429907fabef04d",
+   "claims": [
+    "Getting Married in Buffalo Jump stars an actor.",
+    "The birthplace of that actor."
+   ],
+   "raw": "Getting Married in Buffalo Jump stars an actor.  \nThe birthplace of that actor."
+  },
+  {
+   "split": "test",
+   "id": "5abee4ff5542993fe9a41d7d",
+   "claims": [
+    "Jim Atchison's position as a theme park president.",
+    "City where the theme park's headquarters is located."
+   ],
+   "raw": "Jim Atchison's position as a theme park president.\nCity where the theme park's headquarters is located."
+  },
+  {
+   "split": "test",
+   "id": "5abdf8c45542993f32c2a072",
+   "claims": [
+    "The coast where the painting \"The Death of Cook\" was created."
+   ],
+   "raw": "The coast where the painting \"The Death of Cook\" was created."
+  },
+  {
+   "split": "test",
+   "id": "5a88a23f5542997e5c09a652",
+   "claims": [
+    "Chris O'Dea is a Master of Fine Arts graduate of the UCLA School of Theater, Film and Television.",
+    "Lucky McKee is a Master of Fine Arts graduate of the UCLA School of Theater, Film and Television."
+   ],
+   "raw": "Chris O'Dea is a Master of Fine Arts graduate of the UCLA School of Theater, Film and Television.\nLucky McKee is a Master of Fine Arts graduate of the UCLA School of Theater, Film and Television."
+  },
+  {
+   "split": "test",
+   "id": "5a7ad6045542992d025e6706",
+   "claims": [
+    "The writer for the music of The Road to Hong Kong."
+   ],
+   "raw": "The writer for the music of The Road to Hong Kong."
+  },
+  {
+   "split": "test",
+   "id": "5a7c78c955429935c91b51d2",
+   "claims": [
+    "Norman Foote's place of origin."
+   ],
+   "raw": "Norman Foote's place of origin."
+  },
+  {
+   "split": "test",
+   "id": "5a81b43d5542995ce29dcc39",
+   "claims": [
+    "John Stoltenberg's current role at the magazine."
+   ],
+   "raw": "John Stoltenberg's current role at the magazine."
+  },
+  {
+   "split": "test",
+   "id": "5a793bc95542994bb9456fc3",
+   "claims": [
+    "The year Brooklyn Decker was born.",
+    "The year Andy Roddick was born."
+   ],
+   "raw": "The year Brooklyn Decker was born.\nThe year Andy Roddick was born."
+  },
+  {
+   "split": "test",
+   "id": "5ac3def75542997ea680c95f",
+   "claims": [
+    "U2 album featuring the song \"Dangerous\" was produced."
+   ],
+   "raw": "U2 album featuring the song \"Dangerous\" was produced."
+  },
+  {
+   "split": "test",
+   "id": "5ab5574b554299488d4d994e",
+   "claims": [
+    "Robin R. Bottin's collaborator who won awards.",
+    "The movie for which the collaborator won awards."
+   ],
+   "raw": "Robin R. Bottin's collaborator who won awards.\nThe movie for which the collaborator won awards."
+  },
+  {
+   "split": "test",
+   "id": "5adc760c5542994650320d11",
+   "claims": [
+    "Lars von Triers' award-winning English-language Danish experimental horror film."
+   ],
+   "raw": "Lars von Triers' award-winning English-language Danish experimental horror film."
+  },
+  {
+   "split": "test",
+   "id": "5a9042825542990a984935d6",
+   "claims": [
+    "The rule that makes a major difference between the National League and the American League."
+   ],
+   "raw": "The rule that makes a major difference between the National League and the American League."
+  },
+  {
+   "split": "test",
+   "id": "5ac3a049554299741d48a2ba",
+   "claims": [
+    "The Irish dramatist who wrote \"Philadelphia, Here I Come!\".",
+    "The year the play \"Philadelphia, Here I Come!\" was written."
+   ],
+   "raw": "The Irish dramatist who wrote \"Philadelphia, Here I Come!\".\nThe year the play \"Philadelphia, Here I Come!\" was written."
+  },
+  {
+   "split": "test",
+   "id": "5a884adb5542996e4f308938",
+   "claims": [
+    "Eryngium belongs to a specific plant kingdom.",
+    "Arnebia belongs to a specific plant kingdom."
+   ],
+   "raw": "Eryngium belongs to a specific plant kingdom.\nArnebia belongs to a specific plant kingdom."
+  },
+  {
+   "split": "test",
+   "id": "5a8a423255429930ff3c0d30",
+   "claims": [
+    "A ruler who became the third king of a certain country.",
+    "Dost Mohammad Khan was killed by this ruler."
+   ],
+   "raw": "A ruler who became the third king of a certain country.\nDost Mohammad Khan was killed by this ruler."
+  },
+  {
+   "split": "test",
+   "id": "5a7309a15542992359bc320c",
+   "claims": [
+    "The writer of the song \"Money, Money, Money\" by ABBA.",
+    "ABBA's member who was born on 16 December 1946."
+   ],
+   "raw": "The writer of the song \"Money, Money, Money\" by ABBA.\nABBA's member who was born on 16 December 1946."
+  },
+  {
+   "split": "test",
+   "id": "5a8651185542994775f60752",
+   "claims": [
+    "Fabi\u00e1n Bielinsky information.",
+    "Nelson Pereira dos Santos information."
+   ],
+   "raw": "Fabi\u00e1n Bielinsky information.\nNelson Pereira dos Santos information."
+  },
+  {
+   "split": "test",
+   "id": "5a891e1e5542993b751ca913",
+   "claims": [
+    "Aurelia Plath's grandson who was a fisheries biologist."
+   ],
+   "raw": "Aurelia Plath's grandson who was a fisheries biologist."
+  },
+  {
+   "split": "test",
+   "id": "5ae2fca555429928c423958a",
+   "claims": [
+    "Eric Stewart and Graham Gouldman's band name.",
+    "Year of their 1975 album release.",
+    "Title of their single \"I'm Not in Love\".",
+    "Other single from the same album."
+   ],
+   "raw": "Eric Stewart and Graham Gouldman's band name.\nYear of their 1975 album release.\nTitle of their single \"I'm Not in Love\".\nOther single from the same album."
+  },
+  {
+   "split": "test",
+   "id": "5ac249f55542992f1f2b3831",
+   "claims": [
+    "Nationality of the inventor of the Alexander Technique."
+   ],
+   "raw": "Nationality of the inventor of the Alexander Technique."
+  },
+  {
+   "split": "test",
+   "id": "5a7d26fd554299452d57bb2a",
+   "claims": [
+    "The lions about which there is a fictionalized account for the film \"The Ghost and the Darkness.\""
+   ],
+   "raw": "The lions about which there is a fictionalized account for the film \"The Ghost and the Darkness.\""
+  },
+  {
+   "split": "test",
+   "id": "5aba52e655429939ce03dc94",
+   "claims": [
+    "This term about a playwright who lived from 1564-1616."
+   ],
+   "raw": "This term about a playwright who lived from 1564-1616."
+  },
+  {
+   "split": "test",
+   "id": "5a8887a055429938390d3f72",
+   "claims": [
+    "Reservation named after the principal leader of the Montana Chippewa-Cree."
+   ],
+   "raw": "Reservation named after the principal leader of the Montana Chippewa-Cree."
+  },
+  {
+   "split": "test",
+   "id": "5a7af2a455429931da12c998",
+   "claims": [
+    "Palm Springs lies in Palm Beach County.",
+    "Palm Springs lies in a state.",
+    "The state where Palm Springs is located."
+   ],
+   "raw": "Palm Springs lies in Palm Beach County.\nPalm Springs lies in a state.\nThe state where Palm Springs is located."
+  },
+  {
+   "split": "test",
+   "id": "5a7c703055429935c91b51aa",
+   "claims": [
+    "The constituent college of the University of Oxford in England that Francis Leighton was warden of."
+   ],
+   "raw": "The constituent college of the University of Oxford in England that Francis Leighton was warden of."
+  },
+  {
+   "split": "test",
+   "id": "5abb8aaf5542993f40c73b1c",
+   "claims": [
+    "Jennifer Paige Chambers appeared in shows featuring Jiminy Glick and Ed Grimley.",
+    "The creator of the characters Jiminy Glick and Ed Grimley lived and worked in a specific city."
+   ],
+   "raw": "Jennifer Paige Chambers appeared in shows featuring Jiminy Glick and Ed Grimley.\nThe creator of the characters Jiminy Glick and Ed Grimley lived and worked in a specific city."
+  },
+  {
+   "split": "test",
+   "id": "5a8a58f355429930ff3c0da3",
+   "claims": [
+    "Daniel Mann was a director.",
+    "Todd Solond was a director."
+   ],
+   "raw": "Daniel Mann was a director.\nTodd Solond was a director."
+  },
+  {
+   "split": "test",
+   "id": "5a79e3925542994bb9457130",
+   "claims": [
+    "Arthur Haile's bestseller titles.",
+    "Donna Tartt's birth year."
+   ],
+   "raw": "Arthur Haile's bestseller titles.\nDonna Tartt's birth year."
+  },
+  {
+   "split": "test",
+   "id": "5ae5e8c85542996de7b71a69",
+   "claims": [
+    "The actor who has acted in the film Arrival.",
+    "The actor who has been nominated for the Academy Award for Best Supporting Actor for the film `The Town'."
+   ],
+   "raw": "The actor who has acted in the film Arrival.\nThe actor who has been nominated for the Academy Award for Best Supporting Actor for the film `The Town'."
+  },
+  {
+   "split": "test",
+   "id": "5ae12fcf5542990adbacf72c",
+   "claims": [
+    "Astro Boy's genre classification.",
+    "The Secret of Kells' genre classification."
+   ],
+   "raw": "Astro Boy's genre classification.\nThe Secret of Kells' genre classification."
+  },
+  {
+   "split": "test",
+   "id": "5a8f6fbf5542992414482acd",
+   "claims": [
+    "The person Mountbatten Institute was named after."
+   ],
+   "raw": "The person Mountbatten Institute was named after."
+  },
+  {
+   "split": "test",
+   "id": "5ac34ed0554299741d48a248",
+   "claims": [
+    "The sultan of the Ottoman Empire that Gevherhan Sultan was a granddaughter to."
+   ],
+   "raw": "The sultan of the Ottoman Empire that Gevherhan Sultan was a granddaughter to."
+  },
+  {
+   "split": "test",
+   "id": "5a79186f55429907847277af",
+   "claims": [
+    "Stadium that was named after Rodney Cline Carew."
+   ],
+   "raw": "Stadium that was named after Rodney Cline Carew."
+  },
+  {
+   "split": "test",
+   "id": "5ac23f5255429951e9e684d8",
+   "claims": [
+    "Jeff Perry's role in the ABC political drama Scandal.",
+    "Director of the upcoming thriller."
+   ],
+   "raw": "Jeff Perry's role in the ABC political drama Scandal.\nDirector of the upcoming thriller."
+  },
+  {
+   "split": "test",
+   "id": "5a7af4cd55429931da12c9a6",
+   "claims": [
+    "Beena Sarwar's current role as an editor.",
+    "A newspaper based in which city sponsors her peace initiative."
+   ],
+   "raw": "Beena Sarwar's current role as an editor.\nA newspaper based in which city sponsors her peace initiative."
+  },
+  {
+   "split": "test",
+   "id": "5ae6fee3554299572ea54670",
+   "claims": [
+    "The player who defeated Johnny Majors for the Heisman Trophy in 1956.",
+    "Johnny Majors was defeated by in 1956 for the Heisman Trophy."
+   ],
+   "raw": "The player who defeated Johnny Majors for the Heisman Trophy in 1956.\nJohnny Majors was defeated by in 1956 for the Heisman Trophy."
+  },
+  {
+   "split": "test",
+   "id": "5a89e95c5542992e4fca8474",
+   "claims": [
+    "Javier Frana's occupation.",
+    "Thomaz Koch's occupation."
+   ],
+   "raw": "Javier Frana's occupation.\nThomaz Koch's occupation."
+  },
+  {
+   "split": "test",
+   "id": "5adcc3ed5542994d58a2f6c4",
+   "claims": [
+    "Carlene LeFevre and Rich LeFevre.",
+    "Group formed by Carlene LeFevre and Rich LeFevre.",
+    "Location where the group was formed (Brooklyn, New York City)."
+   ],
+   "raw": "Carlene LeFevre and Rich LeFevre.  \nGroup formed by Carlene LeFevre and Rich LeFevre.  \nLocation where the group was formed (Brooklyn, New York City)."
+  },
+  {
+   "split": "test",
+   "id": "5a8197905542995ce29dcc10",
+   "claims": [
+    "The dog breed not recognized by the F\u00e9d\u00e9ration Cynologique Internationale.",
+    "The Korean Jindo or the Taigan."
+   ],
+   "raw": "The dog breed not recognized by the F\u00e9d\u00e9ration Cynologique Internationale.\nThe Korean Jindo or the Taigan."
+  },
+  {
+   "split": "test",
+   "id": "5a79c9c05542994bb94570a5",
+   "claims": [
+    "This man was born on April 25th, 1947.",
+    "This man was a member of the lower house of the Hawaii State Legislature."
+   ],
+   "raw": "This man was born on April 25th, 1947.\nThis man was a member of the lower house of the Hawaii State Legislature."
+  },
+  {
+   "split": "test",
+   "id": "5ae1408a5542997b2ef7d17c",
+   "claims": [
+    "University located in Pennsylvania.",
+    "Carnegie Mellon University is a university."
+   ],
+   "raw": "University located in Pennsylvania.\nCarnegie Mellon University is a university."
+  },
+  {
+   "split": "test",
+   "id": "5abb61735542993f40c73aef",
+   "claims": [
+    "Pat Conroy's English novels."
+   ],
+   "raw": "Pat Conroy's English novels."
+  },
+  {
+   "split": "test",
+   "id": "5adc995d5542994ed6169ba8",
+   "claims": [
+    "Semitic-speaking group described as semi-nomadic."
+   ],
+   "raw": "Semitic-speaking group described as semi-nomadic."
+  },
+  {
+   "split": "test",
+   "id": "5a847e805542993344746140",
+   "claims": [
+    "Margaret Clifford, Countess of Derby's father.",
+    "Castle where her father was seated."
+   ],
+   "raw": "Margaret Clifford, Countess of Derby's father.\nCastle where her father was seated."
+  },
+  {
+   "split": "test",
+   "id": "5a862b0b554299211dda2a98",
+   "claims": [
+    "The Salford Red Devils football club's current home ground.",
+    "The year the Salford Red Devils moved to their current home ground."
+   ],
+   "raw": "The Salford Red Devils football club's current home ground.\nThe year the Salford Red Devils moved to their current home ground."
+  },
+  {
+   "split": "test",
+   "id": "5ae324775542994393b9e62f",
+   "claims": [
+    "Korea University College of Education's location."
+   ],
+   "raw": "Korea University College of Education's location."
+  },
+  {
+   "split": "test",
+   "id": "5a7f0c4b5542993067513600",
+   "claims": [
+    "The group of people nicknamed the US Army's regiment \"Buffalo Soldiers\".",
+    "Thomas Shaw won the Medal of Honor during which Indian Wars."
+   ],
+   "raw": "The group of people nicknamed the US Army's regiment \"Buffalo Soldiers\".\nThomas Shaw won the Medal of Honor during which Indian Wars."
+  },
+  {
+   "split": "test",
+   "id": "5ababbe9554299232ef4a38a",
+   "claims": [
+    "The author who influenced the animated Easter television special \"The First Easter Rabbit\"."
+   ],
+   "raw": "The author who influenced the animated Easter television special \"The First Easter Rabbit\"."
+  },
+  {
+   "split": "test",
+   "id": "5ae1305b55429901ffe4add6",
+   "claims": [
+    "King George V Bridge crosses the River Trent.",
+    "A small village 4 mi west of where King George V Bridge is located."
+   ],
+   "raw": "King George V Bridge crosses the River Trent.\nA small village 4 mi west of where King George V Bridge is located."
+  },
+  {
+   "split": "test",
+   "id": "5ae74baa5542997b22f6a68f",
+   "claims": [
+    "Davey Brozowski is a percussionist."
+   ],
+   "raw": "Davey Brozowski is a percussionist."
+  },
+  {
+   "split": "test",
+   "id": "5a7db0915542990b8f503a30",
+   "claims": [
+    "Jakob Lukas Schabelitz's academic affiliations.",
+    "The German philosopher, economist and political theorist."
+   ],
+   "raw": "Jakob Lukas Schabelitz's academic affiliations.\nThe German philosopher, economist and political theorist."
+  },
+  {
+   "split": "test",
+   "id": "5a72f45a5542992359bc31e6",
+   "claims": [
+    "The venue for the Mayweather-Ortiz fight."
+   ],
+   "raw": "The venue for the Mayweather-Ortiz fight."
+  },
+  {
+   "split": "test",
+   "id": "5ac47d7355429919431739b3",
+   "claims": [
+    "Dutch painter who specializes in domestic interior scenes of middle class life.",
+    "The Dutch painter with a specific work at the Louvre, Paris."
+   ],
+   "raw": "Dutch painter who specializes in domestic interior scenes of middle class life.\nThe Dutch painter with a specific work at the Louvre, Paris."
+  },
+  {
+   "split": "test",
+   "id": "5ae3a0be5542991a06ce9a05",
+   "claims": [
+    "Mickey Arthur's coaching background.",
+    "The nationality or ethnic origin of Mickey Arthur."
+   ],
+   "raw": "Mickey Arthur's coaching background.\nThe nationality or ethnic origin of Mickey Arthur."
+  },
+  {
+   "split": "test",
+   "id": "5a881cbb55429938390d3ee7",
+   "claims": [
+    "The earlier architectural style of the rectory of St. John of the Cross Episcopal Church."
+   ],
+   "raw": "The earlier architectural style of the rectory of St. John of the Cross Episcopal Church."
+  },
+  {
+   "split": "test",
+   "id": "5ade04d75542997dc7907125",
+   "claims": [
+    "The director of The Lion King.",
+    "The year the director won the Tony Awards."
+   ],
+   "raw": "The director of The Lion King.\nThe year the director won the Tony Awards."
+  },
+  {
+   "split": "test",
+   "id": "5a80f793554299260e20a1e1",
+   "claims": [
+    "The British company involved in recording The Golden Compass audiobook."
+   ],
+   "raw": "The British company involved in recording The Golden Compass audiobook."
+  },
+  {
+   "split": "test",
+   "id": "5a7905ca554299148911f9c8",
+   "claims": [
+    "The player acquired by the Los Angeles Clippers from the Atlanta Hawks."
+   ],
+   "raw": "The player acquired by the Los Angeles Clippers from the Atlanta Hawks."
+  },
+  {
+   "split": "test",
+   "id": "5a79abef5542994bb9457035",
+   "claims": [
+    "The Church at Hoxton was dedicated to Edmund the Martyr."
+   ],
+   "raw": "The Church at Hoxton was dedicated to Edmund the Martyr."
+  },
+  {
+   "split": "test",
+   "id": "5ae0fd9655429920d5234264",
+   "claims": [
+    "The show \"Rudolph the Red-Nosed Reindeer\" was first aired.",
+    "The show \"A Charlie Brown Christmas\" was first aired."
+   ],
+   "raw": "The show \"Rudolph the Red-Nosed Reindeer\" was first aired.\nThe show \"A Charlie Brown Christmas\" was first aired."
+  },
+  {
+   "split": "test",
+   "id": "5adcd5005542994d58a2f6f0",
+   "claims": [
+    "The voice actor who voices the character starring in Baseball Bugs."
+   ],
+   "raw": "The voice actor who voices the character starring in Baseball Bugs."
+  },
+  {
+   "split": "test",
+   "id": "5ab48c325542996a3a969f93",
+   "claims": [
+    "The county where English king Harold Godwinson is buried."
+   ],
+   "raw": "The county where English king Harold Godwinson is buried."
+  },
+  {
+   "split": "test",
+   "id": "5adfdef9554299025d62a36b",
+   "claims": [
+    "The person appointed as the first governor after the Missouri Compromise."
+   ],
+   "raw": "The person appointed as the first governor after the Missouri Compromise."
+  },
+  {
+   "split": "test",
+   "id": "5a7d052255429909bec768fd",
+   "claims": [
+    "The building near Piazza San Fedele magazine is known as.",
+    "The name of the world's oldest shopping mall."
+   ],
+   "raw": "The building near Piazza San Fedele magazine is known as.\nThe name of the world's oldest shopping mall."
+  },
+  {
+   "split": "test",
+   "id": "5ab82bbb5542990e739ec84c",
+   "claims": [
+    "The genus that contains more species, Babiana or Ceratophyllum."
+   ],
+   "raw": "The genus that contains more species, Babiana or Ceratophyllum."
+  },
+  {
+   "split": "test",
+   "id": "5ae5be02554299546bf82f3e",
+   "claims": [
+    "The corporation that owns Space Dev."
+   ],
+   "raw": "The corporation that owns Space Dev."
+  },
+  {
+   "split": "test",
+   "id": "5a80afcf554299485f5986b9",
+   "claims": [
+    "Who were the other members involved in the Boren-McCurdy proposals?"
+   ],
+   "raw": "Who were the other members involved in the Boren-McCurdy proposals?"
+  },
+  {
+   "split": "test",
+   "id": "5a8aed1555429970aeb70334",
+   "claims": [
+    "UROVESA's most famous vehicle model.",
+    "AM General's four-wheel drive military light truck."
+   ],
+   "raw": "UROVESA's most famous vehicle model.\nAM General's four-wheel drive military light truck."
+  },
+  {
+   "split": "test",
+   "id": "5a860642554299211dda2a3e",
+   "claims": [
+    "Ralph Faudree's position in the United Kingdom or Australia."
+   ],
+   "raw": "Ralph Faudree's position in the United Kingdom or Australia."
+  },
+  {
+   "split": "test",
+   "id": "5a8af94455429971feec45b6",
+   "claims": [
+    "Jon S. Cardin's uncle who is a senator.",
+    "When his uncle was first elected to office."
+   ],
+   "raw": "Jon S. Cardin's uncle who is a senator.\nWhen his uncle was first elected to office."
+  },
+  {
+   "split": "test",
+   "id": "5a7119095542994082a3e589",
+   "claims": [
+    "Current vice-captain of the English Test team."
+   ],
+   "raw": "Current vice-captain of the English Test team."
+  },
+  {
+   "split": "test",
+   "id": "5a8a38135542996c9b8d5e59",
+   "claims": [
+    "Otto von Bismarck's place of origin.",
+    "Ludwig Friedrich Leopold von Gerlach's place of origin."
+   ],
+   "raw": "Otto von Bismarck's place of origin.\nLudwig Friedrich Leopold von Gerlach's place of origin."
+  },
+  {
+   "split": "test",
+   "id": "5a726b0f5542997f827839be",
+   "claims": [
+    "Samantha Cristoforetti birth year.",
+    "Jean-Loup Chr\u00e9tien birth year."
+   ],
+   "raw": "Samantha Cristoforetti birth year.\nJean-Loup Chr\u00e9tien birth year."
+  },
+  {
+   "split": "test",
+   "id": "5a83a30a5542992ef85e2339",
+   "claims": [
+    "This team's sport division.",
+    "Kyle Skipworth's previous team.",
+    "Position of Kyle Skipworth in his previous team (catcher)."
+   ],
+   "raw": "This team's sport division.\nKyle Skipworth's previous team.\nPosition of Kyle Skipworth in his previous team (catcher)."
+  },
+  {
+   "split": "test",
+   "id": "5a7dec305542995ed0d16679",
+   "claims": [
+    "American filmmakers who have directed more than 50 films.",
+    "Jon Paul Puno or Ken Kwapis."
+   ],
+   "raw": "American filmmakers who have directed more than 50 films.  \nJon Paul Puno or Ken Kwapis."
+  },
+  {
+   "split": "test",
+   "id": "5a76641e5542992d0ec060d8",
+   "claims": [
+    "American actress who died in 2011.",
+    "Movie \"Fear Stalk\" starring this actress."
+   ],
+   "raw": "American actress who died in 2011.\nMovie \"Fear Stalk\" starring this actress."
+  },
+  {
+   "split": "test",
+   "id": "5ab82e195542992aa3b8c8a8",
+   "claims": [
+    "The Russian-British physicist who shared the Nobel Prize in Physics in 2010.",
+    "The country where the research center dedicated to continuing the work with graphene was established."
+   ],
+   "raw": "The Russian-British physicist who shared the Nobel Prize in Physics in 2010.\nThe country where the research center dedicated to continuing the work with graphene was established."
+  },
+  {
+   "split": "test",
+   "id": "5abd8c295542992ac4f382ab",
+   "claims": [
+    "A professor who founded the Minnesota State High School Mathematics League.",
+    "A private coeducational liberal arts college that hosted the league.",
+    "The year the private coeducational liberal arts college was founded."
+   ],
+   "raw": "A professor who founded the Minnesota State High School Mathematics League.\nA private coeducational liberal arts college that hosted the league.\nThe year the private coeducational liberal arts college was founded."
+  },
+  {
+   "split": "test",
+   "id": "5a8595005542992a431d1b40",
+   "claims": [
+    "The product being built at the industrial park.",
+    "Tesla Motors' plans or products under development."
+   ],
+   "raw": "The product being built at the industrial park.\nTesla Motors' plans or products under development."
+  },
+  {
+   "split": "test",
+   "id": "5a87081755429960ec39b6fe",
+   "claims": [
+    "Jessica Jones was a television series created for Netflix.",
+    "The show before Jessica Jones that led to \"The Defenders\" miniseries."
+   ],
+   "raw": "Jessica Jones was a television series created for Netflix.\nThe show before Jessica Jones that led to \"The Defenders\" miniseries."
+  },
+  {
+   "split": "test",
+   "id": "5ac29cf8554299218029dac2",
+   "claims": [
+    "American actress who performed \"Take On The World\".",
+    "Sabrina Carpenter's partner in that song."
+   ],
+   "raw": "American actress who performed \"Take On The World\".\nSabrina Carpenter's partner in that song."
+  },
+  {
+   "split": "test",
+   "id": "5ae7d0675542994a481bbdf2",
+   "claims": [
+    "Language spoken by Native American people whose principal town was Anhaica."
+   ],
+   "raw": "Language spoken by Native American people whose principal town was Anhaica."
+  },
+  {
+   "split": "test",
+   "id": "5a8de5d55542995085b3734d",
+   "claims": [
+    "Even band members skilled in classical music.",
+    "Incubus band members not known for classical music."
+   ],
+   "raw": "Even band members skilled in classical music.\nIncubus band members not known for classical music."
+  },
+  {
+   "split": "test",
+   "id": "5a7da98e5542990b8f503a17",
+   "claims": [
+    "The crossroads where the town is located.",
+    "The location of the Charcoal Tank Nature Reserve.",
+    "The distance from the nature reserve to the town (10 km).",
+    "The direction (north) relative to the nature reserve."
+   ],
+   "raw": "The crossroads where the town is located.\nThe location of the Charcoal Tank Nature Reserve.\nThe distance from the nature reserve to the town (10 km).\nThe direction (north) relative to the nature reserve."
+  },
+  {
+   "split": "test",
+   "id": "5ac036b95542992a796deccd",
+   "claims": [
+    "The award that had Matt James as a winner in 2012."
+   ],
+   "raw": "The award that had Matt James as a winner in 2012."
+  },
+  {
+   "split": "test",
+   "id": "5add1d435542990d50227de8",
+   "claims": [
+    "The company that designed the Glomar Challenger."
+   ],
+   "raw": "The company that designed the Glomar Challenger."
+  },
+  {
+   "split": "test",
+   "id": "5ab6369655429953192ad2a1",
+   "claims": [
+    "The Genus that contains more species, Eucryphia or Lepidozamia?"
+   ],
+   "raw": "The Genus that contains more species, Eucryphia or Lepidozamia?"
+  },
+  {
+   "split": "test",
+   "id": "5ade61fd554299728e26c704",
+   "claims": [
+    "Get Off album artist.",
+    "Musical style originating in NYC in the early 1970s.",
+    "Group using that musical style."
+   ],
+   "raw": "Get Off album artist.\nMusical style originating in NYC in the early 1970s.\nGroup using that musical style."
+  },
+  {
+   "split": "test",
+   "id": "5a806e01554299485f5985e5",
+   "claims": [
+    "The 1991 American action comedy film The Hard Way.",
+    "Rawkus Records artists."
+   ],
+   "raw": "The 1991 American action comedy film The Hard Way.\nRawkus Records artists."
+  },
+  {
+   "split": "test",
+   "id": "5a7b2144554299042af8f6f7",
+   "claims": [
+    "The town with the geographic feature where the battle James Swan was wounded.",
+    "The name given to the geographic feature in honor of James Swan."
+   ],
+   "raw": "The town with the geographic feature where the battle James Swan was wounded.\nThe name given to the geographic feature in honor of James Swan."
+  },
+  {
+   "split": "test",
+   "id": "5a83697e5542996488c2e441",
+   "claims": [
+    "Park Seo-joon's best known role.",
+    "Month and day the series premiered."
+   ],
+   "raw": "Park Seo-joon's best known role.\nMonth and day the series premiered."
+  },
+  {
+   "split": "test",
+   "id": "5ade9c2155429939a52fe8fe",
+   "claims": [
+    "The Walkley Heights suburb information.",
+    "A prison was built in that area.",
+    "The year the prison was built."
+   ],
+   "raw": "The Walkley Heights suburb information.\nA prison was built in that area.\nThe year the prison was built."
+  },
+  {
+   "split": "test",
+   "id": "5abd68b45542993062266c77",
+   "claims": [
+    "The main character in Unbroken."
+   ],
+   "raw": "The main character in Unbroken."
+  },
+  {
+   "split": "test",
+   "id": "5ab981555542996be2020532",
+   "claims": [
+    "Bob Hewitt's current citizenship.",
+    "Ray Ruffels' current citizenship."
+   ],
+   "raw": "Bob Hewitt's current citizenship.\nRay Ruffels' current citizenship."
+  },
+  {
+   "split": "test",
+   "id": "5a86204d5542994775f60709",
+   "claims": [
+    "The activist who wrote \"The Extreme Centre: A Warning\".",
+    "The college the activist studied at."
+   ],
+   "raw": "The activist who wrote \"The Extreme Centre: A Warning\".\nThe college the activist studied at."
+  },
+  {
+   "split": "test",
+   "id": "5a86ed6155429960ec39b6d9",
+   "claims": [
+    "The American country rock band whose number one song was done as a cover on the album \"What If?\"."
+   ],
+   "raw": "The American country rock band whose number one song was done as a cover on the album \"What If?\"."
+  },
+  {
+   "split": "test",
+   "id": "5a820f2f554299676cceb1ff",
+   "claims": [
+    "Michael Fincke's record for time in space.",
+    "Scott Kelly's records related to the ISS Expedition."
+   ],
+   "raw": "Michael Fincke's record for time in space.\nScott Kelly's records related to the ISS Expedition."
+  },
+  {
+   "split": "test",
+   "id": "5ab959905542996be2020497",
+   "claims": [
+    "Pontiac's automobile that was built as the \"big brother\" to the 2+2.",
+    "Years during which this other automobile was produced by Pontiac."
+   ],
+   "raw": "Pontiac's automobile that was built as the \"big brother\" to the 2+2.\nYears during which this other automobile was produced by Pontiac."
+  },
+  {
+   "split": "test",
+   "id": "5ae34a225542992e3233c370",
+   "claims": [
+    "Eug\u00e8ne Ionesco's lifespan.",
+    "Paul Scott's lifespan."
+   ],
+   "raw": "Eug\u00e8ne Ionesco's lifespan.\nPaul Scott's lifespan."
+  },
+  {
+   "split": "test",
+   "id": "5a7914e155429974737f7973",
+   "claims": [
+    "Vicente Garc\u00eda's date of birth.",
+    "Ximena Sari\u00f1ana's date of birth."
+   ],
+   "raw": "Vicente Garc\u00eda's date of birth.\nXimena Sari\u00f1ana's date of birth."
+  },
+  {
+   "split": "test",
+   "id": "5a73830d55429908901be2da",
+   "claims": [
+    "The actress who starred in \"The Golden Girls\".",
+    "The actress who was an animal rights activist."
+   ],
+   "raw": "The actress who starred in \"The Golden Girls\".\nThe actress who was an animal rights activist."
+  },
+  {
+   "split": "test",
+   "id": "5a80a587554299485f598676",
+   "claims": [
+    "The band The Four Seasons was popular.",
+    "The band Local H was popular.",
+    "The era when The Beatles were active."
+   ],
+   "raw": "The band The Four Seasons was popular.\nThe band Local H was popular.\nThe era when The Beatles were active."
+  },
+  {
+   "split": "test",
+   "id": "5ab56555554299494045ef97",
+   "claims": [
+    "Simon Wiesenthal's involvement in a feud.",
+    "Time period when Nazi hunting activities were prominent."
+   ],
+   "raw": "Simon Wiesenthal's involvement in a feud.\nTime period when Nazi hunting activities were prominent."
+  },
+  {
+   "split": "test",
+   "id": "5a7f22005542993067513656",
+   "claims": [
+    "Kele Okereke made the New Zealand band Evermore.",
+    "Jon Hume made the New Zealand band Evermore.",
+    "Among Kele Okereke and Jon Hume."
+   ],
+   "raw": "Kele Okereke made the New Zealand band Evermore.  \nJon Hume made the New Zealand band Evermore.  \nAmong Kele Okereke and Jon Hume."
+  },
+  {
+   "split": "test",
+   "id": "5a83d0ed5542996488c2e4e7",
+   "claims": [
+    "Triangle Brewing Company's founding founder.",
+    "Experience of said founder in non-commercial alcohol production."
+   ],
+   "raw": "Triangle Brewing Company's founding founder.\nExperience of said founder in non-commercial alcohol production."
+  },
+  {
+   "split": "test",
+   "id": "5a74d7685542996c70cfae0a",
+   "claims": [
+    "The person who was allegedly the murderer of \"The Crime of the Century\".",
+    "The prison facility called \"Old Smoky\"."
+   ],
+   "raw": "The person who was allegedly the murderer of \"The Crime of the Century\".\nThe prison facility called \"Old Smoky\"."
+  },
+  {
+   "split": "test",
+   "id": "5a78d01d55429974737f78b3",
+   "claims": [
+    "The romantic comedy that featured the singer known as the \"Ballad Prince\".",
+    "A state-run channel in India that aired the romantic comedy.",
+    "The period (August 11 to September 30) when the romantic comedy was aired.",
+    "The name of the state-run channel."
+   ],
+   "raw": "The romantic comedy that featured the singer known as the \"Ballad Prince\".\nA state-run channel in India that aired the romantic comedy.\nThe period (August 11 to September 30) when the romantic comedy was aired.\nThe name of the state-run channel."
+  },
+  {
+   "split": "test",
+   "id": "5a83880e554299123d8c214e",
+   "claims": [
+    "Suicide's 1977 release album name.",
+    "The brand associated with the comic character featured in the song."
+   ],
+   "raw": "Suicide's 1977 release album name.\nThe brand associated with the comic character featured in the song."
+  },
+  {
+   "split": "test",
+   "id": "5ae6479a55429929b0807b1b",
+   "claims": [
+    "Jun Ji-hyun's first acting role.",
+    "Title of the film where she played a girl."
+   ],
+   "raw": "Jun Ji-hyun's first acting role.\nTitle of the film where she played a girl."
+  },
+  {
+   "split": "test",
+   "id": "5ae7ef625542994a481bbe40",
+   "claims": [
+    "Tessa's place of growing up within the Central Coast Council local government area."
+   ],
+   "raw": "Tessa's place of growing up within the Central Coast Council local government area."
+  },
+  {
+   "split": "test",
+   "id": "5a90492655429933b8a204d8",
+   "claims": [
+    "Garth Richardson's father as a producer.",
+    "The group that evolved from The Iveys."
+   ],
+   "raw": "Garth Richardson's father as a producer.\nThe group that evolved from The Iveys."
+  },
+  {
+   "split": "test",
+   "id": "5ac2610f55429951e9e68593",
+   "claims": [
+    "Indian businessman and politician who owns Mabula Game Reserve."
+   ],
+   "raw": "Indian businessman and politician who owns Mabula Game Reserve."
+  },
+  {
+   "split": "test",
+   "id": "5ab5052a5542990594ba9ccf",
+   "claims": [
+    "A new permanent member on the fourteenth season of So You Think You Can Dance.",
+    "The role played by that person in High School Musical."
+   ],
+   "raw": "A new permanent member on the fourteenth season of So You Think You Can Dance.\nThe role played by that person in High School Musical."
+  },
+  {
+   "split": "test",
+   "id": "5a77bef05542992a6e59dfaf",
+   "claims": [
+    "Dr Jan Schneider's political party affiliation.",
+    "Republican politician who ran against Dr Jan Schneider.",
+    "City where the election took place."
+   ],
+   "raw": "Dr Jan Schneider's political party affiliation.\nRepublican politician who ran against Dr Jan Schneider.\nCity where the election took place."
+  },
+  {
+   "split": "test",
+   "id": "5a77a8b45542995d83181253",
+   "claims": [
+    "The Kegeyli District name in Turkic language."
+   ],
+   "raw": "The Kegeyli District name in Turkic language."
+  },
+  {
+   "split": "test",
+   "id": "5abab36455429955dce3eed1",
+   "claims": [
+    "Ryan Babel plays for the football club Ajax.",
+    "Ajax is associated with the song Wij Zijn Ajax."
+   ],
+   "raw": "Ryan Babel plays for the football club Ajax.\nAjax is associated with the song Wij Zijn Ajax."
+  },
+  {
+   "split": "test",
+   "id": "5ae06ee755429945ae959352",
+   "claims": [
+    "Orville Siegfried's place of college education."
+   ],
+   "raw": "Orville Siegfried's place of college education."
+  },
+  {
+   "split": "test",
+   "id": "5ae48a2b55429913cc204494",
+   "claims": [
+    "Jennifer Nettles was a member of the duo Sugarland."
+   ],
+   "raw": "Jennifer Nettles was a member of the duo Sugarland."
+  },
+  {
+   "split": "test",
+   "id": "5ac0fd56554299012d1db679",
+   "claims": [
+    "Carrie Coon's role as Margo Dunne in a 2014 film.",
+    "A state in the United States where the setting of the film is based."
+   ],
+   "raw": "Carrie Coon's role as Margo Dunne in a 2014 film.\nA state in the United States where the setting of the film is based."
+  },
+  {
+   "split": "test",
+   "id": "5adfda9655429925eb1afac0",
+   "claims": [
+    "The band A Silent Film has more members.",
+    "The band The Frames has more members."
+   ],
+   "raw": "The band A Silent Film has more members.\nThe band The Frames has more members."
+  },
+  {
+   "split": "test",
+   "id": "5add566b5542995b365fab14",
+   "claims": [
+    "The multinational networking and telecommunications equipment and services company that used to occupy the space.",
+    "The city of Umea where the space is located.",
+    "The Minerva Gymnasium's current location information."
+   ],
+   "raw": "The multinational networking and telecommunications equipment and services company that used to occupy the space.\nThe city of Umea where the space is located.\nThe Minerva Gymnasium's current location information."
+  },
+  {
+   "split": "test",
+   "id": "5a87b93c5542996e4f3088ec",
+   "claims": [
+    "The wartime head of the laboratory that Oppenheimer's associations were explored."
+   ],
+   "raw": "The wartime head of the laboratory that Oppenheimer's associations were explored."
+  },
+  {
+   "split": "test",
+   "id": "5ae531ee5542990ba0bbb1ff",
+   "claims": [
+    "Tommy's Honour (film title).",
+    "Actor involved in the 2016 BBC miniseries."
+   ],
+   "raw": "Tommy's Honour (film title).\nActor involved in the 2016 BBC miniseries."
+  },
+  {
+   "split": "test",
+   "id": "5a7d22dc5542995ed0d16600",
+   "claims": [
+    "Christopher Buckley's relation to the National Review founder.",
+    "The name of the founder of \"National Review\" magazine."
+   ],
+   "raw": "Christopher Buckley's relation to the National Review founder.\nThe name of the founder of \"National Review\" magazine."
+  },
+  {
+   "split": "test",
+   "id": "5a75d9c05542992db94736f6",
+   "claims": [
+    "English-born Australian singer/songwriter who was a judge on Australia's Got Talent."
+   ],
+   "raw": "English-born Australian singer/songwriter who was a judge on Australia's Got Talent."
+  },
+  {
+   "split": "test",
+   "id": "5a7dcc775542990b8f503ab5",
+   "claims": [
+    "Component of shellite with formula (ON)CHOH."
+   ],
+   "raw": "Component of shellite with formula (ON)CHOH."
+  },
+  {
+   "split": "test",
+   "id": "5ae0d9c555429924de1b719a",
+   "claims": [
+    "Van Andel Institute founder.",
+    "American businessman who co-founded the Amway Corporation."
+   ],
+   "raw": "Van Andel Institute founder.\nAmerican businessman who co-founded the Amway Corporation."
+  },
+  {
+   "split": "test",
+   "id": "5a7fb5ce5542994857a767ca",
+   "claims": [
+    "Enotris Johnson."
+   ],
+   "raw": "Enotris Johnson."
+  },
+  {
+   "split": "test",
+   "id": "5adcc6765542994d58a2f6c9",
+   "claims": [
+    "The person who hosted the 2014 edition of the MTV Africa Music Awards."
+   ],
+   "raw": "The person who hosted the 2014 edition of the MTV Africa Music Awards."
+  },
+  {
+   "split": "test",
+   "id": "5ae759b25542991e8301cc6b",
+   "claims": [
+    "The year the film Jack was released.",
+    "The identity of the serial killer protagonist in Jack.",
+    "The year the serial killer in Jack died."
+   ],
+   "raw": "The year the film Jack was released.\nThe identity of the serial killer protagonist in Jack.\nThe year the serial killer in Jack died."
+  },
+  {
+   "split": "test",
+   "id": "5a835b88554299123d8c2101",
+   "claims": [
+    "Arnold Richards' former position as chair.",
+    "Organization that Arnold Richards held his former position in, and is a member of the Center for Jewish History."
+   ],
+   "raw": "Arnold Richards' former position as chair.\nOrganization that Arnold Richards held his former position in, and is a member of the Center for Jewish History."
+  },
+  {
+   "split": "test",
+   "id": "5ac546975542993e66e8229a",
+   "claims": [
+    "A consumer co-operative early in history.",
+    "A 2012 British biographical feature film tells the story of this co-operative."
+   ],
+   "raw": "A consumer co-operative early in history.\nA 2012 British biographical feature film tells the story of this co-operative."
+  },
+  {
+   "split": "test",
+   "id": "5adca8215542994ed6169bbc",
+   "claims": [
+    "American actor trying to make a long-distance relationship work in \"The Infestation Hypothesis\"."
+   ],
+   "raw": "American actor trying to make a long-distance relationship work in \"The Infestation Hypothesis\"."
+  },
+  {
+   "split": "test",
+   "id": "5ab600fb554299488d4d9a82",
+   "claims": [
+    "Stanmore-born prime ministers.",
+    "John Gorton as a serving minister."
+   ],
+   "raw": "Stanmore-born prime ministers.\nJohn Gorton as a serving minister."
+  },
+  {
+   "split": "test",
+   "id": "5ade84d7554299728e26c72b",
+   "claims": [
+    "D-A-D genre of music.",
+    "G\u00e2ndul M\u00e2\u021bei genre of music."
+   ],
+   "raw": "D-A-D genre of music.\nG\u00e2ndul M\u00e2\u021bei genre of music."
+  },
+  {
+   "split": "test",
+   "id": "5a849c1b5542997175ce1ef9",
+   "claims": [
+    "The author of The Irrational Atheist."
+   ],
+   "raw": "The author of The Irrational Atheist."
+  },
+  {
+   "split": "test",
+   "id": "5ae1b1445542997283cd223d",
+   "claims": [
+    "Her name in her final film role in the 1964 film.",
+    "The director of the 1964 film.",
+    "The director who also directed Vera Cruz and Kiss Me Deadly."
+   ],
+   "raw": "Her name in her final film role in the 1964 film.\nThe director of the 1964 film.\nThe director who also directed Vera Cruz and Kiss Me Deadly."
+  },
+  {
+   "split": "test",
+   "id": "5a8193275542995ce29dcc07",
+   "claims": [
+    "Frankenweenie's voice actress.",
+    "1996 movie directed by Christopher Guest."
+   ],
+   "raw": "Frankenweenie's voice actress.\n1996 movie directed by Christopher Guest."
+  },
+  {
+   "split": "test",
+   "id": "5a8af11a55429950cd6afc21",
+   "claims": [
+    "Hoch Conservatory's music teacher on-staff.",
+    "Composer whose works were first publicly performed at the conservatory."
+   ],
+   "raw": "Hoch Conservatory's music teacher on-staff.\nComposer whose works were first publicly performed at the conservatory."
+  },
+  {
+   "split": "test",
+   "id": "5a7a9a2255429941d65f26eb",
+   "claims": [
+    "Kang Sung-yeon's role as Prince Yeonsan.",
+    "The film in which he played this role.",
+    "The runtime of the film."
+   ],
+   "raw": "Kang Sung-yeon's role as Prince Yeonsan.  \nThe film in which he played this role.  \nThe runtime of the film."
+  },
+  {
+   "split": "test",
+   "id": "5abbf8bc5542993f40c73c35",
+   "claims": [
+    "Viken Babikian nationality.",
+    "Don Manoukian nationality."
+   ],
+   "raw": "Viken Babikian nationality.\nDon Manoukian nationality."
+  },
+  {
+   "split": "test",
+   "id": "5ab5d6155542997d4ad1f1fa",
+   "claims": [
+    "The band that compiled the tracks for The Early Years.",
+    "When that band was inducted into the Rock and Roll Hall of Fame.",
+    "The man who compiled the tracks for The Early Years."
+   ],
+   "raw": "The band that compiled the tracks for The Early Years.\nWhen that band was inducted into the Rock and Roll Hall of Fame.\nThe man who compiled the tracks for The Early Years."
+  },
+  {
+   "split": "test",
+   "id": "5a7f6fd75542992e7d278cfa",
+   "claims": [
+    "Canadian rock band that released \"Counterparts\".",
+    "Drummer inducted into Modern Drummer Hall of Fame.",
+    "Rock band who released \"Counterparts\" and had mentioned drummer."
+   ],
+   "raw": "Canadian rock band that released \"Counterparts\".\nDrummer inducted into Modern Drummer Hall of Fame.\nRock band who released \"Counterparts\" and had mentioned drummer."
+  },
+  {
+   "split": "test",
+   "id": "5abe03635542991f661060a5",
+   "claims": [
+    "The former Stanford Cardinals player who caught 57 passes for 1010 yards and 14 TDs.",
+    "The middle name of that player."
+   ],
+   "raw": "The former Stanford Cardinals player who caught 57 passes for 1010 yards and 14 TDs.\nThe middle name of that player."
+  },
+  {
+   "split": "test",
+   "id": "5ae74818554299572ea547ad",
+   "claims": [
+    "James Fowle Baldwin's involvement with a historic railroad in Massachusetts."
+   ],
+   "raw": "James Fowle Baldwin's involvement with a historic railroad in Massachusetts."
+  },
+  {
+   "split": "test",
+   "id": "5ac24a035542992f1f2b3832",
+   "claims": [
+    "Joan Baez's hit recording that used lead vocals from The Band."
+   ],
+   "raw": "Joan Baez's hit recording that used lead vocals from The Band."
+  },
+  {
+   "split": "test",
+   "id": "5a8a77fd55429930ff3c0de3",
+   "claims": [
+    "Victory count achieved by Chelsea.",
+    "Victory count achieved by Manchester United."
+   ],
+   "raw": "Victory count achieved by Chelsea.\nVictory count achieved by Manchester United."
+  },
+  {
+   "split": "test",
+   "id": "5ab70c41554299110f219a9d",
+   "claims": [
+    "Physician who studied the 1854 Broad Street cholera outbreak in London.",
+    "The city where the outbreak occurred."
+   ],
+   "raw": "Physician who studied the 1854 Broad Street cholera outbreak in London.\nThe city where the outbreak occurred."
+  },
+  {
+   "split": "test",
+   "id": "5a763986554299109176e6bd",
+   "claims": [
+    "The person named Pierre Wom\u00e9 was born.",
+    "The person named Christian Poulsen was born."
+   ],
+   "raw": "The person named Pierre Wom\u00e9 was born.\nThe person named Christian Poulsen was born."
+  },
+  {
+   "split": "test",
+   "id": "5a7631cd5542994ccc91870c",
+   "claims": [
+    "Jeanne Marie Beaumont's seminars location from 2007 to 2010.",
+    "The city where her seminar was held."
+   ],
+   "raw": "Jeanne Marie Beaumont's seminars location from 2007 to 2010.\nThe city where her seminar was held."
+  },
+  {
+   "split": "test",
+   "id": "5ae20c245542997283cd2367",
+   "claims": [
+    "Hina, a doll used during Japanese festivals."
+   ],
+   "raw": "Hina, a doll used during Japanese festivals."
+  },
+  {
+   "split": "test",
+   "id": "5a792f3e554299029c4b5f20",
+   "claims": [
+    "Maria Anna of Spain's husband.",
+    "Name of the land her husband was king."
+   ],
+   "raw": "Maria Anna of Spain's husband.\nName of the land her husband was king."
+  },
+  {
+   "split": "test",
+   "id": "5a7c6ed3554299683c1c6306",
+   "claims": [
+    "The indigenous language that includes the word Catuaba."
+   ],
+   "raw": "The indigenous language that includes the word Catuaba."
+  },
+  {
+   "split": "test",
+   "id": "5a8ba67755429971feec4748",
+   "claims": [
+    "Orchard Gateway connects to which shopping mall in Singapore.",
+    "313 @ Somerset connects to Orchard Gateway."
+   ],
+   "raw": "Orchard Gateway connects to which shopping mall in Singapore.\n313 @ Somerset connects to Orchard Gateway."
+  },
+  {
+   "split": "test",
+   "id": "5a8f799d55429918e830d22d",
+   "claims": [
+    "The genus with the most species."
+   ],
+   "raw": "The genus with the most species."
+  },
+  {
+   "split": "test",
+   "id": "5ab85f555542992aa3b8c8ca",
+   "claims": [
+    "\"Fool's Garden\", the magazine that was first published.",
+    "First for Women, the magazine that was first published."
+   ],
+   "raw": "\"Fool's Garden\", the magazine that was first published.\nFirst for Women, the magazine that was first published."
+  },
+  {
+   "split": "test",
+   "id": "5ab7f0b9554299366779405d",
+   "claims": [
+    "Tabernaemontana and Crinum share a botanical classification."
+   ],
+   "raw": "Tabernaemontana and Crinum share a botanical classification."
+  },
+  {
+   "split": "test",
+   "id": "5a84574455429933447460e6",
+   "claims": [
+    "Golden State NBA player who won NBA Finals MVP.",
+    "Year this Golden State NBA player won NBA Finals MVP."
+   ],
+   "raw": "Golden State NBA player who won NBA Finals MVP.\nYear this Golden State NBA player won NBA Finals MVP."
+  },
+  {
+   "split": "test",
+   "id": "5adf0ae45542992d7e9f9286",
+   "claims": [
+    "The film featuring Shashi Kapoor's daughter.",
+    "The background or setting of the film."
+   ],
+   "raw": "The film featuring Shashi Kapoor's daughter.\nThe background or setting of the film."
+  },
+  {
+   "split": "test",
+   "id": "5a8a573355429970aeb7029a",
+   "claims": [
+    "The unofficial national anthem of Australia.",
+    "The soccer team with the nickname based on this anthem."
+   ],
+   "raw": "The unofficial national anthem of Australia.\nThe soccer team with the nickname based on this anthem."
+  },
+  {
+   "split": "test",
+   "id": "5aba7fd055429955dce3ee5e",
+   "claims": [
+    "Ladislav Matejka's Michigan Slavic Publications.",
+    "The historian considered to be the founder of morphophonology."
+   ],
+   "raw": "Ladislav Matejka's Michigan Slavic Publications.\nThe historian considered to be the founder of morphophonology."
+  },
+  {
+   "split": "test",
+   "id": "5a80b9e85542992bc0c4a7ed",
+   "claims": [
+    "Another name for a seductive forest creature in Scandinavian folklore."
+   ],
+   "raw": "Another name for a seductive forest creature in Scandinavian folklore."
+  },
+  {
+   "split": "test",
+   "id": "5ab3d5f355429969a97a81c5",
+   "claims": [
+    "The original writer of the 1977 horror film."
+   ],
+   "raw": "The original writer of the 1977 horror film."
+  },
+  {
+   "split": "test",
+   "id": "5abc7bc45542993a06baf8ef",
+   "claims": [
+    "Cassiope number of species.",
+    "Deutzia number of species."
+   ],
+   "raw": "Cassiope number of species.\nDeutzia number of species."
+  },
+  {
+   "split": "test",
+   "id": "5a7bbee85542997c3ec97270",
+   "claims": [
+    "Rafe Hernandez's role in the TV show.",
+    "Chrishell Stause's role in the TV show."
+   ],
+   "raw": "Rafe Hernandez's role in the TV show.\nChrishell Stause's role in the TV show."
+  },
+  {
+   "split": "test",
+   "id": "5ac3e22d5542997ea680c976",
+   "claims": [
+    "Michelle Lewis wrote songs for Lizzie McGuire."
+   ],
+   "raw": "Michelle Lewis wrote songs for Lizzie McGuire."
+  },
+  {
+   "split": "test",
+   "id": "5a8e1577554299068b959e54",
+   "claims": [
+    "Stanley Kwan's profession.",
+    "Ken Hughes's profession."
+   ],
+   "raw": "Stanley Kwan's profession.\nKen Hughes's profession."
+  },
+  {
+   "split": "test",
+   "id": "5ae07b0155429945ae95935d",
+   "claims": [
+    "German novelists.",
+    "David Guterson is a German novelist.",
+    "Thomas Mann is a German novelist."
+   ],
+   "raw": "German novelists.\nDavid Guterson is a German novelist.\nThomas Mann is a German novelist."
+  },
+  {
+   "split": "test",
+   "id": "5ae7b6055542993210983f00",
+   "claims": [
+    "Carlos Alberto Rosales Mendoza's organized crime syndicate was founded.",
+    "Organized crime syndicate led by Carlos Alberto Rosales Mendoza.",
+    "Friends of Osiel C\u00e1rdenas Guill\u00e9n."
+   ],
+   "raw": "Carlos Alberto Rosales Mendoza's organized crime syndicate was founded.\nOrganized crime syndicate led by Carlos Alberto Rosales Mendoza.\nFriends of Osiel C\u00e1rdenas Guill\u00e9n."
+  },
+  {
+   "split": "test",
+   "id": "5a7f97c05542995d8a8ddeb0",
+   "claims": [
+    "Orange County Choppers cofounder.",
+    "Person who appeared with Paul Teutul Sr. on American Chopper."
+   ],
+   "raw": "Orange County Choppers cofounder.\nPerson who appeared with Paul Teutul Sr. on American Chopper."
+  },
+  {
+   "split": "test",
+   "id": "5ab674b7554299110f219a0c",
+   "claims": [
+    "Stanley Lloyd Kaufman, Jr. was the co-founder of Troma Entertainment.",
+    "Jay T. Wright was the co-founder of Troma Entertainment."
+   ],
+   "raw": "Stanley Lloyd Kaufman, Jr. was the co-founder of Troma Entertainment.\nJay T. Wright was the co-founder of Troma Entertainment."
+  },
+  {
+   "split": "test",
+   "id": "5ae47ae05542995ad6573d4f",
+   "claims": [
+    "Strange Fruit Project relates to a song.",
+    "A famous female jazz musician and singer is known for her vocal delivery and improvisational skills."
+   ],
+   "raw": "Strange Fruit Project relates to a song.\nA famous female jazz musician and singer is known for her vocal delivery and improvisational skills."
+  },
+  {
+   "split": "test",
+   "id": "5ab6973f554299110f219a25",
+   "claims": [
+    "ASIS International publishes a monthly magazine on computer security."
+   ],
+   "raw": "ASIS International publishes a monthly magazine on computer security."
+  },
+  {
+   "split": "test",
+   "id": "5a909a1a55429916514e7506",
+   "claims": [
+    "Universal's biggest film franchise ever.",
+    "Dominic Toretto's appearances in all eight films.",
+    "The actor who played Dominic Toretto in the first of these eight films."
+   ],
+   "raw": "Universal's biggest film franchise ever.\nDominic Toretto's appearances in all eight films.\nThe actor who played Dominic Toretto in the first of these eight films."
+  },
+  {
+   "split": "test",
+   "id": "5ae4f96755429913cc204551",
+   "claims": [
+    "Ndlela kaSompisi's role as a general to Zulu King Dingane.",
+    "The birth year of Zulu King Dingane."
+   ],
+   "raw": "Ndlela kaSompisi's role as a general to Zulu King Dingane.\nThe birth year of Zulu King Dingane."
+  },
+  {
+   "split": "test",
+   "id": "5ac0784e554299294b218ff6",
+   "claims": [
+    "Fresh TV created My Babysitter's a Vampire.",
+    "Canadian animated sitcom that premiered on November 7, 2004 on Teletoon."
+   ],
+   "raw": "Fresh TV created My Babysitter's a Vampire.\nCanadian animated sitcom that premiered on November 7, 2004 on Teletoon."
+  },
+  {
+   "split": "test",
+   "id": "5a729cc25542991f9a20c532",
+   "claims": [
+    "The author who wrote about the woman captured by the Symbionese Liberation Army."
+   ],
+   "raw": "The author who wrote about the woman captured by the Symbionese Liberation Army."
+  },
+  {
+   "split": "test",
+   "id": "5ae0aaf35542993d6555ec02",
+   "claims": [
+    "The stadium where the Aztecs played from 1997-2017."
+   ],
+   "raw": "The stadium where the Aztecs played from 1997-2017."
+  },
+  {
+   "split": "test",
+   "id": "5a79fe3b5542994f819ef119",
+   "claims": [
+    "The financial group that created the Sporting Portugal Fund."
+   ],
+   "raw": "The financial group that created the Sporting Portugal Fund."
+  },
+  {
+   "split": "test",
+   "id": "5a7b7bed5542997c3ec971bc",
+   "claims": [
+    "The person who owns the Waterloo Vase."
+   ],
+   "raw": "The person who owns the Waterloo Vase."
+  },
+  {
+   "split": "test",
+   "id": "5ae184185542990adbacf7ac",
+   "claims": [
+    "Waco Regional Airport ownership information.",
+    "Idaho Falls Regional Airport ownership information."
+   ],
+   "raw": "Waco Regional Airport ownership information.\nIdaho Falls Regional Airport ownership information."
+  },
+  {
+   "split": "test",
+   "id": "5a85c3a15542992a431d1b97",
+   "claims": [
+    "Snowdrop proprietary game engine.",
+    "Developer of the online-only action role-playing video game."
+   ],
+   "raw": "Snowdrop proprietary game engine.\nDeveloper of the online-only action role-playing video game."
+  },
+  {
+   "split": "test",
+   "id": "5ab56f3e5542992aa134a317",
+   "claims": [
+    "Genus of flowering plants Crocosmia.",
+    "Genus of flowering plants Cimicifuga."
+   ],
+   "raw": "Genus of flowering plants Crocosmia.\nGenus of flowering plants Cimicifuga."
+  },
+  {
+   "split": "test",
+   "id": "5a874ec35542994846c1cd57",
+   "claims": [
+    "German works by Arthur Wesley Wheen.",
+    "Known translation by Arthur Wesley Wheen."
+   ],
+   "raw": "German works by Arthur Wesley Wheen.\nKnown translation by Arthur Wesley Wheen."
+  },
+  {
+   "split": "test",
+   "id": "5abbd3ac55429931dba1458b",
+   "claims": [
+    "Duke Energy parent company.",
+    "Affiliated Managers Group parent company.",
+    "Location of Duke Energy's headquarters.",
+    "Location of Affiliated Managers Group's headquarters."
+   ],
+   "raw": "Duke Energy parent company.\nAffiliated Managers Group parent company.\nLocation of Duke Energy's headquarters.\nLocation of Affiliated Managers Group's headquarters."
+  },
+  {
+   "split": "test",
+   "id": "5ab701395542991d3222373a",
+   "claims": [
+    "Unincorporated town along the Amargosa River."
+   ],
+   "raw": "Unincorporated town along the Amargosa River."
+  },
+  {
+   "split": "test",
+   "id": "5ae5e62455429929b0807a07",
+   "claims": [
+    "Giovanna d'Arco is an opera.",
+    "The composer of Giovanna d'Arco."
+   ],
+   "raw": "Giovanna d'Arco is an opera.\nThe composer of Giovanna d'Arco."
+  },
+  {
+   "split": "test",
+   "id": "5abba664554299642a094b02",
+   "claims": [
+    "Jason O'Bryan's Grammy nomination.",
+    "Movie for which Jason O'Bryan was nominated."
+   ],
+   "raw": "Jason O'Bryan's Grammy nomination.\nMovie for which Jason O'Bryan was nominated."
+  },
+  {
+   "split": "test",
+   "id": "5ab28b395542993be8fa9941",
+   "claims": [
+    "German nationality of Dappy.",
+    "German nationality of Tobias Sammet."
+   ],
+   "raw": "German nationality of Dappy.\nGerman nationality of Tobias Sammet."
+  },
+  {
+   "split": "test",
+   "id": "5ac2a399554299218029dada",
+   "claims": [
+    "A cartridge-based development system made by a company.",
+    "Who authored Atari's BASIC."
+   ],
+   "raw": "A cartridge-based development system made by a company.\nWho authored Atari's BASIC."
+  },
+  {
+   "split": "test",
+   "id": "5a8656ca554299211dda2afc",
+   "claims": [
+    "Black comedy sequel to \"Forgetting Sarah Marshall\".",
+    "Australian actress who starred in it."
+   ],
+   "raw": "Black comedy sequel to \"Forgetting Sarah Marshall\".\nAustralian actress who starred in it."
+  },
+  {
+   "split": "test",
+   "id": "5ab2b6fb5542992953946848",
+   "claims": [
+    "The sport the Adelaide Adrenaline participate in.",
+    "The type of arena used by the world's first organization."
+   ],
+   "raw": "The sport the Adelaide Adrenaline participate in.\nThe type of arena used by the world's first organization."
+  },
+  {
+   "split": "test",
+   "id": "5ac2f34455429921a00ab0b6",
+   "claims": [
+    "Bill Daly's alma mater.",
+    "Gary Bettman's alma mater."
+   ],
+   "raw": "Bill Daly's alma mater.\nGary Bettman's alma mater."
+  },
+  {
+   "split": "test",
+   "id": "5a8b3c0055429949d91db4f8",
+   "claims": [
+    "Paul Sloane's filmography.",
+    "Jacques Demy's filmography."
+   ],
+   "raw": "Paul Sloane's filmography.\nJacques Demy's filmography."
+  },
+  {
+   "split": "test",
+   "id": "5ab9631a55429970cfb8eaad",
+   "claims": [
+    "Justice made a hip-hop album with guest appearances from other artists.",
+    "Necro was one of the artists who contributed to that album.",
+    "Lotek was another artist involved in the project."
+   ],
+   "raw": "Justice made a hip-hop album with guest appearances from other artists.\nNecro was one of the artists who contributed to that album.\nLotek was another artist involved in the project."
+  },
+  {
+   "split": "test",
+   "id": "5abb342055429966062416e8",
+   "claims": [
+    "The superhero known for speaking the phrase \"SHAZAM\"."
+   ],
+   "raw": "The superhero known for speaking the phrase \"SHAZAM\"."
+  },
+  {
+   "split": "test",
+   "id": "5abcfd7e5542993a06baf9df",
+   "claims": [
+    "Igor Naming Agency was founded at.",
+    "A resort was named by Igor Naming Agency.",
+    "Location of the resort."
+   ],
+   "raw": "Igor Naming Agency was founded at.  \nA resort was named by Igor Naming Agency.  \nLocation of the resort."
+  },
+  {
+   "split": "test",
+   "id": "5a8e0a005542995085b373a1",
+   "claims": [
+    "Bordan Tkachuk's current or most recent employer.",
+    "The type of products provided by Bordan Tkachuk's current or most recent employer."
+   ],
+   "raw": "Bordan Tkachuk's current or most recent employer.\nThe type of products provided by Bordan Tkachuk's current or most recent employer."
+  },
+  {
+   "split": "test",
+   "id": "5abc5603554299700f9d7875",
+   "claims": [
+    "The nationality of the soprano featured in the opera Lisbon Traviata."
+   ],
+   "raw": "The nationality of the soprano featured in the opera Lisbon Traviata."
+  },
+  {
+   "split": "test",
+   "id": "5ab6390f5542995eadeeff7a",
+   "claims": [
+    "The maker of Cougar bourbon whiskey before its acquisition."
+   ],
+   "raw": "The maker of Cougar bourbon whiskey before its acquisition."
+  },
+  {
+   "split": "test",
+   "id": "5a8b057255429971feec4611",
+   "claims": [
+    "David Lightfoot's work during the 1990s.",
+    "A film loosely based on the murders of tourists."
+   ],
+   "raw": "David Lightfoot's work during the 1990s.\nA film loosely based on the murders of tourists."
+  },
+  {
+   "split": "test",
+   "id": "5a88a42f554299206df2b317",
+   "claims": [
+    "The literary style that describes the 1968 book.",
+    "The 1968 book that features a 1939 international Harvester school bus.",
+    "The year the 1939 international Harvester school bus was produced."
+   ],
+   "raw": "The literary style that describes the 1968 book.\nThe 1968 book that features a 1939 international Harvester school bus.\nThe year the 1939 international Harvester school bus was produced."
+  },
+  {
+   "split": "test",
+   "id": "5a74c3f455429979e2882a0a",
+   "claims": [
+    "FLEXcon products that represent data.",
+    "Geometric patterns used by FLEXcon."
+   ],
+   "raw": "FLEXcon products that represent data.\nGeometric patterns used by FLEXcon."
+  },
+  {
+   "split": "test",
+   "id": "5ab3c7df55429969a97a81be",
+   "claims": [
+    "The city where Hunchun is located.",
+    "The city where Shijiazhuang is located."
+   ],
+   "raw": "The city where Hunchun is located.\nThe city where Shijiazhuang is located."
+  },
+  {
+   "split": "test",
+   "id": "5ab2d1c45542992953946877",
+   "claims": [
+    "Swanson's parent company.",
+    "Company handling Swanson's broth business."
+   ],
+   "raw": "Swanson's parent company.\nCompany handling Swanson's broth business."
+  },
+  {
+   "split": "test",
+   "id": "5a89f5815542993b751ca9c5",
+   "claims": [
+    "Caroline Carver's role in a 1999 Hallmark Entertainment made-for-TV fantasy movie."
+   ],
+   "raw": "Caroline Carver's role in a 1999 Hallmark Entertainment made-for-TV fantasy movie."
+  },
+  {
+   "split": "test",
+   "id": "5a81d59a55429903bc27b9d6",
+   "claims": [
+    "Tsavo Man-Eaters inhabited a specific reserve."
+   ],
+   "raw": "Tsavo Man-Eaters inhabited a specific reserve."
+  },
+  {
+   "split": "test",
+   "id": "5ab815865542995dae37ea2d",
+   "claims": [
+    "The M1 motorway's direction.",
+    "The M6 motorway's direction."
+   ],
+   "raw": "The M1 motorway's direction.\nThe M6 motorway's direction."
+  },
+  {
+   "split": "test",
+   "id": "5a7128b05542994082a3e5f2",
+   "claims": [
+    "The year Laura's Star was released.",
+    "The year Wonder Woman was released."
+   ],
+   "raw": "The year Laura's Star was released.\nThe year Wonder Woman was released."
+  },
+  {
+   "split": "test",
+   "id": "5abd56355542993062266c58",
+   "claims": [
+    "The singer who sang in church during her childhood.",
+    "The album tracks Stacy Barthe wrote for."
+   ],
+   "raw": "The singer who sang in church during her childhood.\nThe album tracks Stacy Barthe wrote for."
+  },
+  {
+   "split": "test",
+   "id": "5ae762985542995703ce8c04",
+   "claims": [
+    "The Norwegian punk rock band that released the single.",
+    "The year 1989 when the single was recorded.",
+    "The style of music for the Norwegian punk rock band.",
+    "The city where the head office of the hotel company is located."
+   ],
+   "raw": "The Norwegian punk rock band that released the single.\nThe year 1989 when the single was recorded.\nThe style of music for the Norwegian punk rock band.\nThe city where the head office of the hotel company is located."
+  },
+  {
+   "split": "test",
+   "id": "5a77afcd5542997042120adf",
+   "claims": [
+    "Carrie Akre's age information.",
+    "Shifty Shellshock's age information."
+   ],
+   "raw": "Carrie Akre's age information.\nShifty Shellshock's age information."
+  },
+  {
+   "split": "test",
+   "id": "5ae09ce855429924de1b7113",
+   "claims": [
+    "Highest ranking single written by an English multi-instrumentalist in the United States."
+   ],
+   "raw": "Highest ranking single written by an English multi-instrumentalist in the United States."
+  },
+  {
+   "split": "test",
+   "id": "5ae075455542993d6555eb59",
+   "claims": [
+    "Location of 111 Murray Street.",
+    "Location of 220 Central Park South."
+   ],
+   "raw": "Location of 111 Murray Street.\nLocation of 220 Central Park South."
+  },
+  {
+   "split": "test",
+   "id": "5a8fa4a5554299458435d6a3",
+   "claims": [
+    "Tina Sharkey's current business unit.",
+    "A web portal led by Tina Sharkey.",
+    "Original name of the web portal."
+   ],
+   "raw": "Tina Sharkey's current business unit.\nA web portal led by Tina Sharkey.\nOriginal name of the web portal."
+  },
+  {
+   "split": "test",
+   "id": "5ac00de75542996f0d89cb13",
+   "claims": [
+    "The casino The Venetian Macao is modeled on."
+   ],
+   "raw": "The casino The Venetian Macao is modeled on."
+  },
+  {
+   "split": "test",
+   "id": "5ae237cf5542992decbdcc78",
+   "claims": [
+    "The Finnish former professional racing driver who drove McLaren MP4/11."
+   ],
+   "raw": "Facts:\nThe Finnish former professional racing driver who drove McLaren MP4/11."
+  },
+  {
+   "split": "test",
+   "id": "5a77a15b5542995d83181226",
+   "claims": [
+    "The people that the Torra di Tizz\u00e0 was created to protect."
+   ],
+   "raw": "The people that the Torra di Tizz\u00e0 was created to protect."
+  },
+  {
+   "split": "test",
+   "id": "5a8a44c65542996c9b8d5e85",
+   "claims": [
+    "The singer named Michael Crafter was in.",
+    "The singer named Martin Degville was in."
+   ],
+   "raw": "The singer named Michael Crafter was in.\nThe singer named Martin Degville was in."
+  },
+  {
+   "split": "test",
+   "id": "5ab502ae5542991779162d4c",
+   "claims": [
+    "The professor of law at the Interdisciplinary Center in Herzliya."
+   ],
+   "raw": "The professor of law at the Interdisciplinary Center in Herzliya."
+  },
+  {
+   "split": "test",
+   "id": "5a7fc03d5542992097ad2fbc",
+   "claims": [
+    "Diocese of Reno includes a county.",
+    "Ormsby County was the county seat of another county."
+   ],
+   "raw": "Diocese of Reno includes a county.\nOrmsby County was the county seat of another county."
+  },
+  {
+   "split": "test",
+   "id": "5ab682f85542995eadef001f",
+   "claims": [
+    "The company that owned the Old Bushmills Distillery headquarters.",
+    "An English city where this company's headquarters were located."
+   ],
+   "raw": "The company that owned the Old Bushmills Distillery headquarters.  \nAn English city where this company's headquarters were located."
+  },
+  {
+   "split": "test",
+   "id": "5a771ead55429966f1a36c7c",
+   "claims": [
+    "The actor who starred as an American attorney in Grey Gardens."
+   ],
+   "raw": "The actor who starred as an American attorney in Grey Gardens."
+  },
+  {
+   "split": "test",
+   "id": "5ab3d69255429969a97a81c9",
+   "claims": [
+    "VMF-213 Marine Fighting Squadron during World War II."
+   ],
+   "raw": "VMF-213 Marine Fighting Squadron during World War II."
+  },
+  {
+   "split": "test",
+   "id": "5abe250f5542991f661060ef",
+   "claims": [
+    "The actor who starred as the \"father of the atomic bomb\" in a 1980 television miniseries."
+   ],
+   "raw": "The actor who starred as the \"father of the atomic bomb\" in a 1980 television miniseries."
+  },
+  {
+   "split": "test",
+   "id": "5ab42b8955429942dd415ea6",
+   "claims": [
+    "Iola is located in Kansas.",
+    "Woods County is in northwestern Kansas.",
+    "The northeastern counterpart to Woods County in Kansas."
+   ],
+   "raw": "Iola is located in Kansas.  \nWoods County is in northwestern Kansas.  \nThe northeastern counterpart to Woods County in Kansas."
+  },
+  {
+   "split": "test",
+   "id": "5ac2e97d554299657fa290c0",
+   "claims": [
+    "The company that created Doravirine."
+   ],
+   "raw": "The company that created Doravirine."
+  },
+  {
+   "split": "test",
+   "id": "5a7264ed5542990c210a411a",
+   "claims": [
+    "Slogan derived from the idea of Lebensraum.",
+    "Most extreme form of Lebensraum supported by the Nazi Party during World War II."
+   ],
+   "raw": "Slogan derived from the idea of Lebensraum.\nMost extreme form of Lebensraum supported by the Nazi Party during World War II."
+  },
+  {
+   "split": "test",
+   "id": "5ac3e68b5542997ea680c98b",
+   "claims": [
+    "Susan Stafford's occupation.",
+    "Vanna White's occupation."
+   ],
+   "raw": "Susan Stafford's occupation.\nVanna White's occupation."
+  },
+  {
+   "split": "test",
+   "id": "5ae0413555429942ec259c61",
+   "claims": [
+    "The creator of the British television series to which Tofu was a sister series.",
+    "The topic or name of the British television series to which Tofu was a sister series."
+   ],
+   "raw": "The creator of the British television series to which Tofu was a sister series.\nThe topic or name of the British television series to which Tofu was a sister series."
+  },
+  {
+   "split": "test",
+   "id": "5ac4f8705542995c82c4ad8d",
+   "claims": [
+    "German musician Wilhelm Heckmann.",
+    "Austrian concentration camp he was imprisoned in."
+   ],
+   "raw": "German musician Wilhelm Heckmann.\nAustrian concentration camp he was imprisoned in."
+  },
+  {
+   "split": "test",
+   "id": "5ae7954b554299540e5a5620",
+   "claims": [
+    "The manufacturer that produced the scooter upon which the Bajaj Priya was based."
+   ],
+   "raw": "The manufacturer that produced the scooter upon which the Bajaj Priya was based."
+  },
+  {
+   "split": "test",
+   "id": "5adccf645542990d50227d32",
+   "claims": [
+    "The city where the singer is from in Oklahoma.",
+    "A song that peaked at number 24 on \"Billboard\" magazine's pop chart in December 1953.",
+    "The artist of a song that reached number 24 on the \"Billboard\" pop chart."
+   ],
+   "raw": "The city where the singer is from in Oklahoma.\nA song that peaked at number 24 on \"Billboard\" magazine's pop chart in December 1953.\nThe artist of a song that reached number 24 on the \"Billboard\" pop chart."
+  },
+  {
+   "split": "test",
+   "id": "5a746a4455429974ef308bf6",
+   "claims": [
+    "The tennis player named John Peeters.",
+    "The tennis player named Simone Bolelli."
+   ],
+   "raw": "The tennis player named John Peeters.\nThe tennis player named Simone Bolelli."
+  },
+  {
+   "split": "test",
+   "id": "5ae2125e554299495565d9db",
+   "claims": [
+    "The street where the \"Journal Record Building\" is located in Oklahoma."
+   ],
+   "raw": "The street where the \"Journal Record Building\" is located in Oklahoma."
+  },
+  {
+   "split": "test",
+   "id": "5a8b84905542997f31a41d5d",
+   "claims": [
+    "Head coach Joe Harasymiak's current team.",
+    "Type of field where Joe Harasymiak's current team plays."
+   ],
+   "raw": "Head coach Joe Harasymiak's current team.\nType of field where Joe Harasymiak's current team plays."
+  }
+ ]
+}

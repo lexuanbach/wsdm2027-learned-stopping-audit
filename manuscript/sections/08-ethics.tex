@@ -1,0 +1,38 @@
+\section*{Ethical Considerations}
+
+\paragraph{Errors from premature stopping.}
+A controller can reduce resource use while withholding evidence that would
+correct an answer. This risk may be concentrated on topics that are rare in
+the development data, including questions involving underrepresented regions,
+languages, or communities. We therefore evaluate quality and cost jointly and
+recommend deployment only after an independent, task-specific frontier test.
+The current evidence is English-only and does not support conclusions about
+multilingual equity.
+
+\paragraph{Limits of certification.}
+The certificate in Proposition~\ref{prop:conformal} is marginal under an
+independent and identically distributed calibration and test assumption. It
+does not bound risk for an individual question or subgroup and must not be
+presented as a per-answer probability of correctness. Corrected SGR refuses
+every evaluated target. A deployment should expose that absence rather than
+silently treating an uncertified answer as safe. It should also recalibrate by
+task family and monitor subgroup risk after distribution shift.
+
+\paragraph{Resource claims and operational telemetry.}
+Our fully instrumented runs measure LLM calls, input and output tokens, and wall time. We do
+not measure energy, invoice cost, or the marginal environmental effect of a
+provider call. The execution code does not retain timeout and retry failure
+codes, so we cannot report a failure rate. We make these omissions explicit to
+avoid converting lower measured calls into an unsupported energy, monetary,
+or reliability claim. The small stopping predictors train on CPU and the base
+backbones remain frozen.
+
+\paragraph{Data, access, and dual use.}
+HotpotQA, 2WikiMultihopQA, MuSiQue, FEVER, and MultiHopRAG are public research
+datasets used under their respective terms. The evaluated material includes
+Wikipedia-derived text and one English news snapshot. We use no private user
+or production data and access no live websites. The artifact's trajectories may
+repeat public biographical or news facts and should be handled under the
+source datasets' licenses. The same stopping machinery could be tuned for
+cheap but unreliable answering. Publishing the selection and calibration
+failures makes that tradeoff inspectable rather than endorsing such use.

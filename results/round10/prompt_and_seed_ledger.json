@@ -1,0 +1,46 @@
+{
+ "prompts": {
+  "answer_system": {
+   "sha256": "75860364158aab88ac31f365ee6a67a632400c6bb87a3edee9cc283538b1d6c5",
+   "text": "You are a precise question-answering assistant. Give the shortest exact answer (a name, entity, number, or yes/no). Do not explain."
+  },
+  "answer_user_template": {
+   "sha256": "d3e8762ce5b2a45e3074eb93530d8c86e30d42701cb67443cc94276310600a81",
+   "text": "Evidence:{NL}{evidence}{NL}{NL}Question: {question}{NL}Respond with exactly: Answer: <short answer>"
+  },
+  "query_system": {
+   "sha256": "a7e2e8c143498a98db9f8fd26321e316d744782583e04a3d240027d073426563",
+   "text": "You issue one short search query to find missing facts for a multi-hop question. Output only the query."
+  },
+  "query_user_template": {
+   "sha256": "1a0f7d6db9b8f3a80193900474ce8a773e0d3d4aff4ce914eb852602e948fb07",
+   "text": "Question: {question}{NL}Known so far:{NL}{evidence}{NL}Next search query:"
+  },
+  "prompt_family_sha256": "3c94a36746f120ecefbd304459df465301b2282cb758ee0a6cc9b4d9d2043a9a",
+  "note": "user templates are recorded with {NL} standing for a newline so the hash is stable across encodings; the authoritative text is in run_experiment.answer_from and run_experiment.gen_query",
+  "source_file_sha256": {
+   "run_experiment.py": "a5d18249e7c90777df5c18534f5f7b02a8c459987526fe6d198dd7159c2d1f92"
+  }
+ },
+ "seeds": {
+  "data_seeds": [
+   13,
+   17,
+   23,
+   29,
+   31
+  ],
+  "llm_seeds": [
+   7,
+   11,
+   19
+  ],
+  "certificate_shuffle_seed": 41,
+  "cross_fitting_seed": 3,
+  "bootstrap_seeds": {
+   "round9_analyses": 2029,
+   "analyze_corpus_confirmation": 101
+  },
+  "note": "documented in artifact/README.md 'Determinism and seeds'; this ledger is the consolidated view"
+ }
+}

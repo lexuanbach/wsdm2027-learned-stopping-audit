@@ -1,0 +1,71 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Learned values and stop decisions.}
+Stop-RAG learns stop and continue values from full-budget retrieval
+trajectories~\cite{park2025stoprag}. LearnStop evaluates reasoning-prefix exits against calibration-selected
+confidence, entropy, confidence-leap, and stability rules at matched
+lost-correct risk, including probe overhead~\cite{dong2026learnstop}.
+Our task instead stops external retrieval on logged query trajectories.
+We compare EM at matched calls, tokens, and time against fixed-budget and
+repetition frontiers, then examine independent question draws and simultaneous
+intervals. Cost-aware comparison itself is therefore shared prior practice,
+while the retrieval estimand and cross-signal audit distinguish this study. Concurrent work estimates
+task-level value of information across retrieval, decomposition, and answer
+commitment~\cite{fang2026inference}. FBG labels one logged continuation rather than counterfactual search actions.
+Our shared selection protocol and matched-cost frontier isolate the empirical
+value of this signal.
+
+\paragraph{Confidence, stability, and evidence sufficiency.}
+Think Straight, Stop Smart (TSSS) uses retriever repetition, whereas TASR
+combines answer stability with calibrated token probabilities~\cite{bang2025think,kieback2026tasr}.
+We run full
+TASR when native answer-token probabilities are available and use
+answer repetition as the logit-free stability baseline elsewhere. SIM-RAG and
+S2G-RAG learn whether retrieved context is sufficient for answering or whether
+evidence gaps remain~\cite{yang2025simrag,li2026s2grag}. HALT instead tests
+whether accumulated evidence covers generated hop claims~\cite{roh2026halt}.
+We distinguish these targets explicitly. Our error head predicts whether the
+current answer is wrong. Our gold-support classifier predicts whether the
+retrieved evidence covers annotated support during training, without reading
+gold support at test time. A verifier-inspired substitute probes claim
+coverage on six cells because the released HALT verifier cannot run on our
+hardware. We do not present that substitute or our sufficiency classifier as a
+reproduction of any cited system.
+
+Retrieval-score saturation, evidence novelty, query repetition, context
+growth, and grounding thresholds define additional deterministic controller
+families. Our controlled simple reference contains fixed budgets and answer
+repetition, while our learned signal probes use several of these quantities as
+features. We therefore make claims relative to this declared reference family,
+not to every possible hand-designed rule. The supplement provides a structured
+comparison of the closest methods by signal, action space, requirements,
+matching status, and measured outcome.
+
+\paragraph{Conditional retrieval with different action spaces.}
+Self-RAG uses reflection tokens, FLARE triggers retrieval from token
+uncertainty, SKR estimates self-knowledge, and Adaptive-RAG routes questions by
+complexity~\cite{asai2024selfrag,jiang2023flare,wang2023skr,
+jeong2024adaptiverag}. DRAGIN and SEAKR provide further uncertainty-driven
+retrieval mechanisms~\cite{su2024dragin,yao2024seakr}. These systems decide
+whether or when to retrieve, but their retrievers, training objectives, and
+generation schedules differ from our prefix-replay setting. We therefore
+separate transplanted released systems from policies that share our
+trajectories and cost ledger. This avoids treating a cross-system score as a
+controlled stopping comparison.
+
+\paragraph{Agents, efficiency, and calibrated prediction.}
+ReAct, WebGPT, Toolformer, IRCoT, and Search-R1 illustrate how language models
+can interleave reasoning with external actions~\cite{yao2023react,
+nakano2021webgpt,schick2023toolformer,trivedi2023ircot,jin2025searchr1}.
+Efficiency methods such as FrugalGPT, AutoMix, and CALM allocate model or token
+budgets~\cite{chen2023frugalgpt,aggarwal2024automix,schuster2022calm}. We instead
+control an external retrieval interaction whose output can help or harm the
+answer. Our optional certificate draws on selective classification and
+conformal risk control~\cite{geifman2017selective,vovk2005algorithmic,
+angelopoulos2024conformal,ren2023knowno}. It certifies a subset after the
+stopping time and does not select the stopping action. Value of information,
+sequential testing, and optimal stopping motivate the decision
+problem~\cite{howard1966voi,wald1947sequential,chow1971great}. Our conclusions
+come from measured frontiers and paired inference. We do not claim the
+optimality guarantees those theories give under stronger assumptions.

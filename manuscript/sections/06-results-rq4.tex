@@ -1,0 +1,34 @@
+For each of 14 fully instrumented cells, we reserve 30 of 120 development
+episodes, fit the error scorer on 90, and evaluate one guarded-policy stop per
+calibration and test episode. Corrected SGR accepts none of the 84 cell and
+target-risk pairs over six $\alpha$ values, so Table~\ref{tab:certificate-coverage}
+reports zero coverage. This fail-closed result withholds an unsupported
+reliability claim.
+
+{\setlength{\intextsep}{6pt}
+\begin{table}[t]
+\caption{Deployment-matched SGR results for RQ4 with 30 calibration episodes
+per cell.}
+\label{tab:certificate-coverage}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\rowcolors{2}{rowshade}{}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+\hiderowcolors
+Population & Cells & Accepted pairs & Test coverage \\
+\midrule
+\showrowcolors
+HotpotQA corpus & 7 & 0/42 & 0\% \\
+2WikiMultihopQA & 3 & 0/18 & 0\% \\
+MuSiQue & 3 & 0/18 & 0\% \\
+Wikipedia 25M & 1 & 0/6 & 0\% \\
+\midrule
+All & 14 & 0/84 & 0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+}
+
+We restrict the claim to deployment-matched prefix features. The supplement
+quarantines score-mismatched call-only diagnostics.

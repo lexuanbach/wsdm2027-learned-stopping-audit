@@ -1,0 +1,4698 @@
+{
+ "model": "qwen2.5:3b-instruct",
+ "prompt": "You decompose a multi-hop question into the facts that must be RETRIEVED before it can be answered. Never answer the question. Each line states what must be found and mentions an entity from the question. Output at most {k} lines, no numbering, no explanation.\n\nQuestion: Which magazine was started first, Arthur's Magazine or First for Women?\nFacts:\nThe year Arthur's Magazine was first published.\nThe year First for Women was first published.\n\nQuestion: The Oberoi family is part of a hotel company that has a head office in what city?\nFacts:\nThe hotel company the Oberoi family is part of.\nThe city where that hotel company has its head office.\n\nQuestion: {q}\nFacts:",
+ "max_claims": 4,
+ "llm_seed": 7,
+ "temperature": 0.0,
+ "n_claim_generation_calls": 520,
+ "rows": [
+  {
+   "split": "train",
+   "id": "2hop__423874_128023",
+   "claims": [
+    "Ilsinho's current football club.",
+    "League in which Ilsinho's current football club plays."
+   ],
+   "raw": "Ilsinho's current football club.\nLeague in which Ilsinho's current football club plays."
+  },
+  {
+   "split": "train",
+   "id": "2hop__658472_5385",
+   "claims": [
+    "Number of employees at the school where Gene Ball was educated."
+   ],
+   "raw": "Number of employees at the school where Gene Ball was educated."
+  },
+  {
+   "split": "train",
+   "id": "2hop__30384_30351",
+   "claims": [
+    "Hay's other notable influence besides Max Weber.",
+    "Resource distribution context.",
+    "Person who was influenced by this other notable influence."
+   ],
+   "raw": "Hay's other notable influence besides Max Weber.  \nResource distribution context.  \nPerson who was influenced by this other notable influence."
+  },
+  {
+   "split": "train",
+   "id": "4hop3__275416_24325_156850_10557",
+   "claims": [
+    "The region where the Carnival is associated with Guido Maus's birthplace.",
+    "The language used by Fastrada's spouse in the era."
+   ],
+   "raw": "The region where the Carnival is associated with Guido Maus's birthplace.\nThe language used by Fastrada's spouse in the era."
+  },
+  {
+   "split": "train",
+   "id": "2hop__153009_44880",
+   "claims": [
+    "Merrill Elam's birthplace.",
+    "The current mayor of Merrill Elam's birthplace."
+   ],
+   "raw": "Merrill Elam's birthplace.\nThe current mayor of Merrill Elam's birthplace."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__842143_153080_159767_81096",
+   "claims": [
+    "The year and location of the 1993 Indy Car Race.",
+    "The largest city in the state where the performer's hometown is located.",
+    "The performer of the album Mingus Three.",
+    "The winner of the 1993 Indy Car Race."
+   ],
+   "raw": "The year and location of the 1993 Indy Car Race.\nThe largest city in the state where the performer's hometown is located.\nThe performer of the album Mingus Three.\nThe winner of the 1993 Indy Car Race."
+  },
+  {
+   "split": "train",
+   "id": "4hop3__372437_88460_30152_20999",
+   "claims": [
+    "People expelled by the Somali Muslim Ajuran Empire.",
+    "Natural boundary between Thailand and Na Khaulom's country."
+   ],
+   "raw": "People expelled by the Somali Muslim Ajuran Empire.\nNatural boundary between Thailand and Na Khaulom's country."
+  },
+  {
+   "split": "train",
+   "id": "2hop__60001_512508",
+   "claims": [
+    "The discovery that all atoms of an element have the same number of protons.",
+    "The person who made this discovery."
+   ],
+   "raw": "The discovery that all atoms of an element have the same number of protons.\nThe person who made this discovery."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__241085_42197_18397",
+   "claims": [
+    "The arguer who declared he would intervene in the Korean conflict."
+   ],
+   "raw": "The arguer who declared he would intervene in the Korean conflict."
+  },
+  {
+   "split": "train",
+   "id": "2hop__30032_46621",
+   "claims": [
+    "The celestial body that transforms nuclear potential energy to other forms of energy."
+   ],
+   "raw": "The celestial body that transforms nuclear potential energy to other forms of energy."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__726391_153080_33952_33939",
+   "claims": [
+    "The Oh Yeah performer comes from a specific state.",
+    "The second largest city in the specified state.",
+    "The population of the second largest city in the specified state in 1900."
+   ],
+   "raw": "The Oh Yeah performer comes from a specific state.\nThe second largest city in the specified state.\nThe population of the second largest city in the specified state in 1900."
+  },
+  {
+   "split": "train",
+   "id": "2hop__82858_654855",
+   "claims": [
+    "The political party the socialist candidate ran for president in 1912."
+   ],
+   "raw": "The political party the socialist candidate ran for president in 1912."
+  },
+  {
+   "split": "train",
+   "id": "2hop__59612_42352",
+   "claims": [
+    "Number of people in British Colonies where London Broil comes from."
+   ],
+   "raw": "Number of people in British Colonies where London Broil comes from."
+  },
+  {
+   "split": "train",
+   "id": "2hop__689472_52835",
+   "claims": [
+    "Who wrote the song Turn Me On that is performed by performer of Feelin' the Same Way?",
+    "The songwriter of the song Turn Me On.",
+    "Performer of Feelin' The Same Way."
+   ],
+   "raw": "Who wrote the song Turn Me On that is performed by performer of Feelin' the Same Way?  \nThe songwriter of the song Turn Me On.  \nPerformer of Feelin' The Same Way."
+  },
+  {
+   "split": "train",
+   "id": "3hop2__855821_467331_162182",
+   "claims": [
+    "The region where Lam Dong is located.",
+    "The city where Zone 5 Military Museum is found."
+   ],
+   "raw": "The region where Lam Dong is located.\nThe city where Zone 5 Military Museum is found."
+  },
+  {
+   "split": "train",
+   "id": "2hop__543050_245420",
+   "claims": [
+    "City where Bella Vista High School is located."
+   ],
+   "raw": "City where Bella Vista High School is located."
+  },
+  {
+   "split": "train",
+   "id": "2hop__85463_50252",
+   "claims": [
+    "Who led North Korea into the war.",
+    "The Yalu River was near during this war.",
+    "When did UN troops approach the Yalu River?"
+   ],
+   "raw": "Who led North Korea into the war.  \nThe Yalu River was near during this war.  \nWhen did UN troops approach the Yalu River?"
+  },
+  {
+   "split": "train",
+   "id": "2hop__78756_198548",
+   "claims": [
+    "The spouse of the person who voices Smokey the bear."
+   ],
+   "raw": "The spouse of the person who voices Smokey the bear."
+  },
+  {
+   "split": "train",
+   "id": "2hop__848156_130869",
+   "claims": [
+    "Fatata te Miti's current location.",
+    "State containing the current location of Fatata te Miti."
+   ],
+   "raw": "Fatata te Miti's current location.\nState containing the current location of Fatata te Miti."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__118068_582428_157828_162309",
+   "claims": [
+    "The country that attended the Olympics as an independent team.",
+    "The director of Group Portrait with a Lady.",
+    "The official language used by the director's country."
+   ],
+   "raw": "The country that attended the Olympics as an independent team.  \nThe director of Group Portrait with a Lady.  \nThe official language used by the director's country."
+  },
+  {
+   "split": "train",
+   "id": "2hop__632161_643449",
+   "claims": [
+    "The cast member of Ice Bound: A Woman's Survival."
+   ],
+   "raw": "The cast member of Ice Bound: A Woman's Survival."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__791757_15840_36014",
+   "claims": [
+    "Nintendo set maximum games per year per developer for their systems."
+   ],
+   "raw": "Nintendo set maximum games per year per developer for their systems."
+  },
+  {
+   "split": "train",
+   "id": "2hop__124933_653666",
+   "claims": [
+    "The mother of Julia Murdock Smith's father."
+   ],
+   "raw": "The mother of Julia Murdock Smith's father."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__567737_141375_458768_33632",
+   "claims": [
+    "The city containing the headquarters of the company.",
+    "The company that owns the record label that released Study in Brown.",
+    "The specific record label that released Study in Brown.",
+    "The day the feast is held in the city."
+   ],
+   "raw": "The city containing the headquarters of the company.\nThe company that owns the record label that released Study in Brown.\nThe specific record label that released Study in Brown.\nThe day the feast is held in the city."
+  },
+  {
+   "split": "train",
+   "id": "2hop__109131_343058",
+   "claims": [
+    "The person who created Absolutely Fabulous."
+   ],
+   "raw": "The person who created Absolutely Fabulous."
+  },
+  {
+   "split": "train",
+   "id": "2hop__327688_56873",
+   "claims": [
+    "The sports team Craig Westcarr played for.",
+    "When did that sports team win the FA Cup?"
+   ],
+   "raw": "The sports team Craig Westcarr played for.\nWhen did that sports team win the FA Cup?"
+  },
+  {
+   "split": "train",
+   "id": "2hop__8496_21567",
+   "claims": [
+    "A person who introduced a system of musical notation.",
+    "The place where there is no evidence of a Slavic settlement before c. 600 AD.",
+    "The time period when this musical notation was used (14th century)."
+   ],
+   "raw": "A person who introduced a system of musical notation.\nThe place where there is no evidence of a Slavic settlement before c. 600 AD.\nThe time period when this musical notation was used (14th century)."
+  },
+  {
+   "split": "train",
+   "id": "2hop__439614_349102",
+   "claims": [
+    "Xiao Liwu's mother species."
+   ],
+   "raw": "Xiao Liwu's mother species."
+  },
+  {
+   "split": "train",
+   "id": "2hop__95970_152907",
+   "claims": [
+    "The movie \"Sous les pieds des femmes\" stars from."
+   ],
+   "raw": "The movie \"Sous les pieds des femmes\" stars from."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__567737_141375_458768_33677",
+   "claims": [
+    "Most recent Bicycle Friendly Community Award recipients.",
+    "Company Study in Brown is part of.",
+    "The headquarters city of Company Study in Brown."
+   ],
+   "raw": "Most recent Bicycle Friendly Community Award recipients.\nCompany Study in Brown is part of.\nThe headquarters city of Company Study in Brown."
+  },
+  {
+   "split": "train",
+   "id": "4hop2__9988_685934_70784_61381",
+   "claims": [
+    "The country that lies north of the region prevailing with the \"Near East\".",
+    "The body of water containing The World islands.",
+    "The region that prevailed with the disgrace of the \"Near East\".",
+    "The establishment date of the mentioned country."
+   ],
+   "raw": "The country that lies north of the region prevailing with the \"Near East\".\nThe body of water containing The World islands.\nThe region that prevailed with the disgrace of the \"Near East\".\nThe establishment date of the mentioned country."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__9007_698949_157828_162309",
+   "claims": [
+    "Country where Tito is the final resting place.",
+    "Co-official language used in the film titled after the city of Tito's final resting place.",
+    "Year this country first attended the Olympic Games."
+   ],
+   "raw": "Country where Tito is the final resting place.\nCo-official language used in the film titled after the city of Tito's final resting place.\nYear this country first attended the Olympic Games."
+  },
+  {
+   "split": "train",
+   "id": "4hop3__129456_29339_508306_70744",
+   "claims": [
+    "State without North Point Mall and its capital city.",
+    "University with the most national championships.",
+    "Town where Edwards won the primary and its associated university."
+   ],
+   "raw": "State without North Point Mall and its capital city.\nUniversity with the most national championships.\nTown where Edwards won the primary and its associated university."
+  },
+  {
+   "split": "train",
+   "id": "2hop__200391_44187",
+   "claims": [
+    "The person named Vance Page who died in the movie Castaway.",
+    "The character's name in the movie Castaway."
+   ],
+   "raw": "The person named Vance Page who died in the movie Castaway.\nThe character's name in the movie Castaway."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__800948_40769_64047",
+   "claims": [
+    "Katsuaki Watanabe's employer at the time.",
+    "When the luxury division changed the body style of the RX-350."
+   ],
+   "raw": "Katsuaki Watanabe's employer at the time.\nWhen the luxury division changed the body style of the RX-350."
+  },
+  {
+   "split": "train",
+   "id": "2hop__123509_5385",
+   "claims": [
+    "Number of employees at the university related to Mark F. Green."
+   ],
+   "raw": "Number of employees at the university related to Mark F. Green."
+  },
+  {
+   "split": "train",
+   "id": "2hop__496732_658428",
+   "claims": [
+    "The territory containing Bansaan Island."
+   ],
+   "raw": "The territory containing Bansaan Island."
+  },
+  {
+   "split": "train",
+   "id": "2hop__29367_29376",
+   "claims": [
+    "The event that caused the Liberal Party of Australia's longest-serving leader to become Prime Minister.",
+    "The longest-serving leader of the Liberal Party of Australia.",
+    "The Prime Minister the longest-serving Liberal Party leader became.",
+    "The event causing this transition in leadership."
+   ],
+   "raw": "The event that caused the Liberal Party of Australia's longest-serving leader to become Prime Minister.  \nThe longest-serving leader of the Liberal Party of Australia.  \nThe Prime Minister the longest-serving Liberal Party leader became.  \nThe event causing this transition in leadership."
+  },
+  {
+   "split": "train",
+   "id": "2hop__77601_814677",
+   "claims": [
+    "The pantheon to which the God of the underworld in ancient Egypt belongs."
+   ],
+   "raw": "The pantheon to which the God of the underworld in ancient Egypt belongs."
+  },
+  {
+   "split": "train",
+   "id": "3hop2__43892_23308_28343",
+   "claims": [
+    "Troops left from the country blamed for the stagnation and failure of the Tripartite discussion.",
+    "The country that receives the most U.S. foreign aid."
+   ],
+   "raw": "Troops left from the country blamed for the stagnation and failure of the Tripartite discussion.\nThe country that receives the most U.S. foreign aid."
+  },
+  {
+   "split": "train",
+   "id": "2hop__159741_161674",
+   "claims": [
+    "The person who retained trust in Longchamp went to the Holy Land."
+   ],
+   "raw": "The person who retained trust in Longchamp went to the Holy Land."
+  },
+  {
+   "split": "train",
+   "id": "3hop2__19639_90098_10557",
+   "claims": [
+    "The version of the language where the surname Sylvester originated.",
+    "The king who united the tribes in the 9th century."
+   ],
+   "raw": "The version of the language where the surname Sylvester originated.\nThe king who united the tribes in the 9th century."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__346812_15840_36014",
+   "claims": [
+    "Nintendo's limit on games per developer per year.",
+    "Platform that plays Drac's Night Out."
+   ],
+   "raw": "Nintendo's limit on games per developer per year.\nPlatform that plays Drac's Night Out."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__580153_49925_13759_736921",
+   "claims": [
+    "The district where the person preached the sermon.",
+    "The religion that practices candidacy and follows Marian devotion.",
+    "The district's location after the person's death."
+   ],
+   "raw": "The district where the person preached the sermon.\nThe religion that practices candidacy and follows Marian devotion.\nThe district's location after the person's death."
+  },
+  {
+   "split": "train",
+   "id": "2hop__40485_40501",
+   "claims": [
+    "The European country where Huguenots felt a kinship for emigration."
+   ],
+   "raw": "The European country where Huguenots felt a kinship for emigration."
+  },
+  {
+   "split": "train",
+   "id": "4hop2__71753_158985_70784_79935",
+   "claims": [
+    "Region created that lies to the north of where Israel is located.",
+    "Region where most growth in desalination for agricultural use is taking place."
+   ],
+   "raw": "Region created that lies to the north of where Israel is located.\nRegion where most growth in desalination for agricultural use is taking place."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__525129_315334_131926_87157",
+   "claims": [
+    "The city where the Lots More Blues, Rags and Hollers performer was formed.",
+    "The direction of flow of the river near that city."
+   ],
+   "raw": "The city where the Lots More Blues, Rags and Hollers performer was formed.\nThe direction of flow of the river near that city."
+  },
+  {
+   "split": "train",
+   "id": "2hop__259267_22402",
+   "claims": [
+    "Rudolf Wolf's educational institution."
+   ],
+   "raw": "Rudolf Wolf's educational institution."
+  },
+  {
+   "split": "train",
+   "id": "2hop__75714_21969",
+   "claims": [
+    "The year when the first governor general of India was impeached."
+   ],
+   "raw": "The year when the first governor general of India was impeached."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__545624_2053_5289",
+   "claims": [
+    "UK label bought by the relevant company.",
+    "Network that broadcasted Here and Now."
+   ],
+   "raw": "UK label bought by the relevant company.\nNetwork that broadcasted Here and Now."
+  },
+  {
+   "split": "train",
+   "id": "2hop__16844_20510",
+   "claims": [
+    "The entity that was dissolved after the Indian Rebellion in 1857."
+   ],
+   "raw": "The entity that was dissolved after the Indian Rebellion in 1857."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__151903_5274_458768_33633",
+   "claims": [
+    "The explorer name or identity.",
+    "The city where the group larger than The Lost Trident Sessions is headquartered.",
+    "The date or time period when the explorer reached that city.",
+    "The record label of The Lost Trident Sessions."
+   ],
+   "raw": "The explorer name or identity.\nThe city where the group larger than The Lost Trident Sessions is headquartered.\nThe date or time period when the explorer reached that city.\nThe record label of The Lost Trident Sessions."
+  },
+  {
+   "split": "train",
+   "id": "2hop__88632_67668",
+   "claims": [
+    "The actor who plays a role in Batman Under the Red Hood.",
+    "The character played by that actor in Batman Under the Red Hood."
+   ],
+   "raw": "The actor who plays a role in Batman Under the Red Hood.  \nThe character played by that actor in Batman Under the Red Hood."
+  },
+  {
+   "split": "train",
+   "id": "2hop__21075_5028",
+   "claims": [
+    "Burma's academic system was created by a country.",
+    "The average per capita GVA in 2013 of that country."
+   ],
+   "raw": "Burma's academic system was created by a country.\nThe average per capita GVA in 2013 of that country."
+  },
+  {
+   "split": "train",
+   "id": "3hop2__76873_69814_64554",
+   "claims": [
+    "Memoirs of a Geisha is set after World War II.",
+    "Germany was divided into two countries following World War II.",
+    "The conflict involving Germany and the United States occurred between the U.S. and which nation?"
+   ],
+   "raw": "Memoirs of a Geisha is set after World War II.\nGermany was divided into two countries following World War II.\nThe conflict involving Germany and the United States occurred between the U.S. and which nation?"
+  },
+  {
+   "split": "train",
+   "id": "4hop3__524186_219173_862998_72134",
+   "claims": [
+    "The city where Hillcrest High School is located.",
+    "The state where the screenwriter of The Poor Boob was born.",
+    "When the screenwriter of The Poor Boob was born.",
+    "When the city became the capital of the state."
+   ],
+   "raw": "The city where Hillcrest High School is located.\nThe state where the screenwriter of The Poor Boob was born.\nWhen the screenwriter of The Poor Boob was born.\nWhen the city became the capital of the state."
+  },
+  {
+   "split": "train",
+   "id": "4hop3__673447_132409_145082_35031",
+   "claims": [
+    "Infest's performer was formed in the state.",
+    "Tammy Leitner's birth city is ranked among the top five largest urban areas in that state."
+   ],
+   "raw": "Infest's performer was formed in the state.\nTammy Leitner's birth city is ranked among the top five largest urban areas in that state."
+  },
+  {
+   "split": "train",
+   "id": "2hop__809096_491515",
+   "claims": [
+    "William Beckford's child name."
+   ],
+   "raw": "William Beckford's child name."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__31050_725495_49925_267352",
+   "claims": [
+    "The movement the person led to reform and address the church.",
+    "The church the general population converted to."
+   ],
+   "raw": "The movement the person led to reform and address the church.\nThe church the general population converted to."
+  },
+  {
+   "split": "train",
+   "id": "2hop__263638_69048",
+   "claims": [
+    "The birthplace of Tebesa Nemine.",
+    "The country or region where Tebesa Nemine was born."
+   ],
+   "raw": "The birthplace of Tebesa Nemine.\nThe country or region where Tebesa Nemine was born."
+  },
+  {
+   "split": "train",
+   "id": "2hop__85596_807969",
+   "claims": [
+    "The team the highest goal scorer in the EPL is a member of.",
+    "The player who is the highest goal scorer in the EPL."
+   ],
+   "raw": "The team the highest goal scorer in the EPL is a member of.\nThe player who is the highest goal scorer in the EPL."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__228808_49925_13759_736921",
+   "claims": [
+    "The German priest who reformed Laurean Rugambwa's religion.",
+    "The religion that was being reformed by the German priest.",
+    "The German state where the priest delivered the sermon."
+   ],
+   "raw": "The German priest who reformed Laurean Rugambwa's religion.\nThe religion that was being reformed by the German priest.\nThe German state where the priest delivered the sermon."
+  },
+  {
+   "split": "train",
+   "id": "2hop__40485_40502",
+   "claims": [
+    "The European country the Huguenots felt kinship for emigration to."
+   ],
+   "raw": "The European country the Huguenots felt kinship for emigration to."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__389761_567566_84283",
+   "claims": [
+    "The record label that owns the Another Page performer.",
+    "The owner of the record label that Another Page performs under."
+   ],
+   "raw": "The record label that owns the Another Page performer.\nThe owner of the record label that Another Page performs under."
+  },
+  {
+   "split": "train",
+   "id": "2hop__25797_25839",
+   "claims": [
+    "Maximum capacity of devices using 1.1 version.",
+    "Type of device using 1.1 version."
+   ],
+   "raw": "Maximum capacity of devices using 1.1 version.\nType of device using 1.1 version."
+  },
+  {
+   "split": "train",
+   "id": "2hop__544760_35739",
+   "claims": [
+    "GNU IceCat is based on a specific version of a browser."
+   ],
+   "raw": "GNU IceCat is based on a specific version of a browser."
+  },
+  {
+   "split": "train",
+   "id": "2hop__749997_96912",
+   "claims": [
+    "Who is the author of Lectures on Jurisprudence?"
+   ],
+   "raw": "Who is the author of Lectures on Jurisprudence?"
+  },
+  {
+   "split": "train",
+   "id": "2hop__56270_68396",
+   "claims": [
+    "Percentage of the nation's population living in a state.",
+    "State including the 951 area code."
+   ],
+   "raw": "Percentage of the nation's population living in a state.\nState including the 951 area code."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__37608_32392_823060_610794",
+   "claims": [
+    "The county that borders the city.",
+    "The city that became the state capital.",
+    "Where Representative Thomas Tucker was from."
+   ],
+   "raw": "The county that borders the city.\nThe city that became the state capital.\nWhere Representative Thomas Tucker was from."
+  },
+  {
+   "split": "train",
+   "id": "2hop__48784_70131",
+   "claims": [
+    "The group that constituted free crops in Germany.",
+    "The location where the democratic government was established in 1919.",
+    "The type of government that was established in Germany in 1919."
+   ],
+   "raw": "The group that constituted free crops in Germany.  \nThe location where the democratic government was established in 1919.  \nThe type of government that was established in Germany in 1919."
+  },
+  {
+   "split": "train",
+   "id": "2hop__115515_779396",
+   "claims": [
+    "The person who created the Lap Engine.",
+    "The educational background of the person who created the Lap Engine."
+   ],
+   "raw": "The person who created the Lap Engine.\nThe educational background of the person who created the Lap Engine."
+  },
+  {
+   "split": "train",
+   "id": "4hop2__161602_426860_88460_126088",
+   "claims": [
+    "The country that hosted the tournament.",
+    "The country where That Dam is located."
+   ],
+   "raw": "The country that hosted the tournament.\nThe country where That Dam is located."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__5544_34179_23375",
+   "claims": [
+    "The man who succeeded the leader of the group which created the Soviet state.",
+    "The year the Molotov\u2013Ribbentrop Pact was established."
+   ],
+   "raw": "The man who succeeded the leader of the group which created the Soviet state.\nThe year the Molotov\u2013Ribbentrop Pact was established."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__139773_88110_21193",
+   "claims": [
+    "One of the original partners in the TV channel hosting Rachel Maddow's show.",
+    "Compression method used by the CAB format associated with the mentioned partner."
+   ],
+   "raw": "One of the original partners in the TV channel hosting Rachel Maddow's show.\nCompression method used by the CAB format associated with the mentioned partner."
+  },
+  {
+   "split": "train",
+   "id": "2hop__23297_23366",
+   "claims": [
+    "The Molotov\u2013Ribbentrop Pact was signed by.",
+    "The leader who invaded Bukovina and then signed the Molotov\u2013Ribbentrop Pact."
+   ],
+   "raw": "The Molotov\u2013Ribbentrop Pact was signed by.\nThe leader who invaded Bukovina and then signed the Molotov\u2013Ribbentrop Pact."
+  },
+  {
+   "split": "train",
+   "id": "2hop__605207_135019",
+   "claims": [
+    "Andreogeus' father."
+   ],
+   "raw": "Andreogeus' father."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__342858_131850_33952_33939",
+   "claims": [
+    "The second largest city in the US state having the Library District of the county containing Yuma.",
+    "The population in 1900 of that second largest city."
+   ],
+   "raw": "The second largest city in the US state having the Library District of the county containing Yuma.\nThe population in 1900 of that second largest city."
+  },
+  {
+   "split": "train",
+   "id": "2hop__434218_29905",
+   "claims": [
+    "The number of mandatory transmitters of Don Newman's employer.",
+    "Don Newman's employer."
+   ],
+   "raw": "The number of mandatory transmitters of Don Newman's employer.\nDon Newman's employer."
+  },
+  {
+   "split": "train",
+   "id": "4hop2__9988_261673_70784_79935",
+   "claims": [
+    "Region immediately north of the region that prevailed with the disgrace of Near East.",
+    "Terrain feature on which shamal is located.",
+    "When was the region created?"
+   ],
+   "raw": "Region immediately north of the region that prevailed with the disgrace of Near East.\nTerrain feature on which shamal is located.\nWhen was the region created?"
+  },
+  {
+   "split": "train",
+   "id": "4hop2__161602_426860_88460_21074",
+   "claims": [
+    "The country that hosted the tournament.",
+    "The country where That Dam is located."
+   ],
+   "raw": "The country that hosted the tournament.\nThe country where That Dam is located."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__840353_503371_21711",
+   "claims": [
+    "Palau de la Generalitat construction date.",
+    "Region where Almud\u00e9var was located.",
+    "Place of death of Martin."
+   ],
+   "raw": "Palau de la Generalitat construction date.\nRegion where Almud\u00e9var was located.\nPlace of death of Martin."
+  },
+  {
+   "split": "train",
+   "id": "2hop__48776_807969",
+   "claims": [
+    "The 2018 PFA player of the year."
+   ],
+   "raw": "The 2018 PFA player of the year."
+  },
+  {
+   "split": "train",
+   "id": "2hop__280451_84616",
+   "claims": [
+    "The spouse of Andrea Dotti.",
+    "What award did she win?"
+   ],
+   "raw": "The spouse of Andrea Dotti.\nWhat award did she win?"
+  },
+  {
+   "split": "train",
+   "id": "2hop__271045_68633",
+   "claims": [
+    "The organization Julio Maglione is located."
+   ],
+   "raw": "The organization Julio Maglione is located."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__860115_798482_131926_90707",
+   "claims": [
+    "The city that shares a border with Elizabeth Berg's birthplace.",
+    "The city where Elizabeth Berg was born.",
+    "The body of water that borders the city from point 3.",
+    "The name of the river that is part of point 4."
+   ],
+   "raw": "The city that shares a border with Elizabeth Berg's birthplace.\nThe city where Elizabeth Berg was born.\nThe body of water that borders the city from point 3.\nThe name of the river that is part of point 4."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__46571_87694_64412",
+   "claims": [
+    "The city that contains the basilica named after the saint who is holding a knife in the last supper."
+   ],
+   "raw": "The city that contains the basilica named after the saint who is holding a knife in the last supper."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__617062_127905_48717",
+   "claims": [
+    "The league Jim Wilson played in.",
+    "The year Jim Wilson played in the league.",
+    "Who was drafted second in the 1999 draft of that league."
+   ],
+   "raw": "The league Jim Wilson played in.  \nThe year Jim Wilson played in the league.  \nWho was drafted second in the 1999 draft of that league."
+  },
+  {
+   "split": "train",
+   "id": "2hop__60686_229757",
+   "claims": [
+    "The actress that plays leslie knope in parks and recreation."
+   ],
+   "raw": "The actress that plays leslie knope in parks and recreation."
+  },
+  {
+   "split": "train",
+   "id": "2hop__5658_25002",
+   "claims": [
+    "Pact details between Kravchuk and the person who signed the decree.",
+    "Duration of the pact."
+   ],
+   "raw": "Pact details between Kravchuk and the person who signed the decree.\nDuration of the pact."
+  },
+  {
+   "split": "train",
+   "id": "2hop__37765_85990",
+   "claims": [
+    "Leaders of the political group with a large number of Protestants.",
+    "Political group that has a large number of Protestants."
+   ],
+   "raw": "Leaders of the political group with a large number of Protestants.\nPolitical group that has a large number of Protestants."
+  },
+  {
+   "split": "train",
+   "id": "2hop__142198_152093",
+   "claims": [
+    "The record label that released the album Live Life Loud.",
+    "The musical band who recorded the album Live Life Loud."
+   ],
+   "raw": "The record label that released the album Live Life Loud.\nThe musical band who recorded the album Live Life Loud."
+  },
+  {
+   "split": "train",
+   "id": "2hop__504464_708278",
+   "claims": [
+    "The company preceding Metalmark Capital."
+   ],
+   "raw": "The company preceding Metalmark Capital."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__754160_831637_91775",
+   "claims": [
+    "U.S. military branch that operates such a list.",
+    "Destroyer class list and USS Dextrous belong to this branch.",
+    "Abbreviation used for this military branch.",
+    "Listed abbreviation in the U.S. military."
+   ],
+   "raw": "U.S. military branch that operates such a list.\nDestroyer class list and USS Dextrous belong to this branch.\nAbbreviation used for this military branch.\nListed abbreviation in the U.S. military."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__145194_160545_60577",
+   "claims": [
+    "The country where Siddhi Savetsila was born.",
+    "Where the movie \"The Beach\" was filmed."
+   ],
+   "raw": "The country where Siddhi Savetsila was born.\nWhere the movie \"The Beach\" was filmed."
+  },
+  {
+   "split": "train",
+   "id": "2hop__21103_16334",
+   "claims": [
+    "A modern population most closely related to majority modern Jewish group.",
+    "A 2010 study focused on."
+   ],
+   "raw": "A modern population most closely related to majority modern Jewish group.  \nA 2010 study focused on."
+  },
+  {
+   "split": "train",
+   "id": "4hop3__310746_88460_30152_20999",
+   "claims": [
+    "Country A that forms a boundary between Thailand and the country containing the Khong District.",
+    "People that the Ajuran Empire declared independent from and were expelled from Country A."
+   ],
+   "raw": "Country A that forms a boundary between Thailand and the country containing the Khong District.\nPeople that the Ajuran Empire declared independent from and were expelled from Country A."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__603558_87694_124169",
+   "claims": [
+    "The head of Catholicism and the basilica named after the saint.",
+    "The city where that hotel company has its head office.",
+    "The end of the governorship associated with the saint.",
+    "The name of the basilica (San Pietro in Ciel d'Oro)."
+   ],
+   "raw": "The head of Catholicism and the basilica named after the saint.\nThe city where that hotel company has its head office.\nThe end of the governorship associated with the saint.\nThe name of the basilica (San Pietro in Ciel d'Oro)."
+  },
+  {
+   "split": "train",
+   "id": "2hop__642686_7292",
+   "claims": [
+    "The performer of the song \"Hello Tomorrow\" on Smooth Jazz Stations.",
+    "The other artists featured on Smooth Jazz Stations alongside Kenny G."
+   ],
+   "raw": "The performer of the song \"Hello Tomorrow\" on Smooth Jazz Stations.\nThe other artists featured on Smooth Jazz Stations alongside Kenny G."
+  },
+  {
+   "split": "train",
+   "id": "3hop2__92991_89854_76291",
+   "claims": [
+    "Majority party in the House of Representatives.",
+    "When they took control of the determination of rules."
+   ],
+   "raw": "Majority party in the House of Representatives.\nWhen they took control of the determination of rules."
+  },
+  {
+   "split": "train",
+   "id": "2hop__32254_84601",
+   "claims": [
+    "Spacecraft that detected storms on Neptune.",
+    "When did it leave our solar system?"
+   ],
+   "raw": "Spacecraft that detected storms on Neptune.\nWhen did it leave our solar system?"
+  },
+  {
+   "split": "train",
+   "id": "3hop1__92991_78276_68042",
+   "claims": [
+    "The party that gained control of the US House.",
+    "The body within the US Congress which determines the rules for the House and Senate.",
+    "When this body was established.",
+    "The majority party in that body at the time they gained control of the House."
+   ],
+   "raw": "The party that gained control of the US House.  \nThe body within the US Congress which determines the rules for the House and Senate.  \nWhen this body was established.  \nThe majority party in that body at the time they gained control of the House."
+  },
+  {
+   "split": "train",
+   "id": "2hop__734582_71302",
+   "claims": [
+    "The actor who plays the role of The Good Shepherd in The Godfather.",
+    "The director of The Good Shepherd."
+   ],
+   "raw": "The actor who plays the role of The Good Shepherd in The Godfather.\nThe director of The Good Shepherd."
+  },
+  {
+   "split": "train",
+   "id": "2hop__66167_88526",
+   "claims": [
+    "The player who was picked before another player in the NBA draft.",
+    "The player with the most points in a single NBA season."
+   ],
+   "raw": "The player who was picked before another player in the NBA draft.\nThe player with the most points in a single NBA season."
+  },
+  {
+   "split": "train",
+   "id": "2hop__423045_570226",
+   "claims": [
+    "The province where the Paracel islands are located.",
+    "The city within that province."
+   ],
+   "raw": "The province where the Paracel islands are located.  \nThe city within that province."
+  },
+  {
+   "split": "train",
+   "id": "3hop2__132957_132967_40768",
+   "claims": [
+    "The maker of the Acura Legend.",
+    "The company that built Daihatsu Boon.",
+    "When did the company open a US assembly plant?",
+    "When did Nissan open a US assembly plant?"
+   ],
+   "raw": "The maker of the Acura Legend.\nThe company that built Daihatsu Boon.\nWhen did the company open a US assembly plant?\nWhen did Nissan open a US assembly plant?"
+  },
+  {
+   "split": "train",
+   "id": "3hop2__304722_689786_63959",
+   "claims": [
+    "The sports team Malcolm Beard was a member of.",
+    "The 1894-95 FA cup winner."
+   ],
+   "raw": "The sports team Malcolm Beard was a member of.\nThe 1894-95 FA cup winner."
+  },
+  {
+   "split": "train",
+   "id": "2hop__24976_25002",
+   "claims": [
+    "The length of time for which Kravchuk had a pact with the person organizers wanted to arrest."
+   ],
+   "raw": "The length of time for which Kravchuk had a pact with the person organizers wanted to arrest."
+  },
+  {
+   "split": "train",
+   "id": "2hop__471509_136043",
+   "claims": [
+    "The band for the Nicole and Natalie album."
+   ],
+   "raw": "The band for the Nicole and Natalie album."
+  },
+  {
+   "split": "train",
+   "id": "2hop__32541_85460",
+   "claims": [
+    "Median household income for people today of a specific country.",
+    "Witness to the Blitz, their associated country."
+   ],
+   "raw": "Median household income for people today of a specific country.\nWitness to the Blitz, their associated country."
+  },
+  {
+   "split": "train",
+   "id": "2hop__43283_86694",
+   "claims": [
+    "The league that wins the All Star Game more often.",
+    "The player who has the most wins in that league."
+   ],
+   "raw": "The league that wins the All Star Game more often.\nThe player who has the most wins in that league."
+  },
+  {
+   "split": "train",
+   "id": "2hop__9238_9237",
+   "claims": [
+    "The place where Marshall Islands International Airport is located.",
+    "The year the first mosque in that location opened."
+   ],
+   "raw": "The place where Marshall Islands International Airport is located.\nThe year the first mosque in that location opened."
+  },
+  {
+   "split": "train",
+   "id": "2hop__88953_64006",
+   "claims": [
+    "The region that received aid from the Marshall Plan.",
+    "The original population of the region before the Black Death.",
+    "The population of the region after the Black Death."
+   ],
+   "raw": "The region that received aid from the Marshall Plan.\nThe original population of the region before the Black Death.\nThe population of the region after the Black Death."
+  },
+  {
+   "split": "train",
+   "id": "3hop2__781093_467331_162182",
+   "claims": [
+    "The region where Lam Thao is located.",
+    "The city where the Zone 5 Military Museum is located."
+   ],
+   "raw": "The region where Lam Thao is located.\nThe city where the Zone 5 Military Museum is located."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__398232_326948_78782",
+   "claims": [
+    "British general in the battle named after a place.",
+    "Birth city of the person who recorded Mother-in-Law."
+   ],
+   "raw": "British general in the battle named after a place.\nBirth city of the person who recorded Mother-in-Law."
+  },
+  {
+   "split": "train",
+   "id": "4hop1__58323_375563_161848_53331",
+   "claims": [
+    "The country where the writer of The Book Thief is a citizen of.",
+    "The country near the country where the writer of The Book Thief is a citizen of.",
+    "When the death penalty was abolished in that country."
+   ],
+   "raw": "The country where the writer of The Book Thief is a citizen of.\nThe country near the country where the writer of The Book Thief is a citizen of.\nWhen the death penalty was abolished in that country."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__415141_42197_18397",
+   "claims": [
+    "The leader who argued about Vladimir Ageev's citizenship.",
+    "The country where the leader declared he would intervene in the Korean conflict."
+   ],
+   "raw": "The leader who argued about Vladimir Ageev's citizenship.\nThe country where the leader declared he would intervene in the Korean conflict."
+  },
+  {
+   "split": "train",
+   "id": "2hop__593688_292889",
+   "claims": [
+    "Team that Pa Amadou Gai is a member of.",
+    "Country where that team plays."
+   ],
+   "raw": "Team that Pa Amadou Gai is a member of.\nCountry where that team plays."
+  },
+  {
+   "split": "train",
+   "id": "4hop2__567956_39078_8987_8974",
+   "claims": [
+    "Country A that invaded Country B.",
+    "Military branch responsible for the invasion of Country B.",
+    "Country B that has a communist government.",
+    "City where Country B's embassy is located."
+   ],
+   "raw": "Country A that invaded Country B.\nMilitary branch responsible for the invasion of Country B.\nCountry B that has a communist government.\nCity where Country B's embassy is located."
+  },
+  {
+   "split": "train",
+   "id": "3hop1__377943_650651_7262",
+   "claims": [
+    "Prominent figure at the radio division of the broadcasting company.",
+    "Country where the location is situated."
+   ],
+   "raw": "Prominent figure at the radio division of the broadcasting company.\nCountry where the location is situated."
+  },
+  {
+   "split": "train",
+   "id": "3hop2__304722_526346_63959",
+   "claims": [
+    "The sports team that had Trevor Dark as a member most recently.",
+    "The winner of the 1894\u201395 FA Cup.",
+    "When was the last time they played against each other?"
+   ],
+   "raw": "The sports team that had Trevor Dark as a member most recently.\nThe winner of the 1894\u201395 FA Cup.\nWhen was the last time they played against each other?"
+  },
+  {
+   "split": "test",
+   "id": "2hop__235471_565925",
+   "claims": [
+    "The record label that released The Place and the Time.",
+    "The performer of The Place and the Time."
+   ],
+   "raw": "The record label that released The Place and the Time.\nThe performer of The Place and the Time."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__139787_88110_77129",
+   "claims": [
+    "The company the letters MS stand for in the network that broadcasts Buchanan & Press.",
+    "The operating system supported by Hyper-V from that company."
+   ],
+   "raw": "The company the letters MS stand for in the network that broadcasts Buchanan & Press.\nThe operating system supported by Hyper-V from that company."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__88342_75218_128008_54974",
+   "claims": [
+    "The league where the team with the most games in the series after which the MLB MVP is awarded plays.",
+    "The team with the most games in the series after which the MLB MVP is awarded."
+   ],
+   "raw": "The league where the team with the most games in the series after which the MLB MVP is awarded plays.\nThe team with the most games in the series after which the MLB MVP is awarded."
+  },
+  {
+   "split": "test",
+   "id": "2hop__701525_342810",
+   "claims": [
+    "The county that shares a border with Cedar Springs."
+   ],
+   "raw": "The county that shares a border with Cedar Springs."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__498954_160713_77246",
+   "claims": [
+    "Arabic dictionary defines \"majority religion\" in British India.",
+    "The country where Mandeer is located."
+   ],
+   "raw": "Arabic dictionary defines \"majority religion\" in British India.\nThe country where Mandeer is located."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__324759_378185_282674_759393",
+   "claims": [
+    "The county where Pierce Manufacturing's headquarters are located.",
+    "The county that shares a border with the county mentioned in (3).",
+    "The capital city of the county that shares a border with the county where Pierce Manufacturing's headquarters are located."
+   ],
+   "raw": "The county where Pierce Manufacturing's headquarters are located.\nThe county that shares a border with the county mentioned in (3).\nThe capital city of the county that shares a border with the county where Pierce Manufacturing's headquarters are located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__70338_160040",
+   "claims": [
+    "The book from which \"by the skin of your teeth\" originated."
+   ],
+   "raw": "The book from which \"by the skin of your teeth\" originated."
+  },
+  {
+   "split": "test",
+   "id": "2hop__71336_604644",
+   "claims": [
+    "The band that sang Hey Now You're an All Star."
+   ],
+   "raw": "The band that sang Hey Now You're an All Star."
+  },
+  {
+   "split": "test",
+   "id": "2hop__59133_512508",
+   "claims": [
+    "The person who discovered that the number of protons in each element's atoms is unique."
+   ],
+   "raw": "The person who discovered that the number of protons in each element's atoms is unique."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__88342_75218_128008_87812",
+   "claims": [
+    "The league in which the team with the most games in the series after which the MLB MVP is awarded plays."
+   ],
+   "raw": "The league in which the team with the most games in the series after which the MLB MVP is awarded plays."
+  },
+  {
+   "split": "test",
+   "id": "2hop__85325_88165",
+   "claims": [
+    "The person who married their half sister in the Bible.",
+    "Sarah's spouse after her death."
+   ],
+   "raw": "The person who married their half sister in the Bible.  \nSarah's spouse after her death."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__146155_131905_41948",
+   "claims": [
+    "Nicolaus Schuback's body was lowered."
+   ],
+   "raw": "Nicolaus Schuback's body was lowered."
+  },
+  {
+   "split": "test",
+   "id": "2hop__402530_774333",
+   "claims": [
+    "The county where Imperial is located."
+   ],
+   "raw": "The county where Imperial is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__55032_786853",
+   "claims": [
+    "The spouse of the actor who voices Batman in the Lego Batman movie."
+   ],
+   "raw": "The spouse of the actor who voices Batman in the Lego Batman movie."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__87184_36497_76291",
+   "claims": [
+    "The party currently controlling the House of Representatives.",
+    "The political body the President calls on for support regarding USAF appointments.",
+    "When this party took control of the House of Representatives."
+   ],
+   "raw": "The party currently controlling the House of Representatives.  \nThe political body the President calls on for support regarding USAF appointments.  \nWhen this party took control of the House of Representatives."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__108833_720914_41132",
+   "claims": [
+    "The plague occurrences in the city where the painter of The Bacchanal of the Andrians died."
+   ],
+   "raw": "The plague occurrences in the city where the painter of The Bacchanal of the Andrians died."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__373866_5189_31809_86687",
+   "claims": [
+    "The country that had control over the People's Socialist Republic of Albania.",
+    "When did this country agree to a unified Germany.",
+    "The organization where Gaddafi's grandsons were killed."
+   ],
+   "raw": "The country that had control over the People's Socialist Republic of Albania.\nWhen did this country agree to a unified Germany.\nThe organization where Gaddafi's grandsons were killed."
+  },
+  {
+   "split": "test",
+   "id": "2hop__67660_67223",
+   "claims": [
+    "The spouse of the narrator from How I Met Your Mother.",
+    "The name of the character who was the narrator's wife."
+   ],
+   "raw": "The spouse of the narrator from How I Met Your Mother.\nThe name of the character who was the narrator's wife."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__622145_42197_18397",
+   "claims": [
+    "The arguer who declared he would intervene in the Korean conflict."
+   ],
+   "raw": "The arguer who declared he would intervene in the Korean conflict."
+  },
+  {
+   "split": "test",
+   "id": "2hop__199513_13732",
+   "claims": [
+    "The person from whom S\u00e3o Jos\u00e9 dos Campos takes its name.",
+    "Mary's age at the time of engagement."
+   ],
+   "raw": "The person from whom S\u00e3o Jos\u00e9 dos Campos takes its name.  \nMary's age at the time of engagement."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__696484_49925_13759_736921",
+   "claims": [
+    "The district where the preacher lived or was active.",
+    "The religion of Bernhard Lichtenberg.",
+    "The name of the person who wanted to reform and address Lichtenberg's religion.",
+    "The location of the district where the sermon took place."
+   ],
+   "raw": "The district where the preacher lived or was active.\nThe religion of Bernhard Lichtenberg.\nThe name of the person who wanted to reform and address Lichtenberg's religion.\nThe location of the district where the sermon took place."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__28527_42197_18397",
+   "claims": [
+    "The country in control of Estonia before the Germans."
+   ],
+   "raw": "The country in control of Estonia before the Germans."
+  },
+  {
+   "split": "test",
+   "id": "2hop__485221_544917",
+   "claims": [
+    "The body of water where Coffee Swamp is located."
+   ],
+   "raw": "The body of water where Coffee Swamp is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__415518_616002",
+   "claims": [
+    "The author who wrote The Happy Journey to Trenton and Camden.",
+    "The award received by the author of The Happy Journey to Trenton and Camden."
+   ],
+   "raw": "The author who wrote The Happy Journey to Trenton and Camden.\nThe award received by the author of The Happy Journey to Trenton and Camden."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__312119_132409_223216_35031",
+   "claims": [
+    "The city where Pathology was formed ranks among the top five largest urban areas.",
+    "The state where the performer of Getting Away With Murder was formed."
+   ],
+   "raw": "The city where Pathology was formed ranks among the top five largest urban areas.\nThe state where the performer of Getting Away With Murder was formed."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__565959_223623_162182",
+   "claims": [
+    "John Phan's place of birth.",
+    "Region containing Mount Can."
+   ],
+   "raw": "John Phan's place of birth.\nRegion containing Mount Can."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__139773_88110_77129",
+   "claims": [
+    "The company that the letters MS stand for.",
+    "The network where The Rachel Maddow Show is found.",
+    "The OS that supported the Hyper-V protocol first.",
+    "The company that owns Hyper-V technology."
+   ],
+   "raw": "The company that the letters MS stand for.\nThe network where The Rachel Maddow Show is found.\nThe OS that supported the Hyper-V protocol first.\nThe company that owns Hyper-V technology."
+  },
+  {
+   "split": "test",
+   "id": "2hop__131818_161450",
+   "claims": [
+    "Voshmgir District geographical location."
+   ],
+   "raw": "Voshmgir District geographical location."
+  },
+  {
+   "split": "test",
+   "id": "2hop__107185_64006",
+   "claims": [
+    "The country for which the population reduction due to the Black Death is being considered.",
+    "B\u00e2ton \u00e0 feu's population before the Black Death."
+   ],
+   "raw": "The country for which the population reduction due to the Black Death is being considered.\nB\u00e2ton \u00e0 feu's population before the Black Death."
+  },
+  {
+   "split": "test",
+   "id": "2hop__574419_270105",
+   "claims": [
+    "The county where Van Hook Township is located.",
+    "The county seat of the county where Van Hook Township is located."
+   ],
+   "raw": "The county where Van Hook Township is located.\nThe county seat of the county where Van Hook Township is located."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__622497_160088_73916",
+   "claims": [
+    "Nationality of the producer of The Wild Women of Chastity Gulch."
+   ],
+   "raw": "Nationality of the producer of The Wild Women of Chastity Gulch."
+  },
+  {
+   "split": "test",
+   "id": "2hop__32441_178460",
+   "claims": [
+    "The sibling of the president other than Taft who played for the Jenkins Orphanage."
+   ],
+   "raw": "The sibling of the president other than Taft who played for the Jenkins Orphanage."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__446612_160545_34751",
+   "claims": [
+    "Ercole Manfredi's place of birth.",
+    "Country where Ercole Manfredi was born formed an alliance with Japan."
+   ],
+   "raw": "Ercole Manfredi's place of birth.\nCountry where Ercole Manfredi was born formed an alliance with Japan."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__773338_42197_18397",
+   "claims": [
+    "The arguer who declared he would intervene in the Korean conflict."
+   ],
+   "raw": "The arguer who declared he would intervene in the Korean conflict."
+  },
+  {
+   "split": "test",
+   "id": "2hop__486314_544665",
+   "claims": [
+    "The father of Menucha Rochel Slonim."
+   ],
+   "raw": "The father of Menucha Rochel Slonim."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__275416_24325_125104_10557",
+   "claims": [
+    "Carnival of Guido Maus's birth place.",
+    "Language used in the era of Rotrude's father."
+   ],
+   "raw": "Carnival of Guido Maus's birth place.\nLanguage used in the era of Rotrude's father."
+  },
+  {
+   "split": "test",
+   "id": "2hop__43579_289940",
+   "claims": [
+    "The player who had the most sacks in the NFL this season.",
+    "The name of the sports team the mentioned player plays for."
+   ],
+   "raw": "The player who had the most sacks in the NFL this season.\nThe name of the sports team the mentioned player plays for."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__169494_42197_18397",
+   "claims": [
+    "The country whose citizenship Dmitry Okhotsimsky had become an imperialist power.",
+    "Where the arguer declared he would intervene in the Korean conflict."
+   ],
+   "raw": "The country whose citizenship Dmitry Okhotsimsky had become an imperialist power.\nWhere the arguer declared he would intervene in the Korean conflict."
+  },
+  {
+   "split": "test",
+   "id": "2hop__133116_533882",
+   "claims": [
+    "Company that resulted from a 1961 merger.",
+    "Builder of the Martin BM."
+   ],
+   "raw": "Company that resulted from a 1961 merger.  \nBuilder of the Martin BM."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__132957_132968_40768",
+   "claims": [
+    "Acura Legend manufacturer.",
+    "Company that makes Daihatsu Charmant opened US plant.",
+    "Nissan opened US assembly plant.",
+    "When did this occur?"
+   ],
+   "raw": "Acura Legend manufacturer.\nCompany that makes Daihatsu Charmant opened US plant.\nNissan opened US assembly plant.\nWhen did this occur?"
+  },
+  {
+   "split": "test",
+   "id": "3hop2__90098_156850_10557",
+   "claims": [
+    "The form of the language that the surname Sylvester comes from.",
+    "The era and context when Fastrada had a spouse."
+   ],
+   "raw": "The form of the language that the surname Sylvester comes from.\nThe era and context when Fastrada had a spouse."
+  },
+  {
+   "split": "test",
+   "id": "2hop__498061_88622",
+   "claims": [
+    "The person who owns ThinThread."
+   ],
+   "raw": "The person who owns ThinThread."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__310029_153080_159767_81096",
+   "claims": [
+    "The performer of Jazz Portraits: Mingus in Wonderland is from.",
+    "The largest city and capital of the state where that performer is from.",
+    "Who won the Indy Car Race."
+   ],
+   "raw": "The performer of Jazz Portraits: Mingus in Wonderland is from.\nThe largest city and capital of the state where that performer is from.\nWho won the Indy Car Race."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__79039_131926_89261",
+   "claims": [
+    "The body of water by the home of the Juicy Lucy."
+   ],
+   "raw": "The body of water by the home of the Juicy Lucy."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__79039_131926_90707",
+   "claims": [
+    "The body of water (river) that meets with the body of water near the city home to the Juicy Lucy.",
+    "The body of water (Ohio River) near the city home to the Juicy Lucy.",
+    "The location where the body of water meeting occurs."
+   ],
+   "raw": "The body of water (river) that meets with the body of water near the city home to the Juicy Lucy.\nThe body of water (Ohio River) near the city home to the Juicy Lucy.\nThe location where the body of water meeting occurs."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__15567_29339_508306_70744",
+   "claims": [
+    "Edwards won a primary.",
+    "The state excluding where Demarcus Sears was sentenced to death.",
+    "That state's university.",
+    "Fort Hill's city's university."
+   ],
+   "raw": "Edwards won a primary.\nThe state excluding where Demarcus Sears was sentenced to death.\nThat state's university.\nFort Hill's city's university."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__120881_2053_5289",
+   "claims": [
+    "UK broadcast label bought by a major New York broadcast.",
+    "Other major New York broadcast besides ABC.",
+    "Label released Stand Against Fear."
+   ],
+   "raw": "UK broadcast label bought by a major New York broadcast.\nOther major New York broadcast besides ABC.\nLabel released Stand Against Fear."
+  },
+  {
+   "split": "test",
+   "id": "2hop__359312_18803",
+   "claims": [
+    "MV Miralda's owner.",
+    "April 2010."
+   ],
+   "raw": "MV Miralda's owner.\nApril 2010."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__463635_624859_355213_203322",
+   "claims": [
+    "The county where Tonight You're Mine's performer was born."
+   ],
+   "raw": "The county where Tonight You're Mine's performer was born."
+  },
+  {
+   "split": "test",
+   "id": "2hop__135668_561444",
+   "claims": [
+    "Daughter of the third Rebbe of Chabad Lubavitch.",
+    "Name given to this daughter."
+   ],
+   "raw": "Daughter of the third Rebbe of Chabad Lubavitch.\nName given to this daughter."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__305282_282081_73772",
+   "claims": [
+    "The performer of III (referring to a musician or artist III).",
+    "The date when the battle of the birthplace of the performer started."
+   ],
+   "raw": "The performer of III (referring to a musician or artist III).\nThe date when the battle of the birthplace of the performer started."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__140855_2053_5289",
+   "claims": [
+    "UK label bought by the specified company.",
+    "That company's relationship to ABC and Then Came Bronson.",
+    "The city where that company is based in New York."
+   ],
+   "raw": "UK label bought by the specified company.\nThat company's relationship to ABC and Then Came Bronson.\nThe city where that company is based in New York."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__90327_73181_68042",
+   "claims": [
+    "The party that gained control of the House in a body which approves members of the Cabinet."
+   ],
+   "raw": "The party that gained control of the House in a body which approves members of the Cabinet."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__151650_5274_458768_33633",
+   "claims": [
+    "Gaspar's arrival date in the region.",
+    "The name of the record label of which Desde El Principio is a part.",
+    "The largest record label that Signed Desde El Principio."
+   ],
+   "raw": "Gaspar's arrival date in the region.\nThe name of the record label of which Desde El Principio is a part.\nThe largest record label that Signed Desde El Principio."
+  },
+  {
+   "split": "test",
+   "id": "2hop__46213_494136",
+   "claims": [
+    "The actor who plays the father in I Can Only Imagine.",
+    "The actress who plays the mother in that film."
+   ],
+   "raw": "The actor who plays the father in I Can Only Imagine.  \nThe actress who plays the mother in that film."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__17192_17130_70784_61381",
+   "claims": [
+    "Region immediately north of the country that secured southern Lebanon.",
+    "Persian Gulf region establishment context or details."
+   ],
+   "raw": "Region immediately north of the country that secured southern Lebanon.\nPersian Gulf region establishment context or details."
+  },
+  {
+   "split": "test",
+   "id": "2hop__123214_22402",
+   "claims": [
+    "Daniel Th\u00fcrer's current position (assuming he is still a student).",
+    "Number of students attending Daniel Th\u00fcrer's university."
+   ],
+   "raw": "Daniel Th\u00fcrer's current position (assuming he is still a student).\nNumber of students attending Daniel Th\u00fcrer's university."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__850160_15840_36014",
+   "claims": [
+    "Nintendo's limit on games per developer per year.",
+    "The system with a three-letter abbreviation for Nintendo.",
+    "Platform for the game Pictionary."
+   ],
+   "raw": "Nintendo's limit on games per developer per year.\nThe system with a three-letter abbreviation for Nintendo.\nPlatform for the game Pictionary."
+  },
+  {
+   "split": "test",
+   "id": "2hop__95673_121319",
+   "claims": [
+    "The person featured in the film Sammy Going South studied or worked at."
+   ],
+   "raw": "The person featured in the film Sammy Going South studied or worked at."
+  },
+  {
+   "split": "test",
+   "id": "2hop__794999_113442",
+   "claims": [
+    "The creator of Christ in the House of His Parents."
+   ],
+   "raw": "The creator of Christ in the House of His Parents."
+  },
+  {
+   "split": "test",
+   "id": "2hop__673655_316668",
+   "claims": [
+    "The person from The Blackout All-Stars."
+   ],
+   "raw": "The person from The Blackout All-Stars."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__130623_32392_823060_610794",
+   "claims": [
+    "The county with a city adjacent to the capital city of Erskine College's state."
+   ],
+   "raw": "The county with a city adjacent to the capital city of Erskine College's state."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__765565_326948_78782",
+   "claims": [
+    "British general associated with the birthplace of the performer.",
+    "Birthplace of the performer of Here Come the Girls."
+   ],
+   "raw": "British general associated with the birthplace of the performer.\nBirthplace of the performer of Here Come the Girls."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__791757_15840_36002",
+   "claims": [
+    "Genesis model features.",
+    "System Knight Rider was equipped with."
+   ],
+   "raw": "Genesis model features.\nSystem Knight Rider was equipped with."
+  },
+  {
+   "split": "test",
+   "id": "2hop__166484_798067",
+   "claims": [
+    "The administrative territorial entity where Zuchang Gymnasium is located."
+   ],
+   "raw": "The administrative territorial entity where Zuchang Gymnasium is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__424908_500483",
+   "claims": [
+    "The administrative district where Bieliny, \u015awi\u0119tokrzyskie Voivodeship is located.",
+    "A country or region that shares a border with the aforementioned administrative district."
+   ],
+   "raw": "The administrative district where Bieliny, \u015awi\u0119tokrzyskie Voivodeship is located.\nA country or region that shares a border with the aforementioned administrative district."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__68981_91191_156667",
+   "claims": [
+    "The religion that became the most practiced in Southeast Asia."
+   ],
+   "raw": "The religion that became the most practiced in Southeast Asia."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__120881_2053_52946",
+   "claims": [
+    "The network along with ABC and the network which released Stand Against Fear is based in NY.",
+    "Celebrity Big Brother airing network."
+   ],
+   "raw": "The network along with ABC and the network which released Stand Against Fear is based in NY.\nCelebrity Big Brother airing network."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__540585_568433_47686",
+   "claims": [
+    "Greyhound buses departure location.",
+    "Location of the headquarters for the production company of Miss Spider's Sunny Patch Kids."
+   ],
+   "raw": "Greyhound buses departure location.\nLocation of the headquarters for the production company of Miss Spider's Sunny Patch Kids."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__408432_32392_823060_610794",
+   "claims": [
+    "The county containing the city sharing a border with the capitol.",
+    "The state where WYFG is located."
+   ],
+   "raw": "The county containing the city sharing a border with the capitol.\nThe state where WYFG is located."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__353661_629431_124169",
+   "claims": [
+    "The city where the author of Sacerdotii Nostri Primordia lived or worked.",
+    "The date of the death of the author of Sacerdotii Nostri Primordia."
+   ],
+   "raw": "The city where the author of Sacerdotii Nostri Primordia lived or worked.\nThe date of the death of the author of Sacerdotii Nostri Primordia."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__749065_698949_157828_162309",
+   "claims": [
+    "The country that attended the Olympics games as an independent team.",
+    "The official language of the country co-official with Slavko Surdonja's show.",
+    "When Slavko Surdonja passed away."
+   ],
+   "raw": "The country that attended the Olympics games as an independent team.\nThe official language of the country co-official with Slavko Surdonja's show.\nWhen Slavko Surdonja passed away."
+  },
+  {
+   "split": "test",
+   "id": "2hop__20433_157939",
+   "claims": [
+    "The waterfowl character with his own series of satirical comic books."
+   ],
+   "raw": "The waterfowl character with his own series of satirical comic books."
+  },
+  {
+   "split": "test",
+   "id": "2hop__20256_71302",
+   "claims": [
+    "The actor producing the Freddie Mercury film."
+   ],
+   "raw": "The actor producing the Freddie Mercury film."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__103890_10659_23296",
+   "claims": [
+    "Country where the country invaded by the Nazis had its capital.",
+    "Nation that \u00c1gnes Konkoly is from.",
+    "City where expelled French Jews relocated."
+   ],
+   "raw": "Country where the country invaded by the Nazis had its capital.\nNation that \u00c1gnes Konkoly is from.\nCity where expelled French Jews relocated."
+  },
+  {
+   "split": "test",
+   "id": "2hop__6827_86319",
+   "claims": [
+    "The entity that purchased FleetBoston Financial."
+   ],
+   "raw": "The entity that purchased FleetBoston Financial."
+  },
+  {
+   "split": "test",
+   "id": "2hop__286093_361551",
+   "claims": [
+    "James Finch's birthplace.",
+    "The county of James Finch's birthplace."
+   ],
+   "raw": "James Finch's birthplace.\nThe county of James Finch's birthplace."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__23058_20608_36327",
+   "claims": [
+    "Bloomberg named the country.",
+    "The country formerly known as the region where the Spanish and Portuguese took most of their slaves from."
+   ],
+   "raw": "Bloomberg named the country.  \nThe country formerly known as the region where the Spanish and Portuguese took most of their slaves from."
+  },
+  {
+   "split": "test",
+   "id": "2hop__709357_136043",
+   "claims": [
+    "The band that created the song Move Ya Body."
+   ],
+   "raw": "The band that created the song Move Ya Body."
+  },
+  {
+   "split": "test",
+   "id": "2hop__582045_161450",
+   "claims": [
+    "Gonbad-e Qabus Province."
+   ],
+   "raw": "Gonbad-e Qabus Province."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__20335_82856_9331",
+   "claims": [
+    "The empire that helped the patriots during the Revolutionary War.",
+    "The kingdom that acquired Thuringian territory in 1815.",
+    "The dynasty of the Habsburg Monarchy.",
+    "The entity that dissolved the privileges."
+   ],
+   "raw": "The empire that helped the patriots during the Revolutionary War.\nThe kingdom that acquired Thuringian territory in 1815.\nThe dynasty of the Habsburg Monarchy.\nThe entity that dissolved the privileges."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__813358_24325_125104_10557",
+   "claims": [
+    "Jean Mathonet died in the town.",
+    "Rotrude's father lived during a specific historical period.",
+    "The European culture associated with the carnival in Jean Mathonet's town.",
+    "The language spoken in that culture had a different name in Rotrude's father's era."
+   ],
+   "raw": "Jean Mathonet died in the town.\nRotrude's father lived during a specific historical period.\nThe European culture associated with the carnival in Jean Mathonet's town.\nThe language spoken in that culture had a different name in Rotrude's father's era."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__309596_160713_77246",
+   "claims": [
+    "Arabic dictionary containing information about the word.",
+    "Area that became India after the creation of the country where Punial is located.",
+    "Majority religion in the specified area and its relation to the word's meaning.",
+    "Country where Punial is located."
+   ],
+   "raw": "Arabic dictionary containing information about the word.\nArea that became India after the creation of the country where Punial is located.\nMajority religion in the specified area and its relation to the word's meaning.\nCountry where Punial is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__89460_75184",
+   "claims": [
+    "The actress who played the girlfriend in Back To The Future.",
+    "The actor who played Marty's daughter in Back To The Future 2.",
+    "The character played by the actor mentioned above in Back To The Future.",
+    "The role of the actress mentioned earlier in Back To The Future."
+   ],
+   "raw": "The actress who played the girlfriend in Back To The Future.  \nThe actor who played Marty's daughter in Back To The Future 2.  \nThe character played by the actor mentioned above in Back To The Future.  \nThe role of the actress mentioned earlier in Back To The Future."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__786067_228453_86925",
+   "claims": [
+    "The city where the headquarters of the manufacturer of McAfee's Benchmark is located.",
+    "The name of the manufacturer of McAfee's Benchmark."
+   ],
+   "raw": "The city where the headquarters of the manufacturer of McAfee's Benchmark is located.\nThe name of the manufacturer of McAfee's Benchmark."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__135392_87694_64412",
+   "claims": [
+    "The basilica which is named for the same saint as the Bremen Cathedral."
+   ],
+   "raw": "The basilica which is named for the same saint as the Bremen Cathedral."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__661103_698586_89595_54362",
+   "claims": [
+    "The person who burned down the city.",
+    "Dunn Dunn's recording artist.",
+    "The conflict that occurred historically, affecting A Rose for Emily.",
+    "The historical period associated with A Rose for Emily and the conflict."
+   ],
+   "raw": "The person who burned down the city.  \nDunn Dunn's recording artist.  \nThe conflict that occurred historically, affecting A Rose for Emily.  \nThe historical period associated with A Rose for Emily and the conflict."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__132957_52222_40768",
+   "claims": [
+    "The biggest automobile company in the world that made Acura Legend.",
+    "Acura Legend's manufacturer opened US assembly plants.",
+    "Nissan opened US assembly plants alongside Acura Legend's manufacturer.",
+    "When did these companies open their US assembly plants?"
+   ],
+   "raw": "The biggest automobile company in the world that made Acura Legend.\nAcura Legend's manufacturer opened US assembly plants.\nNissan opened US assembly plants alongside Acura Legend's manufacturer.\nWhen did these companies open their US assembly plants?"
+  },
+  {
+   "split": "test",
+   "id": "2hop__160151_23241",
+   "claims": [
+    "Pew survey results for Nigeria in 2010.",
+    "Pickthall's place of burial.",
+    "The religion associated with Pickthall."
+   ],
+   "raw": "Pew survey results for Nigeria in 2010.\nPickthall's place of burial.\nThe religion associated with Pickthall."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__161605_32392_823060_610794",
+   "claims": [
+    "The county that borders Darlington County.",
+    "The state where Darlington County is located.",
+    "The state capital.",
+    "The city that borders the state capital."
+   ],
+   "raw": "The county that borders Darlington County.\nThe state where Darlington County is located.\nThe state capital.\nThe city that borders the state capital."
+  },
+  {
+   "split": "test",
+   "id": "2hop__538412_126089",
+   "claims": [
+    "Who is Schermer located in?"
+   ],
+   "raw": "Who is Schermer located in?"
+  },
+  {
+   "split": "test",
+   "id": "2hop__82051_7298",
+   "claims": [
+    "Notable pop artist who started out on adult contemporary radio."
+   ],
+   "raw": "Notable pop artist who started out on adult contemporary radio."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__31050_725495_49925_349426",
+   "claims": [
+    "The spouse who wanted to reform the Christian denomination.",
+    "The Christian denomination converted by the general population of Guam.",
+    "The country in which Guam is located."
+   ],
+   "raw": "The spouse who wanted to reform the Christian denomination.\nThe Christian denomination converted by the general population of Guam.\nThe country in which Guam is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__374767_152023",
+   "claims": [
+    "The label responsible for the performer of One Night in America."
+   ],
+   "raw": "The label responsible for the performer of One Night in America."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__316459_41402_146281_13584",
+   "claims": [
+    "A country that gained control of Florida.",
+    "Charles Edmund Nugent's involvement in a war.",
+    "Real Madrid compared to the football team from the city where Aleran died."
+   ],
+   "raw": "A country that gained control of Florida.\nCharles Edmund Nugent's involvement in a war.\nReal Madrid compared to the football team from the city where Aleran died."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__77966_91191_156667",
+   "claims": [
+    "The spouse of the first convert to the faith that is the most common religion in Lebanon."
+   ],
+   "raw": "The spouse of the first convert to the faith that is the most common religion in Lebanon."
+  },
+  {
+   "split": "test",
+   "id": "2hop__107238_64918",
+   "claims": [
+    "The presidency during which Congress declared war.",
+    "The country where Glumpers was filmed."
+   ],
+   "raw": "The presidency during which Congress declared war.\nThe country where Glumpers was filmed."
+  },
+  {
+   "split": "test",
+   "id": "2hop__94507_654855",
+   "claims": [
+    "The political party Adversary in the House is based on."
+   ],
+   "raw": "The political party Adversary in the House is based on."
+  },
+  {
+   "split": "test",
+   "id": "2hop__123104_77615",
+   "claims": [
+    "Paulo Manalo's educational background.",
+    "The university Paulo Manalo attended."
+   ],
+   "raw": "Paulo Manalo's educational background.\nThe university Paulo Manalo attended."
+  },
+  {
+   "split": "test",
+   "id": "2hop__68322_510545",
+   "claims": [
+    "The spouse of the actor that plays Jarvis in the Avengers Age of Ultron."
+   ],
+   "raw": "The spouse of the actor that plays Jarvis in the Avengers Age of Ultron."
+  },
+  {
+   "split": "test",
+   "id": "2hop__17455_21567",
+   "claims": [
+    "The person who introduced a system of musical notation.",
+    "The region the Romans aimed to re-bolster influence in after the Second Punic war."
+   ],
+   "raw": "The person who introduced a system of musical notation.\nThe region the Romans aimed to re-bolster influence in after the Second Punic war."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__595371_40769_64047",
+   "claims": [
+    "Scion xB manufacturer's luxury division.",
+    "RX 350 was introduced in the Scion xB.",
+    "When did RX 350 model change body style?"
+   ],
+   "raw": "Scion xB manufacturer's luxury division.\nRX 350 was introduced in the Scion xB.\nWhen did RX 350 model change body style?"
+  },
+  {
+   "split": "test",
+   "id": "3hop1__141138_2053_52946",
+   "claims": [
+    "When does Celebrity Big Brother air?",
+    "Major broadcasters based in NY along with ABC.",
+    "Network that broadcasts alongside ABC and one that aired The Chisholms."
+   ],
+   "raw": "When does Celebrity Big Brother air?\nMajor broadcasters based in NY along with ABC.\nNetwork that broadcasts alongside ABC and one that aired The Chisholms."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__239036_15840_36014",
+   "claims": [
+    "Nintendo's limit on games per developer per year for the platform Xexyz.",
+    "The three-letter abbreviation for the platform Xexyz."
+   ],
+   "raw": "Nintendo's limit on games per developer per year for the platform Xexyz.\nThe three-letter abbreviation for the platform Xexyz."
+  },
+  {
+   "split": "test",
+   "id": "2hop__559273_152023",
+   "claims": [
+    "Label that released Delta Hardware albums.",
+    "Performer who performs under the name Delta Hardware."
+   ],
+   "raw": "Label that released Delta Hardware albums.\nPerformer who performs under the name Delta Hardware."
+  },
+  {
+   "split": "test",
+   "id": "2hop__496961_554601",
+   "claims": [
+    "The former member of The Sunnyboys."
+   ],
+   "raw": "The former member of The Sunnyboys."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__671542_665330_47686",
+   "claims": [
+    "Greyhound buses departure location in the city.",
+    "Performer of Darlings origin city."
+   ],
+   "raw": "Greyhound buses departure location in the city.\nPerformer of Darlings origin city."
+  },
+  {
+   "split": "test",
+   "id": "2hop__121386_37168",
+   "claims": [
+    "QS World University Rankings for the college Ibrahim Shihata attended."
+   ],
+   "raw": "QS World University Rankings for the college Ibrahim Shihata attended."
+  },
+  {
+   "split": "test",
+   "id": "2hop__31094_31122",
+   "claims": [
+    "The century in which the author of Alciphron lived."
+   ],
+   "raw": "The century in which the author of Alciphron lived."
+  },
+  {
+   "split": "test",
+   "id": "2hop__61714_42553",
+   "claims": [
+    "Pam's husband character name in The Office series.",
+    "Episode number or title where Pam gets together with her husband."
+   ],
+   "raw": "Pam's husband character name in The Office series.\nEpisode number or title where Pam gets together with her husband."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__106042_64399_59680",
+   "claims": [
+    "Number of Stations of the Cross in Rome.",
+    "City where Christianity originated.",
+    "Rome's population during the time of Vasilopita celebration.",
+    "Judea's historical significance to early Christianity."
+   ],
+   "raw": "Number of Stations of the Cross in Rome.\nCity where Christianity originated.\nRome's population during the time of Vasilopita celebration.\nJudea's historical significance to early Christianity."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__151650_5274_458768_33632",
+   "claims": [
+    "The city where the headquarters of the only group larger than Desde El Principito's record label is located.",
+    "The day of the Feast in that city."
+   ],
+   "raw": "The city where the headquarters of the only group larger than Desde El Principito's record label is located.\nThe day of the Feast in that city."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__747772_514761_594810",
+   "claims": [
+    "The record label that Heart Like Mine's performer belongs to.",
+    "The spouse of Heart Like Mine's performer."
+   ],
+   "raw": "The record label that Heart Like Mine's performer belongs to.\nThe spouse of Heart Like Mine's performer."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__147135_159767_81096",
+   "claims": [
+    "The death state of Cochise."
+   ],
+   "raw": "The death state of Cochise."
+  },
+  {
+   "split": "test",
+   "id": "2hop__259228_793698",
+   "claims": [
+    "Ulrich Walter's employer."
+   ],
+   "raw": "Ulrich Walter's employer."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__28841_547811_80702",
+   "claims": [
+    "The person who composed the Concerto in C Major Op 3 6.",
+    "The place of birth of that composer."
+   ],
+   "raw": "The person who composed the Concerto in C Major Op 3 6.\nThe place of birth of that composer."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__19768_19788_19761",
+   "claims": [
+    "Missionary who helped spread a religion in a region with the second-largest rain forest."
+   ],
+   "raw": "Missionary who helped spread a religion in a region with the second-largest rain forest."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__264443_49925_13759_736921",
+   "claims": [
+    "The district where Edward Egan was preaching a sermon on Marian devotion.",
+    "The person who wanted to reform and address Edward Egan's religion.",
+    "Edward Egan's place of death."
+   ],
+   "raw": "The district where Edward Egan was preaching a sermon on Marian devotion.\nThe person who wanted to reform and address Edward Egan's religion.\nEdward Egan's place of death."
+  },
+  {
+   "split": "test",
+   "id": "2hop__31124_31093",
+   "claims": [
+    "Notable subjective idealist's nationality."
+   ],
+   "raw": "Notable subjective idealist's nationality."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__277409_49925_13759_736921",
+   "claims": [
+    "The German state where the priest preached the sermon.",
+    "The religious denomination of Joseph Strichtland.",
+    "When the priest died."
+   ],
+   "raw": "The German state where the priest preached the sermon.\nThe religious denomination of Joseph Strichtland.\nWhen the priest died."
+  },
+  {
+   "split": "test",
+   "id": "2hop__20685_712629",
+   "claims": [
+    "The spouse of the current (or most recent) British queen."
+   ],
+   "raw": "The spouse of the current (or most recent) British queen."
+  },
+  {
+   "split": "test",
+   "id": "2hop__88149_807969",
+   "claims": [
+    "The player who holds the record for the all-time top goal scorer in Premier League in one season.",
+    "The team that the aforementioned player plays for."
+   ],
+   "raw": "The player who holds the record for the all-time top goal scorer in Premier League in one season.\nThe team that the aforementioned player plays for."
+  },
+  {
+   "split": "test",
+   "id": "2hop__77263_84616",
+   "claims": [
+    "The Tony award for which the singer of Moon River in Breakfast at Tiffany's won."
+   ],
+   "raw": "The Tony award for which the singer of Moon River in Breakfast at Tiffany's won."
+  },
+  {
+   "split": "test",
+   "id": "2hop__424294_19033",
+   "claims": [
+    "The award won by the author of A Lion's Tale: Around the World in Spandex in 2008.",
+    "The year the author won the award in 2008."
+   ],
+   "raw": "The award won by the author of A Lion's Tale: Around the World in Spandex in 2008.\nThe year the author won the award in 2008."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__443274_17130_70784_79935",
+   "claims": [
+    "The region immediately north of the region where the country in which Sar-El can be found is located.",
+    "The region where the country in which Sar-El can be found is located.",
+    "The Persian Gulf.",
+    "When was this region and the Persian Gulf created?"
+   ],
+   "raw": "The region immediately north of the region where the country in which Sar-El can be found is located.\nThe region where the country in which Sar-El can be found is located.\nThe Persian Gulf.\nWhen was this region and the Persian Gulf created?"
+  },
+  {
+   "split": "test",
+   "id": "2hop__21991_43945",
+   "claims": [
+    "Common Sense, written by the same author as The Rights of Man."
+   ],
+   "raw": "Common Sense, written by the same author as The Rights of Man."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__326964_265410_7713",
+   "claims": [
+    "Anhua Gao's birthplace.",
+    "Yaxing Coach's headquarters location.",
+    "How long was Anhua Gao's birthplace the capital city."
+   ],
+   "raw": "Anhua Gao's birthplace.\nYaxing Coach's headquarters location.\nHow long was Anhua Gao's birthplace the capital city."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__139862_2053_5289",
+   "claims": [
+    "UK label bought by a major broadcaster based in New York.",
+    "Major broadcaster based in New York.",
+    "UK label not bought by ABC.",
+    "UK label not broadcasted Highway to Heaven."
+   ],
+   "raw": "UK label bought by a major broadcaster based in New York.\nMajor broadcaster based in New York.\nUK label not bought by ABC.\nUK label not broadcasted Highway to Heaven."
+  },
+  {
+   "split": "test",
+   "id": "2hop__107690_124896",
+   "claims": [
+    "The person who created The Portrait of George Dyer."
+   ],
+   "raw": "The person who created The Portrait of George Dyer."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__636860_49925_13759_736921",
+   "claims": [
+    "The German priest who preached the sermon.",
+    "The religious denomination of Abraham Shimonaya.",
+    "The German state where the priest was from.",
+    "When the priest died."
+   ],
+   "raw": "The German priest who preached the sermon.\nThe religious denomination of Abraham Shimonaya.\nThe German state where the priest was from.\nWhen the priest died."
+  },
+  {
+   "split": "test",
+   "id": "2hop__632870_22402",
+   "claims": [
+    "Number of students attending the university or institution where Andre Dreiding is employed.",
+    "Andre Dreiding is employed at this institution."
+   ],
+   "raw": "Number of students attending the university or institution where Andre Dreiding is employed.  \nAndre Dreiding is employed at this institution."
+  },
+  {
+   "split": "test",
+   "id": "2hop__35137_22896",
+   "claims": [
+    "One library that the author of The Canon of Medicine had access to."
+   ],
+   "raw": "One library that the author of The Canon of Medicine had access to."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__102461_24918_24991",
+   "claims": [
+    "The event that occurred after the Soviet President's visit.",
+    "The birth country of Andrey Dashkov.",
+    "The city where the protests were taking place."
+   ],
+   "raw": "The event that occurred after the Soviet President's visit.\nThe birth country of Andrey Dashkov.\nThe city where the protests were taking place."
+  },
+  {
+   "split": "test",
+   "id": "2hop__650138_22402",
+   "claims": [
+    "Number of students attending the school Max Huber currently attends."
+   ],
+   "raw": "Number of students attending the school Max Huber currently attends."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__127483_19639_10557",
+   "claims": [
+    "Auctor's linguistic background.",
+    "The king who united the tribes in the 9th century."
+   ],
+   "raw": "Auctor's linguistic background.\nThe king who united the tribes in the 9th century."
+  },
+  {
+   "split": "test",
+   "id": "2hop__158010_58067",
+   "claims": [
+    "The highest civilian award given to citizens of India.",
+    "The person who received this award before becoming a president."
+   ],
+   "raw": "The highest civilian award given to citizens of India.\nThe person who received this award before becoming a president."
+  },
+  {
+   "split": "test",
+   "id": "2hop__71871_494136",
+   "claims": [
+    "The spouse of the actor playing Bart's father in I Can Only Imagine."
+   ],
+   "raw": "The spouse of the actor playing Bart's father in I Can Only Imagine."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__105773_457883_650651_7262",
+   "claims": [
+    "Country A's embassy producing the show Krystala.",
+    "Prominent figure in the radio division of the network creating Biggest Loser for Country A."
+   ],
+   "raw": "Country A's embassy producing the show Krystala.\nProminent figure in the radio division of the network creating Biggest Loser for Country A."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__337705_132457_47686",
+   "claims": [
+    "Greyhound buses service departures from.",
+    "The city where the band that recorded the album Never Too Loud formed."
+   ],
+   "raw": "Greyhound buses service departures from.\nThe city where the band that recorded the album Never Too Loud formed."
+  },
+  {
+   "split": "test",
+   "id": "2hop__198650_84856",
+   "claims": [
+    "The show starring the author of True Story: A Novel.",
+    "When does the new season start?"
+   ],
+   "raw": "The show starring the author of True Story: A Novel.\nWhen does the new season start?"
+  },
+  {
+   "split": "test",
+   "id": "3hop1__157807_19788_15107",
+   "claims": [
+    "Eritrea's religious demographics.",
+    "Region where the tentacled snake is native."
+   ],
+   "raw": "Eritrea's religious demographics.\nRegion where the tentacled snake is native."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__603558_87694_64412",
+   "claims": [
+    "The basilica that is named after the same saint as the San Pietro in Ciel d'Oro.",
+    "When was this basilica's location established?"
+   ],
+   "raw": "The basilica that is named after the same saint as the San Pietro in Ciel d'Oro.\nWhen was this basilica's location established?"
+  },
+  {
+   "split": "test",
+   "id": "4hop1__88342_75218_128008_86588",
+   "claims": [
+    "The league in question gives out MVP awards.",
+    "The team that has played the most games in that competition.",
+    "The record for the longest home run in the league."
+   ],
+   "raw": "The league in question gives out MVP awards.\nThe team that has played the most games in that competition.\nThe record for the longest home run in the league."
+  },
+  {
+   "split": "test",
+   "id": "2hop__160092_80144",
+   "claims": [
+    "The country that Germany invaded in 1990.",
+    "Who became the president of that country in 1990."
+   ],
+   "raw": "The country that Germany invaded in 1990.\nWho became the president of that country in 1990."
+  },
+  {
+   "split": "test",
+   "id": "2hop__35989_623159",
+   "claims": [
+    "Oldest city in the northeast, location."
+   ],
+   "raw": "Oldest city in the northeast, location."
+  },
+  {
+   "split": "test",
+   "id": "2hop__337223_56873",
+   "claims": [
+    "Mark Crossley's team name.",
+    "When did Mark Crossley's team win the FA Cup? (This fact is redundant as it doesn't provide information about when his team won.)"
+   ],
+   "raw": "Mark Crossley's team name.\nWhen did Mark Crossley's team win the FA Cup? (This fact is redundant as it doesn't provide information about when his team won.)"
+  },
+  {
+   "split": "test",
+   "id": "4hop1__39871_314549_131976_44528",
+   "claims": [
+    "The state where Williamsburg, Main Street station and another station share a track.",
+    "An ocean that borders the state where Williamsburg, Main Street station and another station share a track.",
+    "The specific ocean that meets the Gulf of Mexico."
+   ],
+   "raw": "Facts:\nThe state where Williamsburg, Main Street station and another station share a track.\nAn ocean that borders the state where Williamsburg, Main Street station and another station share a track.\nThe specific ocean that meets the Gulf of Mexico."
+  },
+  {
+   "split": "test",
+   "id": "2hop__16446_58556",
+   "claims": [
+    "The federal agency that regulates prescription drugs."
+   ],
+   "raw": "The federal agency that regulates prescription drugs."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__106847_160713_77246",
+   "claims": [
+    "The majority religion in the area of British India that became India.",
+    "A Music Fairy refers to.",
+    "The Arabic meaning of the term related to the majority religion."
+   ],
+   "raw": "The majority religion in the area of British India that became India.\nA Music Fairy refers to.\nThe Arabic meaning of the term related to the majority religion."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__60649_90098_10557",
+   "claims": [
+    "The last name Sylvester's origin language during the Frankish king's era.",
+    "The Frankish king who formed the Holy Roman Empire."
+   ],
+   "raw": "The last name Sylvester's origin language during the Frankish king's era.\nThe Frankish king who formed the Holy Roman Empire."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__639955_834494_34099",
+   "claims": [
+    "The council system of the city that shares a county with Helvetia."
+   ],
+   "raw": "The council system of the city that shares a county with Helvetia."
+  },
+  {
+   "split": "test",
+   "id": "2hop__501624_181960",
+   "claims": [
+    "The painter who created The Mud Bath.",
+    "The educational background or training of the artist for The Mud Bath."
+   ],
+   "raw": "The painter who created The Mud Bath.\nThe educational background or training of the artist for The Mud Bath."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__161324_14670_8987_8529",
+   "claims": [
+    "The country whose military branch is comparable to the US' Air Defense Artillery.",
+    "When did the word \"Slavs\" appear in the national anthem of that country."
+   ],
+   "raw": "The country whose military branch is comparable to the US' Air Defense Artillery.\nWhen did the word \"Slavs\" appear in the national anthem of that country."
+  },
+  {
+   "split": "test",
+   "id": "2hop__503085_110222",
+   "claims": [
+    "Painter of Femme nue couch\u00e9e.",
+    "Birth year of the painter."
+   ],
+   "raw": "Painter of Femme nue couch\u00e9e.\nBirth year of the painter."
+  },
+  {
+   "split": "test",
+   "id": "2hop__87580_7298",
+   "claims": [
+    "The person who played Andy's brother in The Office.",
+    "A notable pop artist who started their career in adult contemporary radio."
+   ],
+   "raw": "The person who played Andy's brother in The Office.\nA notable pop artist who started their career in adult contemporary radio."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__483843_40769_64047",
+   "claims": [
+    "The luxury division of the manufacturer for the Scion bbX and rx 350.",
+    "The model year of the rx 350.",
+    "When the body style was changed on the rx 350.",
+    "The specific manufacturer that produces both the Scion bbX and rx 350."
+   ],
+   "raw": "The luxury division of the manufacturer for the Scion bbX and rx 350.\nThe model year of the rx 350.\nWhen the body style was changed on the rx 350.\nThe specific manufacturer that produces both the Scion bbX and rx 350."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__159737_160713_77246",
+   "claims": [
+    "Arabic dictionary entry for the word.",
+    "Majority religion in the area that became India.",
+    "Country that withdrew its forces to create the new nation."
+   ],
+   "raw": "Arabic dictionary entry for the word.\nMajority religion in the area that became India.\nCountry that withdrew its forces to create the new nation."
+  },
+  {
+   "split": "test",
+   "id": "2hop__122140_37168",
+   "claims": [
+    "Hala El Badri's university."
+   ],
+   "raw": "Hala El Badri's university."
+  },
+  {
+   "split": "test",
+   "id": "2hop__41158_35124",
+   "claims": [
+    "Number of books said to have been written by the person."
+   ],
+   "raw": "Number of books said to have been written by the person."
+  },
+  {
+   "split": "test",
+   "id": "2hop__199216_33564",
+   "claims": [
+    "The manufacturer of Agni-V was founded."
+   ],
+   "raw": "The manufacturer of Agni-V was founded."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__678814_466199_695123_72134",
+   "claims": [
+    "WIZE's licensing information.",
+    "State where Stoney Creek Township is located.",
+    "City where Stoney Creek Township is located.",
+    "When WIZE became the capital of that state."
+   ],
+   "raw": "WIZE's licensing information.\nState where Stoney Creek Township is located.\nCity where Stoney Creek Township is located.\nWhen WIZE became the capital of that state."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__343844_17130_70784_61381",
+   "claims": [
+    "The country that lies immediately north of the Persian Gulf.",
+    "The region where the country containing Urim is located."
+   ],
+   "raw": "The country that lies immediately north of the Persian Gulf.\nThe region where the country containing Urim is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__13592_49388",
+   "claims": [
+    "The league in which Barcelona won titles in 1948 and 1949.",
+    "The number of games played in that league's season."
+   ],
+   "raw": "The league in which Barcelona won titles in 1948 and 1949.\nThe number of games played in that league's season."
+  },
+  {
+   "split": "test",
+   "id": "2hop__77878_189357",
+   "claims": [
+    "The person who was the first woman appointed to the Supreme Court.",
+    "The educational background of the first woman appointed to the Supreme Court."
+   ],
+   "raw": "The person who was the first woman appointed to the Supreme Court.\nThe educational background of the first woman appointed to the Supreme Court."
+  },
+  {
+   "split": "test",
+   "id": "2hop__390947_232243",
+   "claims": [
+    "European Movement Germany is a member of.",
+    "The group that European Movement Germany belongs to."
+   ],
+   "raw": "European Movement Germany is a member of.\nThe group that European Movement Germany belongs to."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__851134_326964_7713",
+   "claims": [
+    "Pfrang Association's headquarters location.",
+    "Yaxing Coach's headquarters location."
+   ],
+   "raw": "Pfrang Association's headquarters location.\nYaxing Coach's headquarters location."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__862_846_613770_7713",
+   "claims": [
+    "The place where the Yongle Emperor greeted representatives.",
+    "The capital city of the Yuan Dynasty.",
+    "The city where Guangling District is located."
+   ],
+   "raw": "The place where the Yongle Emperor greeted representatives.\nThe capital city of the Yuan Dynasty.\nThe city where Guangling District is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__20268_42014",
+   "claims": [
+    "The organization that enacted the Directory of Public Worship into law."
+   ],
+   "raw": "The organization that enacted the Directory of Public Worship into law."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__88342_49853_128008_80286",
+   "claims": [
+    "Who are the members of the league in question.",
+    "Which championship series follows the MVP award.",
+    "What is the name of the league.",
+    "How many wins does the top-performing team have."
+   ],
+   "raw": "Who are the members of the league in question.\nWhich championship series follows the MVP award.\nWhat is the name of the league.\nHow many wins does the top-performing team have."
+  },
+  {
+   "split": "test",
+   "id": "2hop__619265_45326",
+   "claims": [
+    "Number of episodes in season 5 of the series \"The Bag or the Bat\"."
+   ],
+   "raw": "Number of episodes in season 5 of the series \"The Bag or the Bat\"."
+  },
+  {
+   "split": "test",
+   "id": "2hop__491195_265959",
+   "claims": [
+    "The mother of the composer of Jag tror p\u00e5 sommaren."
+   ],
+   "raw": "The mother of the composer of Jag tror p\u00e5 sommaren."
+  },
+  {
+   "split": "test",
+   "id": "2hop__2416_53663",
+   "claims": [
+    "The river that the engine pumped water from."
+   ],
+   "raw": "The river that the engine pumped water from."
+  },
+  {
+   "split": "test",
+   "id": "2hop__418360_67370",
+   "claims": [
+    "The year real time with the author of The New New Rules starts.",
+    "The format or schedule of real time with the author.",
+    "The year 2018."
+   ],
+   "raw": "The year real time with the author of The New New Rules starts.  \nThe format or schedule of real time with the author.  \nThe year 2018."
+  },
+  {
+   "split": "test",
+   "id": "2hop__76402_653666",
+   "claims": [
+    "The mother of the founder of Mormonism."
+   ],
+   "raw": "The mother of the founder of Mormonism."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__71753_158985_70784_61381",
+   "claims": [
+    "Region immediately north of where Israel is located.",
+    "Site of the most growth in desalination for agricultural use."
+   ],
+   "raw": "Region immediately north of where Israel is located.\nSite of the most growth in desalination for agricultural use."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__482815_624859_355213_203322",
+   "claims": [
+    "The county that shares a border with another county.",
+    "The county containing the birthplace of the performer of Never Gonna Fall in Love Again."
+   ],
+   "raw": "The county that shares a border with another county.\nThe county containing the birthplace of the performer of Never Gonna Fall in Love Again."
+  },
+  {
+   "split": "test",
+   "id": "2hop__81268_85407",
+   "claims": [
+    "The Italian city that's underwater.",
+    "The 2018 population of that city."
+   ],
+   "raw": "The Italian city that's underwater.\nThe 2018 population of that city."
+  },
+  {
+   "split": "test",
+   "id": "2hop__729651_631003",
+   "claims": [
+    "Frances Freeling Broderip's sibling."
+   ],
+   "raw": "Frances Freeling Broderip's sibling."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__601548_836463_161616_77103",
+   "claims": [
+    "Live and Beyond performer's birthplace.",
+    "Knowles's state became the capital."
+   ],
+   "raw": "Live and Beyond performer's birthplace.\nKnowles's state became the capital."
+  },
+  {
+   "split": "test",
+   "id": "2hop__137061_45752",
+   "claims": [
+    "The location where Step Up Revolution was filmed."
+   ],
+   "raw": "The location where Step Up Revolution was filmed."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__90098_60649_10557",
+   "claims": [
+    "The last name Sylvester's etymology origin language.",
+    "The era of the Frankish king who formed the Holy Roman Empire."
+   ],
+   "raw": "The last name Sylvester's etymology origin language.\nThe era of the Frankish king who formed the Holy Roman Empire."
+  },
+  {
+   "split": "test",
+   "id": "2hop__685280_510757",
+   "claims": [
+    "The organization the Unwinding author volunteered for."
+   ],
+   "raw": "The organization the Unwinding author volunteered for."
+  },
+  {
+   "split": "test",
+   "id": "2hop__66_59409",
+   "claims": [
+    "Beyonce's first solo album's lead single.",
+    "Artist featured in the lead single of Beyonce's first solo album."
+   ],
+   "raw": "Beyonce's first solo album's lead single.\nArtist featured in the lead single of Beyonce's first solo album."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__9988_158279_70784_61381",
+   "claims": [
+    "No relevant facts provided."
+   ],
+   "raw": "No relevant facts provided."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__567956_14670_8987_8529",
+   "claims": [
+    "Country A and Country B.",
+    "Military branch that includes Air Defense Artillery in Country B.",
+    "When was the word \"Slavs\" used in the national anthem of Country B?"
+   ],
+   "raw": "Country A and Country B.\nMilitary branch that includes Air Defense Artillery in Country B.\nWhen was the word \"Slavs\" used in the national anthem of Country B?"
+  },
+  {
+   "split": "test",
+   "id": "2hop__827995_159109",
+   "claims": [
+    "Am\u00edlcar Cabral International Airport."
+   ],
+   "raw": "Am\u00edlcar Cabral International Airport."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__57467_53706_795904_580996",
+   "claims": [
+    "A person worked during the gold rush.",
+    "City where the person worked during the gold rush.",
+    "State that has the most House of Representatives seats.",
+    "City that shares a border with the city where the person worked."
+   ],
+   "raw": "A person worked during the gold rush.\nCity where the person worked during the gold rush.\nState that has the most House of Representatives seats.\nCity that shares a border with the city where the person worked."
+  },
+  {
+   "split": "test",
+   "id": "2hop__88834_356793",
+   "claims": [
+    "Nim's actress in Return to Nim's Island."
+   ],
+   "raw": "Nim's actress in Return to Nim's Island."
+  },
+  {
+   "split": "test",
+   "id": "2hop__1667_40501",
+   "claims": [
+    "Number of refugees who emigrated to the nation that founded New Amsterdam."
+   ],
+   "raw": "Number of refugees who emigrated to the nation that founded New Amsterdam."
+  },
+  {
+   "split": "test",
+   "id": "2hop__427249_20057",
+   "claims": [
+    "The person who founded the organization that wrote the GNU Free Documentation License."
+   ],
+   "raw": "The person who founded the organization that wrote the GNU Free Documentation License."
+  },
+  {
+   "split": "test",
+   "id": "2hop__29873_679424",
+   "claims": [
+    "The province where Serbian and Croatian languages are both official.",
+    "The country where that province is located."
+   ],
+   "raw": "The province where Serbian and Croatian languages are both official.\nThe country where that province is located."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__93661_59747_211319_557671",
+   "claims": [
+    "The county where the most populous city in the state is located.",
+    "The state where season 8 of The Walking Dead was filmed.",
+    "The county that shares a border with the aforementioned county."
+   ],
+   "raw": "The county where the most populous city in the state is located.  \nThe state where season 8 of The Walking Dead was filmed.  \nThe county that shares a border with the aforementioned county."
+  },
+  {
+   "split": "test",
+   "id": "2hop__591435_51329",
+   "claims": [
+    "The movie for which a Knock on Any Door cast member won an Oscar.",
+    "The actor from Knock on Any Door who won the Oscar."
+   ],
+   "raw": "The movie for which a Knock on Any Door cast member won an Oscar.\nThe actor from Knock on Any Door who won the Oscar."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__326964_7845_7713",
+   "claims": [
+    "The home of some of the country's most prominent art groups.",
+    "The capital city of Yaxing Coach's headquarters location.",
+    "How long had it been the headquarters location?"
+   ],
+   "raw": "The home of some of the country's most prominent art groups.\nThe capital city of Yaxing Coach's headquarters location.\nHow long had it been the headquarters location?"
+  },
+  {
+   "split": "test",
+   "id": "4hop1__752321_153080_33897_81096",
+   "claims": [
+    "The Indy car race was held in a city within the state.",
+    "The population of the largest city in the state where Pithecanthropus Erectus performer is from.",
+    "Pithecanthropus Erectus performer is from a specific state."
+   ],
+   "raw": "The Indy car race was held in a city within the state.  \nThe population of the largest city in the state where Pithecanthropus Erectus performer is from.  \nPithecanthropus Erectus performer is from a specific state."
+  },
+  {
+   "split": "test",
+   "id": "2hop__518354_67465",
+   "claims": [
+    "The performer who released Best Day Ever."
+   ],
+   "raw": "The performer who released Best Day Ever."
+  },
+  {
+   "split": "test",
+   "id": "2hop__64323_55840",
+   "claims": [
+    "The actor who played the king in the film \"The King's Speech\" in 1951.",
+    "The character (king) played by an actor in the film \"The King's Speech\".",
+    "The year 1951 when the film \"The King's Speech\" was set.",
+    "The monarchy that had a king in 1951."
+   ],
+   "raw": "The actor who played the king in the film \"The King's Speech\" in 1951.\nThe character (king) played by an actor in the film \"The King's Speech\".\nThe year 1951 when the film \"The King's Speech\" was set.\nThe monarchy that had a king in 1951."
+  },
+  {
+   "split": "test",
+   "id": "2hop__697729_576069",
+   "claims": [
+    "Adolf Overweg's place of death."
+   ],
+   "raw": "Adolf Overweg's place of death."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__844109_720914_27537",
+   "claims": [
+    "Roncalli's reason for leaving a specific city.",
+    "City where the creator of The Entombment died."
+   ],
+   "raw": "Roncalli's reason for leaving a specific city.\nCity where the creator of The Entombment died."
+  },
+  {
+   "split": "test",
+   "id": "2hop__166820_52835",
+   "claims": [
+    "Who wrote the song \"Turn Me On.\"",
+    "Which person also performed both \"Turn Me On\" and \"Chasing Pirates.\""
+   ],
+   "raw": "Who wrote the song \"Turn Me On.\"\nWhich person also performed both \"Turn Me On\" and \"Chasing Pirates.\""
+  },
+  {
+   "split": "test",
+   "id": "3hop1__491648_339990_54675",
+   "claims": [
+    "Mountains visible from Portland.",
+    "State containing the county where Cole's Creek is located.",
+    "County where Cole's Creek is located."
+   ],
+   "raw": "Mountains visible from Portland.\nState containing the county where Cole's Creek is located.\nCounty where Cole's Creek is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__362107_652514",
+   "claims": [
+    "Callum McManaman's place of birth."
+   ],
+   "raw": "Callum McManaman's place of birth."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__462125_538202_84283",
+   "claims": [
+    "The record label that the performer of Days of Our Lives is on."
+   ],
+   "raw": "The record label that the performer of Days of Our Lives is on."
+  },
+  {
+   "split": "test",
+   "id": "2hop__159902_362941",
+   "claims": [
+    "The birthplace where the person featured on the Chester Arthur coin was born."
+   ],
+   "raw": "The birthplace where the person featured on the Chester Arthur coin was born."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__103662_443779_52195",
+   "claims": [
+    "The newly declared independent country that is part of the Commission of Truth and Friendship.",
+    "Radiansyah's birth country."
+   ],
+   "raw": "The newly declared independent country that is part of the Commission of Truth and Friendship.\nRadiansyah's birth country."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__21282_692112_214799_259594",
+   "claims": [
+    "Angela Merkel's original home country abbreviation.",
+    "Country that previously used the term \"Deutsche Grenzpolizei.\""
+   ],
+   "raw": "Angela Merkel's original home country abbreviation.\nCountry that previously used the term \"Deutsche Grenzpolizei.\""
+  },
+  {
+   "split": "test",
+   "id": "2hop__161151_50883",
+   "claims": [
+    "Continents where bison antiquus are found.",
+    "Section in the emergency response guidebook of that continent."
+   ],
+   "raw": "Continents where bison antiquus are found.  \nSection in the emergency response guidebook of that continent."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__152880_131926_13165",
+   "claims": [
+    "Treaty under discussion or negotiation.",
+    "City Astronautalis is located in.",
+    "Territory ceded to the US extends to."
+   ],
+   "raw": "Treaty under discussion or negotiation.\nCity Astronautalis is located in.\nTerritory ceded to the US extends to."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__711307_49925_13759_736921",
+   "claims": [
+    "The German state where the sermon was preached.",
+    "The religious denomination of Jean Hengen.",
+    "The date of the German priest's death.",
+    "The month prior to which the sermon was preached."
+   ],
+   "raw": "The German state where the sermon was preached.\nThe religious denomination of Jean Hengen.\nThe date of the German priest's death.\nThe month prior to which the sermon was preached."
+  },
+  {
+   "split": "test",
+   "id": "2hop__403060_92763",
+   "claims": [
+    "The school that owns the Miami Hurricanes."
+   ],
+   "raw": "The school that owns the Miami Hurricanes."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__38326_92991_76291",
+   "claims": [
+    "Stewart and Harlan's political party name.",
+    "The body that has Standing Rules derived from Article One.",
+    "When did this body take control.",
+    "Name of the body with those Standing Rules."
+   ],
+   "raw": "Stewart and Harlan's political party name.\nThe body that has Standing Rules derived from Article One.\nWhen did this body take control.\nName of the body with those Standing Rules."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__163654_503371_21711",
+   "claims": [
+    "Palau de la Generalitat construction date.",
+    "Region containing Bordalba.",
+    "Martin's place of death."
+   ],
+   "raw": "Palau de la Generalitat construction date.\nRegion containing Bordalba.\nMartin's place of death."
+  },
+  {
+   "split": "test",
+   "id": "2hop__5190_64006",
+   "claims": [
+    "The region the Soviet Union feared invasion from.",
+    "The original population of the region before the Black Death.",
+    "The population of the region after the Black Death."
+   ],
+   "raw": "The region the Soviet Union feared invasion from.\nThe original population of the region before the Black Death.\nThe population of the region after the Black Death."
+  },
+  {
+   "split": "test",
+   "id": "2hop__82910_75184",
+   "claims": [
+    "Back to the Future actress who played Alex P. Keaton's girlfriend.",
+    "Alex P. Keaton's girlfriend character on Family Ties."
+   ],
+   "raw": "Back to the Future actress who played Alex P. Keaton's girlfriend.\nAlex P. Keaton's girlfriend character on Family Ties."
+  },
+  {
+   "split": "test",
+   "id": "2hop__7906_78851",
+   "claims": [
+    "Professional sports teams that do not include arena football.",
+    "Jim Foster and his idea for arena football."
+   ],
+   "raw": "Professional sports teams that do not include arena football.  \nJim Foster and his idea for arena football."
+  },
+  {
+   "split": "test",
+   "id": "2hop__132472_684936",
+   "claims": [
+    "The company that makes ALARM."
+   ],
+   "raw": "The company that makes ALARM."
+  },
+  {
+   "split": "test",
+   "id": "2hop__307719_121900",
+   "claims": [
+    "College attended by the 2011 Australian Open - Men's Doubles winner."
+   ],
+   "raw": "College attended by the 2011 Australian Open - Men's Doubles winner."
+  },
+  {
+   "split": "test",
+   "id": "2hop__103889_86452",
+   "claims": [
+    "Zaw Win Thet's country of origin at the 2012 Olympics.",
+    "When did Burma change its name?"
+   ],
+   "raw": "Zaw Win Thet's country of origin at the 2012 Olympics.\nWhen did Burma change its name?"
+  },
+  {
+   "split": "test",
+   "id": "4hop2__71753_729371_70784_79935",
+   "claims": [
+    "Region to the north of where Israel is located.",
+    "Location where Operation Earnest Will was established."
+   ],
+   "raw": "Region to the north of where Israel is located.\nLocation where Operation Earnest Will was established."
+  },
+  {
+   "split": "test",
+   "id": "2hop__49887_573255",
+   "claims": [
+    "The first king chosen to rule over the Israelites."
+   ],
+   "raw": "The first king chosen to rule over the Israelites."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__33012_53706_795904_580996",
+   "claims": [
+    "The person who went to the state known for its Mediterranean climate during the gold rush.",
+    "The city where that person worked."
+   ],
+   "raw": "The person who went to the state known for its Mediterranean climate during the gold rush.\nThe city where that person worked."
+  },
+  {
+   "split": "test",
+   "id": "2hop__278022_71701",
+   "claims": [
+    "The city where Wang Yue died."
+   ],
+   "raw": "The city where Wang Yue died."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__316459_41402_146223_13584",
+   "claims": [
+    "Simon Sabiani's place of death.",
+    "Real Madrid's location."
+   ],
+   "raw": "Simon Sabiani's place of death.\nReal Madrid's location."
+  },
+  {
+   "split": "test",
+   "id": "2hop__68158_189357",
+   "claims": [
+    "The educational institution where the first female supreme court justice was educated."
+   ],
+   "raw": "The educational institution where the first female supreme court justice was educated."
+  },
+  {
+   "split": "test",
+   "id": "2hop__587048_621800",
+   "claims": [
+    "Heinrich Gross's birth place."
+   ],
+   "raw": "Heinrich Gross's birth place."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__800262_466199_695123_72134",
+   "claims": [
+    "WIZE's licensing information.",
+    "State where Green Township is located.",
+    "Town WIZE was licensed in.",
+    "City which became the capital."
+   ],
+   "raw": "WIZE's licensing information.\nState where Green Township is located.\nTown WIZE was licensed in.\nCity which became the capital."
+  },
+  {
+   "split": "test",
+   "id": "2hop__176712_8311",
+   "claims": [
+    "The father of Katherine of England was crowned first.",
+    "Katherine of England's father."
+   ],
+   "raw": "The father of Katherine of England was crowned first.  \nKatherine of England's father."
+  },
+  {
+   "split": "test",
+   "id": "2hop__731584_700117",
+   "claims": [
+    "KKVU's broadcasting license information.",
+    "City licensed for KKVU broadcasts."
+   ],
+   "raw": "KKVU's broadcasting license information.\nCity licensed for KKVU broadcasts."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__144439_443779_52195",
+   "claims": [
+    "The president of the newly declared independent country.",
+    "The country of the birthplace of Mulham Arufin\u2013Timor Leste Commission of Truth and Friendship."
+   ],
+   "raw": "The president of the newly declared independent country.\nThe country of the birthplace of Mulham Arufin\u2013Timor Leste Commission of Truth and Friendship."
+  },
+  {
+   "split": "test",
+   "id": "2hop__24973_5674",
+   "claims": [
+    "Who suspended the party.",
+    "The treaty that would have been signed in the Russian Soviet Federative Socialist Republic.",
+    "The Russian Soviet Federative Socialist Republic where the treaty would be signed.",
+    "Which party would have maintained power if the treaty was signed."
+   ],
+   "raw": "Who suspended the party.  \nThe treaty that would have been signed in the Russian Soviet Federative Socialist Republic.  \nThe Russian Soviet Federative Socialist Republic where the treaty would be signed.  \nWhich party would have maintained power if the treaty was signed."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__90327_87184_76291",
+   "claims": [
+    "The party that currently controls the House of Representatives.",
+    "The branch of government in America that approves the appointees to the American cabinet."
+   ],
+   "raw": "The party that currently controls the House of Representatives.\nThe branch of government in America that approves the appointees to the American cabinet."
+  },
+  {
+   "split": "test",
+   "id": "2hop__691455_64006",
+   "claims": [
+    "The region where Baton a feu originated.",
+    "The population of the region where Baton a feu originated before the Black Death.",
+    "The population of the region where Baton a feu originated after the Black Death."
+   ],
+   "raw": "The region where Baton a feu originated.  \nThe population of the region where Baton a feu originated before the Black Death.  \nThe population of the region where Baton a feu originated after the Black Death."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__88342_75218_128008_46894",
+   "claims": [
+    "The league where the team with the most games in the series after which the MLB MVP is awarded plays.",
+    "The team with the most games in that series."
+   ],
+   "raw": "The league where the team with the most games in the series after which the MLB MVP is awarded plays.\nThe team with the most games in that series."
+  },
+  {
+   "split": "test",
+   "id": "2hop__253612_110882",
+   "claims": [
+    "The performer who wrote the song Stand Up.",
+    "The date of birth for that performer."
+   ],
+   "raw": "The performer who wrote the song Stand Up.\nThe date of birth for that performer."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__796649_720914_27537",
+   "claims": [
+    "Roncalli's reason for leaving a specific city.",
+    "City where the creator of Flora died."
+   ],
+   "raw": "Roncalli's reason for leaving a specific city.\nCity where the creator of Flora died."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__512574_42197_18397",
+   "claims": [
+    "The arguer who declared he would intervene in the Korean conflict regarding Oleg Lomakin's country.",
+    "Oleg Lomakin's country of citizenship.",
+    "Where the arguer declared he would intervene in the Korean conflict."
+   ],
+   "raw": "The arguer who declared he would intervene in the Korean conflict regarding Oleg Lomakin's country.\nOleg Lomakin's country of citizenship.\nWhere the arguer declared he would intervene in the Korean conflict."
+  },
+  {
+   "split": "test",
+   "id": "2hop__9014_679424",
+   "claims": [
+    "The city where mass executions of Danube Swabian population occurred."
+   ],
+   "raw": "The city where mass executions of Danube Swabian population occurred."
+  },
+  {
+   "split": "test",
+   "id": "2hop__15258_54866",
+   "claims": [
+    "The actress who plays the princess."
+   ],
+   "raw": "The actress who plays the princess."
+  },
+  {
+   "split": "test",
+   "id": "2hop__631139_75487",
+   "claims": [
+    "The party in which John Lynch-Staunton held a position."
+   ],
+   "raw": "The party in which John Lynch-Staunton held a position."
+  },
+  {
+   "split": "test",
+   "id": "2hop__85455_158105",
+   "claims": [
+    "The year the person with the biggest net worth in 2017 was born.",
+    "The two features emphasized by that person."
+   ],
+   "raw": "The year the person with the biggest net worth in 2017 was born.\nThe two features emphasized by that person."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__125104_90098_10557",
+   "claims": [
+    "Last name Sylvester origin.",
+    "Rotrude's father in earlier eras' surname."
+   ],
+   "raw": "Last name Sylvester origin.\nRotrude's father in earlier eras' surname."
+  },
+  {
+   "split": "test",
+   "id": "2hop__149983_108549",
+   "claims": [
+    "The author who wrote the fictional work Doctor Fate exists in."
+   ],
+   "raw": "The author who wrote the fictional work Doctor Fate exists in."
+  },
+  {
+   "split": "test",
+   "id": "2hop__106864_80460",
+   "claims": [
+    "The country where Bedari was made."
+   ],
+   "raw": "The country where Bedari was made."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__274148_792411_51423",
+   "claims": [
+    "The birthplace of the performer of Bound by the Beauty.",
+    "The name of the castle in the specified birthplace."
+   ],
+   "raw": "The birthplace of the performer of Bound by the Beauty.\nThe name of the castle in the specified birthplace."
+  },
+  {
+   "split": "test",
+   "id": "2hop__998_25839",
+   "claims": [
+    "Maximum load for the 1.0 version of the device that replaced FireWire in later iPods.",
+    "Maximum load for the 2.0 version of the device that replaced FireWire in later iPods."
+   ],
+   "raw": "Maximum load for the 1.0 version of the device that replaced FireWire in later iPods.\nMaximum load for the 2.0 version of the device that replaced FireWire in later iPods."
+  },
+  {
+   "split": "test",
+   "id": "2hop__141365_417697",
+   "claims": [
+    "Mohamed Atta's vehicle details (make/model).",
+    "The car manufacturer that includes Datsun."
+   ],
+   "raw": "Mohamed Atta's vehicle details (make/model).\nThe car manufacturer that includes Datsun."
+  },
+  {
+   "split": "test",
+   "id": "2hop__85713_84469",
+   "claims": [
+    "The actor who played the husband of the actress who starred in Thelma and Louise.",
+    "The actress who played Thelma in Thelma and Louise.",
+    "The movie A League of Their Own."
+   ],
+   "raw": "The actor who played the husband of the actress who starred in Thelma and Louise.\nThe actress who played Thelma in Thelma and Louise.\nThe movie A League of Their Own."
+  },
+  {
+   "split": "test",
+   "id": "2hop__147212_60904",
+   "claims": [
+    "Hank Moonjean's place of death.",
+    "Who owns the rehabilitation center at this location."
+   ],
+   "raw": "Hank Moonjean's place of death.\nWho owns the rehabilitation center at this location."
+  },
+  {
+   "split": "test",
+   "id": "2hop__289517_139339",
+   "claims": [
+    "The cast member in After Hours.",
+    "The award show or competition After Hours was a nomination for."
+   ],
+   "raw": "The cast member in After Hours.\nThe award show or competition After Hours was a nomination for."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__152146_5274_458768_33633",
+   "claims": [
+    "The explorer who reached the headquarters location.",
+    "The company larger than Langa natter's record label.",
+    "Langa natter's record label specific to the explorer in question.",
+    "Headquarters location of the mentioned company."
+   ],
+   "raw": "The explorer who reached the headquarters location.\nThe company larger than Langa natter's record label.\nLanga natter's record label specific to the explorer in question.\nHeadquarters location of the mentioned company."
+  },
+  {
+   "split": "test",
+   "id": "2hop__725233_150107",
+   "claims": [
+    "The publisher of the Mobile Computing and Communications Review.",
+    "The entity that publishes the Mobile Computing and Communications Review."
+   ],
+   "raw": "The publisher of the Mobile Computing and Communications Review.\nThe entity that publishes the Mobile Computing and Communications Review."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__23444_160713_77246",
+   "claims": [
+    "Arabic dictionary containing the word in question.",
+    "Country containing the Neolithic graveyards when divided into India.",
+    "Majority religion in the country created from the country with the Neolithic graveyards."
+   ],
+   "raw": "Arabic dictionary containing the word in question.\nCountry containing the Neolithic graveyards when divided into India.\nMajority religion in the country created from the country with the Neolithic graveyards."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__161602_474028_88460_126088",
+   "claims": [
+    "The country that hosted the tournament.",
+    "The country where A Don is located."
+   ],
+   "raw": "The country that hosted the tournament.\nThe country where A Don is located."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__108881_720914_41132",
+   "claims": [
+    "Plague occurrences in the place of interest.",
+    "Creator of The Worship of Venus.",
+    "Place where the creator of The Worship of Venus died."
+   ],
+   "raw": "Plague occurrences in the place of interest.\nCreator of The Worship of Venus.\nPlace where the creator of The Worship of Venus died."
+  },
+  {
+   "split": "test",
+   "id": "2hop__358582_189042",
+   "claims": [
+    "The record label that released Thrill of a Lifetime.",
+    "The artist who performed the song Thrill of a Lifetime."
+   ],
+   "raw": "The record label that released Thrill of a Lifetime.\nThe artist who performed the song Thrill of a Lifetime."
+  },
+  {
+   "split": "test",
+   "id": "2hop__451574_120065",
+   "claims": [
+    "Ludwig Friedrich Otto Baumgarten-Crusius's birthplace."
+   ],
+   "raw": "Ludwig Friedrich Otto Baumgarten-Crusius's birthplace."
+  },
+  {
+   "split": "test",
+   "id": "2hop__245835_762148",
+   "claims": [
+    "The band/group performing Ask the Fish.",
+    "Members of the band/group performing Ask the Fish."
+   ],
+   "raw": "The band/group performing Ask the Fish.\nMembers of the band/group performing Ask the Fish."
+  },
+  {
+   "split": "test",
+   "id": "2hop__96062_159673",
+   "claims": [
+    "The cast member who played a character in Escape from L.A.",
+    "Other movies in which the mentioned cast member appeared."
+   ],
+   "raw": "The cast member who played a character in Escape from L.A.\nOther movies in which the mentioned cast member appeared."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__105767_443779_52195",
+   "claims": [
+    "The newly declared independent country that is part of the commission of truth and friendship.",
+    "The country that eats Kemplang."
+   ],
+   "raw": "The newly declared independent country that is part of the commission of truth and friendship.\nThe country that eats Kemplang."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__689538_547811_80702",
+   "claims": [
+    "The city where the composer of La costanza trionfante degl'amori e de gl'odii was born."
+   ],
+   "raw": "The city where the composer of La costanza trionfante degl'amori e de gl'odii was born."
+  },
+  {
+   "split": "test",
+   "id": "2hop__463353_80420",
+   "claims": [
+    "The school that owns Swayze Field."
+   ],
+   "raw": "The school that owns Swayze Field."
+  },
+  {
+   "split": "test",
+   "id": "2hop__25797_990",
+   "claims": [
+    "The iPod generation that introduced compatibility with the industry standard connection.",
+    "The version number of the industry standard connection that was first widely used."
+   ],
+   "raw": "The iPod generation that introduced compatibility with the industry standard connection.\nThe version number of the industry standard connection that was first widely used."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__652852_2053_52946",
+   "claims": [
+    "When does Celebrity Big Brother air?",
+    "Major broadcasters based in New York along with ABC and the distributor of The Cube."
+   ],
+   "raw": "When does Celebrity Big Brother air?\nMajor broadcasters based in New York along with ABC and the distributor of The Cube."
+  },
+  {
+   "split": "test",
+   "id": "2hop__60229_38663",
+   "claims": [
+    "The percentage by which the Dow Jones fell.",
+    "The date when the first cake mix came out."
+   ],
+   "raw": "The percentage by which the Dow Jones fell.\nThe date when the first cake mix came out."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__3496_5274_458768_33677",
+   "claims": [
+    "Most recent year for the Bicycle Friendly Community Award.",
+    "City where the headquarters is located.",
+    "Group larger than BMG that was partnered with in 2005-07.",
+    "Company's name."
+   ],
+   "raw": "Most recent year for the Bicycle Friendly Community Award.\nCity where the headquarters is located.\nGroup larger than BMG that was partnered with in 2005-07.\nCompany's name."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__773623_87694_124169",
+   "claims": [
+    "The governor's tenure at the location of the Basilica.",
+    "The name of the saint associated with both the Basilica and \u0110akovo Cathedral.",
+    "The current head of the Catholic religion.",
+    "The date the Governor ended their tenure."
+   ],
+   "raw": "The governor's tenure at the location of the Basilica.\nThe name of the saint associated with both the Basilica and \u0110akovo Cathedral.\nThe current head of the Catholic religion.\nThe date the Governor ended their tenure."
+  },
+  {
+   "split": "test",
+   "id": "2hop__96410_47902",
+   "claims": [
+    "The actor who plays the title character in The Bourne Betrayal."
+   ],
+   "raw": "The actor who plays the title character in The Bourne Betrayal."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__559908_42197_18397",
+   "claims": [
+    "Yagutil Mishiev's citizenship.",
+    "Someone declared their stance on intervening in the Korean conflict."
+   ],
+   "raw": "Yagutil Mishiev's citizenship.\nSomeone declared their stance on intervening in the Korean conflict."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__661103_698586_1926_54362",
+   "claims": [
+    "The city where Dunn Dunn's artist died during the war.",
+    "The name of the war.",
+    "The current status of black people living in NYC."
+   ],
+   "raw": "The city where Dunn Dunn's artist died during the war.\nThe name of the war.\nThe current status of black people living in NYC."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__571599_49925_13759_736921",
+   "claims": [
+    "The district where the preacher lived or was active.",
+    "Medardo Joseph Mazombwe's religion.",
+    "Location of the district where the sermon took place.",
+    "Person who preached a sermon on Marian devotion."
+   ],
+   "raw": "The district where the preacher lived or was active.\nMedardo Joseph Mazombwe's religion.\nLocation of the district where the sermon took place.\nPerson who preached a sermon on Marian devotion."
+  },
+  {
+   "split": "test",
+   "id": "2hop__161151_42352",
+   "claims": [
+    "Number of people in British colonies where bison antiquus could be found."
+   ],
+   "raw": "Number of people in British colonies where bison antiquus could be found."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__617062_127905_86588",
+   "claims": [
+    "The baseball league Jim Wilson's team is a part of.",
+    "The player who hit the longest home run in the league."
+   ],
+   "raw": "The baseball league Jim Wilson's team is a part of.\nThe player who hit the longest home run in the league."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__131820_59747_60748",
+   "claims": [
+    "WEKL's coverage area and state.",
+    "Historic battles fought in the state where WEKL broadcasts."
+   ],
+   "raw": "WEKL's coverage area and state.\nHistoric battles fought in the state where WEKL broadcasts."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__88342_49853_128008_80487",
+   "claims": [
+    "The MLB league in question.",
+    "The year the MLB MVP award is given out.",
+    "The baseball team with the most major league championships just before the MLB MVP.",
+    "The all-star game held each season."
+   ],
+   "raw": "The MLB league in question.\nThe year the MLB MVP award is given out.\nThe baseball team with the most major league championships just before the MLB MVP.\nThe all-star game held each season."
+  },
+  {
+   "split": "test",
+   "id": "2hop__51261_87295",
+   "claims": [
+    "The actress who played Mary Poppins in the 1964 film.",
+    "The actress who plays Princess Diaries."
+   ],
+   "raw": "The actress who played Mary Poppins in the 1964 film.  \nThe actress who plays Princess Diaries."
+  },
+  {
+   "split": "test",
+   "id": "2hop__170823_120171",
+   "claims": [
+    "The publisher of Labyrinth."
+   ],
+   "raw": "The publisher of Labyrinth."
+  },
+  {
+   "split": "test",
+   "id": "2hop__333020_69048",
+   "claims": [
+    "Orezi's birthplace.",
+    "The place where Orezi was born.",
+    "Who is the Chief Judge of."
+   ],
+   "raw": "Orezi's birthplace.\nThe place where Orezi was born.\nWho is the Chief Judge of."
+  },
+  {
+   "split": "test",
+   "id": "2hop__283_574195",
+   "claims": [
+    "The person who said she is the reigning national voice.",
+    "Where the person in question was educated."
+   ],
+   "raw": "The person who said she is the reigning national voice.\nWhere the person in question was educated."
+  },
+  {
+   "split": "test",
+   "id": "2hop__227791_75487",
+   "claims": [
+    "The political party Ken Epp belongs to.",
+    "The federal leader of the political party Ken Epp belongs to."
+   ],
+   "raw": "The political party Ken Epp belongs to.\nThe federal leader of the political party Ken Epp belongs to."
+  },
+  {
+   "split": "test",
+   "id": "2hop__31995_8583",
+   "claims": [
+    "Slavs had contact with specific groups or countries.",
+    "Country that Spielberg's grandparents were from."
+   ],
+   "raw": "Slavs had contact with specific groups or countries.\nCountry that Spielberg's grandparents were from."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__236903_153080_33897_81096",
+   "claims": [
+    "The performer of East Coasting.",
+    "The state where the performer of East Coasting is from.",
+    "The most populated city in that state.",
+    "Who won the Indy Car race there."
+   ],
+   "raw": "The performer of East Coasting.\nThe state where the performer of East Coasting is from.\nThe most populated city in that state.\nWho won the Indy Car race there."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__782397_223623_162182",
+   "claims": [
+    "John Phan's country.",
+    "Phu Luong's country region."
+   ],
+   "raw": "John Phan's country.\nPhu Luong's country region."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__38738_73181_68042",
+   "claims": [
+    "The party that gained control of the House and is currently the majority in the political assembly.",
+    "The political assembly that passed the bill giving regulators discretion to prohibit proprietary trades.",
+    "When did this political assembly gain control of the House?",
+    "The bill passing which granted regulators discretion to prohibit proprietary trades."
+   ],
+   "raw": "The party that gained control of the House and is currently the majority in the political assembly.\nThe political assembly that passed the bill giving regulators discretion to prohibit proprietary trades.\nWhen did this political assembly gain control of the House?\nThe bill passing which granted regulators discretion to prohibit proprietary trades."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__159979_30587_44003",
+   "claims": [
+    "The ocean adjacent to Miami.",
+    "The ocean basin where Tropical Storm Allison ended up."
+   ],
+   "raw": "The ocean adjacent to Miami.\nThe ocean basin where Tropical Storm Allison ended up."
+  },
+  {
+   "split": "test",
+   "id": "2hop__13986_161674",
+   "claims": [
+    "The person who went to war with Henry in 1183 and left the Holy Land.",
+    "The month this person departed from the Holy Land."
+   ],
+   "raw": "The person who went to war with Henry in 1183 and left the Holy Land.\nThe month this person departed from the Holy Land."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__15567_59747_211319_557671",
+   "claims": [
+    "The county where the most populous city in the state that sentenced Demarcus Sears to death is located.",
+    "The county that shares a border with it."
+   ],
+   "raw": "The county where the most populous city in the state that sentenced Demarcus Sears to death is located.\nThe county that shares a border with it."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__140554_2053_52946",
+   "claims": [
+    "The network which, along with ABC and the network which hosts Westinghouse Plaything, is the other major broadcaster based in NY.",
+    "Celebrity Big Brother coming to air on."
+   ],
+   "raw": "The network which, along with ABC and the network which hosts Westinghouse Plaything, is the other major broadcaster based in NY.\nCelebrity Big Brother coming to air on."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__158848_66089_86107",
+   "claims": [
+    "The city of the sea linked to another sea that Theodoric was trying to access.",
+    "The city where Axum's main port is located."
+   ],
+   "raw": "The city of the sea linked to another sea that Theodoric was trying to access.\nThe city where Axum's main port is located."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__106313_443779_52195",
+   "claims": [
+    "The newly declared independent country that is part of the Commission of Truth and Friendship.",
+    "The country where Opor originated."
+   ],
+   "raw": "The newly declared independent country that is part of the Commission of Truth and Friendship.\nThe country where Opor originated."
+  },
+  {
+   "split": "test",
+   "id": "2hop__159903_154896",
+   "claims": [
+    "Insurgency being discussed.",
+    "Particular region or country the insurgency is occurring in."
+   ],
+   "raw": "Insurgency being discussed.\nParticular region or country the insurgency is occurring in."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__304722_330033_63959",
+   "claims": [
+    "The team that defeated the 1894-95 FA Cup winner.",
+    "Tony Richardson's team in question."
+   ],
+   "raw": "The team that defeated the 1894-95 FA Cup winner.\nTony Richardson's team in question."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__726391_153080_33952_34053",
+   "claims": [
+    "The wettest year in the state where the Oh Yeah performer is from.",
+    "The second-largest city in the state where the Oh Yeah performer is from.",
+    "The Oh Yeah performer is from."
+   ],
+   "raw": "The wettest year in the state where the Oh Yeah performer is from.  \nThe second-largest city in the state where the Oh Yeah performer is from.  \nThe Oh Yeah performer is from."
+  },
+  {
+   "split": "test",
+   "id": "2hop__35173_17335",
+   "claims": [
+    "The person who ended the Archaemenid Empire by conquest."
+   ],
+   "raw": "The person who ended the Archaemenid Empire by conquest."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__163763_49925_13759_736921",
+   "claims": [
+    "The district where Jesus Varela preached the sermon.",
+    "Jesus Varela's place of origin or current location for context."
+   ],
+   "raw": "The district where Jesus Varela preached the sermon.\nJesus Varela's place of origin or current location for context."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__323121_88460_30152_20999",
+   "claims": [
+    "People expelled by the Somali Muslim Ajuran Empire.",
+    "Natural boundary between Thailand and A Magne's country."
+   ],
+   "raw": "People expelled by the Somali Muslim Ajuran Empire.  \nNatural boundary between Thailand and A Magne's country."
+  },
+  {
+   "split": "test",
+   "id": "2hop__713299_55227",
+   "claims": [
+    "The actress who plays the wife of a Here Comes the Boom cast member.",
+    "The movie Grown Ups stars.",
+    "The character she plays is the wife of."
+   ],
+   "raw": "The actress who plays the wife of a Here Comes the Boom cast member.  \nThe movie Grown Ups stars.  \nThe character she plays is the wife of."
+  },
+  {
+   "split": "test",
+   "id": "2hop__502852_75487",
+   "claims": [
+    "John Lynch-Staunton's current political party.",
+    "Federal leader of John Lynch-Staunton's political party."
+   ],
+   "raw": "John Lynch-Staunton's current political party.\nFederal leader of John Lynch-Staunton's political party."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__84553_90098_10557",
+   "claims": [
+    "The language where the surname Sylvester originated.",
+    "The era when the man crowned Emperor of the Romans in 800."
+   ],
+   "raw": "The language where the surname Sylvester originated.\nThe era when the man crowned Emperor of the Romans in 800."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__127821_157828_239539",
+   "claims": [
+    "The country that has a co-official language with Olivera Markovic's language.",
+    "The radio television company headquartered in that country."
+   ],
+   "raw": "The country that has a co-official language with Olivera Markovic's language.\nThe radio television company headquartered in that country."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__839787_88460_30152_20999",
+   "claims": [
+    "People expelled from the natural boundary between Thailand and Sepon mine.",
+    "Natural boundary between Thailand and the country where Sepon mine is found."
+   ],
+   "raw": "People expelled from the natural boundary between Thailand and Sepon mine.\nNatural boundary between Thailand and the country where Sepon mine is found."
+  },
+  {
+   "split": "test",
+   "id": "2hop__433694_20273",
+   "claims": [
+    "Margaret Knox's spouse."
+   ],
+   "raw": "Margaret Knox's spouse."
+  },
+  {
+   "split": "test",
+   "id": "2hop__94629_1110",
+   "claims": [
+    "The game series on which The Legend of Neil was based.",
+    "Twilight Princess from that game series.",
+    "Original planned release year for Twilight Princess."
+   ],
+   "raw": "The game series on which The Legend of Neil was based.  \nTwilight Princess from that game series.  \nOriginal planned release year for Twilight Princess."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__307152_400692_51423",
+   "claims": [
+    "The performer of Fall is born in a city.",
+    "The name of the castle in that city."
+   ],
+   "raw": "The performer of Fall is born in a city.\nThe name of the castle in that city."
+  },
+  {
+   "split": "test",
+   "id": "2hop__156658_155922",
+   "claims": [
+    "The body of water into which Toongabbie Creek flows."
+   ],
+   "raw": "The body of water into which Toongabbie Creek flows."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__51933_40769_64047",
+   "claims": [
+    "The luxury division of the largest auto company in the world.",
+    "The model year of the RX 350 vehicle.",
+    "When the body style of the RX 350 was changed.",
+    "The largest auto company in the world."
+   ],
+   "raw": "The luxury division of the largest auto company in the world.\nThe model year of the RX 350 vehicle.\nWhen the body style of the RX 350 was changed.\nThe largest auto company in the world."
+  },
+  {
+   "split": "test",
+   "id": "2hop__70930_7298",
+   "claims": [
+    "The notable pop artist who started his career in adult contemporary radio.",
+    "The person The One That Got Away is about."
+   ],
+   "raw": "The notable pop artist who started his career in adult contemporary radio.  \nThe person The One That Got Away is about."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__140554_2053_5289",
+   "claims": [
+    "The label bought by the specified company.",
+    "The company that owns ABC and the network hosting Westinghouse Playhouse."
+   ],
+   "raw": "The label bought by the specified company.\nThe company that owns ABC and the network hosting Westinghouse Playhouse."
+  },
+  {
+   "split": "test",
+   "id": "2hop__646573_83769",
+   "claims": [
+    "Creator of Push, Nevada.",
+    "Nevada character played in Dazed and Confuddled."
+   ],
+   "raw": "Creator of Push, Nevada.\nNevada character played in Dazed and Confuddled."
+  },
+  {
+   "split": "test",
+   "id": "2hop__153532_72380",
+   "claims": [
+    "The series that The Bag or the Bat is a part of."
+   ],
+   "raw": "The series that The Bag or the Bat is a part of."
+  },
+  {
+   "split": "test",
+   "id": "2hop__109242_113442",
+   "claims": [
+    "The person who created The Blind Girl.",
+    "The date when the creator died."
+   ],
+   "raw": "The person who created The Blind Girl.\nThe date when the creator died."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__68981_91191_16530",
+   "claims": [
+    "The first convert to the faith that is the most common religion in Southeast Asia.",
+    "Who was appointed as the arbitrator."
+   ],
+   "raw": "The first convert to the faith that is the most common religion in Southeast Asia.\nWho was appointed as the arbitrator."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__27069_92991_76291",
+   "claims": [
+    "Oklahoma's US Senators party affiliation."
+   ],
+   "raw": "Oklahoma's US Senators party affiliation."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__847420_720378_15538",
+   "claims": [
+    "The state that contains the county where Elmo is found.",
+    "When the death penalty was reinstated in that state."
+   ],
+   "raw": "The state that contains the county where Elmo is found.\nWhen the death penalty was reinstated in that state."
+  },
+  {
+   "split": "test",
+   "id": "2hop__30905_213732",
+   "claims": [
+    "The person who sponsored the resolution to reopen trade with Vietnam, along with Kerry.",
+    "The child of this person."
+   ],
+   "raw": "The person who sponsored the resolution to reopen trade with Vietnam, along with Kerry.  \nThe child of this person."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__131820_59747_48534",
+   "claims": [
+    "Grant Park is located in the largest city by population in the state where WEKL is found."
+   ],
+   "raw": "Grant Park is located in the largest city by population in the state where WEKL is found."
+  },
+  {
+   "split": "test",
+   "id": "2hop__21104_16335",
+   "claims": [
+    "Genetic similarity between Jews and Italians."
+   ],
+   "raw": "Genetic similarity between Jews and Italians.\nFactors contributing to genetic similarity between these groups."
+  },
+  {
+   "split": "test",
+   "id": "2hop__73719_510545",
+   "claims": [
+    "The spouse of the actor who plays Jarvis in Iron Man.",
+    "The actor who plays Jarvis in Iron Man."
+   ],
+   "raw": "The spouse of the actor who plays Jarvis in Iron Man.\nThe actor who plays Jarvis in Iron Man."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__255970_831637_91775",
+   "claims": [
+    "The military unit known as the seals.",
+    "The meaning behind the term \"seals.\""
+   ],
+   "raw": "The military unit known as the seals.\nThe meaning behind the term \"seals.\""
+  },
+  {
+   "split": "test",
+   "id": "2hop__84172_198548",
+   "claims": [
+    "The spouse of the person who does the voice for Smokey the Bear."
+   ],
+   "raw": "The spouse of the person who does the voice for Smokey the Bear."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__109185_720914_27537",
+   "claims": [
+    "Roncalli's reason for leaving a specific city.",
+    "City where the creator of La Schiavona died."
+   ],
+   "raw": "Roncalli's reason for leaving a specific city.\nCity where the creator of La Schiavona died."
+  },
+  {
+   "split": "test",
+   "id": "2hop__59366_71206",
+   "claims": [
+    "The actor who plays the character on The Drew Carey Show.",
+    "The character's name on 47 Meters Down."
+   ],
+   "raw": "The actor who plays the character on The Drew Carey Show.\nThe character's name on 47 Meters Down."
+  },
+  {
+   "split": "test",
+   "id": "2hop__81825_49084",
+   "claims": [
+    "The actor who plays the character taking the sword out of the stone in Once Upon a Time."
+   ],
+   "raw": "The actor who plays the character taking the sword out of the stone in Once Upon a Time."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__604797_443779_52195",
+   "claims": [
+    "The newly declared independent country which is the country of the country of Alabio.",
+    "The president of that newly declared independent country."
+   ],
+   "raw": "The newly declared independent country which is the country of the country of Alabio.\nThe president of that newly declared independent country."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__768500_730460_78782",
+   "claims": [
+    "British general who led at the Battle of Toussaint's birthplace.",
+    "City where Toussaint's performer was born."
+   ],
+   "raw": "British general who led at the Battle of Toussaint's birthplace.\nCity where Toussaint's performer was born."
+  },
+  {
+   "split": "test",
+   "id": "4hop3__638064_88460_30152_20999",
+   "claims": [
+    "People expelled by the Somali Muslim Ajuran Empire.",
+    "Natural boundary between Thailand and Hiam district's country.",
+    "Proclamation of independence by the Somali Muslim Ajuran Empire."
+   ],
+   "raw": "People expelled by the Somali Muslim Ajuran Empire.\nNatural boundary between Thailand and Hiam district's country.\nProclamation of independence by the Somali Muslim Ajuran Empire."
+  },
+  {
+   "split": "test",
+   "id": "2hop__6870_16335",
+   "claims": [
+    "Genetic characteristics of Ashkenazi Jews.",
+    "Ethnic composition of the city."
+   ],
+   "raw": "Genetic characteristics of Ashkenazi Jews.\nEthnic composition of the city."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__792915_467331_162182",
+   "claims": [
+    "The region containing the C\u00e1i River.",
+    "The city with the Zone 5 Military Museum."
+   ],
+   "raw": "The region containing the C\u00e1i River.\nThe city with the Zone 5 Military Museum."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__105527_39078_8987_8974",
+   "claims": [
+    "The military branch equivalent to which US agency helped the Old West's local police.",
+    "A country that developed the ZH-29.",
+    "The type of embassy where the only communist country had an embassy."
+   ],
+   "raw": "The military branch equivalent to which US agency helped the Old West's local police.\nA country that developed the ZH-29.\nThe type of embassy where the only communist country had an embassy."
+  },
+  {
+   "split": "test",
+   "id": "2hop__386236_350892",
+   "claims": [
+    "Osbert Sitwell's sibling."
+   ],
+   "raw": "Osbert Sitwell's sibling."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__71753_158279_70784_61381",
+   "claims": [
+    "Region immediately north of the region where Israel is located.",
+    "Final destination for the export crops established."
+   ],
+   "raw": "Region immediately north of the region where Israel is located.\nFinal destination for the export crops established."
+  },
+  {
+   "split": "test",
+   "id": "2hop__286621_84856",
+   "claims": [
+    "The show named for the Politically Incorrect cast member.",
+    "When the new season of it starts."
+   ],
+   "raw": "The show named for the Politically Incorrect cast member.\nWhen the new season of it starts."
+  },
+  {
+   "split": "test",
+   "id": "2hop__6750_6733",
+   "claims": [
+    "One with an innovative form belongs to a specific division of languages.",
+    "The specific division of languages for a language with an innovative form."
+   ],
+   "raw": "One with an innovative form belongs to a specific division of languages.\nThe specific division of languages for a language with an innovative form."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__671542_665330_51423",
+   "claims": [
+    "The city where the performer of Darlings was formed."
+   ],
+   "raw": "The city where the performer of Darlings was formed."
+  },
+  {
+   "split": "test",
+   "id": "2hop__67660_81007",
+   "claims": [
+    "The person who ends up with the narrator on How I Met Your Mother.",
+    "The last name of the character who ends up with the narrator on How I Met Your Mother."
+   ],
+   "raw": "The person who ends up with the narrator on How I Met Your Mother.\nThe last name of the character who ends up with the narrator on How I Met Your Mother."
+  },
+  {
+   "split": "test",
+   "id": "2hop__6827_75783",
+   "claims": [
+    "The company that bought FleetBoston Financial.",
+    "Countrywide Financial Corporation's acquisition date."
+   ],
+   "raw": "The company that bought FleetBoston Financial.  \nCountrywide Financial Corporation's acquisition date."
+  },
+  {
+   "split": "test",
+   "id": "2hop__316374_82341",
+   "claims": [
+    "Bob Steele's place of death."
+   ],
+   "raw": "Bob Steele's place of death."
+  },
+  {
+   "split": "test",
+   "id": "2hop__77518_548781",
+   "claims": [
+    "The person who was born on the fourth of July."
+   ],
+   "raw": "The person who was born on the fourth of July."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__40316_497223_15840_36002",
+   "claims": [
+    "Genesis's characteristics or features.",
+    "Game system with a 3-letter abbreviation.",
+    "Name of the game featuring the Los Angeles Rams."
+   ],
+   "raw": "Genesis's characteristics or features.\nGame system with a 3-letter abbreviation.\nName of the game featuring the Los Angeles Rams."
+  },
+  {
+   "split": "test",
+   "id": "2hop__852122_150107",
+   "claims": [
+    "Communications of the agency that Michael Schroeder is a member of."
+   ],
+   "raw": "Communications of the agency that Michael Schroeder is a member of."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__567737_141375_458768_33633",
+   "claims": [
+    "The explorer who reached the headquarters.",
+    "The group Study in Brown's record label.",
+    "The date when the explorer reached the headquarters."
+   ],
+   "raw": "The explorer who reached the headquarters.\nThe group Study in Brown's record label.\nThe date when the explorer reached the headquarters."
+  },
+  {
+   "split": "test",
+   "id": "2hop__132929_684936",
+   "claims": [
+    "The company that made the Skyflash missile."
+   ],
+   "raw": "The company that made the Skyflash missile."
+  },
+  {
+   "split": "test",
+   "id": "2hop__590631_110882",
+   "claims": [
+    "The performer of the song Unbreakable."
+   ],
+   "raw": "The performer of the song Unbreakable."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__579562_629431_124169",
+   "claims": [
+    "The Governor of the city where Pacem in Terris' author died."
+   ],
+   "raw": "The Governor of the city where Pacem in Terris' author died."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__354480_834494_34099",
+   "claims": [
+    "The city that is in the same county as Eric Marcus Municipal Airport.",
+    "The length of city council terms in that city."
+   ],
+   "raw": "The city that is in the same county as Eric Marcus Municipal Airport.\nThe length of city council terms in that city."
+  },
+  {
+   "split": "test",
+   "id": "2hop__104095_40501",
+   "claims": [
+    "Clara Peeters's current citizenship.",
+    "The country that Clara Peeters is a citizen of."
+   ],
+   "raw": "Clara Peeters's current citizenship.\nThe country that Clara Peeters is a citizen of."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__38242_92991_76291",
+   "claims": [
+    "Congressional party gained control of the House Rules Committee.",
+    "Majority-controlling Congressional party prior to 1954 elections.",
+    "US House and US Senate body that determines rules.",
+    "Party with majorities in Congress before 1954 elections."
+   ],
+   "raw": "Congressional party gained control of the House Rules Committee.\nMajority-controlling Congressional party prior to 1954 elections.\nUS House and US Senate body that determines rules.\nParty with majorities in Congress before 1954 elections."
+  },
+  {
+   "split": "test",
+   "id": "2hop__635544_110949",
+   "claims": [
+    "The person who was part of Ratata."
+   ],
+   "raw": "The person who was part of Ratata."
+  },
+  {
+   "split": "test",
+   "id": "2hop__14121_15463",
+   "claims": [
+    "The company that initiated a successful price war among PC manufacturers in 1994.",
+    "The company that merged with another company in 2002."
+   ],
+   "raw": "The company that initiated a successful price war among PC manufacturers in 1994.\nThe company that merged with another company in 2002."
+  },
+  {
+   "split": "test",
+   "id": "2hop__78401_158262",
+   "claims": [
+    "The person chosen to be president of the confederacy during the Mexican-American War."
+   ],
+   "raw": "The person chosen to be president of the confederacy during the Mexican-American War."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__857_846_7849",
+   "claims": [
+    "The type of theater performance seen in the city.",
+    "The person to whom the edict was addressed.",
+    "The city where the Yongle emperor greeted someone.",
+    "The other types of theater performances."
+   ],
+   "raw": "The type of theater performance seen in the city.\nThe person to whom the edict was addressed.\nThe city where the Yongle emperor greeted someone.\nThe other types of theater performances."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__128516_30587_83479",
+   "claims": [
+    "Germany's main goal during the battle.",
+    "US city adjacent to the ocean where the battle occurred."
+   ],
+   "raw": "Germany's main goal during the battle.  \nUS city adjacent to the ocean where the battle occurred."
+  },
+  {
+   "split": "test",
+   "id": "2hop__547045_131879",
+   "claims": [
+    "Wipac's headquarters location.",
+    "Body of water near Wipac's headquarters."
+   ],
+   "raw": "Wipac's headquarters location.\nBody of water near Wipac's headquarters."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__222497_309482_41132",
+   "claims": [
+    "Plague occurrences in Al gran sole carico d'amore's composer's works."
+   ],
+   "raw": "Plague occurrences in Al gran sole carico d'amore's composer's works."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__254856_400692_51423",
+   "claims": [
+    "The performer of Falling Out.",
+    "The birthplace of the performer of Falling Out.",
+    "The castle located in the birthplace."
+   ],
+   "raw": "The performer of Falling Out.\nThe birthplace of the performer of Falling Out.\nThe castle located in the birthplace."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__103881_443779_52195",
+   "claims": [
+    "The newly declared independent country that is part of the Commission of Truth and Friendship.",
+    "The country that Tony Gunawan is from."
+   ],
+   "raw": "The newly declared independent country that is part of the Commission of Truth and Friendship.\nThe country that Tony Gunawan is from."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__161602_426860_88460_21057",
+   "claims": [
+    "British rule period countries hosting a specific tournament.",
+    "Country where That Dam is located."
+   ],
+   "raw": "British rule period countries hosting a specific tournament.\nCountry where That Dam is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__30741_85990",
+   "claims": [
+    "Leaders of the opposition during a specific time period.",
+    "Party that dominated until the mid-20th century."
+   ],
+   "raw": "Leaders of the opposition during a specific time period.\nParty that dominated until the mid-20th century."
+  },
+  {
+   "split": "test",
+   "id": "2hop__96812_130869",
+   "claims": [
+    "The state where the Small Cowper Madonna painting is displayed."
+   ],
+   "raw": "The state where the Small Cowper Madonna painting is displayed."
+  },
+  {
+   "split": "test",
+   "id": "2hop__89764_827343",
+   "claims": [
+    "The actress that played the little girl in Miracle on 34th Street 1947.",
+    "The sibling of that actress."
+   ],
+   "raw": "The actress that played the little girl in Miracle on 34th Street 1947.\nThe sibling of that actress."
+  },
+  {
+   "split": "test",
+   "id": "2hop__46376_158105",
+   "claims": [
+    "The highest paid person in the world.",
+    "Features emphasized by that individual."
+   ],
+   "raw": "The highest paid person in the world.\nFeatures emphasized by that individual."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__426806_42197_18397",
+   "claims": [
+    "Who declared that they would intervene in the Korean conflict."
+   ],
+   "raw": "Who declared that they would intervene in the Korean conflict."
+  },
+  {
+   "split": "test",
+   "id": "2hop__17192_77606",
+   "claims": [
+    "The country that secured southern Lebanon in 1978."
+   ],
+   "raw": "The country that secured southern Lebanon in 1978."
+  },
+  {
+   "split": "test",
+   "id": "2hop__676045_7292",
+   "claims": [
+    "The other artists besides Kenny G who had crossover hits played on smooth jazz stations."
+   ],
+   "raw": "The other artists besides Kenny G who had crossover hits played on smooth jazz stations."
+  },
+  {
+   "split": "test",
+   "id": "2hop__51113_84616",
+   "claims": [
+    "The actress who won a Tony for the song Moon River."
+   ],
+   "raw": "The actress who won a Tony for the song Moon River."
+  },
+  {
+   "split": "test",
+   "id": "2hop__3739_13529",
+   "claims": [
+    "The football player who backed out due to a relay controversy and was signed by Barcelona."
+   ],
+   "raw": "The football player who backed out due to a relay controversy and was signed by Barcelona."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__71753_623626_70784_79935",
+   "claims": [
+    "Region to the north of where Israel is located.",
+    "Body of water where Kharg Island is found.",
+    "When was the region created?"
+   ],
+   "raw": "Region to the north of where Israel is located.\nBody of water where Kharg Island is found.\nWhen was the region created?"
+  },
+  {
+   "split": "test",
+   "id": "3hop1__516535_834494_33939",
+   "claims": [
+    "The population of the city in 1900.",
+    "The county that includes the city in question."
+   ],
+   "raw": "The population of the city in 1900.\nThe county that includes the city in question."
+  },
+  {
+   "split": "test",
+   "id": "2hop__79875_84469",
+   "claims": [
+    "The actor who played the husband of the person who also played Thelma in the movie Thelma and Louise.",
+    "The movie A League of Their Own."
+   ],
+   "raw": "The actor who played the husband of the person who also played Thelma in the movie Thelma and Louise.\nThe movie A League of Their Own."
+  },
+  {
+   "split": "test",
+   "id": "2hop__73615_42173",
+   "claims": [
+    "The company that abolished the dual system of government in Bengal."
+   ],
+   "raw": "The company that abolished the dual system of government in Bengal."
+  },
+  {
+   "split": "test",
+   "id": "2hop__10114_599630",
+   "claims": [
+    "The city in Zhejiang where Protestants are especially notable."
+   ],
+   "raw": "The city in Zhejiang where Protestants are especially notable."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__115977_582428_157828_162309",
+   "claims": [
+    "The country whose co-official language was used by the director of And Love Has Vanished.",
+    "When the country in question first attended the Olympics games as an independent team."
+   ],
+   "raw": "The country whose co-official language was used by the director of And Love Has Vanished.\nWhen the country in question first attended the Olympics games as an independent team."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__857_846_7890",
+   "claims": [
+    "Number of places of higher learning in the city.",
+    "City where the Yongle emperor greeted someone.",
+    "Person to whom the edict was addressed."
+   ],
+   "raw": "Number of places of higher learning in the city.\nCity where the Yongle emperor greeted someone.\nPerson to whom the edict was addressed."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__105126_443779_52195",
+   "claims": [
+    "The commission of truth and friendship the newly independent country is part of.",
+    "The country where gado-gado originates from."
+   ],
+   "raw": "The commission of truth and friendship the newly independent country is part of.\nThe country where gado-gado originates from."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__161602_426860_88460_86452",
+   "claims": [
+    "The natural boundary between the country that hosted the tournament and the country where That Dam is from.",
+    "The date Burma changed its name."
+   ],
+   "raw": "The natural boundary between the country that hosted the tournament and the country where That Dam is from.\nThe date Burma changed its name."
+  },
+  {
+   "split": "test",
+   "id": "2hop__507528_139339",
+   "claims": [
+    "Lisa Picard's most famous film.",
+    "Award category for which the nomination was given."
+   ],
+   "raw": "Lisa Picard's most famous film.\nAward category for which the nomination was given."
+  },
+  {
+   "split": "test",
+   "id": "2hop__354635_174222",
+   "claims": [
+    "The company that succeeded the owner of Empire Sports Network."
+   ],
+   "raw": "The company that succeeded the owner of Empire Sports Network."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__304722_230978_63959",
+   "claims": [
+    "Last known team membership of Matthew Webb.",
+    "Winner of the 1894-95 FA Cup.",
+    "Date of Matthew Webb's last appearance with his team."
+   ],
+   "raw": "Last known team membership of Matthew Webb.\nWinner of the 1894-95 FA Cup.\nDate of Matthew Webb's last appearance with his team."
+  },
+  {
+   "split": "test",
+   "id": "2hop__606439_127399",
+   "claims": [
+    "The musical group that performed From Them, Through Us, to You formed."
+   ],
+   "raw": "The musical group that performed From Them, Through Us, to You formed."
+  },
+  {
+   "split": "test",
+   "id": "3hop2__92991_72083_76291",
+   "claims": [
+    "The party who gained control of Congress in the midterm elections of 1946.",
+    "The US House and US Senate they took control of the determination of rules for."
+   ],
+   "raw": "The party who gained control of Congress in the midterm elections of 1946.\nThe US House and US Senate they took control of the determination of rules for."
+  },
+  {
+   "split": "test",
+   "id": "2hop__341176_711757",
+   "claims": [
+    "Gmina St\u0119\u017cyca's county name."
+   ],
+   "raw": "Gmina St\u0119\u017cyca's county name."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__275261_443779_52195",
+   "claims": [
+    "The president of the newly declared independent country that formed the Timor Leste Commission of Truth and Friendship.",
+    "The country where Pantar is located."
+   ],
+   "raw": "The president of the newly declared independent country that formed the Timor Leste Commission of Truth and Friendship.\nThe country where Pantar is located."
+  },
+  {
+   "split": "test",
+   "id": "2hop__744371_78851",
+   "claims": [
+    "New York City team that does not host NBA games."
+   ],
+   "raw": "New York City team that does not host NBA games."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__635099_131926_89261",
+   "claims": [
+    "The body of water by the city where Write This Down was formed."
+   ],
+   "raw": "The body of water by the city where Write This Down was formed."
+  },
+  {
+   "split": "test",
+   "id": "2hop__449673_91104",
+   "claims": [
+    "Experimental satellite operated by the same entity as RESOURCESAT-2.",
+    "Name of the experimental satellite before RESOURCESAT-2."
+   ],
+   "raw": "Experimental satellite operated by the same entity as RESOURCESAT-2.\nName of the experimental satellite before RESOURCESAT-2."
+  },
+  {
+   "split": "test",
+   "id": "2hop__45126_807969",
+   "claims": [
+    "Highest goal scorer in EPL this season.",
+    "Team membership of the highest goal scorer."
+   ],
+   "raw": "Highest goal scorer in EPL this season.\nTeam membership of the highest goal scorer."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__567955_503371_21711",
+   "claims": [
+    "Martin's place of death.",
+    "Palau de la Generalitat construction date.",
+    "City where Martin died.",
+    "Layana's location."
+   ],
+   "raw": "Martin's place of death.\nPalau de la Generalitat construction date.\nCity where Martin died.\nLayana's location."
+  },
+  {
+   "split": "test",
+   "id": "4hop2__9988_158985_70784_79935",
+   "claims": [
+    "Region prevailing with \"Near East\" and its neighboring regions.",
+    "Kingdom that lies immediately to the north of the region prevailing with \"Near East.\"",
+    "Region experiencing the most growth in desalination for agricultural use.",
+    "Year when the kingdom was created."
+   ],
+   "raw": "Region prevailing with \"Near East\" and its neighboring regions.\nKingdom that lies immediately to the north of the region prevailing with \"Near East.\"\nRegion experiencing the most growth in desalination for agricultural use.\nYear when the kingdom was created."
+  },
+  {
+   "split": "test",
+   "id": "2hop__826864_17335",
+   "claims": [
+    "The person who owned Bucephalus.",
+    "The date of the owner's death."
+   ],
+   "raw": "The person who owned Bucephalus.\nThe date of the owner's death."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__228_237521_291682",
+   "claims": [
+    "The wife of the man who produced the documentary.",
+    "The pop star who influenced Beyonce.",
+    "The man who produced the documentary of the pop star.",
+    "Beyonce's husband."
+   ],
+   "raw": "The wife of the man who produced the documentary.\nThe pop star who influenced Beyonce.\nThe man who produced the documentary of the pop star.\nBeyonce's husband."
+  },
+  {
+   "split": "test",
+   "id": "2hop__31124_31122",
+   "claims": [
+    "A notable subjective idealist must be found.",
+    "The time period (century) in which this subject lived."
+   ],
+   "raw": "A notable subjective idealist must be found.\nThe time period (century) in which this subject lived."
+  },
+  {
+   "split": "test",
+   "id": "4hop1__152146_5274_458768_33632",
+   "claims": [
+    "The city where the headquarters of the only group larger than L\u00e5nga n\u00e4tter's record label is located.",
+    "The day the Feast is held in that city."
+   ],
+   "raw": "The city where the headquarters of the only group larger than L\u00e5nga n\u00e4tter's record label is located.\nThe day the Feast is held in that city."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__446612_160545_62931",
+   "claims": [
+    "The country where Ercole Manfredi died.",
+    "The film The Beach was shot in."
+   ],
+   "raw": "The country where Ercole Manfredi died.\nThe film The Beach was shot in."
+  },
+  {
+   "split": "test",
+   "id": "2hop__6827_88924",
+   "claims": [
+    "The company that bought FleetBoston Financial.",
+    "The chairman of the company that bought FleetBoston Financial."
+   ],
+   "raw": "The company that bought FleetBoston Financial.\nThe chairman of the company that bought FleetBoston Financial."
+  },
+  {
+   "split": "test",
+   "id": "2hop__846844_47134",
+   "claims": [
+    "The school that owns Goss Stadium at Coleman Field."
+   ],
+   "raw": "The school that owns Goss Stadium at Coleman Field."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__103440_443779_52195",
+   "claims": [
+    "Kiwil's birth country participated in the Commission of Truth and Friendship.",
+    "The other country that participated in the Commission of Truth and Friendship.",
+    "President of the other country that participated in the Commission of Truth and Friendship."
+   ],
+   "raw": "Kiwil's birth country participated in the Commission of Truth and Friendship.\nThe other country that participated in the Commission of Truth and Friendship.\nPresident of the other country that participated in the Commission of Truth and Friendship."
+  },
+  {
+   "split": "test",
+   "id": "2hop__540035_113442",
+   "claims": [
+    "The person who created The Blind Girl.",
+    "The date when The Blind Girl was created."
+   ],
+   "raw": "The person who created The Blind Girl.\nThe date when The Blind Girl was created."
+  },
+  {
+   "split": "test",
+   "id": "2hop__108158_83769",
+   "claims": [
+    "Creator of Push, Nevada.",
+    "Character Nevada who was played in Dazed and Confused."
+   ],
+   "raw": "Creator of Push, Nevada.\nCharacter Nevada who was played in Dazed and Confused."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__147225_30587_83479",
+   "claims": [
+    "Germany's goal during the Battle of the Atlantic.",
+    "City Herbert Saffir died in."
+   ],
+   "raw": "Germany's goal during the Battle of the Atlantic.\nCity Herbert Saffir died in."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__801799_547811_80702",
+   "claims": [
+    "The place of birth of the composer of La fida ninfa.",
+    "The name of a famous bridge in the place of birth."
+   ],
+   "raw": "The place of birth of the composer of La fida ninfa.\nThe name of a famous bridge in the place of birth."
+  },
+  {
+   "split": "test",
+   "id": "3hop1__637555_339990_15538",
+   "claims": [
+    "The state where Copake Lake is located."
+   ],
+   "raw": "The state where Copake Lake is located."
+  }
+ ]
+}

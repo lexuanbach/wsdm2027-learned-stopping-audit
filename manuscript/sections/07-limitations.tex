@@ -1,0 +1,27 @@
+\section{Scope and Practical Guidance}
+\label{sec:limitations}
+
+Our conclusions apply to nine-feature heads trained on 30 to 90 per-cell
+(at most 959 pooled) trajectories in four-search prefix replay over static
+English corpora with mostly sparse retrieval. Longer horizons, fresh
+same-population trajectories, retrieval stacks,
+languages, hidden-state features, and joint control require new matched
+frontiers. We refit each head per cell, so crossed-backbone and news results
+test recurrence rather than frozen transfer. FBG labels one realized
+continuation rather than a counterfactual value.
+
+Unweighted counts summarize heterogeneous cells. The nested bootstrap
+conditions on logged trajectories and decoding, while independent draws test
+population variation. In low-EM cells, we evaluate controller differences
+rather than answer quality. Our execution ledger excludes lifecycle, invoice,
+energy, retry, and failure costs. The supplement reports tail latency. Answer
+repetition is competitive only when prefix answers exist, and other cost
+structures require a separate frontier.
+
+
+To transfer this audit, declare observable state and executed costs, select
+references on development data, freeze policies, and collect independent test
+questions. Match each cost ledger and report paired and simultaneous intervals.
+Keep replay separate from online adaptive-query evidence. Fresh
+same-population training beyond 90 trajectories and longer horizons remain
+untested.

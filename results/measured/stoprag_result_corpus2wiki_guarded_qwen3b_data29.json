@@ -1,0 +1,2456 @@
+{
+ "encoder": "microsoft/deberta-v3-base",
+ "fitted_iters": 3,
+ "n_train_episodes": 70,
+ "n_val_episodes": 20,
+ "n_test": 400,
+ "test_per_q": [
+  {
+   "id": "b70542bc0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "fb971ec60bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "28aacbc5087011ebbd62ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "c21c81d9087411ebbd67ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "faecc3fa08d211ebbd96ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "9926fbf6089e11ebbd78ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "30c8f31e0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "5d0eadd80bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f96b81940baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e35b10de08cd11ebbd93ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "3c8ef8f60bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4c6a905e088311ebbd6dac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e2f18f160bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "113cba620bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "08cae5720baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c7807a7608ef11ebbda8ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "627f38e00bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "14b2eec4086311ebbd5eac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "578f9b8c0bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "bc00399e0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "21e561520bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "740078fc092211ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "bf95f3a2093c11ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "8997238e0bda11eba7f7acde48001122",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "48ee55a4086b11ebbd5fac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "6f5e8d1d08f911ebbdaaac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "aa0380a40bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b6e4474808a311ebbd7bac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "172fd661094811ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "c467dc5e08f311ebbdaaac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "22606f5a0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "614058a208b611ebbd88ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "83938bc8084c11ebbd56ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "e43f26380bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "9ffc814e0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "57022c280baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "eb5b6a640bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b5b4c8720bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e170bd3a08b111ebbd85ac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "67713d6e0bdd11eba7f7acde48001122",
+   "stop": 3,
+   "em": 0,
+   "searches": 3
+  },
+  {
+   "id": "d146745a089211ebbd74ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "fb4101280bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b05e11340bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "cece8b7e0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "505840b40bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "fcc1bcc008d311ebbd96ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "cfad61500bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "8ed5dbc6086811ebbd5eac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "1b62189208a111ebbd78ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "8af63e07093f11ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "3644026908df11ebbda0ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "94c13eb80bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "a5937fe00baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4fb9d00c0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e2105ac1086b11ebbd60ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "62c96c7c0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "0277d67a08c411ebbd8eac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "71a1099a0bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c34451720bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6cea7531086811ebbd5eac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "ab475b98088311ebbd6dac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "0bb7a3b60bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "62e816ab08c211ebbd8cac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "6ce225120bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e4cd03ae0bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "63b35a580bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "7755730e0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "66eefd9e0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "64d6954e09ba11ebbdb0ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "07b1cc3c0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "64d036380bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "62a9cd640bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c22067860bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "8dc985120bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "89b6241c089b11ebbd78ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "518c5a80091f11ebbdaeac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "3c23074c086211ebbd5dac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "87ceaacc0bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "0f3c04300bdd11eba7f7acde48001122",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "7df3efc40baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "a16f91c00bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "812d167e0bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "93acf0b9088511ebbd6dac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "de24a3c2089211ebbd74ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "09e3f8ac0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ab4cf04e089711ebbd77ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "0a6f4b240bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f2dbc5b4089e11ebbd78ac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "61e86d5a0bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "1f7ab2f2086211ebbd5dac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "b0093fea0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "539eaecb08a111ebbd79ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "2973264e08b811ebbd88ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "13f2f6740baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c9a4f37409b511ebbdb0ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "48da05b6084f11ebbd56ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "6a6283f20bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "9c7fddf80bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "3b91ed660bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "43828fba0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "dc9dc6e40baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c7134f820bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "b3cb68420bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "754519fc0bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "d2781aee086611ebbd5eac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "0e73737408ba11ebbd88ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "1d096e16086c11ebbd60ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "9cba304f088a11ebbd6fac1f6bf848b6",
+   "stop": 3,
+   "em": 1,
+   "searches": 3
+  },
+  {
+   "id": "ba773ad00bd911eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "b5bb630a0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f78c20920bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6a59f5a20bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "29bddf900bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "a664606d087e11ebbd6bac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "cd48a8e60bda11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "57bf31020bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "446355820bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6c47523a0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "505a63d40bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4a85df04089811ebbd77ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "a996914408ef11ebbda8ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "11562eb0090711ebbdadac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "132a5430085d11ebbd5cac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "1f9ccd180bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "d36533540bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "867efe19097a11ebbdb0ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4b37342c0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ee42bc920bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ba1542d00bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "01ad79ba0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "1800b6fc086911ebbd5eac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "aaa9af320bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e3fe2a600bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "34ff0ba00bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c3d340d208ab11ebbd82ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "301a026a0bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "8e7dfe8e0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b3bab9fa0bda11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "1e9d0e980bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "671322a00bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "7c71892a08d711ebbd9aac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "1dd18a37086a11ebbd5fac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "4d366f120bda11eba7f7acde48001122",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "4d9ddebe085711ebbd5aac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "8a07d2d60bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4b72962a086e11ebbd62ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "1cf4dbe80baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4ebea1ab08ac11ebbd82ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "5580e98b088b11ebbd6fac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "703a61f00bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "fd9d708c0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "17b05b5e0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "1dbd09b308a111ebbd78ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4dac82e40bdd11eba7f7acde48001122",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "f7c153ce092e11ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "1a7946ce087b11ebbd67ac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "e74ac71f08ae11ebbd83ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "22a11ef608d211ebbd95ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "acc2383c0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "7ae641b80bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "83c0b2aa08e111ebbda2ac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "56f73ba60baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6b2794bf088911ebbd6eac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "67a8b039092711ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "c5ac4c80090111ebbdadac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "3d1cae66089711ebbd76ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "d057431e0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "cfb1d1ed092e11ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "0d58f95c0bdd11eba7f7acde48001122",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "4e743442096411ebbdafac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "bbb42c7c088811ebbd6eac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "20dc870c08c011ebbd8aac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "170b21e60bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "bac6c6d9092211ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "0163c021087511ebbd67ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "7225178208d411ebbd96ac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "9c78f60708d511ebbd98ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "7bc2c4340bda11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "f06996ca0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "bd6f350408d311ebbd96ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "ba81957c0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "3704a63f08a411ebbd7cac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "63a51a37096711ebbdafac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "123d4cf40bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "e61479860bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "3593f6ac089e11ebbd78ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c365be0608ae11ebbd83ac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "d10610cc0bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "71bf184e0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "8113911c086911ebbd5eac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "3451a87208e711ebbda5ac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "f4dbeb2f08b611ebbd88ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "5a733ed40bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "25783848086f11ebbd62ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "d225ba6c089111ebbd73ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "2c460574087e11ebbd6bac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "c6e07b2c0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ce895ad3095211ebbdaeac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "178a2b9408d611ebbd98ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "24df39cb088011ebbd6cac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "eeea54e0085611ebbd59ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ac90d99c0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6aed324e0bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "db760b4a0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "7a51eb9208ac11ebbd83ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "60408ca60bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "2356557d08ab11ebbd81ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "70f721c308e811ebbda6ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "8223ad8e097811ebbdb0ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "dd1a82740baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f73a80a80bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f47bff600bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "42a5f1a40bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "acfe24b7096511ebbdafac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "2ce44ca80bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6d0f23b008b011ebbd84ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "3091e6da0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "05f0e6680bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "08b4d30e08d511ebbd98ac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "16e632b80bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f7e5bd9a0bdb11eba7f7acde48001122",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "61456758085411ebbd59ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b26dd25c0bdb11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "c58a7e3e0bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "1ae417780bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "314536e808bb11ebbd88ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "ba8ffb9e0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "9d2db9820bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "23c80429088411ebbd6dac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "a214276e08dc11ebbd9cac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "ec9995820bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "a0b7ab54088511ebbd6dac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "921c15d40bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "9634ee940baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "60402bf80bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "75612cee0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c2b303ae08c411ebbd8eac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "44afb3b2089c11ebbd78ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "04b2864e0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b1d520f2087011ebbd63ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "e29a23e408bc11ebbd89ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "b82ce9420bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "1ea838c00bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6b58975d08df11ebbda0ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "6a0a17b80baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f67a19540bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b34f43d1087b11ebbd69ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "e0c830e708f411ebbdaaac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "e0ce1111097711ebbdb0ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b670607d08b611ebbd88ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "77217c880bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "547dc2680bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b812da4c089111ebbd73ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "27d8771e0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "5aa25a540bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "04e9521d088b11ebbd6fac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "881866100baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "cf57f2ef087011ebbd63ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "20c7b59608db11ebbd9cac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6a8f19480bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "7ff5ce48091b11ebbdaeac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "8fc9ab900bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "bab5dcee0bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "5a4342620bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "c1ed092a0bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "050fa39608df11ebbd9fac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "a916ff4c0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "33d1a6d60bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "e2cecd29096711ebbdafac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "caccb6f208d811ebbd9cac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b5790c240bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "7d8182b60bd911eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "7d87730c087211ebbd66ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "2ecc6bf40bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c3aa16f8089711ebbd77ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "a6961cb20bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ddb04f2608c011ebbd8aac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "711c760608ff11ebbdadac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "8ab49ff80bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b00177ba08a411ebbd7dac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "84977c000bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "d18f92b4085d11ebbd5cac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6efc1e6c0bda11eba7f7acde48001122",
+   "stop": 3,
+   "em": 0,
+   "searches": 3
+  },
+  {
+   "id": "54f10a4a0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "9a030344096611ebbdafac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "0745c7f20bdd11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "8a9903ca0bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e0b640240bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "32d160b60bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "279623fe089111ebbd72ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "be9164e80bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ee559aaa08c211ebbd8cac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "3450ecb008c511ebbd8eac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "f377a0fc089311ebbd75ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "981f1da9087111ebbd63ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "9c91985408bd11ebbd8aac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "302d5ef40bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "c4835786085d11ebbd5cac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "549d1a62086a11ebbd5fac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "e6802e620bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "81422bee089b11ebbd78ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "498dc8a2089111ebbd72ac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "344e4d34091f11ebbdaeac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "a8bff83c0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "0404d0e40bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "320b908a0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6dff625e0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "976c613308d411ebbd96ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "e7fafa0c08d011ebbd95ac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "8ba63ce8098f11ebbdb0ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "3630fd780bda11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "299505620baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e7e16a100baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "2db2384a0bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b8960ed408b011ebbd85ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "adf633ba08b911ebbd88ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "d57ccc52087b11ebbd69ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "b96d74c40bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6b84004a0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "714be734088c11ebbd6fac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "286461f808ba11ebbd88ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "29bd8c0c0bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "55dc0b7a088f11ebbd72ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "43d525ba0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "061601a608bc11ebbd88ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "a7e043d60bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "051f62de0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "8130dbcf085e11ebbd5cac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "05ca361608a511ebbd7dac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "80cea3ec0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "91f8aeb508b811ebbd88ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "1822cbb4089111ebbd72ac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "5e7f9165094211ebbdaeac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "1b36941208a911ebbd7fac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "4bcc0eb20bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "424c542a08bc11ebbd88ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "5d41911e0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "e7b41722089e11ebbd78ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "a9cc5f240bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ea897033084e11ebbd56ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "492c06120bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "b23c52da0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "5232c94509b811ebbdb0ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "911afad908d111ebbd95ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "8266a796087a11ebbd67ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "6aac7fba0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "416d82040bdc11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "6e5de2c908b611ebbd88ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "6c0b26320bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "56b2c4dc08a111ebbd79ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ce3a708808bd11ebbd8aac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "74eb875e086a11ebbd5fac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "5c9e73200bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ccd086f80bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "497a2625091211ebbdadac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "ac9716f60bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "2ad168d509b411ebbdb0ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "565d21740bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "8924701a08c811ebbd91ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "d875b0800bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "6a7725140bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "099f34280bda11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "06b9dfa20bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "51478b9e08d611ebbd98ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "6a775a2e0bde11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "cf798e100bd911eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "fde280820bdd11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "c767a888085a11ebbd5cac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "dbf41c00086911ebbd5fac1f6bf848b6",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "35e09904086b11ebbd5fac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "3bf1539d08ed11ebbda7ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f43518160bdc11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "925e59120bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "0b86c27208c611ebbd90ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  },
+  {
+   "id": "d8a042780bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4f8e349e08e111ebbda2ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "c6d93b11087411ebbd67ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "391fed160bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "49e0153808ac11ebbd82ac1f6bf848b6",
+   "stop": 2,
+   "em": 1,
+   "searches": 2
+  },
+  {
+   "id": "123d23820bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "d0a64a540bdd11eba7f7acde48001122",
+   "stop": 2,
+   "em": 0,
+   "searches": 2
+  },
+  {
+   "id": "6c40a31c0baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f1d1f07a0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "3007ec78085011ebbd56ac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "f2e143d80bda11eba7f7acde48001122",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "c365fbe2095111ebbdaeac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "d376f0a80bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "844db8ce0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "4ec7cb7c0bdb11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "3bf7693408df11ebbda0ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "d3703f600bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "48e6d06e086f11ebbd62ac1f6bf848b6",
+   "stop": 1,
+   "em": 0,
+   "searches": 1
+  },
+  {
+   "id": "79703b0808a611ebbd7fac1f6bf848b6",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "9b1655a108e511ebbda4ac1f6bf848b6",
+   "stop": 1,
+   "em": 1,
+   "searches": 1
+  },
+  {
+   "id": "29bf69d20bb011ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "bd45d8220baf11ebab90acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "42a0e6420bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "19fcd6e4086b11ebbd5fac1f6bf848b6",
+   "stop": 3,
+   "em": 1,
+   "searches": 3
+  },
+  {
+   "id": "1b053aca0bdd11eba7f7acde48001122",
+   "stop": 4,
+   "em": 0,
+   "searches": 4
+  },
+  {
+   "id": "ef22b9d208b211ebbd85ac1f6bf848b6",
+   "stop": 4,
+   "em": 1,
+   "searches": 4
+  }
+ ],
+ "device": "mps",
+ "ref_em": 25.5,
+ "ref_s": 4.0,
+ "margin_star": 0.05,
+ "stoprag_em": 26.8,
+ "stoprag_s": 3.39,
+ "stoprag_save": 15,
+ "test_frontier": [
+  {
+   "margin": -0.2,
+   "em": 26.25,
+   "s": 2.3925
+  },
+  {
+   "margin": -0.1,
+   "em": 25.5,
+   "s": 2.7275
+  },
+  {
+   "margin": -0.05,
+   "em": 26.0,
+   "s": 2.86
+  },
+  {
+   "margin": 0.0,
+   "em": 26.0,
+   "s": 3.035
+  },
+  {
+   "margin": 0.05,
+   "em": 26.75,
+   "s": 3.39
+  },
+  {
+   "margin": 0.1,
+   "em": 25.5,
+   "s": 3.995
+  },
+  {
+   "margin": 0.2,
+   "em": 25.5,
+   "s": 4.0
+  }
+ ],
+ "source_run": "corpus2wiki_guarded_qwen3b_data29",
+ "training_split": "90 policy-training episodes of the run (seed-41 split); last 20 used as margin-validation; certificate episodes untouched",
+ "cost_note": "exact LLM calls = 1 + 2 * stop (shared answer-at-every-prefix loop)"
+}

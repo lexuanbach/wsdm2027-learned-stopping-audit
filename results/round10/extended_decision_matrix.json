@@ -1,0 +1,4886 @@
+{
+ "what": "per-policy dominance verdicts and matched-mixture interval verdicts across every fresh and crossed cell, including the new gold-support-supervised sufficiency classifier",
+ "vocabulary": {
+  "I": "undominated by the simple family AND strictly improves B*",
+  "F": "undominated but does not strictly improve B*",
+  "D": "Pareto-dominated by some simple policy",
+  "win/loss/unresolved": "paired 95% CI against the randomized fixed-budget mixture at matched calls; 'unresolved' is not equivalence"
+ },
+ "summary": {
+  "gold_support_sufficiency_clf_lex12": {
+   "cells_covered": 18,
+   "dominance": {
+    "I": 2,
+    "F": 7,
+    "D": 9
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 1,
+    "unresolved": 17
+   }
+  },
+  "gold_support_sufficiency_clf_same9": {
+   "cells_covered": 18,
+   "dominance": {
+    "I": 2,
+    "F": 8,
+    "D": 8
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 1,
+    "unresolved": 17
+   }
+  },
+  "guarded_value": {
+   "cells_covered": 18,
+   "dominance": {
+    "I": 2,
+    "F": 5,
+    "D": 11
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 2,
+    "unresolved": 16
+   }
+  },
+  "halt_nli": {
+   "cells_covered": 14,
+   "dominance": {
+    "I": 0,
+    "F": 2,
+    "D": 12
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 4,
+    "unresolved": 10
+   }
+  },
+  "halt_relevance": {
+   "cells_covered": 14,
+   "dominance": {
+    "I": 0,
+    "F": 1,
+    "D": 13
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 8,
+    "unresolved": 6
+   }
+  },
+  "semantic_guard": {
+   "cells_covered": 14,
+   "dominance": {
+    "I": 2,
+    "F": 1,
+    "D": 11
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 3,
+    "unresolved": 11
+   }
+  },
+  "stop_classifier": {
+   "cells_covered": 18,
+   "dominance": {
+    "I": 2,
+    "F": 15,
+    "D": 1
+   },
+   "vs_matched_mixture": {
+    "win": 3,
+    "loss": 1,
+    "unresolved": 14
+   }
+  },
+  "stoprag": {
+   "cells_covered": 14,
+   "dominance": {
+    "I": 1,
+    "F": 4,
+    "D": 9
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 3,
+    "unresolved": 11
+   }
+  },
+  "sufficiency_gate": {
+   "cells_covered": 18,
+   "dominance": {
+    "I": 0,
+    "F": 9,
+    "D": 9
+   },
+   "vs_matched_mixture": {
+    "win": 1,
+    "loss": 0,
+    "unresolved": 17
+   }
+  },
+  "tasr": {
+   "cells_covered": 12,
+   "dominance": {
+    "I": 1,
+    "F": 6,
+    "D": 5
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 0,
+    "unresolved": 12
+   }
+  },
+  "value_only": {
+   "cells_covered": 18,
+   "dominance": {
+    "I": 2,
+    "F": 14,
+    "D": 2
+   },
+   "vs_matched_mixture": {
+    "win": 0,
+    "loss": 2,
+    "unresolved": 16
+   }
+  }
+ },
+ "cells": [
+  {
+   "tag": "corpus_guarded_qwen3b",
+   "label": "Corpus (seed 7, q-sample A)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 9.0,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 18.25,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 24.5,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 25.0,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 24.5,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 24.25,
+     "calls": 5.725
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 25.0,
+     "calls": 6.35,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.325,
+      "delta_em": {
+       "mean_em_points": 0.163,
+       "ci95": [
+        -0.85,
+        1.169
+       ],
+       "lower95_one_sided": -0.681
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 24.75,
+     "calls": 6.75,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.125,
+      "delta_em": {
+       "mean_em_points": -0.188,
+       "ci95": [
+        -1.219,
+        0.844
+       ],
+       "lower95_one_sided": -1.031
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 24.75,
+     "calls": 6.68,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.16,
+      "delta_em": {
+       "mean_em_points": -0.17,
+       "ci95": [
+        -1.34,
+        0.96
+       ],
+       "lower95_one_sided": -1.17
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 24.0,
+     "calls": 6.03,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.485,
+      "delta_em": {
+       "mean_em_points": -0.758,
+       "ci95": [
+        -1.963,
+        0.379
+       ],
+       "lower95_one_sided": -1.758
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 21.0,
+     "calls": 4.715,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.1425,
+      "delta_em": {
+       "mean_em_points": -2.609,
+       "ci95": [
+        -4.539,
+        -0.787
+       ],
+       "lower95_one_sided": -4.217
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "halt_nli": {
+     "em": 24.0,
+     "calls": 9.655,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "fixed-4",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -2.0,
+        -0.25
+       ],
+       "lower95_one_sided": -2.0
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "halt_relevance": {
+     "em": 24.0,
+     "calls": 8.7,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -2.5,
+        0.5
+       ],
+       "lower95_one_sided": -2.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 24.5,
+     "calls": 5.105,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.9475,
+      "delta_em": {
+       "mean_em_points": -0.026,
+       "ci95": [
+        -1.184,
+        1.158
+       ],
+       "lower95_one_sided": -0.987
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 24.5,
+     "calls": 8.795,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -1.25,
+        0.0
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 24.75,
+     "calls": 6.345,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.3275,
+      "delta_em": {
+       "mean_em_points": -0.086,
+       "ci95": [
+        -1.582,
+        1.332
+       ],
+       "lower95_one_sided": -1.332
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 22.5,
+     "calls": 5.035,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.9825,
+      "delta_em": {
+       "mean_em_points": -2.009,
+       "ci95": [
+        -4.25,
+        0.219
+       ],
+       "lower95_one_sided": -3.982
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed11",
+   "label": "Corpus (seed 11, q-sample A)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 9.0,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 19.25,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 25.75,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 25.25,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 25.0,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 25.0,
+     "calls": 5.695
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 25.25,
+     "calls": 5.74,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -2.0,
+        1.0
+       ],
+       "lower95_one_sided": -1.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 25.25,
+     "calls": 6.505,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -2.5,
+        1.25
+       ],
+       "lower95_one_sided": -2.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 24.75,
+     "calls": 6.12,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -2.75,
+        0.75
+       ],
+       "lower95_one_sided": -2.5
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 22.75,
+     "calls": 5.46,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -3.0,
+       "ci95": [
+        -5.5,
+        -0.5
+       ],
+       "lower95_one_sided": -5.0
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "halt_nli": {
+     "em": 24.75,
+     "calls": 9.665,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "fixed-4",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -3.25,
+        1.25
+       ],
+       "lower95_one_sided": -3.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 24.5,
+     "calls": 8.69,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -3.5,
+        1.0
+       ],
+       "lower95_one_sided": -3.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 25.75,
+     "calls": 4.96,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.02,
+      "delta_em": {
+       "mean_em_points": 0.13,
+       "ci95": [
+        -0.6,
+        0.865
+       ],
+       "lower95_one_sided": -0.39
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 25.0,
+     "calls": 8.895,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.75,
+       "ci95": [
+        -3.0,
+        1.5
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 24.0,
+     "calls": 4.995,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.0025,
+      "delta_em": {
+       "mean_em_points": -1.734,
+       "ci95": [
+        -3.981,
+        0.51
+       ],
+       "lower95_one_sided": -3.728
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 23.25,
+     "calls": 5.255,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -2.5,
+       "ci95": [
+        -4.75,
+        -0.25
+       ],
+       "lower95_one_sided": -4.5
+      },
+      "interval_verdict": "loss"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed19",
+   "label": "Corpus (seed 19, q-sample A)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 9.0,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 18.75,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 24.25,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 26.0,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 26.0,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 25.5,
+     "calls": 5.715
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 25.25,
+     "calls": 6.375,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_3"
+      ],
+      "weight_first": 0.4864,
+      "delta_em": {
+       "mean_em_points": -0.507,
+       "ci95": [
+        -1.878,
+        0.844
+       ],
+       "lower95_one_sided": -1.635
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 25.5,
+     "calls": 6.675,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_3"
+      ],
+      "weight_first": 0.2529,
+      "delta_em": {
+       "mean_em_points": -0.374,
+       "ci95": [
+        -1.437,
+        0.687
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 25.75,
+     "calls": 7.185,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.25,
+       "ci95": [
+        -1.25,
+        0.5
+       ],
+       "lower95_one_sided": -1.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 24.75,
+     "calls": 7.49,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -3.0,
+        0.5
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 25.5,
+     "calls": 9.675,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "fixed-4",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -1.5,
+        0.5
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 25.25,
+     "calls": 8.725,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.75,
+       "ci95": [
+        -2.25,
+        0.75
+       ],
+       "lower95_one_sided": -2.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 24.0,
+     "calls": 4.94,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.03,
+      "delta_em": {
+       "mean_em_points": -0.085,
+       "ci95": [
+        -1.995,
+        1.702
+       ],
+       "lower95_one_sided": -1.6
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 26.0,
+     "calls": 8.88,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        -0.75,
+        0.75
+       ],
+       "lower95_one_sided": -0.5
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 25.0,
+     "calls": 6.47,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_3"
+      ],
+      "weight_first": 0.4125,
+      "delta_em": {
+       "mean_em_points": -0.794,
+       "ci95": [
+        -2.338,
+        0.662
+       ],
+       "lower95_one_sided": -2.044
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 25.0,
+     "calls": 6.57,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_3"
+      ],
+      "weight_first": 0.3346,
+      "delta_em": {
+       "mean_em_points": -0.833,
+       "ci95": [
+        -2.334,
+        0.585
+       ],
+       "lower95_one_sided": -2.083
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data17",
+   "label": "Corpus (seed 7, q-sample B)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 4,
+   "simple_family": {
+    "fixed-0": {
+     "em": 7.0,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 22.5,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 29.0,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 31.5,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 31.25,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 27.75,
+     "calls": 5.745
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 29.5,
+     "calls": 6.615,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.1925,
+      "delta_em": {
+       "mean_em_points": -1.519,
+       "ci95": [
+        -3.173,
+        -0.009
+       ],
+       "lower95_one_sided": -2.874
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "guarded_value": {
+     "em": 29.25,
+     "calls": 6.71,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.145,
+      "delta_em": {
+       "mean_em_points": -1.887,
+       "ci95": [
+        -3.561,
+        -0.391
+       ],
+       "lower95_one_sided": -3.242
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "semantic_guard": {
+     "em": 28.0,
+     "calls": 5.96,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.52,
+      "delta_em": {
+       "mean_em_points": -2.2,
+       "ci95": [
+        -3.83,
+        -0.69
+       ],
+       "lower95_one_sided": -3.57
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stoprag": {
+     "em": 31.25,
+     "calls": 9.0,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.25,
+       "ci95": [
+        -1.5,
+        1.0
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 30.25,
+     "calls": 9.595,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "fixed-4"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -3.0,
+        0.25
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 28.25,
+     "calls": 8.185,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -3.25,
+       "ci95": [
+        -5.5,
+        -1.0
+       ],
+       "lower95_one_sided": -5.25
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stop_classifier": {
+     "em": 27.75,
+     "calls": 4.965,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.0175,
+      "delta_em": {
+       "mean_em_points": -1.136,
+       "ci95": [
+        -2.636,
+        0.307
+       ],
+       "lower95_one_sided": -2.377
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 30.25,
+     "calls": 7.695,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -3.0,
+        0.25
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 30.5,
+     "calls": 7.06,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -2.5,
+        0.5
+       ],
+       "lower95_one_sided": -2.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 30.25,
+     "calls": 7.015,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -3.0,
+        0.25
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data23",
+   "label": "Corpus (seed 7, q-sample C)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 6.5,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 14.5,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 22.25,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 24.75,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 26.5,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 23.25,
+     "calls": 5.9
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 13.5,
+     "calls": 2.67,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_1"
+      ],
+      "weight_first": 0.165,
+      "delta_em": {
+       "mean_em_points": 0.32,
+       "ci95": [
+        -1.178,
+        1.774
+       ],
+       "lower95_one_sided": -0.927
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 23.25,
+     "calls": 5.9,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.55,
+      "delta_em": {
+       "mean_em_points": -0.125,
+       "ci95": [
+        -1.538,
+        1.325
+       ],
+       "lower95_one_sided": -1.313
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 25.5,
+     "calls": 7.435,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.7825,
+      "delta_em": {
+       "mean_em_points": 0.369,
+       "ci95": [
+        -0.74,
+        1.511
+       ],
+       "lower95_one_sided": -0.576
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 23.25,
+     "calls": 5.92,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.54,
+      "delta_em": {
+       "mean_em_points": -0.15,
+       "ci95": [
+        -1.555,
+        1.295
+       ],
+       "lower95_one_sided": -1.34
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 25.25,
+     "calls": 8.245,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.3775,
+      "delta_em": {
+       "mean_em_points": -0.589,
+       "ci95": [
+        -1.617,
+        0.378
+       ],
+       "lower95_one_sided": -1.434
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 22.0,
+     "calls": 7.545,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.7275,
+      "delta_em": {
+       "mean_em_points": -3.227,
+       "ci95": [
+        -5.409,
+        -1.181
+       ],
+       "lower95_one_sided": -5.022
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "halt_relevance": {
+     "em": 23.75,
+     "calls": 8.66,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.17,
+      "delta_em": {
+       "mean_em_points": -2.453,
+       "ci95": [
+        -4.245,
+        -0.787
+       ],
+       "lower95_one_sided": -3.953
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stop_classifier": {
+     "em": 18.5,
+     "calls": 3.91,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.545,
+      "delta_em": {
+       "mean_em_points": 0.474,
+       "ci95": [
+        -1.163,
+        2.156
+       ],
+       "lower95_one_sided": -0.935
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 26.5,
+     "calls": 8.835,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.0825,
+      "delta_em": {
+       "mean_em_points": 0.144,
+       "ci95": [
+        0.041,
+        0.268
+       ],
+       "lower95_one_sided": 0.062
+      },
+      "interval_verdict": "win"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 26.0,
+     "calls": 8.44,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.28,
+      "delta_em": {
+       "mean_em_points": -0.01,
+       "ci95": [
+        -0.62,
+        0.52
+       ],
+       "lower95_one_sided": -0.51
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 26.0,
+     "calls": 8.37,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.315,
+      "delta_em": {
+       "mean_em_points": 0.051,
+       "ci95": [
+        -0.541,
+        0.616
+       ],
+       "lower95_one_sided": -0.449
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data29",
+   "label": "Corpus (seed 7, q-sample D)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 4,
+   "simple_family": {
+    "fixed-0": {
+     "em": 6.25,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 19.5,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 25.5,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 26.5,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 25.5,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 26.5,
+     "calls": 5.885
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 26.25,
+     "calls": 5.415,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "answer_repeat"
+      ],
+      "weight_first": 0.5311,
+      "delta_em": {
+       "mean_em_points": 0.281,
+       "ci95": [
+        -0.922,
+        1.531
+       ],
+       "lower95_one_sided": -0.703
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 27.0,
+     "calls": 6.36,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.5,
+       "ci95": [
+        -0.5,
+        1.5
+       ],
+       "lower95_one_sided": -0.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 26.75,
+     "calls": 7.515,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.25,
+       "ci95": [
+        -1.0,
+        1.5
+       ],
+       "lower95_one_sided": -0.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 27.0,
+     "calls": 6.405,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.5,
+       "ci95": [
+        0.0,
+        1.25
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 25.5,
+     "calls": 8.415,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -2.75,
+        0.75
+       ],
+       "lower95_one_sided": -2.5
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 25.25,
+     "calls": 9.23,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "fixed-4",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -3.25,
+        0.5
+       ],
+       "lower95_one_sided": -3.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 24.0,
+     "calls": 8.665,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -2.5,
+       "ci95": [
+        -5.0,
+        -0.25
+       ],
+       "lower95_one_sided": -4.5
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stop_classifier": {
+     "em": 25.5,
+     "calls": 4.965,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.0175,
+      "delta_em": {
+       "mean_em_points": 0.105,
+       "ci95": [
+        0.053,
+        0.162
+       ],
+       "lower95_one_sided": 0.061
+      },
+      "interval_verdict": "win"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 26.0,
+     "calls": 8.635,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -2.0,
+        1.0
+       ],
+       "lower95_one_sided": -1.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 26.0,
+     "calls": 8.88,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -2.25,
+        1.25
+       ],
+       "lower95_one_sided": -2.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 25.75,
+     "calls": 8.975,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "answer_repeat"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.75,
+       "ci95": [
+        -2.5,
+        1.0
+       ],
+       "lower95_one_sided": -2.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data31",
+   "label": "Corpus (seed 7, q-sample E)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 4,
+   "simple_family": {
+    "fixed-0": {
+     "em": 6.75,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 25.75,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 31.5,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 32.5,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 34.25,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 32.0,
+     "calls": 5.71
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 33.25,
+     "calls": 7.51,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.4529,
+      "delta_em": {
+       "mean_em_points": 0.019,
+       "ci95": [
+        -1.458,
+        1.425
+       ],
+       "lower95_one_sided": -1.207
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 34.25,
+     "calls": 7.755,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.3784,
+      "delta_em": {
+       "mean_em_points": 0.851,
+       "ci95": [
+        -0.034,
+        1.797
+       ],
+       "lower95_one_sided": 0.101
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 33.75,
+     "calls": 7.495,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.4574,
+      "delta_em": {
+       "mean_em_points": 0.529,
+       "ci95": [
+        -0.585,
+        1.622
+       ],
+       "lower95_one_sided": -0.378
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 34.0,
+     "calls": 7.435,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.4757,
+      "delta_em": {
+       "mean_em_points": 0.82,
+       "ci95": [
+        -0.381,
+        2.009
+       ],
+       "lower95_one_sided": -0.155
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 31.5,
+     "calls": 6.44,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.7781,
+      "delta_em": {
+       "mean_em_points": -0.999,
+       "ci95": [
+        -3.166,
+        1.084
+       ],
+       "lower95_one_sided": -2.805
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 33.0,
+     "calls": 8.075,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.2812,
+      "delta_em": {
+       "mean_em_points": -0.617,
+       "ci95": [
+        -2.297,
+        0.984
+       ],
+       "lower95_one_sided": -2.008
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 28.5,
+     "calls": 6.33,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.8116,
+      "delta_em": {
+       "mean_em_points": -3.924,
+       "ci95": [
+        -6.674,
+        -1.315
+       ],
+       "lower95_one_sided": -6.188
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stop_classifier": {
+     "em": 27.25,
+     "calls": 4.0,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.5,
+      "delta_em": {
+       "mean_em_points": -1.375,
+       "ci95": [
+        -2.875,
+        0.125
+       ],
+       "lower95_one_sided": -2.625
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 34.0,
+     "calls": 8.67,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.1003,
+      "delta_em": {
+       "mean_em_points": -0.024,
+       "ci95": [
+        -0.85,
+        0.751
+       ],
+       "lower95_one_sided": -0.724
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 34.25,
+     "calls": 8.995,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.0015,
+      "delta_em": {
+       "mean_em_points": 0.003,
+       "ci95": [
+        0.0,
+        0.007
+       ],
+       "lower95_one_sided": 0.001
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 34.0,
+     "calls": 8.805,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.0593,
+      "delta_em": {
+       "mean_em_points": -0.117,
+       "ci95": [
+        -0.941,
+        0.648
+       ],
+       "lower95_one_sided": -0.822
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data17",
+   "label": "2Wiki corpus (seed 7, draw 1)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 8.75,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 18.0,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 25.0,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 24.25,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 23.25,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 23.5,
+     "calls": 5.495
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 20.25,
+     "calls": 3.11,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.945,
+      "delta_em": {
+       "mean_em_points": 1.865,
+       "ci95": [
+        -0.192,
+        4.016
+       ],
+       "lower95_one_sided": 0.115
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 23.5,
+     "calls": 5.495,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.5,
+       "ci95": [
+        -3.25,
+        0.0
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 24.0,
+     "calls": 5.885,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -2.5,
+        0.25
+       ],
+       "lower95_one_sided": -2.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 23.5,
+     "calls": 5.525,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.5,
+       "ci95": [
+        -3.25,
+        0.0
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 23.25,
+     "calls": 8.76,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.75,
+       "ci95": [
+        -4.0,
+        0.5
+       ],
+       "lower95_one_sided": -3.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 23.0,
+     "calls": 6.445,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -2.0,
+       "ci95": [
+        -4.0,
+        0.0
+       ],
+       "lower95_one_sided": -3.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 20.5,
+     "calls": 6.37,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -4.5,
+       "ci95": [
+        -7.5,
+        -1.5
+       ],
+       "lower95_one_sided": -7.0
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stop_classifier": {
+     "em": 23.5,
+     "calls": 4.11,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.445,
+      "delta_em": {
+       "mean_em_points": 1.615,
+       "ci95": [
+        0.004,
+        3.198
+       ],
+       "lower95_one_sided": 0.28
+      },
+      "interval_verdict": "win"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 23.5,
+     "calls": 6.785,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.5,
+       "ci95": [
+        -3.0,
+        0.0
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 24.25,
+     "calls": 5.595,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.75,
+       "ci95": [
+        -2.0,
+        0.25
+       ],
+       "lower95_one_sided": -1.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 24.25,
+     "calls": 5.585,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.75,
+       "ci95": [
+        -2.0,
+        0.25
+       ],
+       "lower95_one_sided": -1.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data23",
+   "label": "2Wiki corpus (seed 7, draw 2)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 4,
+   "simple_family": {
+    "fixed-0": {
+     "em": 6.25,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 18.5,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 24.0,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 25.5,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 25.25,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 23.25,
+     "calls": 5.51
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 19.0,
+     "calls": 3.835,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.5825,
+      "delta_em": {
+       "mean_em_points": -1.796,
+       "ci95": [
+        -3.338,
+        -0.337
+       ],
+       "lower95_one_sided": -3.087
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "guarded_value": {
+     "em": 23.5,
+     "calls": 5.59,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.705,
+      "delta_em": {
+       "mean_em_points": -0.942,
+       "ci95": [
+        -2.369,
+        0.381
+       ],
+       "lower95_one_sided": -2.147
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 25.5,
+     "calls": 7.365,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        -1.5,
+        1.25
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 24.0,
+     "calls": 7.305,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.5,
+       "ci95": [
+        -2.75,
+        -0.5
+       ],
+       "lower95_one_sided": -2.5
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stoprag": {
+     "em": 24.25,
+     "calls": 8.205,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -3.25,
+        0.5
+       ],
+       "lower95_one_sided": -3.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 24.5,
+     "calls": 9.68,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "fixed-4"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -2.75,
+        0.5
+       ],
+       "lower95_one_sided": -2.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 19.75,
+     "calls": 7.505,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -5.75,
+       "ci95": [
+        -8.5,
+        -3.25
+       ],
+       "lower95_one_sided": -8.0
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stop_classifier": {
+     "em": 19.25,
+     "calls": 4.145,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.4275,
+      "delta_em": {
+       "mean_em_points": -2.399,
+       "ci95": [
+        -4.01,
+        -0.862
+       ],
+       "lower95_one_sided": -3.756
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 25.25,
+     "calls": 9.0,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.25,
+       "ci95": [
+        -1.5,
+        1.0
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 24.25,
+     "calls": 7.12,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -2.75,
+        0.0
+       ],
+       "lower95_one_sided": -2.5
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 23.5,
+     "calls": 5.84,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.58,
+      "delta_em": {
+       "mean_em_points": -1.13,
+       "ci95": [
+        -2.485,
+        0.145
+       ],
+       "lower95_one_sided": -2.26
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data29",
+   "label": "2Wiki corpus (seed 7, draw 3)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 2,
+   "simple_family": {
+    "fixed-0": {
+     "em": 6.0,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 23.0,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 26.25,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 25.5,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 25.5,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 25.25,
+     "calls": 5.61
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 24.25,
+     "calls": 3.115,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.9425,
+      "delta_em": {
+       "mean_em_points": 1.063,
+       "ci95": [
+        -0.629,
+        2.79
+       ],
+       "lower95_one_sided": -0.365
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 25.75,
+     "calls": 5.66,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -2.0,
+        1.0
+       ],
+       "lower95_one_sided": -1.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 25.5,
+     "calls": 7.695,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.75,
+       "ci95": [
+        -3.0,
+        1.5
+       ],
+       "lower95_one_sided": -2.75
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 25.5,
+     "calls": 5.655,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.75,
+       "ci95": [
+        -2.5,
+        0.75
+       ],
+       "lower95_one_sided": -2.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 26.75,
+     "calls": 7.78,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.5,
+       "ci95": [
+        -1.75,
+        2.75
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 27.0,
+     "calls": 7.23,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.75,
+       "ci95": [
+        -1.5,
+        3.25
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 22.5,
+     "calls": 7.64,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-1",
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -3.75,
+       "ci95": [
+        -6.75,
+        -0.75
+       ],
+       "lower95_one_sided": -6.25
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stop_classifier": {
+     "em": 25.25,
+     "calls": 3.785,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.6075,
+      "delta_em": {
+       "mean_em_points": 0.974,
+       "ci95": [
+        -0.794,
+        2.787
+       ],
+       "lower95_one_sided": -0.526
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 25.75,
+     "calls": 8.745,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -2.75,
+        1.75
+       ],
+       "lower95_one_sided": -2.5
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 26.5,
+     "calls": 5.31,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.25,
+       "ci95": [
+        -1.25,
+        1.75
+       ],
+       "lower95_one_sided": -1.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 26.75,
+     "calls": 5.37,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.5,
+       "ci95": [
+        -0.75,
+        2.0
+       ],
+       "lower95_one_sided": -0.5
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data17",
+   "label": "MuSiQue corpus (seed 7, draw 1)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 0.5,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 3.25,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 7.25,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 7.25,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 9.25,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 7.5,
+     "calls": 6.53
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 3.75,
+     "calls": 3.025,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_2"
+      ],
+      "weight_first": 0.4938,
+      "delta_em": {
+       "mean_em_points": -0.167,
+       "ci95": [
+        -1.8,
+        1.469
+       ],
+       "lower95_one_sided": -1.544
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 7.5,
+     "calls": 6.54,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.615,
+      "delta_em": {
+       "mean_em_points": -0.52,
+       "ci95": [
+        -1.77,
+        0.729
+       ],
+       "lower95_one_sided": -1.577
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 8.5,
+     "calls": 8.605,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.0987,
+      "delta_em": {
+       "mean_em_points": -0.553,
+       "ci95": [
+        -1.429,
+        0.145
+       ],
+       "lower95_one_sided": -1.278
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 7.5,
+     "calls": 6.53,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.6175,
+      "delta_em": {
+       "mean_em_points": -0.515,
+       "ci95": [
+        -1.765,
+        0.735
+       ],
+       "lower95_one_sided": -1.574
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 8.75,
+     "calls": 8.395,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.1513,
+      "delta_em": {
+       "mean_em_points": -0.197,
+       "ci95": [
+        -1.061,
+        0.454
+       ],
+       "lower95_one_sided": -0.887
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 8.0,
+     "calls": 9.455,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-4"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_4",
+       "fixed_4"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.25,
+       "ci95": [
+        -2.5,
+        -0.25
+       ],
+       "lower95_one_sided": -2.25
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "halt_relevance": {
+     "em": 8.5,
+     "calls": 9.05,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-4"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_4",
+       "fixed_4"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.75,
+       "ci95": [
+        -1.75,
+        0.0
+       ],
+       "lower95_one_sided": -1.5
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 5.25,
+     "calls": 3.41,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_2"
+      ],
+      "weight_first": 0.3975,
+      "delta_em": {
+       "mean_em_points": 0.683,
+       "ci95": [
+        -0.823,
+        2.231
+       ],
+       "lower95_one_sided": -0.573
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 9.25,
+     "calls": 9.0,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        0.0,
+        0.0
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 8.75,
+     "calls": 7.055,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.4863,
+      "delta_em": {
+       "mean_em_points": 0.473,
+       "ci95": [
+        -0.534,
+        1.479
+       ],
+       "lower95_one_sided": -0.399
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 8.75,
+     "calls": 7.03,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.4925,
+      "delta_em": {
+       "mean_em_points": 0.485,
+       "ci95": [
+        -0.519,
+        1.489
+       ],
+       "lower95_one_sided": -0.388
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data23",
+   "label": "MuSiQue corpus (seed 7, draw 2)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 4,
+   "simple_family": {
+    "fixed-0": {
+     "em": 0.25,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 6.0,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 10.0,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 9.25,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 10.25,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 9.25,
+     "calls": 6.45
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 2.5,
+     "calls": 1.44,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_1"
+      ],
+      "weight_first": 0.78,
+      "delta_em": {
+       "mean_em_points": 0.985,
+       "ci95": [
+        -0.155,
+        2.266
+       ],
+       "lower95_one_sided": 0.015
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 9.25,
+     "calls": 6.495,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.6262,
+      "delta_em": {
+       "mean_em_points": -0.843,
+       "ci95": [
+        -1.907,
+        0.126
+       ],
+       "lower95_one_sided": -1.72
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 9.75,
+     "calls": 8.785,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.0537,
+      "delta_em": {
+       "mean_em_points": -0.487,
+       "ci95": [
+        -1.223,
+        0.027
+       ],
+       "lower95_one_sided": -1.143
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 9.25,
+     "calls": 6.98,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.505,
+      "delta_em": {
+       "mean_em_points": -0.874,
+       "ci95": [
+        -1.752,
+        0.0
+       ],
+       "lower95_one_sided": -1.624
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 10.25,
+     "calls": 8.79,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.0525,
+      "delta_em": {
+       "mean_em_points": 0.013,
+       "ci95": [
+        -0.079,
+        0.105
+       ],
+       "lower95_one_sided": -0.066
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 9.75,
+     "calls": 9.93,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-4"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_4",
+       "fixed_4"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -0.5,
+       "ci95": [
+        -1.25,
+        0.0
+       ],
+       "lower95_one_sided": -1.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 10.5,
+     "calls": 9.755,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_4",
+       "fixed_4"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.25,
+       "ci95": [
+        0.0,
+        0.75
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 9.75,
+     "calls": 4.945,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.0275,
+      "delta_em": {
+       "mean_em_points": -0.14,
+       "ci95": [
+        -0.668,
+        0.151
+       ],
+       "lower95_one_sided": -0.633
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 10.25,
+     "calls": 9.0,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        0.0,
+        0.0
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 10.25,
+     "calls": 8.83,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.0425,
+      "delta_em": {
+       "mean_em_points": 0.011,
+       "ci95": [
+        -0.064,
+        0.085
+       ],
+       "lower95_one_sided": -0.053
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 10.25,
+     "calls": 8.79,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.0525,
+      "delta_em": {
+       "mean_em_points": 0.013,
+       "ci95": [
+        -0.079,
+        0.105
+       ],
+       "lower95_one_sided": -0.066
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data29",
+   "label": "MuSiQue corpus (seed 7, draw 3)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 0.25,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 6.0,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 10.75,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 10.75,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 12.0,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 10.75,
+     "calls": 6.425
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 0.25,
+     "calls": 1.0,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_0"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        0.0,
+        0.0
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 10.75,
+     "calls": 6.425,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.6438,
+      "delta_em": {
+       "mean_em_points": -0.445,
+       "ci95": [
+        -1.552,
+        0.609
+       ],
+       "lower95_one_sided": -1.356
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 12.0,
+     "calls": 8.88,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.03,
+      "delta_em": {
+       "mean_em_points": 0.037,
+       "ci95": [
+        -0.007,
+        0.082
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 10.75,
+     "calls": 6.51,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.6225,
+      "delta_em": {
+       "mean_em_points": -0.472,
+       "ci95": [
+        -1.566,
+        0.556
+       ],
+       "lower95_one_sided": -1.377
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stoprag": {
+     "em": 8.0,
+     "calls": 5.325,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.9187,
+      "delta_em": {
+       "mean_em_points": -2.852,
+       "ci95": [
+        -5.081,
+        -0.683
+       ],
+       "lower95_one_sided": -4.77
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "halt_nli": {
+     "em": 12.0,
+     "calls": 9.905,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-4"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_4",
+       "fixed_4"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        0.0,
+        0.0
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_relevance": {
+     "em": 12.0,
+     "calls": 9.745,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-4"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_4",
+       "fixed_4"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        0.0,
+        0.0
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 6.5,
+     "calls": 3.08,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.96,
+      "delta_em": {
+       "mean_em_points": 0.31,
+       "ci95": [
+        -0.21,
+        1.08
+       ],
+       "lower95_one_sided": -0.19
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 12.0,
+     "calls": 9.0,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        0.0,
+        0.0
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 12.0,
+     "calls": 8.54,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.115,
+      "delta_em": {
+       "mean_em_points": 0.144,
+       "ci95": [
+        -0.029,
+        0.316
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 12.0,
+     "calls": 8.29,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_4"
+      ],
+      "weight_first": 0.1775,
+      "delta_em": {
+       "mean_em_points": 0.222,
+       "ci95": [
+        -0.044,
+        0.488
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "wiki25m_guarded_qwen3b",
+   "label": "Wikipedia 25M hybrid",
+   "n_test": 400,
+   "training_selected_fixed_budget": 2,
+   "simple_family": {
+    "fixed-0": {
+     "em": 9.0,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 17.75,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 23.0,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 21.5,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 21.5,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 21.25,
+     "calls": 5.875
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 18.0,
+     "calls": 3.135,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_1",
+       "fixed_2"
+      ],
+      "weight_first": 0.9325,
+      "delta_em": {
+       "mean_em_points": -0.104,
+       "ci95": [
+        -0.456,
+        0.463
+       ],
+       "lower95_one_sided": -0.439
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 21.25,
+     "calls": 5.895,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.75,
+       "ci95": [
+        -3.25,
+        -0.5
+       ],
+       "lower95_one_sided": -3.0
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "tasr": {
+     "em": 21.25,
+     "calls": 8.08,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.75,
+       "ci95": [
+        -3.75,
+        0.25
+       ],
+       "lower95_one_sided": -3.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "semantic_guard": {
+     "em": 21.25,
+     "calls": 5.935,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.75,
+       "ci95": [
+        -3.25,
+        -0.5
+       ],
+       "lower95_one_sided": -3.0
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stoprag": {
+     "em": 21.5,
+     "calls": 8.55,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.5,
+       "ci95": [
+        -3.5,
+        0.5
+       ],
+       "lower95_one_sided": -3.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "halt_nli": {
+     "em": 20.75,
+     "calls": 6.495,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -2.25,
+       "ci95": [
+        -4.0,
+        -0.5
+       ],
+       "lower95_one_sided": -3.75
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "halt_relevance": {
+     "em": 20.5,
+     "calls": 6.72,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -2.5,
+       "ci95": [
+        -4.75,
+        -0.25
+       ],
+       "lower95_one_sided": -4.25
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "stop_classifier": {
+     "em": 17.75,
+     "calls": 3.0,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_1"
+      ],
+      "weight_first": 0.0,
+      "delta_em": {
+       "mean_em_points": 0.0,
+       "ci95": [
+        0.0,
+        0.0
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 21.5,
+     "calls": 8.97,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "fixed-3"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.5,
+       "ci95": [
+        -3.506,
+        0.5
+       ],
+       "lower95_one_sided": -3.25
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 21.0,
+     "calls": 6.52,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -2.0,
+       "ci95": [
+        -3.5,
+        -0.5
+       ],
+       "lower95_one_sided": -3.25
+      },
+      "interval_verdict": "loss"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 22.0,
+     "calls": 8.03,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_2"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": -1.0,
+       "ci95": [
+        -2.75,
+        0.75
+       ],
+       "lower95_one_sided": -2.5
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_llama3b_data17",
+   "label": "Corpus / Llama-3.2-3B (q-sample B)",
+   "n_test": 400,
+   "training_selected_fixed_budget": 4,
+   "simple_family": {
+    "fixed-0": {
+     "em": 16.5,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 27.75,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 36.25,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 38.25,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 39.0,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 34.75,
+     "calls": 5.325
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 38.75,
+     "calls": 7.59,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.705,
+      "delta_em": {
+       "mean_em_points": 0.279,
+       "ci95": [
+        -1.176,
+        1.763
+       ],
+       "lower95_one_sided": -0.898
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 38.75,
+     "calls": 7.605,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.6975,
+      "delta_em": {
+       "mean_em_points": 0.273,
+       "ci95": [
+        -1.174,
+        1.744
+       ],
+       "lower95_one_sided": -0.901
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "tasr": {
+     "em": 37.5,
+     "calls": 6.76,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.12,
+      "delta_em": {
+       "mean_em_points": -0.51,
+       "ci95": [
+        -2.23,
+        1.13
+       ],
+       "lower95_one_sided": -1.9
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 36.75,
+     "calls": 5.225,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.8875,
+      "delta_em": {
+       "mean_em_points": 0.275,
+       "ci95": [
+        -1.975,
+        2.553
+       ],
+       "lower95_one_sided": -1.559
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 38.75,
+     "calls": 8.445,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.2775,
+      "delta_em": {
+       "mean_em_points": -0.042,
+       "ci95": [
+        -0.958,
+        0.874
+       ],
+       "lower95_one_sided": -0.792
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 38.5,
+     "calls": 7.985,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.5075,
+      "delta_em": {
+       "mean_em_points": -0.119,
+       "ci95": [
+        -1.369,
+        1.127
+       ],
+       "lower95_one_sided": -1.127
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 39.25,
+     "calls": 8.455,
+     "dominance_verdict": "I",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.2725,
+      "delta_em": {
+       "mean_em_points": 0.454,
+       "ci95": [
+        -0.454,
+        1.363
+       ],
+       "lower95_one_sided": -0.296
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data17",
+   "label": "Corpus / Haiku 4.5 (q-sample B)",
+   "n_test": 200,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 27.5,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 29.0,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 46.5,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 49.5,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 50.0,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 49.5,
+     "calls": 5.55
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 36.0,
+     "calls": 3.25,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "answer_repeat"
+      ],
+      "weight_first": 0.5055,
+      "delta_em": {
+       "mean_em_points": -2.379,
+       "ci95": [
+        -6.637,
+        1.846
+       ],
+       "lower95_one_sided": -5.89
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 49.5,
+     "calls": 5.59,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.9884,
+      "delta_em": {
+       "mean_em_points": -0.006,
+       "ci95": [
+        -0.035,
+        0.023
+       ],
+       "lower95_one_sided": -0.029
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 48.0,
+     "calls": 4.7,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "answer_repeat"
+      ],
+      "weight_first": 0.1868,
+      "delta_em": {
+       "mean_em_points": 2.61,
+       "ci95": [
+        0.236,
+        4.857
+       ],
+       "lower95_one_sided": 0.643
+      },
+      "interval_verdict": "win"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 50.5,
+     "calls": 7.6,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.4058,
+      "delta_em": {
+       "mean_em_points": 0.703,
+       "ci95": [
+        -0.5,
+        2.014
+       ],
+       "lower95_one_sided": -0.297
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 49.5,
+     "calls": 7.48,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.4406,
+      "delta_em": {
+       "mean_em_points": -0.28,
+       "ci95": [
+        -2.381,
+        1.661
+       ],
+       "lower95_one_sided": -2.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 49.5,
+     "calls": 7.55,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-3",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "answer_repeat",
+       "fixed_4"
+      ],
+      "weight_first": 0.4203,
+      "delta_em": {
+       "mean_em_points": -0.29,
+       "ci95": [
+        -2.341,
+        1.63
+       ],
+       "lower95_one_sided": -2.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data23",
+   "label": "Corpus / Haiku 4.5 (q-sample C)",
+   "n_test": 200,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 24.0,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 27.0,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 44.5,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 48.5,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 50.0,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 45.0,
+     "calls": 5.53
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 49.5,
+     "calls": 7.29,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.855,
+      "delta_em": {
+       "mean_em_points": 0.783,
+       "ci95": [
+        -1.0,
+        2.565
+       ],
+       "lower95_one_sided": -0.573
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 49.5,
+     "calls": 7.32,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.84,
+      "delta_em": {
+       "mean_em_points": 0.76,
+       "ci95": [
+        -1.0,
+        2.52
+       ],
+       "lower95_one_sided": -0.58
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 39.5,
+     "calls": 4.06,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_2"
+      ],
+      "weight_first": 0.235,
+      "delta_em": {
+       "mean_em_points": -0.182,
+       "ci95": [
+        -3.828,
+        3.258
+       ],
+       "lower95_one_sided": -3.182
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 50.0,
+     "calls": 8.42,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_4"
+      ],
+      "weight_first": 0.29,
+      "delta_em": {
+       "mean_em_points": 0.435,
+       "ci95": [
+        0.0,
+        1.015
+       ],
+       "lower95_one_sided": 0.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 47.5,
+     "calls": 6.4,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.3,
+      "delta_em": {
+       "mean_em_points": 0.2,
+       "ci95": [
+        -1.5,
+        1.9
+       ],
+       "lower95_one_sided": -1.2
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 47.5,
+     "calls": 6.43,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.285,
+      "delta_em": {
+       "mean_em_points": 0.14,
+       "ci95": [
+        -1.575,
+        1.855
+       ],
+       "lower95_one_sided": -1.29
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data29",
+   "label": "Corpus / Haiku 4.5 (q-sample D)",
+   "n_test": 200,
+   "training_selected_fixed_budget": 3,
+   "simple_family": {
+    "fixed-0": {
+     "em": 18.0,
+     "calls": 1.0
+    },
+    "fixed-1": {
+     "em": 29.0,
+     "calls": 3.0
+    },
+    "fixed-2": {
+     "em": 45.0,
+     "calls": 5.0
+    },
+    "fixed-3": {
+     "em": 46.0,
+     "calls": 7.0
+    },
+    "fixed-4": {
+     "em": 46.0,
+     "calls": 9.0
+    },
+    "repetition": {
+     "em": 45.0,
+     "calls": 5.63
+    }
+   },
+   "policies": {
+    "value_only": {
+     "em": 41.0,
+     "calls": 4.36,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_2"
+      ],
+      "weight_first": 0.16,
+      "delta_em": {
+       "mean_em_points": 0.32,
+       "ci95": [
+        -3.08,
+        3.5
+       ],
+       "lower95_one_sided": -2.46
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "guarded_value": {
+     "em": 45.0,
+     "calls": 5.94,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.53,
+      "delta_em": {
+       "mean_em_points": -0.47,
+       "ci95": [
+        -2.41,
+        1.06
+       ],
+       "lower95_one_sided": -1.97
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "stop_classifier": {
+     "em": 43.5,
+     "calls": 4.73,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_0",
+       "fixed_2"
+      ],
+      "weight_first": 0.0675,
+      "delta_em": {
+       "mean_em_points": 0.322,
+       "ci95": [
+        -1.543,
+        1.795
+       ],
+       "lower95_one_sided": -1.178
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "sufficiency_gate": {
+     "em": 46.5,
+     "calls": 7.33,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_3",
+       "fixed_3"
+      ],
+      "weight_first": 1.0,
+      "delta_em": {
+       "mean_em_points": 0.5,
+       "ci95": [
+        -1.0,
+        2.0
+       ],
+       "lower95_one_sided": -1.0
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_same9": {
+     "em": 45.0,
+     "calls": 5.79,
+     "dominance_verdict": "D",
+     "dominated_by": [
+      "fixed-2",
+      "repetition"
+     ],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.605,
+      "delta_em": {
+       "mean_em_points": -0.395,
+       "ci95": [
+        -1.79,
+        0.802
+       ],
+       "lower95_one_sided": -1.593
+      },
+      "interval_verdict": "unresolved"
+     }
+    },
+    "gold_support_sufficiency_clf_lex12": {
+     "em": 45.5,
+     "calls": 6.02,
+     "dominance_verdict": "F",
+     "dominated_by": [],
+     "vs_matched_mixture_on_calls": {
+      "mixture_of": [
+       "fixed_2",
+       "fixed_3"
+      ],
+      "weight_first": 0.49,
+      "delta_em": {
+       "mean_em_points": -0.01,
+       "ci95": [
+        -1.02,
+        1.0
+       ],
+       "lower95_one_sided": -0.775
+      },
+      "interval_verdict": "unresolved"
+     }
+    }
+   }
+  }
+ ]
+}

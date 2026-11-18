@@ -1,0 +1,6221 @@
+{
+ "what": "ECE / Brier / reliability bins for the error head and risk--coverage for the FBG value head, offline replay",
+ "note": "test-prefix calibration is an EVALUATION; no threshold, policy or cell was selected on it",
+ "cells": [
+  {
+   "tag": "corpus_guarded_qwen3b",
+   "label": "Corpus (seed 7, q-sample A)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0454,
+     "adaptive_ece_15_equal_count": 0.0762,
+     "brier": 0.1649,
+     "base_error_rate": 0.7889,
+     "reliability_bins": [
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 3,
+       "mean_prediction": 0.4516,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 5,
+       "mean_prediction": 0.511,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 28,
+       "mean_prediction": 0.572,
+       "observed_rate": 0.7143
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 58,
+       "mean_prediction": 0.6393,
+       "observed_rate": 0.6379
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 58,
+       "mean_prediction": 0.6956,
+       "observed_rate": 0.6724
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 60,
+       "mean_prediction": 0.7643,
+       "observed_rate": 0.7833
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 56,
+       "mean_prediction": 0.8386,
+       "observed_rate": 0.8214
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 132,
+       "mean_prediction": 0.9034,
+       "observed_rate": 0.8636
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 50,
+       "mean_prediction": 0.9518,
+       "observed_rate": 0.88
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0413,
+     "adaptive_ece_15_equal_count": 0.0555,
+     "brier": 0.156,
+     "base_error_rate": 0.7975,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 15,
+       "mean_prediction": 0.5149,
+       "observed_rate": 0.5333
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 137,
+       "mean_prediction": 0.578,
+       "observed_rate": 0.708
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 337,
+       "mean_prediction": 0.6377,
+       "observed_rate": 0.7359
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 353,
+       "mean_prediction": 0.6995,
+       "observed_rate": 0.6997
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 211,
+       "mean_prediction": 0.7657,
+       "observed_rate": 0.7488
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 256,
+       "mean_prediction": 0.8381,
+       "observed_rate": 0.8281
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 340,
+       "mean_prediction": 0.9003,
+       "observed_rate": 0.8471
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 351,
+       "mean_prediction": 0.9397,
+       "observed_rate": 0.9601
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 24.75,
+    "aurc_fbg_value_head": 0.7495,
+    "aurc_error_head": 0.7492,
+    "aurc_random_ordering_mean_of_20": 0.7574,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.95
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.7833
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.725
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.69
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.7083
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7071
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7125
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7333
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.735
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7409
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7375
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7462
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7393
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7467
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7438
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7471
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7472
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7447
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7525
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.825
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.7375
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.7583
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7714
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7562
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7333
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.725
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7227
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7125
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7115
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7179
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.72
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7219
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7324
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7472
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7395
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7525
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed11",
+   "label": "Corpus (seed 11, q-sample A)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.052,
+     "adaptive_ece_15_equal_count": 0.0677,
+     "brier": 0.153,
+     "base_error_rate": 0.8067,
+     "reliability_bins": [
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 3,
+       "mean_prediction": 0.455,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 4,
+       "mean_prediction": 0.5129,
+       "observed_rate": 0.25
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 14,
+       "mean_prediction": 0.5746,
+       "observed_rate": 0.7143
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 30,
+       "mean_prediction": 0.6436,
+       "observed_rate": 0.8
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 73,
+       "mean_prediction": 0.7009,
+       "observed_rate": 0.7534
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 82,
+       "mean_prediction": 0.7618,
+       "observed_rate": 0.7317
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 55,
+       "mean_prediction": 0.8362,
+       "observed_rate": 0.7818
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 124,
+       "mean_prediction": 0.9012,
+       "observed_rate": 0.879
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 65,
+       "mean_prediction": 0.9539,
+       "observed_rate": 0.9077
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0307,
+     "adaptive_ece_15_equal_count": 0.0372,
+     "brier": 0.1553,
+     "base_error_rate": 0.7915,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 3,
+       "mean_prediction": 0.4379,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 14,
+       "mean_prediction": 0.5039,
+       "observed_rate": 0.7143
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 40,
+       "mean_prediction": 0.5689,
+       "observed_rate": 0.775
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 168,
+       "mean_prediction": 0.6414,
+       "observed_rate": 0.6012
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 435,
+       "mean_prediction": 0.704,
+       "observed_rate": 0.7126
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 379,
+       "mean_prediction": 0.7641,
+       "observed_rate": 0.7309
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 226,
+       "mean_prediction": 0.8405,
+       "observed_rate": 0.7743
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 387,
+       "mean_prediction": 0.903,
+       "observed_rate": 0.8863
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 348,
+       "mean_prediction": 0.9455,
+       "observed_rate": 0.9598
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 25.25,
+    "aurc_fbg_value_head": 0.7372,
+    "aurc_error_head": 0.7257,
+    "aurc_random_ordering_mean_of_20": 0.7519,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.74
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.7167
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7357
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7562
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.745
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7458
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7462
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7607
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7433
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7438
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7353
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7417
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7368
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7475
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.7125
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.6833
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7188
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7278
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.72
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7136
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7083
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7071
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7133
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7156
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7235
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7361
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7368
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7475
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed19",
+   "label": "Corpus (seed 19, q-sample A)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0495,
+     "adaptive_ece_15_equal_count": 0.0568,
+     "brier": 0.1611,
+     "base_error_rate": 0.7933,
+     "reliability_bins": [
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 2,
+       "mean_prediction": 0.4582,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 4,
+       "mean_prediction": 0.5018,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 19,
+       "mean_prediction": 0.5732,
+       "observed_rate": 0.5789
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 63,
+       "mean_prediction": 0.6406,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 65,
+       "mean_prediction": 0.6989,
+       "observed_rate": 0.7692
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 65,
+       "mean_prediction": 0.7692,
+       "observed_rate": 0.7231
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 49,
+       "mean_prediction": 0.8365,
+       "observed_rate": 0.8571
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 133,
+       "mean_prediction": 0.9043,
+       "observed_rate": 0.8647
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 50,
+       "mean_prediction": 0.952,
+       "observed_rate": 0.88
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0276,
+     "adaptive_ece_15_equal_count": 0.0387,
+     "brier": 0.1555,
+     "base_error_rate": 0.792,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 5,
+       "mean_prediction": 0.524,
+       "observed_rate": 0.4
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 77,
+       "mean_prediction": 0.5795,
+       "observed_rate": 0.5584
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 350,
+       "mean_prediction": 0.6389,
+       "observed_rate": 0.72
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 419,
+       "mean_prediction": 0.6992,
+       "observed_rate": 0.7184
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 232,
+       "mean_prediction": 0.7614,
+       "observed_rate": 0.7543
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 210,
+       "mean_prediction": 0.8388,
+       "observed_rate": 0.7905
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 610,
+       "mean_prediction": 0.9141,
+       "observed_rate": 0.9082
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 97,
+       "mean_prediction": 0.9496,
+       "observed_rate": 0.9381
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 25.5,
+    "aurc_fbg_value_head": 0.7673,
+    "aurc_error_head": 0.7073,
+    "aurc_random_ordering_mean_of_20": 0.7495,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.825
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.8333
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.74
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.7417
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7714
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7556
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.745
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7583
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7577
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7536
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7467
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7412
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7444
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7368
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.745
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.675
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.65
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.69
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.7167
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7286
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.725
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7278
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.735
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7182
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7208
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7192
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7071
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7067
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7125
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7147
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7222
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7316
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.745
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data17",
+   "label": "Corpus (seed 7, q-sample B)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0745,
+     "adaptive_ece_15_equal_count": 0.0783,
+     "brier": 0.2016,
+     "base_error_rate": 0.6489,
+     "reliability_bins": [
+      {
+       "lo": -0.0,
+       "hi": 0.0667,
+       "n": 1,
+       "mean_prediction": 0.0617,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 1,
+       "mean_prediction": 0.1021,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 5,
+       "mean_prediction": 0.1774,
+       "observed_rate": 0.8
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 6,
+       "mean_prediction": 0.2398,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 13,
+       "mean_prediction": 0.314,
+       "observed_rate": 0.6154
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 40,
+       "mean_prediction": 0.3669,
+       "observed_rate": 0.375
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 30,
+       "mean_prediction": 0.435,
+       "observed_rate": 0.4333
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 51,
+       "mean_prediction": 0.4985,
+       "observed_rate": 0.4314
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 35,
+       "mean_prediction": 0.5716,
+       "observed_rate": 0.5429
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 54,
+       "mean_prediction": 0.6291,
+       "observed_rate": 0.463
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 44,
+       "mean_prediction": 0.6987,
+       "observed_rate": 0.7727
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 22,
+       "mean_prediction": 0.7716,
+       "observed_rate": 0.6818
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 49,
+       "mean_prediction": 0.8334,
+       "observed_rate": 0.7959
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 71,
+       "mean_prediction": 0.8977,
+       "observed_rate": 0.9155
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 28,
+       "mean_prediction": 0.9643,
+       "observed_rate": 1.0
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0763,
+     "adaptive_ece_15_equal_count": 0.0839,
+     "brier": 0.1708,
+     "base_error_rate": 0.7575,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 1,
+       "mean_prediction": 0.1323,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 13,
+       "mean_prediction": 0.1761,
+       "observed_rate": 0.3077
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 12,
+       "mean_prediction": 0.2386,
+       "observed_rate": 0.4167
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 66,
+       "mean_prediction": 0.3053,
+       "observed_rate": 0.5455
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 101,
+       "mean_prediction": 0.3717,
+       "observed_rate": 0.6634
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 123,
+       "mean_prediction": 0.4337,
+       "observed_rate": 0.5935
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 200,
+       "mean_prediction": 0.503,
+       "observed_rate": 0.59
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 161,
+       "mean_prediction": 0.5631,
+       "observed_rate": 0.6646
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 259,
+       "mean_prediction": 0.6359,
+       "observed_rate": 0.6255
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 151,
+       "mean_prediction": 0.6992,
+       "observed_rate": 0.7483
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 145,
+       "mean_prediction": 0.7622,
+       "observed_rate": 0.869
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 286,
+       "mean_prediction": 0.8383,
+       "observed_rate": 0.8322
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 328,
+       "mean_prediction": 0.9015,
+       "observed_rate": 0.9634
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 154,
+       "mean_prediction": 0.9595,
+       "observed_rate": 0.974
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 29.25,
+    "aurc_fbg_value_head": 0.6518,
+    "aurc_error_head": 0.6194,
+    "aurc_random_ordering_mean_of_20": 0.7041,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.6333
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.625
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.63
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.6417
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.6357
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.6687
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6556
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.655
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.6682
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.6792
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.6654
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.6786
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.6767
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.6687
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.6735
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.6778
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.6947
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7075
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.575
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.5833
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.5625
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.6125
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6111
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.615
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.6227
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.6333
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.6269
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.625
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.65
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.6594
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.6794
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.6833
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.6921
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7075
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data23",
+   "label": "Corpus (seed 7, q-sample C)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0389,
+     "adaptive_ece_15_equal_count": 0.0667,
+     "brier": 0.1504,
+     "base_error_rate": 0.8022,
+     "reliability_bins": [
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 3,
+       "mean_prediction": 0.2521,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 2,
+       "mean_prediction": 0.3245,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 5,
+       "mean_prediction": 0.3682,
+       "observed_rate": 0.6
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 5,
+       "mean_prediction": 0.4287,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 16,
+       "mean_prediction": 0.5024,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 17,
+       "mean_prediction": 0.5693,
+       "observed_rate": 0.5294
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 27,
+       "mean_prediction": 0.6353,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 43,
+       "mean_prediction": 0.7014,
+       "observed_rate": 0.7442
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 71,
+       "mean_prediction": 0.77,
+       "observed_rate": 0.7465
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 69,
+       "mean_prediction": 0.8361,
+       "observed_rate": 0.7826
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 119,
+       "mean_prediction": 0.9095,
+       "observed_rate": 0.916
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 73,
+       "mean_prediction": 0.9502,
+       "observed_rate": 0.9178
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0359,
+     "adaptive_ece_15_equal_count": 0.0459,
+     "brier": 0.1458,
+     "base_error_rate": 0.811,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 1,
+       "mean_prediction": 0.3224,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 8,
+       "mean_prediction": 0.3614,
+       "observed_rate": 0.625
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 26,
+       "mean_prediction": 0.4351,
+       "observed_rate": 0.5385
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 36,
+       "mean_prediction": 0.5039,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 78,
+       "mean_prediction": 0.5687,
+       "observed_rate": 0.7051
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 128,
+       "mean_prediction": 0.6338,
+       "observed_rate": 0.6719
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 166,
+       "mean_prediction": 0.7022,
+       "observed_rate": 0.7349
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 348,
+       "mean_prediction": 0.7742,
+       "observed_rate": 0.7385
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 363,
+       "mean_prediction": 0.8285,
+       "observed_rate": 0.7713
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 541,
+       "mean_prediction": 0.9176,
+       "observed_rate": 0.9131
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 305,
+       "mean_prediction": 0.9442,
+       "observed_rate": 0.9311
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 23.25,
+    "aurc_fbg_value_head": 0.7783,
+    "aurc_error_head": 0.7092,
+    "aurc_random_ordering_mean_of_20": 0.7627,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.825
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.8333
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.8125
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.7833
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7643
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7625
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.745
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7542
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7654
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7643
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.77
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.775
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7618
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7639
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7684
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7675
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.625
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.6667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.69
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.7083
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7143
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7188
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7167
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.72
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7136
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7292
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7192
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7143
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.72
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.725
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7324
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7444
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7579
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7675
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data29",
+   "label": "Corpus (seed 7, q-sample D)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.077,
+     "adaptive_ece_15_equal_count": 0.0781,
+     "brier": 0.1724,
+     "base_error_rate": 0.74,
+     "reliability_bins": [
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 1,
+       "mean_prediction": 0.129,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 6,
+       "mean_prediction": 0.1733,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 6,
+       "mean_prediction": 0.2208,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 4,
+       "mean_prediction": 0.3042,
+       "observed_rate": 0.25
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 9,
+       "mean_prediction": 0.3709,
+       "observed_rate": 0.4444
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 16,
+       "mean_prediction": 0.4369,
+       "observed_rate": 0.75
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 25,
+       "mean_prediction": 0.5038,
+       "observed_rate": 0.76
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 32,
+       "mean_prediction": 0.5681,
+       "observed_rate": 0.7188
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 31,
+       "mean_prediction": 0.6303,
+       "observed_rate": 0.5484
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 48,
+       "mean_prediction": 0.7011,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 45,
+       "mean_prediction": 0.7724,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 66,
+       "mean_prediction": 0.8341,
+       "observed_rate": 0.7727
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 128,
+       "mean_prediction": 0.8939,
+       "observed_rate": 0.8828
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 33,
+       "mean_prediction": 0.9582,
+       "observed_rate": 0.9394
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.031,
+     "adaptive_ece_15_equal_count": 0.0474,
+     "brier": 0.1487,
+     "base_error_rate": 0.7935,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 5,
+       "mean_prediction": 0.1172,
+       "observed_rate": 0.4
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 14,
+       "mean_prediction": 0.173,
+       "observed_rate": 0.5714
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 14,
+       "mean_prediction": 0.2355,
+       "observed_rate": 0.5714
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 12,
+       "mean_prediction": 0.3001,
+       "observed_rate": 0.5833
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 12,
+       "mean_prediction": 0.3685,
+       "observed_rate": 0.5833
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 40,
+       "mean_prediction": 0.4409,
+       "observed_rate": 0.525
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 99,
+       "mean_prediction": 0.5023,
+       "observed_rate": 0.6061
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 183,
+       "mean_prediction": 0.5668,
+       "observed_rate": 0.5683
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 128,
+       "mean_prediction": 0.6312,
+       "observed_rate": 0.6406
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 159,
+       "mean_prediction": 0.7058,
+       "observed_rate": 0.7358
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 165,
+       "mean_prediction": 0.7642,
+       "observed_rate": 0.7273
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 209,
+       "mean_prediction": 0.8354,
+       "observed_rate": 0.8325
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 719,
+       "mean_prediction": 0.8939,
+       "observed_rate": 0.9082
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 241,
+       "mean_prediction": 0.96,
+       "observed_rate": 0.9295
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 27.0,
+    "aurc_fbg_value_head": 0.7808,
+    "aurc_error_head": 0.6288,
+    "aurc_random_ordering_mean_of_20": 0.7354,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.875
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.8167
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.8125
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.82
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.8167
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7937
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7889
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.785
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7864
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7708
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7577
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7433
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7375
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7324
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.725
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7237
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.73
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.55
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.55
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.5833
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.5875
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.5667
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.5857
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.5875
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.61
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.6182
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.625
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.6385
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.6571
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.67
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.6875
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7029
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7056
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7211
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.73
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data31",
+   "label": "Corpus (seed 7, q-sample E)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0537,
+     "adaptive_ece_15_equal_count": 0.06,
+     "brier": 0.1459,
+     "base_error_rate": 0.7556,
+     "reliability_bins": [
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 2,
+       "mean_prediction": 0.1045,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 7,
+       "mean_prediction": 0.1719,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 7,
+       "mean_prediction": 0.2292,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 9,
+       "mean_prediction": 0.3069,
+       "observed_rate": 0.2222
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 5,
+       "mean_prediction": 0.392,
+       "observed_rate": 0.2
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 8,
+       "mean_prediction": 0.4311,
+       "observed_rate": 0.625
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 29,
+       "mean_prediction": 0.5086,
+       "observed_rate": 0.6207
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 37,
+       "mean_prediction": 0.5621,
+       "observed_rate": 0.5946
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 42,
+       "mean_prediction": 0.6343,
+       "observed_rate": 0.7381
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 31,
+       "mean_prediction": 0.7021,
+       "observed_rate": 0.7097
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 37,
+       "mean_prediction": 0.7689,
+       "observed_rate": 0.7027
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 45,
+       "mean_prediction": 0.831,
+       "observed_rate": 0.7556
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 114,
+       "mean_prediction": 0.9098,
+       "observed_rate": 0.9211
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 77,
+       "mean_prediction": 0.9626,
+       "observed_rate": 0.9481
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.052,
+     "adaptive_ece_15_equal_count": 0.0682,
+     "brier": 0.1674,
+     "base_error_rate": 0.7385,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": -0.0,
+       "hi": 0.0667,
+       "n": 1,
+       "mean_prediction": 0.0572,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 12,
+       "mean_prediction": 0.1047,
+       "observed_rate": 0.3333
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 19,
+       "mean_prediction": 0.1663,
+       "observed_rate": 0.3158
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 17,
+       "mean_prediction": 0.2358,
+       "observed_rate": 0.4706
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 24,
+       "mean_prediction": 0.3042,
+       "observed_rate": 0.4167
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 32,
+       "mean_prediction": 0.3635,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 47,
+       "mean_prediction": 0.4356,
+       "observed_rate": 0.5319
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 99,
+       "mean_prediction": 0.5006,
+       "observed_rate": 0.4848
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 133,
+       "mean_prediction": 0.5697,
+       "observed_rate": 0.5338
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 187,
+       "mean_prediction": 0.6333,
+       "observed_rate": 0.5775
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 157,
+       "mean_prediction": 0.6993,
+       "observed_rate": 0.6433
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 150,
+       "mean_prediction": 0.7691,
+       "observed_rate": 0.6733
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 214,
+       "mean_prediction": 0.8323,
+       "observed_rate": 0.7056
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 553,
+       "mean_prediction": 0.9081,
+       "observed_rate": 0.8951
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 355,
+       "mean_prediction": 0.9623,
+       "observed_rate": 0.938
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 34.25,
+    "aurc_fbg_value_head": 0.6839,
+    "aurc_error_head": 0.5355,
+    "aurc_random_ordering_mean_of_20": 0.6537,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.7167
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.69
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.6583
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.6643
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.6687
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6722
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.65
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.6682
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.6792
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.6692
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.675
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.68
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.6781
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.6706
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.6667
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.6632
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.6575
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.35
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.4
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.4667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.4875
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.5286
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.5125
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.5222
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.535
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.5409
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.5333
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.55
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.5679
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.5833
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.5938
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.6088
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.6278
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.6447
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.6575
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data17",
+   "label": "2Wiki corpus (seed 7, draw 1)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0741,
+     "adaptive_ece_15_equal_count": 0.0858,
+     "brier": 0.1786,
+     "base_error_rate": 0.74,
+     "reliability_bins": [
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 8,
+       "mean_prediction": 0.0956,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 4,
+       "mean_prediction": 0.1798,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 4,
+       "mean_prediction": 0.2453,
+       "observed_rate": 0.75
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 3,
+       "mean_prediction": 0.3069,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 11,
+       "mean_prediction": 0.3756,
+       "observed_rate": 0.5455
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 17,
+       "mean_prediction": 0.434,
+       "observed_rate": 0.3529
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 29,
+       "mean_prediction": 0.5063,
+       "observed_rate": 0.3793
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 40,
+       "mean_prediction": 0.5647,
+       "observed_rate": 0.65
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 42,
+       "mean_prediction": 0.6383,
+       "observed_rate": 0.5952
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 28,
+       "mean_prediction": 0.6901,
+       "observed_rate": 0.6429
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 32,
+       "mean_prediction": 0.7615,
+       "observed_rate": 0.6875
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 33,
+       "mean_prediction": 0.8306,
+       "observed_rate": 0.7576
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 167,
+       "mean_prediction": 0.9073,
+       "observed_rate": 0.8922
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 32,
+       "mean_prediction": 0.9523,
+       "observed_rate": 0.9688
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0869,
+     "adaptive_ece_15_equal_count": 0.1134,
+     "brier": 0.1612,
+     "base_error_rate": 0.8015,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 5,
+       "mean_prediction": 0.1757,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 12,
+       "mean_prediction": 0.2371,
+       "observed_rate": 0.25
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 20,
+       "mean_prediction": 0.3123,
+       "observed_rate": 0.8
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 65,
+       "mean_prediction": 0.3704,
+       "observed_rate": 0.6
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 90,
+       "mean_prediction": 0.4358,
+       "observed_rate": 0.6
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 162,
+       "mean_prediction": 0.4988,
+       "observed_rate": 0.716
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 217,
+       "mean_prediction": 0.5678,
+       "observed_rate": 0.7465
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 196,
+       "mean_prediction": 0.6383,
+       "observed_rate": 0.7755
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 125,
+       "mean_prediction": 0.7015,
+       "observed_rate": 0.752
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 101,
+       "mean_prediction": 0.7657,
+       "observed_rate": 0.7723
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 96,
+       "mean_prediction": 0.8423,
+       "observed_rate": 0.7604
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 755,
+       "mean_prediction": 0.9063,
+       "observed_rate": 0.8834
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 156,
+       "mean_prediction": 0.952,
+       "observed_rate": 0.9551
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 23.5,
+    "aurc_fbg_value_head": 0.6982,
+    "aurc_error_head": 0.6741,
+    "aurc_random_ordering_mean_of_20": 0.7562,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.65
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.6167
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.6125
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.64
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.6667
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.6857
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.6937
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6833
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7136
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.725
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7423
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7567
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7625
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7676
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7667
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7658
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.765
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.625
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.5875
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.61
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.6333
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.6714
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.6875
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6944
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.6955
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.6958
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7077
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7214
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7133
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7094
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7235
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7389
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7526
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.765
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data23",
+   "label": "2Wiki corpus (seed 7, draw 2)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0844,
+     "adaptive_ece_15_equal_count": 0.0975,
+     "brier": 0.1695,
+     "base_error_rate": 0.7667,
+     "reliability_bins": [
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 5,
+       "mean_prediction": 0.4542,
+       "observed_rate": 0.8
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 23,
+       "mean_prediction": 0.5035,
+       "observed_rate": 0.7826
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 50,
+       "mean_prediction": 0.5658,
+       "observed_rate": 0.66
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 58,
+       "mean_prediction": 0.6325,
+       "observed_rate": 0.6724
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 72,
+       "mean_prediction": 0.6988,
+       "observed_rate": 0.6111
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 40,
+       "mean_prediction": 0.7621,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 7,
+       "mean_prediction": 0.8294,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 102,
+       "mean_prediction": 0.9114,
+       "observed_rate": 0.9314
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 93,
+       "mean_prediction": 0.9437,
+       "observed_rate": 0.914
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0436,
+     "adaptive_ece_15_equal_count": 0.0528,
+     "brier": 0.1471,
+     "base_error_rate": 0.801,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 5,
+       "mean_prediction": 0.1741,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 4,
+       "mean_prediction": 0.2193,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 7,
+       "mean_prediction": 0.3809,
+       "observed_rate": 0.5714
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 34,
+       "mean_prediction": 0.4413,
+       "observed_rate": 0.5294
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 104,
+       "mean_prediction": 0.5092,
+       "observed_rate": 0.5385
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 223,
+       "mean_prediction": 0.569,
+       "observed_rate": 0.583
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 297,
+       "mean_prediction": 0.6329,
+       "observed_rate": 0.7441
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 256,
+       "mean_prediction": 0.6976,
+       "observed_rate": 0.7617
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 60,
+       "mean_prediction": 0.7497,
+       "observed_rate": 0.7833
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 63,
+       "mean_prediction": 0.8418,
+       "observed_rate": 0.8254
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 478,
+       "mean_prediction": 0.9117,
+       "observed_rate": 0.887
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 469,
+       "mean_prediction": 0.94,
+       "observed_rate": 0.951
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 23.5,
+    "aurc_fbg_value_head": 0.7857,
+    "aurc_error_head": 0.6799,
+    "aurc_random_ordering_mean_of_20": 0.7558,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.775
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.775
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.79
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7857
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7812
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7833
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.78
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7909
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7958
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7962
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7929
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7767
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.775
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7706
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7694
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7605
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.765
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.65
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.675
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.6667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.575
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.58
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.6214
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.6438
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6556
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.655
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.6682
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.675
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7214
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7367
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7438
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7529
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7556
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7579
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.765
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data29",
+   "label": "2Wiki corpus (seed 7, draw 3)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0705,
+     "adaptive_ece_15_equal_count": 0.0869,
+     "brier": 0.1454,
+     "base_error_rate": 0.8289,
+     "reliability_bins": [
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 1,
+       "mean_prediction": 0.3594,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 1,
+       "mean_prediction": 0.5232,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 10,
+       "mean_prediction": 0.5845,
+       "observed_rate": 0.9
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 16,
+       "mean_prediction": 0.6318,
+       "observed_rate": 0.875
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 41,
+       "mean_prediction": 0.699,
+       "observed_rate": 0.8537
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 74,
+       "mean_prediction": 0.7725,
+       "observed_rate": 0.7162
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 114,
+       "mean_prediction": 0.8327,
+       "observed_rate": 0.7456
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 147,
+       "mean_prediction": 0.9071,
+       "observed_rate": 0.9116
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 46,
+       "mean_prediction": 0.9447,
+       "observed_rate": 0.8913
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0571,
+     "adaptive_ece_15_equal_count": 0.0609,
+     "brier": 0.1487,
+     "base_error_rate": 0.7875,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 1,
+       "mean_prediction": 0.3447,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 7,
+       "mean_prediction": 0.4463,
+       "observed_rate": 0.4286
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 15,
+       "mean_prediction": 0.5032,
+       "observed_rate": 0.1333
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 53,
+       "mean_prediction": 0.576,
+       "observed_rate": 0.3962
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 118,
+       "mean_prediction": 0.644,
+       "observed_rate": 0.6102
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 166,
+       "mean_prediction": 0.7073,
+       "observed_rate": 0.6265
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 302,
+       "mean_prediction": 0.7676,
+       "observed_rate": 0.7053
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 502,
+       "mean_prediction": 0.8256,
+       "observed_rate": 0.743
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 782,
+       "mean_prediction": 0.9144,
+       "observed_rate": 0.9412
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 54,
+       "mean_prediction": 0.9472,
+       "observed_rate": 0.9444
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 25.75,
+    "aurc_fbg_value_head": 0.78,
+    "aurc_error_head": 0.6306,
+    "aurc_random_ordering_mean_of_20": 0.7388,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.8667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.8375
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.775
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7714
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7625
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7611
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.755
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7682
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7708
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7731
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.7786
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7667
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7469
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7412
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7417
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7421
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7425
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.525
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.575
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.56
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.575
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.6214
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.6312
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6222
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.625
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.6273
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.6417
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.6462
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.6571
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.67
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.6906
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7029
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7167
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7316
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7425
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data17",
+   "label": "MuSiQue corpus (seed 7, draw 1)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0206,
+     "adaptive_ece_15_equal_count": 0.0495,
+     "brier": 0.0692,
+     "base_error_rate": 0.9244,
+     "reliability_bins": [
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 1,
+       "mean_prediction": 0.52,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 3,
+       "mean_prediction": 0.6462,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 4,
+       "mean_prediction": 0.7143,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 9,
+       "mean_prediction": 0.7864,
+       "observed_rate": 0.8889
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 70,
+       "mean_prediction": 0.8367,
+       "observed_rate": 0.8571
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 149,
+       "mean_prediction": 0.9009,
+       "observed_rate": 0.8792
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 214,
+       "mean_prediction": 0.9813,
+       "observed_rate": 0.9766
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0193,
+     "adaptive_ece_15_equal_count": 0.0205,
+     "brier": 0.0503,
+     "base_error_rate": 0.945,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 6,
+       "mean_prediction": 0.7188,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 64,
+       "mean_prediction": 0.7744,
+       "observed_rate": 0.8906
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 331,
+       "mean_prediction": 0.8397,
+       "observed_rate": 0.8943
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 594,
+       "mean_prediction": 0.9083,
+       "observed_rate": 0.9007
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 1005,
+       "mean_prediction": 0.9848,
+       "observed_rate": 0.993
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 7.5,
+    "aurc_fbg_value_head": 0.9133,
+    "aurc_error_head": 0.8932,
+    "aurc_random_ordering_mean_of_20": 0.9214,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 1.0
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.875
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.9125
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.91
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.9167
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.8938
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.895
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.9083
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.9077
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.9143
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.9167
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.9187
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.9206
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.925
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.9263
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.925
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.8667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.875
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.89
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.8833
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.8929
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.8875
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.8889
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.885
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.8909
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.8875
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.8923
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.8929
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.9062
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.9118
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.9167
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.9211
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.925
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data23",
+   "label": "MuSiQue corpus (seed 7, draw 2)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0918,
+     "adaptive_ece_15_equal_count": 0.0921,
+     "brier": 0.1085,
+     "base_error_rate": 0.8778,
+     "reliability_bins": [
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 2,
+       "mean_prediction": 0.445,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 1,
+       "mean_prediction": 0.497,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 4,
+       "mean_prediction": 0.5832,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 21,
+       "mean_prediction": 0.638,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 44,
+       "mean_prediction": 0.7014,
+       "observed_rate": 0.7955
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 64,
+       "mean_prediction": 0.7721,
+       "observed_rate": 0.8281
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 72,
+       "mean_prediction": 0.8326,
+       "observed_rate": 0.6806
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 25,
+       "mean_prediction": 0.8904,
+       "observed_rate": 0.56
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 217,
+       "mean_prediction": 0.9792,
+       "observed_rate": 0.9954
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0549,
+     "adaptive_ece_15_equal_count": 0.0549,
+     "brier": 0.0663,
+     "base_error_rate": 0.9285,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 244,
+       "mean_prediction": 0.7214,
+       "observed_rate": 0.832
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 418,
+       "mean_prediction": 0.7619,
+       "observed_rate": 0.8636
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 392,
+       "mean_prediction": 0.8272,
+       "observed_rate": 0.8903
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 12,
+       "mean_prediction": 0.9177,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 934,
+       "mean_prediction": 0.9822,
+       "observed_rate": 0.9979
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 9.25,
+    "aurc_fbg_value_head": 0.919,
+    "aurc_error_head": 0.8738,
+    "aurc_random_ordering_mean_of_20": 0.9069,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 1.0
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.95
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.925
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.92
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.9333
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.9286
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.9125
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.9167
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.915
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.9182
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.9167
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.9154
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.9071
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.9031
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.9029
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.9028
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.9053
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.9075
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.875
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.8667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.8625
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.86
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.8667
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.8786
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.8556
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.8591
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.8583
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.8654
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.8679
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.8767
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.8844
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.8912
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.8972
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.9026
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.9075
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data29",
+   "label": "MuSiQue corpus (seed 7, draw 3)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0428,
+     "adaptive_ece_15_equal_count": 0.0584,
+     "brier": 0.0565,
+     "base_error_rate": 0.9422,
+     "reliability_bins": [
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 5,
+       "mean_prediction": 0.7845,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 41,
+       "mean_prediction": 0.841,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 89,
+       "mean_prediction": 0.902,
+       "observed_rate": 0.9213
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 315,
+       "mean_prediction": 0.9713,
+       "observed_rate": 0.9397
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0258,
+     "adaptive_ece_15_equal_count": 0.0355,
+     "brier": 0.0698,
+     "base_error_rate": 0.9205,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 2,
+       "mean_prediction": 0.6876,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 4,
+       "mean_prediction": 0.776,
+       "observed_rate": 0.75
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 176,
+       "mean_prediction": 0.845,
+       "observed_rate": 0.8011
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 522,
+       "mean_prediction": 0.9054,
+       "observed_rate": 0.8487
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 1296,
+       "mean_prediction": 0.9765,
+       "observed_rate": 0.966
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 10.75,
+    "aurc_fbg_value_head": 0.9141,
+    "aurc_error_head": 0.8576,
+    "aurc_random_ordering_mean_of_20": 0.895,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 1.0
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.975
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.9333
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.9125
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.91
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.9167
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.9071
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.9062
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.9111
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.915
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.9091
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.9125
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.9077
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.9071
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.9033
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.8969
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.8912
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.8889
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.8868
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.8925
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.8
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.8625
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.87
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.875
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.8643
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.8562
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.8333
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.825
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.8273
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.8417
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.85
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.8607
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.87
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.875
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.8765
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.8833
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.8895
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.8925
+     }
+    ]
+   }
+  },
+  {
+   "tag": "wiki25m_guarded_qwen3b",
+   "label": "Wikipedia 25M hybrid",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0553,
+     "adaptive_ece_15_equal_count": 0.0624,
+     "brier": 0.1439,
+     "base_error_rate": 0.8311,
+     "reliability_bins": [
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 2,
+       "mean_prediction": 0.5012,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 6,
+       "mean_prediction": 0.5697,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 10,
+       "mean_prediction": 0.6499,
+       "observed_rate": 0.9
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 38,
+       "mean_prediction": 0.7071,
+       "observed_rate": 0.8158
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 84,
+       "mean_prediction": 0.7699,
+       "observed_rate": 0.8095
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 119,
+       "mean_prediction": 0.8305,
+       "observed_rate": 0.7899
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 148,
+       "mean_prediction": 0.9023,
+       "observed_rate": 0.8581
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 43,
+       "mean_prediction": 0.9536,
+       "observed_rate": 0.907
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0275,
+     "adaptive_ece_15_equal_count": 0.0363,
+     "brier": 0.1394,
+     "base_error_rate": 0.8145,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 7,
+       "mean_prediction": 0.5905,
+       "observed_rate": 0.8571
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 74,
+       "mean_prediction": 0.6425,
+       "observed_rate": 0.5135
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 235,
+       "mean_prediction": 0.7011,
+       "observed_rate": 0.6128
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 384,
+       "mean_prediction": 0.7694,
+       "observed_rate": 0.776
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 502,
+       "mean_prediction": 0.8329,
+       "observed_rate": 0.8068
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 661,
+       "mean_prediction": 0.9089,
+       "observed_rate": 0.9183
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 137,
+       "mean_prediction": 0.95,
+       "observed_rate": 0.9562
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 21.25,
+    "aurc_fbg_value_head": 0.8392,
+    "aurc_error_head": 0.6928,
+    "aurc_random_ordering_mean_of_20": 0.7952,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.95
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.95
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.9333
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.925
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.86
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.8667
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.8357
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.8125
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.8111
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.81
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.8045
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.8125
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.8192
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.8143
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.81
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.8125
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7971
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7861
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7868
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7875
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.55
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.525
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.5833
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.65
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.6833
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.7071
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.7063
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.7056
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.705
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.7136
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.7208
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.7269
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.725
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.7333
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.7406
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.7529
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.7639
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.7763
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.7875
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_llama3b_data17",
+   "label": "Corpus / Llama-3.2-3B (q-sample B)",
+   "n_test": 400,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0637,
+     "adaptive_ece_15_equal_count": 0.1002,
+     "brier": 0.2186,
+     "base_error_rate": 0.6556,
+     "reliability_bins": [
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 2,
+       "mean_prediction": 0.1731,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 5,
+       "mean_prediction": 0.2406,
+       "observed_rate": 0.6
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 10,
+       "mean_prediction": 0.3092,
+       "observed_rate": 0.4
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 19,
+       "mean_prediction": 0.3787,
+       "observed_rate": 0.3158
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 25,
+       "mean_prediction": 0.436,
+       "observed_rate": 0.48
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 39,
+       "mean_prediction": 0.4965,
+       "observed_rate": 0.6923
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 62,
+       "mean_prediction": 0.5702,
+       "observed_rate": 0.5323
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 59,
+       "mean_prediction": 0.6315,
+       "observed_rate": 0.6441
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 52,
+       "mean_prediction": 0.7032,
+       "observed_rate": 0.6923
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 66,
+       "mean_prediction": 0.7627,
+       "observed_rate": 0.697
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 79,
+       "mean_prediction": 0.8323,
+       "observed_rate": 0.8481
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 32,
+       "mean_prediction": 0.8797,
+       "observed_rate": 0.6875
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0311,
+     "adaptive_ece_15_equal_count": 0.0411,
+     "brier": 0.1983,
+     "base_error_rate": 0.6845,
+     "n_prefixes": 2000,
+     "reliability_bins": [
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 12,
+       "mean_prediction": 0.2405,
+       "observed_rate": 0.4167
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 58,
+       "mean_prediction": 0.3035,
+       "observed_rate": 0.3793
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 80,
+       "mean_prediction": 0.368,
+       "observed_rate": 0.425
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 136,
+       "mean_prediction": 0.4391,
+       "observed_rate": 0.5221
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 171,
+       "mean_prediction": 0.5036,
+       "observed_rate": 0.5497
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 254,
+       "mean_prediction": 0.568,
+       "observed_rate": 0.5748
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 241,
+       "mean_prediction": 0.6349,
+       "observed_rate": 0.6432
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 262,
+       "mean_prediction": 0.7011,
+       "observed_rate": 0.7328
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 312,
+       "mean_prediction": 0.7668,
+       "observed_rate": 0.8173
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 458,
+       "mean_prediction": 0.8405,
+       "observed_rate": 0.8319
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 16,
+       "mean_prediction": 0.8846,
+       "observed_rate": 0.875
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 38.75,
+    "aurc_fbg_value_head": 0.6572,
+    "aurc_error_head": 0.5177,
+    "aurc_random_ordering_mean_of_20": 0.6034,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 1.0
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.875
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.7667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.7625
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.73
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.675
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.65
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.6375
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.6056
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.605
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.5909
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.5792
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.5769
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.5571
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.5633
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.5719
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.5824
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.5944
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.6079
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.6125
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.4167
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.425
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.47
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.475
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.4875
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.52
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.5318
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.5458
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.55
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.5429
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.55
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.5594
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.5765
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.5889
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.6026
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.6125
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data17",
+   "label": "Corpus / Haiku 4.5 (q-sample B)",
+   "n_test": 200,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0723,
+     "adaptive_ece_15_equal_count": 0.0891,
+     "brier": 0.1858,
+     "base_error_rate": 0.5578,
+     "reliability_bins": [
+      {
+       "lo": -0.0,
+       "hi": 0.0667,
+       "n": 7,
+       "mean_prediction": 0.0449,
+       "observed_rate": 0.2857
+      },
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 10,
+       "mean_prediction": 0.0932,
+       "observed_rate": 0.3
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 34,
+       "mean_prediction": 0.1709,
+       "observed_rate": 0.2647
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 39,
+       "mean_prediction": 0.2394,
+       "observed_rate": 0.2564
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 33,
+       "mean_prediction": 0.3062,
+       "observed_rate": 0.1515
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 30,
+       "mean_prediction": 0.364,
+       "observed_rate": 0.5333
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 36,
+       "mean_prediction": 0.4338,
+       "observed_rate": 0.4722
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 42,
+       "mean_prediction": 0.4961,
+       "observed_rate": 0.5476
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 35,
+       "mean_prediction": 0.5648,
+       "observed_rate": 0.4857
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 38,
+       "mean_prediction": 0.631,
+       "observed_rate": 0.5789
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 27,
+       "mean_prediction": 0.7071,
+       "observed_rate": 0.6296
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 8,
+       "mean_prediction": 0.7673,
+       "observed_rate": 0.75
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 9,
+       "mean_prediction": 0.8329,
+       "observed_rate": 0.6667
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 20,
+       "mean_prediction": 0.9029,
+       "observed_rate": 0.8
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 82,
+       "mean_prediction": 0.9917,
+       "observed_rate": 1.0
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0513,
+     "adaptive_ece_15_equal_count": 0.0485,
+     "brier": 0.1725,
+     "base_error_rate": 0.595,
+     "n_prefixes": 1000,
+     "reliability_bins": [
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 15,
+       "mean_prediction": 0.1044,
+       "observed_rate": 0.1333
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 47,
+       "mean_prediction": 0.1643,
+       "observed_rate": 0.0851
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 56,
+       "mean_prediction": 0.2297,
+       "observed_rate": 0.1964
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 75,
+       "mean_prediction": 0.2954,
+       "observed_rate": 0.4133
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 59,
+       "mean_prediction": 0.3657,
+       "observed_rate": 0.4068
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 73,
+       "mean_prediction": 0.431,
+       "observed_rate": 0.5068
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 112,
+       "mean_prediction": 0.5018,
+       "observed_rate": 0.4554
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 74,
+       "mean_prediction": 0.5644,
+       "observed_rate": 0.5135
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 112,
+       "mean_prediction": 0.6247,
+       "observed_rate": 0.5893
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 54,
+       "mean_prediction": 0.7011,
+       "observed_rate": 0.5556
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 40,
+       "mean_prediction": 0.7725,
+       "observed_rate": 0.7
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 35,
+       "mean_prediction": 0.8371,
+       "observed_rate": 0.7714
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 23,
+       "mean_prediction": 0.8941,
+       "observed_rate": 0.913
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 225,
+       "mean_prediction": 0.9909,
+       "observed_rate": 1.0
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 49.5,
+    "aurc_fbg_value_head": 0.525,
+    "aurc_error_head": 0.3782,
+    "aurc_random_ordering_mean_of_20": 0.5008,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.75
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.6667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.52
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.4714
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.4375
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.4333
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.47
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.4636
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.4667
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.4769
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.4714
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.4667
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.475
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.4647
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.4778
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.4842
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.505
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.2
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.3667
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.325
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.36
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.3333
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.3286
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.3125
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.3333
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.37
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.3727
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.375
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.3923
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.3929
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.3933
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.4
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.4235
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.4789
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.505
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data23",
+   "label": "Corpus / Haiku 4.5 (q-sample C)",
+   "n_test": 200,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0832,
+     "adaptive_ece_15_equal_count": 0.0812,
+     "brier": 0.191,
+     "base_error_rate": 0.6089,
+     "reliability_bins": [
+      {
+       "lo": -0.0,
+       "hi": 0.0667,
+       "n": 1,
+       "mean_prediction": 0.059,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 12,
+       "mean_prediction": 0.1096,
+       "observed_rate": 0.25
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 19,
+       "mean_prediction": 0.1711,
+       "observed_rate": 0.2105
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 25,
+       "mean_prediction": 0.2283,
+       "observed_rate": 0.4
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 26,
+       "mean_prediction": 0.3013,
+       "observed_rate": 0.2692
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 41,
+       "mean_prediction": 0.3683,
+       "observed_rate": 0.439
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 28,
+       "mean_prediction": 0.4367,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 47,
+       "mean_prediction": 0.4993,
+       "observed_rate": 0.5745
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 24,
+       "mean_prediction": 0.5699,
+       "observed_rate": 0.625
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 27,
+       "mean_prediction": 0.6386,
+       "observed_rate": 0.5185
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 36,
+       "mean_prediction": 0.6983,
+       "observed_rate": 0.5833
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 32,
+       "mean_prediction": 0.7667,
+       "observed_rate": 0.5625
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 23,
+       "mean_prediction": 0.8262,
+       "observed_rate": 0.8261
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 21,
+       "mean_prediction": 0.9041,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 88,
+       "mean_prediction": 0.9929,
+       "observed_rate": 0.9432
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0575,
+     "adaptive_ece_15_equal_count": 0.0621,
+     "brier": 0.1828,
+     "base_error_rate": 0.612,
+     "n_prefixes": 1000,
+     "reliability_bins": [
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 10,
+       "mean_prediction": 0.1155,
+       "observed_rate": 0.4
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 51,
+       "mean_prediction": 0.1718,
+       "observed_rate": 0.3922
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 58,
+       "mean_prediction": 0.2341,
+       "observed_rate": 0.2586
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 65,
+       "mean_prediction": 0.3,
+       "observed_rate": 0.3077
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 92,
+       "mean_prediction": 0.3677,
+       "observed_rate": 0.4565
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 90,
+       "mean_prediction": 0.4381,
+       "observed_rate": 0.4333
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 70,
+       "mean_prediction": 0.5036,
+       "observed_rate": 0.3429
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 61,
+       "mean_prediction": 0.569,
+       "observed_rate": 0.5246
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 64,
+       "mean_prediction": 0.6318,
+       "observed_rate": 0.6875
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 86,
+       "mean_prediction": 0.7051,
+       "observed_rate": 0.6395
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 82,
+       "mean_prediction": 0.7632,
+       "observed_rate": 0.7439
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 45,
+       "mean_prediction": 0.8273,
+       "observed_rate": 0.7111
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 45,
+       "mean_prediction": 0.9126,
+       "observed_rate": 0.9556
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 181,
+       "mean_prediction": 0.9945,
+       "observed_rate": 1.0
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 49.5,
+    "aurc_fbg_value_head": 0.4509,
+    "aurc_error_head": 0.3843,
+    "aurc_random_ordering_mean_of_20": 0.5191,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.4333
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.48
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.4833
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.4429
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.425
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.4222
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.42
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.4091
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.4167
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.4077
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.4071
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.4333
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.425
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.4294
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.4789
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.505
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.4
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.4
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.3333
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.325
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.32
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.3333
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.3286
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.3625
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.3667
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.37
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.3727
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.375
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.3615
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.3857
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.3933
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.4
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.4235
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.4789
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.505
+     }
+    ]
+   }
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data29",
+   "label": "Corpus / Haiku 4.5 (q-sample D)",
+   "n_test": 200,
+   "error_head": {
+    "train_crossfit": {
+     "ece_15_equal_width": 0.0772,
+     "adaptive_ece_15_equal_count": 0.0833,
+     "brier": 0.1828,
+     "base_error_rate": 0.5956,
+     "reliability_bins": [
+      {
+       "lo": -0.0,
+       "hi": 0.0667,
+       "n": 2,
+       "mean_prediction": 0.0608,
+       "observed_rate": 0.0
+      },
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 10,
+       "mean_prediction": 0.1064,
+       "observed_rate": 0.2
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 21,
+       "mean_prediction": 0.1682,
+       "observed_rate": 0.2857
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 23,
+       "mean_prediction": 0.2378,
+       "observed_rate": 0.4783
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 27,
+       "mean_prediction": 0.3001,
+       "observed_rate": 0.2963
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 35,
+       "mean_prediction": 0.3676,
+       "observed_rate": 0.4
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 31,
+       "mean_prediction": 0.4328,
+       "observed_rate": 0.2903
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 41,
+       "mean_prediction": 0.4987,
+       "observed_rate": 0.5854
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 49,
+       "mean_prediction": 0.5669,
+       "observed_rate": 0.5102
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 45,
+       "mean_prediction": 0.627,
+       "observed_rate": 0.4889
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 26,
+       "mean_prediction": 0.6963,
+       "observed_rate": 0.6538
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 12,
+       "mean_prediction": 0.774,
+       "observed_rate": 0.5833
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 13,
+       "mean_prediction": 0.8401,
+       "observed_rate": 0.6923
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 27,
+       "mean_prediction": 0.9043,
+       "observed_rate": 0.963
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 88,
+       "mean_prediction": 0.9932,
+       "observed_rate": 1.0
+      }
+     ]
+    },
+    "test_prefixes": {
+     "ece_15_equal_width": 0.0476,
+     "adaptive_ece_15_equal_count": 0.0532,
+     "brier": 0.18,
+     "base_error_rate": 0.632,
+     "n_prefixes": 1000,
+     "reliability_bins": [
+      {
+       "lo": -0.0,
+       "hi": 0.0667,
+       "n": 8,
+       "mean_prediction": 0.0586,
+       "observed_rate": 0.5
+      },
+      {
+       "lo": 0.0667,
+       "hi": 0.1333,
+       "n": 35,
+       "mean_prediction": 0.1022,
+       "observed_rate": 0.2571
+      },
+      {
+       "lo": 0.1333,
+       "hi": 0.2,
+       "n": 30,
+       "mean_prediction": 0.1653,
+       "observed_rate": 0.4667
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.2667,
+       "n": 43,
+       "mean_prediction": 0.2393,
+       "observed_rate": 0.4186
+      },
+      {
+       "lo": 0.2667,
+       "hi": 0.3333,
+       "n": 59,
+       "mean_prediction": 0.3062,
+       "observed_rate": 0.2712
+      },
+      {
+       "lo": 0.3333,
+       "hi": 0.4,
+       "n": 60,
+       "mean_prediction": 0.3652,
+       "observed_rate": 0.4167
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.4667,
+       "n": 87,
+       "mean_prediction": 0.4279,
+       "observed_rate": 0.4368
+      },
+      {
+       "lo": 0.4667,
+       "hi": 0.5333,
+       "n": 130,
+       "mean_prediction": 0.5136,
+       "observed_rate": 0.4846
+      },
+      {
+       "lo": 0.5333,
+       "hi": 0.6,
+       "n": 79,
+       "mean_prediction": 0.567,
+       "observed_rate": 0.557
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.6667,
+       "n": 110,
+       "mean_prediction": 0.6286,
+       "observed_rate": 0.6455
+      },
+      {
+       "lo": 0.6667,
+       "hi": 0.7333,
+       "n": 73,
+       "mean_prediction": 0.7074,
+       "observed_rate": 0.726
+      },
+      {
+       "lo": 0.7333,
+       "hi": 0.8,
+       "n": 31,
+       "mean_prediction": 0.7757,
+       "observed_rate": 0.7419
+      },
+      {
+       "lo": 0.8,
+       "hi": 0.8667,
+       "n": 23,
+       "mean_prediction": 0.8359,
+       "observed_rate": 1.0
+      },
+      {
+       "lo": 0.8667,
+       "hi": 0.9333,
+       "n": 44,
+       "mean_prediction": 0.9148,
+       "observed_rate": 0.9773
+      },
+      {
+       "lo": 0.9333,
+       "hi": 1.0,
+       "n": 188,
+       "mean_prediction": 0.9968,
+       "observed_rate": 1.0
+      }
+     ]
+    }
+   },
+   "selective_risk_at_guarded_stop": {
+    "policy_em": 45.0,
+    "aurc_fbg_value_head": 0.5286,
+    "aurc_error_head": 0.423,
+    "aurc_random_ordering_mean_of_20": 0.5621,
+    "curve_fbg_value_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.9
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.65
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.6
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.4833
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.4889
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.47
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.4818
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.4667
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.4692
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.45
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.4733
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.5294
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.5333
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.5263
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.55
+     }
+    ],
+    "curve_error_head": [
+     {
+      "coverage": 0.05,
+      "risk": 0.7
+     },
+     {
+      "coverage": 0.1,
+      "risk": 0.55
+     },
+     {
+      "coverage": 0.15,
+      "risk": 0.4333
+     },
+     {
+      "coverage": 0.2,
+      "risk": 0.375
+     },
+     {
+      "coverage": 0.25,
+      "risk": 0.32
+     },
+     {
+      "coverage": 0.3,
+      "risk": 0.3
+     },
+     {
+      "coverage": 0.35,
+      "risk": 0.3429
+     },
+     {
+      "coverage": 0.4,
+      "risk": 0.3375
+     },
+     {
+      "coverage": 0.45,
+      "risk": 0.3444
+     },
+     {
+      "coverage": 0.5,
+      "risk": 0.34
+     },
+     {
+      "coverage": 0.55,
+      "risk": 0.3455
+     },
+     {
+      "coverage": 0.6,
+      "risk": 0.3833
+     },
+     {
+      "coverage": 0.65,
+      "risk": 0.3769
+     },
+     {
+      "coverage": 0.7,
+      "risk": 0.4071
+     },
+     {
+      "coverage": 0.75,
+      "risk": 0.42
+     },
+     {
+      "coverage": 0.8,
+      "risk": 0.4375
+     },
+     {
+      "coverage": 0.85,
+      "risk": 0.4706
+     },
+     {
+      "coverage": 0.9,
+      "risk": 0.5
+     },
+     {
+      "coverage": 0.95,
+      "risk": 0.5263
+     },
+     {
+      "coverage": 1.0,
+      "risk": 0.55
+     }
+    ]
+   }
+  }
+ ]
+}

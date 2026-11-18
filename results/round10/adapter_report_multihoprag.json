@@ -1,0 +1,21 @@
+{
+ "dst": "multihoprag_inference_hotpot_schema.parquet",
+ "sha256": "f9b63a76807dfb44a72b02b16b3f040a81d07f25fe57a6fb8c68dac0f0a519a9",
+ "rows": 816,
+ "question_type": "inference_query",
+ "articles_in_corpus": 609,
+ "articles_reachable_from_pooled_contexts": 609,
+ "pooled_unique_retrieval_units": 53943,
+ "distinct_news_outlets": 49,
+ "gold_fact_localisation": {
+  "exact": 2721,
+  "substring": 4,
+  "overlap": 18,
+  "none": 0
+ },
+ "gold_articles_per_question": {
+  "3": 359,
+  "4": 312,
+  "2": 145
+ }
+}

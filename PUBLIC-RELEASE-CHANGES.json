@@ -1,0 +1,12 @@
+{
+  "news_text_redaction": [
+    "results/round10/external_cell_extnews_guarded_qwen3b.json",
+    "results/measured/halt_claims_extnews_guarded_qwen3b.json",
+    "results/measured/corpus_confirmation_extnews_guarded_qwen3b.json",
+    "results/measured/halt_scores_extnews_guarded_qwen3b.json",
+    "results/measured/run_extnews_guarded_qwen3b.json",
+    "results/measured/critic_data_extnews_guarded_qwen3b.pkl",
+    "results/measured/halt_extnews_guarded_qwen3b.json"
+  ],
+  "purpose": "Remove third-party news passages while retaining numerical outputs, model answers, IDs and features for replay. Original accepted archive remains private and unchanged."
+}

@@ -1,0 +1,1690 @@
+{
+  "table_core_counts": {
+    "value": {
+      "F": 13,
+      "I": 3,
+      "D": 10
+    },
+    "guarded": {
+      "D": 15,
+      "I": 5,
+      "F": 6
+    }
+  },
+  "table_instrumented_counts": {
+    "F": 3,
+    "D": 9,
+    "I": 2
+  },
+  "refit_counts": {
+    "full_guarded": {
+      "W": 1,
+      "T": 2,
+      "L": 11,
+      "mean_em": 22.125,
+      "mean_calls": 6.445
+    },
+    "full_value": {
+      "W": 1,
+      "T": 8,
+      "L": 5,
+      "mean_em": 19.339,
+      "mean_calls": 4.585
+    },
+    "no_step_evidence_stability_guarded": {
+      "W": 2,
+      "T": 1,
+      "L": 11,
+      "mean_em": 22.268,
+      "mean_calls": 6.444
+    },
+    "no_step_evidence_stability_value": {
+      "W": 2,
+      "T": 9,
+      "L": 3,
+      "mean_em": 19.036,
+      "mean_calls": 4.345
+    },
+    "answer_content_only_guarded": {
+      "W": 1,
+      "T": 1,
+      "L": 12,
+      "mean_em": 22.071,
+      "mean_calls": 6.617
+    },
+    "answer_content_only_value": {
+      "W": 0,
+      "T": 8,
+      "L": 6,
+      "mean_em": 17.982,
+      "mean_calls": 4.262
+    },
+    "no_stability_guarded": {
+      "W": 1,
+      "T": 2,
+      "L": 11,
+      "mean_em": 22.214,
+      "mean_calls": 6.382
+    },
+    "no_stability_value": {
+      "W": 2,
+      "T": 9,
+      "L": 3,
+      "mean_em": 19.304,
+      "mean_calls": 4.342
+    },
+    "no_step_no_evidence_size_guarded": {
+      "W": 2,
+      "T": 2,
+      "L": 10,
+      "mean_em": 21.982,
+      "mean_calls": 6.383
+    },
+    "no_step_no_evidence_size_value": {
+      "W": 1,
+      "T": 9,
+      "L": 4,
+      "mean_em": 19.036,
+      "mean_calls": 4.479
+    }
+  },
+  "logged_target_counts": {
+    "W": 2,
+    "T": 3,
+    "L": 9,
+    "mean_em": 22.196,
+    "mean_calls": 6.34
+  },
+  "refit_threshold_reproduced_cells": 8,
+  "value_only_savings_pct_from_table_calls": [
+    53.0,
+    28.749999999999996,
+    37.875,
+    26.625,
+    36.12499999999999,
+    44.625,
+    28.000000000000004,
+    50.74999999999999,
+    57.375
+  ],
+  "guarded_savings_pct_from_table_calls": [
+    41.125,
+    27.875000000000007,
+    35.12499999999999,
+    25.5,
+    28.374999999999993,
+    33.62500000000001,
+    27.749999999999996,
+    46.12500000000001,
+    43.375
+  ],
+  "precision_value_only": {
+    "n": 18,
+    "width_min": 0.0,
+    "width_median": 2.976,
+    "width_max": 8.483,
+    "entries": [
+      {
+        "cell": "corpus_guarded_qwen3b",
+        "width_em": 2.019,
+        "ci95": [
+          -0.85,
+          1.169
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_seed11",
+        "width_em": 3.0,
+        "ci95": [
+          -2.0,
+          1.0
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_seed19",
+        "width_em": 2.722,
+        "ci95": [
+          -1.878,
+          0.844
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_data17",
+        "width_em": 3.164,
+        "ci95": [
+          -3.173,
+          -0.009
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_data23",
+        "width_em": 2.952,
+        "ci95": [
+          -1.178,
+          1.774
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_data29",
+        "width_em": 2.453,
+        "ci95": [
+          -0.922,
+          1.531
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_data31",
+        "width_em": 2.883,
+        "ci95": [
+          -1.458,
+          1.425
+        ]
+      },
+      {
+        "cell": "corpus2wiki_guarded_qwen3b_data17",
+        "width_em": 4.208,
+        "ci95": [
+          -0.192,
+          4.016
+        ]
+      },
+      {
+        "cell": "corpus2wiki_guarded_qwen3b_data23",
+        "width_em": 3.001,
+        "ci95": [
+          -3.338,
+          -0.337
+        ]
+      },
+      {
+        "cell": "corpus2wiki_guarded_qwen3b_data29",
+        "width_em": 3.419,
+        "ci95": [
+          -0.629,
+          2.79
+        ]
+      },
+      {
+        "cell": "corpusmusique_guarded_qwen3b_data17",
+        "width_em": 3.269,
+        "ci95": [
+          -1.8,
+          1.469
+        ]
+      },
+      {
+        "cell": "corpusmusique_guarded_qwen3b_data23",
+        "width_em": 2.421,
+        "ci95": [
+          -0.155,
+          2.266
+        ]
+      },
+      {
+        "cell": "corpusmusique_guarded_qwen3b_data29",
+        "width_em": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "cell": "wiki25m_guarded_qwen3b",
+        "width_em": 0.919,
+        "ci95": [
+          -0.456,
+          0.463
+        ]
+      },
+      {
+        "cell": "corpus_guarded_llama3b_data17",
+        "width_em": 2.939,
+        "ci95": [
+          -1.176,
+          1.763
+        ]
+      },
+      {
+        "cell": "corpus_guarded_haiku45_data17",
+        "width_em": 8.483,
+        "ci95": [
+          -6.637,
+          1.846
+        ]
+      },
+      {
+        "cell": "corpus_guarded_haiku45_data23",
+        "width_em": 3.565,
+        "ci95": [
+          -1.0,
+          2.565
+        ]
+      },
+      {
+        "cell": "corpus_guarded_haiku45_data29",
+        "width_em": 6.58,
+        "ci95": [
+          -3.08,
+          3.5
+        ]
+      }
+    ]
+  },
+  "precision_guarded_value": {
+    "n": 18,
+    "width_min": 0.058,
+    "width_median": 2.75,
+    "width_max": 3.75,
+    "entries": [
+      {
+        "cell": "corpus_guarded_qwen3b",
+        "width_em": 2.063,
+        "ci95": [
+          -1.219,
+          0.844
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_seed11",
+        "width_em": 3.75,
+        "ci95": [
+          -2.5,
+          1.25
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_seed19",
+        "width_em": 2.124,
+        "ci95": [
+          -1.437,
+          0.687
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_data17",
+        "width_em": 3.17,
+        "ci95": [
+          -3.561,
+          -0.391
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_data23",
+        "width_em": 2.863,
+        "ci95": [
+          -1.538,
+          1.325
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_data29",
+        "width_em": 2.0,
+        "ci95": [
+          -0.5,
+          1.5
+        ]
+      },
+      {
+        "cell": "corpus_guarded_qwen3b_data31",
+        "width_em": 1.831,
+        "ci95": [
+          -0.034,
+          1.797
+        ]
+      },
+      {
+        "cell": "corpus2wiki_guarded_qwen3b_data17",
+        "width_em": 3.25,
+        "ci95": [
+          -3.25,
+          0.0
+        ]
+      },
+      {
+        "cell": "corpus2wiki_guarded_qwen3b_data23",
+        "width_em": 2.75,
+        "ci95": [
+          -2.369,
+          0.381
+        ]
+      },
+      {
+        "cell": "corpus2wiki_guarded_qwen3b_data29",
+        "width_em": 3.0,
+        "ci95": [
+          -2.0,
+          1.0
+        ]
+      },
+      {
+        "cell": "corpusmusique_guarded_qwen3b_data17",
+        "width_em": 2.499,
+        "ci95": [
+          -1.77,
+          0.729
+        ]
+      },
+      {
+        "cell": "corpusmusique_guarded_qwen3b_data23",
+        "width_em": 2.033,
+        "ci95": [
+          -1.907,
+          0.126
+        ]
+      },
+      {
+        "cell": "corpusmusique_guarded_qwen3b_data29",
+        "width_em": 2.161,
+        "ci95": [
+          -1.552,
+          0.609
+        ]
+      },
+      {
+        "cell": "wiki25m_guarded_qwen3b",
+        "width_em": 2.75,
+        "ci95": [
+          -3.25,
+          -0.5
+        ]
+      },
+      {
+        "cell": "corpus_guarded_llama3b_data17",
+        "width_em": 2.918,
+        "ci95": [
+          -1.174,
+          1.744
+        ]
+      },
+      {
+        "cell": "corpus_guarded_haiku45_data17",
+        "width_em": 0.058,
+        "ci95": [
+          -0.035,
+          0.023
+        ]
+      },
+      {
+        "cell": "corpus_guarded_haiku45_data23",
+        "width_em": 3.52,
+        "ci95": [
+          -1.0,
+          2.52
+        ]
+      },
+      {
+        "cell": "corpus_guarded_haiku45_data29",
+        "width_em": 3.47,
+        "ci95": [
+          -2.41,
+          1.06
+        ]
+      }
+    ]
+  },
+  "retrospective_analyses": [
+    {
+      "tag": "corpus_guarded_qwen3b",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 11,
+      "targets": {
+        "fbg": {
+          "threshold": 0.04,
+          "guarded": {
+            "em": 24.75,
+            "calls": 6.75,
+            "category": "F",
+            "dominated_by": []
+          },
+          "value": {
+            "em": 25.0,
+            "calls": 6.35,
+            "category": "I",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.07,
+          "guarded": {
+            "em": 24.5,
+            "calls": 6.375,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 25.0,
+            "calls": 5.705,
+            "category": "I",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 2,
+        "train_em": 30.0,
+        "train_calls": 5.4222222222222225,
+        "em": 24.75,
+        "calls": 5.465,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 27.77777777777778,
+            "train_calls": 7.666666666666667
+          },
+          {
+            "threshold": 1,
+            "train_em": 31.11111111111111,
+            "train_calls": 6.5777777777777775
+          },
+          {
+            "threshold": 2,
+            "train_em": 30.0,
+            "train_calls": 5.4222222222222225
+          },
+          {
+            "threshold": 3,
+            "train_em": 14.444444444444443,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "I",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "evidence_growth"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpus_guarded_qwen3b_seed11",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 16,
+      "targets": {
+        "fbg": {
+          "threshold": 0.04,
+          "guarded": {
+            "em": 25.0,
+            "calls": 6.9,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2",
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 25.75,
+            "calls": 6.385,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          }
+        },
+        "signed_best": {
+          "threshold": 0.07,
+          "guarded": {
+            "em": 25.0,
+            "calls": 6.48,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2",
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 25.0,
+            "calls": 5.505,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 2,
+        "train_em": 24.444444444444443,
+        "train_calls": 5.444444444444445,
+        "em": 25.75,
+        "calls": 5.445,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 24.444444444444443,
+            "train_calls": 7.5777777777777775
+          },
+          {
+            "threshold": 1,
+            "train_em": 26.666666666666668,
+            "train_calls": 6.555555555555555
+          },
+          {
+            "threshold": 2,
+            "train_em": 24.444444444444443,
+            "train_calls": 5.444444444444445
+          },
+          {
+            "threshold": 3,
+            "train_em": 14.444444444444443,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "D",
+          "dominated_by": [
+            "fixed_2",
+            "evidence_growth"
+          ]
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "fixed_2",
+            "evidence_growth"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpus_guarded_qwen3b_seed19",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 8,
+      "targets": {
+        "fbg": {
+          "threshold": 0.04,
+          "guarded": {
+            "em": 25.5,
+            "calls": 6.675,
+            "category": "D",
+            "dominated_by": [
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 25.25,
+            "calls": 6.375,
+            "category": "D",
+            "dominated_by": [
+              "answer_repeat"
+            ]
+          }
+        },
+        "signed_best": {
+          "threshold": 0.04,
+          "guarded": {
+            "em": 25.75,
+            "calls": 6.62,
+            "category": "F",
+            "dominated_by": []
+          },
+          "value": {
+            "em": 25.0,
+            "calls": 6.035,
+            "category": "D",
+            "dominated_by": [
+              "answer_repeat"
+            ]
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 2,
+        "train_em": 27.77777777777778,
+        "train_calls": 5.377777777777778,
+        "em": 24.75,
+        "calls": 5.47,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 27.77777777777778,
+            "train_calls": 7.644444444444445
+          },
+          {
+            "threshold": 1,
+            "train_em": 30.0,
+            "train_calls": 6.6
+          },
+          {
+            "threshold": 2,
+            "train_em": 27.77777777777778,
+            "train_calls": 5.377777777777778
+          },
+          {
+            "threshold": 3,
+            "train_em": 15.555555555555555,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "D",
+          "dominated_by": [
+            "answer_repeat"
+          ]
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "answer_repeat"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpus_guarded_qwen3b_data17",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 4,
+      "targets": {
+        "fbg": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 28.000000000000004,
+            "calls": 5.965,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 27.750000000000004,
+            "calls": 4.23,
+            "category": "F",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 28.000000000000004,
+            "calls": 5.905,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 27.750000000000004,
+            "calls": 4.135,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 0,
+        "train_em": 46.666666666666664,
+        "train_calls": 7.4,
+        "em": 31.25,
+        "calls": 7.44,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 46.666666666666664,
+            "train_calls": 7.4
+          },
+          {
+            "threshold": 1,
+            "train_em": 44.44444444444444,
+            "train_calls": 6.288888888888889
+          },
+          {
+            "threshold": 2,
+            "train_em": 43.333333333333336,
+            "train_calls": 5.444444444444445
+          },
+          {
+            "threshold": 3,
+            "train_em": 30.0,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "F",
+          "dominated_by": []
+        }
+      }
+    },
+    {
+      "tag": "corpus_guarded_qwen3b_data23",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 4,
+      "targets": {
+        "fbg": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 23.25,
+            "calls": 5.9,
+            "category": "F",
+            "dominated_by": []
+          },
+          "value": {
+            "em": 13.5,
+            "calls": 2.67,
+            "category": "F",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 23.25,
+            "calls": 5.9,
+            "category": "F",
+            "dominated_by": []
+          },
+          "value": {
+            "em": 13.5,
+            "calls": 2.675,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 0,
+        "train_em": 25.555555555555554,
+        "train_calls": 7.622222222222222,
+        "em": 26.5,
+        "calls": 7.505,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 25.555555555555554,
+            "train_calls": 7.622222222222222
+          },
+          {
+            "threshold": 1,
+            "train_em": 24.444444444444443,
+            "train_calls": 6.488888888888889
+          },
+          {
+            "threshold": 2,
+            "train_em": 24.444444444444443,
+            "train_calls": 5.466666666666667
+          },
+          {
+            "threshold": 3,
+            "train_em": 15.555555555555555,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "F",
+          "dominated_by": []
+        }
+      }
+    },
+    {
+      "tag": "corpus_guarded_qwen3b_data29",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 10,
+      "targets": {
+        "fbg": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 26.5,
+            "calls": 5.895,
+            "category": "D",
+            "dominated_by": [
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 19.5,
+            "calls": 3.07,
+            "category": "D",
+            "dominated_by": [
+              "fixed_1"
+            ]
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 26.5,
+            "calls": 5.895,
+            "category": "D",
+            "dominated_by": [
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 19.5,
+            "calls": 3.07,
+            "category": "D",
+            "dominated_by": [
+              "fixed_1"
+            ]
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 1,
+        "train_em": 32.22222222222222,
+        "train_calls": 6.4222222222222225,
+        "em": 26.25,
+        "calls": 6.485,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 33.33333333333333,
+            "train_calls": 7.333333333333333
+          },
+          {
+            "threshold": 1,
+            "train_em": 32.22222222222222,
+            "train_calls": 6.4222222222222225
+          },
+          {
+            "threshold": 2,
+            "train_em": 31.11111111111111,
+            "train_calls": 5.444444444444445
+          },
+          {
+            "threshold": 3,
+            "train_em": 25.555555555555554,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "I",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "I",
+          "dominated_by": []
+        }
+      }
+    },
+    {
+      "tag": "corpus_guarded_qwen3b_data31",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 7,
+      "targets": {
+        "fbg": {
+          "threshold": 0.02,
+          "guarded": {
+            "em": 34.25,
+            "calls": 7.755,
+            "category": "I",
+            "dominated_by": []
+          },
+          "value": {
+            "em": 33.25,
+            "calls": 7.51,
+            "category": "F",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.01,
+          "guarded": {
+            "em": 34.0,
+            "calls": 7.87,
+            "category": "F",
+            "dominated_by": []
+          },
+          "value": {
+            "em": 33.5,
+            "calls": 7.335,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 0,
+        "train_em": 32.22222222222222,
+        "train_calls": 7.688888888888889,
+        "em": 34.25,
+        "calls": 7.43,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 32.22222222222222,
+            "train_calls": 7.688888888888889
+          },
+          {
+            "threshold": 1,
+            "train_em": 30.0,
+            "train_calls": 6.666666666666667
+          },
+          {
+            "threshold": 2,
+            "train_em": 27.77777777777778,
+            "train_calls": 5.5777777777777775
+          },
+          {
+            "threshold": 3,
+            "train_em": 24.444444444444443,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "D",
+          "dominated_by": [
+            "evidence_growth"
+          ]
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "evidence_growth"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpus2wiki_guarded_qwen3b_data17",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 9,
+      "targets": {
+        "fbg": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 23.5,
+            "calls": 5.495,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 20.25,
+            "calls": 3.11,
+            "category": "F",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 23.5,
+            "calls": 5.5,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2",
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 20.0,
+            "calls": 3.07,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 2,
+        "train_em": 33.33333333333333,
+        "train_calls": 5.644444444444445,
+        "em": 24.0,
+        "calls": 5.705,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 31.11111111111111,
+            "train_calls": 7.222222222222222
+          },
+          {
+            "threshold": 1,
+            "train_em": 31.11111111111111,
+            "train_calls": 6.377777777777778
+          },
+          {
+            "threshold": 2,
+            "train_em": 33.33333333333333,
+            "train_calls": 5.644444444444445
+          },
+          {
+            "threshold": 3,
+            "train_em": 25.555555555555554,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "fixed_2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpus2wiki_guarded_qwen3b_data23",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 9,
+      "targets": {
+        "fbg": {
+          "threshold": 0.02,
+          "guarded": {
+            "em": 24.0,
+            "calls": 7.32,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2",
+              "fixed_3"
+            ]
+          },
+          "value": {
+            "em": 23.25,
+            "calls": 7.055,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2",
+              "fixed_3",
+              "answer_repeat"
+            ]
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 23.25,
+            "calls": 5.545,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2",
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 18.75,
+            "calls": 3.635,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 1,
+        "train_em": 31.11111111111111,
+        "train_calls": 6.2444444444444445,
+        "em": 24.25,
+        "calls": 6.4,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 31.11111111111111,
+            "train_calls": 6.777777777777778
+          },
+          {
+            "threshold": 1,
+            "train_em": 31.11111111111111,
+            "train_calls": 6.2444444444444445
+          },
+          {
+            "threshold": 2,
+            "train_em": 28.888888888888886,
+            "train_calls": 5.644444444444445
+          },
+          {
+            "threshold": 3,
+            "train_em": 21.11111111111111,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "fixed_2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpus2wiki_guarded_qwen3b_data29",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 8,
+      "targets": {
+        "fbg": {
+          "threshold": 0.12,
+          "guarded": {
+            "em": 25.75,
+            "calls": 5.82,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 25.5,
+            "calls": 4.07,
+            "category": "F",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 25.75,
+            "calls": 5.665,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 24.0,
+            "calls": 3.115,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 2,
+        "train_em": 22.22222222222222,
+        "train_calls": 5.866666666666666,
+        "em": 25.0,
+        "calls": 5.715,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 21.11111111111111,
+            "train_calls": 7.155555555555556
+          },
+          {
+            "threshold": 1,
+            "train_em": 22.22222222222222,
+            "train_calls": 6.4222222222222225
+          },
+          {
+            "threshold": 2,
+            "train_em": 22.22222222222222,
+            "train_calls": 5.866666666666666
+          },
+          {
+            "threshold": 3,
+            "train_em": 14.444444444444443,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "fixed_2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpusmusique_guarded_qwen3b_data17",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 7,
+      "targets": {
+        "fbg": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 7.5,
+            "calls": 6.54,
+            "category": "D",
+            "dominated_by": [
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 3.75,
+            "calls": 3.025,
+            "category": "F",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 7.5,
+            "calls": 6.535,
+            "category": "D",
+            "dominated_by": [
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 3.25,
+            "calls": 2.635,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 1,
+        "train_em": 11.11111111111111,
+        "train_calls": 6.777777777777778,
+        "em": 8.0,
+        "calls": 6.805,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 11.11111111111111,
+            "train_calls": 7.7555555555555555
+          },
+          {
+            "threshold": 1,
+            "train_em": 11.11111111111111,
+            "train_calls": 6.777777777777778
+          },
+          {
+            "threshold": 2,
+            "train_em": 8.88888888888889,
+            "train_calls": 5.4
+          },
+          {
+            "threshold": 3,
+            "train_em": 6.666666666666667,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "answer_repeat"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpusmusique_guarded_qwen3b_data23",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 8,
+      "targets": {
+        "fbg": {
+          "threshold": 0.04,
+          "guarded": {
+            "em": 9.75,
+            "calls": 6.89,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 9.75,
+            "calls": 6.21,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          }
+        },
+        "signed_best": {
+          "threshold": 0.02,
+          "guarded": {
+            "em": 9.75,
+            "calls": 7.035,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 9.75,
+            "calls": 6.165,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 0,
+        "train_em": 18.88888888888889,
+        "train_calls": 7.711111111111111,
+        "em": 10.0,
+        "calls": 7.785,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 18.88888888888889,
+            "train_calls": 7.711111111111111
+          },
+          {
+            "threshold": 1,
+            "train_em": 16.666666666666664,
+            "train_calls": 6.7555555555555555
+          },
+          {
+            "threshold": 2,
+            "train_em": 16.666666666666664,
+            "train_calls": 5.488888888888889
+          },
+          {
+            "threshold": 3,
+            "train_em": 10.0,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "fixed_2",
+            "answer_repeat"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "corpusmusique_guarded_qwen3b_data29",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 4,
+      "targets": {
+        "fbg": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 10.75,
+            "calls": 6.425,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 0.25,
+            "calls": 1.0,
+            "category": "F",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 10.75,
+            "calls": 6.425,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2"
+            ]
+          },
+          "value": {
+            "em": 0.25,
+            "calls": 1.0,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 1,
+        "train_em": 7.777777777777778,
+        "train_calls": 6.644444444444445,
+        "em": 11.0,
+        "calls": 6.78,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 7.777777777777778,
+            "train_calls": 7.955555555555556
+          },
+          {
+            "threshold": 1,
+            "train_em": 7.777777777777778,
+            "train_calls": 6.644444444444445
+          },
+          {
+            "threshold": 2,
+            "train_em": 6.666666666666667,
+            "train_calls": 5.311111111111111
+          },
+          {
+            "threshold": 3,
+            "train_em": 5.555555555555555,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "fixed_2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "wiki25m_guarded_qwen3b",
+      "n_train": 90,
+      "n_test": 400,
+      "signed_target_min": -1.0,
+      "signed_target_max": 1.0,
+      "negative_training_prefixes": 13,
+      "targets": {
+        "fbg": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 21.25,
+            "calls": 5.895,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2",
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 18.0,
+            "calls": 3.13,
+            "category": "F",
+            "dominated_by": []
+          }
+        },
+        "signed_best": {
+          "threshold": 0.2,
+          "guarded": {
+            "em": 21.25,
+            "calls": 5.895,
+            "category": "D",
+            "dominated_by": [
+              "fixed_2",
+              "answer_repeat"
+            ]
+          },
+          "value": {
+            "em": 18.5,
+            "calls": 3.165,
+            "category": "F",
+            "dominated_by": []
+          }
+        }
+      },
+      "evidence_growth": {
+        "threshold": 2,
+        "train_em": 22.22222222222222,
+        "train_calls": 5.822222222222222,
+        "em": 22.25,
+        "calls": 5.72,
+        "training_grid": [
+          {
+            "threshold": 0,
+            "train_em": 20.0,
+            "train_calls": 7.844444444444444
+          },
+          {
+            "threshold": 1,
+            "train_em": 21.11111111111111,
+            "train_calls": 6.8
+          },
+          {
+            "threshold": 2,
+            "train_em": 22.22222222222222,
+            "train_calls": 5.822222222222222
+          },
+          {
+            "threshold": 3,
+            "train_em": 17.77777777777778,
+            "train_calls": 3.0
+          }
+        ]
+      },
+      "extended_reference": {
+        "value": {
+          "category": "F",
+          "dominated_by": []
+        },
+        "guarded": {
+          "category": "D",
+          "dominated_by": [
+            "fixed_2",
+            "answer_repeat",
+            "evidence_growth"
+          ]
+        }
+      }
+    }
+  ],
+  "summary_new": {
+    "fbg": {
+      "guarded": {
+        "counts": {
+          "F": 2,
+          "D": 11,
+          "I": 1
+        },
+        "mean_em": 22.125,
+        "mean_calls": 6.444642857142857
+      },
+      "value": {
+        "counts": {
+          "I": 1,
+          "D": 5,
+          "F": 8
+        },
+        "mean_em": 19.339285714285715,
+        "mean_calls": 4.585
+      }
+    },
+    "signed_best": {
+      "guarded": {
+        "counts": {
+          "D": 11,
+          "F": 3
+        },
+        "mean_em": 22.053571428571427,
+        "mean_calls": 6.260357142857143
+      },
+      "value": {
+        "counts": {
+          "I": 1,
+          "D": 4,
+          "F": 9
+        },
+        "mean_em": 18.839285714285715,
+        "mean_calls": 4.088928571428571
+      }
+    }
+  },
+  "summary_extended_reference": {
+    "value": {
+      "I": 2,
+      "D": 3,
+      "F": 9
+    },
+    "guarded": {
+      "D": 11,
+      "F": 2,
+      "I": 1
+    }
+  }
+}

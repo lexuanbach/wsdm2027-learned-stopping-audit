@@ -1,0 +1,1882 @@
+{
+ "what": "equal-cost (calls axis) gains over the randomized fixed-budget mixture, per policy family, with family-wise corrections over that policy's own cells",
+ "axis": "exact LLM calls",
+ "policies": {
+  "guarded_value": {
+   "n_cells": 18,
+   "maxt_critical_value": 3.1274,
+   "counts": {
+    "marginal_win": 0,
+    "bonferroni_win": 0,
+    "maxt_win": 0,
+    "marginal_loss": 2
+   },
+   "cells": [
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data17",
+     "mean_em_points": -1.5,
+     "marginal_ci95": [
+      -3.0,
+      0.0
+     ],
+     "bonferroni_ci": [
+      -4.0,
+      0.75
+     ],
+     "maxt_ci": [
+      -3.964,
+      0.964
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data23",
+     "mean_em_points": -0.942,
+     "marginal_ci95": [
+      -2.369,
+      0.365
+     ],
+     "bonferroni_ci": [
+      -3.199,
+      1.086
+     ],
+     "maxt_ci": [
+      -3.131,
+      1.246
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data29",
+     "mean_em_points": -0.5,
+     "marginal_ci95": [
+      -2.0,
+      1.0
+     ],
+     "bonferroni_ci": [
+      -3.0,
+      1.75
+     ],
+     "maxt_ci": [
+      -2.974,
+      1.974
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data17",
+     "mean_em_points": -0.006,
+     "marginal_ci95": [
+      -0.035,
+      0.023
+     ],
+     "bonferroni_ci": [
+      -0.052,
+      0.041
+     ],
+     "maxt_ci": [
+      -0.054,
+      0.042
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data23",
+     "mean_em_points": 0.76,
+     "marginal_ci95": [
+      -1.0,
+      2.52
+     ],
+     "bonferroni_ci": [
+      -2.0,
+      3.78
+     ],
+     "maxt_ci": [
+      -2.002,
+      3.522
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data29",
+     "mean_em_points": -0.47,
+     "marginal_ci95": [
+      -2.235,
+      1.06
+     ],
+     "bonferroni_ci": [
+      -3.44,
+      1.795
+     ],
+     "maxt_ci": [
+      -3.185,
+      2.245
+     ]
+    },
+    {
+     "cell": "corpus_guarded_llama3b_data17",
+     "mean_em_points": 0.273,
+     "marginal_ci95": [
+      -1.174,
+      1.697
+     ],
+     "bonferroni_ci": [
+      -1.948,
+      2.441
+     ],
+     "maxt_ci": [
+      -2.013,
+      2.56
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b",
+     "mean_em_points": -0.188,
+     "marginal_ci95": [
+      -1.25,
+      0.812
+     ],
+     "bonferroni_ci": [
+      -1.844,
+      1.382
+     ],
+     "maxt_ci": [
+      -1.801,
+      1.426
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data17",
+     "mean_em_points": -1.887,
+     "marginal_ci95": [
+      -3.492,
+      -0.391
+     ],
+     "bonferroni_ci": [
+      -4.388,
+      0.32
+     ],
+     "maxt_ci": [
+      -4.369,
+      0.594
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data23",
+     "mean_em_points": -0.125,
+     "marginal_ci95": [
+      -1.575,
+      1.337
+     ],
+     "bonferroni_ci": [
+      -2.4,
+      2.15
+     ],
+     "maxt_ci": [
+      -2.441,
+      2.191
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data29",
+     "mean_em_points": 0.5,
+     "marginal_ci95": [
+      -0.5,
+      1.5
+     ],
+     "bonferroni_ci": [
+      -1.0,
+      2.056
+     ],
+     "maxt_ci": [
+      -1.064,
+      2.064
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data31",
+     "mean_em_points": 0.851,
+     "marginal_ci95": [
+      -0.061,
+      1.791
+     ],
+     "bonferroni_ci": [
+      -0.534,
+      2.297
+     ],
+     "maxt_ci": [
+      -0.606,
+      2.309
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed11",
+     "mean_em_points": -0.5,
+     "marginal_ci95": [
+      -2.25,
+      1.25
+     ],
+     "bonferroni_ci": [
+      -3.5,
+      2.25
+     ],
+     "maxt_ci": [
+      -3.428,
+      2.428
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed19",
+     "mean_em_points": -0.374,
+     "marginal_ci95": [
+      -1.437,
+      0.626
+     ],
+     "bonferroni_ci": [
+      -2.121,
+      1.187
+     ],
+     "maxt_ci": [
+      -2.054,
+      1.307
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data17",
+     "mean_em_points": -0.52,
+     "marginal_ci95": [
+      -1.789,
+      0.71
+     ],
+     "bonferroni_ci": [
+      -2.432,
+      1.329
+     ],
+     "maxt_ci": [
+      -2.503,
+      1.463
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data23",
+     "mean_em_points": -0.843,
+     "marginal_ci95": [
+      -1.907,
+      0.126
+     ],
+     "bonferroni_ci": [
+      -2.501,
+      0.593
+     ],
+     "maxt_ci": [
+      -2.467,
+      0.78
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data29",
+     "mean_em_points": -0.445,
+     "marginal_ci95": [
+      -1.534,
+      0.592
+     ],
+     "bonferroni_ci": [
+      -2.195,
+      1.113
+     ],
+     "maxt_ci": [
+      -2.171,
+      1.28
+     ]
+    },
+    {
+     "cell": "wiki25m_guarded_qwen3b",
+     "mean_em_points": -1.75,
+     "marginal_ci95": [
+      -3.25,
+      -0.5
+     ],
+     "bonferroni_ci": [
+      -4.25,
+      0.25
+     ],
+     "maxt_ci": [
+      -4.082,
+      0.582
+     ]
+    }
+   ]
+  },
+  "value_only": {
+   "n_cells": 18,
+   "maxt_critical_value": 3.7258,
+   "counts": {
+    "marginal_win": 0,
+    "bonferroni_win": 0,
+    "maxt_win": 0,
+    "marginal_loss": 2
+   },
+   "cells": [
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data17",
+     "mean_em_points": 1.865,
+     "marginal_ci95": [
+      -0.149,
+      3.95
+     ],
+     "bonferroni_ci": [
+      -1.402,
+      5.184
+     ],
+     "maxt_ci": [
+      -2.079,
+      5.809
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data23",
+     "mean_em_points": -1.796,
+     "marginal_ci95": [
+      -3.296,
+      -0.316
+     ],
+     "bonferroni_ci": [
+      -4.131,
+      0.537
+     ],
+     "maxt_ci": [
+      -4.668,
+      1.076
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data29",
+     "mean_em_points": 1.063,
+     "marginal_ci95": [
+      -0.629,
+      2.813
+     ],
+     "bonferroni_ci": [
+      -1.476,
+      3.799
+     ],
+     "maxt_ci": [
+      -2.193,
+      4.319
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data17",
+     "mean_em_points": -2.379,
+     "marginal_ci95": [
+      -6.621,
+      1.852
+     ],
+     "bonferroni_ci": [
+      -8.861,
+      3.868
+     ],
+     "maxt_ci": [
+      -10.388,
+      5.629
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data23",
+     "mean_em_points": 0.783,
+     "marginal_ci95": [
+      -1.0,
+      2.565
+     ],
+     "bonferroni_ci": [
+      -2.0,
+      3.775
+     ],
+     "maxt_ci": [
+      -2.548,
+      4.113
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data29",
+     "mean_em_points": 0.32,
+     "marginal_ci95": [
+      -3.1,
+      3.56
+     ],
+     "bonferroni_ci": [
+      -5.12,
+      5.06
+     ],
+     "maxt_ci": [
+      -6.041,
+      6.681
+     ]
+    },
+    {
+     "cell": "corpus_guarded_llama3b_data17",
+     "mean_em_points": 0.279,
+     "marginal_ci95": [
+      -1.16,
+      1.705
+     ],
+     "bonferroni_ci": [
+      -1.955,
+      2.439
+     ],
+     "maxt_ci": [
+      -2.462,
+      3.02
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b",
+     "mean_em_points": 0.163,
+     "marginal_ci95": [
+      -0.913,
+      1.169
+     ],
+     "bonferroni_ci": [
+      -1.488,
+      1.744
+     ],
+     "maxt_ci": [
+      -1.802,
+      2.127
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data17",
+     "mean_em_points": -1.519,
+     "marginal_ci95": [
+      -3.124,
+      -0.009
+     ],
+     "bonferroni_ci": [
+      -4.005,
+      0.741
+     ],
+     "maxt_ci": [
+      -4.461,
+      1.424
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data23",
+     "mean_em_points": 0.32,
+     "marginal_ci95": [
+      -1.141,
+      1.738
+     ],
+     "bonferroni_ci": [
+      -2.029,
+      2.579
+     ],
+     "maxt_ci": [
+      -2.434,
+      3.074
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data29",
+     "mean_em_points": 0.281,
+     "marginal_ci95": [
+      -0.922,
+      1.516
+     ],
+     "bonferroni_ci": [
+      -1.508,
+      2.25
+     ],
+     "maxt_ci": [
+      -2.041,
+      2.603
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data31",
+     "mean_em_points": 0.019,
+     "marginal_ci95": [
+      -1.457,
+      1.425
+     ],
+     "bonferroni_ci": [
+      -2.301,
+      2.156
+     ],
+     "maxt_ci": [
+      -2.699,
+      2.737
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed11",
+     "mean_em_points": -0.5,
+     "marginal_ci95": [
+      -2.0,
+      1.0
+     ],
+     "bonferroni_ci": [
+      -3.0,
+      1.75
+     ],
+     "maxt_ci": [
+      -3.448,
+      2.448
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed19",
+     "mean_em_points": -0.507,
+     "marginal_ci95": [
+      -1.878,
+      0.851
+     ],
+     "bonferroni_ci": [
+      -2.642,
+      1.601
+     ],
+     "maxt_ci": [
+      -3.055,
+      2.041
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data17",
+     "mean_em_points": -0.167,
+     "marginal_ci95": [
+      -1.794,
+      1.463
+     ],
+     "bonferroni_ci": [
+      -2.671,
+      2.34
+     ],
+     "maxt_ci": [
+      -3.235,
+      2.9
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data23",
+     "mean_em_points": 0.985,
+     "marginal_ci95": [
+      -0.155,
+      2.265
+     ],
+     "bonferroni_ci": [
+      -0.625,
+      3.041
+     ],
+     "maxt_ci": [
+      -1.321,
+      3.291
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data29",
+     "mean_em_points": 0.0,
+     "marginal_ci95": [
+      0.0,
+      0.0
+     ],
+     "bonferroni_ci": [
+      0.0,
+      0.0
+     ],
+     "maxt_ci": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "cell": "wiki25m_guarded_qwen3b",
+     "mean_em_points": -0.104,
+     "marginal_ci95": [
+      -0.472,
+      0.463
+     ],
+     "bonferroni_ci": [
+      -0.574,
+      0.913
+     ],
+     "maxt_ci": [
+      -1.031,
+      0.822
+     ]
+    }
+   ]
+  },
+  "stop_classifier": {
+   "n_cells": 18,
+   "maxt_critical_value": 9.7296,
+   "counts": {
+    "marginal_win": 3,
+    "bonferroni_win": 1,
+    "maxt_win": 0,
+    "marginal_loss": 1
+   },
+   "cells": [
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data17",
+     "mean_em_points": 1.615,
+     "marginal_ci95": [
+      0.004,
+      3.226
+     ],
+     "bonferroni_ci": [
+      -0.809,
+      4.067
+     ],
+     "maxt_ci": [
+      -6.33,
+      9.56
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data23",
+     "mean_em_points": -2.399,
+     "marginal_ci95": [
+      -4.007,
+      -0.828
+     ],
+     "bonferroni_ci": [
+      -4.865,
+      -0.007
+     ],
+     "maxt_ci": [
+      -10.259,
+      5.461
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data29",
+     "mean_em_points": 0.974,
+     "marginal_ci95": [
+      -0.839,
+      2.769
+     ],
+     "bonferroni_ci": [
+      -1.856,
+      3.716
+     ],
+     "maxt_ci": [
+      -7.928,
+      9.877
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data17",
+     "mean_em_points": 2.61,
+     "marginal_ci95": [
+      0.143,
+      4.89
+     ],
+     "bonferroni_ci": [
+      -1.264,
+      6.011
+     ],
+     "maxt_ci": [
+      -9.102,
+      14.322
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data23",
+     "mean_em_points": -0.182,
+     "marginal_ci95": [
+      -3.772,
+      3.198
+     ],
+     "bonferroni_ci": [
+      -5.689,
+      4.911
+     ],
+     "maxt_ci": [
+      -17.465,
+      17.1
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data29",
+     "mean_em_points": 0.322,
+     "marginal_ci95": [
+      -1.549,
+      1.761
+     ],
+     "bonferroni_ci": [
+      -2.69,
+      2.227
+     ],
+     "maxt_ci": [
+      -8.013,
+      8.658
+     ]
+    },
+    {
+     "cell": "corpus_guarded_llama3b_data17",
+     "mean_em_points": 0.275,
+     "marginal_ci95": [
+      -1.972,
+      2.525
+     ],
+     "bonferroni_ci": [
+      -3.256,
+      3.853
+     ],
+     "maxt_ci": [
+      -10.893,
+      11.443
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b",
+     "mean_em_points": -0.026,
+     "marginal_ci95": [
+      -1.211,
+      1.158
+     ],
+     "bonferroni_ci": [
+      -1.753,
+      1.882
+     ],
+     "maxt_ci": [
+      -5.748,
+      5.695
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data17",
+     "mean_em_points": -1.136,
+     "marginal_ci95": [
+      -2.627,
+      0.316
+     ],
+     "bonferroni_ci": [
+      -3.584,
+      1.053
+     ],
+     "maxt_ci": [
+      -8.314,
+      6.041
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data23",
+     "mean_em_points": 0.474,
+     "marginal_ci95": [
+      -1.23,
+      2.224
+     ],
+     "bonferroni_ci": [
+      -1.981,
+      3.178
+     ],
+     "maxt_ci": [
+      -7.94,
+      8.888
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data29",
+     "mean_em_points": 0.105,
+     "marginal_ci95": [
+      0.053,
+      0.162
+     ],
+     "bonferroni_ci": [
+      0.026,
+      0.188
+     ],
+     "maxt_ci": [
+      -0.166,
+      0.376
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data31",
+     "mean_em_points": -1.375,
+     "marginal_ci95": [
+      -2.875,
+      0.125
+     ],
+     "bonferroni_ci": [
+      -3.75,
+      0.875
+     ],
+     "maxt_ci": [
+      -8.95,
+      6.2
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed11",
+     "mean_em_points": 0.13,
+     "marginal_ci95": [
+      -0.595,
+      0.86
+     ],
+     "bonferroni_ci": [
+      -0.9,
+      1.161
+     ],
+     "maxt_ci": [
+      -3.256,
+      3.516
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed19",
+     "mean_em_points": -0.085,
+     "marginal_ci95": [
+      -1.965,
+      1.802
+     ],
+     "bonferroni_ci": [
+      -3.012,
+      2.827
+     ],
+     "maxt_ci": [
+      -9.337,
+      9.167
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data17",
+     "mean_em_points": 0.683,
+     "marginal_ci95": [
+      -0.817,
+      2.231
+     ],
+     "bonferroni_ci": [
+      -1.57,
+      3.033
+     ],
+     "maxt_ci": [
+      -6.76,
+      8.126
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data23",
+     "mean_em_points": -0.14,
+     "marginal_ci95": [
+      -0.661,
+      0.151
+     ],
+     "bonferroni_ci": [
+      -1.099,
+      0.192
+     ],
+     "maxt_ci": [
+      -2.527,
+      2.247
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data29",
+     "mean_em_points": 0.31,
+     "marginal_ci95": [
+      -0.22,
+      1.06
+     ],
+     "bonferroni_ci": [
+      -0.29,
+      1.56
+     ],
+     "maxt_ci": [
+      -3.032,
+      3.652
+     ]
+    },
+    {
+     "cell": "wiki25m_guarded_qwen3b",
+     "mean_em_points": 0.0,
+     "marginal_ci95": [
+      0.0,
+      0.0
+     ],
+     "bonferroni_ci": [
+      0.0,
+      0.0
+     ],
+     "maxt_ci": [
+      0.0,
+      0.0
+     ]
+    }
+   ]
+  },
+  "sufficiency_gate": {
+   "n_cells": 18,
+   "maxt_critical_value": 3.186,
+   "counts": {
+    "marginal_win": 1,
+    "bonferroni_win": 1,
+    "maxt_win": 0,
+    "marginal_loss": 0
+   },
+   "cells": [
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data17",
+     "mean_em_points": -1.5,
+     "marginal_ci95": [
+      -3.0,
+      0.0
+     ],
+     "bonferroni_ci": [
+      -4.0,
+      0.75
+     ],
+     "maxt_ci": [
+      -4.011,
+      1.011
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data23",
+     "mean_em_points": -0.25,
+     "marginal_ci95": [
+      -1.5,
+      1.0
+     ],
+     "bonferroni_ci": [
+      -2.25,
+      1.75
+     ],
+     "maxt_ci": [
+      -2.36,
+      1.86
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data29",
+     "mean_em_points": -0.5,
+     "marginal_ci95": [
+      -2.75,
+      1.75
+     ],
+     "bonferroni_ci": [
+      -4.25,
+      3.0
+     ],
+     "maxt_ci": [
+      -4.24,
+      3.24
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data17",
+     "mean_em_points": 0.703,
+     "marginal_ci95": [
+      -0.5,
+      2.0
+     ],
+     "bonferroni_ci": [
+      -1.188,
+      2.8
+     ],
+     "maxt_ci": [
+      -1.384,
+      2.79
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data23",
+     "mean_em_points": 0.435,
+     "marginal_ci95": [
+      0.0,
+      1.015
+     ],
+     "bonferroni_ci": [
+      0.0,
+      1.305
+     ],
+     "maxt_ci": [
+      -0.361,
+      1.231
+     ]
+    },
+    {
+     "cell": "corpus_guarded_haiku45_data29",
+     "mean_em_points": 0.5,
+     "marginal_ci95": [
+      -1.0,
+      2.5
+     ],
+     "bonferroni_ci": [
+      -2.0,
+      3.5
+     ],
+     "maxt_ci": [
+      -2.264,
+      3.264
+     ]
+    },
+    {
+     "cell": "corpus_guarded_llama3b_data17",
+     "mean_em_points": -0.042,
+     "marginal_ci95": [
+      -0.973,
+      0.862
+     ],
+     "bonferroni_ci": [
+      -1.5,
+      1.374
+     ],
+     "maxt_ci": [
+      -1.522,
+      1.439
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b",
+     "mean_em_points": -0.5,
+     "marginal_ci95": [
+      -1.25,
+      0.0
+     ],
+     "bonferroni_ci": [
+      -1.75,
+      0.0
+     ],
+     "maxt_ci": [
+      -1.625,
+      0.625
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data17",
+     "mean_em_points": -1.25,
+     "marginal_ci95": [
+      -3.0,
+      0.25
+     ],
+     "bonferroni_ci": [
+      -4.0,
+      1.056
+     ],
+     "maxt_ci": [
+      -3.887,
+      1.387
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data23",
+     "mean_em_points": 0.144,
+     "marginal_ci95": [
+      0.041,
+      0.268
+     ],
+     "bonferroni_ci": [
+      0.021,
+      0.33
+     ],
+     "maxt_ci": [
+      -0.028,
+      0.317
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data29",
+     "mean_em_points": -0.5,
+     "marginal_ci95": [
+      -2.0,
+      1.0
+     ],
+     "bonferroni_ci": [
+      -3.0,
+      1.75
+     ],
+     "maxt_ci": [
+      -3.021,
+      2.021
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data31",
+     "mean_em_points": -0.024,
+     "marginal_ci95": [
+      -0.85,
+      0.751
+     ],
+     "bonferroni_ci": [
+      -1.399,
+      1.206
+     ],
+     "maxt_ci": [
+      -1.313,
+      1.264
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed11",
+     "mean_em_points": -0.75,
+     "marginal_ci95": [
+      -3.0,
+      1.5
+     ],
+     "bonferroni_ci": [
+      -4.25,
+      2.75
+     ],
+     "maxt_ci": [
+      -4.403,
+      2.903
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed19",
+     "mean_em_points": 0.0,
+     "marginal_ci95": [
+      -0.75,
+      0.75
+     ],
+     "bonferroni_ci": [
+      -1.25,
+      1.25
+     ],
+     "maxt_ci": [
+      -1.128,
+      1.128
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data17",
+     "mean_em_points": 0.0,
+     "marginal_ci95": [
+      0.0,
+      0.0
+     ],
+     "bonferroni_ci": [
+      0.0,
+      0.0
+     ],
+     "maxt_ci": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data23",
+     "mean_em_points": 0.0,
+     "marginal_ci95": [
+      0.0,
+      0.0
+     ],
+     "bonferroni_ci": [
+      0.0,
+      0.0
+     ],
+     "maxt_ci": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data29",
+     "mean_em_points": 0.0,
+     "marginal_ci95": [
+      0.0,
+      0.0
+     ],
+     "bonferroni_ci": [
+      0.0,
+      0.0
+     ],
+     "maxt_ci": [
+      0.0,
+      0.0
+     ]
+    },
+    {
+     "cell": "wiki25m_guarded_qwen3b",
+     "mean_em_points": -1.5,
+     "marginal_ci95": [
+      -3.5,
+      0.5
+     ],
+     "bonferroni_ci": [
+      -4.75,
+      1.75
+     ],
+     "maxt_ci": [
+      -4.875,
+      1.875
+     ]
+    }
+   ]
+  },
+  "tasr": {
+   "n_cells": 12,
+   "maxt_critical_value": 11.4361,
+   "counts": {
+    "marginal_win": 0,
+    "bonferroni_win": 0,
+    "maxt_win": 0,
+    "marginal_loss": 0
+   },
+   "cells": [
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data17",
+     "mean_em_points": -1.0,
+     "marginal_ci95": [
+      -2.5,
+      0.25
+     ],
+     "bonferroni_ci": [
+      -3.25,
+      1.0
+     ],
+     "maxt_ci": [
+      -9.076,
+      7.076
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data23",
+     "mean_em_points": 0.0,
+     "marginal_ci95": [
+      -1.5,
+      1.5
+     ],
+     "bonferroni_ci": [
+      -2.0,
+      2.0
+     ],
+     "maxt_ci": [
+      -8.097,
+      8.097
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data29",
+     "mean_em_points": -0.75,
+     "marginal_ci95": [
+      -3.0,
+      1.5
+     ],
+     "bonferroni_ci": [
+      -4.0,
+      2.5
+     ],
+     "maxt_ci": [
+      -13.861,
+      12.361
+     ]
+    },
+    {
+     "cell": "corpus_guarded_llama3b_data17",
+     "mean_em_points": -0.51,
+     "marginal_ci95": [
+      -2.19,
+      1.12
+     ],
+     "bonferroni_ci": [
+      -3.013,
+      1.893
+     ],
+     "maxt_ci": [
+      -10.23,
+      9.21
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b",
+     "mean_em_points": -0.17,
+     "marginal_ci95": [
+      -1.34,
+      0.96
+     ],
+     "bonferroni_ci": [
+      -1.883,
+      1.563
+     ],
+     "maxt_ci": [
+      -6.876,
+      6.536
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data23",
+     "mean_em_points": 0.369,
+     "marginal_ci95": [
+      -0.717,
+      1.511
+     ],
+     "bonferroni_ci": [
+      -1.272,
+      2.076
+     ],
+     "maxt_ci": [
+      -6.127,
+      6.866
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data29",
+     "mean_em_points": 0.25,
+     "marginal_ci95": [
+      -1.0,
+      1.5
+     ],
+     "bonferroni_ci": [
+      -1.584,
+      2.25
+     ],
+     "maxt_ci": [
+      -7.322,
+      7.822
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data31",
+     "mean_em_points": 0.529,
+     "marginal_ci95": [
+      -0.564,
+      1.644
+     ],
+     "bonferroni_ci": [
+      -1.064,
+      2.177
+     ],
+     "maxt_ci": [
+      -5.913,
+      6.971
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data17",
+     "mean_em_points": -0.553,
+     "marginal_ci95": [
+      -1.454,
+      0.123
+     ],
+     "bonferroni_ci": [
+      -1.929,
+      0.272
+     ],
+     "maxt_ci": [
+      -5.142,
+      4.037
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data23",
+     "mean_em_points": -0.487,
+     "marginal_ci95": [
+      -1.223,
+      0.027
+     ],
+     "bonferroni_ci": [
+      -1.683,
+      0.081
+     ],
+     "maxt_ci": [
+      -4.341,
+      3.368
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data29",
+     "mean_em_points": 0.037,
+     "marginal_ci95": [
+      -0.007,
+      0.082
+     ],
+     "bonferroni_ci": [
+      -0.022,
+      0.105
+     ],
+     "maxt_ci": [
+      -0.219,
+      0.294
+     ]
+    },
+    {
+     "cell": "wiki25m_guarded_qwen3b",
+     "mean_em_points": -1.75,
+     "marginal_ci95": [
+      -3.75,
+      0.0
+     ],
+     "bonferroni_ci": [
+      -4.75,
+      1.0
+     ],
+     "maxt_ci": [
+      -12.791,
+      9.291
+     ]
+    }
+   ]
+  },
+  "stoprag": {
+   "n_cells": 14,
+   "maxt_critical_value": 3.5941,
+   "counts": {
+    "marginal_win": 0,
+    "bonferroni_win": 0,
+    "maxt_win": 0,
+    "marginal_loss": 3
+   },
+   "cells": [
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data17",
+     "mean_em_points": -1.75,
+     "marginal_ci95": [
+      -4.0,
+      0.5
+     ],
+     "bonferroni_ci": [
+      -5.25,
+      1.5
+     ],
+     "maxt_ci": [
+      -5.861,
+      2.361
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data23",
+     "mean_em_points": -1.25,
+     "marginal_ci95": [
+      -3.25,
+      0.5
+     ],
+     "bonferroni_ci": [
+      -4.25,
+      1.5
+     ],
+     "maxt_ci": [
+      -4.727,
+      2.227
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data29",
+     "mean_em_points": 0.5,
+     "marginal_ci95": [
+      -1.75,
+      2.75
+     ],
+     "bonferroni_ci": [
+      -2.75,
+      3.75
+     ],
+     "maxt_ci": [
+      -3.522,
+      4.522
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b",
+     "mean_em_points": -2.609,
+     "marginal_ci95": [
+      -4.574,
+      -0.752
+     ],
+     "bonferroni_ci": [
+      -5.61,
+      0.07
+     ],
+     "maxt_ci": [
+      -6.096,
+      0.878
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data17",
+     "mean_em_points": -0.25,
+     "marginal_ci95": [
+      -1.5,
+      1.0
+     ],
+     "bonferroni_ci": [
+      -2.25,
+      1.75
+     ],
+     "maxt_ci": [
+      -2.63,
+      2.13
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data23",
+     "mean_em_points": -0.589,
+     "marginal_ci95": [
+      -1.651,
+      0.378
+     ],
+     "bonferroni_ci": [
+      -2.212,
+      0.878
+     ],
+     "maxt_ci": [
+      -2.435,
+      1.256
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data29",
+     "mean_em_points": -1.0,
+     "marginal_ci95": [
+      -2.75,
+      0.75
+     ],
+     "bonferroni_ci": [
+      -3.572,
+      1.5
+     ],
+     "maxt_ci": [
+      -4.111,
+      2.111
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data31",
+     "mean_em_points": -0.999,
+     "marginal_ci95": [
+      -3.138,
+      1.112
+     ],
+     "bonferroni_ci": [
+      -4.222,
+      2.112
+     ],
+     "maxt_ci": [
+      -4.898,
+      2.9
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed11",
+     "mean_em_points": -3.0,
+     "marginal_ci95": [
+      -5.5,
+      -0.5
+     ],
+     "bonferroni_ci": [
+      -7.0,
+      0.5
+     ],
+     "maxt_ci": [
+      -7.555,
+      1.555
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed19",
+     "mean_em_points": -1.25,
+     "marginal_ci95": [
+      -3.0,
+      0.5
+     ],
+     "bonferroni_ci": [
+      -4.0,
+      1.25
+     ],
+     "maxt_ci": [
+      -4.486,
+      1.986
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data17",
+     "mean_em_points": -0.197,
+     "marginal_ci95": [
+      -1.061,
+      0.454
+     ],
+     "bonferroni_ci": [
+      -1.626,
+      0.654
+     ],
+     "maxt_ci": [
+      -1.594,
+      1.199
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data23",
+     "mean_em_points": 0.013,
+     "marginal_ci95": [
+      -0.079,
+      0.105
+     ],
+     "bonferroni_ci": [
+      -0.131,
+      0.158
+     ],
+     "maxt_ci": [
+      -0.157,
+      0.183
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data29",
+     "mean_em_points": -2.852,
+     "marginal_ci95": [
+      -5.061,
+      -0.703
+     ],
+     "bonferroni_ci": [
+      -6.291,
+      0.323
+     ],
+     "maxt_ci": [
+      -6.851,
+      1.147
+     ]
+    },
+    {
+     "cell": "wiki25m_guarded_qwen3b",
+     "mean_em_points": -1.5,
+     "marginal_ci95": [
+      -3.5,
+      0.5
+     ],
+     "bonferroni_ci": [
+      -4.5,
+      1.25
+     ],
+     "maxt_ci": [
+      -5.088,
+      2.088
+     ]
+    }
+   ]
+  },
+  "semantic_guard": {
+   "n_cells": 14,
+   "maxt_critical_value": 3.1561,
+   "counts": {
+    "marginal_win": 0,
+    "bonferroni_win": 0,
+    "maxt_win": 0,
+    "marginal_loss": 3
+   },
+   "cells": [
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data17",
+     "mean_em_points": -1.5,
+     "marginal_ci95": [
+      -3.0,
+      0.0
+     ],
+     "bonferroni_ci": [
+      -4.0,
+      0.5
+     ],
+     "maxt_ci": [
+      -3.987,
+      0.987
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data23",
+     "mean_em_points": -1.5,
+     "marginal_ci95": [
+      -2.75,
+      -0.5
+     ],
+     "bonferroni_ci": [
+      -3.5,
+      0.0
+     ],
+     "maxt_ci": [
+      -3.421,
+      0.421
+     ]
+    },
+    {
+     "cell": "corpus2wiki_guarded_qwen3b_data29",
+     "mean_em_points": -0.75,
+     "marginal_ci95": [
+      -2.5,
+      0.75
+     ],
+     "bonferroni_ci": [
+      -3.25,
+      1.75
+     ],
+     "maxt_ci": [
+      -3.367,
+      1.867
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b",
+     "mean_em_points": -0.758,
+     "marginal_ci95": [
+      -1.978,
+      0.47
+     ],
+     "bonferroni_ci": [
+      -2.522,
+      0.992
+     ],
+     "maxt_ci": [
+      -2.68,
+      1.165
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data17",
+     "mean_em_points": -2.2,
+     "marginal_ci95": [
+      -3.82,
+      -0.71
+     ],
+     "bonferroni_ci": [
+      -4.616,
+      -0.08
+     ],
+     "maxt_ci": [
+      -4.722,
+      0.322
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data23",
+     "mean_em_points": -0.15,
+     "marginal_ci95": [
+      -1.61,
+      1.315
+     ],
+     "bonferroni_ci": [
+      -2.331,
+      2.08
+     ],
+     "maxt_ci": [
+      -2.479,
+      2.179
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data29",
+     "mean_em_points": 0.5,
+     "marginal_ci95": [
+      0.0,
+      1.25
+     ],
+     "bonferroni_ci": [
+      0.0,
+      1.75
+     ],
+     "maxt_ci": [
+      -0.614,
+      1.614
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_data31",
+     "mean_em_points": 0.82,
+     "marginal_ci95": [
+      -0.381,
+      2.022
+     ],
+     "bonferroni_ci": [
+      -0.905,
+      2.534
+     ],
+     "maxt_ci": [
+      -1.086,
+      2.727
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed11",
+     "mean_em_points": -1.0,
+     "marginal_ci95": [
+      -2.75,
+      0.75
+     ],
+     "bonferroni_ci": [
+      -3.822,
+      1.75
+     ],
+     "maxt_ci": [
+      -3.952,
+      1.952
+     ]
+    },
+    {
+     "cell": "corpus_guarded_qwen3b_seed19",
+     "mean_em_points": -0.25,
+     "marginal_ci95": [
+      -1.25,
+      0.5
+     ],
+     "bonferroni_ci": [
+      -1.5,
+      1.0
+     ],
+     "maxt_ci": [
+      -1.618,
+      1.118
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data17",
+     "mean_em_points": -0.515,
+     "marginal_ci95": [
+      -1.765,
+      0.72
+     ],
+     "bonferroni_ci": [
+      -2.399,
+      1.316
+     ],
+     "maxt_ci": [
+      -2.52,
+      1.49
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data23",
+     "mean_em_points": -0.874,
+     "marginal_ci95": [
+      -1.752,
+      0.0
+     ],
+     "bonferroni_ci": [
+      -2.251,
+      0.376
+     ],
+     "maxt_ci": [
+      -2.292,
+      0.545
+     ]
+    },
+    {
+     "cell": "corpusmusique_guarded_qwen3b_data29",
+     "mean_em_points": -0.472,
+     "marginal_ci95": [
+      -1.594,
+      0.556
+     ],
+     "bonferroni_ci": [
+      -2.189,
+      1.023
+     ],
+     "maxt_ci": [
+      -2.193,
+      1.249
+     ]
+    },
+    {
+     "cell": "wiki25m_guarded_qwen3b",
+     "mean_em_points": -1.75,
+     "marginal_ci95": [
+      -3.25,
+      -0.25
+     ],
+     "bonferroni_ci": [
+      -4.0,
+      0.25
+     ],
+     "maxt_ci": [
+      -4.104,
+      0.604
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,1619 @@
+{
+ "what": "hop-depth, evidence-length and retrieval-ambiguity strata; paired guarded-minus-full contrasts inside each stratum",
+ "verdict_vocabulary": {
+  "win": "95% CI entirely above 0",
+  "loss": "95% CI entirely below 0",
+  "unresolved": "95% CI contains 0; NOT evidence of equivalence"
+ },
+ "note": "no easy/hard contrast is available: the HotpotQA cells are 100% level='hard' and the other datasets carry no difficulty label. That subgroup is not reported rather than invented.",
+ "cells": [
+  {
+   "tag": "corpus_guarded_qwen3b",
+   "label": "Corpus (seed 7, q-sample A)",
+   "n_test": 400,
+   "full_budget_em": 24.5,
+   "guarded_em": 24.75,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 136,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 21.324,
+      "stratum_mean_value": 70.2647
+     },
+     "mid": {
+      "n": 134,
+      "mean_em_points": -0.746,
+      "ci95": [
+       -2.239,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 25.373,
+      "stratum_mean_value": 119.8284
+     },
+     "high": {
+      "n": 130,
+      "mean_em_points": 1.538,
+      "ci95": [
+       -1.538,
+       4.615
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 26.923,
+      "stratum_mean_value": 185.5462
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -0.746,
+      "ci95": [
+       -2.239,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 22.388,
+      "stratum_mean_value": 0.0897
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": 1.504,
+      "ci95": [
+       -1.504,
+       4.511
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 24.06,
+      "stratum_mean_value": 0.144
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 27.068,
+      "stratum_mean_value": 0.2559
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed11",
+   "label": "Corpus (seed 11, q-sample A)",
+   "n_test": 400,
+   "full_budget_em": 25.0,
+   "guarded_em": 25.25,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 137,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 21.898,
+      "stratum_mean_value": 70.4526
+     },
+     "mid": {
+      "n": 135,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.222,
+       2.222
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 26.667,
+      "stratum_mean_value": 119.0963
+     },
+     "high": {
+      "n": 128,
+      "mean_em_points": 0.781,
+      "ci95": [
+       -2.344,
+       3.906
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 26.562,
+      "stratum_mean_value": 186.2578
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.985,
+       2.985
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 23.134,
+      "stratum_mean_value": 0.0895
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": 0.752,
+      "ci95": [
+       -1.504,
+       3.759
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 23.308,
+      "stratum_mean_value": 0.144
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 28.571,
+      "stratum_mean_value": 0.256
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_seed19",
+   "label": "Corpus (seed 19, q-sample A)",
+   "n_test": 400,
+   "full_budget_em": 26.0,
+   "guarded_em": 25.5,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 135,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 20.741,
+      "stratum_mean_value": 70.4074
+     },
+     "mid": {
+      "n": 134,
+      "mean_em_points": -1.493,
+      "ci95": [
+       -3.731,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 28.358,
+      "stratum_mean_value": 118.7463
+     },
+     "high": {
+      "n": 131,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.29,
+       2.29
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 29.008,
+      "stratum_mean_value": 186.7252
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -1.493,
+      "ci95": [
+       -3.731,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 24.627,
+      "stratum_mean_value": 0.0897
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.256,
+       2.256
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 24.812,
+      "stratum_mean_value": 0.1423
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 28.571,
+      "stratum_mean_value": 0.2552
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data17",
+   "label": "Corpus (seed 7, q-sample B)",
+   "n_test": 400,
+   "full_budget_em": 31.25,
+   "guarded_em": 29.25,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 135,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 31.852,
+      "stratum_mean_value": 75.037
+     },
+     "mid": {
+      "n": 132,
+      "mean_em_points": -0.758,
+      "ci95": [
+       -3.03,
+       1.515
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 31.061,
+      "stratum_mean_value": 123.5833
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": -5.263,
+      "ci95": [
+       -9.023,
+       -1.504
+      ],
+      "verdict": "loss",
+      "full_budget_em": 30.827,
+      "stratum_mean_value": 195.6842
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -3.731,
+      "ci95": [
+       -7.463,
+       -0.746
+      ],
+      "verdict": "loss",
+      "full_budget_em": 29.104,
+      "stratum_mean_value": 0.0846
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -2.256,
+      "ci95": [
+       -5.263,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 27.82,
+      "stratum_mean_value": 0.1343
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.256,
+       2.256
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 36.842,
+      "stratum_mean_value": 0.2296
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data23",
+   "label": "Corpus (seed 7, q-sample C)",
+   "n_test": 400,
+   "full_budget_em": 26.5,
+   "guarded_em": 23.25,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 135,
+      "mean_em_points": -0.741,
+      "ci95": [
+       -2.222,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 28.148,
+      "stratum_mean_value": 76.1852
+     },
+     "mid": {
+      "n": 136,
+      "mean_em_points": -1.471,
+      "ci95": [
+       -4.412,
+       1.471
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 20.588,
+      "stratum_mean_value": 127.6985
+     },
+     "high": {
+      "n": 129,
+      "mean_em_points": -7.752,
+      "ci95": [
+       -13.178,
+       -3.101
+      ],
+      "verdict": "loss",
+      "full_budget_em": 31.008,
+      "stratum_mean_value": 199.0
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -3.731,
+      "ci95": [
+       -7.463,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 24.627,
+      "stratum_mean_value": 0.0874
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -2.256,
+      "ci95": [
+       -6.015,
+       0.752
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 26.316,
+      "stratum_mean_value": 0.1439
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": -3.759,
+      "ci95": [
+       -7.519,
+       -0.752
+      ],
+      "verdict": "loss",
+      "full_budget_em": 28.571,
+      "stratum_mean_value": 0.2451
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data29",
+   "label": "Corpus (seed 7, q-sample D)",
+   "n_test": 400,
+   "full_budget_em": 25.5,
+   "guarded_em": 27.0,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 137,
+      "mean_em_points": -0.73,
+      "ci95": [
+       -2.19,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 24.818,
+      "stratum_mean_value": 75.6715
+     },
+     "mid": {
+      "n": 131,
+      "mean_em_points": 1.527,
+      "ci95": [
+       0.0,
+       3.817
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 28.244,
+      "stratum_mean_value": 123.8397
+     },
+     "high": {
+      "n": 132,
+      "mean_em_points": 3.788,
+      "ci95": [
+       0.0,
+       7.576
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 23.485,
+      "stratum_mean_value": 191.1742
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.239,
+       2.239
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 24.627,
+      "stratum_mean_value": 0.0892
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": 3.759,
+      "ci95": [
+       0.752,
+       7.519
+      ],
+      "verdict": "win",
+      "full_budget_em": 25.564,
+      "stratum_mean_value": 0.1414
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.752,
+      "ci95": [
+       -1.504,
+       3.759
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 26.316,
+      "stratum_mean_value": 0.2473
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_qwen3b_data31",
+   "label": "Corpus (seed 7, q-sample E)",
+   "n_test": 400,
+   "full_budget_em": 34.25,
+   "guarded_em": 34.25,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 137,
+      "mean_em_points": -0.73,
+      "ci95": [
+       -2.19,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 35.036,
+      "stratum_mean_value": 73.6934
+     },
+     "mid": {
+      "n": 132,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 34.091,
+      "stratum_mean_value": 119.6515
+     },
+     "high": {
+      "n": 131,
+      "mean_em_points": 0.763,
+      "ci95": [
+       0.0,
+       2.29
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 33.588,
+      "stratum_mean_value": 185.5725
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 26.866,
+      "stratum_mean_value": 0.0879
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.256,
+       2.256
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 45.113,
+      "stratum_mean_value": 0.1438
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 30.827,
+      "stratum_mean_value": 0.2446
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data17",
+   "label": "2Wiki corpus (seed 7, draw 1)",
+   "n_test": 400,
+   "full_budget_em": 23.25,
+   "guarded_em": 23.5,
+   "strata": {
+    "hop_depth": {
+     "2": {
+      "n": 307,
+      "mean_em_points": -1.954,
+      "ci95": [
+       -3.909,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 20.847
+     },
+     "4": {
+      "n": 93,
+      "mean_em_points": 7.527,
+      "ci95": [
+       2.151,
+       13.978
+      ],
+      "verdict": "win",
+      "full_budget_em": 31.183
+     }
+    },
+    "evidence_length_tokens": {
+     "low": {
+      "n": 136,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 18.382,
+      "stratum_mean_value": 58.6765
+     },
+     "mid": {
+      "n": 136,
+      "mean_em_points": -0.735,
+      "ci95": [
+       -4.412,
+       2.941
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 20.588,
+      "stratum_mean_value": 105.0147
+     },
+     "high": {
+      "n": 128,
+      "mean_em_points": 1.562,
+      "ci95": [
+       -3.906,
+       7.031
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 31.25,
+      "stratum_mean_value": 161.1719
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": 4.478,
+      "ci95": [
+       0.0,
+       8.955
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 31.343,
+      "stratum_mean_value": 0.0825
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -3.008,
+      "ci95": [
+       -7.519,
+       0.752
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 24.06,
+      "stratum_mean_value": 0.1407
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": -0.752,
+      "ci95": [
+       -2.256,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 14.286,
+      "stratum_mean_value": 0.2981
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data23",
+   "label": "2Wiki corpus (seed 7, draw 2)",
+   "n_test": 400,
+   "full_budget_em": 25.25,
+   "guarded_em": 23.5,
+   "strata": {
+    "hop_depth": {
+     "2": {
+      "n": 320,
+      "mean_em_points": -0.938,
+      "ci95": [
+       -2.5,
+       0.625
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 22.188
+     },
+     "4": {
+      "n": 80,
+      "mean_em_points": -5.0,
+      "ci95": [
+       -12.5,
+       1.25
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 37.5
+     }
+    },
+    "evidence_length_tokens": {
+     "low": {
+      "n": 137,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 21.168,
+      "stratum_mean_value": 61.8102
+     },
+     "mid": {
+      "n": 132,
+      "mean_em_points": -2.273,
+      "ci95": [
+       -6.061,
+       0.758
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 27.273,
+      "stratum_mean_value": 106.2576
+     },
+     "high": {
+      "n": 131,
+      "mean_em_points": -3.053,
+      "ci95": [
+       -7.634,
+       1.527
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 27.481,
+      "stratum_mean_value": 157.8473
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -0.746,
+      "ci95": [
+       -3.731,
+       2.239
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 27.612,
+      "stratum_mean_value": 0.0835
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -4.511,
+      "ci95": [
+       -9.023,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 32.331,
+      "stratum_mean_value": 0.1402
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 15.789,
+      "stratum_mean_value": 0.2793
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpus2wiki_guarded_qwen3b_data29",
+   "label": "2Wiki corpus (seed 7, draw 3)",
+   "n_test": 400,
+   "full_budget_em": 25.5,
+   "guarded_em": 25.75,
+   "strata": {
+    "hop_depth": {
+     "2": {
+      "n": 315,
+      "mean_em_points": -0.635,
+      "ci95": [
+       -1.905,
+       0.635
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 22.222
+     },
+     "4": {
+      "n": 85,
+      "mean_em_points": 3.529,
+      "ci95": [
+       -3.529,
+       11.765
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 37.647
+     }
+    },
+    "evidence_length_tokens": {
+     "low": {
+      "n": 135,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 21.481,
+      "stratum_mean_value": 61.8444
+     },
+     "mid": {
+      "n": 132,
+      "mean_em_points": -0.758,
+      "ci95": [
+       -3.788,
+       1.515
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 31.061,
+      "stratum_mean_value": 106.2803
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 1.504,
+      "ci95": [
+       -3.759,
+       6.767
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 24.06,
+      "stratum_mean_value": 162.9699
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": 1.493,
+      "ci95": [
+       -2.985,
+       5.97
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 32.09,
+      "stratum_mean_value": 0.0772
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -3.008,
+       3.008
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 31.579,
+      "stratum_mean_value": 0.1286
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": -0.752,
+      "ci95": [
+       -2.256,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 12.782,
+      "stratum_mean_value": 0.2561
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data17",
+   "label": "MuSiQue corpus (seed 7, draw 1)",
+   "n_test": 400,
+   "full_budget_em": 9.25,
+   "guarded_em": 7.5,
+   "strata": {
+    "hop_depth": {
+     "2": {
+      "n": 188,
+      "mean_em_points": -2.128,
+      "ci95": [
+       -4.255,
+       -0.532
+      ],
+      "verdict": "loss",
+      "full_budget_em": 12.234
+     },
+     "3": {
+      "n": 144,
+      "mean_em_points": -2.083,
+      "ci95": [
+       -4.861,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 9.722
+     },
+     "4": {
+      "n": 68,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 0.0
+     }
+    },
+    "evidence_length_tokens": {
+     "low": {
+      "n": 135,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 8.148,
+      "stratum_mean_value": 294.1111
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -3.008,
+      "ci95": [
+       -6.015,
+       -0.752
+      ],
+      "verdict": "loss",
+      "full_budget_em": 10.526,
+      "stratum_mean_value": 517.7594
+     },
+     "high": {
+      "n": 132,
+      "mean_em_points": -2.273,
+      "ci95": [
+       -5.303,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 9.091,
+      "stratum_mean_value": 839.5985
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -2.239,
+      "ci95": [
+       -5.224,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 10.448,
+      "stratum_mean_value": 0.079
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -2.256,
+      "ci95": [
+       -5.263,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 9.774,
+      "stratum_mean_value": 0.1045
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": -0.752,
+      "ci95": [
+       -2.256,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 7.519,
+      "stratum_mean_value": 0.1754
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data23",
+   "label": "MuSiQue corpus (seed 7, draw 2)",
+   "n_test": 400,
+   "full_budget_em": 10.25,
+   "guarded_em": 9.25,
+   "strata": {
+    "hop_depth": {
+     "2": {
+      "n": 216,
+      "mean_em_points": -0.463,
+      "ci95": [
+       -2.315,
+       0.926
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 14.815
+     },
+     "3": {
+      "n": 126,
+      "mean_em_points": -2.381,
+      "ci95": [
+       -6.349,
+       0.794
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 6.349
+     },
+     "4": {
+      "n": 58,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 1.724
+     }
+    },
+    "evidence_length_tokens": {
+     "low": {
+      "n": 134,
+      "mean_em_points": 0.746,
+      "ci95": [
+       0.0,
+       2.239
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 15.672,
+      "stratum_mean_value": 270.903
+     },
+     "mid": {
+      "n": 134,
+      "mean_em_points": -1.493,
+      "ci95": [
+       -4.478,
+       1.493
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 8.209,
+      "stratum_mean_value": 490.5597
+     },
+     "high": {
+      "n": 132,
+      "mean_em_points": -2.273,
+      "ci95": [
+       -5.303,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 6.818,
+      "stratum_mean_value": 799.2197
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.239,
+       2.239
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 7.463,
+      "stratum_mean_value": 0.0789
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -3.008,
+      "ci95": [
+       -6.015,
+       -0.752
+      ],
+      "verdict": "loss",
+      "full_budget_em": 11.278,
+      "stratum_mean_value": 0.105
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.256,
+       2.256
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 12.03,
+      "stratum_mean_value": 0.1796
+     }
+    }
+   }
+  },
+  {
+   "tag": "corpusmusique_guarded_qwen3b_data29",
+   "label": "MuSiQue corpus (seed 7, draw 3)",
+   "n_test": 400,
+   "full_budget_em": 12.0,
+   "guarded_em": 10.75,
+   "strata": {
+    "hop_depth": {
+     "2": {
+      "n": 202,
+      "mean_em_points": -1.98,
+      "ci95": [
+       -3.96,
+       -0.495
+      ],
+      "verdict": "loss",
+      "full_budget_em": 18.812
+     },
+     "3": {
+      "n": 127,
+      "mean_em_points": -0.787,
+      "ci95": [
+       -2.362,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 7.874
+     },
+     "4": {
+      "n": 71,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 0.0
+     }
+    },
+    "evidence_length_tokens": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -0.746,
+      "ci95": [
+       -2.239,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 16.418,
+      "stratum_mean_value": 305.4627
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -2.256,
+      "ci95": [
+       -5.263,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 12.782,
+      "stratum_mean_value": 508.6316
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": -0.752,
+      "ci95": [
+       -2.256,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 6.767,
+      "stratum_mean_value": 807.0977
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -1.493,
+      "ci95": [
+       -3.731,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 7.463,
+      "stratum_mean_value": 0.0774
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -1.504,
+      "ci95": [
+       -3.759,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 9.774,
+      "stratum_mean_value": 0.1033
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": -0.752,
+      "ci95": [
+       -2.256,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 18.797,
+      "stratum_mean_value": 0.1943
+     }
+    }
+   }
+  },
+  {
+   "tag": "wiki25m_guarded_qwen3b",
+   "label": "Wikipedia 25M hybrid",
+   "n_test": 400,
+   "full_budget_em": 21.5,
+   "guarded_em": 21.25,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 134,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.239,
+       2.239
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 26.866,
+      "stratum_mean_value": 87.1493
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": 0.752,
+      "ci95": [
+       -1.504,
+       3.759
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 16.541,
+      "stratum_mean_value": 146.7143
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": -1.504,
+      "ci95": [
+       -5.263,
+       2.256
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 21.053,
+      "stratum_mean_value": 227.3759
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -0.746,
+      "ci95": [
+       -4.478,
+       2.239
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 14.179,
+      "stratum_mean_value": 0.1037
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -3.008,
+       3.008
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 28.571,
+      "stratum_mean_value": 0.1611
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.256,
+       2.256
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 21.805,
+      "stratum_mean_value": 0.2633
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_llama3b_data17",
+   "label": "Corpus / Llama-3.2-3B (q-sample B)",
+   "n_test": 400,
+   "full_budget_em": 39.0,
+   "guarded_em": 38.75,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 137,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 32.117,
+      "stratum_mean_value": 89.3139
+     },
+     "mid": {
+      "n": 131,
+      "mean_em_points": -0.763,
+      "ci95": [
+       -3.817,
+       1.527
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 41.221,
+      "stratum_mean_value": 154.8092
+     },
+     "high": {
+      "n": 132,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -2.273,
+       2.273
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 43.939,
+      "stratum_mean_value": 221.6742
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 134,
+      "mean_em_points": -0.746,
+      "ci95": [
+       -3.004,
+       1.493
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 38.06,
+      "stratum_mean_value": 0.0808
+     },
+     "mid": {
+      "n": 133,
+      "mean_em_points": -0.752,
+      "ci95": [
+       -2.256,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 38.346,
+      "stratum_mean_value": 0.119
+     },
+     "high": {
+      "n": 133,
+      "mean_em_points": 0.752,
+      "ci95": [
+       0.0,
+       2.256
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 40.602,
+      "stratum_mean_value": 0.2003
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data17",
+   "label": "Corpus / Haiku 4.5 (q-sample B)",
+   "n_test": 200,
+   "full_budget_em": 50.0,
+   "guarded_em": 49.5,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 68,
+      "mean_em_points": 1.471,
+      "ci95": [
+       0.0,
+       4.412
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 29.412,
+      "stratum_mean_value": 97.2941
+     },
+     "mid": {
+      "n": 65,
+      "mean_em_points": 1.538,
+      "ci95": [
+       -3.077,
+       7.692
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 50.769,
+      "stratum_mean_value": 157.9692
+     },
+     "high": {
+      "n": 67,
+      "mean_em_points": -4.478,
+      "ci95": [
+       -10.448,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 70.149,
+      "stratum_mean_value": 232.597
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 67,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -4.478,
+       4.478
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 61.194,
+      "stratum_mean_value": 0.0792
+     },
+     "mid": {
+      "n": 66,
+      "mean_em_points": -3.03,
+      "ci95": [
+       -9.091,
+       3.03
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 42.424,
+      "stratum_mean_value": 0.1143
+     },
+     "high": {
+      "n": 67,
+      "mean_em_points": 1.493,
+      "ci95": [
+       0.0,
+       4.478
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 46.269,
+      "stratum_mean_value": 0.1903
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data23",
+   "label": "Corpus / Haiku 4.5 (q-sample C)",
+   "n_test": 200,
+   "full_budget_em": 50.0,
+   "guarded_em": 49.5,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 68,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 39.706,
+      "stratum_mean_value": 94.3529
+     },
+     "mid": {
+      "n": 66,
+      "mean_em_points": -1.515,
+      "ci95": [
+       -4.545,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 53.03,
+      "stratum_mean_value": 167.2273
+     },
+     "high": {
+      "n": 66,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 57.576,
+      "stratum_mean_value": 236.5455
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 67,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 59.701,
+      "stratum_mean_value": 0.0808
+     },
+     "mid": {
+      "n": 66,
+      "mean_em_points": -1.515,
+      "ci95": [
+       -4.545,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 53.03,
+      "stratum_mean_value": 0.1162
+     },
+     "high": {
+      "n": 67,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 37.313,
+      "stratum_mean_value": 0.1983
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  },
+  {
+   "tag": "corpus_guarded_haiku45_data29",
+   "label": "Corpus / Haiku 4.5 (q-sample D)",
+   "n_test": 200,
+   "full_budget_em": 46.0,
+   "guarded_em": 45.0,
+   "strata": {
+    "hop_depth": null,
+    "evidence_length_tokens": {
+     "low": {
+      "n": 68,
+      "mean_em_points": 0.0,
+      "ci95": [
+       0.0,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 30.882,
+      "stratum_mean_value": 92.7941
+     },
+     "mid": {
+      "n": 65,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -4.615,
+       4.615
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 47.692,
+      "stratum_mean_value": 159.3385
+     },
+     "high": {
+      "n": 67,
+      "mean_em_points": -2.985,
+      "ci95": [
+       -7.463,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 59.701,
+      "stratum_mean_value": 238.3731
+     }
+    },
+    "retrieval_ambiguity_jaccard": {
+     "low": {
+      "n": 67,
+      "mean_em_points": -1.493,
+      "ci95": [
+       -4.478,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 53.731,
+      "stratum_mean_value": 0.0795
+     },
+     "mid": {
+      "n": 66,
+      "mean_em_points": 0.0,
+      "ci95": [
+       -4.545,
+       4.545
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 50.0,
+      "stratum_mean_value": 0.1149
+     },
+     "high": {
+      "n": 67,
+      "mean_em_points": -1.493,
+      "ci95": [
+       -4.478,
+       0.0
+      ],
+      "verdict": "unresolved",
+      "full_budget_em": 34.328,
+      "stratum_mean_value": 0.2
+     }
+    }
+   },
+   "hop_depth_note": "single hop depth [2] in this cell; a mixed-depth contrast is not available here"
+  }
+ ]
+}

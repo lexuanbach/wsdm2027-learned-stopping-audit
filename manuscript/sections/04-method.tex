@@ -1,0 +1,96 @@
+\subsection{Features, predictors, and policies}
+\label{sec:method}
+
+\paragraph{Operational features.}
+At prefix $t$, every learned head receives the same nine logit-free features.
+We count searches used and distinct retained retrieval units. Question-term
+coverage is the fraction of lowercased alphanumeric question tokens that
+occur in $E_t$. New-evidence mass counts units added by the latest retrieval
+after exact-string deduplication. Answer change compares normalized answers
+after lowercasing and removal of punctuation and articles. Answer length is
+the number of whitespace tokens. Grounding is the fraction of normalized
+answer tokens found in $E_t$, with value zero for an empty answer or empty
+evidence. A two-prefix stability indicator marks consecutive normalized-answer
+agreement. The final feature counts distinct normalized answers in
+$a_{0:t}$. These definitions make empty-prefix behavior deterministic and
+keep the interface identical across backbones.
+
+\paragraph{Predictors.}
+Every prefix from a full-budget logged trajectory supplies graded FBG, binary
+future-improvement, and answer-error labels. Where annotated support exists,
+it also supplies an evidence-coverage label. Our FBG head is a
+gradient-boosted regressor with 80 trees of maximum depth 2. Our error head is
+logistic regression with \texttt{max\_iter=1000}. We fit the binary
+future-improvement and gold-support classifiers with the same chain-level
+cross-fitting discipline. Token F1 provides the two future-gain targets,
+while EM remains our primary policy metric. The base LLM stays frozen and each
+small predictor trains on CPU.
+
+\paragraph{FBG policies.}
+The FBG-only policy continues while $\fbgpred_t\ge\theta$ and stops at the
+first crossing $\fbgpred_t<\theta$ or at $B$. The guarded FBG policy also
+requires a latched first-repetition event. If the answer repeats at $t=1$,
+changes at $t=2$, and the FBG score crosses at $t=3$, the policy stops at
+$t=3$ because it retains the earlier repetition event. We use this explicit
+name and timeline because the rule differs from requiring current
+consecutive-answer stability. Prefix answers are already generated for the
+features, so the guard adds no call under our answer-at-every-prefix schedule.
+
+Algorithm~\ref{alg:voi} makes the latched score crossing, optional repetition
+guard, and post-stop certificate explicit. The alternative policies below
+replace the FBG score and crossing rule while retaining the same interaction
+loop and budget cap.
+
+\begin{algorithm}[t]
+\DontPrintSemicolon
+\SetKwInOut{Input}{input}
+\SetKwInOut{Output}{output}
+\caption{FBG-only and repeat-guarded retrieval control with an optional
+post-stop certificate.}
+\label{alg:voi}
+\Input{goal $g$, frozen LLM, scores $(\fbgpred,\hat r)$, threshold $\theta$,
+rule $\rho\in\{\mathrm{FBG},\mathrm{guarded}\}$, certificate cutoff
+$q_\alpha$, budget $B$}
+\Output{stopped answer $a_t$ and certificate flag}
+$E_0\gets\varnothing,\quad \ell_{\mathrm{score}},\ell_{\mathrm{rep}}\gets\mathrm{false}$\;
+\For{$t\gets0$ \KwTo $B$}{
+  $a_t\gets\mathrm{LLMAnswer}(g,E_t)$\;
+  $\ell_{\mathrm{score}}\gets \ell_{\mathrm{score}}\lor
+  [\fbgpred(g,E_t,B-t,a_{0:t})<\theta]$\;
+  $\ell_{\mathrm{rep}}\gets \ell_{\mathrm{rep}}\lor
+  [t>0\land\mathrm{norm}(a_t)=\mathrm{norm}(a_{t-1})]$\;
+  \If{$t=B\lor[\ell_{\mathrm{score}}\land
+  (\rho=\mathrm{FBG}\lor \ell_{\mathrm{rep}})]$}{\textbf{break}}
+  $q_t\gets$ LLM-proposed query given $(g,E_t)$\;
+  $E_{t+1}\gets\operatorname{dedup}(E_t\cup\mathrm{search}(q_t))$\;
+}
+\Return{$\bigl(a_t,\mathbf{1}[q_\alpha\ne\bot\land
+\hat r(g,E_t,B-t,a_{0:t})\le q_\alpha]\bigr)$}
+\end{algorithm}
+
+\paragraph{Alternative policies and selection.}
+The binary future-improvement policy stops at the first nonterminal prefix
+whose predicted probability is below its threshold. The error-head gate stops
+when predicted current-answer error is at most its threshold, and the
+gold-support policy stops when predicted evidence coverage is at least its
+threshold. Every rule may stop at $t=0$ and defaults to $B$ if no threshold is
+crossed. These directions matter because the heads estimate different events.
+
+For every learned policy, we choose the cheapest cross-fitted development
+point whose EM lies within one point of full-budget development EM. If no
+point enters that band, we choose the highest-EM point and break ties by cost.
+The fixed comparator is selected from the same development questions as the
+smallest budget attaining maximum development EM. The learned rule and fixed
+budget therefore receive comparable access to development outcomes, but the
+objectives are intentionally asymmetric. The one-EM band asks how cheaply a
+learned rule can remain near full-search quality, so it favors learned rules
+on cost by permitting a small development loss. The fixed rule is more
+quality-conservative because it first maximizes development EM and only then
+minimizes cost. We retain $B^\star$ as a deterministic deployment reference,
+then remove dependence on this asymmetry through the stronger matched-cost
+hull comparison against every eligible simple operating point. Within each
+signal family, all primary cells use the same crossing direction, declared
+candidate grid, cross-fitting procedure, and selection code. Grids differ
+across signal families only because their score scales differ. Our optional
+certificate is applied only after the selected policy stops and never changes
+$T$.

@@ -1,0 +1,431 @@
+{
+ "what": "simultaneous / multiplicity-adjusted intervals for the guarded-minus-full-budget EM contrast across the cell family",
+ "contrast": "guarded FBG minus full budget, per-question paired EM",
+ "n_cells": 18,
+ "coverage_note": "restricted to the cells whose per-question guarded stop is logged (the fresh corpus-index block plus the crossed backbone block). The 12 historical cells predate that logged field, so they are excluded rather than approximated.",
+ "family_wise_alpha": 0.05,
+ "maxt_critical_value": 3.887,
+ "n_boot": 20000,
+ "resolved_cells": {
+  "marginal": 4,
+  "bonferroni": 2,
+  "maxt": 0
+ },
+ "reading": "'unresolved' means the interval contains zero. It is NOT evidence of equivalence; the paper's non-inferiority claims continue to rest on the pre-registered 3-EM margin, not on interval overlap.",
+ "cells": [
+  {
+   "cell": "corpus_guarded_qwen3b",
+   "label": "Corpus (seed 7, q-sample A)",
+   "n": 400,
+   "mean_em_points": 0.25,
+   "marginal_ci95": [
+    -0.75,
+    1.25
+   ],
+   "bonferroni_ci": [
+    -1.5,
+    2.0
+   ],
+   "maxt_simultaneous_ci": [
+    -1.925,
+    2.425
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_qwen3b_seed11",
+   "label": "Corpus (seed 11, q-sample A)",
+   "n": 400,
+   "mean_em_points": 0.25,
+   "marginal_ci95": [
+    -1.0,
+    1.5
+   ],
+   "bonferroni_ci": [
+    -1.75,
+    2.25
+   ],
+   "maxt_simultaneous_ci": [
+    -2.324,
+    2.824
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_qwen3b_seed19",
+   "label": "Corpus (seed 19, q-sample A)",
+   "n": 400,
+   "mean_em_points": -0.5,
+   "marginal_ci95": [
+    -1.5,
+    0.5
+   ],
+   "bonferroni_ci": [
+    -2.25,
+    0.806
+   ],
+   "maxt_simultaneous_ci": [
+    -2.444,
+    1.444
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_qwen3b_data17",
+   "label": "Corpus (seed 7, q-sample B)",
+   "n": 400,
+   "mean_em_points": -2.0,
+   "marginal_ci95": [
+    -3.5,
+    -0.5
+   ],
+   "bonferroni_ci": [
+    -4.5,
+    0.25
+   ],
+   "maxt_simultaneous_ci": [
+    -5.052,
+    1.052
+   ],
+   "verdicts": {
+    "marginal": "loss",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_qwen3b_data23",
+   "label": "Corpus (seed 7, q-sample C)",
+   "n": 400,
+   "mean_em_points": -3.25,
+   "marginal_ci95": [
+    -5.25,
+    -1.25
+   ],
+   "bonferroni_ci": [
+    -6.5,
+    -0.5
+   ],
+   "maxt_simultaneous_ci": [
+    -7.212,
+    0.712
+   ],
+   "verdicts": {
+    "marginal": "loss",
+    "bonferroni": "loss",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_qwen3b_data29",
+   "label": "Corpus (seed 7, q-sample D)",
+   "n": 400,
+   "mean_em_points": 1.5,
+   "marginal_ci95": [
+    0.0,
+    3.0
+   ],
+   "bonferroni_ci": [
+    -0.75,
+    4.0
+   ],
+   "maxt_simultaneous_ci": [
+    -1.563,
+    4.563
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_qwen3b_data31",
+   "label": "Corpus (seed 7, q-sample E)",
+   "n": 400,
+   "mean_em_points": 0.0,
+   "marginal_ci95": [
+    -0.75,
+    0.75
+   ],
+   "bonferroni_ci": [
+    -1.0,
+    1.25
+   ],
+   "maxt_simultaneous_ci": [
+    -1.376,
+    1.376
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus2wiki_guarded_qwen3b_data17",
+   "label": "2Wiki corpus (seed 7, draw 1)",
+   "n": 400,
+   "mean_em_points": 0.25,
+   "marginal_ci95": [
+    -1.75,
+    2.5
+   ],
+   "bonferroni_ci": [
+    -3.0,
+    3.5
+   ],
+   "maxt_simultaneous_ci": [
+    -3.991,
+    4.491
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus2wiki_guarded_qwen3b_data23",
+   "label": "2Wiki corpus (seed 7, draw 2)",
+   "n": 400,
+   "mean_em_points": -1.75,
+   "marginal_ci95": [
+    -3.75,
+    0.0
+   ],
+   "bonferroni_ci": [
+    -4.75,
+    1.0
+   ],
+   "maxt_simultaneous_ci": [
+    -5.503,
+    2.003
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus2wiki_guarded_qwen3b_data29",
+   "label": "2Wiki corpus (seed 7, draw 3)",
+   "n": 400,
+   "mean_em_points": 0.25,
+   "marginal_ci95": [
+    -1.75,
+    2.25
+   ],
+   "bonferroni_ci": [
+    -2.75,
+    3.25
+   ],
+   "maxt_simultaneous_ci": [
+    -3.518,
+    4.018
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpusmusique_guarded_qwen3b_data17",
+   "label": "MuSiQue corpus (seed 7, draw 1)",
+   "n": 400,
+   "mean_em_points": -1.75,
+   "marginal_ci95": [
+    -3.25,
+    -0.5
+   ],
+   "bonferroni_ci": [
+    -4.0,
+    -0.25
+   ],
+   "maxt_simultaneous_ci": [
+    -4.302,
+    0.802
+   ],
+   "verdicts": {
+    "marginal": "loss",
+    "bonferroni": "loss",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpusmusique_guarded_qwen3b_data23",
+   "label": "MuSiQue corpus (seed 7, draw 2)",
+   "n": 400,
+   "mean_em_points": -1.0,
+   "marginal_ci95": [
+    -2.5,
+    0.25
+   ],
+   "bonferroni_ci": [
+    -3.25,
+    1.0
+   ],
+   "maxt_simultaneous_ci": [
+    -3.745,
+    1.745
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpusmusique_guarded_qwen3b_data29",
+   "label": "MuSiQue corpus (seed 7, draw 3)",
+   "n": 400,
+   "mean_em_points": -1.25,
+   "marginal_ci95": [
+    -2.5,
+    -0.25
+   ],
+   "bonferroni_ci": [
+    -3.25,
+    0.0
+   ],
+   "maxt_simultaneous_ci": [
+    -3.412,
+    0.912
+   ],
+   "verdicts": {
+    "marginal": "loss",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "wiki25m_guarded_qwen3b",
+   "label": "Wikipedia 25M hybrid",
+   "n": 400,
+   "mean_em_points": -0.25,
+   "marginal_ci95": [
+    -1.756,
+    1.25
+   ],
+   "bonferroni_ci": [
+    -2.75,
+    2.25
+   ],
+   "maxt_simultaneous_ci": [
+    -3.477,
+    2.977
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_llama3b_data17",
+   "label": "Corpus / Llama-3.2-3B (q-sample B)",
+   "n": 400,
+   "mean_em_points": -0.25,
+   "marginal_ci95": [
+    -1.5,
+    0.75
+   ],
+   "bonferroni_ci": [
+    -2.0,
+    1.5
+   ],
+   "maxt_simultaneous_ci": [
+    -2.425,
+    1.925
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_haiku45_data17",
+   "label": "Corpus / Haiku 4.5 (q-sample B)",
+   "n": 200,
+   "mean_em_points": -0.5,
+   "marginal_ci95": [
+    -3.0,
+    2.0
+   ],
+   "bonferroni_ci": [
+    -4.5,
+    3.5
+   ],
+   "maxt_simultaneous_ci": [
+    -5.653,
+    4.653
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_haiku45_data23",
+   "label": "Corpus / Haiku 4.5 (q-sample C)",
+   "n": 200,
+   "mean_em_points": -0.5,
+   "marginal_ci95": [
+    -1.5,
+    0.0
+   ],
+   "bonferroni_ci": [
+    -2.5,
+    0.0
+   ],
+   "maxt_simultaneous_ci": [
+    -2.444,
+    1.444
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  },
+  {
+   "cell": "corpus_guarded_haiku45_data29",
+   "label": "Corpus / Haiku 4.5 (q-sample D)",
+   "n": 200,
+   "mean_em_points": -1.0,
+   "marginal_ci95": [
+    -3.0,
+    1.0
+   ],
+   "bonferroni_ci": [
+    -4.5,
+    1.5
+   ],
+   "maxt_simultaneous_ci": [
+    -4.887,
+    2.887
+   ],
+   "verdicts": {
+    "marginal": "unresolved",
+    "bonferroni": "unresolved",
+    "maxt": "unresolved"
+   }
+  }
+ ]
+}
