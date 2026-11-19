@@ -12,13 +12,9 @@ import pathlib
 
 
 ART = pathlib.Path(__file__).resolve().parents[1]
-PROJECT = ART.parent
-MANU = ART / "manuscript"
-if not MANU.exists():
-    MANU = PROJECT / "manuscript"
+MANU = ART / "outputs"  # generated tables/ (not tracked)
+(MANU / "tables").mkdir(parents=True, exist_ok=True)
 ROUND10 = ART / "results" / "round10"
-if not ROUND10.exists():
-    ROUND10 = PROJECT / "results" / "round10-external-2026-08-24"
 
 ROWS = [
     ("FBG-only", "value_only", "value_only"),

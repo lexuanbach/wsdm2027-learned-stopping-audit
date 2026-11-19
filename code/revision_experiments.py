@@ -1,4 +1,4 @@
-"""Reviewer-requested diagnostics and recovery experiments.
+"""Diagnostics and recovery experiments on logged trajectories.
 
 This module only replays already logged trajectories.  It deliberately keeps
 exploratory policy-family comparisons separate from confirmatory claims.  The

@@ -152,6 +152,9 @@ def main():
     args = ap.parse_args()
     outdir = pathlib.Path(args.out)
     outdir.mkdir(parents=True, exist_ok=True)
+    # The stored cards (results/round10/policy_cards.json) list the Stop-RAG and
+    # verifier-inspired comparators that were present in the round-9 analysis.
+    r9.RESTRICT_BASELINES = True
     cells = r9.fresh_cells() + r9.fresh_cells(extra=True)
     cards = [card(*c) for c in cells]
     (outdir / "policy_cards.json").write_text(json.dumps(

@@ -34,7 +34,7 @@ statistics:
 
 Everything is an offline replay of measured files; no LLM calls.
 Writes results/measured/frozen_protocol.json and tex fragments into
-manuscript/tables/.
+outputs/tables/.
 """
 from __future__ import annotations
 
@@ -48,9 +48,9 @@ from scipy.stats import beta as beta_dist
 
 MEAS = pathlib.Path(__file__).resolve().parents[1] / "results" / "measured"
 ART = pathlib.Path(__file__).resolve().parents[1]
-MANU = ART / "manuscript"
-if not MANU.exists():
-    MANU = pathlib.Path(__file__).resolve().parents[2] / "manuscript"
+MANU = ART / "outputs"  # generated tables/ and figures/ (not tracked)
+(MANU / "tables").mkdir(parents=True, exist_ok=True)
+(MANU / "figures").mkdir(parents=True, exist_ok=True)
 TABDIR = MANU / "tables"
 
 HOTPOT_TAGS = [

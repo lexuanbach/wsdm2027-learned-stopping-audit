@@ -2,7 +2,7 @@
 
 The manuscript already applies Holm to the exploratory sign tests, but the
 per-cell paired intervals in the executive matrix are marginal 95% intervals.
-This script adds the family-wise view the panel asked for, computed offline
+This script adds the family-wise view, computed offline
 from the per-question paired outcomes already on disk.
 
 Two adjustments, both reported:
@@ -27,7 +27,7 @@ import pathlib
 
 import numpy as np
 
-import meta_review_analyses as mra
+import frontier_analyses as mra
 
 MEAS = mra.MEAS
 N_BOOT = 20000
@@ -51,7 +51,7 @@ def main():
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
-    dm = json.loads((MEAS / "meta_review_analyses.json").read_text())["decision_matrix"]
+    dm = json.loads((MEAS / "frontier_analyses.json").read_text())["decision_matrix"]
     label = {c["cell"]: c["label"] for c in dm["cells"]}
     # Only cells whose per-question guarded stop is logged in the run file can
     # have their paired vector reconstructed exactly.  The 12 historical cells

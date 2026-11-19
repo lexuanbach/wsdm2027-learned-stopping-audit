@@ -1,7 +1,7 @@
 """Emit the adaptive-retrieval baselines table from rev2 measured runs.
 
 Reads run_rev2_*.json (which carry selfrag/flare/skr/adaptive fields) and
-writes manuscript/tables/baselines_rows.tex with one row block per
+writes outputs/tables/baselines_rows.tex with one row block per
 (dataset, backbone): the four prompted baselines, ReAct, and VoI at its
 matched-accuracy point.
 """
@@ -12,9 +12,9 @@ import numpy as np
 
 MEAS = pathlib.Path(__file__).resolve().parents[1] / "results" / "measured"
 ART = pathlib.Path(__file__).resolve().parents[1]
-MANU = ART / "manuscript"
-if not MANU.exists():
-    MANU = pathlib.Path(__file__).resolve().parents[2] / "manuscript"
+MANU = ART / "outputs"  # generated tables/ and figures/ (not tracked)
+(MANU / "tables").mkdir(parents=True, exist_ok=True)
+(MANU / "figures").mkdir(parents=True, exist_ok=True)
 TABDIR = MANU / "tables"
 
 RUNS = [

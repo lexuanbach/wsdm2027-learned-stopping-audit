@@ -1,8 +1,7 @@
 """One table separating IMPROVEMENT / FRONTIER / DOMINATED / UNRESOLVED for every stopping
 policy, with the new baselines folded in.
 
-Two vocabularies are kept apart on purpose, because the panel asked for them
-to be distinguished:
+Two vocabularies are kept apart on purpose:
 
   * dominance verdict against the simple
     family {fixed-0..fixed-B*, answer repetition} on the (EM, calls) plane):

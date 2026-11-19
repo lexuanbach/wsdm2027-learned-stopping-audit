@@ -25,7 +25,7 @@ loses" and "here is when it loses".  This script therefore:
      train_em_full          training full-budget EM (accuracy level).
 
 2. reads the outcome for that cell from the frozen registry
-   (`meta_review_analyses.json` decision matrix, and for the fresh cells the
+   (`frontier_analyses.json` decision matrix, and for the fresh cells the
    pooled-frontier / 1-EM-band winner in `round9_analyses.json`);
 
 3. evaluates the predeclared LearnStop rule --- predict a learned win iff
@@ -53,7 +53,7 @@ from scipy.stats import spearmanr
 from sklearn.linear_model import LogisticRegression
 
 import run_experiment as rx
-import meta_review_analyses as mra
+import frontier_analyses as mra
 
 MEAS = mra.MEAS
 TABLES = mra.TABLES
@@ -170,7 +170,7 @@ def cell_predictors(tag, n_boot):
 
 
 def cell_outcomes():
-    meta = json.loads((MEAS / "meta_review_analyses.json").read_text())
+    meta = json.loads((MEAS / "frontier_analyses.json").read_text())
     out = {}
     for c in meta["decision_matrix"]["cells"]:
         out[c["cell"]] = {
@@ -377,7 +377,7 @@ def write_table(result):
     TABLES.mkdir(exist_ok=True)
     pretty = {"early_correct_rate": "early correctness",
               "repeat_precision": "scalar-signal precision",
-              "repeat_signal_auc": "scalar-signal AUC",
+              "repeat_signal_auc": "scalar-signal AUROC",
               "saturation_gap_em": "saturation gap (EM)",
               "fbg_positive_rate": "FBG-positive rate",
               "oof_spearman": "cross-fitted $\\rho$",

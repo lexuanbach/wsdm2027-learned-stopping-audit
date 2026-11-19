@@ -1,6 +1,6 @@
 """Is the draw-to-draw EM swing a question-composition artefact?
 
-Reviewer 2's major concern: full-budget EM moves 24.50 -> 34.25 across the five
+Motivation: full-budget EM moves 24.50 -> 34.25 across the five
 HotpotQA corpus draws, and the guarded rule's non-inferiority verdict moves with
 it. If the draws differed in *composition* -- more comparison questions, easier
 questions, better gold-support retrieval -- the disagreement would be an
@@ -36,9 +36,9 @@ from analyze_corpus_confirmation import norm, policy_stop
 
 ART = pathlib.Path(__file__).resolve().parents[1]
 MEAS = ART / "results" / "measured"
-MANU = ART / "manuscript"
-if not MANU.exists():
-    MANU = pathlib.Path(__file__).resolve().parents[2] / "manuscript"
+MANU = ART / "outputs"  # generated tables/ and figures/ (not tracked)
+(MANU / "tables").mkdir(parents=True, exist_ok=True)
+(MANU / "figures").mkdir(parents=True, exist_ok=True)
 
 DRAWS = [
     ("corpus_guarded_qwen3b", "A"),

@@ -40,6 +40,9 @@ def main():
     ap.add_argument("--label", default=None)
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
+    # The frozen external analysis predates the verifier-inspired replay on
+    # this cell, so it compares the same baselines as the round-9 tables.
+    r9.RESTRICT_BASELINES = True
     tag = args.tag
     label = args.label or tag
     fname = f"corpus_confirmation_{tag}.json"
@@ -62,7 +65,7 @@ def main():
     report = {
         "tag": tag, "label": label,
         "frozen_endpoint_document":
-            "results/round10-external-2026-08-24/"
+            "results/round10/"
             "frozen-external-endpoint-2026-08-24.md",
         "primary_endpoint": {
             "quality_metric": "exact match (EM)",

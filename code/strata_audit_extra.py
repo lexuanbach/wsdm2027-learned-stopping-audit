@@ -1,4 +1,4 @@
-"""Additional subgroup strata the panel asked for, computed offline.
+"""Additional subgroup strata, computed offline.
 
 Extends (does not replace) strata_audit.py, which already reports
 bridge/comparison, level, and gold-support-recall strata.  New strata, all

@@ -6,8 +6,8 @@ sufficiency verifier.  It is the strongest sufficiency baseline that the
 measured logs can support: a classifier trained on *gold-support coverage*
 (does the retrieved evidence at this prefix contain the annotated supporting
 sentences?) rather than on the paper's own answer-error signal, then used to
-stop.  It answers the reviewer question "is the guarded controller only losing
-because its supervision is weak?" without inventing a verifier.
+stop.  It asks whether the guarded controller loses only
+because its supervision is weak, without inventing a verifier.
 
 Signal declaration (fairness):
   * variant ``same9``  -- exactly the nine logit-free controller features.
@@ -41,7 +41,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 
 import round9_analyses as r9
-import meta_review_analyses as mra
+import frontier_analyses as mra
 
 MEAS = r9.MEAS
 TAU_GRID = [0.10, 0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80, 0.90]

@@ -36,9 +36,9 @@ from analyze_corpus_confirmation import cumulative_cost
 
 ART = pathlib.Path(__file__).resolve().parents[1]
 MEAS = ART / "results" / "measured"
-MANU = ART / "manuscript"
-if not MANU.exists():
-    MANU = pathlib.Path(__file__).resolve().parents[2] / "manuscript"
+MANU = ART / "outputs"  # generated tables/ and figures/ (not tracked)
+(MANU / "tables").mkdir(parents=True, exist_ok=True)
+(MANU / "figures").mkdir(parents=True, exist_ok=True)
 
 # the fourteen fresh corpus-index cells, in the order of tab:supp-pooled
 CELLS = [

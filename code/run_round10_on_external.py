@@ -1,7 +1,7 @@
 """Run the round-10 offline audits on the external cell only.
 
 The external cell is deliberately NOT a member of the frozen 26-cell matrix,
-so `meta_review_analyses.FRESH` does not list it.  This driver appends it to
+so `frontier_analyses.FRESH` does not list it.  This driver appends it to
 that list in-process (never on disk) and reruns the round-10 audits restricted
 to it, writing to a separate output directory.
 
@@ -14,7 +14,7 @@ import json
 import pathlib
 import sys
 
-import meta_review_analyses as mra
+import frontier_analyses as mra
 
 CELL = ("extnews_guarded_qwen3b",
         "corpus_confirmation_extnews_guarded_qwen3b.json",

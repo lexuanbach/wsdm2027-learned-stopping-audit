@@ -6,21 +6,21 @@ The manuscript's primary accounting charges every policy 1+2T live LLM calls
 critic reads five features that need an answer at *every* prefix
 (answer_changed, answer_length, answer_grounding, stable_two,
 distinct_answers).  A conventional agent that generates only once, at the end,
-pays 1+T instead.  A reviewer can reasonably ask what the comparison looks like
-under that convention.
+pays 1+T instead.  This script reports the comparison under that convention.
 
 This script re-prices the measured runs under it.  Nothing is re-executed: the
 per-prefix search counts and EM come straight from the corpus_confirmation*
 registries.  Policies whose stopping signal needs a per-prefix answer keep
 1+2T; policies that do not (the fixed budgets) drop to 1+T.
 
-Output: artifact/results/measured/answer_once_ledger.json
+Output: results/measured/answer_once_ledger.json
 """
 import json
 import pathlib
 import sys
 
 ARTIFACT_ROOT = pathlib.Path(__file__).resolve().parent.parent
+ROOT = ARTIFACT_ROOT
 MEAS = ARTIFACT_ROOT / "results" / "measured"
 
 # Policies whose stopping signal requires an answer at every prefix, so they
@@ -174,7 +174,8 @@ def main():
     pts = {n: {"em": r["em"], "calls": r["answer_once_calls"]}
            for n, r in primary_cell["policies"].items()}
     simple = {n: v for n, v in pts.items() if SIMPLE_FAMILY(n)}
-    tex = ROOT / "manuscript" / "tables" / "answer_once_rows.tex"
+    tex = ROOT / "outputs" / "tables" / "answer_once_rows.tex"
+    tex.parent.mkdir(parents=True, exist_ok=True)
     lines = []
     for n, r in sorted(primary_cell["policies"].items(),
                        key=lambda kv: (kv[1]["answer_once_calls"], kv[0])):

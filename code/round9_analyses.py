@@ -2,8 +2,7 @@
 
 No new LLM calls.  Every block reads results/measured/ and writes
 results/measured/round9_analyses.json plus LaTeX fragments in
-manuscript/tables/round9_*.tex.  Blocks (each requested by the 2026-08-20
-codex packet or the 2026-08-21 review packet):
+outputs/tables/round9_*.tex.  Blocks:
 
 1. pooled_pareto  -- per fresh corpus-index cell, the nondominated set after
    pooling every fixed budget, answer repetition, full TASR (where logits
@@ -48,7 +47,7 @@ from sklearn.linear_model import LogisticRegression
 import run_experiment as rx
 from voi_controller import guarded_stop_index, stop_index
 from analyze_corpus_confirmation import cumulative_cost
-import meta_review_analyses as mra
+import frontier_analyses as mra
 
 MEAS = mra.MEAS
 TABLES = mra.TABLES
@@ -97,6 +96,20 @@ CODES = {"fixed_0": "F0", "fixed_1": "F1", "fixed_2": "F2", "fixed_3": "F3",
          "sufficiency_gate": "Suff", "stoprag": "StopRAG",
          "halt_nli": "HALT$_\\mathrm{nli}$", "halt_relevance": "HALT$_\\mathrm{rel}$",
          "value_only": "V", "guarded_value": "G"}
+
+
+# Cells whose Stop-RAG and verifier-inspired (HALT) replays entered the round-9
+# analysis behind supplement Tables 6 to 11, 14, 18 and 19. Both baselines were
+# later extended to every fresh cell; that extension is analysed separately in
+# results/round10/extended_decision_matrix.json (paper Table 5, supplement
+# Table 5). main() restricts the round-9 tables to these cells so that they
+# match the paper. Other scripts that import Cell see every available replay.
+ROUND9_STOPRAG_CELLS = frozenset({
+    "corpus_guarded_qwen3b", "corpus_guarded_qwen3b_data23",
+    "corpus2wiki_guarded_qwen3b_data17", "corpusmusique_guarded_qwen3b_data17",
+    "wiki25m_guarded_qwen3b"})
+ROUND9_HALT_CELLS = ROUND9_STOPRAG_CELLS | {"corpus_guarded_qwen3b_data29"}
+RESTRICT_BASELINES = False   # set by main()
 
 
 def fresh_cells(extra=False):
@@ -228,13 +241,13 @@ class Cell:
             self.sem_stop = np.asarray([rows[str(r["id"])] for r in self.records])
         self.halt = None
         p = MEAS / f"halt_{tag}.json"
-        if p.exists():
+        if p.exists() and (not RESTRICT_BASELINES or tag in ROUND9_HALT_CELLS):
             h = json.loads(p.read_text())
             if h["n_test"] == self.n:
                 self.halt = h
         self.stoprag = None
         p = MEAS / f"stoprag_result_{tag}.json"
-        if p.exists():
+        if p.exists() and (not RESTRICT_BASELINES or tag in ROUND9_STOPRAG_CELLS):
             s = json.loads(p.read_text())
             if "test_per_q" in s and len(s["test_per_q"]) == self.n:
                 self.stoprag = s
@@ -963,6 +976,8 @@ def summarise(out):
 
 
 def main():
+    global RESTRICT_BASELINES
+    RESTRICT_BASELINES = True
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=2029)
     ap.add_argument("--only", default=None, help="comma-separated tags")

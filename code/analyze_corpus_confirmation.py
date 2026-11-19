@@ -22,9 +22,9 @@ import run_experiment as rx
 
 MEAS = pathlib.Path(__file__).resolve().parents[1] / "results" / "measured"
 ART = pathlib.Path(__file__).resolve().parents[1]
-MANU = ART / "manuscript"
-if not MANU.exists():
-    MANU = pathlib.Path(__file__).resolve().parents[2] / "manuscript"
+MANU = ART / "outputs"  # generated tables/ and figures/ (not tracked)
+(MANU / "tables").mkdir(parents=True, exist_ok=True)
+(MANU / "figures").mkdir(parents=True, exist_ok=True)
 TABLES = MANU / "tables"
 TAG = "corpus_guarded_qwen3b"
 MARGIN_EM = 3.0

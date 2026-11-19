@@ -1,4 +1,4 @@
-"""Emit manuscript/tables/whowins_rows.tex ("who actually wins", main text).
+"""Emit outputs/tables/whowins_rows.tex (supplement Table 5, frontier summary).
 
 Every cell is read from results/measured/round9_analyses.json; nothing is
 typed in.  Columns:
@@ -21,14 +21,14 @@ import pathlib
 
 MEAS = pathlib.Path(__file__).resolve().parents[1] / "results" / "measured"
 ART = pathlib.Path(__file__).resolve().parents[1]
-MANU = ART / "manuscript"
-if not MANU.exists():
-    MANU = pathlib.Path(__file__).resolve().parents[2] / "manuscript"
+MANU = ART / "outputs"  # generated tables/ and figures/ (not tracked)
+(MANU / "tables").mkdir(parents=True, exist_ok=True)
+(MANU / "figures").mkdir(parents=True, exist_ok=True)
 
 # label, nondominated-count key, denominator key, band member policies,
 # equal-cost policy key (None = not computed for this family)
 ROWS = [
-    ("Fixed budgets$^{*}$", "cells_fixed2_nondominated", "n_fresh_cells",
+    ("Fixed budgets", "cells_fixed2_nondominated", "n_fresh_cells",
      ["fixed_0", "fixed_1", "fixed_2", "fixed_3", "fixed_4"], None),
     ("Answer repetition", "cells_repeat_nondominated", "n_fresh_cells",
      ["answer_repeat"], None),
@@ -36,23 +36,23 @@ ROWS = [
      ["value_only"], "value_only"),
     ("FBG + repeat guard", "cells_guarded_nondominated", "n_fresh_cells",
      ["guarded_value", "guarded"], "guarded_value"),
-    ("FBG + NLI guard$^{\\dagger}$", None, None, ["semantic_guard"], None),
+    ("FBG + NLI guard", None, None, ["semantic_guard"], None),
     ("Stop classifier", "cells_stop_classifier_nondominated", "n_fresh_cells",
      ["stop_classifier"], "stop_classifier"),
     ("Full TASR", "cells_tasr_nondominated", "cells_with_tasr", ["tasr"], "tasr"),
     ("Stop-RAG", "cells_stoprag_nondominated", "cells_stoprag_present",
      ["stoprag"], "stoprag"),
-    ("Sufficiency gate", "cells_sufficiency_nondominated", "n_fresh_cells",
+    ("Error-head gate", "cells_sufficiency_nondominated", "n_fresh_cells",
      ["sufficiency"], "sufficiency_gate"),
-    ("Verifier-inspired coverage$^{\\ddagger}$", "cells_halt_nondominated", "cells_halt_present",
+    ("Verifier-inspired coverage", "cells_halt_nondominated", "cells_halt_present",
      ["halt"], None),
 ]
-RULE_AFTER = {"Answer repetition", "FBG + NLI guard$^{\\dagger}$"}
+RULE_AFTER = {"Answer repetition", "FBG + NLI guard"}
 
 
 def main() -> None:
     s = json.loads((MEAS / "round9_analyses.json").read_text())["summary"]
-    extended_path = ART.parent / "results" / "round10-external-2026-08-24" / "extended_decision_matrix.json"
+    extended_path = ART / "results" / "round10" / "extended_decision_matrix.json"
     extended = json.loads(extended_path.read_text()) if extended_path.exists() else None
     bands = s["band_winner_counts"]
     checks = {b: 0 for b in ("1.0", "2.0", "3.0")}

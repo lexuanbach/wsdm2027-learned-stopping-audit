@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Training-set-size learning curve for the guarded FBG rule (CPU only).
 
-The reviewer question is whether the negative result is an artifact of too few
+The question is whether the negative result is an artifact of too few
 policy-training episodes.  The selection-protocol sensitivity already varies
 training size as a side effect of the certificate split (80/90/96 episodes),
 but that axis is narrow and confounded with calibration size.  This script
@@ -17,7 +17,7 @@ evidence that it might be, and is to be reported as such.  Subsampling can only
 go DOWN from 90 -- going above 90 needs new backbone generation, which is out
 of scope for this submission.
 
-Output: artifact/results/measured/training_size_curve.json
+Output: results/measured/training_size_curve.json
 """
 import argparse
 import json
@@ -78,8 +78,9 @@ def run_cell(cell, sizes, seeds):
 
 def emit_rows(result):
     """LaTeX rows for the supplement's training-size table."""
-    tex = (pathlib.Path(__file__).resolve().parents[2] / "manuscript" /
+    tex = (pathlib.Path(__file__).resolve().parents[1] / "outputs" /
            "tables" / "training_size_rows.tex")
+    tex.parent.mkdir(parents=True, exist_ok=True)
     lines = []
     for n in result["sizes"]:
         e = result["pooled"][str(n)]
