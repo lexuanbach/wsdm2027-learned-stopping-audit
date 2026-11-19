@@ -26,6 +26,30 @@ import matplotlib
 matplotlib.use("Agg")
 matplotlib.rcParams.update({"pdf.fonttype": 42, "ps.fonttype": 42})
 import matplotlib.pyplot as plt  # noqa: E402
+import matplotlib.ticker  # noqa: E402
+
+# Camera-ready style: text set by LaTeX with the paper's Libertine fonts, a
+# muted palette shared with Figure 1, light grids, and no top/right spines.
+INK, MUTE, GRIDC = "#2B3441", "#8A919C", "#E3E6EA"
+NAVY, TEAL, RUST, OCHRE, PLUM = "#2F4B66", "#2F7470", "#B4583C", "#A8781F", "#6A4C6B"
+matplotlib.rcParams.update({
+    "text.usetex": True,
+    "text.latex.preamble": r"\usepackage[tt=false,type1=true]{libertine}"
+                           r"\usepackage[libertine]{newtxmath}",
+    "font.family": "serif",
+    "font.size": 7, "axes.titlesize": 7, "axes.labelsize": 7,
+    "xtick.labelsize": 6.5, "ytick.labelsize": 6.5, "legend.fontsize": 6.5,
+    "axes.edgecolor": "#9AA1AB", "axes.linewidth": 0.6,
+    "axes.labelcolor": INK, "text.color": INK,
+    "xtick.color": "#5A616C", "ytick.color": "#5A616C",
+    "xtick.major.width": 0.6, "ytick.major.width": 0.6,
+    "xtick.major.size": 2.2, "ytick.major.size": 2.2,
+    "xtick.major.pad": 1.6, "ytick.major.pad": 1.6,
+    "axes.spines.top": False, "axes.spines.right": False,
+    "axes.grid": True, "grid.color": GRIDC, "grid.linewidth": 0.5,
+    "axes.axisbelow": True, "axes.titlepad": 3, "axes.labelpad": 1.5,
+    "legend.frameon": False, "savefig.bbox": "tight", "savefig.pad_inches": 0.015,
+})
 
 MEAS = pathlib.Path(__file__).resolve().parents[1] / "results" / "measured"
 ART = pathlib.Path(__file__).resolve().parents[1]
@@ -50,6 +74,15 @@ RUN_LABELS = {
     "corpusmusique_guarded_qwen3b_data23": "MuSiQue d2",
     "corpusmusique_guarded_qwen3b_data29": "MuSiQue d3",
 }
+# plain-language names used in figure text
+PLAIN_RUN = {
+    "A s7": "HotpotQA A, seed 7", "A s11": "HotpotQA A, seed 11",
+    "A s19": "HotpotQA A, seed 19", "B": "HotpotQA sample B",
+    "C": "HotpotQA sample C", "D": "HotpotQA sample D", "E": "HotpotQA sample E",
+    "Wiki": "Wikipedia 25M", "2Wiki d1": "2Wiki draw 1", "2Wiki d2": "2Wiki draw 2",
+    "2Wiki d3": "2Wiki draw 3", "MuSiQue d1": "MuSiQue draw 1",
+    "MuSiQue d2": "MuSiQue draw 2", "MuSiQue d3": "MuSiQue draw 3",
+}
 CONF_FILES = {
     "corpus_guarded_qwen3b": "corpus_confirmation.json",
 }
@@ -61,10 +94,12 @@ def conf_path(tag):
 
 def fig_samples(meta):
     hv = meta["hierarchical_variance"]
-    contrasts = [("guarded_minus_full", "guard $-$ full budget"),
-                 ("guarded_minus_fixed3", "guard $-$ fixed-3"),
-                 ("guarded_minus_fixed2", "guard $-$ fixed-2"),
-                 ("guarded_minus_repeat", "guard $-$ repetition")]
+    contrasts = [("guarded_minus_full", r"vs.\ full search"),
+                 ("guarded_minus_fixed3", r"vs.\ three fixed searches"),
+                 ("guarded_minus_fixed2", r"vs.\ two fixed searches"),
+                 ("guarded_minus_repeat", r"vs.\ answer repetition")]
+    short = {"A s7": "A, seed 7", "A s11": "A, seed 11", "A s19": "A, seed 19",
+             "B": "sample B", "C": "sample C", "D": "sample D", "E": "sample E"}
     runs = hv["question_sample_A_runs"] + list(hv["independent_question_samples"].values())
     fig, axes = plt.subplots(2, 2, figsize=(3.45, 2.75), sharey=True)
     axes = axes.flat
@@ -75,25 +110,25 @@ def fig_samples(meta):
             pr = c["per_run"][tag]
             lo, hi = pr["ci95"]
             ax.errorbar(pr["mean_em_points"], i, xerr=[[pr["mean_em_points"] - lo], [hi - pr["mean_em_points"]]],
-                        fmt="o", color="#1f77b4" if tag.startswith("corpus_guarded_qwen3b_data") or tag.endswith("qwen3b") and "seed" not in tag and "data" not in tag else "#7f7f7f",
+                        fmt="o", color=NAVY if tag.startswith("corpus_guarded_qwen3b_data") or tag.endswith("qwen3b") and "seed" not in tag and "data" not in tag else MUTE,
                         ms=3.5, capsize=2, lw=1)
-            labels.append(RUN_LABELS.get(tag, tag))
+            labels.append(short.get(RUN_LABELS.get(tag, tag), tag))
         plo, phi = c["pooled_question_clustered_ci95"]
         pm = c["pooled_all_run_mean_em_points"]
         i = len(runs)
-        ax.errorbar(pm, i, xerr=[[pm - plo], [phi - pm]], fmt="D", color="#d62728", ms=4.5, capsize=2, lw=1.4)
+        ax.errorbar(pm, i, xerr=[[pm - plo], [phi - pm]], fmt="D", color=RUST, ms=4.5, capsize=2, lw=1.4)
         labels.append("pooled (q-clustered)")
         ax.axvline(0, color="k", lw=0.6, ls=":")
         if key == "guarded_minus_full":
-            ax.axvline(-3, color="#d62728", lw=0.6, ls="--")
+            ax.axvline(-3, color=RUST, lw=0.6, ls="--")
         ax.set_title(title, fontsize=7)
         ax.set_yticks(range(len(labels)))
         ax.set_yticklabels([l.replace("pooled (q-clustered)", "pooled") for l in labels], fontsize=6)
         ax.tick_params(axis="x", labelsize=6)
-        ax.invert_yaxis()
         ax.grid(axis="x", lw=0.3, alpha=0.5)
     for ax in list(axes)[2:]:
-        ax.set_xlabel("paired EM points", fontsize=6.5)
+        ax.set_xlabel("EM difference (points)", fontsize=6.5)
+    fig.axes[0].invert_yaxis()   # shared y: invert once, runs top, pooled last
     fig.tight_layout(w_pad=0.4, h_pad=0.5)
     fig.savefig(FIGS / "fig_samples.pdf")
     plt.close(fig)
@@ -104,79 +139,136 @@ def fig_samples_main(meta):
 
     Two contrasts only (guard - full budget, guard - fixed-2); the remaining
     two stay in the 2x2 supplement figure.  Each row carries the two-sided
-    95% bootstrap CI (bar) AND the one-sided 95% lower bound (caret), because
+    95% bootstrap CI (bar) AND the one-sided 95% lower bound (tick), because
     the non-inferiority verdicts are decided on the one-sided bound and the
-    two differ.
+    two differ.  Same-question reruns are grey, independent question draws
+    navy, the question-clustered pooled estimate rust.
     """
     hv = meta["hierarchical_variance"]
-    contrasts = [("guarded_minus_full", "guard $-$ full budget"),
-                 ("guarded_minus_fixed2", "guard $-$ fixed-2")]
+    contrasts = [("guarded_minus_full", r"vs.\ full search"),
+                 ("guarded_minus_fixed2", r"vs.\ two fixed searches")]
+    plain = {"A s7": "A, seed 7", "A s11": "A, seed 11", "A s19": "A, seed 19",
+             "B": "sample B", "C": "sample C", "D": "sample D", "E": "sample E"}
     runs = hv["question_sample_A_runs"] + list(
         hv["independent_question_samples"].values())
-    fig, axes = plt.subplots(1, 2, figsize=(3.34, 1.62), sharey=True)
+    nA = len(hv["question_sample_A_runs"])
+    fig, axes = plt.subplots(1, 2, figsize=(3.34, 1.40), sharey=True)
     n_pts = 0
     for ax, (key, title) in zip(axes, contrasts):
         c = hv["contrasts"][key]
         labels = []
+        ax.axhspan(nA - 0.5, len(runs) - 0.5, color="#EEF2F6", lw=0, zorder=0)
         for i, tag in enumerate(runs):
             pr = c["per_run"][tag]
             lo, hi = pr["ci95"]
             m = pr["mean_em_points"]
             indep = tag.startswith("corpus_guarded_qwen3b_data")
-            ax.errorbar(m, i, xerr=[[m - lo], [hi - m]], fmt="o",
-                        color="#1f77b4" if indep else "#7f7f7f",
-                        ms=3, capsize=1.6, lw=0.9)
-            ax.plot([pr["lower95_one_sided"]], [i], marker="|", ms=5,
-                    color="#333333", lw=0)
-            labels.append(RUN_LABELS.get(tag, tag))
+            col = NAVY if indep else MUTE
+            ax.plot([lo, hi], [i, i], "-", color=col, lw=1.1,
+                    solid_capstyle="round", zorder=3)
+            ax.plot([m], [i], "o", color=col, ms=3.4, mec="white", mew=0.5,
+                    zorder=4)
+            ax.plot([pr["lower95_one_sided"]], [i], marker="|", ms=4.5,
+                    mew=0.9, color=INK, lw=0, zorder=4)
+            labels.append(plain.get(RUN_LABELS.get(tag, tag), tag))
             n_pts += 1
         plo, phi = c["pooled_question_clustered_ci95"]
         pm = c["pooled_all_run_mean_em_points"]
         i = len(runs)
-        ax.errorbar(pm, i, xerr=[[pm - plo], [phi - pm]], fmt="D",
-                    color="#d62728", ms=3.6, capsize=1.6, lw=1.2)
-        labels.append("pooled")
+        ax.plot([plo, phi], [i, i], "-", color=RUST, lw=1.6,
+                solid_capstyle="round", zorder=3)
+        ax.plot([pm], [i], "D", color=RUST, ms=3.8, mec="white", mew=0.5,
+                zorder=4)
+        labels.append(r"\textbf{pooled}")
         n_pts += 1
-        ax.axvline(0, color="k", lw=0.6, ls=":")
+        ax.axvline(0, color=INK, lw=0.6, ls=(0, (1.2, 1.2)), zorder=2)
         if key == "guarded_minus_full":
-            ax.axvline(-3, color="#d62728", lw=0.7, ls="--")
-        ax.set_title(title, fontsize=6.5)
+            ax.axvspan(-50, -3, color=RUST, alpha=0.08, lw=0, zorder=0)
+            ax.axvline(-3, color=RUST, lw=0.7, ls=(0, (3, 1.5)), zorder=2)
+            ax.text(-3.25, -0.95, r"$-3$ margin", color=RUST, fontsize=5.8,
+                    ha="right", va="center")
+        xs = [v for t in runs for v in c["per_run"][t]["ci95"]] + [plo, phi, 0]
+        if key == "guarded_minus_full":
+            xs.append(-3)
+        pad = 0.06 * (max(xs) - min(xs))
+        ax.set_xlim(min(xs) - pad, max(xs) + pad)
+        ax.set_title(title, color=INK)
         ax.set_yticks(range(len(labels)))
-        ax.set_yticklabels(labels, fontsize=5.6)
-        ax.tick_params(axis="x", labelsize=5.6)
-        ax.set_xlabel("paired EM points", fontsize=6)
-        ax.grid(axis="x", lw=0.3, alpha=0.5)
-    axes[0].invert_yaxis()      # sharey: invert once, runs top -> pooled last
-    fig.tight_layout(w_pad=0.4)
+        ax.set_yticklabels(labels)
+        ax.tick_params(axis="y", length=0)
+        ax.grid(axis="y", visible=False)
+        ax.set_xlabel("EM difference (points)")
+        ax.xaxis.set_major_locator(matplotlib.ticker.MultipleLocator(2))
+    axes[0].set_ylim(len(runs) + 0.6, -1.4)   # runs top -> pooled last
+    fig.tight_layout(w_pad=0.5)
     fig.savefig(FIGS / "fig_samples_main.pdf")
     plt.close(fig)
     print(f"fig_samples_main.pdf: {n_pts} plotted estimates")
 
 
 def fig_nested(meta):
+    """Compact annotated heatmap: rows are the four nested-bootstrap shares,
+    columns the 14 fully instrumented runs, cells the percentage of 400
+    training-chain resamples (values read from nested_refit_select)."""
+    import numpy as np
+    from decimal import Decimal, ROUND_HALF_UP
+    from matplotlib.colors import LinearSegmentedColormap
     ns = meta["nested_refit_select"]
     tags = [t for t in RUN_LABELS if t in ns]
     labels = [RUN_LABELS[t] for t in tags]
-    kept = [100 * ns[t]["lambda_logged_frequency"] for t in tags]
-    dom = [100 * ns[t]["p_guarded_dominated_by_simple"] for t in tags]
-    beat = [100 * ns[t]["p_guarded_strictly_beats_bstar"] for t in tags]
-    vdom = [100 * ns[t]["p_value_dominated_by_simple"] for t in tags]
-    fig, ax = plt.subplots(figsize=(3.45, 2.1))
-    x = range(len(tags))
-    w = 0.2
-    ax.bar([i - 1.5 * w for i in x], kept, w, label="logged threshold reselected", color="#7f7f7f")
-    ax.bar([i - 0.5 * w for i in x], dom, w, label="guard dominated by simple policy", color="#d62728")
-    ax.bar([i + 0.5 * w for i in x], vdom, w, label="FBG-only dominated", color="#ff9896")
-    ax.bar([i + 1.5 * w for i in x], beat, w, label="guard strictly beats $B^*$", color="#2ca02c")
-    ax.set_xticks(list(x))
-    ax.set_xticklabels(labels, fontsize=7, rotation=30, ha="right")
-    ax.set_ylabel("% of 400 training resamples", fontsize=7)
-    ax.tick_params(axis="y", labelsize=7)
-    ax.set_ylim(0, 105)
-    ax.legend(fontsize=5.5, loc="lower center", ncol=2, frameon=False,
-              bbox_to_anchor=(0.5, 1.0))
-    ax.grid(axis="y", lw=0.3, alpha=0.5)
-    fig.tight_layout()
+    rows = [("logged threshold kept", "lambda_logged_frequency"),
+            ("guarded FBG beaten", "p_guarded_dominated_by_simple"),
+            ("FBG-only beaten", "p_value_dominated_by_simple"),
+            ("guarded FBG wins", "p_guarded_strictly_beats_bstar")]
+    data = np.array([[100 * ns[t][k] for t in tags] for _, k in rows])
+    cmap = LinearSegmentedColormap.from_list("muted", ["#FBFAF7", "#BFD0DF", "#5F7A94", NAVY])
+    fig, ax = plt.subplots(figsize=(3.34, 1.10))
+    ax.imshow(data, cmap=cmap, vmin=0, vmax=100, aspect="auto")
+    for r in range(data.shape[0]):
+        for c in range(data.shape[1]):
+            v = data[r, c]
+            pct = (Decimal(str(ns[tags[c]][rows[r][1]])) * 100).quantize(
+                Decimal("1"), rounding=ROUND_HALF_UP)   # same rounding as text
+            ax.text(c, r, f"{pct}", ha="center", va="center", fontsize=5.9,
+                    color="white" if v >= 62 else INK)
+    short = {"A s7": "7", "A s11": "11", "A s19": "19", "Wiki": "25M"}
+    short = [short.get(lab, lab.split()[-1].lstrip("d")) for lab in labels]
+    subgroups = [("seeds of A", 0, 2), ("samples", 3, 6), ("draws", 8, 10),
+                 ("draws", 11, 13)]
+    for name, lo, hi in subgroups:
+        ax.text((lo + hi) / 2, -0.215, name, transform=ax.get_xaxis_transform(),
+                ha="center", va="top", fontsize=5.6, color=MUTE)
+    ax.set_xticks(range(len(tags)))
+    ax.set_xticklabels(short, fontsize=6.0)
+    groups = {}
+    for i, t in enumerate(tags):
+        g = ("HotpotQA" if t.startswith("corpus_guarded") else
+             "Wiki" if t.startswith("wiki25m") else
+             "2Wiki" if t.startswith("corpus2wiki") else "MuSiQue")
+        groups.setdefault(g, []).append(i)
+    for g, idx in groups.items():
+        lo, hi = min(idx), max(idx)
+        ax.annotate("", xy=(lo - 0.38, -0.385), xytext=(hi + 0.38, -0.385),
+                    xycoords=("data", "axes fraction"),
+                    textcoords=("data", "axes fraction"),
+                    arrowprops=dict(arrowstyle="-", color=MUTE, lw=0.6))
+        ax.text((lo + hi) / 2, -0.41, g, transform=ax.get_xaxis_transform(),
+                ha="center", va="top", fontsize=6.3, color=INK)
+        if hi < len(tags) - 1:
+            ax.axvline(hi + 0.5, color="white", lw=2.2)
+    ax.set_yticks(range(len(rows)))
+    ax.set_yticklabels([r for r, _ in rows], fontsize=6.5)
+    ax.tick_params(length=0)
+    ax.grid(False)
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.set_xticks(np.arange(-0.5, len(tags)), minor=True)
+    ax.set_yticks(np.arange(-0.5, len(rows)), minor=True)
+    ax.grid(which="minor", color="white", lw=1.0)
+    ax.tick_params(which="minor", length=0)
+    ax.set_title(r"\% of 400 training resamples", fontsize=6.5, color=MUTE,
+                 loc="right", pad=2)
+    fig.subplots_adjust(left=0.315, right=0.995, top=0.90, bottom=0.33)
     fig.savefig(FIGS / "fig_nested.pdf")
     plt.close(fig)
 
@@ -198,11 +290,11 @@ def fig_frontier(filename="fig_frontier.pdf", only=None, ncol_max=3,
     fig, axes = plt.subplots(nrow, ncol, figsize=(figwidth, rowheight * nrow),
                              squeeze=False)
     styles = {
-        "fixed": ("#7f7f7f", "s", "fixed-$k$"),
-        "answer_repeat": ("#9467bd", "^", "repetition"),
-        "tasr": ("#8c564b", "v", "TASR"),
-        "value_only": ("#1f77b4", "o", "FBG-only"),
-        "guarded_value": ("#d62728", "D", "FBG + guard"),
+        "fixed": (MUTE, "s", "fixed budget"),
+        "answer_repeat": (OCHRE, "^", "repetition"),
+        "tasr": (PLUM, "v", "TASR"),
+        "value_only": (NAVY, "o", "FBG-only"),
+        "guarded_value": (RUST, "D", "guarded FBG"),
     }
     for ax, tag in zip(axes.flat, panels):
         m = json.loads(conf_path(tag).read_text())["methods"]
@@ -213,14 +305,15 @@ def fig_frontier(filename="fig_frontier.pdf", only=None, ncol_max=3,
             if key in m:
                 col, mk, lab = styles[key]
                 ax.plot([m[key]["llm_calls"]], [m[key]["em"]], mk, color=col, ms=5, label=lab)
-        ax.set_title(RUN_LABELS.get(tag, tag), fontsize=8 * fontscale)
+        name = RUN_LABELS.get(tag, tag)
+        ax.set_title(PLAIN_RUN.get(name, name), fontsize=8 * fontscale)
         ax.tick_params(labelsize=6.5 * fontscale)
         ax.grid(lw=0.3, alpha=0.5)
         ax.set_xlim(0.5, 9.5)
     for ax in axes[-1]:
-        ax.set_xlabel("exact LLM calls / question", fontsize=7 * fontscale)
+        ax.set_xlabel("LLM calls per question", fontsize=7 * fontscale)
     for row in axes:
-        row[0].set_ylabel("EM (%)", fontsize=7 * fontscale)
+        row[0].set_ylabel(r"EM (\%)", fontsize=7 * fontscale)
     for ax in axes.flat[len(panels):]:
         ax.axis("off")
     handles, labels = axes[0][0].get_legend_handles_labels()
@@ -233,8 +326,8 @@ def fig_frontier(filename="fig_frontier.pdf", only=None, ncol_max=3,
 
 
 MAIN_FRONTIER_PANELS = [
-    ("corpus_guarded_qwen3b", "(a) HotpotQA, 269k-sentence index"),
-    ("wiki25m_guarded_qwen3b", "(b) Wikipedia, 25M-sentence hybrid"),
+    ("corpus_guarded_qwen3b", "(a) HotpotQA, 269k sentences"),
+    ("wiki25m_guarded_qwen3b", "(b) Wikipedia, 25M sentences"),
 ]
 
 
@@ -255,12 +348,12 @@ def fig_frontier_main():
     pick "the cheapest policy within 1 EM of the full budget".
     """
     styles = {
-        "answer_repeat": ("#9467bd", "^", "repetition"),
-        "tasr": ("#8c564b", "v", "TASR"),
-        "value_only": ("#1f77b4", "o", "FBG-only"),
-        "guarded_value": ("#d62728", "D", "FBG + guard"),
+        "answer_repeat": (OCHRE, "^", "repetition"),
+        "tasr": (PLUM, "v", "TASR"),
+        "value_only": (NAVY, "o", "FBG-only"),
+        "guarded_value": (RUST, "D", "guarded FBG"),
     }
-    fig, axes = plt.subplots(1, 2, figsize=(3.34, 1.34))
+    fig, axes = plt.subplots(1, 2, figsize=(3.34, 1.26), sharey=True)
     n_pts = 0
     n_bars = 0
     for ax, (tag, title) in zip(axes, MAIN_FRONTIER_PANELS):
@@ -275,60 +368,53 @@ def fig_frontier_main():
             return full_em + ci[0], full_em + ci[1]
 
         # admissible region: EM >= full-budget EM - 1 (select_le's band rule)
-        ax.axhspan(full_em - 1.0, 100.0, color="#2ca02c", alpha=0.10, lw=0,
-                   zorder=0)
-        ax.axhline(full_em - 1.0, color="#2ca02c", lw=0.5, ls=(0, (2.5, 1.5)),
+        ax.axhspan(full_em - 1.0, 100.0, color=TEAL, alpha=0.10, lw=0, zorder=0)
+        ax.axhline(full_em - 1.0, color=TEAL, lw=0.6, ls=(0, (2.5, 1.5)),
                    zorder=1)
+
+        def errbar(x, b, col, lw):
+            ax.plot([x] * 2, list(b), "-", color=col, lw=lw, alpha=0.55,
+                    zorder=2, solid_capstyle="round")
 
         ks = [k for k in range(5) if f"fixed_{k}" in m]
         for k in ks:
             b = bar(f"fixed_{k}")
             if b is not None:
-                x = m[f"fixed_{k}"]["llm_calls"]
-                ax.plot([x] * 2, list(b), "-", color="#7f7f7f", lw=0.7,
-                        alpha=0.9, zorder=2, solid_capstyle="butt")
-                for yy in b:
-                    ax.plot([x - 0.16, x + 0.16], [yy, yy], "-",
-                            color="#7f7f7f", lw=0.7, alpha=0.9, zorder=2)
+                errbar(m[f"fixed_{k}"]["llm_calls"], b, MUTE, 0.9)
                 n_bars += 1
         ax.plot([m[f"fixed_{k}"]["llm_calls"] for k in ks],
                 [m[f"fixed_{k}"]["em"] for k in ks], "-",
-                color="#7f7f7f", lw=0.8, marker="s", ms=2.2, label="fixed-$k$",
-                zorder=3)
+                color=MUTE, lw=1.0, marker="s", ms=2.8, mec="white", mew=0.4,
+                label="fixed budget", zorder=3)
         n_pts += len(ks)
         for key in ["answer_repeat", "tasr", "value_only", "guarded_value"]:
             col, mk, lab = styles[key]
             b = bar(key)
             if b is not None:
-                x = m[key]["llm_calls"]
-                ax.plot([x] * 2, list(b), "-", color=col, lw=0.8, alpha=0.95,
-                        zorder=4, solid_capstyle="butt")
-                for yy in b:
-                    ax.plot([x - 0.16, x + 0.16], [yy, yy], "-", color=col,
-                            lw=0.8, alpha=0.95, zorder=4)
+                errbar(m[key]["llm_calls"], b, col, 1.0)
                 n_bars += 1
             ax.plot([m[key]["llm_calls"]], [m[key]["em"]], mk, color=col,
-                    ms=3.2, label=lab, zorder=5)
+                    ms=4.0 if mk != "D" else 3.6, mec="white", mew=0.5,
+                    label=lab, zorder=5)
             n_pts += 1
         if tag == "wiki25m_guarded_qwen3b":     # highlight boundary-cell domination
             fx2, fy2 = m["fixed_2"]["llm_calls"], m["fixed_2"]["em"]
-            ax.axhspan(0, fy2, xmin=(fx2 - 0.3) / 9.4, xmax=1.0,
-                       color="#d62728", alpha=0.07, lw=0, zorder=0)
-            ax.text(9.4, 8.6, "dominated by fixed-2", fontsize=4.8,
-                    ha="right", va="bottom", color="#a02020", zorder=4)
-        ax.set_title(title, fontsize=5.8, pad=2)
-        ax.tick_params(labelsize=5.4, pad=1.5, length=2)
-        ax.grid(lw=0.3, alpha=0.5)
+            ax.fill_between([fx2, 9.7], 0, fy2, color=RUST, alpha=0.06, lw=0,
+                            zorder=0)
+            ax.text(9.5, 5.0, "worse than two\nfixed searches", fontsize=6,
+                    ha="right", va="bottom", color=RUST, zorder=4,
+                    linespacing=0.95)
+        ax.set_title(title)
         ax.set_xlim(0.3, 9.7)
         ax.set_ylim(4.0, 27.5)   # widened to show the fixed-0 paired bar
         ax.set_xticks([1, 3, 5, 7, 9])
-        ax.set_xlabel("exact LLM calls / question", fontsize=5.8, labelpad=1)
-    axes[0].set_ylabel("EM (%)", fontsize=5.8, labelpad=1)
+        ax.set_xlabel("LLM calls per question")
+    axes[0].set_ylabel(r"EM (\%)")
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="lower center", ncol=5, fontsize=5.4,
-               frameon=False, handletextpad=0.25, columnspacing=0.8,
-               borderpad=0.0, bbox_to_anchor=(0.5, -0.035))
-    fig.tight_layout(rect=(0, 0.085, 1, 1), w_pad=0.6)
+    fig.tight_layout(rect=(0, 0, 1, 0.965), w_pad=0.5, pad=0.2)
+    fig.legend(handles, labels, loc="lower center", ncol=5,
+               handletextpad=0.15, columnspacing=0.75, handlelength=1.3,
+               borderpad=0.0, bbox_to_anchor=(0.5, 0.955))
     fig.savefig(FIGS / "fig_frontier_main.pdf")
     plt.close(fig)
     print(f"fig_frontier_main.pdf: {n_pts} plotted points, "

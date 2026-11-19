@@ -1,8 +1,9 @@
-% Figure 1: overview. Drawn in TikZ so all text uses the paper's font.
-% Icons: Microsoft Fluent Emoji (Flat), MIT License; see figures/icons/SOURCE.txt.
-% Example trajectory: HotpotQA id 5a7df1095542990b8f503afe in
+% Figure 1: overview. Same layout as the accepted figure (stopping loop on top,
+% training pipeline below), redrawn in TikZ so all text uses the paper's font.
+% The example panel shows HotpotQA id 5a7df1095542990b8f503afe in
 % results/measured/run_corpus_guarded_qwen3b.json (prefix EM 0,0,1,0,0;
 % learned guard stops after search 3).
+% Icons: Microsoft Fluent Emoji (3D), MIT License; see figures/icons/SOURCE.txt.
 \definecolor{fInk}{HTML}{2B3441}
 \definecolor{fMute}{HTML}{6B7280}
 \definecolor{fNavy}{HTML}{2F4B66}
@@ -10,121 +11,102 @@
 \definecolor{fRust}{HTML}{B4583C}
 \definecolor{fOchre}{HTML}{A8781F}
 \definecolor{fPlum}{HTML}{6A4C6B}
-\definecolor{fPaper}{HTML}{F5F0E6}
+\definecolor{fPaper}{HTML}{F7EFE6}
 \definecolor{fSky}{HTML}{EAF0F3}
 \definecolor{fCard}{HTML}{FFFDF9}
 \providecommand{\ficon}[2][0.42cm]{\raisebox{-0.28\height}{\includegraphics[height=#1]{figures/icons/#2}}}
 \begin{tikzpicture}[
-  font=\scriptsize, line join=round, x=1cm, y=1cm,
+  font=\footnotesize, line join=round, x=1cm, y=1cm,
   every node/.append style={execute at begin node={\hyphenpenalty=10000\exhyphenpenalty=10000}},
-  band/.style={rounded corners=7pt, draw=none},
-  card/.style={rounded corners=4pt, fill=fCard, draw=#1!55, line width=0.6pt},
-  stepbox/.style={rounded corners=4pt, fill=fCard, draw=fInk!25, line width=0.5pt,
-    minimum width=2.10cm, minimum height=1.36cm},
-  bubble/.style={rounded corners=5pt, fill=#1!10, draw=#1!60, line width=0.5pt,
-    inner sep=2pt, minimum height=0.42cm, text=fInk},
-  ribbon/.style={rounded corners=2.5pt, fill=#1, text=white, inner sep=1.6pt,
-    minimum width=1.92cm},
-  num/.style={circle, fill=#1, text=white, inner sep=0pt, minimum size=0.34cm,
-    font=\scriptsize\bfseries},
-  title/.style={anchor=west, text=#1, font=\footnotesize\bfseries},
-  body/.style={anchor=north west, align=left, text=fInk},
-  flow/.style={-{Stealth[length=4pt,width=4.5pt]}, line width=0.85pt, draw=fInk!65},
-  sidelabel/.style={rotate=90, font=\scriptsize\scshape, text=fMute},
+  band/.style={rounded corners=7pt, line width=0.5pt},
+  box/.style={rounded corners=5pt, fill=fCard, draw=#1!70, line width=0.8pt,
+    minimum height=0.80cm, inner sep=0pt},
+  flow/.style={-{Stealth[length=4.5pt,width=5pt,round]}, line width=0.9pt, draw=fInk!65,
+    rounded corners=6pt, line cap=round},
+  train/.style={-{Stealth[length=4.5pt,width=5pt,round]}, line width=0.9pt, draw=fRust!85,
+    dash pattern=on 3.2pt off 2.2pt, rounded corners=6pt, line cap=round},
+  lbl/.style={font=\scriptsize\itshape, text=fMute, inner sep=1.5pt},
+  sidelabel/.style={rotate=90, font=\scriptsize\scshape},
+  chip/.style={rounded corners=4pt, fill=#1!10, draw=#1!60, line width=0.5pt,
+    inner sep=1.5pt, inner xsep=2.4pt, text=fInk, anchor=west, font=\scriptsize},
+  tag/.style={rounded corners=3pt, fill=#1, text=white, inner sep=1.6pt,
+    inner xsep=2.6pt, anchor=west, font=\scriptsize},
+  num/.style={circle, fill=fInk!70, text=white, inner sep=0pt, minimum size=0.30cm,
+    font=\tiny\bfseries, anchor=west},
 ]
-
-% ---------------------------------------------------------- top: one real run
-\fill[band, fill=fSky] (0,2.20) rectangle (17.75,3.78);
-\node[sidelabel] at (0.26,2.99) {a real run};
-
-\node[card=fNavy, minimum width=3.00cm, minimum height=1.36cm] (q) at (2.12,2.99) {};
-\node[anchor=west] at ([xshift=0.07cm]q.west) {\ficon[0.56cm]{thinking_face}};
-\node[anchor=west, text width=2.20cm, align=left, text=fInk] at ([xshift=0.72cm]q.west)
-  {\textbf{Question}\\[0.5pt]Who was born first, Thomas Carr or Joyce Wieland?};
-
-\foreach \i/\x/\ans/\mark/\col in {1/4.92/Joyce Wieland/cross_mark/fRust,
-                                   2/7.27/Thomas Carr/check_mark_button/fTeal,
-                                   3/9.62/Joyce Wieland/cross_mark/fRust,
-                                   4/11.97/Joyce Wieland/cross_mark/fRust}{
-  \node[stepbox] (s\i) at (\x,2.99) {};
-  \node[anchor=north, text=fInk] at ([yshift=-0.04cm]s\i.north)
-    {\ficon[0.30cm]{magnifying_glass_tilted_left}\,\textbf{After search \i}};
-  \node[bubble=\col] at ([yshift=0.05cm]s\i.center) {\ans\,\ficon[0.28cm]{\mark}};
-}
-\draw[flow] (q.east) -- (s1.west);
-\foreach \a/\b in {1/2,2/3,3/4}{\draw[flow] (s\a.east) -- (s\b.west);}
-
-\node[ribbon=fTeal, anchor=south] at ([yshift=0.07cm]s2.south)
-  {\ficon[0.27cm]{stopwatch}\,simple rule stops};
-\node[ribbon=fRust, anchor=south] at ([yshift=0.07cm]s3.south)
-  {\ficon[0.27cm]{robot}\,learned rule stops};
-\fill[fSky, opacity=0.6, rounded corners=4pt] (s4.south west) rectangle (s4.north east);
-\node[text=fMute, anchor=south] at ([yshift=0.10cm]s4.south) {\itshape never reached};
-
-\node[card=fOchre, minimum width=4.35cm, minimum height=1.36cm] (take) at (15.445,2.99) {};
-\node[anchor=west] at ([xshift=0.08cm]take.west) {\ficon[0.58cm]{light_bulb}};
-\node[anchor=west, text width=3.42cm, align=left, text=fInk] at ([xshift=0.70cm]take.west)
-  {\textbf{More search is not always better.} The learned rule pays for a third
-   search and ends wrong. Two fixed searches were cheaper and right.};
-
-% ---------------------------------------------------------- bottom: the audit
-\fill[band, fill=fPaper] (0,0) rectangle (17.75,2.08);
-\node[sidelabel] at (0.26,1.04) {our audit};
-
-% 1 record
-\node[card=fNavy, minimum width=3.00cm, minimum height=1.84cm] (c1) at (2.12,1.04) {};
-\node[num=fNavy, anchor=north west] (n1) at ([shift={(0.09,-0.09)}]c1.north west) {1};
-\node[title=fNavy] at ([xshift=0.05cm]n1.east) {Record};
-\node[anchor=north east] at ([shift={(-0.05,-0.04)}]c1.north east) {\ficon[0.46cm]{card_file_box}};
-\node[body, text width=2.78cm] at ([shift={(0.09,-0.58)}]c1.north west)
-  {Run the agent for up to four searches. Log its answer and cost after
-   every search.};
-
-% 2 learn
-\node[card=fPlum, minimum width=4.05cm, minimum height=1.84cm] (c2) at (6.12,1.04) {};
-\node[num=fPlum, anchor=north west] (n2) at ([shift={(0.09,-0.09)}]c2.north west) {2};
-\node[title=fPlum] at ([xshift=0.05cm]n2.east) {Learn when to stop};
-\node[anchor=north east] at ([shift={(-0.05,-0.04)}]c2.north east) {\ficon[0.46cm]{robot}};
-\foreach \k/\ic/\txt in {0/crystal_ball/Will more search improve the answer?,
-                         1/warning/Is the current answer wrong?,
-                         2/clipboard/Does the evidence cover the question?}{
-  \node[bubble=fPlum, anchor=north west, minimum height=0.36cm,
-        inner sep=1.3pt, inner xsep=2.4pt] at ([shift={(0.11,-0.55-0.415*\k)}]c2.north west)
-    {\makebox[3.66cm][l]{\ficon[0.27cm]{\ic}\,\txt}};
+% card: one big icon and a short bold title. All cards are 2.60cm wide on a
+% 3.00cm pitch, so every gap between neighbouring cards is 0.40cm.
+% \fbx{name}{x}{y}{width}{color}{icon}{title}
+\newcommand{\fbx}[7]{%
+  \node[box=#5, minimum width=#4cm] (#1) at (#2,#3) {};
+  \node[anchor=west, inner sep=0pt] (#1i) at ([xshift=0.11cm]#1.west) {\ficon[0.60cm]{#6}};
+  \node[anchor=west, inner sep=0pt, align=left, text=#5, font=\footnotesize\bfseries]
+    at ([xshift=0.11cm]#1i.east) {#7};
 }
 
-% 3 tune and lock
-\node[card=fOchre, minimum width=3.05cm, minimum height=1.84cm] (c3) at (10.04,1.04) {};
-\node[num=fOchre, anchor=north west] (n3) at ([shift={(0.09,-0.09)}]c3.north west) {3};
-\node[title=fOchre] at ([xshift=0.05cm]n3.east) {Tune, then lock};
-\node[anchor=north east] at ([shift={(-0.05,-0.04)}]c3.north east)
-  {\ficon[0.46cm]{locked}};
-\node[body, text width=2.83cm] at ([shift={(0.09,-0.58)}]c3.north west)
-  {\ficon[0.30cm]{control_knobs}\,Choose every stopping rule, learned or simple, on development questions,
-   then freeze it.};
+% ------------------------------------------------------------- bands
+\filldraw[band, fill=fSky, draw=fNavy!25] (0,1.12) rectangle (12.45,3.42);
+\node[sidelabel, text=fNavy!80] at (0.25,2.27) {at test time};
+\filldraw[band, fill=fPaper, draw=fRust!25] (0,0) rectangle (12.45,0.98);
+\node[sidelabel, text=fRust!90] at (0.25,0.49) {training};
 
-% 4 audit
-\node[card=fTeal, minimum width=5.82cm, minimum height=1.84cm] (c4) at (14.71,1.04) {};
-\node[num=fTeal, anchor=north west] (n4) at ([shift={(0.09,-0.09)}]c4.north west) {4};
-\node[title=fTeal] at ([xshift=0.05cm]n4.east) {Audit at equal cost};
-\node[body, text width=2.62cm] at ([shift={(0.09,-0.52)}]c4.north west)
-  {\ficon[0.32cm]{detective}\,\ficon[0.32cm]{balance_scale}\, On fresh
-   questions, compare with simple rules at equal searches, tokens and time.};
-\begin{scope}[shift={([shift={(3.08,0.22)}]c4.south west)}]
-  \draw[-{Stealth[length=3pt]}, fMute, line width=0.5pt] (0,0) -- (2.56,0)
-    node[pos=0.5, below=-1.5pt, font=\tiny, text=fMute] {cost};
-  \draw[-{Stealth[length=3pt]}, fMute, line width=0.5pt] (0,0) -- (0,1.30)
-    node[pos=0.5, above=-1pt, rotate=90, font=\tiny, text=fMute] {accuracy};
-  \draw[fTeal, line width=0.9pt, dash pattern=on 2.5pt off 1.5pt]
-    (0.18,0.22) -- (0.62,0.70) -- (1.15,0.95) -- (1.75,1.07) -- (2.40,1.11);
-  \foreach \p in {(0.18,0.22),(0.62,0.70),(1.15,0.95),(1.75,1.07),(2.40,1.11)}
-    \fill[fTeal] \p circle (1.6pt);
-  \node[font=\tiny, text=fTeal, anchor=south east] at (1.62,1.05) {simple rules};
-  \fill[fRust] (1.62,0.78) circle (2.0pt);
-  \node[font=\tiny, text=fRust, anchor=north] at (1.62,0.74) {learned rule};
-\end{scope}
+% ------------------------------------------------------------- top: the loop
+\fbx{st}{1.90}{2.92}{2.60}{fNavy}{brain_3d}{What the\\agent knows}
+\fbx{hd}{4.90}{2.92}{2.60}{fPlum}{robot_3d}{Learned\\stop score}
+\draw[fPlum, line width=1.6pt, rounded corners=5pt] (hd.south west) rectangle (hd.north east);
+\node[diamond, aspect=2.0, fill=fOchre!12, draw=fOchre!80, line width=0.8pt,
+      inner sep=0.2pt, align=center, text=fInk] (dc) at (7.90,2.92)
+  {\ficon[0.44cm]{vertical_traffic_light_3d}\,\textbf{Stop?}};
+\fbx{an}{10.90}{2.92}{2.60}{fTeal}{stop_sign_3d}{Stop and\\answer}
 
-\draw[flow] (c1.east) -- (c2.west);
-\draw[flow] (c2.east) -- (c3.west);
-\draw[flow] (c3.east) -- (c4.west);
+\fbx{env}{7.90}{1.62}{3.05}{fMute}{snowflake_3d}{Frozen LLM\\searches again}
+\node[anchor=east, inner sep=0pt] at ([xshift=-0.09cm]env.east)
+  {\ficon[0.48cm]{magnifying_glass_tilted_left_3d}};
+
+\draw[flow] (st.east) -- (hd.west);
+\draw[flow] (hd.east) -- (dc.west);
+\draw[flow] (dc.east) -- node[lbl, above] {yes} (an.west);
+\draw[flow] (dc.south) -- node[lbl, right] {no} (env.north);
+\draw[flow] (env.west) -- (st.south |- env.west)
+  node[lbl, above, pos=0.72] {\ficon[0.32cm]{books_3d}\,new evidence} -- (st.south);
+
+% ------------------------------------------------------------- bottom: training
+\fbx{lg}{1.90}{0.49}{2.60}{fRust}{film_frames_3d}{Logged runs}
+\fbx{pf}{4.90}{0.49}{2.60}{fRust}{scissors_3d}{Answer after\\every search}
+\fbx{tg}{7.90}{0.49}{2.60}{fRust}{bullseye_3d}{Three training\\targets}
+\fbx{lk}{10.90}{0.49}{2.60}{fRust}{locked_3d}{Tune, then\\freeze}
+
+\draw[train] (lg.east) -- (pf.west);
+\draw[train] (pf.east) -- (tg.west);
+\draw[train] (tg.east) -- (lk.west);
+\draw[train] (pf.north) -- node[lbl, text=fRust, pos=0.22, right] {train} (hd.south);
+\draw[train] (lk.east) -- (12.72,0.49) -- (12.72,2.92) -- (an.east);
+\node[fill=white, circle, inner sep=0.6pt] at (12.72,1.70) {\ficon[0.38cm]{snowflake_3d}};
+
+% ------------------------------------------------------------- example panel
+\node[rounded corners=6pt, fill=white, draw=fNavy!45, line width=0.6pt,
+      dash pattern=on 1.5pt off 1pt, minimum width=3.95cm, minimum height=3.42cm,
+      anchor=south west] (ex) at (13.00,0) {};
+\node[anchor=north west, inner sep=0pt] at ([shift={(0.10,-0.12)}]ex.north west)
+  {\ficon[0.56cm]{thinking_face_3d}};
+\node[anchor=north west, text width=3.05cm, align=left, inner sep=0pt, text=fInk,
+      font=\scriptsize] at ([shift={(0.76,-0.12)}]ex.north west)
+  {\textbf{Example.} \textit{Who was born first, Thomas Carr or Joyce Wieland?}};
+\node[anchor=north west, inner sep=0pt, text=fMute, font=\scriptsize\itshape]
+  at ([shift={(0.12,-0.84)}]ex.north west) {answer after each search};
+\foreach \k/\ans/\mark/\col in {1/Joyce Wieland/cross_mark_3d/fRust,
+                               2/Thomas Carr/check_mark_button_3d/fTeal,
+                               3/Joyce Wieland/cross_mark_3d/fRust}{
+  \node[num] (n\k) at ([shift={(0.12,-0.96-0.40*\k)}]ex.north west) {\k};
+  \node[chip=\col] (a\k) at ([xshift=0.07cm]n\k.east)
+    {\makebox[1.55cm][l]{\ans}\ficon[0.28cm]{\mark}};
+}
+\node[anchor=west, inner sep=0pt, font=\scriptsize\bfseries, text=fTeal]
+  (r2) at ([xshift=0.10cm]a2.east) {$\leftarrow$\,\ficon[0.28cm]{keycap_2_3d}};
+\node[anchor=west, inner sep=0pt, font=\scriptsize\bfseries, text=fRust]
+  (r3) at ([xshift=0.10cm]a3.east) {$\leftarrow$\,\ficon[0.28cm]{robot_3d}};
+\node[tag=fTeal] at ([shift={(0.12,-2.68)}]ex.north west)
+  {\ficon[0.27cm]{keycap_2_3d}\,two fixed searches: right};
+\node[tag=fRust] at ([shift={(0.12,-3.08)}]ex.north west)
+  {\ficon[0.27cm]{robot_3d}\,learned rule stops: wrong};
 \end{tikzpicture}

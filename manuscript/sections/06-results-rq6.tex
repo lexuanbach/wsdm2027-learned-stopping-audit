@@ -10,11 +10,11 @@ so the matched-cost and replication analyses determine the stronger claim.
 \begin{figure}[t]
   \centering
   \includegraphics[width=\columnwidth]{figures/fig_samples_main.pdf}
-  \caption{Guarded-FBG contrasts over same-question decoding reruns and
-  independent HotpotQA question draws.}
+  \caption{Guarded FBG minus full search or two fixed searches. Grey rows rerun
+  HotpotQA sample A with new seeds, and blue rows are new question samples.}
   \label{fig:samples}
   \Description{Forest plot of paired exact-match differences between guarded
-  FBG and the full budget or fixed-2. Each row is one run. Bars show 95 percent
+  FBG and full search or two fixed searches. Each row is one run. Bars show 95 percent
   intervals, ticks show one-sided lower bounds, and a dashed line marks the
   negative three point margin.}
 \end{figure}
@@ -64,19 +64,19 @@ We froze one MultiHopRAG inference-query cell before fitting or test
 evaluation. It contains 400 questions over 609 English news articles and uses
 Qwen2.5-3B with the same four-search cap. Table~\ref{tab:external-policies}
 separates the frozen FBG endpoint from three exploratory signal policies. Each
-$\Delta$EM compares a policy to the randomized simple hull at equal
+gain compares a policy to the randomized simple hull at equal
 mean calls.
 
 \begin{table}[H]
 \caption{External news-cell policies at equal calls to the simple-policy hull.}
 \label{tab:external-policies}
 \footnotesize
-\setlength{\tabcolsep}{2.6pt}
+\setlength{\tabcolsep}{8.4pt}
 \rowcolors{2}{rowshade}{}
 \begin{tabular}{@{}lrrrl@{}}
 \toprule
 \hiderowcolors
-Policy & EM & Calls & $\Delta$EM & 95\% CI \\
+\tabhead \textbf{Policy} & \textbf{EM} & \textbf{Calls} & \textbf{Gain vs.\ simple} & \textbf{95\% CI} \\
 \midrule
 \showrowcolors
 \input{tables/external_policy_rows}

@@ -18,7 +18,7 @@ Let $y^\star$ be the reference answer and let $u(a,y^\star)\in[0,1]$ denote
 answer quality. We use token F1 to construct the training target and report
 exact match (EM) as the primary policy metric on a 0 to 100 scale. Define
 $U(x_t)=\mathbb{E}[u(a_t,y^\star)\mid x_t]$. A cost-sensitive policy for this
-fixed query-generation and retrieval process would ideally solve
+fixed query-generation and retrieval process ideally solves
 \begin{equation}
 \max_{\pi}\ \mathbb{E}_{\pi}\!\left[U(x_T)-c_sT\right],
 \label{eq:objective}
@@ -103,7 +103,7 @@ $\delta/\lceil\log_2 m\rceil$. It returns a cutoff $q_\alpha$ only when a
 nonempty set satisfies target risk $\alpha$. Otherwise, we set
 $q_\alpha=\bot$ and report zero certificate coverage. At each fixed
 $\alpha\in\{0.1,0.2,0.3,0.4,0.5,0.6\}$, SGR uses $\delta=0.10$ and the
-guarantee below applies separately. These values never affect stopping.
+guarantee below holds separately. They never affect stopping.
 
 \begin{proposition}[Post-stop certificate risk bound]
 \label{prop:conformal}

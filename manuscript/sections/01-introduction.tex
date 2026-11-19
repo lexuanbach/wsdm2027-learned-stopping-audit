@@ -10,18 +10,24 @@ cuadron2025danger,greshake2023notwhat}. Stopping sets both execution cost and wh
 \begin{figure*}[t]
   \centering
   \input{figures/fig_overview}
-  \caption{Top: a logged run in which the learned rule stops too late, while a
-  fixed two-search budget stops on the right answer. Bottom: the four-step audit.
-  Icons: Microsoft Fluent Emoji, copyright Microsoft Corporation, MIT License.}
+  \caption{Top: at test time, learned stop scores and a frozen threshold decide
+  whether to answer or search again. Inset: the logged run discussed below.
+  Bottom: training on logged runs, with thresholds tuned on development
+  questions and then frozen.}
   \label{fig:overview}
-  \Description{Two-row diagram. The top row follows one logged HotpotQA run:
-  after searches one to four the agent answers Joyce Wieland, Thomas Carr
-  (correct), Joyce Wieland, and Joyce Wieland. A fixed two-search rule stops at
-  the correct answer, while the learned rule stops after the third search with a
-  wrong answer. The bottom row shows the audit: record answers and costs after
-  every search, learn when to stop, choose and freeze rules on development
-  questions, then compare learned and simple rules at equal cost on fresh
-  questions.}
+  \Description{Two-band flow diagram with icons. Top band, at test time: what
+  the agent knows feeds a learned
+  stop score. At the decision Stop?, yes leads to stop and answer, and no sends
+  a frozen LLM (snowflake) to search again, returning new evidence that loops
+  back. A side panel
+  shows one logged run for the question who was born first, Thomas Carr or Joyce
+  Wieland: after searches one to three the agent answers Joyce Wieland (wrong),
+  Thomas Carr (right), and Joyce Wieland (wrong). Two fixed searches end right,
+  while the learned rule stops after the third search and is wrong. Bottom band,
+  training: logged runs, an answer forced after every search, three training
+  targets (future gain, answer correctness, evidence coverage), and thresholds
+  tuned on development questions then frozen. Dashed arrows show training of
+  the stop score and the frozen thresholds feeding the stop decision.}
 \end{figure*}
 
 \paragraph{Motivating example.}

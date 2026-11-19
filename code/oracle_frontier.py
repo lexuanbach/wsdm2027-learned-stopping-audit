@@ -122,13 +122,23 @@ def main():
     out["n_cells"] = len(heads)
     (MEAS / "oracle_frontier.json").write_text(json.dumps(out, indent=2) + "\n")
 
+    # plain-language row labels for the paper table
+    plain = {
+        "A s7": "HotpotQA A, seed 7", "A s11": "HotpotQA A, seed 11",
+        "A s19": "HotpotQA A, seed 19", "B": "HotpotQA sample B",
+        "C": "HotpotQA sample C", "D": "HotpotQA sample D",
+        "E": "HotpotQA sample E", "2Wiki d1": "2Wiki draw 1",
+        "2Wiki d2": "2Wiki draw 2", "2Wiki d3": "2Wiki draw 3",
+        "MuSiQue d1": "MuSiQue draw 1", "MuSiQue d2": "MuSiQue draw 2",
+        "MuSiQue d3": "MuSiQue draw 3", "Wiki 25M": "Wikipedia 25M",
+    }
     lines = []
     for tag, label in CELLS:
         r = out["cells"].get(tag)
         if r is None:
             continue
         lines.append(
-            f"{label} & {r['full_budget']['em']:.2f} & {r['oracle']['em']:.2f} "
+            f"{plain.get(label, label)} & {r['full_budget']['em']:.2f} & {r['oracle']['em']:.2f} "
             f"& {r['headroom_em']:+.2f} & {r['oracle']['searches']:.2f} & "
             f"{r['oracle']['llm_calls']:.2f} \\\\")
     (MANU / "tables" / "oracle_frontier_rows.tex").write_text(

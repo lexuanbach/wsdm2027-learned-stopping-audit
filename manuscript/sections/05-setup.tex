@@ -24,10 +24,10 @@ crossed, and external analyses.}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \rowcolors{2}{rowshade}{}
-\begin{tabular}{@{}p{0.18\textwidth}p{0.31\textwidth}p{0.17\textwidth}p{0.27\textwidth}@{}}
+\begin{tabularx}{\textwidth}{@{}L{0.15\textwidth}YL{0.17\textwidth}L{0.26\textwidth}@{}}
 \toprule
 \hiderowcolors
-Setting & Shared index and retrieval unit & Fit / calibration / test & Provenance \\
+\tabhead \textbf{Setting} & \textbf{Shared index and retrieval unit} & \textbf{Fit / calibration / test} & \textbf{Provenance} \\
 \midrule
 \showrowcolors
 HotpotQA distractor & Ten-paragraph question context, sentence units & 60 to 90 / 0 / 100 to 140 & 9 call-only core cells \\
@@ -37,7 +37,7 @@ FEVER 2017 Wikipedia & 25{,}247{,}888 sentences with reranking & 90 / 30 / 400 &
 MuSiQue answerable & 21{,}100 paragraphs from 2{,}417 questions & 60 to 90 / 0 to 30 / 100 to 400 & 5 core cells \\
 MultiHopRAG news & 53{,}943 sentence units from 609 articles and 49 outlets & 96 / 24 / 400 & 1 prospectively frozen external cell \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table*}
 
 \paragraph{Tasks, retrievers, and backbones.}
@@ -104,19 +104,19 @@ without that status provide robustness or exploratory evidence.
 licensed by each result.}
 \label{tab:tiers}
 \footnotesize
-\setlength{\tabcolsep}{3pt}
+\setlength{\tabcolsep}{2.5pt}
 \rowcolors{2}{rowshade}{}
-\begin{tabular}{@{}p{0.30\columnwidth}p{0.43\columnwidth}p{0.20\columnwidth}@{}}
+\begin{tabular}{@{}L{0.335\columnwidth}L{0.43\columnwidth}L{0.19\columnwidth}@{}}
 \toprule
 \hiderowcolors
-Claim & Evidence population & Status \\
+\tabhead \textbf{Claim} & \textbf{Evidence population} & \textbf{Status} \\
 \midrule
 \showrowcolors
-Guarded FBG passes the declared full-search comparison & One 400-question HotpotQA corpus cell with EM and exact calls & Primary endpoint \\
-FBG has no resolved matched-cost gain & 18-cell calls family, 14-cell token and wall-time family, answer-once ledger & Robustness \\
-Question sampling can change the endpoint decision & Same-question reruns and four independent question draws & Prospectively frozen \\
-Signal role and selection explain the frontier gap & Alternative heads, calibration, rerolled futures, nested reselection, and oracle & Exploratory diagnosis \\
-The certificate refuses unsupported subsets & 84 cell and target-risk pairs over 14 fully instrumented core cells & Robustness \\
+Guarded FBG passes the declared full-search test & One 400-question HotpotQA corpus cell with EM and exact calls & \textcolor{tabrule}{\textbf{Primary endpoint}} \\
+FBG has no resolved matched-cost gain & 18-cell calls, 14-cell tokens and wall time, answer-once ledger & \textcolor{verdD}{\textbf{Robustness}} \\
+Question sampling can flip the endpoint decision & Same-question reruns and four independent question draws & \textcolor{verdI}{\textbf{Prospectively frozen}} \\
+Signal role and selection explain the frontier gap & Other heads, calibration, rerolled futures, reselection, oracle & \textcolor{verdF}{\textit{Exploratory diagnosis}} \\
+The certificate refuses unsupported subsets & 84 cell and target-risk pairs over 14 fully instrumented core cells & \textcolor{verdD}{\textbf{Robustness}} \\
 \bottomrule
 \end{tabular}
 \end{table}

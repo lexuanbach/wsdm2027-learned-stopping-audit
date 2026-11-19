@@ -28,8 +28,39 @@
 %% Shorthands
 \newcommand{\system}{VoI-Search}
 \emergencystretch=2em
-%% zebra striping for dense data tables
-\definecolor{rowshade}{gray}{0.93}
+%% Table style: tinted header band, soft zebra rows, colored verdict letters
+\usepackage{collcell}
+\definecolor{rowshade}{HTML}{F3F5F8}
+\definecolor{headshade}{HTML}{E2E9F0}
+\definecolor{tabrule}{HTML}{2F4B66}
+\definecolor{verdD}{HTML}{B4583C}
+\definecolor{verdI}{HTML}{2F7470}
+\definecolor{verdF}{HTML}{6B7280}
+\arrayrulecolor{tabrule!80}
+\setlength{\aboverulesep}{0pt}
+\setlength{\belowrulesep}{0pt}
+\setlength{\extrarowheight}{0pt}
+\newcommand{\tabhead}{\rowcolor{headshade}}
+\ExplSyntaxOn
+\cs_new_protected:Npn \verdict #1
+  {
+    \tl_set:Nn \l_tmpa_tl {#1}
+    \tl_trim_spaces:N \l_tmpa_tl
+    \str_case:onF {\l_tmpa_tl}
+      {
+        {D}{\textcolor{verdD}{\textbf{beaten}}}
+        {I}{\textcolor{verdI}{\textbf{better}}}
+        {F}{\textcolor{verdF}{frontier}}
+      }
+      {#1}
+  }
+\ExplSyntaxOff
+\newcolumntype{V}{>{\collectcell\verdict}c<{\endcollectcell}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\usepackage{tabularx}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{G}{>{\color{verdI}\raggedleft\arraybackslash}X}
 \newcommand{\act}[1]{\textsc{#1}}
 \newcommand{\fbgpred}{\widehat{\mathrm{FBG}}}
 \newtheorem{proposition}{Proposition}
@@ -42,10 +73,13 @@
 \title{A Selection-Aware Audit of Learned Stopping in Short-Horizon Iterative Retrieval}
 
 \author{Xuan-Bach Le}
+\authornote{Both authors contributed equally to this research.}
+\authornote{Corresponding author.}
 \orcid{0009-0003-6848-5403}
 \affiliation{\institution{Ho Chi Minh City University of Technology (HCMUT), VNU-HCM}\city{Ho Chi Minh City}\country{Vietnam}}
 \email{lexuanbach@hcmut.edu.vn}
 \author{Phat T. Tran-Truong}
+\authornotemark[1]
 \orcid{0000-0003-3199-6333}
 \affiliation{\institution{Ho Chi Minh City University of Technology (HCMUT), VNU-HCM}\city{Ho Chi Minh City}\country{Vietnam}}
 \email{phatttt@hcmut.edu.vn}
@@ -53,6 +87,7 @@
 \orcid{0000-0002-5336-0566}
 \affiliation{\department{The Business School}\institution{RMIT University}\city{Ho Chi Minh City}\country{Vietnam}}
 \email{ha.son@rmit.edu.vn}
+
 \author{Duy Nguyen}
 \orcid{0009-0000-6348-8830}
 \affiliation{\institution{University of Economics Ho Chi Minh City}\city{Ho Chi Minh City}\country{Vietnam}}
@@ -121,6 +156,11 @@ utility within the tested controllers, training sizes, and replay horizon.
 \phantomsection\label{body:end}
 \clearpage
 \input{sections/08-ethics}
+
+\begin{acks}
+We acknowledge Ho Chi Minh City University of Technology (HCMUT), VNU-HCM,
+for supporting this study.
+\end{acks}
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{references}

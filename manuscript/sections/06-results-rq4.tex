@@ -13,10 +13,10 @@ per cell.}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \rowcolors{2}{rowshade}{}
-\begin{tabular}{@{}lrrr@{}}
+\begin{tabularx}{\columnwidth}{@{}lRRR@{}}
 \toprule
 \hiderowcolors
-Population & Cells & Accepted pairs & Test coverage \\
+\tabhead \textbf{Population} & \textbf{Cells} & \textbf{Accepted pairs} & \textbf{Test coverage} \\
 \midrule
 \showrowcolors
 HotpotQA corpus & 7 & 0/42 & 0\% \\
@@ -24,9 +24,10 @@ HotpotQA corpus & 7 & 0/42 & 0\% \\
 MuSiQue & 3 & 0/18 & 0\% \\
 Wikipedia 25M & 1 & 0/6 & 0\% \\
 \midrule
-All & 14 & 0/84 & 0\% \\
+\hiderowcolors
+\textbf{All} & \textbf{14} & \textbf{0/84} & \textbf{0\%} \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 }
 

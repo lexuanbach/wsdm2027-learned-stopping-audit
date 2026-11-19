@@ -12,16 +12,15 @@ certificate.
 \begin{figure}[t]
   \centering
   \includegraphics[width=\columnwidth]{figures/fig_frontier_main.pdf}
-  \caption{Accuracy versus exact LLM calls in the primary HotpotQA and
-  Wikipedia 25M cells. Shading marks the 1-EM admissible band and the fixed-2
-  domination region.}
+  \caption{EM versus exact LLM calls in the primary HotpotQA and Wikipedia 25M
+  cells. Green: within 1 EM of full search. Red: worse than two fixed searches.}
   \label{fig:frontier}
   \Description{Two scatter plots of exact-match accuracy against exact LLM
   calls per question for fixed budgets, answer repetition, TASR, and learned
   stopping policies. Vertical bars show paired 95 percent intervals against
   the full-budget policy. A green band spans accuracies within 1 exact-match
   point of the full budget. In the right panel a red block covers costs at or
-  above the fixed-2 budget with accuracy at or below it.}
+  above the two-search budget with accuracy at or below it.}
 \end{figure}
 
 \paragraph{Full-budget savings overstate adaptive value.}
@@ -35,10 +34,11 @@ dominated in 15 of 26 cells, is frontier-only in 6, and improves $B^\star$ in
 5. Thus it fails to strictly improve the selected fixed budget in 21 of 26
 cells. Table~\ref{tab:decision-matrix} reports the complete matrix. Its first
 block contains 12 call-only cells, while the final block contains 14 fully
-instrumented cells. In the table, C denotes exact LLM calls, $\Delta$ compares
-a learned policy with the full budget, and Cat. gives its D, F, or I point
-category. These categories prevent a cheap but inaccurate point from being
-described as a tie. Cert. gives the SGR outcome. NA marks unavailable
+instrumented cells. In the table, calls are exact LLM calls, ``vs.\ full'' compares
+a learned policy with full search, and the verdict gives its point category:
+beaten (D), frontier (F), or better (I). These categories prevent a cheap but
+inaccurate point from being described as a tie. The risk certificate gives the
+SGR outcome. NA marks unavailable
 raw features and `refuse' zero certificate coverage.
 
 \begin{table*}[t]
@@ -46,16 +46,16 @@ raw features and `refuse' zero certificate coverage.
 core cells.}
 \label{tab:decision-matrix}
 \scriptsize
-\setlength{\tabcolsep}{2.6pt}
+\setlength{\tabcolsep}{3.2pt}
 \rowcolors{3}{}{rowshade}
-\begin{tabular}{l r r r r r l c r l c l}
+\begin{tabular}{@{}lrrrrrlVrlVl@{}}
 \toprule
 \hiderowcolors
-& & Full & $B^{\star}$ & Rep. & \multicolumn{3}{c}{FBG-only} &
-\multicolumn{3}{c}{Guarded FBG} & \\
+\tabhead & & Full search & Best fixed budget & Repetition & \multicolumn{3}{c}{\textbf{FBG-only}} &
+\multicolumn{3}{c}{\textbf{Guarded FBG}} & Risk \\
 \cmidrule(lr){6-8}\cmidrule(lr){9-11}
-Cell & $n$ & EM & EM/C\,($B^{\star}$) & EM/C & EM/C & $\Delta$\,[CI] & Cat. &
-EM/C & $\Delta$\,[CI] & Cat. & Cert. \\
+\tabhead Cell & $n$ & EM & EM/calls (searches) & EM/calls & EM/calls & vs.\ full [CI] & Verdict &
+EM/calls & vs.\ full [CI] & Verdict & certificate \\
 \midrule
 \showrowcolors
 \input{tables/decision_matrix_rows}
@@ -76,20 +76,20 @@ The oracle separates available headroom from signal identification. We use a
 nondeployable hindsight rule that reads every
 prefix grade, stops at the first correct prefix, and charges the full budget
 when no prefix is correct. Table~\ref{tab:oracle-ceiling} reports this ceiling
-for the 14 fully instrumented core cells, with cell labels from
-Table~\ref{tab:decision-matrix}.
+for the 14 fully instrumented core cells.
 
 \begin{table}[t]
 \caption{Hindsight-oracle ceiling for fourteen fully instrumented cells. Never-correct
 questions incur the full budget.}
 \label{tab:oracle-ceiling}
-\scriptsize
-\setlength{\tabcolsep}{3.1pt}
-\rowcolors{2}{rowshade}{}
-\begin{tabular}{@{}lrrrrr@{}}
+\footnotesize
+\setlength{\tabcolsep}{4.6pt}
+\rowcolors{3}{rowshade}{}
+\begin{tabular}{@{}lrr>{\color{verdI}}rrr@{}}
 \toprule
 \hiderowcolors
-Cell & Full EM & Oracle EM & Gain & Searches & Calls \\
+\tabhead & \textbf{Full search} & \multicolumn{4}{c}{\textbf{Hindsight oracle}} \\
+\tabhead \textbf{Run} & \textbf{EM} & \textbf{EM} & \textbf{Gain} & \textbf{Searches} & \textbf{Calls} \\
 \midrule
 \showrowcolors
 \input{tables/oracle_frontier_rows}
@@ -107,22 +107,23 @@ identification. It remains a diagnostic upper bound rather than a deployable
 policy.
 
 We next compare the signal families at point and matched cost. In
-Table~\ref{tab:whowins}, Scope gives point and cost cell counts, $\Delta$ range
-gives the cellwise extremes against the equal-call hull, and Cell $+/-$ counts
-marginally resolved positive and negative intervals. Bonf. and Max-t count
-corrected positives, and NA marks unretained vectors.
+Table~\ref{tab:whowins}, Cells gives point and cost cell counts, verdict counts
+list beaten/frontier/better cells, the gap range gives the cellwise extremes against the equal-call hull, and cell wins and
+losses count marginally resolved intervals. Bonferroni and max-t count
+corrected wins, and NA marks unretained vectors.
 
 \begin{table}[t]
 \caption{Cross-signal frontier and matched-cost summary over the principal
 18-cell family.}
 \label{tab:whowins}
-\scriptsize
-\setlength{\tabcolsep}{2.2pt}
+\footnotesize
+\setlength{\tabcolsep}{1.9pt}
 \rowcolors{3}{rowshade}{}
-\begin{tabular}{@{}lrrrrrr@{}}
+\begin{tabular}{@{}lrcrccc@{}}
 \toprule
 \hiderowcolors
-Signal & Scope & D/F/I & $\Delta$ range & Cell $+/-$ & Bonf. & Max-t \\
+\tabhead & & \textbf{Verdict} & \textbf{Gap range} & \textbf{Wins/} & \multicolumn{2}{c}{\textbf{Corrected wins}} \\
+\tabhead \textbf{Signal} & \textbf{Cells} & \textbf{counts} & \textbf{(EM)} & \textbf{losses} & \textbf{Bonferroni} & \textbf{max-t} \\
 \midrule
 \showrowcolors
 \input{tables/signal_summary_rows}
@@ -199,10 +200,10 @@ frozen outputs and never select a policy.}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \rowcolors{2}{rowshade}{}
-\begin{tabular}{@{}p{0.31\columnwidth}p{0.17\columnwidth}p{0.43\columnwidth}@{}}
+\begin{tabular}{@{}L{0.29\columnwidth}L{0.135\columnwidth}L{0.525\columnwidth}@{}}
 \toprule
 \hiderowcolors
-Diagnostic & Scope & Measured result \\
+\tabhead \textbf{Diagnostic} & \textbf{Scope} & \textbf{Measured result} \\
 \midrule
 \showrowcolors
 FBG risk ordering & 18 cells & Better than random in 7 cells \\
@@ -242,13 +243,15 @@ fit-and-selection instability.
 
 \begin{figure}[t]
   \centering
-  \includegraphics[width=0.88\columnwidth]{figures/fig_nested.pdf}
-  \caption{Nested refit and reselection across 400 training-chain resamples per
-  fully instrumented run.}
+  \includegraphics[width=\columnwidth]{figures/fig_nested.pdf}
+  \caption{Nested refit and reselection over 400 training resamples per run.
+  Columns 7, 11, and 19 rerun HotpotQA sample A. Beaten: dominated by a
+  reselected simple policy. Wins: beats the reselected fixed budget.}
   \label{fig:nested}
-  \Description{Grouped bars show the shares of bootstrap replications that
-  retain the logged threshold, are dominated by a reselected simple policy,
-  or beat the reselected fixed budget.}
+  \Description{Heatmap with four rows and fourteen run columns grouped by
+  dataset. Cells give the percentage of resamples that keep the logged
+  threshold, in which the guard or FBG-only is dominated by a reselected simple
+  policy, and in which the guard beats the reselected fixed budget.}
 \end{figure}
 
 Figure~\ref{fig:nested} makes the selection instability operational. The logged
