@@ -93,7 +93,7 @@ SHORT = {"corpus_s7": "A s7", "corpus_s11": "A s11", "corpus_s19": "A s19",
 CODES = {"fixed_0": "F0", "fixed_1": "F1", "fixed_2": "F2", "fixed_3": "F3",
          "fixed_4": "F4", "answer_repeat": "Rep", "tasr": "TASR",
          "semantic_guard": "NLI", "stop_classifier": "Clf",
-         "sufficiency_gate": "Suff", "stoprag": "StopRAG",
+         "sufficiency_gate": "Err", "stoprag": "StopRAG",
          "halt_nli": "HALT$_\\mathrm{nli}$", "halt_relevance": "HALT$_\\mathrm{rel}$",
          "value_only": "V", "guarded_value": "G"}
 
@@ -732,7 +732,7 @@ def write_tables(out):
     for c in cells:
         pp = c["pooled_pareto"]
         ndl = ", ".join(CODES.get(k, k) for k in pp["learned_nondominated"]) or "NA"
-        dg = ", ".join(CODES.get(k, k) for k in pp["dominators"]["guarded_value"]) or "NA"
+        dg = ", ".join(CODES.get(k, k) for k in pp["dominators"]["guarded_value"]) or "none"
         mg = pp["margin_sensitivity"]["guarded_value"]
         marks = "".join("\\checkmark" if mg["pass_at_margin"][str(m)] else "$\\times$"
                         for m in [1.0, 2.0, 3.0])
