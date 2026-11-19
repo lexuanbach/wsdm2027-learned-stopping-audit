@@ -22,6 +22,7 @@ from __future__ import annotations
 import json
 import os
 import pathlib
+from display_numbers import percent
 import shutil
 import subprocess
 
@@ -123,6 +124,12 @@ def conf_path(tag):
     return MEAS / CONF_FILES.get(tag, f"corpus_confirmation_{tag}.json")
 
 
+def displayed_contrast(meta, key, tag):
+    if key == "guarded_minus_full":
+        return json.loads(conf_path(tag).read_text())["predeclared_primary"]
+    return meta["hierarchical_variance"]["contrasts"][key]["per_run"][tag]
+
+
 def fig_samples(meta):
     hv = meta["hierarchical_variance"]
     contrasts = [("guarded_minus_full", tx(r"vs.\ full search")),
@@ -138,7 +145,7 @@ def fig_samples(meta):
         c = hv["contrasts"][key]
         ys, labels = [], []
         for i, tag in enumerate(runs):
-            pr = c["per_run"][tag]
+            pr = displayed_contrast(meta, key, tag)
             lo, hi = pr["ci95"]
             ax.errorbar(pr["mean_em_points"], i, xerr=[[pr["mean_em_points"] - lo], [hi - pr["mean_em_points"]]],
                         fmt="o", color=NAVY if tag.startswith("corpus_guarded_qwen3b_data") or tag.endswith("qwen3b") and "seed" not in tag and "data" not in tag else MUTE,
@@ -190,7 +197,7 @@ def fig_samples_main(meta):
         labels = []
         ax.axhspan(nA - 0.5, len(runs) - 0.5, color="#EEF2F6", lw=0, zorder=0)
         for i, tag in enumerate(runs):
-            pr = c["per_run"][tag]
+            pr = displayed_contrast(meta, key, tag)
             lo, hi = pr["ci95"]
             m = pr["mean_em_points"]
             indep = tag.startswith("corpus_guarded_qwen3b_data")
@@ -218,7 +225,7 @@ def fig_samples_main(meta):
             ax.axvline(-3, color=RUST, lw=0.7, ls=(0, (3, 1.5)), zorder=2)
             ax.text(-3.25, -0.95, r"$-3$ margin", color=RUST, fontsize=5.8,
                     ha="right", va="center")
-        xs = [v for t in runs for v in c["per_run"][t]["ci95"]] + [plo, phi, 0]
+        xs = [v for t in runs for v in displayed_contrast(meta, key, t)["ci95"]] + [plo, phi, 0]
         if key == "guarded_minus_full":
             xs.append(-3)
         pad = 0.06 * (max(xs) - min(xs))
@@ -242,7 +249,6 @@ def fig_nested(meta):
     columns the 14 fully instrumented runs, cells the percentage of 400
     training-chain resamples (values read from nested_refit_select)."""
     import numpy as np
-    from decimal import Decimal, ROUND_HALF_UP
     from matplotlib.colors import LinearSegmentedColormap
     ns = meta["nested_refit_select"]
     tags = [t for t in RUN_LABELS if t in ns]
@@ -258,8 +264,7 @@ def fig_nested(meta):
     for r in range(data.shape[0]):
         for c in range(data.shape[1]):
             v = data[r, c]
-            pct = (Decimal(str(ns[tags[c]][rows[r][1]])) * 100).quantize(
-                Decimal("1"), rounding=ROUND_HALF_UP)   # same rounding as text
+            pct = percent(ns[tags[c]][rows[r][1]])
             ax.text(c, r, f"{pct}", ha="center", va="center", fontsize=5.9,
                     color="white" if v >= 62 else INK)
     short = {"A s7": "7", "A s11": "11", "A s19": "19", "Wiki": "25M"}

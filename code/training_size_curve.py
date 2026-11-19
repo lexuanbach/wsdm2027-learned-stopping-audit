@@ -76,16 +76,17 @@ def run_cell(cell, sizes, seeds):
     return out
 
 
-def emit_rows(result):
+def emit_rows(result, destination=None):
     """LaTeX rows for the supplement's training-size table."""
     tex = (pathlib.Path(__file__).resolve().parents[1] / "outputs" /
            "tables" / "training_size_rows.tex")
-    tex.parent.mkdir(parents=True, exist_ok=True)
+    if destination is not None:
+        tex = pathlib.Path(destination)
     lines = []
     for n in result["sizes"]:
         e = result["pooled"][str(n)]
         lines.append(f"{n} & {e['n_draws_total']} & "
-                     f"{100 * e['dominated_rate']:.1f}\\% & "
+                     f"{100 * e['dominated_rate']:.2f}\\% & "
                      f"{e['mean_em_over_cells']:.2f} & "
                      f"{e['mean_calls_over_cells']:.2f} \\\\")
     tex.write_text("\n".join(lines) + "\n")

@@ -376,8 +376,8 @@ def main():
 def write_table(result):
     TABLES.mkdir(exist_ok=True)
     pretty = {"early_correct_rate": "early correctness",
-              "repeat_precision": "scalar-signal precision",
-              "repeat_signal_auc": "scalar-signal AUROC",
+              "repeat_precision": "repetition precision",
+              "repeat_signal_auc": "repeat-signal AUROC",
               "saturation_gap_em": "saturation gap (EM)",
               "fbg_positive_rate": "FBG-positive rate",
               "oof_spearman": "cross-fitted $\\rho$",

@@ -73,6 +73,7 @@ docker run --rm learned-stopping
 
 ```sh
 python code/make_all.py --check   # verify results/ against SHA256SUMS
+python code/render_audit_outputs.py --output outputs  # render archived summaries without refitting
 python -m pytest -q               # unit and data-consistency tests (seconds)
 ```
 
@@ -304,3 +305,7 @@ No model weights, credentials, or full datasets are included.
 
 Xuan-Bach Le (corresponding author). Please open an issue in this repository
 for questions about the code or data.
+
+## Display consistency update
+
+The stored-summary renderer and figure generators use the same rounding and interval sources as the revised camera-ready. Decision-matrix EM, calls and contrasts use two decimal places with half-up rounding. Full-search forest-plot intervals come from each frozen endpoint record; pooled and other contrasts retain their recorded clustered bootstrap. The experiment outputs are unchanged. The online supplement is the identified revised version; no main manuscript or LaTeX source is distributed here.

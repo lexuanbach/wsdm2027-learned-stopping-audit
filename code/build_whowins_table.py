@@ -37,7 +37,7 @@ ROWS = [
     ("FBG + repeat guard", "cells_guarded_nondominated", "n_fresh_cells",
      ["guarded_value", "guarded"], "guarded_value"),
     ("FBG + NLI guard", None, None, ["semantic_guard"], None),
-    ("Stop classifier", "cells_stop_classifier_nondominated", "n_fresh_cells",
+    ("Future-improvement clf.", "cells_stop_classifier_nondominated", "n_fresh_cells",
      ["stop_classifier"], "stop_classifier"),
     ("Full TASR", "cells_tasr_nondominated", "cells_with_tasr", ["tasr"], "tasr"),
     ("Stop-RAG", "cells_stoprag_nondominated", "cells_stoprag_present",
@@ -90,6 +90,7 @@ def main() -> None:
         assert total == s["n_fresh_cells"], (b, total)
     out = MANU / "tables" / "whowins_rows.tex"
     out.write_text("\n".join(lines) + "\n")
+    (MANU / "tables" / "whowins_legacy_rows.tex").write_text("\n".join(lines) + "\n")
     print(f"wrote {out} ({len([l for l in lines if l != chr(92) * 2])} rows)")
 
 

@@ -89,9 +89,9 @@ def main():
         # (cell identity lives in the table caption; a \multicolumn header
         # here breaks under acmart v2.20's tabular patches)
         for name, em, s in rb:
-            lines.append(f"\\;{name} & {em:.1f} & {s:.2f} & \\\\")
-        lines.append(f"\\;ReAct (full budget) & {ref:.1f} & 4.00 & \\\\")
-        lines.append(f"\\;\\textbf{{VoI-Search}} & \\textbf{{{vem:.1f}}} & "
+            lines.append(f"\\;{name} & {em:.1f} & {s:.2f} & {round(100*(1-s/4.0))}\\% \\\\")
+        lines.append(f"\\;ReAct (full budget) & {ref:.1f} & 4.00 & 0\\% \\\\")
+        lines.append(f"\\;\\textbf{{FBG-only}} & \\textbf{{{vem:.1f}}} & "
                      f"\\textbf{{{vs:.2f}}} & "
                      f"\\textbf{{{round(100*(1-vs/4.0))}\\%}} \\\\")
         lines.append("\\addlinespace")

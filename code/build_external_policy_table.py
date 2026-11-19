@@ -13,7 +13,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 SRC = ROOT / "results" / "round10" / "external_cell_extnews_guarded_qwen3b.json"
 OUT = ROOT / "outputs" / "tables" / "external_policy_rows.tex"
 POLICIES = [("FBG-only", "value_only"), ("Guarded FBG", "guarded_value"),
-            ("Stop classifier", "stop_classifier"),
+            ("Future-improvement clf.", "stop_classifier"),
             ("Error-head gate", "sufficiency_gate")]
 
 

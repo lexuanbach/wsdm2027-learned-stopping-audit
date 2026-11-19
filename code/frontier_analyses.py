@@ -41,6 +41,7 @@ import pathlib
 import pickle
 
 import numpy as np
+from display_numbers import display, percent
 
 import run_experiment as rx
 from voi_controller import guarded_stop_index, stop_index
@@ -674,22 +675,18 @@ def write_tables(out):
     rows = []
     def ci(c, pol):
         lo, hi = c[f"{pol}_ci95_vs_full"]
-        return f"{c[f'{pol}_delta_vs_full']:+.1f}\\,[{lo:.1f},{hi:.1f}]"
-    previous_setting = None
+        return f"{display(c[f'{pol}_delta_vs_full'], signed=True)}\\,[{display(lo)},{display(hi)}]"
     for c in out["decision_matrix"]["cells"]:
-        # rule between the call-only cells and the fully instrumented cells
-        if previous_setting is not None and (c["setting"] == "fresh") != (previous_setting == "fresh"):
-            rows.append("\\midrule")
-        previous_setting = c["setting"]
+        label = c['label'].replace('q-sample', 'sample').replace('Wikipedia 25M hybrid', 'Wikipedia 25M')
         rows.append(
-            f"{c['label']} & {c['n']} & {c['full_em']:.1f} & "
-            f"{c['bstar_em']:.1f}/{c['bstar_calls']:.1f}\\,({c['bstar']}) & "
-            f"{c['repeat_em']:.1f}/{c['repeat_calls']:.2f} & "
-            f"{c['value_em']:.1f}/{c['value_calls']:.2f} & {ci(c, 'value')} & "
+            f"{label} & {c['n']} & {display(c['full_em'])} & "
+            f"{display(c['bstar_em'])}/{display(c['bstar_calls'])}\\,({c['bstar']}) & "
+            f"{display(c['repeat_em'])}/{display(c['repeat_calls'])} & "
+            f"{display(c['value_em'])}/{display(c['value_calls'])} & {ci(c, 'value')} & "
             f"{display_verdict[c['value_verdict']]} & "
-            f"{c['guarded_em']:.1f}/{c['guarded_calls']:.2f} & {ci(c, 'guarded')} & "
+            f"{display(c['guarded_em'])}/{display(c['guarded_calls'])} & {ci(c, 'guarded')} & "
             f"{display_verdict[c['guarded_verdict']]} & "
-            f"{'NA' if c['certificate'] == 'n/a' else c['certificate']} \\\\")
+            f"{'NA' if c['certificate'] == 'n/a' else c['certificate']} " + r"\\")
     (TABLES / "decision_matrix_rows.tex").write_text("\n".join(rows) + "\n")
 
     rows = []
@@ -701,16 +698,20 @@ def write_tables(out):
               "w2_d1": "2Wiki d1", "w2_d2": "2Wiki d2", "w2_d3": "2Wiki d3",
               "mq_d1": "MuSiQue d1", "mq_d2": "MuSiQue d2", "mq_d3": "MuSiQue d3",
               "wiki25m": "Wikipedia 25M"}
-    for tag, res in out["nested_refit_select"].items():
+    for tag in sorted([t for t, *_ in FRESH if t in out["nested_refit_select"]],
+                      key=lambda t: (0 if t.startswith("corpus_guarded") else
+                                     1 if t.startswith("wiki25m") else
+                                     2 if t.startswith("corpus2wiki") else 3)):
+        res = out["nested_refit_select"][tag]
         g = res["guarded_minus_full_em"]
         rows.append(
-            f"{pretty[short[tag]]} & {res['lambda_logged_frequency']*100:.0f}\\% & "
+            f"{pretty[short[tag]]} & {percent(res['lambda_logged_frequency'])}\\% & "
             f"{g['mean']:+.2f}\\,[{g['p2.5']:.2f},{g['p97.5']:.2f}] & "
             f"{res['guarded_calls']['mean']:.2f} & "
-            f"{res['p_guarded_dominated_by_simple']*100:.0f}\\% & "
-            f"{res['p_value_dominated_by_simple']*100:.0f}\\% & "
-            f"{res['p_guarded_strictly_beats_bstar']*100:.0f}\\%"
-            + "".join(f" & {res.get('guarded_dominator_frequency', {}).get(k, 0)*100:.0f}\\%"
+            f"{percent(res['p_guarded_dominated_by_simple'])}\\% & "
+            f"{percent(res['p_value_dominated_by_simple'])}\\% & "
+            f"{percent(res['p_guarded_strictly_beats_bstar'])}\\%"
+            + "".join(f" & {percent(res.get('guarded_dominator_frequency', {}).get(k, 0))}\\%"
                       for k in ["fixed-2", "fixed-3", "repetition"])
             + " \\\\")
     (TABLES / "nested_uncertainty_rows.tex").write_text("\n".join(rows) + "\n")
@@ -728,7 +729,7 @@ def write_tables(out):
              ("value_minus_fixed2", "V $-$ fixed-2")]
     for key, label in names:
         c = hv[key]
-        cells = [f"{c['sample_means_em_points'][lab]:+.2f}" for lab in sample_labels]
+        cells = [display(c['sample_means_em_points'][lab], signed=True) for lab in sample_labels]
         between = c.get("between_sample", {})
         spread = (f"{between['observed_sd_of_sample_means_em']:.2f}/"
                   f"{between['expected_sd_under_question_sampling_em']:.2f}"

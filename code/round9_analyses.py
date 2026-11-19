@@ -41,6 +41,7 @@ import pathlib
 import pickle
 
 import numpy as np
+from display_numbers import display
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.linear_model import LogisticRegression
 
@@ -87,7 +88,7 @@ SHORT = {"corpus_s7": "A s7", "corpus_s11": "A s11", "corpus_s19": "A s19",
          "corpus_qB": "B", "corpus_qC": "C", "corpus_qD": "D", "corpus_qE": "E",
          "w2_d1": "2Wiki d1", "w2_d2": "2Wiki d2", "w2_d3": "2Wiki d3",
          "mq_d1": "MuSiQue d1", "mq_d2": "MuSiQue d2", "mq_d3": "MuSiQue d3",
-         "wiki25m": "Wiki 25M",
+         "wiki25m": "Wikipedia 25M",
          "llama_qB": "Llama B", "llama_qC": "Llama C", "llama_qD": "Llama D",
          "haiku_qB": "Haiku B", "haiku_qC": "Haiku C", "haiku_qD": "Haiku D"}
 CODES = {"fixed_0": "F0", "fixed_1": "F1", "fixed_2": "F2", "fixed_3": "F3",
@@ -757,13 +758,13 @@ def write_tables(out):
         for key, _lab in names:
             g = tv[key]["guarded"]
             v = tv[key]["value"]
-            pg.append(f"{g['em']:.1f}/{g['calls']:.2f}\\,{DISPLAY_VERDICT[g['verdict']]}")
-            pv.append(f"{v['em']:.1f}/{v['calls']:.2f}\\,{DISPLAY_VERDICT[v['verdict']]}")
+            pg.append(f"{display(g['em'], places=1)}/{display(g['calls'])}\\,{DISPLAY_VERDICT[g['verdict']]}")
+            pv.append(f"{display(v['em'], places=1)}/{display(v['calls'])}\\,{DISPLAY_VERDICT[v['verdict']]}")
         clf = tv["stopclf"]["classifier"]
         suf = tv["suff"]["gate"]
         rows_g.append(f"{SHORT.get(c['short'], c['short'])} & " + " & ".join(pg)
-                      + f" & {clf['em']:.1f}/{clf['calls']:.2f}\\,{DISPLAY_VERDICT[clf['verdict']]}"
-                      + f" & {suf['em']:.1f}/{suf['calls']:.2f}\\,{DISPLAY_VERDICT[suf['verdict']]} \\\\")
+                      + f" & {display(clf['em'], places=1)}/{display(clf['calls'])}\\,{DISPLAY_VERDICT[clf['verdict']]}"
+                      + f" & {display(suf['em'], places=1)}/{display(suf['calls'])}\\,{DISPLAY_VERDICT[suf['verdict']]} \\\\")
         rows_v.append(f"{SHORT.get(c['short'], c['short'])} & " + " & ".join(pv) + " \\\\")
     (TABLES / "round9_target_rows.tex").write_text("\n".join(rows_g) + "\n")
     (TABLES / "round9_target_value_rows.tex").write_text("\n".join(rows_v) + "\n")
@@ -788,8 +789,8 @@ def write_tables(out):
         for key in ["full", "no_step_evidence_stability", "answer_content_only", "no_stability"]:
             g = a[key]["guarded"]
             v = a[key]["value"]
-            parts.append(f"{g['em']:.1f}/{g['calls']:.2f}\\,{DISPLAY_VERDICT[g['verdict']]} & "
-                         f"{v['em']:.1f}/{v['calls']:.2f}\\,{DISPLAY_VERDICT[v['verdict']]}")
+            parts.append(f"{display(g['em'], places=1)}/{display(g['calls'])}\\,{DISPLAY_VERDICT[g['verdict']]} & "
+                         f"{display(v['em'], places=1)}/{display(v['calls'])}\\,{DISPLAY_VERDICT[v['verdict']]}")
         rows.append(f"{SHORT.get(c['short'], c['short'])} & " + " & ".join(parts) + " \\\\")
     (TABLES / "round9_ablation_rows.tex").write_text("\n".join(rows) + "\n")
 
@@ -820,10 +821,10 @@ def write_tables(out):
             label = simple_doms or ("NA" if not extra else "")
             if extra:
                 label += f"{', ' if simple_doms else ''}+{extra} learned"
-            return f"{pts[key]['em']:.1f}/{pts[key]['calls']:.2f} & {label}"
+            return f"{display(pts[key]['em'], places=1)}/{display(pts[key]['calls'])} & {label}"
         rows.append(f"{SHORT.get(c['short'], c['short'])} & "
-                    f"{pts['fixed_2']['em']:.1f}/{pts['fixed_2']['calls']:.2f} & "
-                    f"{pts['guarded_value']['em']:.1f}/{pts['guarded_value']['calls']:.2f} & "
+                    f"{display(pts['fixed_2']['em'], places=1)}/{display(pts['fixed_2']['calls'])} & "
+                    f"{display(pts['guarded_value']['em'], places=1)}/{display(pts['guarded_value']['calls'])} & "
                     + cell_str("halt_nli") + " & " + cell_str("halt_relevance") + " \\\\")
     if rows:
         (TABLES / "round9_halt_rows.tex").write_text("\n".join(rows) + "\n")
@@ -833,8 +834,8 @@ def write_tables(out):
     t = out["epsilon_tallies"]
     for eps in EPSILONS:
         r = t[str(eps)]
-        rows.append(f"{eps:g} & {r['value_only']['W']}/{r['value_only']['T']}/{r['value_only']['L']} & "
-                    f"{r['guarded_value']['W']}/{r['guarded_value']['T']}/{r['guarded_value']['L']} \\\\")
+        rows.append(f"{eps:g} & {r['value_only']['L']}/{r['value_only']['T']}/{r['value_only']['W']} & "
+                    f"{r['guarded_value']['L']}/{r['guarded_value']['T']}/{r['guarded_value']['W']} \\\\")
     (TABLES / "round9_epsilon_rows.tex").write_text("\n".join(rows) + "\n")
 
 
@@ -852,7 +853,7 @@ def write_crossed_table(cells):
         e0 = c["epsilon_dominance"]["0.0"]["guarded_value"]["verdict"]
         rows.append(f"{SHORT.get(c['short'], c['short'])} & {pp['points']['fixed_%d' % c['bstar']]['em']:.1f}"
                     f"/{pp['points']['fixed_%d' % c['bstar']]['calls']:.1f}\\,({c['bstar']}) & "
-                    f"{v['em']:.1f}/{v['calls']:.2f} & {g['em']:.1f}/{g['calls']:.2f} & "
+                    f"{display(v['em'], places=1)}/{display(v['calls'])} & {display(g['em'], places=1)}/{display(g['calls'])} & "
                     f"{DISPLAY_VERDICT[e0]} & {dg} & "
                     f"{mg['lower95_one_sided']:+.2f} {marks} & "
                     f"{eq['mean_em_points']:+.2f}\\,[{eq['ci95'][0]:.2f},{eq['ci95'][1]:.2f}] \\\\")

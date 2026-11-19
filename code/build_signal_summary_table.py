@@ -19,7 +19,7 @@ ROUND10 = ART / "results" / "round10"
 ROWS = [
     ("FBG-only", "value_only", "value_only"),
     ("Guarded FBG", "guarded_value", "guarded_value"),
-    ("Stop classifier", "stop_classifier", "stop_classifier"),
+    ("Future-improvement clf.", "stop_classifier", "stop_classifier"),
     ("Error-head gate", "sufficiency_gate", "sufficiency_gate"),
     ("Gold-support sufficiency", "gold_support_sufficiency_clf_same9", None),
     ("Full TASR", "tasr", "tasr"),
