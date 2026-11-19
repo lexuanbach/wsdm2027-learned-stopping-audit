@@ -93,12 +93,14 @@ byte-identical to the ones typeset in the camera-ready paper and supplement.
 With LaTeX installed, the regenerated figures are also pixel-identical to the
 paper's.
 
-We verified this from a fresh clone in a clean Python 3.12 environment. The
-nested bootstrap (`frontier_analyses.json`) and the round-9 analysis
-(`round9_analyses.json`) come back byte-identical. The derived files listed in
-`tests/recomputed.txt` are rewritten with different JSON formatting. Their
-values are unchanged, with three exceptions that do not enter any table or
-figure: CPU timing fields (`deterministic_controls.json`,
+We verified this from a fresh clone in a clean Python 3.12 environment on
+macOS, and the CI workflow repeats the table check on Linux. The nested
+bootstrap (`frontier_analyses.json`) comes back byte-identical. The round-9
+analysis (`round9_analyses.json`) is byte-identical on macOS and differs only
+in floating-point detail on Linux, with every table built from it unchanged.
+The other derived files listed in `tests/recomputed.txt` are rewritten with
+different JSON formatting. Their values are unchanged, with three exceptions
+that do not enter any table or figure: CPU timing fields (`deterministic_controls.json`,
 `training_size_curve.json`), small numerical differences in two unreported
 diagnostic blocks (the training-frontier diagnostics and the
 Command-R to Llama transfer row of `frozen_protocol.json`, and the
